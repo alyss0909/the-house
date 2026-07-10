@@ -165,6 +165,17 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 
 ---
 
+### system-already-beats-external-tools
+
+- **Description**: Three same-day tool evaluations (content repurposing skill pack, a "build a second brain with Claude" article, an external agentic dashboard) all land on the same verdict: myPKA already does it, better-fitted to her actual workflow. Worth watching as a standing evaluation heuristic if it recurs.
+- **Recurrence count**: 3
+- **First seen**: 2026-06-29
+- **Last seen**: 2026-06-29
+- **Signal status**: incubating
+- **Garden note**: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools.md]]
+
+---
+
 ## Graduated Signals
 
 | Slug | Graduated Into | Date |
@@ -184,6 +195,7 @@ _None yet._
 
 | Date | Range | Method | New Signals | Notes |
 |---|---|---|---|---|
+| 2026-07-10 | 2026-06-29 (3 entries, ad hoc — not a scheduled sweep) | Manual read (Larry) | 1 new signal | `system-already-beats-external-tools` — surfaced by the Bring It Home stranger test, refiled for real after independent verification |
 | 2026-06-29 | WS-004 inbox processing | Manual read (Larry) | 1 new signal | `boh-as-permission-not-product` recurrence +1 from June 27 capture |
 | 2026-06-27 | 2026-03-01 to 2026-06-27 | Manual read (Larry) | 12 | First real sweep — index was empty before this run |
 
