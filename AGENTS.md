@@ -71,7 +71,7 @@ See [[Studio/Team/agent-index]] for the full routing table.
 | Penn | [[Studio/Team/Penn - Journal Writer/AGENTS]] | Captures daily inputs into the Journal and PKM |
 | Mack | [[Studio/Team/Mack - Automation Specialist/AGENTS]] | API integrations, MCP servers, webhooks, OAuth, automations. Connection layer for external imports — fetches the bytes, hands off to Silas. Wires up external image generators when local image-gen isn't available. |
 | Silas | [[Studio/Team/Silas - Database Architect/AGENTS]] | myPKA structure, frontmatter integrity, SQLite conversion. Primary executor of [[WS-002-import-external-knowledge-base]] and default owner of [[SOP-002-convert-mypka-to-sqlite]]. |
-| Hermes | [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]] | Alyssa Clone Writer. Writes as Alyssa — Simmers, Soft Sundays, sales emails/pages, subject lines + preview text, IG captions, carousel copy, Pinterest pins, opt-in pages, teaching scripts, and voice audits. Loads the `Hermes/` brain per its README (full-original vault deep-loads). Routes strategy decisions back to Larry. Never loads Hermes files. |
+| Hermes | [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]] | Alyssa Clone Writer. Writes as Alyssa — Simmers, Soft Sundays, sales emails/pages, subject lines + preview text, IG captions, carousel copy, Pinterest pins, opt-in pages, teaching scripts, and voice audits. Loads the `Studio/Hermes/` brain per its README (full-original vault deep-loads). Routes strategy decisions back to Larry. Never loads Hermes files. |
 
 **SOPs are skills, not 1:1 ownership.** Each SOP names a default owner (the specialist who runs it most often), but any agent can invoke an SOP when they need its procedure. Think of SOPs the way Claude skills work — discrete, named, callable. Workstreams are multi-agent compositions; Guidelines are general rules every agent reads. See [[Studio/Team Knowledge/INDEX]].
 
@@ -102,7 +102,7 @@ If you find yourself writing the same fact in two places, stop. Pick one home fo
 
 Larry enforces this rule at session close as Librarian.
 
-**Source-boundary extension:** Source is what Alyssa made. Generated work is a map, derived interpretation, output, or task until it is promoted on purpose. Every agent follows [[GL-009-source-boundaries-and-promotion]] before creating or promoting knowledge, editing source-adjacent maps, or claiming a source gap. Run [[Hermes/MEAN-ALYSSA]] as the trust check when an action could fabricate provenance, clutter the wiki, ask Alyssa a question the team should answer, or turn generated nuance into source.
+**Source-boundary extension:** Source is what Alyssa made. Generated work is a map, derived interpretation, output, or task until it is promoted on purpose. Every agent follows [[GL-009-source-boundaries-and-promotion]] before creating or promoting knowledge, editing source-adjacent maps, or claiming a source gap. Run [[Studio/Hermes/MEAN-ALYSSA]] as the trust check when an action could fabricate provenance, clutter the wiki, ask Alyssa a question the team should answer, or turn generated nuance into source.
 
 **Versions Rule:** When the decision is taste, strategy, positioning, pricing nuance, or another Alyssa-call and the team cannot objectively prove one right answer, do not collapse it into one answer. Present the two best versions: Version A is safer and closer to known source; Version B is more nuanced, higher-upside, or needs Alyssa's taste. Alyssa chooses at that level. Do not ask her clerical questions the team can answer by reading source, searching past work, or running an existing SOP.
 
@@ -270,7 +270,7 @@ See [[Studio/Team/Larry - Orchestrator/AGENTS]] for the full Librarian and Sessi
 
 Larry runs a semantic sweep as part of every weekly, monthly, and quarterly review. This is automatic — no user instruction needed.
 
-**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates [[Studio/Signals/signals-index]] with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for WS-008 (pitch loop or task file), and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
+**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates [[Studio/Signals/signals-index]] with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for WS-008 (pitch loop or task file), and runs the voice loop check on Hermes' learning loop (`Studio/Hermes/learning/`) during the monthly sweep.
 
 **When it fires:**
 

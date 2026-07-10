@@ -45,9 +45,9 @@ Source URL: <https://alyssacoleman.ca/90>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/the-90-minute-reset-sales-page|The 90 Minute Reset Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: no single module owns a 1:1 reset session; draws on Phase 0-1 strategy content (see [[back-of-house]])
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
-- Funnel neighbors: → $111 30-min follow-up OTO (same offer, add-on; per [[Hermes/BUSINESS]] funnel chain)
+- Funnel neighbors: → $111 30-min follow-up OTO (same offer, add-on; per [[Studio/Hermes/BUSINESS]] funnel chain)
 
 

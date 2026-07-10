@@ -1,0 +1,362 @@
+<title>Inbox Command</title>
+<style>
+:root{
+  --frame:#eee6de; --card:#fcfaf5; --cardline:rgba(0,0,0,0.32);
+  --head:#1a1a1a; --body:#2d1a1b; --muted:#7a5c5e; --link:#8b4a2f;
+  --pink:#f39ec2; --pinksoft:#f9d4e3; --violet:#a186bc; --amber:#fecc86;
+  --green:#c1d17c; --cream:#ffeec6;
+  --replybg:#f9d4e3; --taskbg:#fef0d0;
+  --radius:10px;
+}
+:root[data-theme="dark"]{
+  --frame:#1e1a18; --card:#2a2422; --cardline:rgba(255,255,255,0.16);
+  --head:#f3ece4; --body:#e8dcd6; --muted:#b09490; --link:#e0a184;
+  --pink:#d98bb2; --pinksoft:#3e2a34; --violet:#b7a0d0; --amber:#e0b878;
+  --green:#aebf78; --cream:#4a4230;
+  --replybg:#3e2a34; --taskbg:#3a2f1e;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --frame:#1e1a18; --card:#2a2422; --cardline:rgba(255,255,255,0.16);
+    --head:#f3ece4; --body:#e8dcd6; --muted:#b09490; --link:#e0a184;
+    --pink:#d98bb2; --pinksoft:#3e2a34; --violet:#b7a0d0; --amber:#e0b878;
+    --green:#aebf78; --cream:#4a4230;
+    --replybg:#3e2a34; --taskbg:#3a2f1e;
+  }
+}
+*{box-sizing:border-box}
+body{background:var(--frame); color:var(--body); margin:0; padding:26px 16px 90px;
+  font-family:"Karla","Segoe UI",system-ui,sans-serif; font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px; margin:0 auto}
+h1,h2,h3{font-family:"AT King","Hoefler Text","Iowan Old Style",Georgia,serif; color:var(--head); letter-spacing:0; font-weight:600}
+.lede{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; margin-bottom:20px}
+h1{font-size:30px; margin:0 0 4px}
+.sub{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:0}
+
+.stats{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:22px}
+.stat{flex:1; min-width:132px; background:var(--card); border:1px solid var(--cardline); border-radius:var(--radius); padding:13px 16px}
+.stat .n{font-family:"AT King",Georgia,serif; font-size:30px; line-height:1; color:var(--head); font-variant-numeric:tabular-nums}
+.stat .l{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-top:6px}
+.stat.reply{border-top:3px solid var(--pink)} .stat.task{border-top:3px solid var(--amber)} .stat.away{border-top:3px solid var(--green)}
+
+.tabs{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px}
+.tab{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em;
+  background:var(--card); color:var(--body); border:1px solid var(--cardline); border-radius:999px; padding:7px 15px; cursor:pointer; transition:.15s}
+.tab:hover{background:var(--cream)}
+.tab[aria-selected="true"]{background:var(--pink); color:#1a1a1a; font-weight:700}
+.tab .b{background:rgba(0,0,0,.14); border-radius:999px; padding:0 7px; margin-left:6px; font-size:10.5px}
+
+.pane{display:none; flex-direction:column; gap:10px}
+.pane.on{display:flex}
+
+.card{background:var(--card); border:1px solid var(--cardline); border-radius:var(--radius); padding:13px 15px; border-left:4px solid var(--muted); transition:.2s}
+.card.reply{border-left-color:var(--pink)}
+.card.task{border-left-color:var(--amber)}
+.card .top{display:flex; align-items:baseline; gap:9px; flex-wrap:wrap}
+.card .who{font-weight:700; color:var(--head)}
+.card .when{margin-left:auto; font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); white-space:nowrap}
+.acct{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:9.5px; text-transform:uppercase; letter-spacing:.05em; padding:2px 8px; border-radius:999px; color:#3a2b2b; white-space:nowrap}
+.acct.personal{background:var(--green)} .acct.support{background:var(--amber)} .acct.alyssa{background:var(--pink)} .acct.wellness{background:var(--violet); color:#fff}
+:root[data-theme="dark"] .acct{color:#1a1512}
+.card .subj{margin:5px 0 4px; font-size:14px; color:var(--body)}
+.card .note{margin:0; font-size:13px; color:var(--muted)}
+.actions{display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap}
+.btn{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10px; text-transform:uppercase; letter-spacing:.05em; font-weight:700;
+  border:1px solid var(--cardline); border-radius:999px; padding:5px 12px; cursor:pointer; background:var(--pink); color:#1a1a1a; transition:.15s}
+.btn:hover{filter:brightness(1.05); transform:translateY(-1px)}
+.btn.ghost{background:var(--taskbg); color:#9a6a1e}
+:root[data-theme="dark"] .btn.ghost{color:var(--amber)}
+a.open{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--link); text-decoration:none; border-bottom:1px solid transparent; white-space:nowrap}
+a.open:hover{border-bottom-color:var(--link)}
+
+/* task done checkbox */
+.card.task .top{padding-left:2px}
+.done-wrap{display:flex; align-items:center; gap:8px; margin-top:10px}
+.tick{appearance:none; -webkit-appearance:none; width:22px; height:22px; border:2px solid var(--amber); border-radius:7px; background:var(--card); cursor:pointer; position:relative; flex:none; transition:.15s}
+.tick:hover{background:var(--cream)}
+.tick:checked{background:var(--green); border-color:var(--green)}
+.tick:checked::after{content:"✓"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#1a1a1a; font-size:14px; font-weight:800; animation:pop .25s ease}
+@keyframes pop{0%{transform:scale(.3)}60%{transform:scale(1.25)}100%{transform:scale(1)}}
+.done-lbl{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted)}
+.card.done{opacity:.5}
+.card.done .who{text-decoration:line-through}
+.card.done .done-lbl{color:var(--green)}
+
+.acctblock{background:var(--card); border:1px solid var(--cardline); border-radius:var(--radius); overflow:hidden}
+.acctblock > .h{display:flex; align-items:center; gap:10px; padding:12px 15px; flex-wrap:wrap; border-bottom:1px solid var(--cardline)}
+.acctblock h3{margin:0; font-size:16px}
+.acctblock .h .spacer{flex:1}
+.row{display:flex; align-items:center; gap:11px; padding:9px 15px; border-bottom:1px solid rgba(0,0,0,.06)}
+:root[data-theme="dark"] .row{border-bottom-color:rgba(255,255,255,.05)}
+.row:last-child{border-bottom:none}
+.row input[type=checkbox]{width:16px; height:16px; accent-color:var(--link); cursor:pointer; flex:none}
+.row .meta{min-width:0; flex:1}
+.row .rs{display:block; color:var(--body); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:13.5px}
+.row .rf{display:block; font-size:11px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.row.keep{opacity:.42; text-decoration:line-through}
+.selall{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:10px; text-transform:uppercase; letter-spacing:.04em; color:var(--link); background:none; border:none; cursor:pointer}
+
+.keepnote{background:var(--cream); border:1px solid var(--cardline); border-radius:var(--radius); padding:11px 15px; font-size:13px; color:var(--body)}
+.keepnote b{color:var(--head)}
+.how{margin-top:24px; background:var(--card); border:1px dashed var(--cardline); border-radius:var(--radius); padding:15px 17px; font-size:13.5px; color:var(--muted)}
+.how b{color:var(--head)}
+.how code{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; background:var(--frame); padding:1px 6px; border-radius:5px; font-size:12px; color:var(--body)}
+.bar{position:sticky; bottom:12px; margin-top:14px}
+.barin{background:var(--pink); color:#1a1a1a; border:1px solid var(--cardline); border-radius:999px; padding:10px 18px; font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:.04em; display:flex; gap:10px; align-items:center; justify-content:center; box-shadow:0 4px 18px rgba(0,0,0,.14)}
+.barin b{font-variant-numeric:tabular-nums}
+#toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(20px); background:var(--head); color:var(--frame); font-family:"Roboto Mono",ui-monospace,Consolas,monospace; font-size:11.5px; padding:10px 16px; border-radius:999px; opacity:0; pointer-events:none; transition:.25s; z-index:9; max-width:90vw; text-align:center}
+#toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
+#panel{display:none; margin-top:12px; background:var(--pinksoft); border:1px solid var(--cardline); border-radius:10px; padding:13px 16px; font-size:13.5px; color:var(--body); line-height:1.55}
+#panel.show{display:block}
+#panel .say{font-family:"Roboto Mono",ui-monospace,Consolas,monospace; background:var(--card); padding:2px 8px; border-radius:6px; font-weight:700; color:var(--link); font-size:12.5px}
+#panel .x{float:right; background:none; border:none; cursor:pointer; color:var(--muted); font-size:18px; line-height:1; margin-left:10px}
+:focus-visible{outline:2px solid var(--link); outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <div class="lede">
+    <div><h1>Inbox Command</h1><p class="sub">Friday July 10 · 4 inboxes · last 14 days</p></div>
+    <p class="sub" style="text-align:right">Nothing sends or archives<br>without your word</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat reply"><div class="n">3</div><div class="l">Need a reply</div></div>
+    <div class="stat task"><div class="n"><span id="doneN">0</span>/8</div><div class="l">Tasks done</div></div>
+    <div class="stat away"><div class="n">54</div><div class="l">Ready to put away</div></div>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-p="reply">Needs reply <span class="b">3</span></button>
+    <button class="tab" role="tab" aria-selected="false" data-p="task">Your tasks <span class="b">8</span></button>
+    <button class="tab" role="tab" aria-selected="false" data-p="away">Put away <span class="b">54</span></button>
+  </div>
+
+  <div class="pane on" id="pane-reply"></div>
+  <div class="pane" id="pane-task"></div>
+  <div class="pane" id="pane-away"></div>
+
+  <div class="how" id="howReply">
+    <b>Draft buttons:</b> click <b>Draft this</b> and I write the reply for you — it lands in that account's Gmail <b>Drafts</b> to read before it ever sends. <span id="modeNote"></span> <b>Open</b> jumps straight to that email (searches the right account so it survives Gmail's multi-account switch). Tasks: tick one off and it stays ticked when you come back.
+  </div>
+
+  <div id="panel"></div>
+  <div class="bar"><div class="barin" id="barText">Tap a button — I’ll show you what to tell me</div></div>
+</div>
+<div id="toast"></div>
+
+<script>
+const has = typeof sendPrompt === "function";
+const EM={personal:"accoleman100@gmail.com",support:"productiveentrepreneurteam@gmail.com",alyssa:"alyssa@alyssacoleman.ca",wellness:"alyssacolemanwellness@gmail.com"};
+const SEARCH=(email,q)=>`https://mail.google.com/mail/u/?authuser=${encodeURIComponent(email)}#search/${encodeURIComponent(q)}`;
+const INBOX=e=>`https://mail.google.com/mail/u/?authuser=${encodeURIComponent(e)}#inbox`;
+const acctName={personal:"personal",support:"support",alyssa:"alyssa@ca",wellness:"wellness"};
+
+const handled=[
+ ["Breannah Kanaly","support","you sent her the access URL"],
+ ["Jennifer Smith","support","you sent a password reset"],
+ ["Natalie Cantrell","alyssa","you replied at 3:20pm today"]
+];
+const replies=[
+ {who:"Dennis Dampil — bookkeeper",acct:"alyssa",when:"Jul 10 · waiting on you",q:"Dennis bank statements June",tag:"Draft",
+  subj:"Kind reminder: needs your June 2026 bank statements to close the books.",
+  note:"“Sending them by [day]” — pick a day and I’ll hold you to it (also in Tasks).",
+  cmd:"Draft a reply for me: tell Dennis the bookkeeper I'll send the June 2026 bank statements — leave a [DAY] placeholder for me to pick, short and professional."},
+ {who:"Julien Quintard — Routine AI",acct:"support",when:"Jul 5 · your call",q:"Julien Routine AI partnership",tag:"Decision",
+  subj:"Re: Partnership proposal for launch of Routine AI — sent demo videos, waiting on you.",
+  note:"Yes / no / soft-pass? Tell me the answer and I draft it.",
+  cmd:"I need to decide on Julien's Routine AI partnership proposal (support inbox). Give me a quick read on it and 3 draft replies: an interested-yes, a soft-pass, and a not-now."},
+ {who:"Bundles That Benefit",acct:"alyssa",when:"Jul 9 · 2nd follow-up",q:"Online Business Bundle 2026",tag:"Decision",
+  subj:"Re: Invitation: Online Business Bundle 2026 — chasing your answer. (Couldn’t auto-verify this thread — glance before you decide.)",
+  note:"In or out? One word = drafted accept or decline.",
+  cmd:"Draft two options for the Bundles That Benefit 'Online Business Bundle 2026' invite (alyssa@ inbox): a yes-I'm-in and a polite decline."}
+];
+
+const tasks=[
+ {id:"t-dennis",who:"Send June bank statements to Dennis",acct:"alyssa",when:"ASAP",q:"Dennis bank statements June",tag:"Money",
+  note:"Download June statements from the bank + email them. Pairs with Draft 3."},
+ {id:"t-ananya",who:"Approve Ananya into Back of House group",acct:"wellness",when:"Jul 7",q:"Ananya Totiger Back of House",tag:"New customer · $198",
+  note:"She already paid — $198 new MRR — and is waiting at the Facebook group door."},
+ {id:"t-notionsocial",who:"Notionsocial card failing — $144",acct:"alyssa",when:"Jul 10",q:"Notionsocial payment unsuccessful",tag:"Money",
+  note:"Stripe retried and failed again. Update the card or cancel the tool before it cuts off."},
+ {id:"t-boh",who:"Back of House — 2 failed customer payments",acct:"alyssa",when:"Jul 9 + 10",q:"Failed payment Back of House",tag:"Revenue",
+  note:"Two subscription payments failed. Check ThriveCart dunning — recoverable revenue."},
+ {id:"t-camila",who:"Close out Camila on Upwork",acct:"alyssa",when:"ended Jul 9",q:"Camila Upwork",tag:"Wrap-up",
+  note:"Her $460 is paid ✓. Left: reply to her message + leave feedback."},
+ {id:"t-security",who:"Google security alert — saved passwords",acct:"personal",when:"Jul 10",q:"Critical security alert passwords",tag:"Security",
+  note:"“Someone tried to view your saved passwords.” Google blocked it — 60-second activity check."},
+ {id:"t-horizon",who:"Horizon workflow — fixed ✓",acct:"support",when:"done Jul 10",q:"Daily Horizon Summary",tag:"Handled by Larry",
+  note:"Was failing on the Pages build; I committed the fix (drop Jekyll). Watch tomorrow’s 12pm run go green."},
+ {id:"t-addevent",who:"AddEvent plan limit approaching",acct:"support",when:"Jul 2",q:"AddEvent plan limit",tag:"Tool admin",
+  note:"Calendar/event limits near cap — upgrade or prune before invites stop."}
+];
+
+const ACCT_ID={personal:"gmail_pubble-mentum",support:"gmail_access-stilly",alyssa:"gmail_wende-elbert",wellness:"gmail_hangul-macaca"};
+const away={
+ personal:{label:"Personal · acc100",rows:[
+  ["Leadpages","What are you trying to launch?","19f4d2619252ec18"],["ThriveCart Team","Academy, Council & Roadmap","19f4d207a7292b09"],
+  ["Jami Monte CPA","I’ve been meaning to tell you","19f4ca402f39bd34"],["Danielle LaPorte","BREAK UPS AND BELIEF SYSTEMS","19f4c24f6aeb979f"],
+  ["Gilded","Are you richer than 75%","19f4c0305e477f54"],["Nextdoor","houses sit empty","19f4bb99954d781a"],
+  ["Google Play","Updates to Terms of Service","19f4ba22ddd17b02"],["AudioPen","What I built this week","19f4a8e1890b75d3"],
+  ["Wealthsimple","A recurring deposit was made","19f4a5c917ca5a9c"],["Lunch Money","Imported 2 transactions","19f49f8471ee35a1"],
+  ["Tom at myICOR","Meet INKLINE","19f497e7d06198d4"],["Snapchat","MARS sent you new messages","19f495e0b77ed0c2"],
+  ["Indigo","unputdownable books","19f48b7894b6e4f8"],["LinkedIn","High Ticket role at Lifted Life","19f4898f7d67a087"],
+  ["Langdon Hall","Afternoon Tea July 12","19f47ecde40614f9"],["Notion","Notion 3.6 HTML blocks","19f47cd44910ef1f"]]},
+ support:{label:"Support · team",rows:[
+  ["Instagram","recap digests","19f4bd031d616724"],["Riverside","fraction of Riverside","19f485551f13e877"],
+  ["Make","Meet Claude Fable 5","19f4758ad161748c"],["ChatGPT","Check your route","19f44a1ca89d0592"],
+  ["Senja","3 truths, 2 lies","19f376f9280f12c2"],["Kit","Your week with Kit","19f296c7641426f6"],
+  ["FeedSpot","Top 90 Female Entrepreneurs","19f225b7746b5300"],["AddCal","everything new in AddCal","19f11ab773efb998"],
+  ["Nord Account","login code","19f394b2e79d70ef"],["Google Calendar","Canceled event Review BOH","19f4c9274b74977f"],
+  ["Riverside","Great content shouldn’t be hard","19f2e954a8abd604"]]},
+ alyssa:{label:"alyssa@alyssacoleman.ca",rows:[
+  ["ThriveCart Team","Academy, Council & Roadmap","19f4d235994d71bb"],["Wake Up To Freedom","Justin mentioned you","19f4cc6bc07a9a66"],
+  ["Manychat","invoice PAID","19f4ca1c2ec4e95a"],["Skool","new notifications","19f4c9f90b8dd6ac"],
+  ["Zoom","Reminder Live Workshop Sprint","19f4d2b93a7a0556"],["Zoom","Meeting assets are ready","19f486338624255e"],
+  ["Upwork","We’d love your feedback","19f4963e332fad51"],["ThriveCart","Sale notification","19f479cd25fab261"],
+  ["Xero","We want your feedback","19f47b8911d29601"],["Metricool","Manage social from one chat","19f484046e1eb58c"],
+  ["Infoods IBS","30% off limited offer","19f474928b5a81ed"],["Nathan Barry / Kit","successful creators","19f473bae5ca23d9"],
+  ["YES SUPPLY","Open House next week","19f48afbda18e190"],["Wake Up To Freedom","Weekly summary","19f461555034bae7"]]},
+ wellness:{label:"Wellness",rows:[
+  ["Alyssa (your send)","LAST CALL BABE","19f4c8ca1212b687"],["Alyssa (your send)","I love old men","19f47d3606a56b84"],
+  ["Alyssa (your send)","Social Media Divorce coupon","19f3d06dfaaa9f37"],["Alyssa (your send)","business for witches","19f38314cb1b9d49"],
+  ["Alyssa (your send)","I feel sick Soft Sunday","19f0ebf6bb6f3626"],["Danielle LaPorte","BREAK UPS AND BELIEF SYSTEMS","19f4bf57886dab77"],
+  ["Creative Market","This week’s deals","19f4b9e2338a9052"],["YouTube","June Month in Review","19f4b9546179704c"],
+  ["Canva","15% off Print Shop","19f382c8d59cc2af"],["Depop","Styles that caught your eye","19f2b15dc6dceefd"],
+  ["Meta for Business","Improve your ad creative","19f2305ab24ac74f"],["Manychat","Privacy Policy update","19f22c6b922e3538"],
+  ["Google","Updated Terms of Service","19f09657d0606c47"]]}
+};
+
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+
+function replyCard(o,i){
+  return `<div class="card reply">
+    <div class="top"><span class="who">${esc(o.who)}</span><span class="acct ${o.acct}">${acctName[o.acct]}</span><span class="when">${esc(o.when)}</span></div>
+    <p class="subj">${esc(o.subj)}</p><p class="note">${esc(o.note)}</p>
+    <div class="actions">
+      <button class="btn" data-draft="${i}">${o.tag.startsWith("Draft")?"Draft this":"Draft options"} ↩</button>
+      <span class="acct ${o.acct}" style="background:var(--replybg);color:var(--link)">${esc(o.tag)}</span>
+      <a class="open" href="${SEARCH(EM[o.acct],o.q)}" target="_blank" rel="noopener">Open ↗</a>
+    </div></div>`;
+}
+function taskCard(o){
+  return `<div class="card task" data-task="${o.id}">
+    <div class="top"><span class="who">${esc(o.who)}</span><span class="acct ${o.acct}">${acctName[o.acct]}</span><span class="when">${esc(o.when)}</span></div>
+    <p class="note">${esc(o.note)}</p>
+    <div class="actions">
+      <span class="acct ${o.acct}" style="background:var(--taskbg);color:#9a6a1e">${esc(o.tag)}</span>
+      <a class="open" href="${SEARCH(EM[o.acct],o.q)}" target="_blank" rel="noopener">Open ↗</a>
+    </div>
+    <label class="done-wrap"><input type="checkbox" class="tick" data-done="${o.id}"><span class="done-lbl">Mark done</span></label></div>`;
+}
+document.getElementById("pane-reply").innerHTML=
+  `<div class="keepnote"><b>Cleared — you already replied:</b> ${handled.map(h=>esc(h[0])+" ("+esc(h[2])+")").join(" · ")}. I only keep a reply here until your side sends the last real message.</div>`
+  + replies.map(replyCard).join("");
+document.getElementById("pane-task").innerHTML=tasks.map(taskCard).join("");
+
+let awayHtml=`<div class="keepnote"><b>Checked = I’ll archive it</b> (out of your inbox, never deleted — still in Gmail search). <b>Uncheck anything you want to keep.</b> Then hit <b>Archive checked</b> for one inbox, or the button at the bottom for all four. <b>Norah’s Day</b> (Montessori dailies) I left out of this list.</div>`;
+for(const k of ["personal","support","alyssa","wellness"]){
+  const a=away[k];
+  awayHtml+=`<div class="acctblock"><div class="h"><span class="acct ${k}">${acctName[k]}</span><h3>${esc(a.label)}</h3><span class="spacer"></span><button class="selall" data-toggle>check all / none</button><a class="open" href="${INBOX(EM[k])}" target="_blank" rel="noopener">Open inbox ↗</a></div><div class="rows">${
+    a.rows.map(r=>`<label class="row"><input type="checkbox" checked data-id="${r[2]}" data-acct="${k}"><span class="meta"><span class="rs">${esc(r[1])}</span><span class="rf">${esc(r[0])}</span></span><a class="open" href="${SEARCH(EM[k],r[0]+" "+r[1])}" target="_blank" rel="noopener">open ↗</a></label>`).join("")
+  }</div><div style="padding:11px 15px;border-top:1px solid var(--cardline)"><button class="btn" data-archive="${k}">Archive checked <span data-arc-count="${k}"></span> ↩</button></div></div>`;
+}
+awayHtml+=`<div style="margin-top:6px"><button class="btn" data-archive="ALL" style="width:100%;padding:11px">Archive everything checked — all 4 inboxes <span data-arc-count="ALL"></span> ↩</button></div>`;
+document.getElementById("pane-away").innerHTML=awayHtml;
+
+// mode note
+document.getElementById("modeNote").innerHTML = has
+  ? "Clicking sends the request straight to me here in chat."
+  : "Clicking shows you the short phrase to tell me in chat — or just say “draft all”.";
+document.getElementById("barText").textContent = has ? "Tap a button — I’ll act on it right here" : "Tap a button — I’ll show you what to tell me";
+
+function showPanel(html){
+  const p=document.getElementById("panel");
+  p.innerHTML='<button class="x" aria-label="Dismiss">×</button>'+html;
+  p.classList.add("show");
+  p.querySelector(".x").onclick=()=>p.classList.remove("show");
+  p.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+// tabs
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected","false"));
+  t.setAttribute("aria-selected","true");
+  document.querySelectorAll(".pane").forEach(p=>p.classList.remove("on"));
+  document.getElementById("pane-"+t.dataset.p).classList.add("on");
+}));
+
+// toast
+let tT;
+function toast(msg){const el=document.getElementById("toast");el.textContent=msg;el.classList.add("show");clearTimeout(tT);tT=setTimeout(()=>el.classList.remove("show"),2600);}
+
+// draft buttons
+document.getElementById("pane-reply").addEventListener("click",e=>{
+  const b=e.target.closest("[data-draft]"); if(!b) return;
+  const r=replies[+b.dataset.draft];
+  if(has){ sendPrompt(r.cmd); toast("Sent to Larry — drafting now ✍️"); return; }
+  const say = "draft the "+r.who.split(" ")[0].replace(/[^A-Za-z]/g,"")+" reply";
+  showPanel(`<b>${esc(r.who.split(" —")[0])}</b> — I’ll write it. Just tell me in chat: <span class="say">${esc(say)}</span> and it lands in your Gmail drafts to review.`);
+});
+
+// task done + persistence
+const KEY="inboxcmd_done";
+const state=JSON.parse(localStorage.getItem(KEY)||"{}");
+function applyDone(){
+  let n=0;
+  document.querySelectorAll("[data-done]").forEach(cb=>{
+    const on=!!state[cb.dataset.done]; cb.checked=on;
+    cb.closest(".card").classList.toggle("done",on);
+    cb.nextElementSibling.textContent=on?"Done ✓":"Mark done";
+    if(on)n++;
+  });
+  document.getElementById("doneN").textContent=n;
+}
+document.getElementById("pane-task").addEventListener("change",e=>{
+  const cb=e.target.closest("[data-done]"); if(!cb) return;
+  state[cb.dataset.done]=cb.checked; localStorage.setItem(KEY,JSON.stringify(state)); applyDone();
+  if(cb.checked) toast("Nice — one off the list ✓");
+});
+applyDone();
+
+const awayPane=document.getElementById("pane-away");
+function checkedIn(scope){
+  const sel = scope==="ALL" ? "input[data-id]" : `input[data-acct="${scope}"]`;
+  return [...awayPane.querySelectorAll(sel)].filter(b=>b.checked);
+}
+function refreshCounts(){
+  ["personal","support","alyssa","wellness","ALL"].forEach(s=>{
+    const el=awayPane.querySelector(`[data-arc-count="${s}"]`);
+    if(el){const n=checkedIn(s).length; el.textContent="("+n+")";}
+  });
+}
+document.querySelectorAll("[data-toggle]").forEach(btn=>btn.addEventListener("click",()=>{
+  const boxes=[...btn.closest(".acctblock").querySelectorAll("input[type=checkbox]")];
+  const anyOn=boxes.some(b=>b.checked);
+  boxes.forEach(b=>{b.checked=!anyOn; b.closest(".row").classList.toggle("keep",!b.checked);});
+  refreshCounts();
+}));
+awayPane.addEventListener("change",e=>{
+  if(e.target.type==="checkbox"){ e.target.closest(".row").classList.toggle("keep",!e.target.checked); refreshCounts(); }
+});
+awayPane.addEventListener("click",e=>{
+  const b=e.target.closest("[data-archive]"); if(!b) return;
+  const scope=b.dataset.archive;
+  const boxes=checkedIn(scope);
+  if(!boxes.length){ showPanel("Nothing’s checked here to archive."); return; }
+  if(has){
+    const groups={}; boxes.forEach(cb=>{(groups[cb.dataset.acct]=groups[cb.dataset.acct]||[]).push(cb.dataset.id);});
+    const cmd="Archive these — remove the INBOX label only, never delete:\n"+Object.entries(groups).map(([k,ids])=>`${acctName[k]} (${ACCT_ID[k]}): ${ids.join(", ")}`).join("\n");
+    sendPrompt(cmd); toast(`Sent to Larry — archiving ${boxes.length} ✓`); return;
+  }
+  const allBoxes = scope==="ALL" ? [...awayPane.querySelectorAll("input[data-id]")] : [...awayPane.querySelectorAll(`input[data-acct="${scope}"]`)];
+  const kept = allBoxes.filter(x=>!x.checked);
+  const phrase = scope==="ALL" ? "archive everything checked" : "archive "+acctName[scope];
+  let msg = `<b>${boxes.length} ready to archive${scope==="ALL"?" across all inboxes":" in "+acctName[scope]}.</b> Tell me in chat: <span class="say">${esc(phrase)}</span> — gone from your inbox in seconds, never deleted.`;
+  if(kept.length){
+    const names = kept.slice(0,3).map(x=>x.closest(".row").querySelector(".rf").textContent).join(", ");
+    msg += `<br><br>You unchecked <b>${kept.length}</b> to keep${scope==="ALL"?"":" ("+esc(names)+(kept.length>3?"…":"")+")"} — I’ll skip those. Or name them when you tell me, e.g. <span class="say">${esc(phrase)} except ${esc(kept[0].closest(".row").querySelector(".rf").textContent)}</span>.`;
+  }
+  showPanel(msg);
+});
+refreshCounts();
+</script>

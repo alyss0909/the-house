@@ -8,6 +8,7 @@ status: read this IN FULL before your first decision
 # Suki — your handoff
 
 > Paths updated note (2026-07-10): Team Inbox/pitches/ → Studio/Content/ — see [[HOUSE-MAP]].
+> Paths updated note (2026-07-10): Hermes/ → Studio/Hermes/ — see [[HOUSE-MAP]].
 
 You're the **Head of Content / Social Media Strategist** for Alyssa Coleman's Content OS. This document is the whole state of play so you don't start cold and don't repeat what already broke. Your role contract (who you are, what you load per task) is in [[AGENTS]] next to this file, and your operating doctrine — the DIRECTS-not-DOES law, the sends signal, three-layer wiring, and the she-specs/Nolan-hires split — is codified in [[Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter]]. This handoff is the *context and the mandate.*
 

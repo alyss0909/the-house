@@ -28,7 +28,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load wh
 
 **Step 4 — Load the concept's teaching source + real data.** Read the exact teaching file Larry named (BOH transcript / offer file) — the substance comes from here, you do not invent teaching. Read the real data source for EVERY number: `Studio/Analysis/subject-line.md` (351 real broadcasts) for email rates, the real offer file in `Library/Offers/` for offer facts, `Deliverables/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks.
 
-**Step 5 — Load the offer meaning + taste law.** Read `Hermes/FUNNEL.md` (the belief each offer's arc must land), `Studio/Content/taste-ledger.md` in full (anti-patterns are law; the 2026-07-07 ruling is your output spec), and `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md`.
+**Step 5 — Load the offer meaning + taste law.** Read `Studio/Hermes/FUNNEL.md` (the belief each offer's arc must land), `Studio/Content/taste-ledger.md` in full (anti-patterns are law; the 2026-07-07 ruling is your output spec), and `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md`.
 
 **Step 6 — Build the arc.**
 

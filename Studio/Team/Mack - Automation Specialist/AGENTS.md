@@ -108,7 +108,7 @@ Blocked automation shapes:
 
 - Creating a new daily digest file that no owner reads.
 - Promoting generated analysis into source areas.
-- Asking Alyssa questions before [[Hermes/MEAN-ALYSSA]] and [[GL-009-source-boundaries-and-promotion]] say the team cannot answer them.
+- Asking Alyssa questions before [[Studio/Hermes/MEAN-ALYSSA]] and [[GL-009-source-boundaries-and-promotion]] say the team cannot answer them.
 
 ## Frontmatter discipline
 

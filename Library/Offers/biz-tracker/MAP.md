@@ -42,9 +42,9 @@ Source URL: <https://alyssacoleman.ca/track>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/biz-tracker-sales-page|Biz Tracker Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan|0.3 Cozy Business Plan]] (Cozy Biz Plan math, per BUSINESS.md price-ladder note)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (W3 Mon slot — GAP per MAP §3)
-- Funnel neighbors: none documented in [[Hermes/BUSINESS]] funnel chains
+- Funnel neighbors: none documented in [[Studio/Hermes/BUSINESS]] funnel chains
 
 

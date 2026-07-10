@@ -35,7 +35,7 @@ Same database as `/lead-magnet`: Data Source ID `de338819-a1a8-4b7f-8348-821d66d
    - **If Kit Form UID is blank**, insert a clearly marked placeholder comment (`<!-- KIT_FORM_UID_PENDING: Alyssa must create form "[Freebie] <Title> Form" in Kit and paste UID here -->`) instead of a broken script tag, so the page still renders without a dead embed.
 
 4. **Write the delivery email** (the email Kit's `[Delivery] <Name>` sequence will send once the form is submitted):
-   - Voice: Hermes JUDGMENT layer (`Hermes/SOURCES.md`), same as the lead magnet content itself.
+   - Voice: Hermes JUDGMENT layer (`Studio/Hermes/SOURCES.md`), same as the lead magnet content itself.
    - Merge tag for first name: `{{ subscriber.first_name }}` (Kit's liquid syntax — not ConvertKit's old `{{contact.first_name}}`).
    - CTA byline: Alyssa / alyssacoleman.ca.
    - Save the email draft to `lead-magnet-system/reference/emails/<slug>-delivery-email.md` (create the folder if it doesn't exist).

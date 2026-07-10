@@ -35,13 +35,13 @@ Before any dispatch:
 
 If any of 1-3 is missing: fill it in before dispatching. Don't send a partial brief.
 If the taste-log check raises a flag: note it in the brief, but still dispatch unless the pattern is a clear NO.
-Before dispatch, run [[Hermes/MEAN-ALYSSA]] and [[GL-009-source-boundaries-and-promotion]]. If the gate fails, fix source access, use an existing map/task, or route to Pax/Mack before dispatch. If the remaining decision is taste/strategy and cannot be proven from source, dispatch with two versions: A safer/source-close and B more nuanced/higher-upside/needs Alyssa taste.
+Before dispatch, run [[Studio/Hermes/MEAN-ALYSSA]] and [[GL-009-source-boundaries-and-promotion]]. If the gate fails, fix source access, use an existing map/task, or route to Pax/Mack before dispatch. If the remaining decision is taste/strategy and cannot be proven from source, dispatch with two versions: A safer/source-close and B more nuanced/higher-upside/needs Alyssa taste.
 
 ---
 
 ## Step 1 — Write the brief
 
-The brief lives in the task file (`Studio/Team Knowledge/tasks/open/`, per [[SOP-004-create-task]]) OR in a dedicated Deliverables file for complex assignments. For Hermes: the brief only needs source links - his mandatory brain + vault loads come from Hermes/README.md.
+The brief lives in the task file (`Studio/Team Knowledge/tasks/open/`, per [[SOP-004-create-task]]) OR in a dedicated Deliverables file for complex assignments. For Hermes: the brief only needs source links - his mandatory brain + vault loads come from Studio/Hermes/README.md.
 
 **Brief minimum viable content:**
 - Content type
@@ -56,7 +56,7 @@ The brief lives in the task file (`Studio/Team Knowledge/tasks/open/`, per [[SOP
 ## Step 2 — Dispatch
 
 Larry routes to the specialist. For Hermes tasks specifically:
-1. Confirm the brief links the source developing idea note and journal entries (Hermes' brain loads are automatic per Hermes/README.md)
+1. Confirm the brief links the source developing idea note and journal entries (Hermes' brain loads are automatic per Studio/Hermes/README.md)
 2. Hermes runs his README load protocol (judgment files + full source originals) → reads source material → writes draft
 3. Hermes saves draft to `Deliverables/YYYY-MM-DD-[slug]-draft.md`
 
@@ -72,7 +72,7 @@ After the specialist produces a deliverable: Larry surfaces it at the next sessi
 
 When Alyssa reacts to the deliverable:
 - Approved as-is → log in taste-log.md (YES pattern)
-- Edited and approved → log specific changes verbatim in Hermes/learning/inbox.md (calibration entry)
+- Edited and approved → log specific changes verbatim in Studio/Hermes/learning/inbox.md (calibration entry)
 - Passed / redirected → log in taste-log.md (NO or REDIRECT pattern)
 - Close the task file per [[SOP-006-close-task]] (or note the idea-bank entry as used)
 
@@ -95,11 +95,11 @@ Every time SOP-013 runs and flags content-ready entries, those entries automatic
 When a full theme week (or month) runs end-to-end through the pipeline in one batch, Alyssa gets exactly two touchpoints — never more, never a silent skip:
 
 - **Touchpoint 1 — concept react.** After Test Kitchen + Mean Alyssa gate produce survivors, present ONLY the top 2-3 per slot: concept + hook + comment word. One message, no walls of text. She picks/edits/kills. No copy is written before her pick.
-- **Touchpoint 2 — final review.** After Hermes writes and self-runs the ANTI-AI + lineup pass, she reviews finals in one sitting. Corrections log verbatim to [[Hermes/learning/inbox]]; recurring corrections get a graduation proposal into ANTI-AI/TASTE (proposal only, she approves).
+- **Touchpoint 2 — final review.** After Hermes writes and self-runs the ANTI-AI + lineup pass, she reviews finals in one sitting. Corrections log verbatim to [[Studio/Hermes/learning/inbox]]; recurring corrections get a graduation proposal into ANTI-AI/TASTE (proposal only, she approves).
 
 ## Hard halts (never soft-fail)
 
-- **Unverified chat word → HALT, ship concept-only.** If a slot's chat word is "manual selection needed" (per [[Hermes/MAP]] §3 / [[Hermes/BUSINESS]]) or the product has a flagged conflict, that slot ships as concept-only and the gap goes in a "For Alyssa" block. Never invent, never delay the rest of the batch.
+- **Unverified chat word → HALT, ship concept-only.** If a slot's chat word is "manual selection needed" (per [[Studio/Hermes/MAP]] §3 / [[Studio/Hermes/BUSINESS]]) or the product has a flagged conflict, that slot ships as concept-only and the gap goes in a "For Alyssa" block. Never invent, never delay the rest of the batch.
 - **GAP is never filled by inference.** A documented gap in MAP/BUSINESS routes to Alyssa; guessing a plausible fill is the trust-killer this whole system exists to prevent.
 - **Any need to edit `Studio/Analysis/`** — stop; that never happens.
 - **Mechanical lint at The Pass — writer kill-log claims are never evidence.** (Tournament finding 2026-07-05: all three writer architectures shipped em-dashes and the banned word "quietly" in final copy while their own ANTI-AI logs claimed zero — models cannot reliably self-grep.) Before any final reaches Touchpoint 2, The Pass runs an ACTUAL tool check on the copy file: em-dash character count in prose (must be 0), banned-vocab grep (quiet/quietly, leverage, effortless, game-changer, seamless, streamline, unlock — 0 hits), period-density + staccato-run counts per STYLE §1. Any hit → fix and re-lint before it ships; the hit and fix are logged.
@@ -108,8 +108,8 @@ When a full theme week (or month) runs end-to-end through the pipeline in one ba
 
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — the queue sources this workstream manages (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Studio/Analysis/taste-log.md]] — approval pattern validation
-- [[Hermes/learning/inbox.md]] — voice calibration for all Hermes tasks
-- [[Hermes/MEAN-ALYSSA.md]] — rejection-trained trust gate before asking, creating, promoting, or dispatching
+- [[Studio/Hermes/learning/inbox.md]] — voice calibration for all Hermes tasks
+- [[Studio/Hermes/MEAN-ALYSSA.md]] — rejection-trained trust gate before asking, creating, promoting, or dispatching
 - [[Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md]] — source boundaries and artifact fates
 - [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the primary feeder
 - [[Studio/Team Knowledge/Workstreams/WS-004-inbox-processing.md]] — secondary feeder

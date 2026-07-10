@@ -40,8 +40,8 @@ Source URL: <https://alyssacoleman.ca/formula>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/the-numbers-sales-page|The Numbers Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan|0.3 Cozy Business Plan]] (Cozy Biz Plan math, W3 Mon slot per MAP §3/§4)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (GAP per MAP §3 W3 Mon)
-- Funnel neighbors: none documented in [[Hermes/BUSINESS]] funnel chains
+- Funnel neighbors: none documented in [[Studio/Hermes/BUSINESS]] funnel chains
 

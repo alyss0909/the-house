@@ -49,7 +49,7 @@ This sales page is the public copy source for the private mentorship / 1:1 produ
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/the-productive-entrepreneur-sales-page|The Productive Entrepreneur Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (stale voice-era copy per BUSINESS.md)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (stale voice-era copy per BUSINESS.md)
 - BOH teaching module: no single module owns 1:1 systematization; draws across the full curriculum (see [[back-of-house]])
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
 - Funnel neighbors: [[private-mentorship-w-alyssa]] (adjacent high-touch lane)

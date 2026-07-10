@@ -47,7 +47,7 @@ Public offer URL: https://alyssacoleman.ca/5m
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/the-5-minute-newsletter-sales-page|The 5 Minute Newsletter Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.2 Not Grandads Email Marketing Transcript|2.2 Not Grandads]] · [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Simmer Transcript|2.3 The Simmer]] (W1 Wed slot per MAP §3/§4)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (GAP per MAP §3 W1 Wed)
-- Funnel neighbors: order bump → [[unignorable-subject-lines]] (5M Newsletter → Unignorable Subject Lines bump, per [[Hermes/BUSINESS]] funnel chain)
+- Funnel neighbors: order bump → [[unignorable-subject-lines]] (5M Newsletter → Unignorable Subject Lines bump, per [[Studio/Hermes/BUSINESS]] funnel chain)

@@ -76,11 +76,11 @@ Required elements: `### DAYKEY — Title`, `**Cover:**`, numbered `N. Role: text
 
 Concept: **The Email That Wakes Up A Dead List** (W29 Mon, freebie: Email List Revival Plan). The rejected version said only *"Proof: the open-rate math stacked plain — 200 people who actually read you beat 2,000 ghosts."* No real numbers, no persuasion. Corrected under this contract:
 
-`Prepared by: Cassius · referenced: Library/Offers/email-list-revival-plan/MAP.md · Studio/Analysis/subject-line.md (real open rates) · Hermes/FUNNEL.md (offer belief)`
+`Prepared by: Cassius · referenced: Library/Offers/email-list-revival-plan/MAP.md · Studio/Analysis/subject-line.md (real open rates) · Studio/Hermes/FUNNEL.md (offer belief)`
 
 > **3. Proof:** shows the math side by side — a 2,000-person list opening at 8% (160 reads) vs a 200-person list of people who actually read you opening at 45% (90 reads today, and climbing every send as you keep showing up) → so that she stops believing "I just need more subscribers" and starts believing the buyer she wants is already on her list, cold, waiting to be reminded she exists. **"You keep staring at that subscriber count like it's the problem. It isn't. The people who used to open every email you sent are still in there — you just went quiet on them, and they went cold."**
 
-Both open rates are real-range: 45% is squarely inside her 40–57% engaged band ([[Studio/Analysis/subject-line]]); 8% is a believable cold/ghost rate — not the banned 3%. The belief it lands is the offer's belief from [[Hermes/FUNNEL]] ("your next buyer is already subscribed"). The bolded line is the persuasion doing its job on the slide, not deferred.
+Both open rates are real-range: 45% is squarely inside her 40–57% engaged band ([[Studio/Analysis/subject-line]]); 8% is a believable cold/ghost rate — not the banned 3%. The belief it lands is the offer's belief from [[Studio/Hermes/FUNNEL]] ("your next buyer is already subscribed"). The bolded line is the persuasion doing its job on the slide, not deferred.
 
 ## Reviewer checklist (Larry's mechanical gate)
 
@@ -88,7 +88,7 @@ Both open rates are real-range: 45% is squarely inside her 40–57% engaged band
 - [ ] Every slide line is ONE line in the `X → so that Y` shape (not a 4-field block).
 - [ ] Slide 2 and every payoff slide carry real persuasive copy that names + agitates a real pain.
 - [ ] Every number traces to her real data; no invented stats; no 3% open rates.
-- [ ] Funnel-fit is on MEANING vs [[Hermes/FUNNEL]]; the CTA belief is earned by the arc.
+- [ ] Funnel-fit is on MEANING vs [[Studio/Hermes/FUNNEL]]; the CTA belief is earned by the arc.
 - [ ] Fits the dashboard contract (DAYKEY, Cover, numbered lines, Sources, Hooks).
 - [ ] No re-skin of a published winner; no curriculum/guru vocab.
 

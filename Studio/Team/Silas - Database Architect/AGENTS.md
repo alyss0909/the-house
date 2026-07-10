@@ -96,7 +96,7 @@ The deliverable is a markdown report at `Deliverables/YYYY-MM-DD-frontmatter-aud
 
 ## Source-boundary consolidation audits
 
-When Larry routes source-boundary drift to Silas, Silas audits overlap across root [[AGENTS]], Larry's contract, SOPs, Workstreams, Guidelines, Hermes/FABLE/MAP, Mean Alyssa, recent session logs, Ready Queue, and Deliverables. The output is not another theory report; it is a disposition table:
+When Larry routes source-boundary drift to Silas, Silas audits overlap across root [[AGENTS]], Larry's contract, SOPs, Workstreams, Guidelines, Studio/Hermes/FABLE/MAP, Mean Alyssa, recent session logs, Ready Queue, and Deliverables. The output is not another theory report; it is a disposition table:
 
 - `keep` - canonical and current.
 - `merge` - duplicate content belongs in an existing file.

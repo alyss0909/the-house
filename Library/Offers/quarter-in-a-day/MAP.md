@@ -48,7 +48,7 @@ Public offer URL: https://alyssacoleman.ca/oneday
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/quarter-in-a-day-sales-page|Quarter in a Day Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (note: price conflict $2,000 vs $111, see MAP.md §7)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (note: price conflict $2,000 vs $111, see MAP.md §7)
 - BOH teaching module: no single module owns a VIP day; draws across Phase 0-4 strategy work (see [[back-of-house]])
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
-- Funnel neighbors: none documented in [[Hermes/BUSINESS]] funnel chains
+- Funnel neighbors: none documented in [[Studio/Hermes/BUSINESS]] funnel chains

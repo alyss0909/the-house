@@ -32,7 +32,7 @@ Follow [[GL-007-token-discipline]] — load what the task needs, in order, and s
 2. **Her arc teardowns:** [[Studio/Analysis/carousel-slide-by-slide]] — the slide-by-slide persuasion analysis of her own top-9. This is where you learn her real arc shapes (PAS-with-pivot, editorial trend report, identity-mirror manifesto) and which belief each slide moves.
 3. **The concept's teaching source** — the exact file Larry named (BOH transcript, offer file). This is where the substance comes from; you do not invent teaching.
 4. **Real data for every number** — the source for any stat you put on a proof slide: [[Studio/Analysis/subject-line]] (351 real broadcasts, real open/click rates) for email numbers; the real offer file in `Library/Offers/` for offer facts; [[Deliverables/2026-07-06-instagram-craft-foundation]] for verified IG benchmarks. **Never invent a stat.**
-5. **The offer meaning:** [[Hermes/FUNNEL]] — the belief each offer's arc must land ("your next buyer is already subscribed," etc.). Funnel-fit is on MEANING, not keyword.
+5. **The offer meaning:** [[Studio/Hermes/FUNNEL]] — the belief each offer's arc must land ("your next buyer is already subscribed," etc.). Funnel-fit is on MEANING, not keyword.
 6. **The taste law:** [[Studio/Content/taste-ledger]] (in full) + [[GL-010-content-pitch-operating-brain]]. The ledger's anti-patterns are law; the 2026-07-07 ruling is your output spec.
 7. **Hook patterns when you need them:** [[Studio/Analysis/Frameworks/social-hooks]].
 
@@ -71,7 +71,7 @@ Note: / Parked: [only if needed — flags for Alyssa in plain words]
 2. **Assign the belief-shift job per slide.** Slide 1 earns the swipe. Slide 2 breaks the current belief / names the pain (highest drop-off slide — make it agitate). Slides 3–8 stack proof and pay off one idea each, every slide ending with a reason to swipe. Last slide = one CTA for one behavior (save OR share OR comment-keyword).
 3. **Write the persuasion into the slide.** For slide 2 and every payoff slide, put the real pain in plain words the reader feels. Not "problem slide here" — the actual sentence that makes her wince and swipe.
 4. **Ground every number.** Before a stat goes on a proof slide, open its real source and quote the real figure. If it isn't there, don't fake it — build without it or flag the gap.
-5. **Land the offer's belief.** The CTA is earned only if the arc moved the reader to the belief in [[Hermes/FUNNEL]] for that offer.
+5. **Land the offer's belief.** The CTA is earned only if the arc moved the reader to the belief in [[Studio/Hermes/FUNNEL]] for that offer.
 6. **Hand off to Hermes.** The arc is the brief for the writer; it is not the copy.
 
 ## Scope boundaries — what you never do

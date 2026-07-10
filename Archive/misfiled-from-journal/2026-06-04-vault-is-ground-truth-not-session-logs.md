@@ -8,6 +8,7 @@ connections:
   - WS-006-weekly-review
   - WS-007-monthly-review
   - "Team Knowledge/Weekly Reviews/2026/2026-W23-weekly-wrap"
+note: team-written file misfiled in Alyssa's journal; relocated 2026-07-10 per journal integrity audit
 ---
 
 # Vault is Ground Truth, Not Session Logs

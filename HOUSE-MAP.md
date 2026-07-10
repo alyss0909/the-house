@@ -31,7 +31,7 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at [[Team Inbox/pitches/MOVED]] and `dashboard/MOVED.md`) |
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
 | Studio/Analysis | **MOVED 2026-07-10** → `Studio/Analysis/` (analysis files at root, `Frameworks/` + `Templates/` subfolders, [[Studio/Analysis/COMPASS]] entry point; from root `PKM/Second Brain/analysis/`, `frameworks/`, `templates/`) |
-| Studio/Voice (Hermes station) | `Hermes/` |
+| Studio/Voice (Hermes station) | **MOVED 2026-07-10** → `Studio/Hermes/` (redirect stub at `Hermes/MOVED.md`) |
 | Studio/Team | **MOVED 2026-07-10** → `Studio/Team/` + `Studio/Team Knowledge/` (Bring It Home restructure) |
 | Studio/Automations | **MOVED 2026-07-10** → `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` |
 | Library/Offers | **MOVED 2026-07-10** → `Library/Offers/<offer>/MAP.md` — one folder per offer, facts + positioning + links (curriculum at `Library/Programs/`, sales pages/emails at `Library/Examples/`; from `PKM/My Life/Offers/`) |

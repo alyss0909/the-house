@@ -10,7 +10,7 @@ source: Transcribed verbatim from the real slide images in Library/Examples/Caro
 
 > The pure "For The Girls" voice, in copy form, isolated from the education/offer carousels. Every line below is transcribed **verbatim** off the actual slide images — reading order preserved, line breaks preserved where they carry rhythm. Typos are kept as-is and flagged `[sic]` so we don't "correct" her into something she didn't post.
 >
-> **What this is for:** voice calibration when writing a Friday identity / permission / brand-world post. Read one full example in slide order before writing. Pair with [[Studio/Analysis/carousel-slide-by-slide|carousel-slide-by-slide.md]] for the tactic behind each slide, and with [[Hermes/craft/for-the-girls-posts]] — the reusable writing skill (method) that these examples are the evidence for.
+> **What this is for:** voice calibration when writing a Friday identity / permission / brand-world post. Read one full example in slide order before writing. Pair with [[Studio/Analysis/carousel-slide-by-slide|carousel-slide-by-slide.md]] for the tactic behind each slide, and with [[Studio/Hermes/craft/for-the-girls-posts]] — the reusable writing skill (method) that these examples are the evidence for.
 
 ## The shared design signature (so copy is written to fit it)
 

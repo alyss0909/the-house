@@ -27,7 +27,7 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - [[2026-04-28-big-picture-to-dos]] — "figure out a flow and automate it" + "the monthly just works"
 - [[2026-04-30-hooks]] — "the business in your head and the one eating your weekends aren't the same one" + "consistency culture broke my creativity before it ever built my client list"
 - [[2026-05-20-daily-non-negotiables]] — the minimum viable rhythm, "the end :)"
-- [[2026-06-04-vault-is-ground-truth-not-session-logs]] — knowing vs. just having
+- [[Archive/misfiled-from-journal/2026-06-04-vault-is-ground-truth-not-session-logs]] — knowing vs. just having
 - [[2026-06-05-ai-agents-head-hands-heart]] — the Head/Hands/Heart framework; AI does the hands, humans do the head and heart
 - [[2026-06-06-boh-launch-email-inspo]] — the full voice memo. The auction woman. "I'm not here to tell you what's next, I'm here to tell you what works."
 - [[2026-04-02-daily-profit-activities]] — the offer concept that's still circling this same energy
@@ -63,7 +63,7 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - Email 3: "The Auction Story" (the woman Alyssa saw who was just clearly happy; the universal truths are more durable than the next wave)
 - Tone: voice memo register. Keep the swears. The run-on thinking-out-loud quality is the voice, not a bug.
 - Source material: [[2026-06-06-boh-launch-email-inspo]] — Hermes reads this in full before writing anything
-- Pre-read: [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]] + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]] + [[Hermes/learning/inbox.md]]
+- Pre-read: [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]] + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]] + [[Studio/Hermes/learning/inbox.md]]
 - Status: **CLOSED 2026-07-10** — Alyssa wrote and sent the launch emails herself (queue retired; see [[Archive/ready-queue-retired-2026-07-10]]). Her sent launch emails are analysis candidates later — she's open to it, not required.
 
 ## Check back

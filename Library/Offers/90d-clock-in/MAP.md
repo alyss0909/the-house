@@ -45,7 +45,7 @@ Public offer URL: https://www.alyssacoleman.ca/clockin
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/90d-clock-in-sales-page|90d Clock In Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan|0.3 Cozy Business Plan]] · [[Library/Programs/back-of-house/0. Welcome/0.1 Inspiration Pantry|0.1 Inspiration Pantry]] (W4 slot source per MAP §3/§4)
 - Real posts that pitched it: `Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in`
 - Funnel neighbors: → [[the-promo-planner-in-notion]] (50% off order bump)

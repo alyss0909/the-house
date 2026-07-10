@@ -23,9 +23,9 @@ Three tool evaluations landed the same day, all with the same verdict: whatever 
 
 ## The entries that feed this
 
-- [[2026-06-29-blotato-evaluation]] — content repurposing skill pack, wrong platform targets for her actual funnel
-- [[2026-06-29-claude-second-brain-closure]] — generic "build a second brain with Claude" article, closed as already-solved
-- [[2026-06-29-obsidian-command-center-evaluation]] — external agentic dashboard, skipped as a worse-fit duplicate of the existing system
+- [[Archive/misfiled-from-journal/2026-06-29-blotato-evaluation]] — content repurposing skill pack, wrong platform targets for her actual funnel
+- [[Archive/misfiled-from-journal/2026-06-29-claude-second-brain-closure]] — generic "build a second brain with Claude" article, closed as already-solved
+- [[Archive/misfiled-from-journal/2026-06-29-obsidian-command-center-evaluation]] — external agentic dashboard, skipped as a worse-fit duplicate of the existing system
 
 ## What I think this is actually saying
 

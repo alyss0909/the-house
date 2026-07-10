@@ -49,10 +49,10 @@ Source URL: <https://alyssacoleman.ca/emails>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/a-year-of-emails-sales-page|A Year of Emails Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (needs_edits per BUSINESS.md)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (needs_edits per BUSINESS.md)
 - BOH teaching module: [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem|1.1 Email First Ecosystem]] · [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Simmer Transcript|2.3 The Simmer]] (email-lane teaching)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
-- Funnel neighbors: adjacent to the email-lane ladder (see [[the-5-minute-newsletter]], [[list-resuscitator]]); no documented direct funnel link in [[Hermes/BUSINESS]]
+- Funnel neighbors: adjacent to the email-lane ladder (see [[the-5-minute-newsletter]], [[list-resuscitator]]); no documented direct funnel link in [[Studio/Hermes/BUSINESS]]
 - [[2026-02-14-slo]] — funnel mapping placing YOE as a trip in the SLO sequence
 
 

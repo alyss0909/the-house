@@ -31,7 +31,7 @@ zone: Library
 ## Navigating deep
 
 - Task-routing (which file to load for which copy task) now lives at [[Studio/Analysis/COMPASS|Studio/Analysis/COMPASS.md]] — analysis, frameworks, and templates are Studio opinion, not Library source, so the router moved with them.
-- For offers, each offer's `Library/Offers/<offer>/MAP.md` is the entry point; funnel pairings and the no-CTA list live in [[Hermes/BUSINESS]].
+- For offers, each offer's `Library/Offers/<offer>/MAP.md` is the entry point; funnel pairings and the no-CTA list live in [[Studio/Hermes/BUSINESS]].
 
 ## The rule
 

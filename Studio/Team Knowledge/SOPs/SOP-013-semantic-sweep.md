@@ -10,7 +10,7 @@ Licensed under CC BY-NC-SA 4.0 - see LICENSE
 
 The semantic sweep is how the system gets smarter. It reads across journal entries, captures, and voice memos, finds what keeps appearing, names it, and feeds the idea garden. Every sweep adds intelligence. The garden develops ideas. The ideas feed production. Production generates new voice material. New voice material calibrates Hermes. Hermes produces better drafts. Better drafts mean more Alyssa in fewer corrections. This is the intelligence flywheel.
 
-Sweep intelligence is still bound by [[GL-009-source-boundaries-and-promotion]]. A sweep may connect, count, flag, and point. It must not turn generated interpretation into Alyssa-original source. Before creating or updating garden notes, content activation tasks, or Hermes graduation candidates, run [[Hermes/MEAN-ALYSSA]]: would Alyssa expect old source, BOH/freebie/training material, Google Drive/export, Notion, session logs, or external gold-standard proof before this claim becomes knowledge?
+Sweep intelligence is still bound by [[GL-009-source-boundaries-and-promotion]]. A sweep may connect, count, flag, and point. It must not turn generated interpretation into Alyssa-original source. Before creating or updating garden notes, content activation tasks, or Hermes graduation candidates, run [[Studio/Hermes/MEAN-ALYSSA]]: would Alyssa expect old source, BOH/freebie/training material, Google Drive/export, Notion, session logs, or external gold-standard proof before this claim becomes knowledge?
 
 ---
 
@@ -52,7 +52,7 @@ Flag any content-ready entry for content activation (WS-008 routes it: social co
 - Proposed assignee (Hermes / Pax / Charta / etc.)
 - Source entry link
 - Cross-reference to any developing idea it feeds
-- Trust verdict: `proceed`, `read-first`, `search-first`, `use-existing`, `archive-delete`, or `ask-Alyssa` from [[Hermes/MEAN-ALYSSA]]. If external proof or old source discovery is needed, route to Pax or Mack instead of inventing.
+- Trust verdict: `proceed`, `read-first`, `search-first`, `use-existing`, `archive-delete`, or `ask-Alyssa` from [[Studio/Hermes/MEAN-ALYSSA]]. If external proof or old source discovery is needed, route to Pax or Mack instead of inventing.
 
 ### Step 5 — Write to the weekly Brew
 The light sweep output is NOT a separate file. It goes inline into Phase 1 (The Brew) of the current week's WS-006 run. Format: new signals found, signals updated, thesis drafts written, content flags raised.
@@ -83,7 +83,7 @@ For each `developing` or `thesis-ready` signal: check which Second Brain files a
 For any signal at 6+ recurrence with no thesis draft: write it now. For any signal where Alyssa has edited the thesis draft: update status to `becoming` in signals-index.
 
 ### Step 6 — Voice loop check
-Read the last month of [[Hermes/learning/inbox]] and [[Hermes/learning/log]]. Is there a pattern of corrections that should become a standing rule? If so, propose graduating it into [[Hermes/STYLE]], [[Hermes/TASTE]], or [[Hermes/ANTI-AI]] - Alyssa approves before it lands.
+Read the last month of [[Studio/Hermes/learning/inbox]] and [[Studio/Hermes/learning/log]]. Is there a pattern of corrections that should become a standing rule? If so, propose graduating it into [[Studio/Hermes/STYLE]], [[Studio/Hermes/TASTE]], or [[Studio/Hermes/ANTI-AI]] - Alyssa approves before it lands.
 
 ### Step 7 — Taste loop check
 Read [[Studio/Analysis/taste-log]]. Are there new approval patterns from the month? Are any YES patterns now strong enough to become standing instructions? Flag in the sweep note.
@@ -130,7 +130,7 @@ Also produces: updated [[Studio/Analysis/yes-pattern]] + proposed Hermes rule gr
 
 - [[Studio/Signals/signals-index.md]] — the living signal tracker
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the idea garden
-- [[Hermes/learning/inbox.md]] — voice loop output
+- [[Studio/Hermes/learning/inbox.md]] — voice loop output
 - [[Studio/Analysis/taste-log.md]] — taste loop cross-reference
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — content activation outputs (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review.md]] — calls the light sweep

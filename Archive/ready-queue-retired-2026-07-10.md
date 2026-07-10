@@ -141,10 +141,10 @@ Develop the hook "you get what you get and you don't get upset" into a full emai
 | Item | Completed | Deliverable |
 |---|---|---|
 | Easiest Emails Teaching Piece | 2026-06-29 | Graduated — became The 5 Minute Newsletter (alyssacoleman.ca/5m) |
-| Welcome Email Examples — Hermes Review | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-welcome-email-synthesis.md]] — 5 patterns synthesized, BOH welcome audit recommended |
-| Blotato Claude Skills Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-blotato-evaluation.md]] — Verdict: skip the MCP, pull viral-hooks for Hermes reference only |
-| Obsidian Command Center Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-obsidian-command-center-evaluation.md]] — Verdict: skip, we've already built this |
-| Claude Second Brain Article | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-claude-second-brain-closure.md]] — Closed: our system is already beyond it |
+| Welcome Email Examples — Hermes Review | 2026-06-29 | [[Archive/misfiled-from-journal/2026-06-29-welcome-email-synthesis.md]] — 5 patterns synthesized, BOH welcome audit recommended |
+| Blotato Claude Skills Evaluation | 2026-06-29 | [[Archive/misfiled-from-journal/2026-06-29-blotato-evaluation.md]] — Verdict: skip the MCP, pull viral-hooks for Hermes reference only |
+| Obsidian Command Center Evaluation | 2026-06-29 | [[Archive/misfiled-from-journal/2026-06-29-obsidian-command-center-evaluation.md]] — Verdict: skip, we've already built this |
+| Claude Second Brain Article | 2026-06-29 | [[Archive/misfiled-from-journal/2026-06-29-claude-second-brain-closure.md]] — Closed: our system is already beyond it |
 
 ---
 

@@ -40,9 +40,9 @@ Source URL: <https://alyssacoleman.ca/plan>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/best-year-yet-sales-page|Best Year Yet Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/0. Welcome/0.4 Quarterly Recap|0.4 Quarterly Recap]] — closest annual/quarterly planning source per MAP §4
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (GAP)
-- Funnel neighbors: none documented in [[Hermes/BUSINESS]] funnel chains
+- Funnel neighbors: none documented in [[Studio/Hermes/BUSINESS]] funnel chains
 
 

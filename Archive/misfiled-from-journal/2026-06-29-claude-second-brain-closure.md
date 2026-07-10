@@ -4,6 +4,7 @@ tags:
   - ai
   - second-brain
   - reference
+note: team-written file misfiled in Alyssa's journal; relocated 2026-07-10 per journal integrity audit
 ---
 # Claude Second Brain Article — Closed
 

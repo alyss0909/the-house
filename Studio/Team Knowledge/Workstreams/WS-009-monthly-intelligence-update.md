@@ -4,7 +4,7 @@
 - **Type:** Workstream — Larry-led, full system calibration
 - **Owner:** Larry
 - **Triggered by:** First Sunday of every month / "monthly review" / "do the monthly"
-- **References:** [[SOP-013-semantic-sweep]], [[WS-007-monthly-review]], [[Studio/Analysis/yes-pattern.md]], [[Hermes/learning/inbox.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-007-monthly-review]], [[Studio/Analysis/yes-pattern.md]], [[Studio/Hermes/learning/inbox.md]]
 
 ## What this is
 
@@ -123,7 +123,7 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 - [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — called in Step 1
 - [[Studio/Signals/signals-index.md]] — updated in Steps 1-3
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — updated in Step 3
-- [[Hermes/learning/inbox.md]] — updated in Step 2
+- [[Studio/Hermes/learning/inbox.md]] — updated in Step 2
 - [[Studio/Analysis/taste-log.md]] — updated in Step 4
 - [[Studio/Analysis/yes-pattern.md]] — updated in Step 6
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])

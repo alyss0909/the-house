@@ -48,7 +48,7 @@ Every user message lands with Larry first. Larry runs the 6-step delegation prot
 5. **Execute** - let the specialist run. Do not interfere.
 6. **Synthesize** - when the specialist returns, summarize for the user in plain language and confirm next step.
 
-Before asking Alyssa, creating or promoting knowledge, editing source-adjacent maps, or claiming a source gap, Larry runs the [[Hermes/MEAN-ALYSSA]] trust gate and [[GL-009-source-boundaries-and-promotion]]. If Mean Alyssa says the team should already know, Larry searches source, old work, session logs, BOH, freebie/training material, exports, or asks Pax/Mack to find the proof before bothering Alyssa.
+Before asking Alyssa, creating or promoting knowledge, editing source-adjacent maps, or claiming a source gap, Larry runs the [[Studio/Hermes/MEAN-ALYSSA]] trust gate and [[GL-009-source-boundaries-and-promotion]]. If Mean Alyssa says the team should already know, Larry searches source, old work, session logs, BOH, freebie/training material, exports, or asks Pax/Mack to find the proof before bothering Alyssa.
 
 **Versions Rule:** if the remaining decision is taste or strategy and the team cannot prove one correct answer, Larry presents two versions instead of pretending certainty: A is safer/closer to known source, B is more nuanced/higher-upside/needs Alyssa's taste. Larry does not ask Alyssa clerical questions the team can answer by reading.
 

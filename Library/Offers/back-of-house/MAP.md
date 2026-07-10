@@ -65,8 +65,8 @@ Source URL: <https://alyssacoleman.ca/boh>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/boh-sales-page|Back of House Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH curriculum: BOH is the curriculum itself — entry modules [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan|0.3 Cozy Business Plan]] and [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch|4.1 The Lazy Launch]] (Phase 1 arc; MAP §3 W3 Wed slot)
 - Real posts that pitched it: `Library/Examples/Carousels/2026-03-03-organic-marketing-is-dying`
-- Funnel neighbors: → [[rush-order]] (done-with-you upsell, idea stage, undecided placement per [[Hermes/BUSINESS]])
+- Funnel neighbors: → [[rush-order]] (done-with-you upsell, idea stage, undecided placement per [[Studio/Hermes/BUSINESS]])
 

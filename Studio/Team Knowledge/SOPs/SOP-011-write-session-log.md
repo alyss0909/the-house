@@ -126,7 +126,7 @@ Every session-created artifact gets one fate:
 - `deleted` - duplicate, false, superseded, or trust-breaking.
 - `needs-Alyssa` - only taste, strategy, pricing, personal truth, or source access.
 
-Run [[GL-009-source-boundaries-and-promotion]] and [[Hermes/MEAN-ALYSSA]] before promoting anything. If the decision is taste or strategy and one answer cannot be proven, use the Versions Rule: Version A is safer and source-close; Version B is more nuanced or higher-upside and needs Alyssa's taste.
+Run [[GL-009-source-boundaries-and-promotion]] and [[Studio/Hermes/MEAN-ALYSSA]] before promoting anything. If the decision is taste or strategy and one answer cannot be proven, use the Versions Rule: Version A is safer and source-close; Version B is more nuanced or higher-upside and needs Alyssa's taste.
 
 ## The house-rules check (GL-013)
 

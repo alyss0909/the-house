@@ -45,7 +45,7 @@ Public offer URL: https://alyssacoleman.ca/traffic
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/pin-planner-sales-page|Pin Planner Sales Page Copy]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/3. Traffic Pantry/3.1 Bread and Butter Content|3.1 Bread & Butter]] · [[Library/Programs/back-of-house/3. Traffic Pantry/3.3 The Batch|3.3 The Batch]] (W2 slot per MAP §3/§4)
 - Real posts that pitched it: `Library/Examples/Carousels/2026-01-29-smart-founders-going-low-maintenance` · `Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest` · `Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners` · `Library/Examples/Carousels/2026-02-19-pinterest-sugar-mama` · `Library/Examples/Carousels/2026-02-24-swapped-instagram-for-pinterest`
 - Funnel neighbors: → [[back-of-house]] (Slowly Viral / VIRAL chat word reveal, per MAP §3 W2 Wed)

@@ -3,7 +3,7 @@
 - **Default owner:** Suki (strategic; not a maker rung). Reusable by Larry when Suki is unavailable.
 - **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
 - **Triggered by:** WS-011 Step 2; "weekly strategy brief", "what's the bet this week". Runs **Sunday**, right after SOP-033, before Concept.
-- **References:** the week's trend brief (SOP-033), the offer atlas / [[Hermes/MAP]] §3 + [[Hermes/FUNNEL]], [[Studio/Content/taste-ledger]].
+- **References:** the week's trend brief (SOP-033), the offer atlas / [[Studio/Hermes/MAP]] §3 + [[Studio/Hermes/FUNNEL]], [[Studio/Content/taste-ledger]].
 
 ## Purpose
 The market→bet translation layer. Turns raw trend evidence into *this week's bet* so Concept inherits a decision, not data.

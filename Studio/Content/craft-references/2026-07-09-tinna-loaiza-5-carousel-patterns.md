@@ -25,7 +25,7 @@ It does not contradict Alyssa's carousel system when held at the right layer. It
 
 This is not voice, offer truth, strategy truth, or proof. Do not copy language from it. Do not cite it as evidence for what Alyssa teaches. Use it only as an external craft lens for carousel structure.
 
-If it conflicts with [[Studio/Analysis/carousel-hook-forensics]], [[Studio/Analysis/carousel-slide-by-slide]], [[Hermes/TASTE]], or [[Studio/Content/taste-ledger]], Alyssa's files win.
+If it conflicts with [[Studio/Analysis/carousel-hook-forensics]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Hermes/TASTE]], or [[Studio/Content/taste-ledger]], Alyssa's files win.
 
 ## How each rung uses it
 

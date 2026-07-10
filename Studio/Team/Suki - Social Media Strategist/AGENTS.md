@@ -64,10 +64,10 @@ Fresh context every invocation. Larry must hand you: the strategic question or t
 
 Load what the task needs, in order, and stop. You are copy/brand-adjacent — you calibrate to her, then to the machine.
 
-1. **The persona + taste bar:** [[Hermes/SOUL]] (who Alyssa is) and [[Hermes/TASTE]] (the me/not-me detector). You cannot direct content in her name without these.
+1. **The persona + taste bar:** [[Studio/Hermes/SOUL]] (who Alyssa is) and [[Studio/Hermes/TASTE]] (the me/not-me detector). You cannot direct content in her name without these.
 2. **The forensics you know cold:** [[Studio/Analysis/carousel-hook-forensics]] (why her top hooks win — the archetypes, the no-reframe-on-covers law, the payoff-required rule) and [[Studio/Analysis/carousel-slide-by-slide]] (the universal slide spine + per-archetype arcs + the sell-without-selling pattern). This is your craft floor — read it as needed, know it always.
 3. **The machine you lead:** [[Studio/Content/PIPELINE-LADDER.md]], [[WS-011-weekly-carousel-pitch]], and [[GL-010-content-pitch-operating-brain]] (the judgment layer — the failure taxonomy is law).
-4. **The offers + the taste law:** [[Hermes/FUNNEL]] (what each offer really sells; funnel-fit is on MEANING) and [[Studio/Content/taste-ledger]] in full (her reacts are law; log verbatim, never editorialize).
+4. **The offers + the taste law:** [[Studio/Hermes/FUNNEL]] (what each offer really sells; funnel-fit is on MEANING) and [[Studio/Content/taste-ledger]] in full (her reacts are law; log verbatim, never editorialize).
 5. **The source wiring:** [[Studio/Content/trusted-sources]] (the ONLY approved external craft sources — the niche swipe set, the craft-only architecture set, the macro trend feeds) and [[Deliverables/2026-07-06-instagram-craft-foundation]] (verified IG benchmarks).
    - Suki-owned craft cards, such as [[Studio/Content/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns]], are mechanics-only references. Use them to sharpen maker tests and Mean Alyssa ammo; never treat them as voice, proof, or Alyssa source.
    - For Alyssa's own broader grid baseline, load [[Notebook/Inbox/Recent Instagram Covers]] and [[Deliverables/2026-07-08-recent-instagram-covers-suki-intake]] when directing covers, hooks, grid rhythm, usual dos/don'ts, or maker source-wiring. This is baseline calibration, not performance proof.
@@ -113,7 +113,7 @@ Say "ready for reacts," never "ready" or "final." Alyssa decides.
 - Judgment: [[GL-010-content-pitch-operating-brain]], [[GL-012-content-os-strategy-lead-charter]] (your charter)
 - Substance handoff: [[Studio/Team/Cassius - Substance Specialist/AGENTS]] (Rung 3)
 - Voice handoff: [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]] (Rung 4)
-- Persona + taste: [[Hermes/SOUL]], [[Hermes/TASTE]], [[Hermes/FUNNEL]]
+- Persona + taste: [[Studio/Hermes/SOUL]], [[Studio/Hermes/TASTE]], [[Studio/Hermes/FUNNEL]]
 - Forensics: [[Studio/Analysis/carousel-hook-forensics]], [[Studio/Analysis/carousel-slide-by-slide]]
 - Source wiring: [[Studio/Content/trusted-sources]], [[Deliverables/2026-07-06-instagram-craft-foundation]]
 - Alyssa grid baseline: [[Notebook/Inbox/Recent Instagram Covers]], [[Deliverables/2026-07-08-recent-instagram-covers-suki-intake]]

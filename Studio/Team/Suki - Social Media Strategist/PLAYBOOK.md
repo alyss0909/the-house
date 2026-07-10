@@ -82,7 +82,7 @@ So the reference set = **two layers: her widened own-winners (the spin/voice flo
 
 ## PART 5 — THE FOR THE GIRLS RULE (Friday runs on a DIFFERENT format)
 
-**For The Girls is not a normal carousel — stop applying carousel-hook rules to it.** Friday's rejected hooks failed because the writer applied cover-hook rules (payoff, curiosity gap, comment-CTA) to a lane that runs on none of them. Grounded in her real FTG skill file ([[Hermes/craft/for-the-girls-posts]]) and her real FTG slides ([[Library/Examples/Carousels/for-the-girls-slide-copy]]):
+**For The Girls is not a normal carousel — stop applying carousel-hook rules to it.** Friday's rejected hooks failed because the writer applied cover-hook rules (payoff, curiosity gap, comment-CTA) to a lane that runs on none of them. Grounded in her real FTG skill file ([[Studio/Hermes/craft/for-the-girls-posts]]) and her real FTG slides ([[Library/Examples/Carousels/for-the-girls-slide-copy]]):
 
 **What For The Girls IS:** a Friday identity / permission / brand-world post. Its job is to make the reader feel *"I already know this in my soul, but I forgot I was allowed to live like this."* A tiny permission slip. It sells the *deeper thing* (space, slower marketing, a business that runs while you live) softly — usually with **no CTA at all.**
 

@@ -41,7 +41,7 @@ Business owners who want Alyssa's eyes and hands on their business at the highes
 ## Wiki
 
 - Sales page: none dedicated — closest is [[Library/Examples/sales-pages/the-productive-entrepreneur-sales-page|The Productive Entrepreneur Sales Page]] (see Notes above)
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: no single module owns this; 1:1 delivery draws across the full curriculum (see [[back-of-house]])
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
 - Funnel neighbors: [[the-productive-entrepreneur]] (adjacent high-touch productivity lane)

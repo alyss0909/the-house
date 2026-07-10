@@ -36,7 +36,7 @@ Internal use. See [[back-of-house]].
 ## Wiki
 
 - Sales page: none — internal asset, not sold standalone, no dedicated page
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (internal asset, not a pitchable product per BUSINESS.md)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (internal asset, not a pitchable product per BUSINESS.md)
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Simmer Transcript|2.3 The Simmer Transcript]] (Phase 2, the direct source for this mechanism)
 - Real posts that pitched it: none — internal asset, not pitched directly
 - Funnel neighbors: internal mechanism inside [[back-of-house]]

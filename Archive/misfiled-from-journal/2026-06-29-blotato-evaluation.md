@@ -5,6 +5,7 @@ tags:
   - evaluation
   - content-repurposing
   - ai
+note: team-written file misfiled in Alyssa's journal; relocated 2026-07-10 per journal integrity audit
 ---
 # Blotato Claude Skills — Mack Evaluation
 

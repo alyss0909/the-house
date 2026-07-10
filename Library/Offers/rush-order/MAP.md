@@ -63,9 +63,9 @@ Two placement options to decide between:
 ## Wiki
 
 - Sales page: not built yet — see [[2026-06-03-rush-order-copy]] for draft sales page versions
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (not pitchable: idea-stage product per BUSINESS.md CTA bridge rule #2)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (not pitchable: idea-stage product per BUSINESS.md CTA bridge rule #2)
 - BOH teaching module: draws on the full BOH curriculum it accelerates — see [[back-of-house]]
 - Real posts that pitched it: none — idea stage, not yet pitched
-- Funnel neighbors: ← [[back-of-house]] (undecided OTO placement inside BOH funnel vs. standalone, per [[Hermes/BUSINESS]] funnel chain)
+- Funnel neighbors: ← [[back-of-house]] (undecided OTO placement inside BOH funnel vs. standalone, per [[Studio/Hermes/BUSINESS]] funnel chain)
 
 ## Updates

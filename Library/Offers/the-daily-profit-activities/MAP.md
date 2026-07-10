@@ -40,8 +40,8 @@ Source URL: <https://alyssacoleman.ca/slo>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/the-daily-profit-activities-sales-page|The Daily Profit Activities Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical (needs_edits: stale voice-era copy per BUSINESS.md)
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (needs_edits: stale voice-era copy per BUSINESS.md)
 - BOH teaching module: [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch|4.1 The Lazy Launch]] (Phase 4 sales activities, closest lane)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
-- Funnel neighbors: none documented in [[Hermes/BUSINESS]] funnel chains
+- Funnel neighbors: none documented in [[Studio/Hermes/BUSINESS]] funnel chains
 

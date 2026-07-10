@@ -30,7 +30,7 @@ Creates a new lead magnet from scratch: research → written content → Notion 
 
 1. **Research the topic.** Pull real, current material relevant to `<topic>` — no fabricated stats, no generic platform-news filler. If Alyssa has source material in PKM or Team Knowledge relevant to the topic, use it. Follow [[feedback_trend_research_means_real_posts]] discipline: prefer verbatim real examples over invented ones.
 
-2. **Write the content** in Alyssa's voice. Do not invent a new voice description — follow the established rules in the Hermes JUDGMENT layer, entry point `Hermes/SOURCES.md` (which routes to `Hermes/SOUL.md`, `Hermes/STYLE.md`, `Hermes/TASTE.md`, `Hermes/ANTI-AI.md`). Keep hooks to the 10-word cap per [[feedback_hook_ten_word_cap]] if the lead magnet opens with a hook.
+2. **Write the content** in Alyssa's voice. Do not invent a new voice description — follow the established rules in the Hermes JUDGMENT layer, entry point `Studio/Hermes/SOURCES.md` (which routes to `Studio/Hermes/SOUL.md`, `Studio/Hermes/STYLE.md`, `Studio/Hermes/TASTE.md`, `Studio/Hermes/ANTI-AI.md`). Keep hooks to the 10-word cap per [[feedback_hook_ten_word_cap]] if the lead magnet opens with a hook.
 
 3. **Generate a slug** from the title (lowercase, hyphenated, no special characters).
 

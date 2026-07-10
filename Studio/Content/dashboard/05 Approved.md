@@ -55,7 +55,7 @@ if (pitchPages.length === 0) {
   // every extra sequential await is extra time the raw block flashes on screen.
   const [raw, mapRawSettled] = await Promise.all([
     dv.io.load(latest.file.path),
-    dv.io.load("Hermes/MAP.md").catch(() => null),
+    dv.io.load("Studio/Hermes/MAP.md").catch(() => null),
   ]);
 
   // Determine day-of-week -> arc/hook/pick status from the sheet.
@@ -105,7 +105,7 @@ if (pitchPages.length === 0) {
   };
 
   // ---- Week rotation (every calendar-week row gets a theme pill) ----
-  // Read the rotation LIVE from Hermes/MAP.md: "Rotation (Alyssa-confirmed
+  // Read the rotation LIVE from Studio/Hermes/MAP.md: "Rotation (Alyssa-confirmed
   // planning grid): **W1 Email · W2 Pinterest · W3 BoH Systems · W4 Productivity**".
   // Falls back to those four defaults if MAP.md or the line can't be read.
   const ROTATION_DEFAULT = ["Email", "Pinterest", "BoH Systems", "Productivity"];

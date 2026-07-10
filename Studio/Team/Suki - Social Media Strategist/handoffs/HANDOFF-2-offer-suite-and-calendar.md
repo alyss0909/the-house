@@ -1,5 +1,7 @@
 # HANDOFF 2 — The Offer Suite + What the Content Does When
 
+> Paths updated note (2026-07-10): Hermes/ → Studio/Hermes/ — see [[HOUSE-MAP]].
+
 *Start this in a fresh chat. A guided discovery — Alyssa answers, Suki maps. Prepared by Larry + Suki, 2026-07-08.*
 
 **Paste this to open the new session:**

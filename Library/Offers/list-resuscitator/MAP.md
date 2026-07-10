@@ -40,8 +40,8 @@ Source URL: <https://alyssacoleman.ca/cold>
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/list-resuscitator-sales-page|List Resuscitator Sales Page]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Simmer Transcript|2.3 The Simmer]] · [[Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method|1.4 Double Yes]] (W1 Mon/Wed slot per MAP §3/§4)
 - Real posts that pitched it: no matching real post for the Wed reveal slot found in `Library/Examples/Carousels/` (GAP per MAP §3 W1 Wed) — nearest is the freebie-side `Library/Examples/Carousels/2026-01-20-whats-actually-shifting-in-2026-pt-2`
-- Funnel neighbors: ← [[email-list-revival-plan]] (freebie feeds this $11 tripwire, per [[Hermes/BUSINESS]] funnel chain)
+- Funnel neighbors: ← [[email-list-revival-plan]] (freebie feeds this $11 tripwire, per [[Studio/Hermes/BUSINESS]] funnel chain)
 

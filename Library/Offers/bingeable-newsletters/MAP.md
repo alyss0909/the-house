@@ -40,7 +40,7 @@ Full source copy: [[Library/Examples/sales-pages/bingeable-newsletters-sales-pag
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/bingeable-newsletters-sales-page|Bingeable Newsletters Sales Page Copy]]
-- Facts (price/status/chat word): [[Hermes/BUSINESS]] — canonical
+- Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Weekly Simmer Slides|2.3 The Simmer]] (Phase 2, per MAP §4)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (W1 Mon slot — GAP per MAP §3)
-- Funnel neighbors: → [[list-resuscitator]] (Cold, $11 tripwire, per [[Hermes/BUSINESS]] funnel chain)
+- Funnel neighbors: → [[list-resuscitator]] (Cold, $11 tripwire, per [[Studio/Hermes/BUSINESS]] funnel chain)
