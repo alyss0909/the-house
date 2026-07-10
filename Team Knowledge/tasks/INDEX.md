@@ -23,8 +23,6 @@ _Last rebuilt: 2026-07-08T18:01:36Z_
 - [[tsk-2026-06-02-001-automate-meetily-capture-inbox]] - Automate Meetily meeting capture pointers into Team Inbox - assignee: mack - created 2026-06-02
 - [[tsk-2026-06-03-001-build-rush-order]] - Build and launch Rush Order — done-with-you BOH upsell - assignee: alyssa - created 2026-06-03
 - [[tsk-2026-06-03-002-idx-platform-research]] - IDX platform research — evaluate display quality and responsiveness - assignee: alyssa - created 2026-06-03
-- [[tsk-2026-06-03-004-google-calendar-api-setup]] - Set up Google Calendar API credentials for Meetily launcher - assignee: alyssa - created 2026-06-03
-- [[tsk-2026-06-03-005-meetily-first-oauth-run]] - Run Meetily launcher script once to complete Google OAuth - assignee: alyssa - created 2026-06-03 - blocked: Needs tsk-2026-06-03-004 completed first
 - [[tsk-2026-06-03-006-voice-profile-review-and-interview]] - Review AI-mined voice profile + do gap interview - assignee: alyssa - created 2026-06-03
 - [[tsk-2026-06-04-001-review-claude-routines-automation-report]] - Review Pax Claude routines automation report and choose next automations - assignee: alyssa - created 2026-06-04
 - [[tsk-2026-06-05-001-review-semantic-sweep-and-approve]] - Review Semantic Recurrence Layer (SOP-013) and confirm what gets swept - assignee: alyssa - created 2026-06-05

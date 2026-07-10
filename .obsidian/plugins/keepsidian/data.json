@@ -2,7 +2,7 @@
   "email": "accoleman100@gmail.com",
   "token": "",
   "syncTokenSecretId": "google-sync-token",
-  "saveLocation": "/Team Inbox",
+  "saveLocation": "/Notebook/Inbox",
   "saveLocationMode": "custom",
   "noteFileNamePattern": "{note.date}-{title}",
   "oauthFlow": "desktop",

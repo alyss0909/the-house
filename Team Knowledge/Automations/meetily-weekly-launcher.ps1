@@ -1,54 +1,52 @@
 # meetily-weekly-launcher.ps1
-# Mack / myPKA — Meetily Weekly Auto-Launcher
+# Mack / myPKA - Meetily Weekly Auto-Launcher (HEADLESS / iCal edition)
 # Runs every Monday 8:00 AM via Task Scheduler ("Meetily Weekly Launcher").
-# Reads the current week's calendar events directly from the Google Calendar API
-# using OAuth 2.0 (installed-app / desktop flow), then pre-schedules a one-shot
-# Task Scheduler task 2 minutes before each qualifying meeting to launch Meetily.exe.
+#
+# Reads the current week's calendar from Alyssa's PRIVATE "Secret address in
+# iCal format" (.ics) feed over plain HTTPS. No Google Cloud project, no OAuth,
+# no browser, no Claude/MCP dependency - it runs fully unattended under the
+# weekly Task Scheduler trigger. For each qualifying meeting it pre-schedules a
+# one-shot Task Scheduler task 2 minutes before the meeting to launch Meetily.
 #
 # =========================================================================
-# GOOGLE CALENDAR API SETUP (one-time, done before the first run)
+# ONE-TIME SETUP (all Alyssa has to do)
 # =========================================================================
 #
-# Step 1 — Create a Google Cloud project and enable the Calendar API
-#   a. Go to https://console.cloud.google.com/
-#   b. Create a new project (any name, e.g. "Meetily Launcher").
-#   c. In the sidebar, go to "APIs & Services" -> "Library".
-#   d. Search for "Google Calendar API" and click "Enable".
+# The script needs ONE thing: her calendar's secret iCal URL, dropped into a
+# small local config file. Nothing else. Steps:
 #
-# Step 2 — Create OAuth 2.0 credentials
-#   a. Go to "APIs & Services" -> "Credentials".
-#   b. Click "Create Credentials" -> "OAuth 2.0 Client ID".
-#   c. Application type: "Desktop app".  Give it any name.
-#   d. Click "Create", then "Download JSON".
-#   e. Save the downloaded file as:
-#        C:\Users\accol\.config\google-calendar-client.json
+#   1. Open Google Calendar on the web (calendar.google.com).
+#   2. In the left "My calendars" list, hover the "Alyssa Coleman" calendar,
+#      click the three-dot menu, choose "Settings and sharing".
+#   3. Scroll down to "Secret address in iCal format" and copy that URL
+#      (it ends in .ics and contains a long random token - treat it like a
+#      password; anyone with it can read the calendar).
+#   4. Create/edit the file:  C:\Users\accol\.config\meetily-calendar.json
+#      with exactly this content (paste the URL between the quotes):
 #
-# Step 3 — First run (OAuth consent)
-#   Run this script once manually in a normal (non-elevated) PowerShell window.
-#   The script detects no token and opens your default browser to the Google
-#   consent page. Sign in, grant access, and copy the authorization code back
-#   into the terminal prompt. The token (including refresh_token) is saved to:
-#        C:\Users\accol\.config\google-calendar-token.json
+#        {
+#          "ical_url": "https://calendar.google.com/calendar/ical/.../basic.ics"
+#        }
 #
-# Step 4 — Subsequent runs (fully silent)
-#   The script checks whether the access_token is expired. If so, it uses the
-#   saved refresh_token to get a new access_token automatically — no browser,
-#   no prompt. The Task Scheduler weekly trigger handles this going forward.
+#   That's it. The launcher reads only the primary "Alyssa Coleman" calendar
+#   (Google account accoleman100@gmail.com, timezone America/Toronto).
+#
+# SECURITY: the secret URL lives ONLY in that config file, never in this script
+# and never in the repo. If it ever leaks, use "Reset" next to the secret
+# address in Google Calendar settings to rotate it, then update the config file.
 #
 # =========================================================================
-# MEETING FILTER RULES
+# MEETING FILTER RULES  (unchanged from the previous version)
 # =========================================================================
 #
 # ALWAYS EXCLUDE:
 #   - All-day events (never meetings).
 #   - Any event whose title contains "Stacia" (coworking session, not recorded).
-#   - "Camila x Alyssa" occurring on a Tuesday (coworking on Tuesdays, not recorded).
+#   - "Camila x Alyssa" occurring on a Tuesday (coworking on Tuesdays).
 #
 # ALWAYS INCLUDE:
-#   - "Camila x Alyssa" occurring on a Monday (biweekly recorded session — include).
-#   - Any event with a video link in subject/description/location
-#     (meet.google, zoom, teams, webex, whereby, loom, bluejeans, gotomeet,
-#      skype, discord.gg, around.co, livestorm, etc.).
+#   - "Camila x Alyssa" occurring on a Monday (biweekly recorded session).
+#   - Any event with a video link in subject/description/location.
 #   - Any event with at least 1 external attendee (anyone who is not Alyssa).
 #   - Any event with duration >= 30 minutes.
 #
@@ -59,6 +57,35 @@
 #               so re-runs are fully idempotent.
 #
 # =========================================================================
+# RECURRING EVENTS (iCal wrinkle)
+# =========================================================================
+# The secret .ics feed returns raw VEVENTs - recurring meetings arrive as a
+# single VEVENT with an RRULE, NOT pre-expanded (the old Google API path used
+# singleEvents=true to expand them for us). This script expands recurring
+# events into concrete instances for the current Mon-Sun week itself.
+#
+# HANDLED:  single (non-recurring) events; FREQ=WEEKLY at any INTERVAL
+#           (INTERVAL=2 == biweekly, e.g. the "Camila x Alyssa" Monday);
+#           BYDAY, UNTIL, and EXDATE are honored.
+# NOT FULLY HANDLED:  FREQ=DAILY / MONTHLY / YEARLY are NOT expanded - for those
+#           only the base DTSTART occurrence is considered (and a WARN is
+#           logged). COUNT limits are not enforced (current-week scope makes
+#           this a non-issue in practice). DST boundaries: recurring instances
+#           are rebuilt from Toronto wall-clock time, so a meeting keeps its
+#           local start time across the spring/fall change (correct behavior).
+#           If a recurring meeting type beyond WEEKLY is ever needed, extend
+#           Expand-Recurrence below.
+# =========================================================================
+
+param(
+    # Optional: parse a local .ics file instead of fetching the secret URL
+    # (for read-only testing / debugging). Example:
+    #   .\meetily-weekly-launcher.ps1 -IcsFile C:\path\to\sample.ics -NoSchedule
+    [string]$IcsFile,
+    # Optional: parse + log qualifying meetings but do NOT create/delete any
+    # scheduled tasks. Safe read-only dry run.
+    [switch]$NoSchedule
+)
 
 $ErrorActionPreference = "Stop"
 
@@ -71,13 +98,9 @@ $LogFile          = "C:\Users\accol\AppData\Local\Temp\meetily-launcher.log"
 $LaunchLeadMin    = 2       # minutes before meeting start to fire the task
 $MinMeetingMin    = 30      # minimum event duration in minutes to qualify
 
-$TokenPath        = "C:\Users\accol\.config\google-calendar-token.json"
-$ClientPath       = "C:\Users\accol\.config\google-calendar-client.json"
-$CalendarId       = "accoleman100@gmail.com"
-$GoogleTokenUrl   = "https://oauth2.googleapis.com/token"
-$GoogleAuthUrl    = "https://accounts.google.com/o/oauth2/v2/auth"
-$CalendarScope    = "https://www.googleapis.com/auth/calendar.readonly"
-$MyEmail          = "accoleman100@gmail.com"   # Alyssa's own address — used to identify external attendees
+$CalConfigPath    = "C:\Users\accol\.config\meetily-calendar.json"
+$MyEmail          = "accoleman100@gmail.com"   # Alyssa's address - identifies external attendees
+$PrimaryTzId      = "America/Toronto"
 
 # ---------------------------------------------------------------
 # LOGGING
@@ -85,182 +108,318 @@ $MyEmail          = "accoleman100@gmail.com"   # Alyssa's own address — used t
 function Write-Log {
     param([string]$Message, [string]$Level = "INFO")
     $entry = "[{0}] [{1}] {2}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $Level, $Message
-    Add-Content -Path $LogFile -Value $entry
+    try { Add-Content -Path $LogFile -Value $entry } catch { }
     Write-Host $entry
 }
 
 # ---------------------------------------------------------------
-# VALIDATE ENVIRONMENT
+# TIMEZONE RESOLUTION
+# Windows PowerShell 5.1 (.NET Framework) does not accept IANA tz IDs like
+# "America/Toronto" - it needs the Windows ID "Eastern Standard Time".
+# PowerShell 7 (.NET 6+) accepts either. Try the ID directly, then fall back
+# to a small IANA->Windows map so this works under the 5.1 that the scheduled
+# task launches via powershell.exe.
 # ---------------------------------------------------------------
-Write-Log "Meetily Weekly Launcher starting (Google Calendar API mode)."
-
-if (-not (Test-Path $MeetilyExe)) {
-    Write-Log "ERROR: Meetily.exe not found at: $MeetilyExe" "ERROR"
-    Write-Log "Update the `$MeetilyExe variable and re-run." "ERROR"
-    exit 1
+$IanaToWindowsTz = @{
+    "America/Toronto"     = "Eastern Standard Time"
+    "America/New_York"    = "Eastern Standard Time"
+    "America/Chicago"     = "Central Standard Time"
+    "America/Denver"      = "Mountain Standard Time"
+    "America/Los_Angeles" = "Pacific Standard Time"
+    "America/Vancouver"   = "Pacific Standard Time"
+    "UTC"                 = "UTC"
 }
 
-if (-not (Test-Path $ClientPath)) {
-    Write-Log "ERROR: Google OAuth client file not found at: $ClientPath" "ERROR"
-    Write-Log "See SETUP STEP 2 in the script header." "ERROR"
-    exit 1
-}
-
-# ---------------------------------------------------------------
-# LOAD CLIENT CREDENTIALS
-# ---------------------------------------------------------------
-$client = Get-Content $ClientPath -Raw | ConvertFrom-Json
-
-# The client_secret JSON Google generates has a top-level key that varies:
-# "installed" for Desktop apps, "web" for web apps. We handle both.
-if ($client.PSObject.Properties.Name -contains "installed") {
-    $clientId     = $client.installed.client_id
-    $clientSecret = $client.installed.client_secret
-    $redirectUri  = ($client.installed.redirect_uris | Where-Object { $_ -match "localhost|urn:ietf" } | Select-Object -First 1)
-    if (-not $redirectUri) { $redirectUri = "urn:ietf:wg:oauth:2.0:oob" }
-}
-elseif ($client.PSObject.Properties.Name -contains "web") {
-    $clientId     = $client.web.client_id
-    $clientSecret = $client.web.client_secret
-    $redirectUri  = "urn:ietf:wg:oauth:2.0:oob"
-}
-else {
-    Write-Log "ERROR: Unrecognised client_secret JSON format in $ClientPath" "ERROR"
-    exit 1
-}
-
-# ---------------------------------------------------------------
-# TOKEN MANAGEMENT — refresh or obtain via browser flow
-# ---------------------------------------------------------------
-function Get-AccessToken {
-    # Returns a valid access_token string.
-
-    # --- Try existing token file ---
-    if (Test-Path $TokenPath) {
-        $token = Get-Content $TokenPath -Raw | ConvertFrom-Json
-
-        # Check expiry. Tokens live ~3600 s; we treat anything with < 60 s left as expired.
-        $expiresAt = [datetime]::Parse($token.expires_at)
-        if ((Get-Date) -lt $expiresAt.AddSeconds(-60)) {
-            Write-Log "Using cached access token (expires $($token.expires_at))."
-            return $token.access_token
+function Resolve-TimeZone {
+    param([string]$TzId)
+    try {
+        return [System.TimeZoneInfo]::FindSystemTimeZoneById($TzId)
+    }
+    catch {
+        if ($IanaToWindowsTz.ContainsKey($TzId)) {
+            return [System.TimeZoneInfo]::FindSystemTimeZoneById($IanaToWindowsTz[$TzId])
         }
+        Write-Log "Unknown TZID '$TzId' - falling back to $PrimaryTzId." "WARN"
+        return [System.TimeZoneInfo]::FindSystemTimeZoneById($IanaToWindowsTz[$PrimaryTzId])
+    }
+}
 
-        # --- Refresh ---
-        if ($token.refresh_token) {
-            Write-Log "Access token expired — refreshing silently."
-            $body = @{
-                client_id     = $clientId
-                client_secret = $clientSecret
-                refresh_token = $token.refresh_token
-                grant_type    = "refresh_token"
+$TorontoTz = Resolve-TimeZone $PrimaryTzId
+
+# ---------------------------------------------------------------
+# iCAL DATE PARSING
+# Returns a hashtable @{ Instant = [DateTimeOffset]; AllDay = [bool] }.
+# Handles three DTSTART/DTEND shapes:
+#   - VALUE=DATE (all-day):        20260615
+#   - UTC:                         20260615T130000Z
+#   - TZID / floating local:       20260615T090000  (with TZID=... param)
+# ---------------------------------------------------------------
+function ConvertFrom-ICalDate {
+    param([string[]]$Params, [string]$Value)
+
+    $tzid   = $null
+    $isDate = $false
+    foreach ($p in $Params) {
+        if ($p -match '^(?i)TZID=(.+)$')   { $tzid = $Matches[1] }
+        if ($p -match '^(?i)VALUE=DATE$')  { $isDate = $true }
+    }
+
+    # All-day (date only)
+    if ($isDate -or ($Value.Length -eq 8 -and $Value -notmatch 'T')) {
+        $d   = [datetime]::ParseExact($Value.Substring(0,8), "yyyyMMdd", $null)
+        $d   = [datetime]::SpecifyKind($d, 'Unspecified')
+        $utc = [System.TimeZoneInfo]::ConvertTimeToUtc($d, $TorontoTz)
+        return @{ Instant = [DateTimeOffset]::new([datetime]::SpecifyKind($utc, 'Utc')); AllDay = $true }
+    }
+
+    # UTC ("Z" suffix)
+    if ($Value.EndsWith('Z')) {
+        $naive = [datetime]::ParseExact($Value.TrimEnd('Z'), "yyyyMMddTHHmmss", $null)
+        $naive = [datetime]::SpecifyKind($naive, 'Utc')
+        return @{ Instant = [DateTimeOffset]::new($naive); AllDay = $false }
+    }
+
+    # TZID or floating local
+    $naive = [datetime]::ParseExact($Value, "yyyyMMddTHHmmss", $null)
+    $naive = [datetime]::SpecifyKind($naive, 'Unspecified')
+    $tz    = if ($tzid) { Resolve-TimeZone $tzid } else { $TorontoTz }
+    $utc   = [System.TimeZoneInfo]::ConvertTimeToUtc($naive, $tz)
+    return @{ Instant = [DateTimeOffset]::new([datetime]::SpecifyKind($utc, 'Utc')); AllDay = $false }
+}
+
+# Toronto wall-clock DateTime (Unspecified kind) for a given instant
+function Get-TorontoWall {
+    param([DateTimeOffset]$Instant)
+    return [System.TimeZoneInfo]::ConvertTimeFromUtc($Instant.UtcDateTime, $TorontoTz)
+}
+
+# ---------------------------------------------------------------
+# ICS LOADING (fetch from secret URL, or read a local file for testing)
+# ---------------------------------------------------------------
+function Get-ICalText {
+    if ($IcsFile) {
+        if (-not (Test-Path $IcsFile)) {
+            Write-Log "ERROR: -IcsFile not found: $IcsFile" "ERROR"
+            exit 1
+        }
+        Write-Log "Reading calendar from local file: $IcsFile"
+        return (Get-Content $IcsFile -Raw)
+    }
+
+    if (-not (Test-Path $CalConfigPath)) {
+        Write-Log "ERROR: Calendar config not found: $CalConfigPath" "ERROR"
+        Write-Log "See ONE-TIME SETUP in the script header - paste the secret iCal URL there." "ERROR"
+        exit 1
+    }
+
+    $cfg = Get-Content $CalConfigPath -Raw | ConvertFrom-Json
+    $url = $cfg.ical_url
+    if (-not $url) {
+        Write-Log "ERROR: '$CalConfigPath' is missing the 'ical_url' key." "ERROR"
+        Write-Log "Expected: { \"ical_url\": \"https://calendar.google.com/calendar/ical/.../basic.ics\" }" "ERROR"
+        exit 1
+    }
+
+    # Mask the token when logging - never echo the secret URL in full
+    $masked = $url -replace '/ical/.*?/', '/ical/****/'
+    Write-Log "Fetching calendar from secret iCal feed: $masked"
+
+    $maxAttempts = 4
+    for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
+        try {
+            $resp = Invoke-RestMethod -Uri $url -Method Get -TimeoutSec 30
+            return [string]$resp
+        }
+        catch {
+            $wait = [math]::Pow(2, $attempt)   # 2,4,8,16s backoff
+            Write-Log "iCal fetch attempt $attempt/$maxAttempts failed: $($_.Exception.Message)" "WARN"
+            if ($attempt -eq $maxAttempts) {
+                Write-Log "ERROR: could not fetch the iCal feed after $maxAttempts attempts." "ERROR"
+                Write-Log "Check the secret URL in $CalConfigPath and network connectivity." "ERROR"
+                exit 1
             }
-            try {
-                $resp = Invoke-RestMethod -Uri $GoogleTokenUrl -Method Post -Body $body -ContentType "application/x-www-form-urlencoded"
-                $token.access_token = $resp.access_token
-                $token.expires_at   = (Get-Date).AddSeconds($resp.expires_in).ToString("o")
-                # refresh_token is not re-issued on refresh; keep the existing one
-                $token | ConvertTo-Json | Set-Content $TokenPath
-                Write-Log "Token refreshed successfully."
-                return $token.access_token
+            Start-Sleep -Seconds $wait
+        }
+    }
+}
+
+# ---------------------------------------------------------------
+# ICS PARSING -> list of raw VEVENT property maps
+# Unfolds RFC5545 line folding (continuation lines start with space/tab),
+# then splits into VEVENT blocks and parses NAME;PARAMS:VALUE lines.
+# ---------------------------------------------------------------
+function Read-VEvents {
+    param([string]$Text)
+
+    # Normalize line endings and unfold
+    $rawLines = $Text -replace "`r`n", "`n" -replace "`r", "`n" -split "`n"
+    $lines = New-Object System.Collections.Generic.List[string]
+    foreach ($ln in $rawLines) {
+        if ($ln.Length -gt 0 -and ($ln[0] -eq ' ' -or $ln[0] -eq "`t")) {
+            if ($lines.Count -gt 0) {
+                $lines[$lines.Count - 1] = $lines[$lines.Count - 1] + $ln.Substring(1)
             }
-            catch {
-                Write-Log "Token refresh failed: $($_.Exception.Message)" "WARN"
-                Write-Log "Will fall through to browser-based consent." "WARN"
-            }
+        }
+        else {
+            $lines.Add($ln)
         }
     }
 
-    # --- Browser-based consent flow ---
-    Write-Log "No valid token found — starting OAuth consent flow."
-    $authParams = @{
-        client_id     = $clientId
-        redirect_uri  = $redirectUri
-        response_type = "code"
-        scope         = $CalendarScope
-        access_type   = "offline"
-        prompt        = "consent"
+    $events   = @()
+    $inEvent  = $false
+    $current  = $null
+
+    foreach ($ln in $lines) {
+        if ($ln -eq "BEGIN:VEVENT") {
+            $inEvent = $true
+            $current = @{ ATTENDEES = @(); EXDATES = @() }
+            continue
+        }
+        if ($ln -eq "END:VEVENT") {
+            if ($current) { $events += $current }
+            $inEvent = $false
+            $current = $null
+            continue
+        }
+        if (-not $inEvent) { continue }
+
+        $idx = $ln.IndexOf(':')
+        if ($idx -lt 0) { continue }
+        $left   = $ln.Substring(0, $idx)
+        $value  = $ln.Substring($idx + 1)
+        $segs   = $left -split ';'
+        $name   = $segs[0].ToUpper()
+        $params = if ($segs.Count -gt 1) { $segs[1..($segs.Count - 1)] } else { @() }
+
+        switch ($name) {
+            "SUMMARY"     { $current["SUMMARY"]     = $value }
+            "DESCRIPTION" { $current["DESCRIPTION"] = $value }
+            "LOCATION"    { $current["LOCATION"]    = $value }
+            "RRULE"       { $current["RRULE"]       = $value }
+            "DTSTART"     { $current["DTSTART"]      = ConvertFrom-ICalDate -Params $params -Value $value
+                            $current["DTSTART_TZ"]   = ($params | Where-Object { $_ -match '^(?i)TZID=' }) }
+            "DTEND"       { $current["DTEND"]        = ConvertFrom-ICalDate -Params $params -Value $value }
+            "ATTENDEE"    {
+                if ($value -match '(?i)mailto:(.+)$') { $current["ATTENDEES"] += $Matches[1].Trim() }
+            }
+            "EXDATE"      {
+                foreach ($v in ($value -split ',')) {
+                    $current["EXDATES"] += (ConvertFrom-ICalDate -Params $params -Value $v.Trim()).Instant
+                }
+            }
+        }
     }
-    $queryString = ($authParams.GetEnumerator() | ForEach-Object {
-        "$([Uri]::EscapeDataString($_.Key))=$([Uri]::EscapeDataString($_.Value))"
-    }) -join "&"
-    $authUri = "${GoogleAuthUrl}?${queryString}"
-
-    Write-Log "Opening browser for Google OAuth consent..."
-    Start-Process $authUri
-
-    Write-Host ""
-    Write-Host "==================================================================="
-    Write-Host " A browser window has opened for Google OAuth consent."
-    Write-Host " Sign in with accoleman100@gmail.com, grant access, then"
-    Write-Host " copy the authorization code shown on the page and paste it below."
-    Write-Host "==================================================================="
-    Write-Host ""
-    $authCode = Read-Host "Paste the authorization code here"
-
-    $body = @{
-        client_id     = $clientId
-        client_secret = $clientSecret
-        code          = $authCode
-        redirect_uri  = $redirectUri
-        grant_type    = "authorization_code"
-    }
-    $resp = Invoke-RestMethod -Uri $GoogleTokenUrl -Method Post -Body $body -ContentType "application/x-www-form-urlencoded"
-
-    $tokenObj = [PSCustomObject]@{
-        access_token  = $resp.access_token
-        refresh_token = $resp.refresh_token
-        expires_at    = (Get-Date).AddSeconds($resp.expires_in).ToString("o")
-        token_type    = $resp.token_type
-    }
-
-    # Ensure config dir exists
-    $configDir = Split-Path $TokenPath
-    if (-not (Test-Path $configDir)) { New-Item -ItemType Directory -Path $configDir | Out-Null }
-
-    $tokenObj | ConvertTo-Json | Set-Content $TokenPath
-    Write-Log "Token obtained and saved to $TokenPath."
-    return $resp.access_token
+    return $events
 }
 
-$accessToken = Get-AccessToken
-
 # ---------------------------------------------------------------
-# COMPUTE WEEK WINDOW (Mon 00:00 to Sun 23:59:59 local time)
+# RECURRENCE EXPANSION
+# Given a VEVENT and the current Mon-Sun Toronto week window, returns a list of
+# concrete @{ Instant; Duration } start instances that fall inside the week.
 # ---------------------------------------------------------------
-$today     = (Get-Date).Date
-$dayOfWeek = [int](Get-Date).DayOfWeek   # 0=Sun, 1=Mon ... 6=Sat
-$daysToMon = if ($dayOfWeek -eq 0) { -6 } else { 1 - $dayOfWeek }
-$weekStart = $today.AddDays($daysToMon)
-$weekEnd   = $weekStart.AddDays(7).AddSeconds(-1)
+$ByDayOffset = @{ "MO" = 0; "TU" = 1; "WE" = 2; "TH" = 3; "FR" = 4; "SA" = 5; "SU" = 6 }
 
-# Google Calendar API uses RFC3339 UTC
-$timeMin = $weekStart.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-$timeMax = $weekEnd.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+function Expand-Recurrence {
+    param($Evt, [datetime]$WeekStartTor, [datetime]$WeekEndTor)
 
-Write-Log ("Week window (local): {0:yyyy-MM-dd} Mon 00:00 to {1:yyyy-MM-dd} Sun 23:59:59" -f $weekStart, $weekEnd)
+    $dtStart = $Evt["DTSTART"]
+    if (-not $dtStart) { return @() }
+    $startInstant = $dtStart.Instant
+    $duration = if ($Evt["DTEND"]) { $Evt["DTEND"].Instant - $startInstant } else { [TimeSpan]::FromMinutes(0) }
 
-# ---------------------------------------------------------------
-# FETCH EVENTS FROM GOOGLE CALENDAR API
-# ---------------------------------------------------------------
-$headers = @{ Authorization = "Bearer $accessToken" }
+    $results = @()
 
-# Build query — singleEvents=true expands recurring events
-$calApiUrl = "https://www.googleapis.com/calendar/v3/calendars/{0}/events" -f [Uri]::EscapeDataString($CalendarId)
-$calParams = "singleEvents=true&orderBy=startTime&timeMin={0}&timeMax={1}&maxResults=500" -f `
-    [Uri]::EscapeDataString($timeMin), [Uri]::EscapeDataString($timeMax)
+    # --- Non-recurring single event ---
+    if (-not $Evt["RRULE"]) {
+        $wall = Get-TorontoWall -Instant $startInstant
+        if ($wall -ge $WeekStartTor -and $wall -lt $WeekEndTor) {
+            $results += @{ Instant = $startInstant; Duration = $duration; AllDay = $dtStart.AllDay }
+        }
+        return $results
+    }
 
-try {
-    $response = Invoke-RestMethod -Uri "${calApiUrl}?${calParams}" -Headers $headers -Method Get
+    # --- Parse RRULE ---
+    $rrule = @{}
+    foreach ($part in ($Evt["RRULE"] -split ';')) {
+        $kv = $part -split '=', 2
+        if ($kv.Count -eq 2) { $rrule[$kv[0].ToUpper()] = $kv[1] }
+    }
+    $freq     = $rrule["FREQ"]
+    $interval = if ($rrule["INTERVAL"]) { [int]$rrule["INTERVAL"] } else { 1 }
+
+    $untilInstant = $null
+    if ($rrule["UNTIL"]) {
+        $u = $rrule["UNTIL"]
+        try {
+            if ($u.EndsWith('Z')) {
+                $n = [datetime]::SpecifyKind([datetime]::ParseExact($u.TrimEnd('Z'), "yyyyMMddTHHmmss", $null), 'Utc')
+                $untilInstant = [DateTimeOffset]::new($n)
+            } elseif ($u.Length -eq 8) {
+                $n = [datetime]::SpecifyKind([datetime]::ParseExact($u, "yyyyMMdd", $null), 'Unspecified')
+                $untilInstant = [DateTimeOffset]::new([System.TimeZoneInfo]::ConvertTimeToUtc($n, $TorontoTz))
+            } else {
+                $n = [datetime]::SpecifyKind([datetime]::ParseExact($u, "yyyyMMddTHHmmss", $null), 'Unspecified')
+                $untilInstant = [DateTimeOffset]::new([System.TimeZoneInfo]::ConvertTimeToUtc($n, $TorontoTz))
+            }
+        } catch { $untilInstant = $null }
+    }
+
+    $exSet = @{}
+    foreach ($ex in $Evt["EXDATES"]) { $exSet[$ex.UtcDateTime.ToString("o")] = $true }
+
+    $startWall = Get-TorontoWall -Instant $startInstant
+    $timeOfDay = $startWall.TimeOfDay
+
+    if ($freq -ne "WEEKLY") {
+        # DAILY / MONTHLY / YEARLY are not expanded. Consider only the base
+        # occurrence if it happens to land in this week, and warn.
+        Write-Log ("  WARN unhandled RRULE FREQ='{0}' on '{1}' - only base occurrence checked." -f $freq, $Evt["SUMMARY"]) "WARN"
+        if ($startWall -ge $WeekStartTor -and $startWall -lt $WeekEndTor) {
+            $results += @{ Instant = $startInstant; Duration = $duration; AllDay = $dtStart.AllDay }
+        }
+        return $results
+    }
+
+    # --- WEEKLY (covers biweekly via INTERVAL) ---
+    # Which weekdays does the series land on?
+    $byDays = @()
+    if ($rrule["BYDAY"]) {
+        foreach ($d in ($rrule["BYDAY"] -split ',')) {
+            $code = ($d -replace '[^A-Za-z]', '').ToUpper()
+            if ($ByDayOffset.ContainsKey($code)) { $byDays += $code }
+        }
+    }
+    if ($byDays.Count -eq 0) {
+        # default to DTSTART's own weekday
+        $dow = [int]$startWall.DayOfWeek           # Sun=0..Sat=6
+        $offset = if ($dow -eq 0) { 6 } else { $dow - 1 }
+        $byDays += ($ByDayOffset.GetEnumerator() | Where-Object { $_.Value -eq $offset }).Key
+    }
+
+    # Interval alignment: weeks between DTSTART's Monday and this week's Monday.
+    $sDow = [int]$startWall.DayOfWeek
+    $sDaysToMon = if ($sDow -eq 0) { -6 } else { 1 - $sDow }
+    $startWeekMon = $startWall.Date.AddDays($sDaysToMon)
+    $weeksDiff = [int](($WeekStartTor - $startWeekMon).Days / 7)
+    if ($weeksDiff -lt 0 -or ($weeksDiff % $interval) -ne 0) {
+        return @()   # this week is an "off" week for the series
+    }
+
+    foreach ($code in $byDays) {
+        $candDate = $WeekStartTor.AddDays($ByDayOffset[$code])   # Toronto date this week
+        $candWall = [datetime]::SpecifyKind($candDate.Date.Add($timeOfDay), 'Unspecified')
+        if ($candWall -lt $WeekStartTor -or $candWall -ge $WeekEndTor) { continue }
+        $candUtc     = [System.TimeZoneInfo]::ConvertTimeToUtc($candWall, $TorontoTz)
+        $candInstant = [DateTimeOffset]::new([datetime]::SpecifyKind($candUtc, 'Utc'))
+
+        if ($candInstant -lt $startInstant) { continue }                       # before series start
+        if ($untilInstant -and $candInstant -gt $untilInstant) { continue }    # after UNTIL
+        if ($exSet.ContainsKey($candInstant.UtcDateTime.ToString("o"))) { continue }  # EXDATE
+
+        $results += @{ Instant = $candInstant; Duration = $duration; AllDay = $dtStart.AllDay }
+    }
+    return $results
 }
-catch {
-    Write-Log "Google Calendar API call failed: $($_.Exception.Message)" "ERROR"
-    Write-Log "Check that the token is valid and the Calendar API is enabled in your Cloud project." "ERROR"
-    exit 1
-}
-
-$rawItems = $response.items
-Write-Log "Raw events returned from Google Calendar: $($rawItems.Count)"
 
 # ---------------------------------------------------------------
 # VIDEO LINK DETECTION PATTERN
@@ -268,64 +427,48 @@ Write-Log "Raw events returned from Google Calendar: $($rawItems.Count)"
 $videoPattern = 'meet\.google|zoom\.us|teams\.microsoft|webex|whereby|loom\.com|bluejeans|gotomeet|skype|discord\.gg|around\.co|livestorm'
 
 # ---------------------------------------------------------------
-# FILTER EVENTS USING EXPLICIT RULES
+# FILTER: is this concrete instance a recordable meeting?
 # ---------------------------------------------------------------
 function Test-IsMeeting {
-    param($Item)
+    param($Evt, $Instance)
 
-    $subject  = if ($Item.summary)       { $Item.summary }       else { "" }
-    $desc     = if ($Item.description)   { $Item.description }   else { "" }
-    $location = if ($Item.location)      { $Item.location }      else { "" }
+    $subject  = if ($Evt["SUMMARY"])     { $Evt["SUMMARY"] }     else { "" }
+    $desc     = if ($Evt["DESCRIPTION"]) { $Evt["DESCRIPTION"] } else { "" }
+    $location = if ($Evt["LOCATION"])    { $Evt["LOCATION"] }    else { "" }
     $combined = "$subject $desc $location"
 
-    # All-day events have a "date" key instead of "dateTime" — exclude them
-    if ($Item.start.PSObject.Properties.Name -notcontains "dateTime") {
+    if ($Instance.AllDay) {
         Write-Log ("  EXCLUDE all-day: '{0}'" -f $subject)
         return $false
     }
 
-    $startDt = [datetime]::Parse($Item.start.dateTime).ToLocalTime()
-    $endDt   = [datetime]::Parse($Item.end.dateTime).ToLocalTime()
-    $durationMin = ($endDt - $startDt).TotalMinutes
-    $dayOfWeekNum = [int]$startDt.DayOfWeek   # 0=Sun, 1=Mon, 2=Tue, ...
+    $startTor    = Get-TorontoWall -Instant $Instance.Instant
+    $durationMin = $Instance.Duration.TotalMinutes
+    $dayNum      = [int]$startTor.DayOfWeek    # 0=Sun,1=Mon,2=Tue,...
 
-    # EXCLUDE — contains "Stacia" (coworking, never record)
     if ($subject -match "Stacia") {
         Write-Log ("  EXCLUDE Stacia coworking: '{0}'" -f $subject)
         return $false
     }
-
-    # EXCLUDE — "Camila x Alyssa" on Tuesday (coworking, not a recorded meeting)
-    if ($subject -match "Camila.{0,5}Alyssa" -and $dayOfWeekNum -eq 2) {
+    if ($subject -match "Camila.{0,5}Alyssa" -and $dayNum -eq 2) {
         Write-Log ("  EXCLUDE Camila x Alyssa Tuesday: '{0}'" -f $subject)
         return $false
     }
-
-    # INCLUDE — "Camila x Alyssa" on Monday (biweekly recorded session)
-    if ($subject -match "Camila.{0,5}Alyssa" -and $dayOfWeekNum -eq 1) {
+    if ($subject -match "Camila.{0,5}Alyssa" -and $dayNum -eq 1) {
         Write-Log ("  INCLUDE Camila x Alyssa Monday: '{0}'" -f $subject)
         return $true
     }
-
-    # INCLUDE — video link detected in subject, description, or location
     if ($combined -match $videoPattern) {
         Write-Log ("  INCLUDE video link: '{0}'" -f $subject)
         return $true
     }
-
-    # INCLUDE — at least 1 external attendee (someone who is not Alyssa)
-    $attendees = $Item.attendees
-    if ($attendees) {
-        $externalCount = ($attendees | Where-Object {
-            $_.email -and ($_.email -ne $MyEmail) -and ($_.email -notmatch "^resource\.")
-        }).Count
-        if ($externalCount -ge 1) {
-            Write-Log ("  INCLUDE external attendee(s) ({0}): '{1}'" -f $externalCount, $subject)
-            return $true
-        }
+    $externalCount = ($Evt["ATTENDEES"] | Where-Object {
+        $_ -and ($_ -ne $MyEmail) -and ($_ -notmatch "^resource\.")
+    }).Count
+    if ($externalCount -ge 1) {
+        Write-Log ("  INCLUDE external attendee(s) ({0}): '{1}'" -f $externalCount, $subject)
+        return $true
     }
-
-    # INCLUDE — duration >= 30 minutes
     if ($durationMin -ge $MinMeetingMin) {
         Write-Log ("  INCLUDE duration {0} min: '{1}'" -f [int]$durationMin, $subject)
         return $true
@@ -335,22 +478,57 @@ function Test-IsMeeting {
     return $false
 }
 
-# Build the filtered event list with parsed datetimes for later use
+# ---------------------------------------------------------------
+# MAIN
+# ---------------------------------------------------------------
+Write-Log "Meetily Weekly Launcher starting (headless iCal mode)."
+
+if (-not (Test-Path $MeetilyExe)) {
+    Write-Log "ERROR: Meetily.exe not found at: $MeetilyExe" "ERROR"
+    exit 1
+}
+
+# --- Compute the Mon-Sun week window in Toronto wall-clock time ---
+$nowTor       = [System.TimeZoneInfo]::ConvertTimeFromUtc([datetime]::UtcNow, $TorontoTz)
+$todayTor     = $nowTor.Date
+$dow          = [int]$todayTor.DayOfWeek        # 0=Sun,1=Mon,...
+$daysToMon    = if ($dow -eq 0) { -6 } else { 1 - $dow }
+$weekStartTor = $todayTor.AddDays($daysToMon)                       # Monday 00:00 Toronto
+$weekEndTor   = $weekStartTor.AddDays(7)                            # next Monday 00:00 (exclusive)
+Write-Log ("Week window (Toronto): {0:yyyy-MM-dd} Mon 00:00 -> {1:yyyy-MM-dd} (exclusive)" -f $weekStartTor, $weekEndTor)
+
+# --- Load + parse the calendar ---
+$icsText = Get-ICalText
+$vevents = Read-VEvents -Text $icsText
+Write-Log "Raw VEVENTs parsed from feed: $($vevents.Count)"
+
+# --- Expand recurrence + filter into concrete qualifying meetings ---
 $events = @()
-foreach ($item in $rawItems) {
-    if (Test-IsMeeting -Item $item) {
-        $startLocal = [datetime]::Parse($item.start.dateTime).ToLocalTime()
-        $endLocal   = [datetime]::Parse($item.end.dateTime).ToLocalTime()
-        $events += [PSCustomObject]@{
-            Subject         = if ($item.summary) { $item.summary } else { "(no title)" }
-            StartTime       = $startLocal
-            EndTime         = $endLocal
-            DurationMinutes = ($endLocal - $startLocal).TotalMinutes
+foreach ($evt in $vevents) {
+    $instances = Expand-Recurrence -Evt $evt -WeekStartTor $weekStartTor -WeekEndTor $weekEndTor
+    foreach ($inst in $instances) {
+        if (Test-IsMeeting -Evt $evt -Instance $inst) {
+            $startLocal = $inst.Instant.LocalDateTime            # machine-local trigger time
+            $endLocal   = $startLocal.Add($inst.Duration)
+            $events += [PSCustomObject]@{
+                Subject         = if ($evt["SUMMARY"]) { $evt["SUMMARY"] } else { "(no title)" }
+                StartTime       = $startLocal
+                EndTime         = $endLocal
+                DurationMinutes = $inst.Duration.TotalMinutes
+            }
         }
     }
 }
-
 Write-Log "Qualifying meetings this week after filter: $($events.Count)"
+
+if ($NoSchedule) {
+    Write-Log "-NoSchedule set: read-only dry run, no scheduled tasks touched."
+    foreach ($evt in ($events | Sort-Object StartTime)) {
+        Write-Log ("  QUALIFIED: '{0}' {1:yyyy-MM-dd ddd HH:mm} ({2} min)" -f $evt.Subject, $evt.StartTime, [int]$evt.DurationMinutes)
+    }
+    Write-Log "Dry run complete."
+    return
+}
 
 # ---------------------------------------------------------------
 # CLEAN UP OLD MEETILY TASKS (idempotent)
@@ -373,7 +551,7 @@ catch {
 }
 
 # ---------------------------------------------------------------
-# CREATE NEW ONE-SHOT TASKS — ONE PER QUALIFYING MEETING
+# CREATE NEW ONE-SHOT TASKS - ONE PER QUALIFYING MEETING
 # ---------------------------------------------------------------
 $scheduled = 0
 $skipped   = 0
@@ -381,14 +559,12 @@ $skipped   = 0
 foreach ($evt in $events) {
     $launchTime = $evt.StartTime.AddMinutes(-$LaunchLeadMin)
 
-    # Skip events whose launch window is already in the past
     if ($launchTime -le (Get-Date)) {
         Write-Log ("Skipping past/imminent event: '{0}' at {1:HH:mm}" -f $evt.Subject, $evt.StartTime)
         $skipped++
         continue
     }
 
-    # Build safe task name: MeetilyLaunch-20260603-0900-standup
     $safeSubject = ($evt.Subject -replace '[^a-zA-Z0-9]', '-') -replace '-+', '-'
     $safeSubject = $safeSubject.Trim('-')
     if ($safeSubject.Length -gt 30) { $safeSubject = $safeSubject.Substring(0, 30) }
@@ -398,21 +574,17 @@ foreach ($evt in $events) {
         $evt.StartTime.ToString("HHmm"),
         $safeSubject
 
-    # Task action: launch Meetily as the current user
     $action = New-ScheduledTaskAction `
         -Execute "powershell.exe" `
         -Argument ("-NonInteractive -WindowStyle Hidden -Command ""Start-Process '{0}'""" -f $MeetilyExe)
 
-    # One-shot trigger at launch time
     $trigger = New-ScheduledTaskTrigger -Once -At $launchTime
 
-    # Run as current user, interactive session only
     $principal = New-ScheduledTaskPrincipal `
         -UserId ([System.Security.Principal.WindowsIdentity]::GetCurrent().Name) `
         -LogonType Interactive `
         -RunLevel Limited
 
-    # Auto-delete 2 hours after firing; run if missed within the session
     $settings = New-ScheduledTaskSettingsSet `
         -StartWhenAvailable `
         -ExecutionTimeLimit (New-TimeSpan -Minutes 2) `
@@ -428,7 +600,7 @@ foreach ($evt in $events) {
             -Description ("Auto-launch Meetily 2 min before: {0} at {1:HH:mm}" -f $evt.Subject, $evt.StartTime) `
             -Force | Out-Null
 
-        Write-Log ("Scheduled: '{0}' — task fires at {1:HH:mm}, meeting at {2:HH:mm}" -f `
+        Write-Log ("Scheduled: '{0}' - task fires at {1:HH:mm}, meeting at {2:HH:mm}" -f `
             $evt.Subject, $launchTime, $evt.StartTime)
         $scheduled++
     }
@@ -437,18 +609,14 @@ foreach ($evt in $events) {
     }
 }
 
-# ---------------------------------------------------------------
-# SUMMARY
-# ---------------------------------------------------------------
 Write-Log "Done. Scheduled: $scheduled | Skipped (past): $skipped | Log: $LogFile"
 
 <#
 =======================================================================
-FIRST-TIME TASK SCHEDULER REGISTRATION
+FIRST-TIME TASK SCHEDULER REGISTRATION  (weekly trigger)
 =======================================================================
-Run this block ONCE in an elevated PowerShell to register the weekly trigger.
-The main script above handles the per-meeting one-shot tasks automatically
-every Monday at 8:00 AM once this parent task is registered.
+Already registered as "Meetily Weekly Launcher" (Mon 8:00 AM). This block is
+kept for reference / re-registration. Run ONCE in an elevated PowerShell.
 
 $scriptPath = 'C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\Automations\meetily-weekly-launcher.ps1'
 
@@ -473,7 +641,7 @@ Register-ScheduledTask `
     -Trigger $trigger `
     -Principal $principal `
     -Settings $settings `
-    -Description "Reads Google Calendar via API and pre-schedules Meetily launches for the week." `
+    -Description "Reads the secret iCal feed and pre-schedules Meetily launches for the week." `
     -Force
 
 Write-Host "Registered: Meetily Weekly Launcher (runs every Monday 8:00 AM)"

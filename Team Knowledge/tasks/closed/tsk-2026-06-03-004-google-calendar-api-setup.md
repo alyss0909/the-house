@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 2
 
 # Status (mirrors folder location)
-status: open
+status: closed
 blocked_reason: null
 blocked_by: null
 
@@ -60,6 +60,7 @@ One-time setup so the Meetily weekly launcher can read your Google Calendar dire
 
 ## Updates
 - 2026-06-03 (larry) - created after Meetily automation build session
+- 2026-07-10 (larry) - CLOSED. Superseded by Meetily Version B rebuild — the launcher now reads the calendar via its private secret iCal (.ics) URL over plain HTTPS, so the Google Cloud project + OAuth desktop credentials are no longer needed.
 
 ## Outcome
-_(filled when status flips to done)_
+Superseded, not completed. Google Cloud OAuth path retired in favor of the headless secret-iCal launcher (`Team Knowledge/Automations/meetily-weekly-launcher.ps1`, rebuilt by Mack 2026-07-10). No Google Cloud console setup required anymore.

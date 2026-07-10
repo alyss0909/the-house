@@ -8,9 +8,9 @@ assignee: alyssa
 priority: 2
 
 # Status (mirrors folder location)
-status: open
-blocked_reason: Needs tsk-2026-06-03-004 completed first
-blocked_by: tsk-2026-06-03-004
+status: closed
+blocked_reason: null
+blocked_by: null
 
 # Time
 created: 2026-06-03T00:00:00Z
@@ -60,6 +60,7 @@ After completing tsk-2026-06-03-004 (Google Calendar API credentials), run the s
 
 ## Updates
 - 2026-06-03 (larry) - created after Meetily automation build session
+- 2026-07-10 (larry) - CLOSED. Superseded by Meetily Version B rebuild; the browser OAuth consent run is no longer part of the flow.
 
 ## Outcome
-_(filled when status flips to done)_
+Superseded, not completed. The secret-iCal launcher needs no browser OAuth run — go-live is a single config file (`C:\Users\accol\.config\meetily-calendar.json`) holding the calendar's secret .ics URL.
