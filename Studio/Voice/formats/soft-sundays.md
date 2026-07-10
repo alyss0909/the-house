@@ -23,3 +23,7 @@ Pulled only from patterns actually visible in the examples above.
 - **The Check In section ends on an open question for the reader to answer, not a CTA.** "my week would be a success if the only thing I did was ________________." The offer link comes after, in a Psst.
 - **Long sentences are the default register; a short staccato line appears only once, at the emotional high point.** "Gone." on its own line after a full paragraph of setup in [[Library/Examples/simmers/when-delta-stole-my-business-idea]] is the same device this format shares with Simmers.
 - **Time Luxuries section is reflective and unhurried, closer to a journal entry than marketing copy**, e.g. "2024 felt like tearing down a house I wasn't sure I wanted to live in anymore."
+
+## Hard guard: bold density
+
+**3-6 bolds per 200 words in The House Report**, and if only the bolds are read, the argument still has to hold. Products appear only after the teaching earns them, never cold. Full detail in [[Hermes/craft/emails-soft-sunday]]. (Note: some long-form origin-story emails run well above this ceiling in the corpus — that tension is still open and unconfirmed by Alyssa, see the audit's stale-items list; don't treat the higher number as a rule.)

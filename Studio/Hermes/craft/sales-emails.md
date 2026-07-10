@@ -1,3 +1,5 @@
+> Downstream reference — metabolized into [[Studio/Voice/README]] 2026-07-10; the Voice layer is authority. Historical depth lives here; new rules land in Voice first.
+
 <!-- token_ceiling: 1800 | confidence: MED-HIGH (n=6 examples + Kit stats) | examples: sales-emails/ -->
 
 # craft/sales-emails.md

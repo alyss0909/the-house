@@ -1,4 +1,4 @@
-> Downstream reference (2026-07-10): house voice authority is [[Studio/Voice/README]] + [[Library/Examples]]; on conflict, they win. See AGENTS.md "Voice is house-level".
+> Downstream reference — metabolized into [[Studio/Voice/README]] 2026-07-10; the Voice layer is authority. Historical depth lives here; new rules land in Voice first.
 
 <!-- token_ceiling: 2200 | ALYSSA'S OWN saved anti-AI rules (Notebook/Journal/2026/06/2026-04-27-its-not-x-its-y-anti-ai-writing.md, source: Ruben Hassid) + her 2026-07-05 corrections. MANDATORY final pass on every draft. -->
 

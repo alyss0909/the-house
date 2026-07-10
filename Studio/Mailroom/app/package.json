@@ -1,0 +1,17 @@
+{
+  "name": "mailroom-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The Mailroom — a clickable inbox dashboard whose buttons actually archive and draft via Gmail.",
+  "scripts": {
+    "start": "node server.js",
+    "sweep": "node sweep.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@composio/core": "^0.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

@@ -21,6 +21,12 @@ Before writing or answering in Alyssa's voice, load [[Studio/Voice/README]] (thi
 2. **The kill list is the editing pass, run after a draft exists.** [[Studio/Voice/KILL-LIST]] is not a writing guide. It is a checklist you run against a finished draft to catch AI tells: banned reframe shapes, banned vocabulary, punctuation rules, and the rule-priority order. It is sourced from [[Hermes/ANTI-AI]], which is itself built from Alyssa's own journal words, not from AI inference about her.
 3. **Everything in [[Hermes]] and [[Studio/Analysis]] is downstream reference, not authority.** Those folders hold prior analysis, judgment rules, and voice research built up over earlier phases of the project. They stay useful as reference material and historical context, but they no longer sit above the real examples in [[Library/Examples]]. When a rule in Hermes or Studio/Analysis conflicts with what her real examples actually show, the real examples win.
 
+## Published is not approved
+
+Provenance never overrules the tells. Judge every draft against [[Studio/Voice/KILL-LIST]] even when the source material is (or reads as) her real published work — the corpus contains at least one piece she later flagged as too-AI after it shipped ([[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]], a calibration miss caught in [[Hermes/MEAN-ALYSSA]]). Don't treat every file in [[Library/Examples]] as automatically safe to imitate wholesale just because it's in the examples-first folder — read it, and still run the kill list.
+
+If a format genuinely has no real example yet in [[Library/Examples]], the answer is to ask Alyssa, never to invent a register for her. See [[Hermes/MEAN-ALYSSA]] for the full verdict vocabulary this gate runs on.
+
 ## Not yet wired
 
 Two decisions are waiting on Alyssa and Larry before this layer is fully load-bearing across the house:

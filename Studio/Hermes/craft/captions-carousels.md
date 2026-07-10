@@ -1,3 +1,5 @@
+> Downstream reference — metabolized into [[Studio/Voice/README]] 2026-07-10; the Voice layer is authority. Historical depth lives here; new rules land in Voice first.
+
 <!-- token_ceiling: 2500 | confidence: HIGH — every rule cites a real slide/hook/caption | sources: Studio/Analysis/carousel-slide-by-slide.md, Studio/Analysis/Frameworks/social-hooks.md, Library/Examples/Carousels/captions.md -->
 
 # craft/captions-carousels.md

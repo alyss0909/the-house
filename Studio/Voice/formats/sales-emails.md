@@ -21,3 +21,12 @@ Pulled only from patterns actually visible in the examples above.
 - **The reply-word CTA is casual and cased like a text message.** "Reply Ghost your Feed Tmrw >>" and "Reply manual and I'll send you the link" both read like a friend texting a link, not a marketer issuing a directive.
 - **A PS repeats the CTA in fresh words**, never a verbatim copy-paste of the main CTA line.
 - **Trailing dots for a held pause.** "It's … not your BEST work.." uses the dot trail exactly where a sentence would otherwise just end.
+- **One coherent emoji family runs the whole email, food optional in the body.** The silent-killer email runs a magic-world escalation (🪄 x3 on the desire list, 🧚‍♀️ on the rarity beat, 🧙‍♂️ x3 on the system list) with zero cooking prose until the CTA layer and brand-close footer. Framework steps always take the four brand emoji: 🐌 BUILD / 💌 AUTOMATE / 📌 GROW / 🧸 SELL.
+
+## Launch doctrine
+
+From her Lazy Launch module, cited in [[Hermes/craft/sales-emails]]: **a launch is one conversion event plus five promo emails.** "Your urgency must be real." Reuse 80%+ of the launch copy each cycle; rotate the angle, not the system. Deliverable-inside brackets drive clicks ([replay inside], [PLAN INSIDE], [list inside]). Odd numbers beat round ("$12,212 coupon"). Coupon framing stays casual ("use code ORDERUP... before friday"). Never fear-urgency — scarcity of real spots and expiring replays only.
+
+## Segment register shift (Kit-verified)
+
+Full-list sends (~8k) run brand-forward subjects at 40-51% open. Buyer and registrant segments (60-900 people) reward the intimacy register instead — "you coming?" (76.7%), "you up? free custom bot delivery 🍔" (60%, 32.6% click), "💌 Here, take what worked" (57.8%, 32.8% click). A small list gets written like a text to a friend; logistics-plain beats clever at that scale ("📌 Class link {NAME}!" only pulled 2.69% click at full-list send).

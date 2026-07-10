@@ -1,4 +1,4 @@
-> Downstream reference (2026-07-10): house voice authority is [[Studio/Voice/README]] + [[Library/Examples]]; on conflict, they win. See AGENTS.md "Voice is house-level".
+> Downstream reference — metabolized into [[Studio/Voice/README]] 2026-07-10; the Voice layer is authority. Historical depth lives here; new rules land in Voice first.
 
 <!-- token_ceiling: 3500 | every rule cites tier-1 originals | refusals capped at ~20% of file -->
 

@@ -1,3 +1,5 @@
+> Downstream reference — metabolized into [[Studio/Voice/README]] 2026-07-10; the Voice layer is authority. Historical depth lives here; new rules land in Voice first.
+
 <!-- token_ceiling: 2500 | confidence: HIGH — authored writing skill from a team member who writes these; provided by Alyssa 2026-07-07 | pairs with: Library/Examples/Carousels/for-the-girls-slide-copy.md (verbatim examples) + craft/captions-carousels.md (deck spine) -->
 
 # craft/for-the-girls-posts.md
