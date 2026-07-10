@@ -47,6 +47,8 @@ Running list Alyssa has been adding to since 2024. Last updated June 8, 2026.
 - [The Rising Wolf](https://therisingwolf.com/cfc)
 - [Nina the Lawyer](https://ninathelawyer.com/services)
 - [Maison Audela — contact form](https://maisonaudela.com/contact) — cool form & off-kilter vibe
+
+How much is your time worth to you
 - [Wispr Flow pricing](https://wisprflow.ai/pricing) — kinda corporate but she likes elements
 
 ## Design inspo — IG / Pinterest accounts

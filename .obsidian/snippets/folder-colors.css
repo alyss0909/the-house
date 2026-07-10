@@ -41,17 +41,17 @@
 /* ── THE THREE TRUST ZONES (new primary structure, 2026-07-09) ── */
 .nav-folder[data-path="Notebook"] > .nav-folder-title,
 .nav-folder-title[data-path="Notebook"] {
-  background: #b4b7e6 !important;   /* periwinkle — her mind */
+  background: #f39ec2 !important;   /* her pink — her mind */
   border-radius: 4px;
 }
 .nav-folder[data-path="Studio"] > .nav-folder-title,
 .nav-folder-title[data-path="Studio"] {
-  background: #a3d9c9 !important;   /* teal — the workshop */
+  background: #c1d17c !important;   /* her sage — the workshop */
   border-radius: 4px;
 }
 .nav-folder[data-path="Library"] > .nav-folder-title,
 .nav-folder-title[data-path="Library"] {
-  background: #f4b8a1 !important;   /* soft coral — the shelf */
+  background: #fecc86 !important;   /* her peach — the shelf */
   border-radius: 4px;
 }
 
@@ -120,4 +120,17 @@
 .nav-folder[data-path="Library"] > .nav-folder-title .nav-folder-title-content::before {
   content: "❋ ";
   opacity: 0.8;
+}
+
+/* Archive zone — her ivory */
+.nav-folder[data-path="Archive"] > .nav-folder-title,
+.nav-folder-title[data-path="Archive"] {
+  background: #ffeec6 !important;
+  border-radius: 4px;
+}
+
+/* Hide Notebook/Images (load-bearing for journal embeds, but not for browsing) */
+.nav-folder:has(> .nav-folder-title[data-path="Notebook/Images"]),
+.nav-folder-title[data-path="Notebook/Images"] {
+  display: none !important;
 }

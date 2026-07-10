@@ -19,6 +19,7 @@ The note is useful as a planning checkpoint because it translates the broader Ca
 
 **Related notes**
 - [[2026-05-10-camila-onboarding|Camila Onboarding]]
+- [[2026-07-02-weekly-cadence-outline|Weekly Cadence Outline]] — her own later weekly-cadence sketch (Monday inbox update, Tuesday cowork, Wednesday workshop prep, Thursday pod-pitch tracker, Friday Notion)
 
 **Connections:** [[camila]] [[systematize-socials]] [[podcast-guesting-workflow]]
 

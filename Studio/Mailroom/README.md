@@ -23,13 +23,15 @@ The desk that keeps Alyssa's four inboxes clean so she stops avoiding them — n
 
 Account ids rotate on reconnect — always re-list via Composio, never hardcode from here.
 
+## The mechanism (keyless — no server, no API keys)
+
+The interface is [MAILROOM.md](MAILROOM.md): a gorgeous Obsidian note where Alyssa **ticks a checkbox** (the click) and the saved file (the notice) is read by the **`/mailroom`** command (`.claude/commands/mailroom.md`). Larry does the Gmail action with the Composio tools already in session — exactly the Content OS file+loop pattern, no standalone server and no Anthropic billing. A checked Put-away box archives that message; a checked Needs-reply box drafts the reply into Gmail Drafts. `dashboard.html` is kept only as the shareable artifact copy.
+
 ## The daily sweep
 
-1. Fetch each inbox (last ~14 days).
-2. Sort every message into three piles: **Needs reply** · **Your tasks** · **Put away**.
-3. A message only counts as *needs reply* if the **other person** sent the last real message. If Alyssa's side sent last, it's handled and drops — but the support auto-responder ("Hang tight. We're on it!") does **not** count as a reply.
-4. Refresh the dashboard ([dashboard.html](dashboard.html); live artifact link in memory).
-5. Alyssa reacts: draft, archive checked, tick tasks done.
+1. `/mailroom sweep` fetches each inbox and refills the Put-away list (promotions + social = safe noise; receipts, payments, security, and real people are left out).
+2. A message only counts as *needs reply* if the **other person** sent the last real message. If Alyssa's side sent last, it's handled and drops — but the support auto-responder ("Hang tight. We're on it!") does **not** count as a reply.
+3. Alyssa ticks boxes; `/mailroom` acts on them and logs to `## Mailroom reacts`.
 
 ## Doctrine
 

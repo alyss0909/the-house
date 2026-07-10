@@ -36,6 +36,8 @@ No agent writes, edits, appends to, or "improves" anything in the Notebook — n
 
 Everything outside that narrow lane stays read-only. When in doubt, treat the file as untouchable and ask.
 
+**The desk exception (standing, granted 2026-07-10).** [[Notebook/DESK]] is the one note in the Notebook the team may update without a per-edit request: it is the passing-notes surface where anything needing Alyssa's eyes gets linked, and ruled-on items come off. Links and one-line link descriptions only — never content, never her other notes. Every report for her goes on the desk; she never browses Deliverables.
+
 ### Rule 2 — Studio work is opinion until she promotes it.
 
 Everything the team makes is opinion, no matter how good. Analyzing Alyssa's real work is encouraged — that is how the house gets smarter — but the conclusion is never the truth. It is a labeled interpretation in the Studio. It becomes trusted only when Alyssa promotes it on purpose (a move to the Library plus a stamp: `promoted_by: alyssa`, `promoted_date`). No agent promotes its own work, and no agent proposes-and-executes a promotion in one step.

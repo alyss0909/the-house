@@ -46,3 +46,10 @@ If you know the exact bilirubin level that I should look for on my blood test th
 
 
 My opinion is that you have to be good at three things number one growing your audience I personally think Pinterest is the most low maintenance way to do this but she's whatever the f*** you want I've used Facebook ads have fun viral on Instagram and have close clients and my DMs I'm not above any of it too is email marketing I'm not going to give you options here that the matter is if you want to sell your services courses or consulting email is King and learning how to write f****** good emails is something Claude can't teach you contrary to popular belief number three is giving a s*** about whatever it is that you do this is the secret sauce nothing that I teach you will work if you don't have something here that I can amplify
+
+**Related notes**
+- [[Library/Offers/back-of-house/launch-emails-july-26|Launch Emails - July 26 (the sequence this fed)]]
+- [[2026-06-06-boh-launch-email-inspo|BOH launch email inspo (same day voice memo)]]
+- [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur|middle-ground-entrepreneur signal]]
+
+**Connections:** [[emails]]

@@ -1,3 +1,9 @@
+---
+promoted_by: alyssa
+promoted_date: 2026-07-10
+source_class: raw
+---
+
 Launch Emails Summer '26 Launch
 
 **

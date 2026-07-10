@@ -11,5 +11,6 @@
   "homepage",
   "customjs",
   "obsidian-shellcommands",
-  "terminal"
+  "terminal",
+  "obsidian-custom-frames"
 ]

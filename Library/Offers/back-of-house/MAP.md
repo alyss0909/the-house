@@ -70,3 +70,5 @@ Source URL: <https://alyssacoleman.ca/boh>
 - Real posts that pitched it: `Library/Examples/Carousels/2026-03-03-organic-marketing-is-dying`
 - Funnel neighbors: → [[rush-order]] (done-with-you upsell, idea stage, undecided placement per [[Studio/Hermes/BUSINESS]])
 
+
+- Her July 2026 launch email sequence (promoted 2026-07-10): [[Library/Offers/back-of-house/launch-emails-july-26|Launch Emails - July 26]] — raw source: [[2026-06-06-june-launch-email-ideas|the voice-memo riff behind it]]

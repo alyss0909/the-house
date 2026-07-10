@@ -852,6 +852,97 @@
 .dashboard .db-page-sub {
   color: var(--db-muted); font-size: 14px; margin: 6px 0 22px;
 }
+/* ============================================================
+   Mailroom (Studio/Mailroom/MAILROOM.md) — reuses the shared
+   .dashboard grammar above (oat cards, hairline border, AT KING
+   headings, Roboto Mono pills). New classes scoped to this desk
+   only: section-header chrome + account-color tags on real
+   markdown checkbox lines. (Iris, 2026-07-10)
+   ============================================================ */
+/* ---------- stat row (3 separate colored-top-border boxes, like Command
+   Center's pipeline strip) — replaces the single merged count pill. ---------- */
+.dashboard .db-mail-stats {
+  display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 18px;
+}
+.dashboard .db-mail-stat {
+  flex: 1; min-width: 150px;
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  border-top: 4px solid var(--db-muted);
+  padding: 12px 16px;
+}
+.dashboard .db-mail-stat .db-mail-stat-n {
+  font-family: "AT KING", Georgia, serif; font-size: 26px; line-height: 1; color: var(--db-heading);
+}
+.dashboard .db-mail-stat .db-mail-stat-l {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--db-muted); margin-top: 5px;
+}
+.dashboard .db-mail-stat.reply { border-top-color: var(--db-pink); }
+.dashboard .db-mail-stat.task { border-top-color: var(--db-peach); }
+.dashboard .db-mail-stat.away { border-top-color: var(--db-sage); }
+
+.dashboard .db-mail-section-title {
+  display: flex; align-items: baseline; gap: 10px; margin: 22px 0 10px;
+}
+.dashboard .db-mail-section-title h2 { margin: 0; font-size: 19px; }
+.dashboard .db-mail-section-icon { font-size: 17px; }
+.dashboard .db-mail-sub { color: var(--db-muted); font-size: 13px; margin: -4px 0 12px; }
+
+/* ---------- each checked item is its own card with a colored left accent
+   (matches the reply=pink / task=peach card grammar from the original
+   pretty mockup), not one flat list. Real GFM checkboxes stay real —
+   Obsidian owns click-to-check, source stays `- [ ]` / `- [x]`; this only
+   restyles the <li> the task list already renders into. ---------- */
+.dashboard ul.contains-task-list {
+  list-style: none; margin: 0 0 18px; padding: 0;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.dashboard ul.contains-task-list .task-list-item {
+  background: var(--db-oat); border: var(--db-border); border-left: 4px solid var(--db-muted);
+  border-radius: 10px; padding: 12px 16px;
+  margin: 0; display: flex; align-items: flex-start; gap: 10px;
+}
+.dashboard .db-mail-section-reply + ul.contains-task-list .task-list-item { border-left-color: var(--db-pink); }
+.dashboard .db-mail-section-task + ul.contains-task-list .task-list-item { border-left-color: var(--db-peach); }
+.dashboard .db-mail-section-away + ul.contains-task-list .task-list-item { border-left-color: var(--db-sage); }
+
+/* custom checkbox: filled pink/peach circle + white check on click, not the
+   bare native square — matches the pill/chip roundness of everything else. */
+.dashboard ul.contains-task-list .task-list-item-checkbox {
+  appearance: none; -webkit-appearance: none;
+  width: 22px; height: 22px; border-radius: 7px; border: 2px solid var(--db-terracotta);
+  background: #fff; flex: 0 0 auto; margin-top: 1px; cursor: pointer; position: relative;
+}
+.dashboard ul.contains-task-list .task-list-item-checkbox:checked {
+  background: var(--db-sage); border-color: var(--db-sage);
+}
+.dashboard ul.contains-task-list .task-list-item-checkbox:checked::after {
+  content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: #1a1a1a; font-size: 13px; font-weight: 700;
+}
+.dashboard ul.contains-task-list .task-list-item.is-checked { opacity: 0.55; }
+.dashboard ul.contains-task-list .task-list-item.is-checked > span:not(.db-acct-tag) { text-decoration: line-through; }
+
+/* account-color tags — inline <span> after the visible line text, mapped
+   to the vault's locked 5-color palette (hex only, no color names). */
+.dashboard .db-acct-tag {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  border: var(--db-border); border-radius: 999px; padding: 2px 11px; margin-left: 4px;
+  color: var(--db-heading); white-space: nowrap; align-self: flex-start;
+}
+.dashboard .db-acct-tag.business { background: var(--db-lavender); color: #fff; }
+.dashboard .db-acct-tag.support { background: var(--db-peach); }
+.dashboard .db-acct-tag.personal { background: var(--db-pink); }
+.dashboard .db-acct-tag.wellness { background: var(--db-sage); }
+
+.dashboard .db-mail-reacts {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 16px 20px; margin: 0 0 18px;
+  font-family: "Roboto Mono", monospace; font-size: 11px; color: var(--db-muted);
+  line-height: 1.7;
+}
+.dashboard .db-mail-reacts h2 { margin: 0 0 8px; font-family: "AT KING", Georgia, serif; font-size: 18px; color: var(--db-heading); }
+
 /* ---------- nav-to-title gap fix (locked 2026-07-07) ----------
    ROOT CAUSE (found via DOM inspection of the live render): Minimal theme's
    base vertical rhythm (`--p-spacing: 1.75rem` between top-level preview

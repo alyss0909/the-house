@@ -8,6 +8,8 @@ Target dimensions for the new desk in the office reno.
 
 2ft x 5ft approx -- a little shorter and a little less deep than the current desk.
 
+24" x 60"
+
 *[Original Keep note](https://keep.google.com/#NOTE/1k8J8rZlgLGbp8Rk7_yCcw4xYl3UD3lwVG_ZfQZJ0iBnxtodLpmpl9DkBMMED6A)*
 
 **Related notes**
