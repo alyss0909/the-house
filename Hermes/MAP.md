@@ -15,7 +15,7 @@ The clone does not eat summaries. It reads HER files, guided by this map. Rule o
 | `Notebook/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
 | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
 | `Library/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
-| quarantine (never load as voice) | [[Studio/Analysis/voice-profile]], [[Studio/Analysis/voice-archive]], [[Studio/Analysis/writing-style]] (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `Studio/Analysis/Templates/`, [[Library/Examples/Carousels/brief-bank]], all Wren files, stale-voice pages | SOURCES.md |
+| quarantine (never load as voice) | [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]], [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]], [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `Studio/Analysis/Templates/`, [[Library/Examples/Carousels/brief-bank]], all Wren files, stale-voice pages | SOURCES.md |
 
 ## 2. Task → mandatory source loads (the recipes)
 

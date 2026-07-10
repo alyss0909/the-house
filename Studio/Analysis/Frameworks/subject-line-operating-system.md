@@ -5,7 +5,7 @@ status: v1
 created: 2026-06-04
 source_files:
   - Studio/Analysis/subject-line.md
-  - Studio/Analysis/writing-style.md
+  - Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md
   - Studio/Analysis/copy-task-routing.md
   - Library/me.md
   - Library/Examples/about-page.md
@@ -14,7 +14,7 @@ tags: [subject-lines, email]
 
 # Subject Line Operating System
 
-← [[Studio/Analysis/Frameworks/INDEX|Frameworks]] | [[Studio/Analysis/subject-line|Subject Line Analysis]] | [[Studio/Analysis/writing-style|Writing Style Analysis]]
+← [[Studio/Analysis/Frameworks/INDEX|Frameworks]] | [[Studio/Analysis/subject-line|Subject Line Analysis]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]]
 
 This is the working system Wren should use when Alyssa says:
 

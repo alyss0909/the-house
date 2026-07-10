@@ -10,7 +10,7 @@ tags: [email, newsletter, copy]
 > Full-text Soft Sunday emails written by Alyssa. The weekly newsletter format: pep talk, house report, re-engagement rituals, bake break. These are the actual words, exactly as sent. Read at least one before writing in this format.
 
 **Before using these examples, read:**
-- [[Studio/Analysis/writing-style|Studio/Analysis/writing-style.md]] — voice patterns, rhythm, sentence structure, what makes Alyssa sound like Alyssa
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]] — voice patterns, rhythm, sentence structure, what makes Alyssa sound like Alyssa
 - [[Studio/Analysis/subject-line|Studio/Analysis/subject-line.md]] — subject line formulas and what has performed
 
 ---

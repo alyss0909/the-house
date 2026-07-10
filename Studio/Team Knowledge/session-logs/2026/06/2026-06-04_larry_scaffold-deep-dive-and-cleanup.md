@@ -61,7 +61,7 @@ GL-003 remains reserved for Designer Expansion Pack. Next available GL number: *
 
 ### PKM capture (Penn)
 - Filed Peter Yang tutorial (Claude skills + evals + memory) → [[Notebook/Journal/2026/06/2026-06-04-peter-yang-self-improving-claude-skills]]
-- Filed Ruben Hassid "I can be you" article → [[Notebook/Journal/2026/06/2026-06-04-ruben-hassid-voice-profile-methodology]], cross-linked to [[Studio/Analysis/voice-profile]] and [[Studio/Analysis/voice-archive]]
+- Filed Ruben Hassid "I can be you" article → [[Notebook/Journal/2026/06/2026-06-04-ruben-hassid-voice-profile-methodology]], cross-linked to [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] and [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]]
 - Created CRM stubs: [[Notebook/Life/CRM/People/peter-yang]], [[Notebook/Life/CRM/People/ruben-hassid]], [[Notebook/Life/CRM/People/adele]]
 - Created Topics: [[Notebook/Life/Topics/ai-tools]], [[Notebook/Life/Topics/voice-and-writing-style]]
 - Stubbed [[Notebook/Life/Projects/rebrand]] with known context: site rebrand with Adele, meeting June 3, follow-ups sent, monitoring for next steps

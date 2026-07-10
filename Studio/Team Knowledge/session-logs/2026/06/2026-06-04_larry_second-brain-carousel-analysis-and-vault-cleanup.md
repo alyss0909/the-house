@@ -36,8 +36,8 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 - Created `examples/Carousels/INDEX.md` — image folders mapped with archetype + top metric for each
 - Deleted root-level `[Framework] Carousel Playbook.md` (orphaned, replaced by the 3 properly-filed documents)
 - Updated 4 INDEX files: `analysis/INDEX.md`, `frameworks/INDEX.md`, `templates/INDEX.md`, `examples/INDEX.md`
-- Renamed `analysis/about_me.md` → `analysis/about-me.md` → [[Studio/Analysis/voice-profile]] (two-pass rename for clarity)
-- Updated all 6 reference locations: `analysis/INDEX.md`, [[Studio/Analysis/voice-archive]], [[Studio/Analysis/copy-task-routing]], `memory/reference_voice_profile_methodology.md`, `memory/reference_second_brain_voice_layer.md`, `memory/MEMORY.md`
+- Renamed `analysis/about_me.md` → `analysis/about-me.md` → [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] (two-pass rename for clarity)
+- Updated all 6 reference locations: `analysis/INDEX.md`, [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]], [[Studio/Analysis/copy-task-routing]], `memory/reference_voice_profile_methodology.md`, `memory/reference_second_brain_voice_layer.md`, `memory/MEMORY.md`
 - Fixed `analysis/subject-line-analysis.md` — renumbered patterns from 1, 1B, 2…6, 6B, 6C, 7, 8, 9 → clean sequential 1–12; removed 3 double `---` separators; updated reference table and version note
 - Added "Vault cleanliness — agent duty" section to [[Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions]]
 - Added `feedback_fix_dont_flag.md` to memory and updated `MEMORY.md` index
@@ -49,7 +49,7 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 
 ## Decisions made
 
-- **`about-me.md` → [[Studio/Analysis/voice-profile]]:** The file is Alyssa's AI-ready voice profile (XML `<about_me>` format). Renaming to [[Studio/Analysis/voice-profile]] removes the false association with her about PAGE and makes its purpose immediately clear. All references updated.
+- **`about-me.md` → [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]]:** The file is Alyssa's AI-ready voice profile (XML `<about_me>` format). Renaming to [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] removes the false association with her about PAGE and makes its purpose immediately clear. All references updated.
 
 - **Carousel work split into 3 files, not 1:** `carousel-analysis.md` (what we found) + [[Studio/Analysis/Frameworks/carousel-framework]] (rules to follow) + [[Studio/Analysis/Templates/carousel-brief]] (fill in the blank). One monolithic playbook dumped at the root was the wrong shape — three focused files in their correct folders is navigable and purpose-clear.
 
@@ -85,7 +85,7 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 
 ## Open threads
 
-- [ ] **Alyssa to review [[Studio/Analysis/voice-profile]]** — AI-mined draft, awaiting her annotation pass and 100-question interview to fill LOW/MED confidence gaps
+- [ ] **Alyssa to review [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]]** — AI-mined draft, awaiting her annotation pass and 100-question interview to fill LOW/MED confidence gaps
 - [ ] **5 Simmer emails needed** — the highest-priority Second Brain gap; once filed, enables building the Simmer template (most important email template for Wren)
 - [ ] **5 Soft Sunday emails needed** — second-priority email gap
 - [ ] **Notion vaults** — Mack to set up API connection to import hook vault, RTO vault, PS vault, segmentation vault, sequence prompts into `frameworks/`

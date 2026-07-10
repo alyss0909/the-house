@@ -43,4 +43,4 @@ last_updated: 2026-07-04
 
 1. Read the full sales page before writing copy for any BOH campaign, promo, or email that pitches the program
 2. Cross-reference [[Studio/Analysis/sales-page\|sales-page.md]] for the structural map and build template
-3. For new product sales pages: use the build map in [[Studio/Analysis/sales-page]] as the skeleton, then fill with voice from [[Studio/Analysis/writing-style]]
+3. For new product sales pages: use the build map in [[Studio/Analysis/sales-page]] as the skeleton, then fill with voice from [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]

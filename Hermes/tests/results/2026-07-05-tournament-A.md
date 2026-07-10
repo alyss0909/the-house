@@ -407,4 +407,4 @@ None — no chat word required or invented; no product pitched; matches Jan 22's
 - [[Hermes/craft/captions-carousels]]
 - [[Hermes/FABLE]], [[Hermes/MAP]], [[Hermes/SOUL]], [[Hermes/STYLE]], [[Hermes/TASTE]], [[Hermes/ANTI-AI]], [[Hermes/BUSINESS]]
 
-Never opened: [[Library/Examples/Carousels/brief-bank]], any Wren file, [[Studio/Analysis/voice-profile]], [[Studio/Analysis/writing-style]] — confirmed quarantined per instructions.
+Never opened: [[Library/Examples/Carousels/brief-bank]], any Wren file, [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]], [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] — confirmed quarantined per instructions.

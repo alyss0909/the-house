@@ -83,7 +83,7 @@ Previously existing (not touched): 2.1 Warm Welcome Sequence, 2.2 Not Grandad's 
 - [ ] **1.1 Signature Method transcript** (20m Notion method video) — still needed. High value for Wren when writing BOH teaching copy.
 - [ ] **1.5 The Perfect Apps transcript** (45m tripwire module) — still needed. High priority — covers tripwire framework in depth.
 - [ ] **Carousel copy extraction** — carousel example folders contain images but no .md copy text. Wren can't read the actual copy. Decide: extract slide copy to .md, or accept that the analysis + framework is enough?
-- [ ] **Voice profile review** — [[Studio/Analysis/voice-profile]] and [[Studio/Analysis/voice-archive]] are AI drafts. Alyssa's own 100-question interview pass is still pending.
+- [ ] **Voice profile review** — [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] and [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]] are AI drafts. Alyssa's own 100-question interview pass is still pending.
 - [ ] **Simmer emails (5) + Soft Sunday emails (5)** — still the highest-value unlock. Once filed: enables Simmer analysis, Simmer template, Soft Sunday template.
 - [ ] **Notion vaults** — Mack to set up Notion API. 9 frameworks pending: hook vault, RTO vault, PS vault, segmentation vault, sequence prompts, YOE email concepts, editorial calendar, Pinterest blog concepts, promo planner reframe.
 - [ ] **Phase 1 audit** — Alyssa flagged confusion around what's in Phase 1 (Signature Method vs. Signature Dish vs. Email First Model). Reserved for next session with fresh context.

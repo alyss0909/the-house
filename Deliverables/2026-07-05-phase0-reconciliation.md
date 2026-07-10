@@ -32,7 +32,7 @@ Grep for `Team Knowledge/content-os` and `station-*` across Hermes/, .claude/, T
 
 ## 3. Fable's own Phase 0 edits
 
-- **Voice-authority ruling (item 6):** JUDGMENT layer (SOUL/STYLE/TASTE/ANTI-AI v3) = sole voice authority. Recorded in [[Hermes/SOURCES]] (tier-2 para + ruling block); [[Studio/Analysis/writing-style]] added to MAP quarantine row with void-frontmatter note. No PKM file edited (prime rule 1).
+- **Voice-authority ruling (item 6):** JUDGMENT layer (SOUL/STYLE/TASTE/ANTI-AI v3) = sole voice authority. Recorded in [[Hermes/SOURCES]] (tier-2 para + ruling block); [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] added to MAP quarantine row with void-frontmatter note. No PKM file edited (prime rule 1).
 - **Memory (item 13):** wren → retired; second-brain-voice-layer → superseded; voice-profile-methodology → historical; hermes-brain → v3 + Mean-Alyssa-is-a-gate + Big Plan pointer; MEMORY.md index lines synced.
 
 ## 4. Mean Alyssa audit verdict

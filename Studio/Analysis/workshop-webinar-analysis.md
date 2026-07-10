@@ -569,7 +569,7 @@ The Slow Marketing Plan Class is structurally different from the other two becau
 
 ### Her Webinar Voice vs. Her Email Voice
 
-Reading all three webinars against [[Studio/Analysis/writing-style]] reveals these specific divergences and matches:
+Reading all three webinars against [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] reveals these specific divergences and matches:
 
 **Where webinar voice matches written voice:**
 - Data with personality: same technique, same translations. The numbers are specific; the human meaning is always provided.
@@ -661,7 +661,7 @@ Load [[Studio/Analysis/workshop-webinar-analysis]] before writing:
 - Email copy that mirrors webinar structure (problem frame → data → personal pivot → system → permission close)
 - Pitch-class specific copy: registration pages, launch emails, or replay sequences for a sales-oriented webinar (use Slow Marketing Plan Class as the model for voice register and close mechanics)
 
-Do NOT load this document for: regular simmer emails unconnected to a webinar event, Pinterest pin captions, subject line writing, general BOH homepage copy, or social posts. For those, [[Studio/Analysis/writing-style]] and [[Studio/Analysis/sales-page]] are sufficient.
+Do NOT load this document for: regular simmer emails unconnected to a webinar event, Pinterest pin captions, subject line writing, general BOH homepage copy, or social posts. For those, [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] and [[Studio/Analysis/sales-page]] are sufficient.
 
 ---
 
@@ -684,7 +684,7 @@ Pitch-class copy: sharper, more alarming data framing is appropriate. "Gaslit" a
 
 ### Hard Don'ts for Webinar Copy
 
-Based on what's observed in the transcripts and cross-referenced against [[Studio/Analysis/writing-style]]:
+Based on what's observed in the transcripts and cross-referenced against [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]:
 
 - **Do not open with Alyssa's credentials.** All three webinars open with the audience's experience or aspiration, not her bio. Webinar registration copy should do the same — lead with the mirror ("if you're sick of never being done with your marketing") or the aspiration claim ("if you want to unhitch your wagon from social media"), not with "Alyssa Coleman is a strategist with 10 years of experience."
 

@@ -8,7 +8,7 @@ signal_status: becoming
 second_brain_connections:
   - Library/Programs/back-of-house/
   - Studio/Analysis/Frameworks/
-  - Studio/Analysis/voice-profile.md
+  - Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -34,7 +34,7 @@ Far too many to list individually. Key ones:
 
 - [[Library/Programs/back-of-house/]] — the whole program is this thesis in practice
 - [[Studio/Analysis/Frameworks/]] — every framework in here is slow biz in disguise
-- [[Studio/Analysis/voice-profile.md]] — the raccoon in a cashmere sweater; irreverent but warm; proof that you don't need to be loud
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]] — the raccoon in a cashmere sweater; irreverent but warm; proof that you don't need to be loud
 
 ## What I think you're actually saying
 

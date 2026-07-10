@@ -8,7 +8,7 @@ description: Token-efficient carousel reference for agents. Load this + voice-pr
 
 # Carousel Quick Reference
 
-> Load this + [[Studio/Analysis/voice-profile|voice-profile.md]] before any carousel task. Together they're ~4,500 tokens. Full docs exist if you need to go deeper — don't load them unless something unusual comes up.
+> Load this + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile|voice-profile.md]] before any carousel task. Together they're ~4,500 tokens. Full docs exist if you need to go deeper — don't load them unless something unusual comes up.
 
 ---
 
@@ -22,7 +22,7 @@ description: Token-efficient carousel reference for agents. Load this + voice-pr
 5. Get approval on the brief before writing copy
 
 **To execute copy from a completed brief:**
-Treat the brief as the full spec. Write directly from it. Do not re-read the full framework. Voice rules are in [[Studio/Analysis/voice-profile]] — apply them silently.
+Treat the brief as the full spec. Write directly from it. Do not re-read the full framework. Voice rules are in [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] — apply them silently.
 
 ---
 

@@ -47,7 +47,7 @@ Alyssa opened the session asking for an opening shift rundown: "what's on my lis
 
 ## Next steps
 
-- Next session: open by checking whether the voice profile gap interview is done (it was due today). If yes, Larry pulls the answers, updates [[Studio/Analysis/voice-archive]], and recompiles `about_me.md`. If not, hold off on any copy work that depends on it.
+- Next session: open by checking whether the voice profile gap interview is done (it was due today). If yes, Larry pulls the answers, updates [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]], and recompiles `about_me.md`. If not, hold off on any copy work that depends on it.
 - Automation report decision is the second thing to knock out — short review, three choices.
 - Camila brainstorm can happen quickly once Alyssa gives 2-3 sentences on her role objectives for Camila.
 

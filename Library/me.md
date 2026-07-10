@@ -7,7 +7,7 @@ promoted_by: alyssa
 promoted_date: 2026-07-10
 ---
 
-← [[Library/MAP|Library]] | [[Studio/Analysis/COMPASS|Studio/Analysis]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Library/Examples/about-page|About Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]]
+← [[Library/MAP|Library]] | [[Studio/Analysis/COMPASS|Studio/Analysis]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] | [[Library/Examples/about-page|About Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]]
 
 ---
 
@@ -39,7 +39,7 @@ She teaches creative service providers to build automated email + Pinterest mark
 
 *Conspiratorial. Grounded. Dry-funny. Permissive. Precise.*
 
-See [[Studio/Analysis/writing-style|writing-style.md]] for the full breakdown of what these mean in practice.
+See [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|writing-style.md]] for the full breakdown of what these mean in practice.
 
 **What she sounds like:** A best friend who happens to have done the research, gone down every rabbit hole, and came back with the actual answer. She's not a hype person. She's the "k here's the plan" voice note person.
 
@@ -71,7 +71,7 @@ See [[Studio/Analysis/writing-style|writing-style.md]] for the full breakdown of
 
 ## The food/restaurant metaphor system
 
-This metaphor isn't decorative — it's structural. It organizes her course names, CTAs, section headers, and key copy moments. See [[Studio/Analysis/writing-style|writing-style.md#2-the-metaphor-system]] for the full taxonomy.
+This metaphor isn't decorative — it's structural. It organizes her course names, CTAs, section headers, and key copy moments. See [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|writing-style.md#2-the-metaphor-system]] for the full taxonomy.
 
 Core terms: **Back of House**, **The Simmer**, **Mise en Place**, **The Signature Dish**, **Warm Plate Method**, **prix fixe menu**, **prep once serve again**, **nonna**, **slow cooking vs. fast food**, **cooked up**, **recipe**.
 
@@ -113,7 +113,7 @@ Permission is not just tone. It's the product. The back of house runs itself *so
 
 | What you need | Where to look |
 |---|---|
-| Full voice + style patterns | [[Studio/Analysis/writing-style\|writing-style.md]] |
+| Full voice + style patterns | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style\|writing-style.md]] |
 | How she structures a sales page | [[Studio/Analysis/sales-page\|sales-page.md]] |
 | Real examples to read before writing | [[Library/Examples/INDEX\|Library/Examples/]] |
 | About page (full origin story) | [[Library/Examples/about-page\|about-page.md]] |

@@ -72,7 +72,7 @@ Several items I initially reported as open were resolved in sessions that ran af
 ## Open threads
 
 ### Due June 4 (Alyssa)
-- [ ] **tsk-2026-06-03-006** — Review `about_me.md` + [[Studio/Analysis/voice-archive]], then run the 13-question gap interview (prompt is in the task file)
+- [ ] **tsk-2026-06-03-006** — Review `about_me.md` + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]], then run the 13-question gap interview (prompt is in the task file)
 - [ ] **tsk-2026-06-03-004** — Google Calendar API credentials setup (step-by-step in task file)
 - [ ] **tsk-2026-06-03-005** — Run Meetily launcher OAuth (blocked by 004)
 

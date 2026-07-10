@@ -43,7 +43,7 @@ Any new specialist whose work involves the Second Brain (copy, brand, content, B
 
 **For copy/brand-adjacent roles** (any agent writing in Alyssa's voice or referencing her IP):
 1. Start with `Studio/Analysis/COMPASS.md` — 100 lines, the entry point for all Second Brain navigation
-2. Load `Studio/Analysis/voice-profile.md` — the compressed voice calibration, ~3,000 tokens
+2. Load `Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md` — the compressed voice calibration, ~3,000 tokens
 3. Follow COMPASS routing for the specific task — load only what it directs, nothing else
 4. For BOH content: enter via `Library/Programs/back-of-house/BOH-COMPASS.md` — never the 792-line INDEX directly
 

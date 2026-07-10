@@ -51,9 +51,9 @@ Most tasks need 1–3 files. 4+ is a signal something is wrong with the route.
 
 For any copy task:
 
-1. Load [[Studio/Analysis/voice-profile]] first, every time. (~3,000 tokens, contains everything from [[Library/me]] + the most critical sections of [[Studio/Analysis/writing-style]])
+1. Load [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] first, every time. (~3,000 tokens, contains everything from [[Library/me]] + the most critical sections of [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]])
 2. Identify task type → consult [[Studio/Analysis/COMPASS]] routing table → load only the files listed for that task
-3. Never load [[Studio/Analysis/writing-style]] in full for Level 1–2 tasks. Load by section number only (e.g., "§12 and §14 only")
+3. Never load [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] in full for Level 1–2 tasks. Load by section number only (e.g., "§12 and §14 only")
 4. Load at least 1 example file for Level 2+ tasks. Load it before writing, not after
 
 ---
@@ -75,7 +75,7 @@ Every new file created by any team member must stay within these limits. If the 
 |---|---|---|
 | COMPASS / entry point | 120 lines | If it grows past this, something is wrong — split the content, not the COMPASS |
 | Index files | 100 lines | INDEXes are navigation, not content |
-| Analysis files | 600 lines | [[Studio/Analysis/writing-style]] at 716 lines is the historical ceiling — do not exceed it in new files |
+| Analysis files | 600 lines | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] at 716 lines is the historical ceiling — do not exceed it in new files |
 | Framework files | 400 lines | |
 | Routing guides | 300 lines | COMPASS is the model; [[Studio/Analysis/copy-task-routing]] at 545 lines is the detailed reference ceiling |
 | Templates | 200 lines | |

@@ -6,7 +6,7 @@ last_seen: 2026-06-06
 recurrence_count: 5
 signal_status: developing
 second_brain_connections:
-  - Studio/Analysis/voice-profile.md
+  - Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md
   - Library/Programs/back-of-house/
 team_brief_dispatched: null
 team_brief_status: null
@@ -31,7 +31,7 @@ The Head/Hands/Heart framework from Dan Harrison (saved June 5) gave this a stru
 
 ## What it's connecting to in the Second Brain
 
-- [[Studio/Analysis/voice-profile.md]] — the whole voice profile project is the system learning to be a better Mirror
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]] — the whole voice profile project is the system learning to be a better Mirror
 - [[Library/Programs/back-of-house/]] — BOH teaches students to set up their own version of this; the AI team IS the back of house
 
 ## What I think you're actually saying

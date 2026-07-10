@@ -6,7 +6,7 @@ source: alyssacoleman.ca/about
 description: Full live about page copy. The primary source for Alyssa's personal brand story — the Portugal origin story, her personality, her obsession with clients, and the pivot to email + Pinterest. Essential calibration before writing anything in first-person as Alyssa.
 ---
 
-← [[Library/Examples/INDEX|Examples]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[Studio/Analysis/writing-style|Writing Style Analysis]]
+← [[Library/Examples/INDEX|Examples]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]]
 
 ---
 

@@ -10,7 +10,7 @@ tags: [email, promo, copy]
 > Full-text sales emails written by Alyssa. These are actual promotional emails sent to her list - push-to-buy copy with real CTAs, real offers, real urgency language. Read before writing any promo email.
 
 **Before using these examples, read:**
-- [[Studio/Analysis/writing-style|Studio/Analysis/writing-style.md]] - voice patterns, rhythm, sentence structure, what makes Alyssa sound like Alyssa
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]] - voice patterns, rhythm, sentence structure, what makes Alyssa sound like Alyssa
 - [[Studio/Analysis/subject-line|Studio/Analysis/subject-line.md]] - subject line formulas and what has performed
 
 ---

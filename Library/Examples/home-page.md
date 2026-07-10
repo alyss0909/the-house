@@ -6,7 +6,7 @@ source: alyssacoleman.ca
 description: Full live home page copy. The brand welcome mat — slow marketing positioning, problem/promise arc, and the "time connoisseur" lifestyle section. Key for understanding how Alyssa frames her brand at the top of the funnel.
 ---
 
-← [[Library/Examples/INDEX|Examples]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[Studio/Analysis/writing-style|Writing Style Analysis]]
+← [[Library/Examples/INDEX|Examples]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]]
 
 ---
 

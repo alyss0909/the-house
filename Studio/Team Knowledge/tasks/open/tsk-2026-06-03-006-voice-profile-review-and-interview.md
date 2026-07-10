@@ -15,7 +15,7 @@ tags: [second-brain, voice-profile, copy]
 
 During the 2026-06-03 session, Larry mined your entire Second Brain (7 training transcripts, 2 webinars, sales pages, about page, home page, all existing analysis) to answer the Ruben Hassid 100-question voice interview on your behalf. Two files were created:
 
-- **[[Studio/Analysis/voice-archive]]** — full 100-question archive with evidence, sources, and confidence ratings (HIGH/MED/LOW)
+- **[[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]]** — full 100-question archive with evidence, sources, and confidence ratings (HIGH/MED/LOW)
 - **`PKM/Second Brain/analysis/about_me.md`** — compressed XML voice profile (~3,000 tokens), AI-ready for loading into any copy session
 
 This task has two parts.
@@ -93,7 +93,7 @@ Begin with Q14.
 ## Part 3 — After the interview
 
 Paste your 13 answers back to Larry. Larry will:
-1. Update [[Studio/Analysis/voice-archive]] with your answers (replacing LOW/MED with your actual words)
+1. Update [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]] with your answers (replacing LOW/MED with your actual words)
 2. Recompile `about_me.md` to reflect the updates
 3. Add the final `about_me.md` to your CLAUDE.md or system prompt so it loads automatically in every copy session
 

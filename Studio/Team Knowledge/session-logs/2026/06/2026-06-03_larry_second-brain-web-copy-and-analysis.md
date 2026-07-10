@@ -12,7 +12,7 @@ linked_guidelines: []
 
 ## Context
 
-Continued the Second Brain build. Alyssa dropped 5 web copy files: her live Back of House sales page ('26), the about page, home page, a 404 page, and meta copy. The goal was to file all of it in full and use it to build the analysis layer — specifically [[Studio/Analysis/writing-style]] and a new `sales-page-analysis.md`. This is the copy she takes most seriously and wanted treated with real depth, not a surface pass. Prior to this session, `examples/` was entirely empty and `analysis/` had no voice documents.
+Continued the Second Brain build. Alyssa dropped 5 web copy files: her live Back of House sales page ('26), the about page, home page, a 404 page, and meta copy. The goal was to file all of it in full and use it to build the analysis layer — specifically [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] and a new `sales-page-analysis.md`. This is the copy she takes most seriously and wanted treated with real depth, not a surface pass. Prior to this session, `examples/` was entirely empty and `analysis/` had no voice documents.
 
 ---
 
@@ -21,7 +21,7 @@ Continued the Second Brain build. Alyssa dropped 5 web copy files: her live Back
 - **Larry** read all 5 source files in parallel (some were 1.4MB due to embedded base64 images; navigated by reading text portions before image data). Verified scope before spawning any agents.
 - **Larry** (Agent 1 — parallel) filed the full BOH '26 sales page verbatim into [[Library/Examples/sales-pages/boh-sales-page]] — every word, CTA, emoji, image placeholder, and design note included. Created `sales-pages/` subdirectory.
 - **Larry** (Agent 2 — parallel) filed about page → `examples/about-page.md`, home page → `examples/home-page.md`, meta copy → [[Library/Examples/meta-copy]]. All verbatim.
-- **Larry** (Agent 3 — parallel with Agent 4) built [[Studio/Analysis/writing-style]] — 14-section, ~4,000 word deep analysis built from reading all 4 example files + 2 BOH transcripts. Covers: voice identity (5 earned words), full metaphor taxonomy, sentence rhythm mechanics, pain point architecture, casual registers, permission-giving voice, humor mechanics, full CTA catalog with annotations, data/credibility framing, origin story arc, section header style, don'ts list, we/I/you pronoun patterns, and a reusable swipe file.
+- **Larry** (Agent 3 — parallel with Agent 4) built [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] — 14-section, ~4,000 word deep analysis built from reading all 4 example files + 2 BOH transcripts. Covers: voice identity (5 earned words), full metaphor taxonomy, sentence rhythm mechanics, pain point architecture, casual registers, permission-giving voice, humor mechanics, full CTA catalog with annotations, data/credibility framing, origin story arc, section header style, don'ts list, we/I/you pronoun patterns, and a reusable swipe file.
 - **Larry** (Agent 4 — parallel with Agent 3) built `analysis/sales-page-analysis.md` — 15-section structural analysis of the BOH sales page. Includes a 27-row persuasion sequence map, all 21 CTAs categorized and annotated, and a 28-section practical build template for new sales pages.
 - **Larry** built [[Library/me]] — identity anchor file, now grounded in real copy. Covers: who she is, what she sells, the 5 voice words, personal markers, the food metaphor system summary, origin story key elements, and the permission pattern.
 - **Larry** updated: [[Studio/Analysis/BUILD-PLAN]] (Phase 2 now underway, Phase 4 two entries complete), `INDEX.md` (examples/ and analysis/ flipped from ❌ to 🔶), `analysis/INDEX.md` (audience/ subfolder added, how-to-use rewritten), `programs/back-of-house/INDEX.md` (wikilinks to examples and analysis added), `examples/INDEX.md` (website-copy row updated), `examples/sales-pages/INDEX.md` (created — librarian pass catch).
@@ -65,7 +65,7 @@ Continued the Second Brain build. Alyssa dropped 5 web copy files: her live Back
 - [ ] **Other product sales pages** — CTC, YOE etc. → `examples/sales-pages/`. Needed to complete the sales-pages INDEX.
 - [ ] **Subject lines + previews** — `examples/subjects-and-previews.md` still empty.
 - [ ] **7 starter templates** — Currently in `templates/` as starters only. Fully populate after examples/ is richer.
-- [ ] **[[Studio/Analysis/writing-style]] rebuild trigger** — the file itself says "rebuild if more than three new copy examples are added." Flag for next time Soft Sundays or Simmers are filed.
+- [ ] **[[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] rebuild trigger** — the file itself says "rebuild if more than three new copy examples are added." Flag for next time Soft Sundays or Simmers are filed.
 - [ ] **404 page copy** — Was in Web Copy (2).md ("Whoops, this page is busy daydreaming..."). Not yet filed. Low priority but complete the picture.
 
 ---
@@ -75,7 +75,7 @@ Continued the Second Brain build. Alyssa dropped 5 web copy files: her live Back
 1. **Drop Soft Sundays or Simmer emails** — these unlock `carousel-analysis.md`, fuller templates, and the subjects-and-previews file in one go.
 2. **Drop 10 carousels** — when ready, batch-file same as transcripts/slides (3 parallel agents).
 3. **Locate the second webinar** — one filed (Out of Office), one missing from the BOH INDEX.
-4. **When using the Second Brain for any copy task** — start with [[Library/me]] → [[Studio/Analysis/writing-style]] → relevant `examples/` file. Don't skip the examples step.
+4. **When using the Second Brain for any copy task** — start with [[Library/me]] → [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] → relevant `examples/` file. Don't skip the examples step.
 
 ---
 

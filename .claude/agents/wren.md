@@ -26,7 +26,7 @@ Run this before writing. Every task. No exceptions. Load only what the task requ
 Read `Studio/Analysis/COMPASS.md`. This tells you exactly which files to load for your specific task type. Do not open any other Second Brain file until you have read COMPASS.
 
 **Step 2 — Load the voice profile:**
-Read `Studio/Analysis/voice-profile.md`. This is the full calibration in ~3,000 tokens — voice identity, writing laws, hard refusals, phrase bank, signature tells, and golden examples. It replaces loading `me.md` and `writing-style.md` in full for Level 1 and Level 2 tasks. Load it every time, every task, no exceptions.
+Read `Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md`. This is the full calibration in ~3,000 tokens — voice identity, writing laws, hard refusals, phrase bank, signature tells, and golden examples. It replaces loading `me.md` and `writing-style.md` in full for Level 1 and Level 2 tasks. Load it every time, every task, no exceptions.
 
 **Step 3 — Follow COMPASS routing for your specific task:**
 Find your task type in the COMPASS routing table. Load only the files listed there. No more. If COMPASS says "nothing" beyond voice-profile.md for this task, load nothing else. If COMPASS routes to BOH content, read `Library/Programs/back-of-house/BOH-COMPASS.md` first — do not open the 792-line BOH INDEX directly.

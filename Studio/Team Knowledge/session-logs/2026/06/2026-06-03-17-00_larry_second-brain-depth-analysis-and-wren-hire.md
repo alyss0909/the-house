@@ -91,7 +91,7 @@ Second session of the day continuing the Second Brain build. Alyssa came back wi
 - [ ] **4.2 Simple Socials transcript** — does it exist? Confirm yes/no so P4 INDEX can be resolved
 
 **Alyssa's own input required:**
-- [ ] **Review [[Studio/Analysis/voice-archive]]** — AI-mined from existing content; she annotates gaps and corrects anything that landed wrong, then Larry recompiles `about_me.md`
+- [ ] **Review [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]]** — AI-mined from existing content; she annotates gaps and corrects anything that landed wrong, then Larry recompiles `about_me.md`
 - [ ] **The about_me.md gap interview** — the Ruben Hassid second step: Alyssa's own 100-question interview pass to fill LOW/MED confidence gaps. Unlocks the full portable voice profile.
 - [ ] **Give Wren a first real task** — try her on a Simmer email or subject line batch to calibrate and give feedback
 

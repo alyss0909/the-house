@@ -54,7 +54,7 @@ She wants to know "the monthly just works" — the minimum she needs to do to ke
 
 ### 2026-06-27 — Pre-seed from writing-style.md and voice-profile.md analysis
 
-**Source:** [[Studio/Analysis/writing-style.md]], [[Studio/Analysis/voice-profile.md]]
+**Source:** [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]], [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]]
 
 **What this taught us:**
 

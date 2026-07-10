@@ -17,9 +17,9 @@ Patterns extracted from Alyssa's real work — how she writes, what makes her ca
 | File | What it covers | Status |
 |---|---|---|
 | [[[Studio/Analysis/copy-task-routing]]](copy-task-routing.md) | **LLM routing map** — what to read and when for every copy task type. Start here if you don't know which file to open. | ✅ 2026-06-03 |
-| [[[Studio/Analysis/voice-profile]]](voice-profile.md) | **AI-ready compressed voice profile (XML, ~3,000 tokens)** — load at the start of any copy session. Built from 100-question evidence pass. AI-mined draft; Alyssa reviewing. | 🔶 draft |
-| [[[Studio/Analysis/voice-archive]]](voice-archive.md) | Full 100-question voice interview answered from evidence — sources + confidence ratings (HIGH/MED/LOW). Human-readable. Alyssa annotates gaps, then Larry recompiles voice-profile.md. | 🔶 draft |
-| [[[Studio/Analysis/writing-style]]](writing-style.md) | 14-section voice analysis — patterns, metaphor system, humor, pain point architecture, swipe file | ✅ 2026-06-03 |
+| [[[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]]](voice-profile.md) | **AI-ready compressed voice profile (XML, ~3,000 tokens)** — load at the start of any copy session. Built from 100-question evidence pass. AI-mined draft; Alyssa reviewing. | 🔶 draft |
+| [[[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]]](voice-archive.md) | Full 100-question voice interview answered from evidence — sources + confidence ratings (HIGH/MED/LOW). Human-readable. Alyssa annotates gaps, then Larry recompiles voice-profile.md. | 🔶 draft |
+| [[[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]](writing-style.md) | 14-section voice analysis — patterns, metaphor system, humor, pain point architecture, swipe file | ✅ 2026-06-03 |
 | [[[Studio/Analysis/sales-page]]](sales-page.md) | Section-by-section BOH sales page map — persuasion logic, CTA catalog, build template | ✅ 2026-06-03 |
 | [`about-page.md`](about-page.md) | Deep reverse-engineering of the about page — personal brand architecture, origin story structure, trust-building mechanics, dos/don'ts for first-person copy | ✅ 2026-06-03 |
 | [`home-page.md`](home-page.md) | Deep reverse-engineering of the home page — cold conversion architecture, marquee mechanics, lifestyle framing, anti-brand positioning, top-of-funnel dos/don'ts | ✅ 2026-06-03 |
@@ -54,7 +54,7 @@ Patterns extracted from Alyssa's real work — how she writes, what makes her ca
 
 **Not sure which file to open?** Start with [[Studio/Analysis/copy-task-routing]] — it maps every copy task type to the exact files to read, in priority order.
 
-**Before writing anything in Alyssa's voice:** Read [[Studio/Analysis/writing-style]] first. It's the calibration layer.
+**Before writing anything in Alyssa's voice:** Read [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] first. It's the calibration layer.
 
 **Before writing a sales page:** Read [[Studio/Analysis/sales-page]] for the structural map and CTA catalog. Then read the actual BOH sales page in `Library/Examples/sales-pages/`.
 

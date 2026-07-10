@@ -141,7 +141,7 @@ The Second Brain is an unusually complete onboarding resource. For the right per
 The sequence matters. Do not let them read out of order.
 
 1. [[Library/me]] — identity, voice in five words, what she sells, the restaurant metaphor, the permission pattern. This is the orientation. Read it like you're meeting someone for the first time.
-2. [[Studio/Analysis/writing-style]] — all 14 sections, in order. Section 12 (The Don'ts) should be read twice. Once is not enough.
+2. [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] — all 14 sections, in order. Section 12 (The Don'ts) should be read twice. Once is not enough.
 3. `examples/about-page.md` — read the actual copy, not the analysis. This is the highest density of her casual register currently available. Read it as a reader, not as a copywriter.
 4. [[Studio/Analysis/copy-task-routing]] — the routing map. This teaches them how to use the Second Brain before they try to use it.
 5. [[Studio/Analysis/subject-line]] — the raccoon formula. The "slightly wrong" principle. The preview text as first-class deliverable.
@@ -273,7 +273,7 @@ What needs to be true about the Second Brain before you bring this person in. Ba
 The current Second Brain is strong enough to hire against for the core email tasks (Simmers, subject lines) and for sales-page and social copy. These files are complete and usable:
 
 - [[Library/me]] — complete
-- [[Studio/Analysis/writing-style]] — complete (all 14 sections)
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] — complete (all 14 sections)
 - [[Studio/Analysis/subject-line]] — v1 (30 emails); directionally correct
 - [[Studio/Analysis/copy-task-routing]] — complete
 - `analysis/about-page.md` — complete
@@ -302,7 +302,7 @@ The directional patterns are confirmed, but the v2 that incorporates top perform
 *What to do before hiring:* Not blocking — but if the two-year performance data is available, rebuilding subject-line-analysis.md as v2 before the hire would give the partner better ground truth to work from.
 
 **Gap 4: No carousel or IG-specific analysis file**
-If IG captions and carousels are in scope (they are), the partner currently works from [[Studio/Analysis/writing-style]] Sections 3 and 7 only, with no format-specific examples. This is adequate but creates more calibration uncertainty than the email formats.
+If IG captions and carousels are in scope (they are), the partner currently works from [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] Sections 3 and 7 only, with no format-specific examples. This is adequate but creates more calibration uncertainty than the email formats.
 
 *What to do before hiring:* Not blocking. But if you bring this person on, the carousel and IG caption analysis file should be on the development roadmap within the first three months of the partnership. They'll surface what's missing faster than you can when working alone.
 
@@ -335,7 +335,7 @@ The Brand Voice Partner described in this document will be an AI specialist — 
 
 **There is no discovery process.** No discovery calls. No test projects. No portfolio review. No three-day trial period. The "hire" is designing and deploying the agent — choosing a name, writing the system prompt, and wiring the Second Brain as the agent's context layer. The calibration problem that takes a human partner months to solve is, for an AI agent, a prompt engineering problem. It either loads the right files and produces calibrated output, or it doesn't. The feedback loop is immediate.
 
-**The taste problem is solved through context loading, not candidate screening.** The entire Section 3 of this document — the non-negotiable sensibility requirements — exists because a human partner either has the instinct or they don't, and you cannot install it. An AI agent doesn't bring instincts. It brings whatever context you give it, applied consistently. The "raccoon in a cashmere sweater" sensibility is not something the agent develops — it's something that gets documented precisely enough that the agent can replicate it reliably. That's what [[Studio/Analysis/subject-line]] is for. That's what Section 12 of [[Studio/Analysis/writing-style]] is for. The Second Brain was always the onboarding document. For an AI agent, it is also the entire brain.
+**The taste problem is solved through context loading, not candidate screening.** The entire Section 3 of this document — the non-negotiable sensibility requirements — exists because a human partner either has the instinct or they don't, and you cannot install it. An AI agent doesn't bring instincts. It brings whatever context you give it, applied consistently. The "raccoon in a cashmere sweater" sensibility is not something the agent develops — it's something that gets documented precisely enough that the agent can replicate it reliably. That's what [[Studio/Analysis/subject-line]] is for. That's what Section 12 of [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] is for. The Second Brain was always the onboarding document. For an AI agent, it is also the entire brain.
 
 **Calibration is immediate if context loading is correctly designed.** A human partner calibrating over three months is learning to suppress their own instincts and replace them with Alyssa's. An AI agent has no competing instincts to suppress — it writes from what it's given. If the context is right, the output is calibrated from day one. If the output is wrong, the fix is in the context, not in the relationship.
 
@@ -366,7 +366,7 @@ The Brand Voice Partner described in this document will be an AI specialist — 
 Before writing a single word, in order:
 
 1. Load [[Library/me]] — identity anchor, voice in five words, brand promise, personal markers, permission pattern.
-2. Load [[Studio/Analysis/writing-style]] — all 14 sections if time allows; at minimum Sections 1, 3, 5, 7, and 12 (Section 12 is never skippable).
+2. Load [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] — all 14 sections if time allows; at minimum Sections 1, 3, 5, 7, and 12 (Section 12 is never skippable).
 3. Check [[Studio/Analysis/copy-task-routing]] — find the specific task type; follow the routing table exactly (which files to read, which to skim, which to skip).
 4. Load the task-specific analysis file(s) named in the routing table.
 5. Read at least one real example from `PKM/Second Brain/examples/` — the one most relevant to the task type. If no example exists for this task type, note the gap, flag it to Larry, and default to `examples/about-page.md` as the closest available calibration source.

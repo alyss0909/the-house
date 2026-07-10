@@ -6,13 +6,13 @@ last_updated: 2026-06-03
 tags: [copy]
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/about-page|About Page — Full Copy]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]] | [[Library/me|me.md]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/about-page|About Page — Full Copy]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]] | [[Library/me|me.md]]
 
 ---
 
 ## When to Use This File
 
-Reach for this file (not just [[Studio/Analysis/writing-style]]) when you need:
+Reach for this file (not just [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]) when you need:
 
 - **Writing or updating Alyssa's bio** for a guest post, podcast pitch, collaborator intro, newsletter introduction, or press feature — this file gives you the architecture of how she presents herself, not just her voice.
 - **Any first-person personal brand copy** where the central subject is Alyssa herself: who she is, why she does this work, what makes her different.
@@ -22,7 +22,7 @@ Reach for this file (not just [[Studio/Analysis/writing-style]]) when you need:
 - **Writing any intro sequence or welcome email** where she's introducing herself to someone new — the about page is the master template for that context.
 - **Understanding how she thinks about herself vs. how she presents herself** — she self-edits strategically. This file maps what she includes, what she omits, and why each decision is made.
 
-Do NOT use this file as a replacement for [[Studio/Analysis/writing-style]]. That file covers the full voice system. This file covers how that voice operates specifically in first-person, self-revealing contexts. Use both when writing as Alyssa about Alyssa.
+Do NOT use this file as a replacement for [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]. That file covers the full voice system. This file covers how that voice operates specifically in first-person, self-revealing contexts. Use both when writing as Alyssa about Alyssa.
 
 ---
 
@@ -448,7 +448,7 @@ The fable ending is earned because the whole page has been a story. "THE MORAL O
 
 ## See Also
 
-- [[Studio/Analysis/writing-style|Writing Style Analysis]] — full voice system, metaphor catalog, humor mechanics, sentence patterns. Read this alongside the about page analysis for any first-person writing task.
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] — full voice system, metaphor catalog, humor mechanics, sentence patterns. Read this alongside the about page analysis for any first-person writing task.
 - [[Studio/Analysis/sales-page|Sales Page Analysis]] — how the same story is structured for conversion vs. trust-building. Essential for understanding why certain things live on the sales page and not here.
 - [[Library/me|me.md]] — Alyssa's compressed identity document. The distilled version of what this analysis unpacks at length.
 - [[Library/Examples/about-page|About Page — Full Copy]] — the primary source for this analysis. Read the real copy before using these patterns; the analysis only makes full sense against the source.

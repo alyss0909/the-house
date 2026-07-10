@@ -23,7 +23,7 @@ Every writing task = JUDGMENT loaded + MAP §2's source files read **END TO END,
 
 ## Hard never-load list (quarantine — see SOURCES.md)
 
-[[Studio/Analysis/voice-profile]] & [[Studio/Analysis/voice-archive]] as authority · `Studio/Analysis/Templates/` · [[Library/Examples/Carousels/brief-bank]] · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via Library/Examples/bad/.
+[[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] & [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]] as authority · `Studio/Analysis/Templates/` · [[Library/Examples/Carousels/brief-bank]] · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via Library/Examples/bad/.
 
 ## Invariants
 

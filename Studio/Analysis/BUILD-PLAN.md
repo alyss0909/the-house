@@ -15,8 +15,8 @@ last_updated: 2026-06-03
 The Second Brain is substantially built. Major transcript import completed this session: 21 of 24 BOH videos now have transcripts covering all phases. Three webinars analyzed and cross-synthesis updated. BOH INDEX fully audited and cleaned. The main gaps are: email examples (Simmers, Soft Sundays), remaining product sales pages, Notion vaults, and 2 remaining transcripts (1.1 Signature Method + 1.5 The Perfect Apps).
 
 **What Wren can use right now:**
-- Voice profile ([[Studio/Analysis/voice-profile]]) ✅
-- Writing style deep-analysis ([[Studio/Analysis/writing-style]]) ✅
+- Voice profile ([[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]]) ✅
+- Writing style deep-analysis ([[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]) ✅
 - About / home / sales page analysis ✅
 - Carousel framework + brief generator ✅
 - Subject line analysis (12 patterns) ✅
@@ -91,9 +91,9 @@ The Second Brain is substantially built. Major transcript import completed this 
 ## Phase 4 — Analysis (built from examples)
 
 ### Done ✅
-- [x] Voice profile (AI-ready XML) → [[Studio/Analysis/voice-profile]] 🔶 AI draft — Alyssa to review
-- [x] Voice archive (100-Q evidence) → [[Studio/Analysis/voice-archive]] 🔶 AI draft — Alyssa to annotate
-- [x] Writing style analysis → [[Studio/Analysis/writing-style]] ✅
+- [x] Voice profile (AI-ready XML) → [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] 🔶 AI draft — Alyssa to review
+- [x] Voice archive (100-Q evidence) → [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]] 🔶 AI draft — Alyssa to annotate
+- [x] Writing style analysis → [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] ✅
 - [x] Sales page analysis → [[Studio/Analysis/sales-page]] ✅
 - [x] About page analysis → [[Studio/Analysis/about-page]] ✅
 - [x] Home page analysis → [[Studio/Analysis/home-page]] ✅

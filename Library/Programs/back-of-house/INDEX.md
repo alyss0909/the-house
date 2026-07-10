@@ -20,7 +20,7 @@ up: "[[Library/Programs/INDEX]]"
 ## Real Copy & Analysis
 
 - [[Library/Examples/sales-pages/boh-sales-page|BOH Sales Page — Full Copy]] — the live '26 sales page in full. Read before writing any BOH sales copy.
-- [[Studio/Analysis/writing-style|Writing Style Analysis]] — voice patterns, metaphor system, CTA style, what she never says.
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] — voice patterns, metaphor system, CTA style, what she never says.
 - [[Studio/Analysis/sales-page|Sales Page Analysis]] — structural map of the BOH sales page + build template for new pages.
 
 ## Audience / Client Intelligence

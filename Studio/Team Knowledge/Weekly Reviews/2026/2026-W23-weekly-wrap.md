@@ -14,10 +14,10 @@ The biggest build week yet. The Second Brain went from skeleton to a genuinely u
 ## What shipped
 
 - **Second Brain skeleton + full BOH import** — all workbooks, transcripts, slides across P0–P4; 2 webinars (Out of Office, Slowly Viral Class, Slow Marketing Plan Class)
-- **Voice layer built** — [[Studio/Analysis/writing-style]] (14-section, ~4,000 words), `sales-page-analysis.md` (27-row persuasion sequence, 21 CTAs), `about-page-analysis.md`, `home-page-analysis.md`, [[Studio/Analysis/copy-task-routing]] (routing map for 14 task types)
+- **Voice layer built** — [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] (14-section, ~4,000 words), `sales-page-analysis.md` (27-row persuasion sequence, 21 CTAs), `about-page-analysis.md`, `home-page-analysis.md`, [[Studio/Analysis/copy-task-routing]] (routing map for 14 task types)
 - **Carousel system** — 9 top-performing Jan–Mar 2026 carousels analyzed, `carousel-analysis.md`, [[Studio/Analysis/Frameworks/carousel-framework]] (6 archetypes, 7 hook formulas), [[Studio/Analysis/Templates/carousel-brief]] (10 ready-to-write briefs)
 - **Subject line system** — `subject-line-analysis.md` (12 patterns, 351 broadcasts), [[Studio/Analysis/Frameworks/subject-line-operating-system]] (Wren's production interface)
-- **Voice profile layer** — [[Studio/Analysis/voice-profile]] (AI-ready XML, AI-mined from 100-question archive), [[Studio/Analysis/voice-archive]] (87/100 questions answered at HIGH/MED confidence)
+- **Voice profile layer** — [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] (AI-ready XML, AI-mined from 100-question archive), [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]] (87/100 questions answered at HIGH/MED confidence)
 - **Audience intelligence** — 2025 BOH survey analyzed; [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]]
 - **Wren activated** — AI Brand Voice Partner, slug `wren`, operating contract with hard-coded Don'ts, 6-step pre-task protocol, 3-tier calibration, 5-part quality gate. Team count: 6 → 7
 - **Telegram capture MVP** — `@ideaeaterbot` (display name: Bestie) built, pipe proven, captures landing in `Team Inbox/_Processed/`. Slash command routing hints working
@@ -55,7 +55,7 @@ The biggest build week yet. The Second Brain went from skeleton to a genuinely u
 | "Fix don't flag" | Any fixable vault issue gets fixed immediately — not surfaced as an action item | [[2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup]] |
 | `## What's still needed` in content files | Banned — outstanding work becomes a task, never lives in a content file | [[2026-06-04_larry_boh-index-interlinking-and-cleanup]] |
 | Student-facing `## To Do` checklists in slide files | Teaching content — permanent reference, never remove | [[2026-06-04_larry_boh-index-interlinking-and-cleanup]] |
-| `about-me.md` → [[Studio/Analysis/voice-profile]] rename | Renamed + all 6 references updated — removes false association with about page | [[2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup]] |
+| `about-me.md` → [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] rename | Renamed + all 6 references updated — removes false association with about page | [[2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup]] |
 | Carousel work: 1 file or split? | 3 files: carousel-analysis.md + carousel-framework.md + carousel-brief.md | [[2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup]] |
 | Meetily: poll calendar vs. weekly batch | Weekly batch every Monday — pre-schedules entire week, no background polling | [[2026-06-03_larry_meetily-autolaunch-and-website-kickoff]] |
 | Which meetings trigger Meetily launch | Exclude: Stacia, Camila Tuesdays. Include: Camila Mondays, video/external-attendee events | [[2026-06-03_larry_meetily-autolaunch-and-website-kickoff]] |
@@ -89,7 +89,7 @@ The biggest build week yet. The Second Brain went from skeleton to a genuinely u
 - [x] **4.2 Simple Socials transcript** — confirmed scrapped
 
 ### Second Brain — Alyssa Review
-- [ ] **voice-profile.md review** — AI-mined draft; Alyssa reads [[Studio/Analysis/voice-archive]], annotates what's wrong, runs 13-question gap interview (prompt in tsk-2026-06-03-006). Unlocks "always on" setup
+- [ ] **voice-profile.md review** — AI-mined draft; Alyssa reads [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-archive]], annotates what's wrong, runs 13-question gap interview (prompt in tsk-2026-06-03-006). Unlocks "always on" setup
 - [ ] **Wren first real task** — try her on a Simmer email or subject line batch; feedback is the real calibration
 
 ### Second Brain — Build
@@ -132,4 +132,4 @@ The biggest build week yet. The Second Brain went from skeleton to a genuinely u
 - **Pick up first:** Telegram token regeneration (5 min, unblocks confirmed pipe), then drop Soft Sundays (single highest-leverage content action — unlocks Wren fully, templates, and subjects-and-previews in one go)
 - **High value this week:** Voice profile gap interview (tsk-006, overdue); Claude Routines report decision (due June 6); Camila objectives input to unblock tsk-007
 - **Larry runs independently:** Semantic Recurrence Layer execution (tsk-003), background open loops (tsk-008)
-- **Context to load:** Second Brain [[Studio/Analysis/copy-task-routing]] before any copy task; [[Studio/Analysis/voice-profile]] + [[Studio/Analysis/writing-style]] as the calibration pair; open task list from `Team Knowledge/tasks/INDEX.md`
+- **Context to load:** Second Brain [[Studio/Analysis/copy-task-routing]] before any copy task; [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] + [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] as the calibration pair; open task list from `Team Knowledge/tasks/INDEX.md`

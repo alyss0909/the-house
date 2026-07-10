@@ -53,4 +53,4 @@ Filed 3 Kit/ConvertKit email exports from Team Inbox into the Second Brain examp
 
 ## Orphan wikilinks
 
-None. The INDEX files link to [[Studio/Analysis/writing-style]] and [[Studio/Analysis/subject-line]] — these are pre-existing files already referenced in the Carousel INDEX. If those files do not yet exist at `PKM/Second Brain/analysis/`, those wikilinks will be orphaned until the analysis folder is built out.
+None. The INDEX files link to [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] and [[Studio/Analysis/subject-line]] — these are pre-existing files already referenced in the Carousel INDEX. If those files do not yet exist at `PKM/Second Brain/analysis/`, those wikilinks will be orphaned until the analysis folder is built out.

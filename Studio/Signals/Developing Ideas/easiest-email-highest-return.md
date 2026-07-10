@@ -10,7 +10,7 @@ recurrence_count: 5
 signal_status: developing
 second_brain_connections:
   - Studio/Analysis/Frameworks/subject-line-operating-system.md
-  - Studio/Analysis/writing-style.md
+  - Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md
   - Library/Examples/
 team_brief_dispatched: null
 team_brief_status: null
@@ -35,7 +35,7 @@ The underlying claim is quietly radical: the email that's *easy to send consiste
 ## What it's connecting to in the Second Brain
 
 - [[Studio/Analysis/Frameworks/subject-line-operating-system.md]] — her top-performing subject lines are consistently the simplest ones; this validates the signal in real data
-- [[Studio/Analysis/writing-style.md]] — the Don'ts section covers the opposite of this: over-structured, over-explained, trying to be thorough
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style.md]] — the Don'ts section covers the opposite of this: over-structured, over-explained, trying to be thorough
 - [[Library/Examples/]] — the email examples she's imported; Pax should cross-check which examples in there are the "weeknight meal" type
 
 ## What I think you're actually saying

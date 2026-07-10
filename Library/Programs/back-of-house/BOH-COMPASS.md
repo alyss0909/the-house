@@ -24,7 +24,7 @@ Back of House is Alyssa's flagship $3,000 course. Four phases: offers + sales pa
 | "What is the [Double Yes / Lazy Launch / Simmer / Batch / Bread & Butter]?" | Key Definitions section below → then that module's transcript if more depth needed |
 | "What copy snippets / lesson titles does module X use?" | `INDEX.md` — scroll to that module's detailed section |
 | "What does the full course cover?" | `INDEX.md` lines 44–210 (the Quick Scan — compact map of all phases) |
-| "Writing copy that references BOH content by name" | Copy snippets in `INDEX.md` (per module) + [[Studio/Analysis/voice-profile]] |
+| "Writing copy that references BOH content by name" | Copy snippets in `INDEX.md` (per module) + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]] |
 | "What do the BOH webinars teach?" | [[Studio/Analysis/workshop-webinar-analysis]] (all 3 analyzed) |
 | "What are the BOH bots and what do they do?" | `INDEX.md` Bot Roster section (near end of file) |
 | "Who is the BOH audience?" | [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] |

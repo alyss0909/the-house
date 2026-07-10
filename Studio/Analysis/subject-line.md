@@ -7,7 +7,7 @@ last_updated: 2026-06-03
 tags: [subject-lines, email]
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/copy-task-routing|Copy Task Routing]] | [[Library/Examples/INDEX|Examples]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] | [[Studio/Analysis/copy-task-routing|Copy Task Routing]] | [[Library/Examples/INDEX|Examples]]
 
 > **v2.1** — Built from 351 Kit broadcasts (June 2024–June 2026) + cross-analysis from a second LLM. Contains 11 named patterns with performance data and template banks, a decision framework, confirmed top performers, preview text rules, email-type formulas, and a quick reference card. Zero contradictions across all analysis passes.
 
@@ -54,7 +54,7 @@ Reach for this file when:
 - **Auditing a subject line batch** — checking if drafts sound like Alyssa or like generic email marketing
 - **Training any team member on email** — subject lines are the most imitated and most easily botched element
 
-> Do NOT use this file alone for Soft Sunday subject lines — also read [[Studio/Analysis/writing-style]] Section 7 (humor) and Section 6 (permission voice) for the full emotional register those emails require.
+> Do NOT use this file alone for Soft Sunday subject lines — also read [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] Section 7 (humor) and Section 6 (permission voice) for the full emotional register those emails require.
 
 ---
 
@@ -727,6 +727,6 @@ Apply the raccoon-in-cashmere filter: would someone who knows Alyssa personally 
 
 ## See Also
 
-- [[Studio/Analysis/writing-style|Writing Style Analysis]] — Section 7 (humor) and Section 6 (permission voice) for Soft Sunday register; Section 8 (CTA catalog) and Section 12 (Don'ts) apply directly to subject lines
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] — Section 7 (humor) and Section 6 (permission voice) for Soft Sunday register; Section 8 (CTA catalog) and Section 12 (Don'ts) apply directly to subject lines
 - [[Studio/Analysis/copy-task-routing|Copy Task Routing]] — subject line task routing table
 - [[Studio/Analysis/home-page|Home Page Analysis]] — marquee text patterns are related to the "short + weird + specific" subject line formula

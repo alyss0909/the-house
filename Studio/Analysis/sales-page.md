@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 tags: [copy]
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/sales-pages/boh-sales-page|BOH Sales Page]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Library/Offers/back-of-house/MAP|BOH Offer]] | [[Library/Programs/back-of-house/INDEX|BOH Program]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/sales-pages/boh-sales-page|BOH Sales Page]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] | [[Library/Offers/back-of-house/MAP|BOH Offer]] | [[Library/Programs/back-of-house/INDEX|BOH Program]]
 
 ---
 
@@ -356,6 +356,6 @@ The food metaphor works in BOH because food = nourishment, care, and slow craft 
 
 ## Cross-Reference
 
-Read alongside [[Studio/Analysis/writing-style]] for sentence-level voice patterns, dos-and-don'ts, and how to write *as* Alyssa rather than *about* her. The sales page analysis documents the architecture; the writing style analysis documents the material.
+Read alongside [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] for sentence-level voice patterns, dos-and-don'ts, and how to write *as* Alyssa rather than *about* her. The sales page analysis documents the architecture; the writing style analysis documents the material.
 
 Primary source: [[Library/Examples/sales-pages/boh-sales-page|BOH Sales Page]]

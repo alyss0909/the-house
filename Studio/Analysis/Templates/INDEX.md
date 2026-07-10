@@ -66,4 +66,4 @@ Simmer email → Sales email → Sales page → everything else
 
 ## How a team member uses this
 
-Pick the template for the job → fill in [brackets] → adjust for the specific offer, audience, and moment → cross-check against [[Studio/Analysis/writing-style]] before sending.
+Pick the template for the job → fill in [brackets] → adjust for the specific offer, audience, and moment → cross-check against [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]] before sending.

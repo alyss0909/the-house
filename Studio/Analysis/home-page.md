@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 tags: [copy]
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/home-page|Home Page — Full Copy]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/about-page|About Page Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/home-page|Home Page — Full Copy]] | [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] | [[Studio/Analysis/about-page|About Page Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]]
 
 ---
 
@@ -23,7 +23,7 @@ Reach for this document first in the following situations:
 - **Understanding the "HUSTLE CULTURE IS OVERCOOKED" counter-positioning** — before writing anything that touches anti-hustle, slow marketing, or sustainability messaging
 - **Writing any copy where "who this is NOT for" is as important as "who this IS for"**
 
-Do NOT use this file as a substitute for [[Studio/Analysis/writing-style]]. That file covers voice and craft mechanics. This file covers architecture — the structural decisions that organize the whole page.
+Do NOT use this file as a substitute for [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style]]. That file covers voice and craft mechanics. This file covers architecture — the structural decisions that organize the whole page.
 
 ---
 
@@ -425,7 +425,7 @@ Every time she chooses between a general claim and a specific one, she chooses s
 
 ## See Also
 
-- [[Studio/Analysis/writing-style|Writing Style Analysis]] — The master voice calibration document. Read before writing anything in Alyssa's name.
+- [[Archive/Studio-Analysis-voice-retired-2026-07-10/writing-style|Writing Style Analysis]] — The master voice calibration document. Read before writing anything in Alyssa's name.
 - [[Studio/Analysis/sales-page|Sales Page Analysis]] — How the same brand argument expands into full persuasion architecture when it has more space.
 - [[Library/Examples/home-page|Home Page — Full Copy]] — Primary source for this analysis. Always read alongside this document.
 - [[Library/Examples/about-page|About Page — Full Copy]] — What the home page can't do (personal story, origin narrative, credential depth) and defers to the about page to handle.

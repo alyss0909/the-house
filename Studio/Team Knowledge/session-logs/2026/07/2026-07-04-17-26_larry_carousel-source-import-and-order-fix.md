@@ -44,7 +44,7 @@ Alyssa provided the real Claude OS carousel source files after identifying that 
 
 ## Next steps
 
-- For carousel work, use [[Studio/Analysis/voice-profile]], [[Studio/Analysis/Frameworks/carousel-quickref]], [[Studio/Analysis/Templates/carousel-brief]], and add [[Studio/Analysis/carousel-slide-by-slide]] when studying real examples or building a new concept.
+- For carousel work, use [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile]], [[Studio/Analysis/Frameworks/carousel-quickref]], [[Studio/Analysis/Templates/carousel-brief]], and add [[Studio/Analysis/carousel-slide-by-slide]] when studying real examples or building a new concept.
 
 ## Cross-links
 
