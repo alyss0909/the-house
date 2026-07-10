@@ -1,3 +1,5 @@
+> Downstream reference (2026-07-10): house voice authority is [[Studio/Voice/README]] + [[Library/Examples]]; on conflict, they win. See AGENTS.md "Voice is house-level".
+
 <!-- token_ceiling: 3500 | every rule cites tier-1 originals | refusals capped at ~20% of file -->
 
 # STYLE.md — How Alyssa's writing actually moves

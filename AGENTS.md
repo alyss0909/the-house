@@ -18,7 +18,7 @@ The house is organized by trust, not by project. **Notebook** is Alyssa's raw ma
 
 ## Voice is house-level (MANDATORY, added 2026-07-10)
 
-Before writing or answering in Alyssa's voice — any copy, any deliverable, any chat reply that speaks as her — load [[Voice/README]] first, then the relevant format file in [[Voice/formats]]. This applies to **every** specialist, not just content-desk writers. Write toward her real examples in [[Library/Examples]] first; run [[Voice/KILL-LIST]] as the last editing pass, after a draft exists. Voice is not owned by Hermes (Alyssa's ruling 2026-07-10): Hermes is a content-desk writer that consumes this layer like everyone else. Files in [[Hermes]] and [[Studio/Analysis]] are downstream reference, not authority; when they conflict with her real examples, the real examples win.
+Before writing or answering in Alyssa's voice — any copy, any deliverable, any chat reply that speaks as her — load [[Studio/Voice/README]] first, then the relevant format file in [[Studio/Voice/formats]]. This applies to **every** specialist, not just content-desk writers. Write toward her real examples in [[Library/Examples]] first; run [[Studio/Voice/KILL-LIST]] as the last editing pass, after a draft exists. Voice is not owned by Hermes (Alyssa's ruling 2026-07-10): Hermes is a content-desk writer that consumes this layer like everyone else. Files in [[Hermes]] and [[Studio/Analysis]] are downstream reference, not authority; when they conflict with her real examples, the real examples win.
 
 ## Identity overlay (MANDATORY, applies from now)
 

@@ -1,3 +1,5 @@
+> Downstream reference (2026-07-10): house voice authority is [[Studio/Voice/README]] + [[Library/Examples]]; on conflict, they win. See AGENTS.md "Voice is house-level".
+
 <!-- token_ceiling: 2000 | the me/not-me detector + scoring rubric -->
 
 # TASTE.md — Me / Not-Me Detector

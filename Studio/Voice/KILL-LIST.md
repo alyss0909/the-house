@@ -7,7 +7,7 @@ description: The hard not-me editing pass, run on every finished draft before it
 
 # Voice Kill List
 
-This is the editing pass, not the writing guide. Write toward her real examples in [[Voice/formats]] first. Then run a finished draft against this checklist before it ships. Source: [[Hermes/ANTI-AI]], built from Alyssa's own journal words, not from AI inference about her.
+This is the editing pass, not the writing guide. Write toward her real examples in [[Studio/Voice/formats]] first. Then run a finished draft against this checklist before it ships. Source: [[Hermes/ANTI-AI]], built from Alyssa's own journal words, not from AI inference about her.
 
 ## Rule priority, when rules collide
 

@@ -14,7 +14,8 @@ zone: Studio
 | Desk | What it does | Current path |
 |---|---|---|
 | **Content** | The pitch pipeline, dashboard, taste ledger, swipe, briefs | `Studio/Content/` (dashboard at `Studio/Content/dashboard/`) — **MOVED 2026-07-10** from `Team Inbox/pitches/` + `dashboard/` |
-| **Voice** (Hermes) | Judgment, craft, voice rules, learning. Points at source; owns no facts. | `Hermes/` |
+| **Voice** | THE house voice authority: format guides + KILL-LIST; every specialist loads it before writing as Alyssa. Her real examples in [[Library/Examples]] outrank everything. | `Studio/Voice/` — **MOVED 2026-07-10** from root `Voice/` |
+| **Hermes station** | The writer's brain: judgment, craft, learning. Downstream of the Voice layer; owns no facts. | `Hermes/` (parked at root) |
 | **Signals** | AI-detected patterns and theses from the journal | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (MOVED 2026-07-09, Pilot A) |
 | **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `Studio/Analysis/` (`Frameworks/` + `Templates/` subfolders, [[Studio/Analysis/COMPASS]] entry point) — **MOVED 2026-07-10** from `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | **Team** | Contracts, SOPs, workstreams, guidelines, tasks, session logs | `Studio/Team/` + `Studio/Team Knowledge/` — **MOVED 2026-07-10** from root `Team/` + `Team Knowledge/` |

@@ -1,3 +1,5 @@
+> Downstream reference (2026-07-10): house voice authority is [[Studio/Voice/README]] + [[Library/Examples]]; on conflict, they win. See AGENTS.md "Voice is house-level".
+
 <!-- token_ceiling: 3000 | tier-1 sourced | Alyssa-signoff: pending Gate 3 -->
 
 # SOUL.md — Alyssa Coleman
