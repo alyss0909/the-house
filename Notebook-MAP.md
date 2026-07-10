@@ -7,7 +7,9 @@ zone: Notebook
 
 # Notebook — Alyssa's raw material
 
-**This is Alyssa's mind. Read it. Never write or edit it.** The only writer is Penn, and only capture-transcription (WS-001). Any interpretation of what's here lives in the Studio and links back.
+**This is Alyssa's mind. Read it. Never write or edit it** — except the one requested-edit exception below. The only standing writer is Penn, and only capture-transcription (WS-001). Any interpretation of what's here lives in the Studio and links back.
+
+**Requested-edit exception (GL-013 Rule 1):** when Alyssa explicitly asks, an agent may make mechanical/connective edits here — wikilinks, formatting, tidying frontmatter, connecting a note into the graph. Only on her request, only structure (never her words or meaning), and say what was changed. Everything else stays read-only.
 
 ## What's here / where it physically is now
 

@@ -1,6 +1,6 @@
 # GL-013 — The House Rules
 
-- **Status:** DRAFT — awaiting Alyssa's blessing. Not yet wired into AGENTS.md or agent contracts.
+- **Status:** ACTIVE (blessed by Alyssa 2026-07-09).
 - **Owner:** Larry
 - **Applies to:** every agent, every session, every file, everywhere in the house.
 - **Supersedes:** the earlier "one home per fact" draft (that rule survives here as Rule 3).
@@ -27,7 +27,14 @@ An agent can never again be confused about whether it is reading her mind, the t
 
 ### Rule 1 — Notebook is hers. Agents read it, never write it.
 
-No agent writes, edits, appends to, or "improves" anything in the Notebook — not the journal, not raw inbox drops, not her drafts. The one exception is Penn performing capture-transcription (WS-001), which writes down what she said in her own voice. Everything an agent thinks *about* her raw material — analysis, signals, theses, interpretation — lives in the Studio and links back to the raw note. Her incoming ideas stay hers, byte for byte. This holds today, before any folder moves.
+No agent writes, edits, appends to, or "improves" anything in the Notebook — not the journal, not raw inbox drops, not her drafts. The one standing exception is Penn performing capture-transcription (WS-001), which writes down what she said in her own voice. Everything an agent thinks *about* her raw material — analysis, signals, theses, interpretation — lives in the Studio and links back to the raw note. Her incoming ideas stay hers, byte for byte. This holds today, before any folder moves.
+
+**The one requested-edit exception.** When Alyssa explicitly asks for it, an agent may make *mechanical, connective* edits to a Notebook file: adding or fixing wikilinks, formatting, tidying frontmatter, connecting a note into the graph. Bounded by three rules:
+1. Only on her explicit request for that file or that batch — never on an agent's own initiative, never as a side effect of another task.
+2. Structure and connection only. Her words and their meaning are never changed, rewritten, "improved," summarized, or added to. If a change would alter what she said, it is not allowed — it becomes a Studio note that links back instead.
+3. Say what changed. The edit is mechanical and visible (links, formatting, frontmatter), so she can see exactly what was touched.
+
+Everything outside that narrow lane stays read-only. When in doubt, treat the file as untouchable and ask.
 
 ### Rule 2 — Studio work is opinion until she promotes it.
 

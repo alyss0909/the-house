@@ -13,7 +13,7 @@ This vault is organized by trust, not by project. Three places, one rule each:
 
 | Place | What it is | Who writes there |
 |---|---|---|
-| **Notebook** | Alyssa's raw material — journal, inbox drops, todos, her drafts, her life facts. If she made it and hasn't handed it to the team, it lives here. | Alyssa, and Penn transcribing her captures. Nobody else, ever. |
+| **Notebook** | Alyssa's raw material — journal, inbox drops, todos, her drafts, her life facts. If she made it and hasn't handed it to the team, it lives here. | Alyssa, and Penn transcribing her captures. Otherwise read-only — except mechanical/connective edits (wikilinks, formatting, frontmatter) Alyssa explicitly asks for; never her words or meaning. See [[GL-013-the-house-rules]] Rule 1. |
 | **Studio** | The workshop — every workflow, every analysis, every agent tool, everything in flight. Everything here is working material and OPINION, never source. | The team, inside a named workflow folder, with a status. |
 | **Library** | The trusted shelf — her verbatim work (examples, programs, sales copy, offers) plus anything she has explicitly promoted. | Nobody. Entry is by promotion stamp only. Alyssa edits freely; agents cite. |
 | **Archive** | Where dead, superseded, and finished-process material drains. | Larry, at reconciliation. |
