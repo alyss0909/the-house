@@ -7,8 +7,8 @@ recurrence_count: 6
 signal_status: thesis-ready
 second_brain_connections:
   - PKM/Second Brain/programs/back-of-house/
-  - PKM/Developing Ideas/boh-as-permission-not-product.md
-  - PKM/Developing Ideas/middle-ground-entrepreneur.md
+  - Studio/Signals/Developing Ideas/boh-as-permission-not-product.md
+  - Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -33,8 +33,8 @@ This is distinct from `boh-as-permission-not-product` (which is about how BOH ge
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Developing Ideas/boh-as-permission-not-product.md]] — BOH as the thing that protects the obsession
-- [[PKM/Developing Ideas/middle-ground-entrepreneur.md]] — her own version of this; she's a history girl, not a futurist, and that's the thing she trusts
+- [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]] — BOH as the thing that protects the obsession
+- [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]] — her own version of this; she's a history girl, not a futurist, and that's the thing she trusts
 - [[PKM/Second Brain/programs/back-of-house/]] — the program that serves this belief
 
 ## What I think you're actually saying

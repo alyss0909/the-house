@@ -16,7 +16,7 @@
 
 .HOW TO RUN (one time only, as Administrator)
     Right-click PowerShell -> "Run as Administrator", then:
-        & "C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\Team Knowledge\Automations\telegram-service-install.ps1"
+        & "C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\Automations\telegram-service-install.ps1"
 
     You will be prompted for your Windows password (required by Task Scheduler
     to run the task when you are logged off).
@@ -26,13 +26,13 @@
         schtasks /query /tn "myPKA - Telegram Capture Bot" /v /fo LIST
 
     Check the log file for output:
-        notepad "C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\Team Knowledge\scripts\telegram-capture.log"
+        notepad "C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\scripts\telegram-capture.log"
 
 .HOW TO UNINSTALL
     Run this in any PowerShell (no elevation needed):
         Unregister-ScheduledTask -TaskName "myPKA - Telegram Capture Bot" -Confirm:$false
     Then optionally delete the log file:
-        Remove-Item "C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\Team Knowledge\scripts\telegram-capture.log"
+        Remove-Item "C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\scripts\telegram-capture.log"
 
 .NOTES
     Requires: Windows 10 or 11, Python 3.x installed and available at the path
@@ -48,7 +48,7 @@ $ErrorActionPreference = "Stop"
 # ---------------------------------------------------------------------------
 # Paths — adjust only if you move the vault folder
 # ---------------------------------------------------------------------------
-$VaultRoot   = "C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)"
+$VaultRoot   = "C:\Users\accol\OneDrive\Desktop\the-house"
 $ScriptPath  = "$VaultRoot\Team Knowledge\scripts\telegram-capture-mvp.py"
 $LogFile     = "$VaultRoot\Team Knowledge\scripts\telegram-capture.log"
 $PythonW     = "C:\Users\accol\AppData\Local\Programs\Python\Python313\pythonw.exe"

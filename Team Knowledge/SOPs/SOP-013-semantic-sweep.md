@@ -122,14 +122,14 @@ Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule 
 **Larry does NOT:**
 - Auto-graduate a signal — that requires Alyssa's decision
 - Auto-dismiss a signal — Alyssa must explicitly decide
-- Delete old signals — archive to `PKM/Signals/signals-archive.md` if the list gets unwieldy
+- Delete old signals — archive to `Studio/Signals/signals-archive.md` if the list gets unwieldy
 
 ---
 
 ## Cross-references
 
-- [[PKM/Signals/signals-index.md]] — the living signal tracker
-- [[PKM/Developing Ideas/INDEX.md]] — the idea garden
+- [[Studio/Signals/signals-index.md]] — the living signal tracker
+- [[Studio/Signals/Developing Ideas/INDEX.md]] — the idea garden
 - [[Hermes/learning/inbox.md]] — voice loop output
 - [[PKM/Second Brain/taste-log.md]] — taste loop cross-reference
 - [[PKM/Second Brain/ready-queue.md]] — content activation output

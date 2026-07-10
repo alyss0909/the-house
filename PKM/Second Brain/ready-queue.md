@@ -34,9 +34,9 @@ Write 3-email sequence for the BOH summer launch. Voice memo register — thinki
 - Email 3: The Auction Story. The woman who was just clearly happy. Universal truths are more durable than the next wave. Onions and garlic. White wine and butter. People who give a shit about something specific and build a system to protect it.
 
 **Source material Hermes must read first:**
-- [[PKM/Developing Ideas/middle-ground-entrepreneur.md]]
-- [[PKM/Developing Ideas/boh-as-permission-not-product.md]]
-- [[PKM/Developing Ideas/slow-biz-creative-freedom.md]]
+- [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]]
+- [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]]
+- [[Studio/Signals/Developing Ideas/slow-biz-creative-freedom.md]]
 - [[PKM/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md]]
 - [[PKM/Second Brain/analysis/writing-style.md]]
 - [[PKM/Second Brain/analysis/voice-profile.md]]

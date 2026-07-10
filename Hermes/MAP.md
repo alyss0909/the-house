@@ -13,7 +13,7 @@ The clone does not eat summaries. It reads HER files, guided by this map. Rule o
 | `PKM/Second Brain/analysis/` | HER distillation layer (18 files): carousel-slide-by-slide, subject-line (351 broadcasts), soft-sunday, sales-page, email-microstyle-forensics, boh-teaching-index-phases-0-2 & 3-5, audience/ survey | task recipes (§2) |
 | `PKM/Second Brain/frameworks/` | 11 framework files incl. social-hooks, the-postmaster-bot | task recipes (§2) |
 | `PKM/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
-| `PKM/Signals/` + `PKM/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
+| `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
 | `PKM/My Life/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
 | quarantine (never load as voice) | `analysis/voice-profile.md`, `voice-archive.md`, `writing-style.md` (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `templates/`, `Carousels/brief-bank.md`, all Wren files, stale-voice pages | SOURCES.md |
 

@@ -36,7 +36,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2026-03-06
 - **Last seen**: 2026-06-06
 - **Signal status**: thesis-ready
-- **Garden note**: [[PKM/Developing Ideas/middle-ground-entrepreneur.md]]
+- **Garden note**: [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]]
 - **Connected goal**: BOH summer launch
 - **Ready queue**: Item 1 — BOH Launch Email Sequence assigned to Hermes
 
@@ -62,7 +62,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2026-03-12
 - **Last seen**: 2026-06-12
 - **Signal status**: developing
-- **Garden note**: [[PKM/Developing Ideas/email-to-content-repurposing-system.md]]
+- **Garden note**: [[Studio/Signals/Developing Ideas/email-to-content-repurposing-system.md]]
 - **Ready queue**: Item 2 — Standing Hermes instruction
 
 ---
@@ -74,7 +74,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2026-04-27
 - **Last seen**: 2026-06-06
 - **Signal status**: developing
-- **Garden note**: [[PKM/Developing Ideas/ai-team-as-mirror-not-replacement.md]]
+- **Garden note**: [[Studio/Signals/Developing Ideas/ai-team-as-mirror-not-replacement.md]]
 
 ---
 
@@ -85,7 +85,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2026-03-06
 - **Last seen**: 2026-06-27
 - **Signal status**: developing
-- **Garden note**: [[PKM/Developing Ideas/boh-as-permission-not-product.md]]
+- **Garden note**: [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]]
 - **Latest capture**: "the people who build sustainable creative businesses aren't the ones who master marketing, they're the ones who give a shit about something specific and built a back-of-house that means they never have to stop giving a shit" — [[PKM/Journal/2026/06/2026-06-27-sustainable-creative-biz-signal.md]]
 
 ---
@@ -97,7 +97,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2019-10-26
 - **Last seen**: 2026-04-30
 - **Signal status**: becoming
-- **Garden note**: [[PKM/Developing Ideas/slow-biz-creative-freedom.md]]
+- **Garden note**: [[Studio/Signals/Developing Ideas/slow-biz-creative-freedom.md]]
 
 ---
 
@@ -192,6 +192,6 @@ _None yet._
 ## Cross-references
 
 - [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the procedure that updates this file
-- [[PKM/Developing Ideas/INDEX.md]] — the garden notes that live signals feed into
+- [[Studio/Signals/Developing Ideas/INDEX.md]] — the garden notes that live signals feed into
 - [[PKM/Second Brain/taste-log.md]] — approval patterns that inform signal prioritization
 - [[PKM/My Life/Goals/]] — active Goals this index cross-references

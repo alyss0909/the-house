@@ -9,3 +9,4 @@ to do
 - profit activities
 - master this notion lead magnet flow - this is a quick win maybe my emails can just get one added simply > trip 
 - find a meta ads person to follow process me & alex
+- 

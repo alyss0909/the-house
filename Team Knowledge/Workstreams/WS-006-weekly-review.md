@@ -4,7 +4,7 @@
 - **Type:** Workstream — single trigger, full loop
 - **Owner:** Larry (orchestration, sweep, synthesis, queue)
 - **Triggered by:** `/weekly-review` / "do the weekly review" / "weekly wrap" / "close session" nudge when ≥5 days since last weekly wrap
-- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[PKM/Developing Ideas/INDEX.md]], [[PKM/Second Brain/ready-queue.md]], [[PKM/Second Brain/taste-log.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], [[PKM/Second Brain/ready-queue.md]], [[PKM/Second Brain/taste-log.md]]
 
 ---
 
@@ -72,7 +72,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Review the state of the idea garden. What's developing, what's stalled, what's ready.
 
 **Steps:**
-1. Open `PKM/Developing Ideas/INDEX.md`
+1. Open `Studio/Signals/Developing Ideas/INDEX.md`
 2. For each idea with status `thesis-ready` or `becoming`: check when it was last touched. If 2+ weeks with no Alyssa reaction, surface it in the wrap with a "this one is waiting for you" note
 3. For each idea with `developing` status: check if new source entries from Phase 1 should be wikilinked in
 4. Check `check-back` dates on all garden notes. Flag any that are overdue
@@ -125,6 +125,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 4. Identify what was superseded by better work later in the week. Archive, delete, demote, or mark as process evidence instead of leaving it active.
 5. Flag trust breaks that need Silas, Hermes, Pax, or Mack. Silas handles source-boundary/index drift; Hermes handles recurring rejection-informed rules; Pax handles external gold-standard proof; Mack handles connector/cron work after the manual behavior works once.
 6. Add a concise `## Grand metabolism` section to the weekly wrap. Monthly review should be able to read this instead of reopening raw chaos.
+7. **House-rules lint ([[GL-013-the-house-rules]], ~5 min).** Grep the week's live changes for: a known fact string (a price, a chat word) appearing outside its one home; citations to files that don't exist on disk; orphan files created with no real connections; any non-Penn write inside the Notebook. Fix each hit in this session. This is the weekly guard that keeps the geography honest.
 
 **Output:** The week becomes easier to use: fewer floating reports, clearer source paths, cleaner tasks, and one sharper next-week starting point.
 

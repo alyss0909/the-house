@@ -13,7 +13,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # ── Config ──────────────────────────────────────────────────────────────────
 CSV_PATH = r'C:\Users\accol\AppData\Local\Temp\idea Pantry DB 2f4c8b43e5658142a060f4e3c920e7f4_all.csv'
-DEST_DIR = r'C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\PKM\Documents'
+DEST_DIR = r'C:\Users\accol\OneDrive\Desktop\the-house\PKM\Documents'
 
 # ── Lookup tables ─────────────────────────────────────────────────────────
 LABEL_MAP = {

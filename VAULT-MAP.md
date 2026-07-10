@@ -20,7 +20,7 @@ This vault is organized by trust, not by project. Three places, one rule each:
 
 ## Where things physically are RIGHT NOW (transition table)
 
-Nothing has moved yet. Until a row says MOVED, use the current path:
+The Signals desk has moved (Pilot A, 2026-07-09). Everything else is still at its current path. Until a row says MOVED, use the current path:
 
 | Conceptual home | Current physical path |
 |---|---|
@@ -28,7 +28,7 @@ Nothing has moved yet. Until a row says MOVED, use the current path:
 | Notebook/Inbox | `Team Inbox/` (the raw drops, NOT `pitches/`) |
 | Notebook/Life | `PKM/My Life/` + `PKM/CRM/` |
 | Studio/Content OS | `Team Inbox/pitches/` + `dashboard/` |
-| Studio/Signals | `PKM/Signals/` + `PKM/Developing Ideas/` |
+| Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
 | Studio/Analysis | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | Studio/Voice (Hermes station) | `Hermes/` |
 | Studio/Team | `Team/` + `Team Knowledge/` |

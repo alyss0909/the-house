@@ -15,7 +15,7 @@ zone: Studio
 |---|---|---|
 | **Content** | The pitch pipeline, dashboard, taste ledger, swipe, briefs | `Team Inbox/pitches/` + `dashboard/` |
 | **Voice** (Hermes) | Judgment, craft, voice rules, learning. Points at source; owns no facts. | `Hermes/` |
-| **Signals** | AI-detected patterns and theses from the journal | `PKM/Signals/` + `PKM/Developing Ideas/` |
+| **Signals** | AI-detected patterns and theses from the journal | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (MOVED 2026-07-09, Pilot A) |
 | **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | **Team** | Contracts, SOPs, workstreams, guidelines, tasks, session logs | `Team/` + `Team Knowledge/` |
 | **Automations** | Scripts, bots, watchers, imports | `Team Knowledge/Automations/` + `Team Knowledge/scripts/` |

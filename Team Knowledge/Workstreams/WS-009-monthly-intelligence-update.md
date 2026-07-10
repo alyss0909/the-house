@@ -121,8 +121,8 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 
 - [[Team Knowledge/Workstreams/WS-007-monthly-review.md]] — session log aggregation, runs before this
 - [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — called in Step 1
-- [[PKM/Signals/signals-index.md]] — updated in Steps 1-3
-- [[PKM/Developing Ideas/INDEX.md]] — updated in Step 3
+- [[Studio/Signals/signals-index.md]] — updated in Steps 1-3
+- [[Studio/Signals/Developing Ideas/INDEX.md]] — updated in Step 3
 - [[Hermes/learning/inbox.md]] — updated in Step 2
 - [[PKM/Second Brain/taste-log.md]] — updated in Step 4
 - [[PKM/Second Brain/yes-pattern.md]] — updated in Step 6

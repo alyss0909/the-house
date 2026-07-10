@@ -51,11 +51,11 @@ That's it. Then whatever Alyssa came to do.
 
 **Examples:**
 
-> 📌 The middle-ground entrepreneur thesis is ready for your eyes. [[PKM/Developing Ideas/middle-ground-entrepreneur.md]]
+> 📌 The middle-ground entrepreneur thesis is ready for your eyes. [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]]
 
 > 📌 Hermes is ready to start the BOH launch emails — she just needs you to confirm the launch date or say "no date, just write it."
 
-> 📌 "Easiest email = highest return" came up again in Tuesday's entry. It's at 5 now. Garden note: [[PKM/Developing Ideas/easiest-email-highest-return.md]]
+> 📌 "Easiest email = highest return" came up again in Tuesday's entry. It's at 5 now. Garden note: [[Studio/Signals/Developing Ideas/easiest-email-highest-return.md]]
 
 > 📌 Hermes finished the BOH Email 1 draft. [[Deliverables/2026-07-04-boh-launch-email-1-draft.md]]
 
@@ -71,7 +71,7 @@ The daily pulse IS the system being proactive. It's 150 Alyssas looking at what 
 
 ## Cross-references
 
-- [[PKM/Developing Ideas/INDEX.md]] — primary source for what to pulse
+- [[Studio/Signals/Developing Ideas/INDEX.md]] — primary source for what to pulse
 - [[PKM/Second Brain/ready-queue.md]] — secondary source
-- [[PKM/Signals/signals-index.md]] — signal jump detection
+- [[Studio/Signals/signals-index.md]] — signal jump detection
 - [[Team Knowledge/Workstreams/WS-006-weekly-review.md]] — weekly review synthesizes what the daily pulses revealed

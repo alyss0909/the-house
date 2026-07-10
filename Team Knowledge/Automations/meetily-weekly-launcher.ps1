@@ -450,7 +450,7 @@ Run this block ONCE in an elevated PowerShell to register the weekly trigger.
 The main script above handles the per-meeting one-shot tasks automatically
 every Monday at 8:00 AM once this parent task is registered.
 
-$scriptPath = 'C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\Team Knowledge\Automations\meetily-weekly-launcher.ps1'
+$scriptPath = 'C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\Automations\meetily-weekly-launcher.ps1'
 
 $action = New-ScheduledTaskAction `
     -Execute "powershell.exe" `

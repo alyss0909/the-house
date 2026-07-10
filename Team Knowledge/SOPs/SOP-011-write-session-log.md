@@ -128,6 +128,17 @@ Every session-created artifact gets one fate:
 
 Run [[GL-009-source-boundaries-and-promotion]] and [[Hermes/MEAN-ALYSSA]] before promoting anything. If the decision is taste or strategy and one answer cannot be proven, use the Versions Rule: Version A is safer and source-close; Version B is more nuanced or higher-upside and needs Alyssa's taste.
 
+## The house-rules check (GL-013)
+
+Before writing the log, run one pass against [[GL-013-the-house-rules]]. Did this session:
+
+- type a fact that already has a home (should have been a wikilink)?
+- write or edit anything in the Notebook that wasn't Penn capture or an Alyssa-requested connective edit?
+- cite a file that doesn't exist on disk?
+- leave an orphan file with no real connections?
+
+Any yes: fix it now, before the log is written. Note the fix in the metabolism section.
+
 ## Voice and style
 
 - First person. The agent's voice. Be specific.

@@ -266,7 +266,7 @@ See [[Team/Larry - Orchestrator/AGENTS]] for the full Librarian and Session-Log 
 
 Larry runs a semantic sweep as part of every weekly, monthly, and quarterly review. This is automatic — no user instruction needed.
 
-**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates `PKM/Signals/signals-index.md` with counts and statuses, feeds `PKM/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for the Ready Queue, and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
+**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates `Studio/Signals/signals-index.md` with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for the Ready Queue, and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
 
 **When it fires:**
 
@@ -279,7 +279,7 @@ Larry runs a semantic sweep as part of every weekly, monthly, and quarterly revi
 
 **Escalation rules:** Larry updates the Signals Index and garden notes automatically. Larry does NOT graduate a signal to a Goal/Project or dismiss a signal without Alyssa's explicit instruction. Graduation candidates (6+ recurrence) have thesis drafts written by Larry for Alyssa to react to directly.
 
-See [[SOP-013-semantic-sweep]] for the full procedure, [[PKM/Signals/signals-index.md]] for the living tracker, and [[PKM/Developing Ideas/INDEX.md]] for the idea garden.
+See [[SOP-013-semantic-sweep]] for the full procedure, [[Studio/Signals/signals-index.md]] for the living tracker, and [[Studio/Signals/Developing Ideas/INDEX.md]] for the idea garden.
 
 ## Daily Pulse Behavior (Larry — WS-010)
 

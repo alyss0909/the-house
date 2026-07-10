@@ -4,7 +4,7 @@
 
 param(
     [string]$CsvPath = "C:\Users\accol\AppData\Local\Temp\idea Pantry DB 2f4c8b43e5658142a060f4e3c920e7f4_all.csv",
-    [string]$VaultRoot = "C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)"
+    [string]$VaultRoot = "C:\Users\accol\OneDrive\Desktop\the-house"
 )
 
 $ErrorActionPreference = "Stop"

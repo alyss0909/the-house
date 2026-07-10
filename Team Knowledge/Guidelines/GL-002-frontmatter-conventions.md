@@ -314,7 +314,7 @@ Notes:
 - `theme` is multi-value — an offer may carry more than one theme.
 - Body section conventions: `## What it is`, `## Who it's for`, `## Where to find it`, `## Notes`.
 
-### Signals - `PKM/Signals/signals-index.md` (entries within the index)
+### Signals - `Studio/Signals/signals-index.md` (entries within the index)
 
 Signal entries live inside `signals-index.md` as sub-sections, not as individual files. Each entry tracks a recurring theme detected by SOP-004 semantic sweeps.
 
