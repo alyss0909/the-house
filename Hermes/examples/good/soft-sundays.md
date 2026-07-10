@@ -1,6 +1,6 @@
 ---
 format: soft sunday
-source: PKM/Second Brain/examples/soft-sundays/ (6 calibrated emails; NEVER the flagged me-i-need-ideas file)
+source: Library/Examples/soft-sundays/ (6 calibrated emails; NEVER the flagged me-i-need-ideas file)
 why: confession opens, vulnerable beats without jokes, emotional reframes of technical topics, extended domestic metaphor
 verbatim: true
 ---

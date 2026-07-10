@@ -13,9 +13,9 @@ zone: Library
 
 | What | Current path | Note |
 |---|---|---|
-| Her verbatim copy | `PKM/Second Brain/examples/` (carousels, simmers, soft-sundays, sales pages, emails) | Exactly as she wrote it. Source. |
-| Program curriculum | `PKM/Second Brain/programs/` (Back of House transcripts, modules, webinars) | Her real teaching. Source. |
-| Offers | `PKM/My Life/Offers/` | One record per offer. Facts + positioning. (Full per-offer Library homes come in Phase 5.) |
+| Her verbatim copy | `Library/Examples/` (carousels, simmers, soft-sundays, sales pages, emails) | Exactly as she wrote it. Source. **MOVED 2026-07-10** from `PKM/Second Brain/examples/`. |
+| Program curriculum | `Library/Programs/` (Back of House transcripts, modules, webinars) | Her real teaching. Source. **MOVED 2026-07-10** from `PKM/Second Brain/programs/`. |
+| Offers | `Library/Offers/<offer>/MAP.md` — one folder per offer | Facts + positioning; verbatim sales copy links to `Library/Examples/` instead of duplicating it. **MOVED 2026-07-10** from `PKM/My Life/Offers/` (flat files); Back of House is the reference pattern. |
 | Promoted work | (none yet) | Studio work Alyssa has explicitly signed. Carries a `promoted_by` stamp. |
 
 ## What is NOT here
@@ -30,8 +30,8 @@ zone: Library
 
 ## Navigating deep
 
-- The Second Brain's own COMPASS/INDEX files still route inside the source (they survive as the deep router).
-- For offers, each offer's record is the entry point; funnel pairings and the no-CTA list live in the Offers map.
+- Task-routing (which file to load for which copy task) now lives at [[Studio/Analysis/COMPASS|Studio/Analysis/COMPASS.md]] — analysis, frameworks, and templates are Studio opinion, not Library source, so the router moved with them.
+- For offers, each offer's `Library/Offers/<offer>/MAP.md` is the entry point; funnel pairings and the no-CTA list live in [[Hermes/BUSINESS]].
 
 ## The rule
 

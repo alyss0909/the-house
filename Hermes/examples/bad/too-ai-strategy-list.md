@@ -1,6 +1,6 @@
 ---
 format: soft sunday (FLAGGED BY ALYSSA AS "TOO AI")
-source: PKM/Second Brain/examples/soft-sundays/me-i-need-ideas-i-already-had.md
+source: Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md
 use: negative calibration ONLY — never imitate, never mine for voice
 verbatim: true
 ---

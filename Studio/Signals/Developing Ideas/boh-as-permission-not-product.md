@@ -6,9 +6,9 @@ last_seen: 2026-06-27
 recurrence_count: 5
 signal_status: developing
 second_brain_connections:
-  - PKM/Second Brain/programs/back-of-house/
-  - PKM/My Life/Offers/back-of-house.md
-  - PKM/Second Brain/analysis/sales-page-analysis.md
+  - Library/Programs/back-of-house/
+  - Library/Offers/back-of-house/MAP.md
+  - Studio/Analysis/sales-page-analysis.md
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -31,9 +31,9 @@ This connects directly to the `middle-ground-entrepreneur` signal but is specifi
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Second Brain/programs/back-of-house/]] — the full program; what it actually teaches vs. what the positioning says it does
-- [[PKM/Second Brain/analysis/sales-page-analysis.md]] — the current sales page; does it lead with permission or with features?
-- [[PKM/My Life/Offers/back-of-house.md]] — the offer entity; status and notes
+- [[Library/Programs/back-of-house/]] — the full program; what it actually teaches vs. what the positioning says it does
+- [[Studio/Analysis/sales-page-analysis.md]] — the current sales page; does it lead with permission or with features?
+- [[Library/Offers/back-of-house/MAP.md]] — the offer entity; status and notes
 
 ## What I think you're actually saying
 

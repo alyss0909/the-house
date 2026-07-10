@@ -120,7 +120,7 @@ If the client-facing task list lives in Trello or another external tool, myPKA s
 
 ## Step 3b - Project and Offer cross-linking
 
-After Penn files the Journal note, Larry checks `Notebook/Life/Projects/` and `PKM/My Life/Offers/` for a file that matches the meeting's subject.
+After Penn files the Journal note, Larry checks `Notebook/Life/Projects/` and `Library/Offers/` for a file that matches the meeting's subject.
 
 If a matching Project or Offer file exists:
 1. Add a **Status update** or **Open threads** entry to the Project/Offer file noting the meeting happened and linking to the Journal entry.

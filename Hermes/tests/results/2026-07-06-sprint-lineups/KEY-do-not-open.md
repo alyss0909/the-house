@@ -4,7 +4,7 @@ Do not open this file until all three judges have filed verdicts on their calib 
 
 Candidate identity: post-1 = Email/Edu "Flavor"; post-2 = Offer dual-CTA "The Numbers"; post-3 = Pinterest/Edu "One Ingredient"; post-4 = Productivity/Edu "Head Hands Heart"; post-5 = FTG Manifesto "Trust The Plan"; post-6 = Wildcard single-image "guys, i think this one's actually working."
 
-Real post identity uses the caption-file date (all sourced from `PKM/Second Brain/examples/Carousels/captions.md` and `PKM/Second Brain/analysis/carousel-slide-by-slide.md`).
+Real post identity uses the caption-file date (all sourced from `Library/Examples/Carousels/captions.md` and `Studio/Analysis/carousel-slide-by-slide.md`).
 
 ---
 

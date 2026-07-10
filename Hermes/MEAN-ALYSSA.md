@@ -62,7 +62,7 @@ Ask these before every step.
 ### Taste and output
 
 - Is this polished but dead?
-- **Published is not approved.** Provenance never overrules the tells: judge every piece against ANTI-AI/TASTE even when it is (or reads as) her real published work — the corpus contains pieces she later flagged as too-AI (`examples/soft-sundays/me-i-need-ideas-i-already-had.md`; calibration miss 2026-07-05: a blind gate published it because it "was hers").
+- **Published is not approved.** Provenance never overrules the tells: judge every piece against ANTI-AI/TASTE even when it is (or reads as) her real published work — the corpus contains pieces she later flagged as too-AI (`Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md`; calibration miss 2026-07-05: a blind gate published it because it "was hers").
 - Did it pass a rubric but fail the publish/read-next-to-real-copy test?
 - Did it imitate a known winner instead of making a fresh move from the same taste?
 - Does it sound like a report when Alyssa needed a live creative move?

@@ -2,7 +2,7 @@
 
 # TASTE.md — Me / Not-Me Detector
 
-Use this to judge ANY draft (yours or anyone's) before it ships. The failure mode this file exists to catch: copy that is technically fine, on-format, rule-compliant — and has no Alyssa in it. The single most reliable "too AI" tell in the corpus: **a clean label + description with zero voice injected** (see `examples/bad/`).
+Use this to judge ANY draft (yours or anyone's) before it ships. The failure mode this file exists to catch: copy that is technically fine, on-format, rule-compliant — and has no Alyssa in it. The single most reliable "too AI" tell in the corpus: **a clean label + description with zero voice injected** (see `Library/Examples/bad/`).
 
 ## Loves (gravitates toward, rewards)
 
@@ -40,7 +40,7 @@ Use this to judge ANY draft (yours or anyone's) before it ships. The failure mod
 7. Ignores BOH modules when the idea needs a stronger teaching point.
 8. Outputs content Alyssa still has to wrestle into being.
 
-## "Too AI" tells (from the flagged email teardown, examples/bad/)
+## "Too AI" tells (from the flagged email teardown, Library/Examples/bad/)
 
 - Label + generic description lists; parallel-structured strategy items with no texture per item.
 - Bold-density collapse (no skim path; nothing stands out).
@@ -67,4 +67,4 @@ Alyssa keeps her own anti-AI rules in the vault (journal 2026-04-27, "It's not [
 | Audience level | beginner-default | uneven | sophisticated, obsessive-coded |
 | Would she have to wrestle it? | rewrite needed | edits needed | publishable with light touch |
 
-**Kill threshold:** any 0 on refusals, pain framing, or CTA = fail outright. Otherwise ≥14/18 to pass. Final gate is the **lineup test**: hide the draft among 3 real passages from `Hermes/examples/good/` (curated verbatim excerpts with source paths) or the full originals in `PKM/Second Brain/examples/<format>/` — if a fresh reader can spot the fake, it fails no matter the score.
+**Kill threshold:** any 0 on refusals, pain framing, or CTA = fail outright. Otherwise ≥14/18 to pass. Final gate is the **lineup test**: hide the draft among 3 real passages from `Hermes/examples/good/` (curated verbatim excerpts with source paths) or the full originals in `Library/Examples/<format>/` — if a fresh reader can spot the fake, it fails no matter the score.

@@ -24,13 +24,13 @@ Token discipline is not optional. It is a team performance standard. Every agent
 
 | Area | Entry point | Max lines |
 |---|---|---|
-| Second Brain (copy tasks) | `PKM/Second Brain/COMPASS.md` | ~100 lines |
-| Second Brain (full routing detail) | `analysis/copy-task-routing.md` | 545 lines (reference only) |
+| Second Brain (copy tasks) | `Studio/Analysis/COMPASS.md` | ~100 lines |
+| Second Brain (full routing detail) | `Studio/Analysis/copy-task-routing.md` | 545 lines (reference only) |
 | Team Knowledge | `Studio/Team Knowledge/INDEX.md` | ~45 lines |
 | PKM | `PKM/INDEX.md` | per INDEX standard |
 | Guidelines | `Studio/Team Knowledge/Guidelines/INDEX.md` | ~26 lines |
 
-**Do not enter `analysis/`, `examples/`, `frameworks/`, or `programs/` directly.** Route through the entry point first.
+**Do not enter `Studio/Analysis/`, `Library/Examples/`, `Studio/Analysis/Frameworks/`, or `Library/Programs/` directly.** Route through the entry point first.
 
 ---
 
@@ -51,7 +51,7 @@ Most tasks need 1–3 files. 4+ is a signal something is wrong with the route.
 
 For any copy task:
 
-1. Load `analysis/voice-profile.md` first, every time. (~3,000 tokens, contains everything from `me.md` + the most critical sections of `writing-style.md`)
+1. Load `Studio/Analysis/voice-profile.md` first, every time. (~3,000 tokens, contains everything from `me.md` + the most critical sections of `writing-style.md`)
 2. Identify task type → consult `COMPASS.md` routing table → load only the files listed for that task
 3. Never load `writing-style.md` in full for Level 1–2 tasks. Load by section number only (e.g., "§12 and §14 only")
 4. Load at least 1 example file for Level 2+ tasks. Load it before writing, not after
@@ -122,4 +122,4 @@ MCP tools inject their full schema into context on both sides — tool definitio
 
 *This guideline applies to all agents. Larry enforces it at session close as part of the Librarian role.*
 
-*See [[PKM/Second Brain/COMPASS|COMPASS.md]] for Second Brain-specific navigation rules.*
+*See [[Studio/Analysis/COMPASS|COMPASS.md]] for Second Brain-specific navigation rules.*

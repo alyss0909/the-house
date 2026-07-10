@@ -54,7 +54,7 @@ She wants to know "the monthly just works" — the minimum she needs to do to ke
 
 ### 2026-06-27 — Pre-seed from writing-style.md and voice-profile.md analysis
 
-**Source:** [[PKM/Second Brain/analysis/writing-style.md]], [[PKM/Second Brain/analysis/voice-profile.md]]
+**Source:** [[Studio/Analysis/writing-style.md]], [[Studio/Analysis/voice-profile.md]]
 
 **What this taught us:**
 
@@ -77,7 +77,7 @@ She doesn't say "here are 3 things." She tells you something that happened and t
 
 ### 2026-06-27 — Pre-seed from carousel analysis and subject line system
 
-**Source:** [[PKM/Second Brain/analysis/carousel-analysis.md]], [[PKM/Second Brain/frameworks/subject-line-operating-system.md]]
+**Source:** [[Studio/Analysis/carousel-analysis.md]], [[Studio/Analysis/Frameworks/subject-line-operating-system.md]]
 
 **What this taught us:**
 

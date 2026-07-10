@@ -4,7 +4,7 @@
 - **Type:** Workstream — Larry-led, full system calibration
 - **Owner:** Larry
 - **Triggered by:** First Sunday of every month / "monthly review" / "do the monthly"
-- **References:** [[SOP-013-semantic-sweep]], [[WS-007-monthly-review]], [[PKM/Second Brain/yes-pattern.md]], [[Hermes/learning/inbox.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-007-monthly-review]], [[Studio/Analysis/yes-pattern.md]], [[Hermes/learning/inbox.md]]
 
 ## What this is
 
@@ -74,7 +74,7 @@ Action: Update WS-008 standing instructions if needed. Review the queue sources:
 
 ## Step 6 — Update yes-pattern.md
 
-`PKM/Second Brain/yes-pattern.md` is the standing filter brief used by every specialist before starting a task. Once a month, Larry updates it to reflect:
+`Studio/Analysis/yes-pattern.md` is the standing filter brief used by every specialist before starting a task. Once a month, Larry updates it to reflect:
 - Any new YES patterns confirmed this month
 - Any new NO patterns confirmed this month
 - Any shifts in what Alyssa is focused on (changes in active offers, upcoming launches, content priorities)
@@ -124,8 +124,8 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 - [[Studio/Signals/signals-index.md]] — updated in Steps 1-3
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — updated in Step 3
 - [[Hermes/learning/inbox.md]] — updated in Step 2
-- [[PKM/Second Brain/taste-log.md]] — updated in Step 4
-- [[PKM/Second Brain/yes-pattern.md]] — updated in Step 6
+- [[Studio/Analysis/taste-log.md]] — updated in Step 4
+- [[Studio/Analysis/yes-pattern.md]] — updated in Step 6
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 
 ## Source-trust metabolism overlay

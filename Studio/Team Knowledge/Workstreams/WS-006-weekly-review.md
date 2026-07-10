@@ -4,7 +4,7 @@
 - **Type:** Workstream — single trigger, full loop
 - **Owner:** Larry (orchestration, sweep, synthesis, queue)
 - **Triggered by:** `/weekly-review` / "do the weekly review" / "weekly wrap" / "close session" nudge when ≥5 days since last weekly wrap
-- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Studio/Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[PKM/Second Brain/taste-log.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Studio/Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[Studio/Analysis/taste-log.md]]
 
 ---
 

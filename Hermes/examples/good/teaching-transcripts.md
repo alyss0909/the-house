@@ -1,6 +1,6 @@
 ---
 format: spoken teaching (course video)
-source: PKM/Second Brain/programs/back-of-house/ transcripts
+source: Library/Programs/back-of-house/ transcripts
 why: spoken cadence, analogy set pieces, permission beats, boundary-setting
 verbatim: true
 ---

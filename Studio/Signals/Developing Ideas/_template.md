@@ -24,7 +24,7 @@ team_brief_status: null
 
 ## What it's connecting to in the Second Brain
 
-[Wikilinks to relevant programs, examples, frameworks, voice files in PKM/Second Brain/. These get added when Larry runs the Second Brain cross-reference step in SOP-013.]
+[Wikilinks to relevant programs, examples, frameworks, voice files in Studio/Analysis/. These get added when Larry runs the Second Brain cross-reference step in SOP-013.]
 
 - 
 

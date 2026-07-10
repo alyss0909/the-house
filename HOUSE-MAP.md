@@ -26,16 +26,17 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 |---|---|
 | Notebook/Journal | **MOVED 2026-07-09** → `Notebook/Journal/` (redirect stub at old path) |
 | Notebook/Inbox | **MOVED 2026-07-10** → `Notebook/Inbox/` (the raw drops + `media/` + `Meeting Captures/`; redirect stub at `Team Inbox/MOVED.md`; `_archive/`, `_Processed/`, `_KeepSidianLogs/` backlog swept to `Archive/Team Inbox/`) |
-| Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `PKM/My Life/Offers/`; redirect stubs at old paths) |
+| Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `Library/Offers/`; redirect stubs at old paths) |
 | Notebook/Images | **MOVED 2026-07-09** → `Notebook/Images/` (redirect stub at old path) |
 | Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at `Team Inbox/pitches/MOVED.md` and `dashboard/MOVED.md`) |
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
-| Studio/Analysis | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
+| Studio/Analysis | **MOVED 2026-07-10** → `Studio/Analysis/` (analysis files at root, `Frameworks/` + `Templates/` subfolders, `COMPASS.md` entry point; from root `PKM/Second Brain/analysis/`, `frameworks/`, `templates/`) |
 | Studio/Voice (Hermes station) | `Hermes/` |
 | Studio/Team | **MOVED 2026-07-10** → `Studio/Team/` + `Studio/Team Knowledge/` (Bring It Home restructure) |
 | Studio/Automations | **MOVED 2026-07-10** → `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` |
-| Library/Offers | `PKM/My Life/Offers/` (facts) + `PKM/Second Brain/programs/` (curriculum) + related sales pages/emails in `examples/` |
-| Library/Second Brain | `PKM/Second Brain/examples/` |
+| Library/Offers | **MOVED 2026-07-10** → `Library/Offers/<offer>/MAP.md` — one folder per offer, facts + positioning + links (curriculum at `Library/Programs/`, sales pages/emails at `Library/Examples/`; from `PKM/My Life/Offers/`) |
+| Library/Examples | **MOVED 2026-07-10** → `Library/Examples/` (from root `PKM/Second Brain/examples/`) |
+| Library/Programs | **MOVED 2026-07-10** → `Library/Programs/` (from root `PKM/Second Brain/programs/`) |
 | Archive | `Deliverables/_archive/` (consolidation pending), `Archive/Team Inbox/_archive/`, `Archive/Team Inbox/_Processed/`, `Archive/Team Inbox/_KeepSidianLogs/` |
 | Machine room (not knowledge) | `.claude/`, `.obsidian/`, `scripts/`, `_system/`, `Expansions/`, `website/`, `lead-magnet-system/`, `node_modules/` |
 

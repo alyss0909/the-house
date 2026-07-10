@@ -17,7 +17,7 @@ zone: Notebook
 |---|---|---|
 | Journal | `Notebook/Journal/YYYY/MM/` | ~543 raw entries. Alyssa's actual words. (Moved from `PKM/Journal/` 2026-07-09.) |
 | Inbox (raw drops) | `Notebook/Inbox/` (the loose notes + `media/` + `Meeting Captures/`) | Telegram, screenshots, memos land here. (Moved from `Team Inbox/` 2026-07-10; redirect stub at `Team Inbox/MOVED.md`.) |
-| Life facts | `Notebook/Life/` (Goals, Habits, Key Elements, Projects, Topics) + `Notebook/Life/CRM/` | Her real life and relationships. (Moved from `PKM/My Life/` + `PKM/CRM/` 2026-07-09; Offers stays at `PKM/My Life/Offers/`.) |
+| Life facts | `Notebook/Life/` (Goals, Habits, Key Elements, Projects, Topics) + `Notebook/Life/CRM/` | Her real life and relationships. (Moved from `PKM/My Life/` + `PKM/CRM/` 2026-07-09; Offers moved to [[Library/MAP\|Library/Offers/]] 2026-07-10, Bring It Home Library phase.) |
 | Her drafts | (to define — `Notebook/Drafts` after the move) | Half-finished work she hasn't handed over. Possession decides, not doneness. |
 | Todos | (to confirm where these live today) | |
 

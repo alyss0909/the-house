@@ -12,18 +12,18 @@ A portable operating model of Alyssa Coleman: voice, taste, teaching, business j
 
 ## The four parts (v3 — Phase 0 reconciliation, 2026-07-05; architecture locked 2026-07-05, Alyssa's call: map, don't digest)
 
-This brain is a **judgment and routing layer over the Second Brain — never a replacement** (2026-07-05: "the goal is to USE MY ACTUAL SOURCE MATERIAL MORE not dumb me down"). Her `analysis/` folder is the distillation layer — SHE built it; we never build a second one.
+This brain is a **judgment and routing layer over the Second Brain — never a replacement** (2026-07-05: "the goal is to USE MY ACTUAL SOURCE MATERIAL MORE not dumb me down"). Her `Studio/Analysis/` folder is the distillation layer — SHE built it; we never build a second one.
 
 1. **JUDGMENT** — SOUL + STYLE + TASTE + ANTI-AI (+ craft/<format>): who she is, how she sounds, what she kills.
 2. **FACTS** — BUSINESS.md: prices, statuses, chat words. Verbatim or nothing. Only home.
 3. **MAP** — MAP.md: the atlas. Task → exact source files to read in full; calendar slots; framework → source path; exemplar index; seed bank. **All task recipes live in MAP §2.**
 4. **OPERATING** — FABLE.md: how to think, the pipeline, agent-spawning rules. Any model loads FABLE + MAP first for content-pipeline work.
 
-Every writing task = JUDGMENT loaded + MAP §2's source files read **END TO END, full originals, not excerpts**. No draft until both layers are in context. After writing: full **ANTI-AI.md final-pass checklist** (any hit = rewrite), then TASTE rubric, then lineup test against real pieces in `examples/<format>/`. Agents (test-kitchen pitchers, mean-alyssa, the pass) are hats this brain wears — their files load these four parts, never copy them. New insight = judgment rule or MAP pointer, never a new digest file.
+Every writing task = JUDGMENT loaded + MAP §2's source files read **END TO END, full originals, not excerpts**. No draft until both layers are in context. After writing: full **ANTI-AI.md final-pass checklist** (any hit = rewrite), then TASTE rubric, then lineup test against real pieces in `Library/Examples/<format>/`. Agents (test-kitchen pitchers, mean-alyssa, the pass) are hats this brain wears — their files load these four parts, never copy them. New insight = judgment rule or MAP pointer, never a new digest file.
 
 ## Hard never-load list (quarantine — see SOURCES.md)
 
-`PKM/Second Brain/analysis/voice-profile.md` & `voice-archive.md` as authority · `templates/` · `Carousels/brief-bank.md` · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via examples/bad/.
+`Studio/Analysis/voice-profile.md` & `voice-archive.md` as authority · `Studio/Analysis/Templates/` · `Carousels/brief-bank.md` · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via Library/Examples/bad/.
 
 ## Invariants
 

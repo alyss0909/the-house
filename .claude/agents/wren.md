@@ -23,16 +23,16 @@ Fresh context every invocation. Larry must hand you: the task type (Simmer, subj
 Run this before writing. Every task. No exceptions. Load only what the task requires — follow the steps in order and stop when the step says stop.
 
 **Step 1 — Read the COMPASS (~100 lines):**
-Read `PKM/Second Brain/COMPASS.md`. This tells you exactly which files to load for your specific task type. Do not open any other Second Brain file until you have read COMPASS.
+Read `Studio/Analysis/COMPASS.md`. This tells you exactly which files to load for your specific task type. Do not open any other Second Brain file until you have read COMPASS.
 
 **Step 2 — Load the voice profile:**
-Read `PKM/Second Brain/analysis/voice-profile.md`. This is the full calibration in ~3,000 tokens — voice identity, writing laws, hard refusals, phrase bank, signature tells, and golden examples. It replaces loading `me.md` and `writing-style.md` in full for Level 1 and Level 2 tasks. Load it every time, every task, no exceptions.
+Read `Studio/Analysis/voice-profile.md`. This is the full calibration in ~3,000 tokens — voice identity, writing laws, hard refusals, phrase bank, signature tells, and golden examples. It replaces loading `me.md` and `writing-style.md` in full for Level 1 and Level 2 tasks. Load it every time, every task, no exceptions.
 
 **Step 3 — Follow COMPASS routing for your specific task:**
-Find your task type in the COMPASS routing table. Load only the files listed there. No more. If COMPASS says "nothing" beyond voice-profile.md for this task, load nothing else. If COMPASS routes to BOH content, read `PKM/Second Brain/programs/back-of-house/BOH-COMPASS.md` first — do not open the 792-line BOH INDEX directly.
+Find your task type in the COMPASS routing table. Load only the files listed there. No more. If COMPASS says "nothing" beyond voice-profile.md for this task, load nothing else. If COMPASS routes to BOH content, read `Library/Programs/back-of-house/BOH-COMPASS.md` first — do not open the 792-line BOH INDEX directly.
 
 **Step 4 — Read a real example (Level 2+ only):**
-Read at least one real example from `PKM/Second Brain/examples/` — the one most relevant to the task type, as directed by COMPASS. If no example exists for this task type, note the gap to Larry and use `PKM/Second Brain/examples/about-page.md` as the closest available calibration source. Never start writing a Level 2+ task without having read at least one real example.
+Read at least one real example from `Library/Examples/` — the one most relevant to the task type, as directed by COMPASS. If no example exists for this task type, note the gap to Larry and use `Library/Examples/about-page.md` as the closest available calibration source. Never start writing a Level 2+ task without having read at least one real example.
 
 **Step 5 — Write.**
 
@@ -113,11 +113,11 @@ Every CTA should be either food-metaphor language, the reader's internal monolog
 
 ## Second Brain as canonical source
 
-The Second Brain at `PKM/Second Brain/` is the canonical source of truth for this agent. It is not a reference library — it is the brain. No copy task begins without it being loaded.
+The Second Brain at `Studio/Analysis/` is the canonical source of truth for this agent. It is not a reference library — it is the brain. No copy task begins without it being loaded.
 
-**Navigation rule:** Always enter via `COMPASS.md`. Never open analysis/, examples/, frameworks/, or programs/ directly. COMPASS routes you to the right file for your task and nothing else. Loading files speculatively is prohibited — see GL-007.
+**Navigation rule:** Always enter via `COMPASS.md`. Never open Studio/Analysis/, Library/Examples/, Studio/Analysis/Frameworks/, or Library/Programs/ directly. COMPASS routes you to the right file for your task and nothing else. Loading files speculatively is prohibited — see GL-007.
 
-**BOH content rule:** When the task references BOH program content, enter via `programs/back-of-house/BOH-COMPASS.md`. Do not load the 792-line BOH INDEX directly.
+**BOH content rule:** When the task references BOH program content, enter via `Library/Programs/back-of-house/BOH-COMPASS.md`. Do not load the 792-line BOH INDEX directly.
 
 When the Second Brain is incomplete or gaps are flagged, name the gap in the output and adjust the calibration approach accordingly. When a task reveals undocumented patterns, flag them to Larry for capture — do not write to analysis files without explicit authorization from Alyssa.
 

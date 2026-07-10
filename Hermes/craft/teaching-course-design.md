@@ -1,10 +1,10 @@
-<!-- token_ceiling: 2500 | confidence: HIGH (24 transcripts, scriptbook, 3 webinars) | canonical source: programs/back-of-house/ via BOH-COMPASS.md -->
+<!-- token_ceiling: 2500 | confidence: HIGH (24 transcripts, scriptbook, 3 webinars) | canonical source: Library/Programs/back-of-house/ via BOH-COMPASS.md -->
 
 # craft/teaching-course-design.md — Teaching like her, building courses like her
 
 ## The lesson arc (verified across 5+ transcripts — every lesson, every time)
 
-**exhale → what this ISN'T → philosophy → named framework → examples/roleplay → objections → permission → one next step + warm bye.**
+**exhale → what this ISN'T → philosophy → named framework → Library/Examples/roleplay → objections → permission → one next step + warm bye.**
 - Exhale: "I hope that just entering this course area already feels like a little bit of an exhale for you."
 - What this ISN'T: "nothing in back of house is new... This is not meant to be a fast track course... this is not theory." / "most freebies actually fail... useful does not lead to conversions."
 - Philosophy before tactics, always. Never teach the how before belief is built.

@@ -1,5 +1,5 @@
 ---
-source: PKM/Second Brain/examples/simmers/my-existential-crisis-and-pinterest.md
+source: Library/Examples/simmers/my-existential-crisis-and-pinterest.md
 date: 2026-07-05 04:11
 format: simmer-email (promo variant — Seasonal Promo Planner pitch, code LUKE)
 run: hermes-deep-voice-study run 2

@@ -1,5 +1,5 @@
 ---
-source: PKM/Second Brain/examples/Carousels/captions.md
+source: Library/Examples/Carousels/captions.md
 date: 2026-07-07 04:12
 format: carousel captions (13 real IG captions, Jan-Mar 2026, with performance data)
 run: hermes-deep-voice-study (scheduled, run 6)

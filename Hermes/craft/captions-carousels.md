@@ -1,8 +1,8 @@
-<!-- token_ceiling: 2500 | confidence: HIGH — every rule cites a real slide/hook/caption | sources: analysis/carousel-slide-by-slide.md, frameworks/social-hooks.md, examples/Carousels/captions.md -->
+<!-- token_ceiling: 2500 | confidence: HIGH — every rule cites a real slide/hook/caption | sources: Studio/Analysis/carousel-slide-by-slide.md, Studio/Analysis/Frameworks/social-hooks.md, Library/Examples/Carousels/captions.md -->
 
 # craft/captions-carousels.md
 
-**Mandatory vault load before writing any carousel:** read `analysis/carousel-slide-by-slide.md` + `frameworks/social-hooks.md` + `examples/Carousels/captions.md` in full, plus `analysis/carousel-hook-forensics.md` (the ranked cover analysis). Do not write from this summary alone.
+**Mandatory vault load before writing any carousel:** read `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/Frameworks/social-hooks.md` + `Library/Examples/Carousels/captions.md` in full, plus `Studio/Analysis/carousel-hook-forensics.md` (the ranked cover analysis). Do not write from this summary alone.
 
 ## Cover rules (Gate-3 v2 failure autopsy, 2026-07-05 — "literally not even a social media hook")
 
@@ -21,7 +21,7 @@ Verified against all 12+ real covers ranked by performance:
 1. **Cover: big hook, main clause UNDER SEVEN WORDS** (overflow only as a parenthetical that is itself a second hook).
 2. **Slide 2: secondary hook that creates an open loop.** The credibility/audience-mirror line IS this slide when it promises a payoff and withholds it ("I've reviewed my notes & industry reports.. here's what I'm seeing" = authority + unanswered question, one slide, one job).
 3. **Slide 3: agitate their problem.**
-4. **Slides 4-7: value, ONE idea per slide - and value means TEACHING** (2026-07-05: "the 'value' has no teaching USE boh and all products"). Every value slide teaches a real, nuanced piece of her actual material: a BOH micro-lesson (via `analysis/boh-teaching-index-*.md`), a named method (Double Yes, Fridge Test, The Batch, Grow/Nourish/Offer), or a real product mechanic. Generic observations are not value. **Per-slide architecture: BIG catchy headline first (the skimmer path - reading only headlines must deliver the argument), then the explaining body text underneath.**
+4. **Slides 4-7: value, ONE idea per slide - and value means TEACHING** (2026-07-05: "the 'value' has no teaching USE boh and all products"). Every value slide teaches a real, nuanced piece of her actual material: a BOH micro-lesson (via `Studio/Analysis/boh-teaching-index-*.md`), a named method (Double Yes, Fridge Test, The Batch, Grow/Nourish/Offer), or a real product mechanic. Generic observations are not value. **Per-slide architecture: BIG catchy headline first (the skimmer path - reading only headlines must deliver the argument), then the explaining body text underneath.**
 5. **Slide 8: something big - a massive perspective shift or aha moment.** This is a CONTENT reversal (bait-and-switch, villain reveal, "JUST KIDDING", the closing-argument reframe) - NOT the visual interrupt.
 6. **Slide 9: CTA.** The full-bleed visual world-shift is a separate device that marks the CTA doorway (S8→S9), never the last-slide content itself.
 

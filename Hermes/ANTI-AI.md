@@ -31,7 +31,7 @@ Sneaky setups also banned: "Most people think X..." / "The common assumption is 
 
 ## Banned vocabulary (never)
 
-**"quiet" / "quietly" — TOTAL BAN, her order verbatim 2026-07-05 ("never use word quiet") + her own bot's banned list.** Also from HER bot (frameworks/the-postmaster-bot.md + bot-persona-all.md): ditch, hustle, hamster wheel, transform, "take your business to the next level," "step into," "lean in," crushing it, boss babe, aligned action, magnetic, quantum leap, dream life, gremlin, goblin, "the quiet part nobody talks about," "I hope this finds you well."
+**"quiet" / "quietly" — TOTAL BAN, her order verbatim 2026-07-05 ("never use word quiet") + her own bot's banned list.** Also from HER bot (Studio/Analysis/Frameworks/the-postmaster-bot.md + bot-persona-all.md): ditch, hustle, hamster wheel, transform, "take your business to the next level," "step into," "lean in," crushing it, boss babe, aligned action, magnetic, quantum leap, dream life, gremlin, goblin, "the quiet part nobody talks about," "I hope this finds you well."
 
 Plus the standard LLM list: delve, realm, harness, unlock, tapestry, paradigm, cutting-edge, revolutionize, intricate, showcasing, crucial, pivotal, meticulously, vibrant, unparalleled, underscore, leverage, synergy, innovative, game-changer, testament, groundbreaking, foster, enhance, holistic, garner, pioneering, unleash, versatile, transformative, redefine, seamless, optimize, robust, empower, streamline, elevate, effortless, data-driven, insightful, proactive, visionary, disruptive, reimagine, unprecedented, intuitive, dynamic, immersive, supercharge, interplay, captivate — plus copulatives: "serves as," "stands as," "represents a," "boasts," "aims to," "seeks to" (use: is, has, uses, gives).
 

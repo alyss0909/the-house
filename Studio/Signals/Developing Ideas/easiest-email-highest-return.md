@@ -4,14 +4,14 @@ content_type: teaching + content
 first_seen: 2026-04-13
 last_seen: 2026-05-14
 signal_status: graduated
-graduated_into: "[[PKM/My Life/Offers/the-5-minute-newsletter.md]] — The 5 Minute Newsletter (live at alyssacoleman.ca/5m)"
+graduated_into: "[[Library/Offers/the-5-minute-newsletter/MAP.md]] — The 5 Minute Newsletter (live at alyssacoleman.ca/5m)"
 graduated_date: 2026-06-29
 recurrence_count: 5
 signal_status: developing
 second_brain_connections:
-  - PKM/Second Brain/frameworks/subject-line-operating-system.md
-  - PKM/Second Brain/analysis/writing-style.md
-  - PKM/Second Brain/examples/
+  - Studio/Analysis/Frameworks/subject-line-operating-system.md
+  - Studio/Analysis/writing-style.md
+  - Library/Examples/
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -34,9 +34,9 @@ The underlying claim is quietly radical: the email that's *easy to send consiste
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Second Brain/frameworks/subject-line-operating-system.md]] — her top-performing subject lines are consistently the simplest ones; this validates the signal in real data
-- [[PKM/Second Brain/analysis/writing-style.md]] — the Don'ts section covers the opposite of this: over-structured, over-explained, trying to be thorough
-- [[PKM/Second Brain/examples/]] — the email examples she's imported; Pax should cross-check which examples in there are the "weeknight meal" type
+- [[Studio/Analysis/Frameworks/subject-line-operating-system.md]] — her top-performing subject lines are consistently the simplest ones; this validates the signal in real data
+- [[Studio/Analysis/writing-style.md]] — the Don'ts section covers the opposite of this: over-structured, over-explained, trying to be thorough
+- [[Library/Examples/]] — the email examples she's imported; Pax should cross-check which examples in there are the "weeknight meal" type
 
 ## What I think you're actually saying
 

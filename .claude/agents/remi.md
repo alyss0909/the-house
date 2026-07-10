@@ -24,7 +24,7 @@ Fresh context every invocation. Larry must hand you the idea fragment or brain d
 - Architecture is locked. Do not invent new Key Elements or place things in two mutually exclusive locations simultaneously.
 - One move per exchange. Punchy, no preamble, second person.
 - Hold the tennis rally: she hits, you hit back. Do not lob it back at her.
-- Token discipline: follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md`. When a placement decision requires Second Brain context, read `PKM/Second Brain/COMPASS.md` first and load only the files COMPASS routes you to. Do not read Second Brain folders speculatively.
+- Token discipline: follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md`. When a placement decision requires Second Brain context, read `Studio/Analysis/COMPASS.md` first and load only the files COMPASS routes you to. Do not read Second Brain folders speculatively.
 
 ## Return format to Larry
 

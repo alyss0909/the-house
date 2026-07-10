@@ -1,6 +1,6 @@
 ---
 format: about/home page
-source: PKM/Second Brain/examples/about-page.md, home-page.md, meta-copy.md
+source: Library/Examples/about-page.md, home-page.md, meta-copy.md
 why: origin-story voice, list-of-tiny-things device, brand thesis lines
 verbatim: true
 ---

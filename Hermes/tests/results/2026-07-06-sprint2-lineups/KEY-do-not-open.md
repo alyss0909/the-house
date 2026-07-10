@@ -10,7 +10,7 @@ Candidate identity (from `Deliverables/2026-07-06-sprint-posts-A.md` and `Delive
 - post-5 = FTG Manifesto, "Your Weird Obsession Is The Business Plan." (portrait gallery, no CTA)
 - post-6 = Wildcard single-image, "she asked for a logo. she needed a witness." (**Version A only rendered**, per build instruction)
 
-Real post identity uses the caption-file date, sourced from `PKM/Second Brain/examples/Carousels/captions.md` and `PKM/Second Brain/analysis/carousel-slide-by-slide.md`. All self-check/HALT/menu/option-block annotations were stripped from every candidate before insertion — judges see only cover/slides/caption, formatting parity held with the real items (no metrics, no source citations, no rewrite notes on any item in any file).
+Real post identity uses the caption-file date, sourced from `Library/Examples/Carousels/captions.md` and `Studio/Analysis/carousel-slide-by-slide.md`. All self-check/HALT/menu/option-block annotations were stripped from every candidate before insertion — judges see only cover/slides/caption, formatting parity held with the real items (no metrics, no source citations, no rewrite notes on any item in any file).
 
 ---
 

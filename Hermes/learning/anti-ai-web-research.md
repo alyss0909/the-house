@@ -169,7 +169,7 @@ Hook types that recur across practitioner sources: contrarian claim ("Stop doing
 
 **Frameworks / carousels:**
 - https://buffer.com/resources/copywriting-formulas/
-- https://thecopybrothers.com/blog/copywriting-frameworks/
+- https://thecopybrothers.com/blog/copywriting-Studio/Analysis/Frameworks/
 - https://www.readstoleads.com/blog-article/best-copywriting-formulas
 - https://shyamgovind.com/blogs/pppp-4ps-framework-copywriting/
 - https://instacarousel.com/blog/instagram-carousel-guide-2026/

@@ -22,7 +22,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load wh
 
 **Step 1 — The procedure.** Read `Studio/Team Knowledge/SOPs/SOP-035-run-hook-bench.md` in full — your method, tests, pass/fail.
 
-**Step 2 — The craft floor.** Read `PKM/Second Brain/analysis/carousel-hook-forensics.md` — her real hook archetypes, no-reframe-on-covers rule, payoff-required standard.
+**Step 2 — The craft floor.** Read `Studio/Analysis/carousel-hook-forensics.md` — her real hook archetypes, no-reframe-on-covers rule, payoff-required standard.
 
 **Step 3 — The taste law.** Read `Studio/Content/taste-ledger.md` in full — her reacts are law.
 

@@ -42,8 +42,8 @@ Write 3-email sequence for the BOH summer launch. Voice memo register — thinki
 - [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]]
 - [[Studio/Signals/Developing Ideas/slow-biz-creative-freedom.md]]
 - [[Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md]]
-- [[PKM/Second Brain/analysis/writing-style.md]]
-- [[PKM/Second Brain/analysis/voice-profile.md]]
+- [[Studio/Analysis/writing-style.md]]
+- [[Studio/Analysis/voice-profile.md]]
 - [[Hermes/learning/inbox.md]]
 
 **Deliverable:** 3 email drafts, subject line + preview text for each. Full body copy. In a single deliverable file saved to Deliverables/ with date + slug.
@@ -58,8 +58,8 @@ Write 3-email sequence for the BOH summer launch. Voice memo register — thinki
 After every email that Alyssa drafts or files to the Second Brain, Hermes proposes 2 carousel angles from it within the same session or the next inbox run. No new work from Alyssa required — this is automatic. Each carousel proposal should name the archetype (from the carousel-framework.md) and the opening hook.
 
 **Source material:**
-- [[PKM/Second Brain/frameworks/carousel-framework.md]]
-- [[PKM/Second Brain/analysis/carousel.md]]
+- [[Studio/Analysis/Frameworks/carousel-framework.md]]
+- [[Studio/Analysis/carousel.md]]
 
 **Deliverable:** Inline proposal in the session or the weekly Brew — not a separate file.
 
@@ -74,7 +74,7 @@ The hooks document ([[Notebook/Journal/2026/04/2026-04-30-hooks.md]]) contains 4
 
 **Source material:**
 - [[Notebook/Journal/2026/04/2026-04-30-hooks.md]]
-- [[PKM/Second Brain/frameworks/carousel-framework.md]]
+- [[Studio/Analysis/Frameworks/carousel-framework.md]]
 
 **Deliverable:** 5 carousel outlines in a Deliverables/ file.
 
@@ -129,7 +129,7 @@ Develop the hook "you get what you get and you don't get upset" into a full emai
 
 **Source material:**
 - [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]
-- [[PKM/Second Brain/yes-pattern.md]]
+- [[Studio/Analysis/yes-pattern.md]]
 - [[Hermes/learning/inbox.md]]
 
 **Deliverable:** Email draft with subject line + preview text.

@@ -26,7 +26,7 @@ The deeper why, in her own thesis: *"The people who build sustainable creative b
 ## 2. What's WORKING (build on these, don't rebuild them)
 
 - **The pipeline ladder** (`Team Inbox/pitches/PIPELINE-LADDER.md`): maker produces options → Mean Alyssa attacks → survivors → Alyssa picks ONE → only then is the next rung built. Nothing downstream until upstream is approved. This structure is sound and Alyssa-approved.
-- **The forensics — the crown jewels.** `analysis/carousel-slide-by-slide.md` + `analysis/carousel-hook-forensics.md` break down *why her top 9 crushed*. This is the single most valuable asset in the building and it was never wired into the makers. Fix that first (§6).
+- **The forensics — the crown jewels.** `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/carousel-hook-forensics.md` break down *why her top 9 crushed*. This is the single most valuable asset in the building and it was never wired into the makers. Fix that first (§6).
 - **Hermes, the Writer** — a genuinely strong voice layer. He writes final copy AS her from her real files. He is *not* a strategist (see failures). Keep him in his lane and he's excellent.
 - **The taste ledger + learning loop** (`Team Inbox/pitches/taste-ledger.md`, `Hermes/learning/`): her verbatim reactions become law; recurring corrections graduate into the judgment files. The self-improvement flywheel already exists.
 - **Map-not-digest architecture** (`Hermes/FABLE.md`, `MAP.md`): the makers read HER real files, guided by a pointer map. Never summarize her source — it creates drift. This rebuilt the whole system once already; don't reintroduce it.
@@ -72,7 +72,7 @@ Every one of these cost a rejection. They're your fence.
 ## 5. What to acquaint yourself with FIRST (your reading list, in priority order)
 
 **Start here (the WHY-it-wins layer):**
-1. `analysis/carousel-hook-forensics.md` + `analysis/carousel-slide-by-slide.md` — her top 9, ranked, with the archetypes, the slide-role spine, and the sell-without-selling pattern. Know this cold.
+1. `Studio/Analysis/carousel-hook-forensics.md` + `Studio/Analysis/carousel-slide-by-slide.md` — her top 9, ranked, with the archetypes, the slide-role spine, and the sell-without-selling pattern. Know this cold.
 2. `Hermes/SOUL.md` + `Hermes/TASTE.md` — who she is + the me/not-me bar.
 3. `Team Inbox/pitches/taste-ledger.md` — her verbatim reactions + confirmed anti-patterns (law).
 4. `Team Inbox/pitches/PIPELINE-LADDER.md` + `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` — the machine + the judgment layer.
@@ -80,12 +80,12 @@ Every one of these cost a rejection. They're your fence.
 **Then the two-layer source map (this is what you'll wire to each maker):**
 
 *LAYER 1 — her real work (spin · teaching · voice):*
-- Voice: `Hermes/STYLE.md`, `ANTI-AI.md`; `analysis/subject-line.md` (351 broadcasts), `email-microstyle-forensics`, `simmer-opening-forensics`
-- Top 9 + why: `examples/Carousels/` (14 posts + `captions.md` real metrics); `analysis/carousel.md`, `carousel-flow-and-weird-hooks`
-- Teachings: `programs/back-of-house/` (5 phases/21 modules/transcripts/slides/3 webinars); `boh-teaching-index` 0-2 & 3-5; `frameworks/` (social-hooks, the-postmaster-bot)
-- Offers/funnel: `Hermes/FUNNEL.md`, `BUSINESS.md`, `PKM/My Life/Offers/` (25)
-- Audience: `analysis/audience/back-of-house-2025-survey`
-- Raw voice/seeds: `Notebook/Journal/` (2019→now), `examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
+- Voice: `Hermes/STYLE.md`, `ANTI-AI.md`; `Studio/Analysis/subject-line.md` (351 broadcasts), `email-microstyle-forensics`, `simmer-opening-forensics`
+- Top 9 + why: `Library/Examples/Carousels/` (14 posts + `captions.md` real metrics); `Studio/Analysis/carousel.md`, `carousel-flow-and-weird-hooks`
+- Teachings: `Library/Programs/back-of-house/` (5 phases/21 modules/transcripts/slides/3 webinars); `boh-teaching-index` 0-2 & 3-5; `Studio/Analysis/Frameworks/` (social-hooks, the-postmaster-bot)
+- Offers/funnel: `Hermes/FUNNEL.md`, `BUSINESS.md`, `Library/Offers/` (25)
+- Audience: `Studio/Analysis/audience/back-of-house-2025-survey`
+- Raw voice/seeds: `Notebook/Journal/` (2019→now), `Library/Examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
 
 *LAYER 2 — real Instagram craft (the skills — NOT her work):*
 - `Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit.md` — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)

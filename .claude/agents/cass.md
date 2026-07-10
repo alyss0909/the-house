@@ -20,13 +20,13 @@ Fresh context every invocation. Larry must hand you: the approved concept (title
 
 Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load what the task needs, in order, and stop.
 
-**Step 1 — LOOK at her real slides first.** Read (Read tool, in filename order) the real slide images of the closest exemplar carousel for this slot from `PKM/Second Brain/examples/Carousels/` (index: `examples/Carousels/INDEX.md`). Her real arcs are your only structural calibration — text about carousels is never a substitute.
+**Step 1 — LOOK at her real slides first.** Read (Read tool, in filename order) the real slide images of the closest exemplar carousel for this slot from `Library/Examples/Carousels/` (index: `Library/Examples/Carousels/INDEX.md`). Her real arcs are your only structural calibration — text about carousels is never a substitute.
 
-**Step 2 — Load her arc teardowns.** Read `PKM/Second Brain/analysis/carousel-slide-by-slide.md` for her real arc shapes (PAS-with-pivot, editorial trend report, identity-mirror manifesto) and which belief each slide moves.
+**Step 2 — Load her arc teardowns.** Read `Studio/Analysis/carousel-slide-by-slide.md` for her real arc shapes (PAS-with-pivot, editorial trend report, identity-mirror manifesto) and which belief each slide moves.
 
-**Step 3 — Second Brain navigation.** If the task needs Second Brain context beyond Steps 1-2, start at `PKM/Second Brain/COMPASS.md` (~100 lines, the entry point) and follow its routing — load only what it directs. Never open analysis/, examples/, or programs/ directly. For BOH teaching content enter via `PKM/Second Brain/programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
+**Step 3 — Second Brain navigation.** If the task needs Second Brain context beyond Steps 1-2, start at `Studio/Analysis/COMPASS.md` (~100 lines, the entry point) and follow its routing — load only what it directs. Never open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly. For BOH teaching content enter via `Library/Programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
 
-**Step 4 — Load the concept's teaching source + real data.** Read the exact teaching file Larry named (BOH transcript / offer file) — the substance comes from here, you do not invent teaching. Read the real data source for EVERY number: `PKM/Second Brain/analysis/subject-line.md` (351 real broadcasts) for email rates, the real offer file in `PKM/My Life/Offers/` for offer facts, `Deliverables/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks.
+**Step 4 — Load the concept's teaching source + real data.** Read the exact teaching file Larry named (BOH transcript / offer file) — the substance comes from here, you do not invent teaching. Read the real data source for EVERY number: `Studio/Analysis/subject-line.md` (351 real broadcasts) for email rates, the real offer file in `Library/Offers/` for offer facts, `Deliverables/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks.
 
 **Step 5 — Load the offer meaning + taste law.** Read `Hermes/FUNNEL.md` (the belief each offer's arc must land), `Studio/Content/taste-ledger.md` in full (anti-patterns are law; the 2026-07-07 ruling is your output spec), and `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md`.
 

@@ -26,7 +26,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load wh
 
 **Step 3 — The week's inputs.** Read the current `Studio/Content/trend-briefs/YYYY-Www-trend-brief.md` and the slot-offer lock from Suki's weekly strategy brief (SOP-038 output).
 
-**Step 4 — Second Brain (only if the task needs more).** If the task needs Second Brain context, start at `PKM/Second Brain/COMPASS.md` and follow its routing — never open analysis/, examples/, or programs/ directly.
+**Step 4 — Second Brain (only if the task needs more).** If the task needs Second Brain context, start at `Studio/Analysis/COMPASS.md` and follow its routing — never open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly.
 
 **Step 5 — Generate, then gate.** Produce 10+ candidates, then run `Studio/Team Knowledge/SOPs/SOP-037-run-mean-alyssa-content-gate.md` (concept gate) internally before anything reaches Alyssa.
 

@@ -1,8 +1,8 @@
-<!-- token_ceiling: 1800 | confidence: MEDIUM (n=2 real pages: about, home) | canonical examples: examples/about-page.md, examples/home-page.md -->
+<!-- token_ceiling: 1800 | confidence: MEDIUM (n=2 real pages: about, home) | canonical examples: Library/Examples/about-page.md, Library/Examples/home-page.md -->
 
 # craft/web-pages.md
 
-Load with: SOUL, STYLE, TASTE + `examples/about-page.md` and/or `examples/home-page.md`.
+Load with: SOUL, STYLE, TASTE + `Library/Examples/about-page.md` and/or `Library/Examples/home-page.md`.
 
 Split out of `craft/sales-pages.md` on 2026-07-07 (mechanical reorg, no content change) once two real pages confirmed this register is genuinely distinct: about/home pages are **told stories or marquee positioning**, not the pain→system→offer argument a sales page runs. Don't force the 12-beat sales-page skeleton onto these.
 

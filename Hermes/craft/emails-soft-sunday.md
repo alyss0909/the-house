@@ -20,7 +20,7 @@ Section headers use the bracket format: emoji — _italic description_ — same 
 - **One non-inventable personal detail per email minimum**: luteal-phase mention, grandma's china, two hundred jars of tomato sauce. Never a lifestyle-brand vignette.
 - **Anchor words are atmospheric, never productivity-speak**: "magic," "grounded," "Restore" — never "productive," "organized."
 - **No jokes during the vulnerable beat.** "I had truly lost the plot." stands alone; humor returns the next line.
-- **Strategy lists are the danger zone.** If teaching multiple items, every item carries texture or a self-aware aside — a clean label+description list is the #1 too-AI tell (see examples/bad/).
+- **Strategy lists are the danger zone.** If teaching multiple items, every item carries texture or a self-aware aside — a clean label+description list is the #1 too-AI tell (see Library/Examples/bad/).
 - **Food metaphor**: entry points and Check-In only; exit it out loud mid-teaching ("lol ok im done with the food thing").
 - **CTAs**: lowercase, conversational, once or twice, late. Reply-mechanics ("Reply STATS," "Reply AUTOMATION") with real limited availability behind them.
 - **Subject**: "[weird/emotional 2-5 word phrase] |🍦Soft Sunday". Confession beats topic: "I failed," "I feel sick about this," "Why I burned down a perfectly good business (on purpose)" — the only subject in her history to win both opens AND clicks.

@@ -19,7 +19,7 @@ Three bare Bdow links had been sitting in the vault for months with no content. 
 
 ## What I learned
 
-When a captured item is a URL (Telegram, Keep, inbox), the right move is: fetch the content with WebFetch, extract stats/frameworks/direct quotes, and file a proper journal entry — not just a saved link. A journal entry with real content is searchable, referencable, and useful. A bare link is a dead end. The "how I'd use this" section should be Alyssa's eventual voice, but seeding it with candidate angles is better than leaving it blank.
+When a captured item is a URL (Telegram, Keep, inbox), the right move is: fetch the content with WebFetch, extract stats/Studio/Analysis/Frameworks/direct quotes, and file a proper journal entry — not just a saved link. A journal entry with real content is searchable, referencable, and useful. A bare link is a dead end. The "how I'd use this" section should be Alyssa's eventual voice, but seeding it with candidate angles is better than leaving it blank.
 
 For running inspiration lists (like blog-post-ideas), the lighter treatment is correct: short context blurb per link, no full enrichment. The distinction is intent — reference vs. inspiration.
 

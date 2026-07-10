@@ -111,7 +111,7 @@ Before adding a new tag:
 | `repurposing` | approved | Repurposing content across channels or formats. | Generic content planning. | [[3.1 Bread and Butter Content]] | |
 | `right-time-offers` | approved | Alyssa's Right Time Offers method. | Generic offer strategy. | [[4.1 Soft Sales Back of House Slides]] | Proprietary method tag. |
 | `rush-order` | approved | Rush Order offer, copy, or build notes. | Generic BOH or done-with-you concepts. | [[rush-order]] | Replaces `done-with-you` for Rush Order. |
-| `second-brain` | approved | Notes about Second Brain construction, enrichment, retrieval, or PKM-to-LLM usage. | Files merely located inside `PKM/Second Brain/`. | [[PKM/Second Brain/INDEX]] | Meta tag only; prohibited as structural tag inside Second Brain content. |
+| `second-brain` | approved | Notes about Second Brain construction, enrichment, retrieval, or PKM-to-LLM usage. | Files merely located inside `Studio/Analysis/`. | [[Studio/Analysis/COMPASS]] | Meta tag only; prohibited as structural tag inside Second Brain content. |
 | `signature-dish` | approved | Signature Dish method, signature offer shape, or Alyssa's philosophical offer language. | Generic brand philosophy. | [[1.2 Your Signature Dish]] | Replaces `signature-method`, `signature-offer`, and `philosophy` in BOH context. |
 | `simmer-emails` | approved | Simmer emails or the Weekly Simmer method. | Generic email or newsletter. | [[2.3 The Weekly Simmer Slides]] | Replaces `simmer` in email-method context. |
 | `slow-marketing` | approved | Slow marketing philosophy or slow marketing plan materials. | Generic marketing. | [[Slow Marketing Plan Class]] | |
@@ -171,7 +171,7 @@ These tags are not valid for new use. If found, remove or replace according to t
 | `page` | retired | Never. | Always. | n/a | Too vague. |
 | `program` | prohibited | Never. | Always. | n/a | Use `program:` frontmatter. |
 | `sales-pages` | retired | Never. | Always. | n/a | Replace with `sales-page` only if the page type is truly a needed retrieval tag; otherwise use `type:`. |
-| `second-brain` as structural tag | prohibited | Never for files inside `PKM/Second Brain/`. | Always. | n/a | Allowed only for notes about Second Brain work. |
+| `second-brain` as structural tag | prohibited | Never for files inside `Studio/Analysis/`. | Always. | n/a | Allowed only for notes about Second Brain work. |
 | `slides` | prohibited | Never as a Second Brain structural tag. | Always. | n/a | Use `type: slides`. |
 | `template` | prohibited | Never as a generic structure tag. | Always. | n/a | Use `type: template` or a specific product tag like `notion`. |
 | `templates` | retired | Never. | Always. | n/a | Replace with `template` only if explicitly approved; otherwise remove. |

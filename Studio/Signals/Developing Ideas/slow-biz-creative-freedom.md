@@ -6,9 +6,9 @@ last_seen: 2026-04-30
 recurrence_count: ongoing
 signal_status: becoming
 second_brain_connections:
-  - PKM/Second Brain/programs/back-of-house/
-  - PKM/Second Brain/frameworks/
-  - PKM/Second Brain/analysis/voice-profile.md
+  - Library/Programs/back-of-house/
+  - Studio/Analysis/Frameworks/
+  - Studio/Analysis/voice-profile.md
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -32,9 +32,9 @@ Far too many to list individually. Key ones:
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Second Brain/programs/back-of-house/]] — the whole program is this thesis in practice
-- [[PKM/Second Brain/frameworks/]] — every framework in here is slow biz in disguise
-- [[PKM/Second Brain/analysis/voice-profile.md]] — the raccoon in a cashmere sweater; irreverent but warm; proof that you don't need to be loud
+- [[Library/Programs/back-of-house/]] — the whole program is this thesis in practice
+- [[Studio/Analysis/Frameworks/]] — every framework in here is slow biz in disguise
+- [[Studio/Analysis/voice-profile.md]] — the raccoon in a cashmere sweater; irreverent but warm; proof that you don't need to be loud
 
 ## What I think you're actually saying
 

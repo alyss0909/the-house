@@ -6,9 +6,9 @@ last_seen: 2026-06-12
 recurrence_count: 4
 signal_status: developing
 second_brain_connections:
-  - PKM/Second Brain/frameworks/carousel-framework.md
-  - PKM/Second Brain/analysis/carousel.md
-  - PKM/Second Brain/frameworks/subject-line-operating-system.md
+  - Studio/Analysis/Frameworks/carousel-framework.md
+  - Studio/Analysis/carousel.md
+  - Studio/Analysis/Frameworks/subject-line-operating-system.md
 team_brief_dispatched: null
 team_brief_status: null
 ---
@@ -30,9 +30,9 @@ The entries that feed this aren't aspirational — they're documentation of what
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Second Brain/frameworks/carousel-framework.md]] — 6 archetypes, 7 hook formulas; the destination format is already documented
-- [[PKM/Second Brain/analysis/carousel.md]] — her 9 best carousels analyzed; this shows what the output should look like
-- [[PKM/Second Brain/frameworks/subject-line-operating-system.md]] — the subject lines that worked are a natural pool of carousel topics; the best subject lines = the best carousel hooks
+- [[Studio/Analysis/Frameworks/carousel-framework.md]] — 6 archetypes, 7 hook formulas; the destination format is already documented
+- [[Studio/Analysis/carousel.md]] — her 9 best carousels analyzed; this shows what the output should look like
+- [[Studio/Analysis/Frameworks/subject-line-operating-system.md]] — the subject lines that worked are a natural pool of carousel topics; the best subject lines = the best carousel hooks
 
 ## What I think you're actually saying
 

@@ -65,13 +65,13 @@ Fresh context every invocation. Larry must hand you: the strategic question or t
 Load what the task needs, in order, and stop. You are copy/brand-adjacent — you calibrate to her, then to the machine.
 
 1. **The persona + taste bar:** [[Hermes/SOUL]] (who Alyssa is) and [[Hermes/TASTE]] (the me/not-me detector). You cannot direct content in her name without these.
-2. **The forensics you know cold:** `PKM/Second Brain/analysis/carousel-hook-forensics.md` (why her top hooks win — the archetypes, the no-reframe-on-covers law, the payoff-required rule) and `PKM/Second Brain/analysis/carousel-slide-by-slide.md` (the universal slide spine + per-archetype arcs + the sell-without-selling pattern). This is your craft floor — read it as needed, know it always.
+2. **The forensics you know cold:** `Studio/Analysis/carousel-hook-forensics.md` (why her top hooks win — the archetypes, the no-reframe-on-covers law, the payoff-required rule) and `Studio/Analysis/carousel-slide-by-slide.md` (the universal slide spine + per-archetype arcs + the sell-without-selling pattern). This is your craft floor — read it as needed, know it always.
 3. **The machine you lead:** [[Studio/Content/PIPELINE-LADDER.md]], [[WS-011-weekly-carousel-pitch]], and [[GL-010-content-pitch-operating-brain]] (the judgment layer — the failure taxonomy is law).
 4. **The offers + the taste law:** [[Hermes/FUNNEL]] (what each offer really sells; funnel-fit is on MEANING) and `Studio/Content/taste-ledger.md` in full (her reacts are law; log verbatim, never editorialize).
 5. **The source wiring:** `Studio/Content/trusted-sources.md` (the ONLY approved external craft sources — the niche swipe set, the craft-only architecture set, the macro trend feeds) and `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified IG benchmarks).
    - Suki-owned craft cards, such as [[Studio/Content/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns]], are mechanics-only references. Use them to sharpen maker tests and Mean Alyssa ammo; never treat them as voice, proof, or Alyssa source.
    - For Alyssa's own broader grid baseline, load [[Notebook/Inbox/Recent Instagram Covers]] and [[Deliverables/2026-07-08-recent-instagram-covers-suki-intake]] when directing covers, hooks, grid rhythm, usual dos/don'ts, or maker source-wiring. This is baseline calibration, not performance proof.
-6. **Second Brain routing (if needed):** if a task needs Second Brain context beyond the forensics above, start at `PKM/Second Brain/COMPASS.md` (~100 lines, the entry point) and load its voice profile (`analysis/voice-profile.md`), then follow COMPASS routing — never open analysis/, examples/, or programs/ directly. For BOH content enter via `programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
+6. **Second Brain routing (if needed):** if a task needs Second Brain context beyond the forensics above, start at `Studio/Analysis/COMPASS.md` (~100 lines, the entry point) and load its voice profile (`Studio/Analysis/voice-profile.md`), then follow COMPASS routing — never open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly. For BOH content enter via `Library/Programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
 
 The named exemplar accounts Alyssa gave for the art-girl-indie vibe — **@isabelradford, @erifikii, @bookish.joo** (now in `trusted-sources.md`) — are exemplars to STUDY, not accounts whose playbooks you invent. Their live scrape GAPed on a tool-seat issue on 2026-07-07; reference them as named exemplars, and their scraped data will enrich your direction once the wire is fixed. Never fabricate their strategy.
 
@@ -114,7 +114,7 @@ Say "ready for reacts," never "ready" or "final." Alyssa decides.
 - Substance handoff: [[Studio/Team/Cassius - Substance Specialist/AGENTS]] (Rung 3)
 - Voice handoff: [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]] (Rung 4)
 - Persona + taste: [[Hermes/SOUL]], [[Hermes/TASTE]], [[Hermes/FUNNEL]]
-- Forensics: `PKM/Second Brain/analysis/carousel-hook-forensics.md`, `PKM/Second Brain/analysis/carousel-slide-by-slide.md`
+- Forensics: `Studio/Analysis/carousel-hook-forensics.md`, `Studio/Analysis/carousel-slide-by-slide.md`
 - Source wiring: `Studio/Content/trusted-sources.md`, `Deliverables/2026-07-06-instagram-craft-foundation.md`
 - Alyssa grid baseline: [[Notebook/Inbox/Recent Instagram Covers]], [[Deliverables/2026-07-08-recent-instagram-covers-suki-intake]]
 - Token discipline: [[GL-007-token-discipline]]

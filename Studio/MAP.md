@@ -16,7 +16,7 @@ zone: Studio
 | **Content** | The pitch pipeline, dashboard, taste ledger, swipe, briefs | `Studio/Content/` (dashboard at `Studio/Content/dashboard/`) — **MOVED 2026-07-10** from `Team Inbox/pitches/` + `dashboard/` |
 | **Voice** (Hermes) | Judgment, craft, voice rules, learning. Points at source; owns no facts. | `Hermes/` |
 | **Signals** | AI-detected patterns and theses from the journal | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (MOVED 2026-07-09, Pilot A) |
-| **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
+| **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `Studio/Analysis/` (`Frameworks/` + `Templates/` subfolders, `COMPASS.md` entry point) — **MOVED 2026-07-10** from `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | **Team** | Contracts, SOPs, workstreams, guidelines, tasks, session logs | `Studio/Team/` + `Studio/Team Knowledge/` — **MOVED 2026-07-10** from root `Team/` + `Team Knowledge/` |
 | **Automations** | Scripts, bots, watchers, imports | `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` — **MOVED 2026-07-10** |
 

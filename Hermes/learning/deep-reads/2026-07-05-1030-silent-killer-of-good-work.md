@@ -1,5 +1,5 @@
 ---
-source: PKM/Second Brain/examples/sales-emails/silent-killer-of-good-work.md
+source: Library/Examples/sales-emails/silent-killer-of-good-work.md
 date: 2026-07-05 10:30
 format: sales-email
 run: hermes-deep-voice-study (deep-read 3)

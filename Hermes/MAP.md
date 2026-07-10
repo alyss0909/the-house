@@ -2,20 +2,20 @@
 
 # MAP.md — the atlas of Alyssa's source material
 
-The clone does not eat summaries. It reads HER files, guided by this map. Rule of this file: **a pointer, a path, a one-line label — never a paraphrase of source content.** BUSINESS.md wins every fact conflict. Paths are vault-relative; Second Brain = `PKM/Second Brain/`.
+The clone does not eat summaries. It reads HER files, guided by this map. Rule of this file: **a pointer, a path, a one-line label — never a paraphrase of source content.** BUSINESS.md wins every fact conflict. Paths are vault-relative. Second Brain dissolved 2026-07-10: verbatim work -> `Library/Examples/` + `Library/Programs/`; the team's study of it -> `Studio/Analysis/` (+ `Frameworks/`, `Templates/` subfolders).
 
 ## 1. The territory
 
 | Territory | What it holds | Enter via |
 |---|---|---|
-| `PKM/Second Brain/programs/back-of-house/` | The flagship curriculum: 5 phases, 21 modules, transcripts, slides, 3 webinars | phase INDEX files; framework registry (§4 below) |
-| `PKM/Second Brain/examples/` | Her REAL published work: sales-emails/ (6), simmers/ (4), soft-sundays/ (8), sales-pages/, Carousels/ (14 posts + captions.md) | the format's folder + §5 exemplar index |
-| `PKM/Second Brain/analysis/` | HER distillation layer (18 files): carousel-slide-by-slide, subject-line (351 broadcasts), soft-sunday, sales-page, email-microstyle-forensics, boh-teaching-index-phases-0-2 & 3-5, audience/ survey | task recipes (§2) |
-| `PKM/Second Brain/frameworks/` | 11 framework files incl. social-hooks, the-postmaster-bot | task recipes (§2) |
+| `Library/Programs/back-of-house/` | The flagship curriculum: 5 phases, 21 modules, transcripts, slides, 3 webinars | phase INDEX files; framework registry (§4 below) |
+| `Library/Examples/` | Her REAL published work: sales-emails/ (6), simmers/ (4), soft-sundays/ (8), sales-pages/, Carousels/ (14 posts + captions.md) | the format's folder + §5 exemplar index |
+| `Studio/Analysis/` | HER distillation layer (18 files): carousel-slide-by-slide, subject-line (351 broadcasts), soft-sunday, sales-page, email-microstyle-forensics, boh-teaching-index-phases-0-2 & 3-5, audience/ survey | task recipes (§2) |
+| `Studio/Analysis/Frameworks/` | 11 framework files incl. social-hooks, the-postmaster-bot | task recipes (§2) |
 | `Notebook/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
 | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
-| `PKM/My Life/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
-| quarantine (never load as voice) | `analysis/voice-profile.md`, `voice-archive.md`, `writing-style.md` (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `templates/`, `Carousels/brief-bank.md`, all Wren files, stale-voice pages | SOURCES.md |
+| `Library/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
+| quarantine (never load as voice) | `Studio/Analysis/voice-profile.md`, `voice-archive.md`, `writing-style.md` (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `Studio/Analysis/Templates/`, `Library/Examples/Carousels/brief-bank.md`, all Wren files, stale-voice pages | SOURCES.md |
 
 ## 2. Task → mandatory source loads (the recipes)
 
@@ -23,19 +23,19 @@ Every writing task = JUDGMENT files (SOUL+STYLE+TASTE+ANTI-AI) + these vault loa
 
 | Task | Read, end to end |
 |---|---|
-| Simmer | all 3 `examples/simmers/` + `programs/.../2.3 The Simmer Transcript.md` |
-| Soft Sunday | 3 of `examples/soft-sundays/` incl. why-i-burned-down-my-business.md (never the flagged one) + `analysis/soft-sunday.md` |
-| Sales email | ALL `examples/sales-emails/` |
-| Subject lines | `analysis/subject-line.md` in full |
-| Sales page | `examples/sales-pages/boh-sales-page.md` + 1-2 same-lane pages + `analysis/sales-page.md` |
-| Carousel / caption | `analysis/carousel-slide-by-slide.md` + `frameworks/social-hooks.md` + `examples/Carousels/captions.md` |
+| Simmer | all 3 `Library/Examples/simmers/` + `Library/Programs/.../2.3 The Simmer Transcript.md` |
+| Soft Sunday | 3 of `Library/Examples/soft-sundays/` incl. why-i-burned-down-my-business.md (never the flagged one) + `Studio/Analysis/soft-sunday.md` |
+| Sales email | ALL `Library/Examples/sales-emails/` |
+| Subject lines | `Studio/Analysis/subject-line.md` in full |
+| Sales page | `Library/Examples/sales-pages/boh-sales-page.md` + 1-2 same-lane pages + `Studio/Analysis/sales-page.md` |
+| Carousel / caption | `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/Frameworks/social-hooks.md` + `Library/Examples/Carousels/captions.md` |
 | Email → carousel | carousel load + the source email in full |
 | Teaching content | the BOH module named in §4, in full (workbook + transcript) |
-| Offer/pitch copy | BUSINESS.md + the product's `PKM/My Life/Offers/` file + `analysis/audience/back-of-house-2025-survey-client-profile.md` |
+| Offer/pitch copy | BUSINESS.md + the product's `Library/Offers/` file + `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` |
 | Pitching concepts | §3 slot row + the slot's exemplar analyses (§5) + signals-index |
-| Judging (gate) | ANTI-AI + TASTE + 2 real same-format pieces from examples/ for the lineup |
+| Judging (gate) | ANTI-AI + TASTE + 2 real same-format pieces from Library/Examples/ for the lineup |
 | Trust gate before asking/creating/promoting | `Hermes/MEAN-ALYSSA.md` + `Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md` + the relevant rejection-corpus source |
-| Taste/strategy decision with no provable answer | `Hermes/MEAN-ALYSSA.md` + same-format examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
+| Taste/strategy decision with no provable answer | `Hermes/MEAN-ALYSSA.md` + same-format Library/Examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
 | Any topic at all | grep `Notebook/Journal/` for her raw take first |
 
 ## 3. The calendar → slot map
@@ -73,11 +73,11 @@ Phase 2: Symptoms→Diagnosis→Prescription → `2.1 transcript` · Double Curi
 Phase 3: Bread & Butter + 8 Hallmarks + 6 Content Styles → `3.1` (+ slides/transcript) · Slow Pinterest + Big 7 Keyword Areas → `3.2` (+ slides) · 7×10×4×5 + The Rotation → `3.3 transcript`
 Phase 4: Lazy Launch + Five Sales Emails + 72-Hour Mini Promo → `4.1` (+ transcript) · Hot Lead Loop (Grow→Nourish→Launch) → `4.1 slides` · Launch Debrief → `4.3`
 Webinars: Feed vs Index Visibility → `webinars/Slowly Viral Class.md`
-(All paths under `programs/back-of-house/`. Full registry with one-line definitions: `Deliverables/2026-07-05-vault-learn/learn-programs.md` §2.)
+(All paths under `Library/Programs/back-of-house/`. Full registry with one-line definitions: `Deliverables/2026-07-05-vault-learn/learn-programs.md` §2.)
 
 ## 5. Exemplar index (which analysis section covers which real post)
 
-All 14 carousel folders live in `examples/Carousels/` with verbatim captions + metrics in `captions.md`; per-post slide breakdowns in `analysis/carousel-slide-by-slide.md` (12 of 14; valentines/march-affirmations/guest-cheque are captions-only — never invent their slide content). Proven top performers by metrics: 01-20 (132K views, 4,070 saves), 01-15 (5,781 saves), 01-22 (highest share ratio — the FTG benchmark).
+All 14 carousel folders live in `Library/Examples/Carousels/` with verbatim captions + metrics in `captions.md`; per-post slide breakdowns in `Studio/Analysis/carousel-slide-by-slide.md` (12 of 14; valentines/march-affirmations/guest-cheque are captions-only — never invent their slide content). Proven top performers by metrics: 01-20 (132K views, 4,070 saves), 01-15 (5,781 saves), 01-22 (highest share ratio — the FTG benchmark).
 
 ## 6. Seed bank (unmined journal moments → path; the SEED input beats slot-filling)
 
@@ -90,8 +90,8 @@ All 14 carousel folders live in `examples/Carousels/` with verbatim captions + m
 
 ## 7. Known broken / waiting on Alyssa
 
-- `Hermes/examples/good/` + `Hermes/examples/bad/` DO exist (curated files, capped at 12 in good/) — TASTE/SOUL/STYLE/README correctly point there. It is `PKM/Second Brain/examples/good|bad/` that does NOT exist — the lineup test uses the full `PKM/Second Brain/examples/<format>/` folders. RESOLVED 2026-07-05: Alyssa ruled NO gold-standard benchmark files, ever — top performers are information about how she writes, never templates ("the benchmarks made you a little bit too reliant on one thing"). Pitching = theme week → gather ALL her real material on the theme across every format → extract the philosophy → apply to edu/offer/FTG, flavored per product. Reason first, then source (verbatim ruling: learning/inbox.md 2026-07-05 sitting block).
+- `Hermes/examples/good/` + `Hermes/examples/bad/` DO exist (curated files, capped at 12 in good/) — TASTE/SOUL/STYLE/README correctly point there. It is `Library/Examples/good|bad/` that does NOT exist — the lineup test uses the full `Library/Examples/<format>/` folders. RESOLVED 2026-07-05: Alyssa ruled NO gold-standard benchmark files, ever — top performers are information about how she writes, never templates ("the benchmarks made you a little bit too reliant on one thing"). Pitching = theme week → gather ALL her real material on the theme across every format → extract the philosophy → apply to edu/offer/FTG, flavored per product. Reason first, then source (verbatim ruling: learning/inbox.md 2026-07-05 sitting block).
 - Chat words at "manual": Bingeable Newsletters, 5 Minute Newsletter, Unignorable Subject Lines, The Numbers, Biz Tracker, Promo Planner, + 7 more (BUSINESS.md).
 - Price conflicts: Quarter in a Day $2,000 vs $111; CEO Year $79 vs $27-47.
 - PIN vs Pinterest chat-word conflict (W2).
-- programs/ctc, yoe, webinar-1, webinar-2 = empty placeholders; transcripts never imported.
+- Library/Programs/ctc, yoe, webinar-1, webinar-2 = empty placeholders; transcripts never imported.

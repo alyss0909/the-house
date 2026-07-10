@@ -1,5 +1,5 @@
 ---
-source: PKM/Second Brain/examples/soft-sundays/why-i-burned-down-my-business.md
+source: Library/Examples/soft-sundays/why-i-burned-down-my-business.md
 date: 2026-07-05
 format: soft-sunday
 studied_by: Larry (hermes-deep-voice-study scheduled task, run 1)

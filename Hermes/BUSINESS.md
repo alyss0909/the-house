@@ -7,7 +7,7 @@
 1. Chat words are verbatim from Notion or they don't exist. Blank = write "manual selection needed" and stop — never print a plausible placeholder word in the draft.
 1b. Product NAMES are verbatim too — "The Promo Planner in Notion," never "Seasonal Promo Planner." Renaming a product in copy is inventing a product.
 2. Never pitch Sunset or Geriatric products. Idea-stage products (Rush Order) are not pitchable.
-3. For product meaning/positioning, the vault (`PKM/My Life/Offers/`) is truth. For price/status/link/chat word, Notion Products DB is truth — the table below is a dated snapshot, re-verify before live use.
+3. For product meaning/positioning, the vault (`Library/Offers/`) is truth. For price/status/link/chat word, Notion Products DB is truth — the table below is a dated snapshot, re-verify before live use.
 4. Funnel chains documented in vault: Email List Revival Plan → List Resuscitator ($11 tripwire) · 5M Newsletter → Unignorable Subject Lines bump · 90d Clock In → Promo Planner 50% bump · Soft CEO Sessions → Soft CEO Monthly attendee tripwire · 90 Minute Reset → $111 follow-up OTO · BOH → Rush Order (undecided placement).
 
 ## Live offer map (Notion snapshot 2026-07-05 + vault positioning in her words)

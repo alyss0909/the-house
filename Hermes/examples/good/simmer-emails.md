@@ -1,6 +1,6 @@
 ---
 format: simmer email
-source: PKM/Second Brain/examples/simmers/ (gentle-parent-your-business-model.md, my-existential-crisis-and-pinterest.md, when-delta-stole-my-business-idea.md)
+source: Library/Examples/simmers/ (gentle-parent-your-business-model.md, my-existential-crisis-and-pinterest.md, when-delta-stole-my-business-idea.md)
 why: cold opens mid-scene, story→lesson pivot, line-break emphasis, reply-CTAs
 verbatim: true
 ---

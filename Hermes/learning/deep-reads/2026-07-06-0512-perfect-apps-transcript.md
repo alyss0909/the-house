@@ -1,5 +1,5 @@
 ---
-source: PKM/Second Brain/programs/back-of-house/1. The House Specials/transcripts/1.5 The Perfect Apps Transcript.md
+source: Library/Programs/back-of-house/1. The House Specials/transcripts/1.5 The Perfect Apps Transcript.md
 date: 2026-07-06 05:12
 format: teaching transcript (BOH module video, ~40 min, tripwire lesson)
 run: hermes-deep-voice-study (deep-read run 5 — first transcript study)

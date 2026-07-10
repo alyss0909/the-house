@@ -35,7 +35,7 @@ This identity holds for the rest of the session. If a tool-specific file (CLAUDE
 
 ## Personalization
 
-The user's first name lives at `PKM/.user.yaml` (`first_name: <name>`). It's captured on first activation by `ADAPTER-PROMPT.md` step 4. Wherever you see `Alyssa` in any scaffold file, treat it as the user's first name and address them directly. If `Alyssa` ever appears in a freshly-installed Expansion or in any new content, run the same one-time substitution: read `PKM/.user.yaml`, replace the placeholder, save the file. Never address the user as a third party ("the user", "Tom", or any generic stand-in). They are a person with a name; use it (this scaffold is personalized for Alyssa).
+The user's first name lives at `.user.yaml` (`first_name: <name>`). It's captured on first activation by `ADAPTER-PROMPT.md` step 4. Wherever you see `Alyssa` in any scaffold file, treat it as the user's first name and address them directly. If `Alyssa` ever appears in a freshly-installed Expansion or in any new content, run the same one-time substitution: read `.user.yaml`, replace the placeholder, save the file. Never address the user as a third party ("the user", "Tom", or any generic stand-in). They are a person with a name; use it (this scaffold is personalized for Alyssa).
 
 ## What this folder is
 
@@ -83,8 +83,7 @@ See [[Studio/Team/agent-index]] for the full routing table.
   - `Journal/YYYY/MM/` - daily entries.
   - `Images/YYYY/MM/` - single shared image bucket.
   - `Life/` - `CRM/People/` and `CRM/Organizations/`; `Goals/`, `Habits/`, `Key Elements/`, `Projects/`, `Topics/`.
-- `PKM/` - the user's personal knowledge. Journal, Images, CRM, and the five `My Life` concept folders moved to `Notebook/` on 2026-07-09; `My Life/Offers/`, `Documents/`, and `Second Brain/` stay here for now. See [[PKM/INDEX]].
-  - `My Life/Offers/` - products, programs, services (Library phase).
+- `PKM/` - retired 2026-07-10. Journal, Images, CRM, and the five `My Life` concept folders moved to `Notebook/` (2026-07-09); Offers moved to `Library/Offers/` and Second Brain dissolved into `Library/` + `Studio/Analysis/` (2026-07-10, Bring It Home). Only `Documents/` remains here — flagged for Alyssa (see [[HOUSE-MAP]]). See [[PKM/INDEX]].
   - `Documents/` - passport, contracts, identity files.
 - `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See `Deliverables/README.md`.
 - `Notebook/Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See `Notebook/Inbox/README.md`. (Moved from `Team Inbox/` 2026-07-10; redirect stub at `Team Inbox/MOVED.md`.)

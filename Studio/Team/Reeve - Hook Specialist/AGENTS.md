@@ -46,7 +46,7 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 - Process: [[WS-011-weekly-carousel-pitch]] (you own Step 4 — hook bench)
 - SOP: [[SOP-035-run-hook-bench]]
 - Gate: [[SOP-037-run-mean-alyssa-content-gate]]
-- Craft source: `PKM/Second Brain/analysis/carousel-hook-forensics.md`
+- Craft source: `Studio/Analysis/carousel-hook-forensics.md`
 - Strategy lead: [[Studio/Team/Suki - Social Media Strategist/AGENTS]] — directs, does not draft
 - Judgment layer: [[GL-010-content-pitch-operating-brain]]
 - Token discipline: [[GL-007-token-discipline]]

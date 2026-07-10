@@ -1,8 +1,8 @@
-<!-- token_ceiling: 2500 | confidence: HIGH — authored writing skill from a team member who writes these; provided by Alyssa 2026-07-07 | pairs with: PKM/Second Brain/examples/Carousels/for-the-girls-slide-copy.md (verbatim examples) + craft/captions-carousels.md (deck spine) -->
+<!-- token_ceiling: 2500 | confidence: HIGH — authored writing skill from a team member who writes these; provided by Alyssa 2026-07-07 | pairs with: Library/Examples/Carousels/for-the-girls-slide-copy.md (verbatim examples) + craft/captions-carousels.md (deck spine) -->
 
 # craft/for-the-girls-posts.md
 
-**What this is:** the reusable writing skill for "girls posts" (aka For The Girls / FTG — the Friday identity / permission / brand-world lane). Authored by the team member who writes these with Alyssa; captured verbatim 2026-07-07. This is METHOD. The matching evidence — every real FTG slide transcribed word-for-word — lives in [[examples/Carousels/for-the-girls-slide-copy|for-the-girls-slide-copy.md]]. Read one full example in slide order before writing. For where an FTG deck sits structurally (it often has NO CTA slide, closes on an open question), see [[craft/captions-carousels|captions-carousels.md]].
+**What this is:** the reusable writing skill for "girls posts" (aka For The Girls / FTG — the Friday identity / permission / brand-world lane). Authored by the team member who writes these with Alyssa; captured verbatim 2026-07-07. This is METHOD. The matching evidence — every real FTG slide transcribed word-for-word — lives in [[Library/Examples/Carousels/for-the-girls-slide-copy|for-the-girls-slide-copy.md]]. Read one full example in slide order before writing. For where an FTG deck sits structurally (it often has NO CTA slide, closes on an open question), see [[craft/captions-carousels|captions-carousels.md]].
 
 **Provenance note:** this is a collaborator's articulation of the craft, not Alyssa's verbatim voice. It is highly aligned with the JUDGMENT layer (SOUL/STYLE/TASTE) and the real slides — use it as method. Where it ever conflicts with JUDGMENT, JUDGMENT wins.
 

@@ -35,9 +35,9 @@ Each slide line carries **actual persuasive copy that names and agitates the rea
 
 Every stat on a proof slide traces to Alyssa's real data. Never invent. Never round away from the real figure.
 
-- **Email open rates:** her real range is **34–57% opens** (`PKM/Second Brain/analysis/subject-line.md`, 351 broadcasts). A real engaged open rate is ~40–57%. A cold/ghost open rate is single digits to low teens — believable.
+- **Email open rates:** her real range is **34–57% opens** (`Studio/Analysis/subject-line.md`, 351 broadcasts). A real engaged open rate is ~40–57%. A cold/ghost open rate is single digits to low teens — believable.
 - **NEVER 3%.** Her exact callout: *"nobody has a fucking 3% open rate."*
-- **Offer facts:** the real offer file in `PKM/My Life/Offers/`. **IG benchmarks:** `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
+- **Offer facts:** the real offer file in `Library/Offers/`. **IG benchmarks:** `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
 - If a needed number isn't in her real data: build the slide without it, or flag the gap. Never fake it.
 
 ### 4. Attribution header on every arc
@@ -53,7 +53,7 @@ Alyssa must see who built the arc and what fed it, and be able to inspect how th
 The arc still renders on the pitch dashboard, so it keeps the existing shape — the new substance content goes INSIDE the slide-line `text`:
 
 ```
-Prepared by: Cassius · referenced: PKM/My Life/Offers/email-list-revival-plan.md · PKM/Second Brain/analysis/subject-line.md
+Prepared by: Cassius · referenced: Library/Offers/email-list-revival-plan/MAP.md · Studio/Analysis/subject-line.md
 
 ### DAYKEY — Title
 **Cover:** [cover title as it appears on slide 1]
@@ -76,7 +76,7 @@ Required elements: `### DAYKEY — Title`, `**Cover:**`, numbered `N. Role: text
 
 Concept: **The Email That Wakes Up A Dead List** (W29 Mon, freebie: Email List Revival Plan). The rejected version said only *"Proof: the open-rate math stacked plain — 200 people who actually read you beat 2,000 ghosts."* No real numbers, no persuasion. Corrected under this contract:
 
-`Prepared by: Cassius · referenced: PKM/My Life/Offers/email-list-revival-plan.md · PKM/Second Brain/analysis/subject-line.md (real open rates) · Hermes/FUNNEL.md (offer belief)`
+`Prepared by: Cassius · referenced: Library/Offers/email-list-revival-plan/MAP.md · Studio/Analysis/subject-line.md (real open rates) · Hermes/FUNNEL.md (offer belief)`
 
 > **3. Proof:** shows the math side by side — a 2,000-person list opening at 8% (160 reads) vs a 200-person list of people who actually read you opening at 45% (90 reads today, and climbing every send as you keep showing up) → so that she stops believing "I just need more subscribers" and starts believing the buyer she wants is already on her list, cold, waiting to be reminded she exists. **"You keep staring at that subscriber count like it's the problem. It isn't. The people who used to open every email you sent are still in there — you just went quiet on them, and they went cold."**
 

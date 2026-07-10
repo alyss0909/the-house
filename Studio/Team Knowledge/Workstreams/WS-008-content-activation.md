@@ -31,7 +31,7 @@ Before any dispatch:
 1. Does the brief have a clearly identified content type? (email / carousel / Soft Sunday / Simmer / Pinterest pin / sales page / BOH module)
 2. Does the brief have a clearly identified assignee? (Hermes for copy, Charta for design, Pax for research, Silas for vault structure)
 3. Does the source material exist and is it linked? (Journal entry, developing idea note, voice memo, Second Brain file)
-4. Does the brief pass the taste-log check? (Cross-reference `PKM/Second Brain/taste-log.md` — is this the kind of thing Alyssa acts on?)
+4. Does the brief pass the taste-log check? (Cross-reference `Studio/Analysis/taste-log.md` — is this the kind of thing Alyssa acts on?)
 
 If any of 1-3 is missing: fill it in before dispatching. Don't send a partial brief.
 If the taste-log check raises a flag: note it in the brief, but still dispatch unless the pattern is a clear NO.
@@ -101,13 +101,13 @@ When a full theme week (or month) runs end-to-end through the pipeline in one ba
 
 - **Unverified chat word → HALT, ship concept-only.** If a slot's chat word is "manual selection needed" (per `Hermes/MAP.md` §3 / `Hermes/BUSINESS.md`) or the product has a flagged conflict, that slot ships as concept-only and the gap goes in a "For Alyssa" block. Never invent, never delay the rest of the batch.
 - **GAP is never filled by inference.** A documented gap in MAP/BUSINESS routes to Alyssa; guessing a plausible fill is the trust-killer this whole system exists to prevent.
-- **Any need to edit `PKM/Second Brain/`** — stop; that never happens.
+- **Any need to edit `Studio/Analysis/`** — stop; that never happens.
 - **Mechanical lint at The Pass — writer kill-log claims are never evidence.** (Tournament finding 2026-07-05: all three writer architectures shipped em-dashes and the banned word "quietly" in final copy while their own ANTI-AI logs claimed zero — models cannot reliably self-grep.) Before any final reaches Touchpoint 2, The Pass runs an ACTUAL tool check on the copy file: em-dash character count in prose (must be 0), banned-vocab grep (quiet/quietly, leverage, effortless, game-changer, seamless, streamline, unlock — 0 hits), period-density + staccato-run counts per STYLE §1. Any hit → fix and re-lint before it ships; the hit and fix are logged.
 
 ## Cross-references
 
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — the queue sources this workstream manages (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
-- [[PKM/Second Brain/taste-log.md]] — approval pattern validation
+- [[Studio/Analysis/taste-log.md]] — approval pattern validation
 - [[Hermes/learning/inbox.md]] — voice calibration for all Hermes tasks
 - [[Hermes/MEAN-ALYSSA.md]] — rejection-trained trust gate before asking, creating, promoting, or dispatching
 - [[Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md]] — source boundaries and artifact fates

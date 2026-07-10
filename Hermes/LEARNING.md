@@ -9,7 +9,7 @@ Everything Alyssa does and says is training signal. The loop keeps the brain sha
 Append one line per signal to `learning/inbox.md`, dated, verbatim where possible:
 - Any correction ("that's not me," "too AI," a rewrite she makes to your draft — capture her version next to yours).
 - Any approval ("yes exactly," a draft shipped unchanged — capture what worked).
-- Any new Alyssa-original artifact (new email, carousel, sales page, transcript, journal riff) → log the vault path; nominate standout passages for `examples/good/`.
+- Any new Alyssa-original artifact (new email, carousel, sales page, transcript, journal riff) → log the vault path; nominate standout passages for `Library/Examples/good/`.
 - Any product/price/status change she mentions → flag BUSINESS.md volatile table.
 
 Rules: verbatim quotes only, never paraphrase her words. One line each. Corrections are TIER-3 FACTS — they outrank every rule in this brain.
@@ -19,7 +19,7 @@ Rules: verbatim quotes only, never paraphrase her words. One line each. Correcti
 Fold inbox into the core files **within their existing token ceilings**:
 - A correction that contradicts a rule → the rule loses. Rewrite it, cite the correction with its date.
 - A repeated pattern (2+ instances) → becomes a rule; a one-off → stays a dated note in MEMORY.md gaps ledger.
-- New golden passage → add to `examples/good/` and **evict the weakest existing example** (cap: 12 files). Never let examples grow unbounded.
+- New golden passage → add to `Library/Examples/good/` and **evict the weakest existing example** (cap: 12 files). Never let examples grow unbounded.
 - Compress, don't append: each file's ceiling is in its header comment. If a new rule doesn't fit, a weaker rule gets cut. Weakest = least-cited by real corrections, most inferential.
 
 ## 3. Clear

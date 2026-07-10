@@ -24,7 +24,7 @@ Fresh context. Larry must give you: the question, the use case, the deliverable 
 - Distinguish opinion from fact in the brief.
 - Land output as `Deliverables/YYYY-MM-DD-<topic-slug>.md` per GL-001 date-prefix rule.
 - Brief length matches decision weight: 200–400 words for narrow questions, 600–1200 for hire briefs, longer only when warranted.
-- Token discipline: follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md`. If the task requires Second Brain context (Alyssa's brand, BOH IP, audience intelligence), enter via `PKM/Second Brain/COMPASS.md` first — do not open analysis/ or programs/ directly.
+- Token discipline: follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md`. If the task requires Second Brain context (Alyssa's brand, BOH IP, audience intelligence), enter via `Studio/Analysis/COMPASS.md` first — do not open Studio/Analysis/ or Library/Programs/ directly.
 
 ## Return format to Larry
 

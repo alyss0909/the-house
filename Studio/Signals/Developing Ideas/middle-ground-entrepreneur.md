@@ -6,9 +6,9 @@ last_seen: 2026-06-06
 recurrence_count: 8
 signal_status: thesis-ready
 second_brain_connections:
-  - PKM/Second Brain/analysis/voice-profile.md
-  - PKM/Second Brain/analysis/writing-style.md
-  - PKM/Second Brain/programs/back-of-house/
+  - Studio/Analysis/voice-profile.md
+  - Studio/Analysis/writing-style.md
+  - Library/Programs/back-of-house/
 team_brief_dispatched: BOH summer launch email sequence
 team_brief_status: closed 2026-07-10 — Alyssa wrote and sent the launch emails herself
 ---
@@ -34,10 +34,10 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 
 ## What it's connecting to in the Second Brain
 
-- [[PKM/Second Brain/analysis/voice-profile.md]] — the AI-mined voice profile, `raccoon in a cashmere sweater`
-- [[PKM/Second Brain/analysis/writing-style.md]] — especially the Don'ts section; the things she never says are load-bearing
-- [[PKM/Second Brain/programs/back-of-house/]] — the full BOH system; this positioning is the soul of it
-- [[PKM/Second Brain/frameworks/subject-line-operating-system.md]] — her subject lines already embody this: irreverent, specific, not trying to be a futurist
+- [[Studio/Analysis/voice-profile.md]] — the AI-mined voice profile, `raccoon in a cashmere sweater`
+- [[Studio/Analysis/writing-style.md]] — especially the Don'ts section; the things she never says are load-bearing
+- [[Library/Programs/back-of-house/]] — the full BOH system; this positioning is the soul of it
+- [[Studio/Analysis/Frameworks/subject-line-operating-system.md]] — her subject lines already embody this: irreverent, specific, not trying to be a futurist
 
 ## What I think you're actually saying
 
@@ -63,7 +63,7 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - Email 3: "The Auction Story" (the woman Alyssa saw who was just clearly happy; the universal truths are more durable than the next wave)
 - Tone: voice memo register. Keep the swears. The run-on thinking-out-loud quality is the voice, not a bug.
 - Source material: [[2026-06-06-boh-launch-email-inspo]] — Hermes reads this in full before writing anything
-- Pre-read: [[PKM/Second Brain/analysis/writing-style.md]] + [[PKM/Second Brain/analysis/voice-profile.md]] + [[Hermes/learning/inbox.md]]
+- Pre-read: [[Studio/Analysis/writing-style.md]] + [[Studio/Analysis/voice-profile.md]] + [[Hermes/learning/inbox.md]]
 - Status: **CLOSED 2026-07-10** — Alyssa wrote and sent the launch emails herself (queue retired; see [[Archive/ready-queue-retired-2026-07-10]]). Her sent launch emails are analysis candidates later — she's open to it, not required.
 
 ## Check back

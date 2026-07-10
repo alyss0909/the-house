@@ -1,6 +1,6 @@
 ---
 format: instagram caption
-source: PKM/Second Brain/examples/Carousels/captions.md (full file + metrics in vault)
+source: Library/Examples/Carousels/captions.md (full file + metrics in vault)
 why: hooks, gift-CTAs, FTG register, minimum-viable voice
 verbatim: true
 ---

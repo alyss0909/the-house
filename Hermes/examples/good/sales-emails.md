@@ -1,6 +1,6 @@
 ---
 format: sales email / webinar invite
-source: PKM/Second Brain/examples/sales-emails/
+source: Library/Examples/sales-emails/
 why: market-observation hooks, contrarian reversals, "Translation:" device, long-setup punch
 verbatim: true
 ---

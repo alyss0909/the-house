@@ -86,7 +86,7 @@ For any signal at 6+ recurrence with no thesis draft: write it now. For any sign
 Read the last month of `Hermes/learning/inbox.md` and `Hermes/learning/log.md`. Is there a pattern of corrections that should become a standing rule? If so, propose graduating it into `Hermes/STYLE.md`, `TASTE.md`, or `ANTI-AI.md` - Alyssa approves before it lands.
 
 ### Step 7 — Taste loop check
-Read `PKM/Second Brain/taste-log.md`. Are there new approval patterns from the month? Are any YES patterns now strong enough to become standing instructions? Flag in the sweep note.
+Read `Studio/Analysis/taste-log.md`. Are there new approval patterns from the month? Are any YES patterns now strong enough to become standing instructions? Flag in the sweep note.
 
 ### Step 8 — Content type classification
 For every new signal: add content type tags from the set: `idea | content | teaching | voice`. These drive content activation — `content` and `teaching` signals get prioritized in WS-008.
@@ -106,7 +106,7 @@ Larry delegates to a subagent. Brief includes: date range, signals-index at star
 
 Subagent produces: full intelligence report. Larry writes: 1-page executive summary for Alyssa — plain language, what compounded, what's ready to act on, what needs her input.
 
-Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule graduations (Alyssa approves).
+Also produces: updated `Studio/Analysis/yes-pattern.md` + proposed Hermes rule graduations (Alyssa approves).
 
 ---
 
@@ -131,7 +131,7 @@ Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule 
 - [[Studio/Signals/signals-index.md]] — the living signal tracker
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the idea garden
 - [[Hermes/learning/inbox.md]] — voice loop output
-- [[PKM/Second Brain/taste-log.md]] — taste loop cross-reference
+- [[Studio/Analysis/taste-log.md]] — taste loop cross-reference
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — content activation outputs (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review.md]] — calls the light sweep
 - [[Studio/Team Knowledge/Workstreams/WS-009-monthly-intelligence-update.md]] — calls the deep sweep

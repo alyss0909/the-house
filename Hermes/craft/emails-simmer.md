@@ -2,7 +2,7 @@
 
 # craft/emails-simmer.md
 
-**Mandatory load before writing any Simmer:** `PKM/Second Brain/frameworks/the-postmaster-bot.md` + `frameworks/bingeable-newsletter-knowledge-file.md` (HER OWN bot + knowledge file for this exact format, handed over 2026-07-05: "learn it WELL") + all 3 real simmers.
+**Mandatory load before writing any Simmer:** `Studio/Analysis/Frameworks/the-postmaster-bot.md` + `Studio/Analysis/Frameworks/bingeable-newsletter-knowledge-file.md` (HER OWN bot + knowledge file for this exact format, handed over 2026-07-05: "learn it WELL") + all 3 real simmers.
 
 The Simmer = the weekly nurture email. HER canonical 5-part framework (The Postmaster, verbatim hers):
 
@@ -38,7 +38,7 @@ Personal-scale metaphors mapped tightly to ONE marketing lesson (bath time → l
 1. **Pivot to business by 35% of body** (real corpus: Delta ~1%, bath ~29%, closet ~34% = the ceiling). Extend toward ~50% ONLY if pre-paid by an early signal: subject/preview promising business ("...& pinterest" / "ends in your bank account") or conflict in line one. A static scene earns zero extension - pivot by ~30%.
 2. **Scene-stakes test: the seed must score ≥2 of 4** - conflict / loss-or-stakes / absurdity / emotional charge. Bath = 3 (fight + neighbor absurdity + charge). A wanted object = 0/4 and is the same failure as her flagged too-AI email (static wishlist). Wanting is not conflict; the reader needs to watch her FIGHT something.
 3. **Metaphor-nuance test, all 3 required**: (a) yields ≥2 distinct mapped insights (bath = reset + compassion-with-boundary + assets-vs-evaporation); (b) carries an internal tension mirroring the business tension (compassion vs boundary); (c) a self-aware exit joke is writable ("okay I swear I'm done with the bath metaphors"). One flat 1:1 mapping = "too obvious and un-nuanced" (her verdict, 2026-07-05).
-Full evidence: `PKM/Second Brain/analysis/simmer-opening-forensics.md`.
+Full evidence: `Studio/Analysis/simmer-opening-forensics.md`.
 
 ## Don'ts specific to Simmers
 

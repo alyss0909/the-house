@@ -128,8 +128,8 @@ None required — chat word "List" fully verified, no paid product pitched, no i
 
 ### Source files read (this session, this deck)
 - `PKM/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about.md`
-- `PKM/Second Brain/programs/back-of-house/1. The House Specials/1.4 The Double Yes Method.md`
-- `PKM/Second Brain/programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript.md`
+- `Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method.md`
+- `Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript.md`
 - Plus mandatory carousel corpus (below, shared across all 3 decks)
 
 ### Mean Alyssa self-check
@@ -258,10 +258,10 @@ comment yes chef and i'll send you the details
 None required — Yes Chef chat word fully verified verbatim in BUSINESS.md; product one-liner quoted verbatim; no discount/price invented (the real Mar 3 $500 coupon was a launch-specific promo, correctly excluded as a standing fact).
 
 ### Source files read (this session, this deck)
-- `PKM/Second Brain/programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem.md`
-- `PKM/Second Brain/programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript.md`
-- `PKM/Second Brain/programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch.md`
-- `PKM/Second Brain/programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript.md`
+- `Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem.md`
+- `Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript.md`
+- `Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch.md`
+- `Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript.md`
 - `Hermes/BUSINESS.md` (chat word + one-liner verification)
 - carousel-slide-by-slide.md Mar 3 section + captions.md Mar 3 entry (precedent, not copied)
 
@@ -399,11 +399,11 @@ None — no chat word required or invented; no product pitched; matches Jan 22's
 
 ## Cross-deck source loads (mandatory carousel corpus, read once, applies to all three)
 
-- `PKM/Second Brain/analysis/carousel-slide-by-slide.md` (full — all decks/archetypes)
-- `PKM/Second Brain/frameworks/social-hooks.md`
-- `PKM/Second Brain/examples/Carousels/captions.md`
-- `PKM/Second Brain/analysis/carousel-hook-forensics.md`
-- `PKM/Second Brain/analysis/carousel-flow-and-weird-hooks.md`
+- `Studio/Analysis/carousel-slide-by-slide.md` (full — all decks/archetypes)
+- `Studio/Analysis/Frameworks/social-hooks.md`
+- `Library/Examples/Carousels/captions.md`
+- `Studio/Analysis/carousel-hook-forensics.md`
+- `Studio/Analysis/carousel-flow-and-weird-hooks.md`
 - `Hermes/craft/captions-carousels.md`
 - `Hermes/FABLE.md`, `Hermes/MAP.md`, `Hermes/SOUL.md`, `Hermes/STYLE.md`, `Hermes/TASTE.md`, `Hermes/ANTI-AI.md`, `Hermes/BUSINESS.md`
 

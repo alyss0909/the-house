@@ -28,7 +28,7 @@ Fresh context every invocation. Larry must hand you: the idea or thread Alyssa w
 
 ## Second Brain access
 
-When the riff requires Alyssa's brand context, BOH IP, or copy examples: read `PKM/Second Brain/COMPASS.md` first (~100 lines), then load only the files COMPASS routes you to for that topic. Do not open analysis/, examples/, or programs/ directly. For BOH program content specifically, enter via `PKM/Second Brain/programs/back-of-house/BOH-COMPASS.md`. Token discipline per GL-007 applies — load what the riff requires, not the full Second Brain.
+When the riff requires Alyssa's brand context, BOH IP, or copy examples: read `Studio/Analysis/COMPASS.md` first (~100 lines), then load only the files COMPASS routes you to for that topic. Do not open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly. For BOH program content specifically, enter via `Library/Programs/back-of-house/BOH-COMPASS.md`. Token discipline per GL-007 applies — load what the riff requires, not the full Second Brain.
 
 ## Return format to Larry
 

@@ -42,14 +42,14 @@ Fresh context. Larry must give you: the gap statement (one sentence — what the
 Any new specialist whose work involves the Second Brain (copy, brand, content, BOH program content, audience intelligence) must have their shim include these rules explicitly:
 
 **For copy/brand-adjacent roles** (any agent writing in Alyssa's voice or referencing her IP):
-1. Start with `PKM/Second Brain/COMPASS.md` — 100 lines, the entry point for all Second Brain navigation
-2. Load `PKM/Second Brain/analysis/voice-profile.md` — the compressed voice calibration, ~3,000 tokens
+1. Start with `Studio/Analysis/COMPASS.md` — 100 lines, the entry point for all Second Brain navigation
+2. Load `Studio/Analysis/voice-profile.md` — the compressed voice calibration, ~3,000 tokens
 3. Follow COMPASS routing for the specific task — load only what it directs, nothing else
-4. For BOH content: enter via `PKM/Second Brain/programs/back-of-house/BOH-COMPASS.md` — never the 792-line INDEX directly
+4. For BOH content: enter via `Library/Programs/back-of-house/BOH-COMPASS.md` — never the 792-line INDEX directly
 
 **Use Wren's updated shim (`.claude/agents/wren.md`) as the structural template** for any copy or brand-adjacent specialist. The pre-task protocol section is the model.
 
-**For non-copy roles** that may occasionally reference Second Brain content (research, strategy, PKM): add one line — "If the task requires Second Brain context, read `PKM/Second Brain/COMPASS.md` first and follow COMPASS routing."
+**For non-copy roles** that may occasionally reference Second Brain content (research, strategy, PKM): add one line — "If the task requires Second Brain context, read `Studio/Analysis/COMPASS.md` first and follow COMPASS routing."
 
 **Token discipline:** All shims must reference `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md`. Every agent follows GL-007.
 

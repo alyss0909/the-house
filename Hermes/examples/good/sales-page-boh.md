@@ -1,6 +1,6 @@
 ---
 format: sales page
-source: PKM/Second Brain/examples/sales-pages/boh-sales-page.md (full 661-line page in vault — read it whole for any sales-page task)
+source: Library/Examples/sales-pages/boh-sales-page.md (full 661-line page in vault — read it whole for any sales-page task)
 why: pain-structural framing, contrarian authority, mirrored pivot, metaphor-as-architecture
 verbatim: true
 ---

@@ -3,7 +3,7 @@
 - **Default owner:** Reeve, Hook Specialist / Suki-directed. Reusable by any agent. *(Hired 2026-07-08 per Gate-3 authorization; runs under Suki's direction, per [[HIRING-PLAN-v2]].)*
 - **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
 - **Triggered by:** WS-011 Step 4; "hook bench", "pitch hooks". Runs on an Alyssa-approved concept (+ its named angle).
-- **References:** `PKM/Second Brain/analysis/carousel-hook-forensics.md`, current swipe covers, [[GL-009-source-boundaries-and-promotion]] (repo mechanics as adapted process only, never voice).
+- **References:** `Studio/Analysis/carousel-hook-forensics.md`, current swipe covers, [[GL-009-source-boundaries-and-promotion]] (repo mechanics as adapted process only, never voice).
 
 ## Procedure
 Bench many hook options internally → run [[SOP-037-run-mean-alyssa-content-gate]] → deliver **3 Mean-Alyssa-surviving hooks per concept** for Alyssa to choose.

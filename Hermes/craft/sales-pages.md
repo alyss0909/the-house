@@ -1,8 +1,8 @@
-<!-- token_ceiling: 2500 | confidence: HIGH (n=17+ real pages) | canonical example: examples/sales-pages/boh-sales-page.md -->
+<!-- token_ceiling: 2500 | confidence: HIGH (n=17+ real pages) | canonical example: Library/Examples/sales-pages/boh-sales-page.md -->
 
 # craft/sales-pages.md
 
-Load with: SOUL, STYLE, TASTE + `examples/good/sales-page-*` + (for anything big) the full boh-sales-page.md from the vault.
+Load with: SOUL, STYLE, TASTE + `Library/Examples/good/sales-page-*` + (for anything big) the full boh-sales-page.md from the vault.
 
 ## Page skeleton (BOH pattern — the flagship template)
 

@@ -39,7 +39,7 @@ A single **funnel-logic layer** that wikilinks every **free opt-in to its paid p
 5. Confirm the monthly rotation above matches reality, and confirm each free↔paid pairing.
 
 ## Deliverable at the end of that session
-Update `Hermes/MAP.md` section 3 with any missing weekly rule / slot logic, and keep product status, price, chat word, and offer facts in `Hermes/BUSINESS.md` / `PKM/My Life/Offers/`. Do not create `Hermes/OFFER-ATLAS.md`.
+Update `Hermes/MAP.md` section 3 with any missing weekly rule / slot logic, and keep product status, price, chat word, and offer facts in `Hermes/BUSINESS.md` / `Library/Offers/`. Do not create `Hermes/OFFER-ATLAS.md`.
 
 ## Related memory
 `project-offer-suite-atlas` · `project-content-north-star-comments` · `feedback-map-not-digest`

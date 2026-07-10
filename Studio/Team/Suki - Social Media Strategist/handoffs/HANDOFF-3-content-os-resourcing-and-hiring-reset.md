@@ -258,7 +258,7 @@ Inputs:
 - Alyssa-approved concept.
 - Weekly Trend Scout Brief.
 - current swipe covers.
-- `PKM/Second Brain/analysis/carousel-hook-forensics.md`
+- `Studio/Analysis/carousel-hook-forensics.md`
 - `Deliverables/.../repo-alignment-audit.md`
 - Blotato/social repo mechanics as adapted process only.
 
@@ -311,7 +311,7 @@ Dossier must include:
 - her philosophy / not-philosophy,
 - reader desire and objection,
 - source quotes or source pointers,
-- useful examples/templates/facts,
+- useful Library/Examples/Studio/Analysis/Templates/facts,
 - what the post gives away,
 - what the post teases about the offer,
 - $5 test,

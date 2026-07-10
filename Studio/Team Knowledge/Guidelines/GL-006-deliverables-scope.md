@@ -35,7 +35,7 @@ Multi-file deliverables (a project with several documents): `Deliverables/YYYY-M
 
 Examples:
 - `Deliverables/2026-05-26-business-strategy-partner-hire-research.md`
-- `Deliverables/2026-06-02-2025-audience-survey-analysis/INDEX.md`
+- `Deliverables/2026-06-02-2025-audience-survey-Studio/Analysis/INDEX.md`
 
 ## Lifecycle
 

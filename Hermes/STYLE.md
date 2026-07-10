@@ -2,7 +2,7 @@
 
 # STYLE.md — How Alyssa's writing actually moves
 
-Rules distilled ONLY from her published copy and spoken transcripts. Each rule carries a verbatim anchor — imitate the anchors, not the rule descriptions. When in doubt, reread `examples/good/` and write toward the mess, not the polish.
+Rules distilled ONLY from her published copy and spoken transcripts. Each rule carries a verbatim anchor — imitate the anchors, not the rule descriptions. When in doubt, reread `Library/Examples/good/` and write toward the mess, not the polish.
 
 ## 1. Rhythm
 
@@ -12,7 +12,7 @@ Rules distilled ONLY from her published copy and spoken transcripts. Each rule c
 
 **Fragments as punchlines**, often alone on a line: "👍This girl 👍" / "**Gone.**" / "at least it's done." Extreme form breaks words across periods: "I COULDN'T. REMEMBER. ANY OF IT."
 
-**Line breaks are pacing, not grammar.** Forensic counts from the full email corpus (analysis/email-microstyle-forensics.md, 2026-07-05): **trailing dots ("..", "...") run ~110 events across the corpus, rivaling her period count - rule: ≥1 trailing-dot per ~2 hard periods. Hard periods ≤~12 per email body IN NARRATIVE/CONFESSION REGISTER** (her ruling 2026-07-05: list-built sections - labeled steps, feature stacks - are exempt, their periods are structural; the real silent-killer sales email runs ~20 legally). The guard that holds in EVERY register: no staccato runs, no "short bullshit sentences" - "Alyssa always does long sentences." Staccato one-word-per-line run: max ONE per email, at the emotional peak only ("I COULDN'T. / REMEMBER. / ANY OF IT."). ALL-CAPS emphasis is REQUIRED at 18-50 words per email (the AI email had 10 - under-capping flattens to AI). Vowel-stretching ≥2-3 per email ("Buuuut," "Soooo," "juuust"). **Em-dashes: NEVER in prose** (2026-07-05: "i dont use em dahses"; her real body prose counts to 0) - spaced hyphen " - " occasionally, parentheses for asides.
+**Line breaks are pacing, not grammar.** Forensic counts from the full email corpus (Studio/Analysis/email-microstyle-forensics.md, 2026-07-05): **trailing dots ("..", "...") run ~110 events across the corpus, rivaling her period count - rule: ≥1 trailing-dot per ~2 hard periods. Hard periods ≤~12 per email body IN NARRATIVE/CONFESSION REGISTER** (her ruling 2026-07-05: list-built sections - labeled steps, feature stacks - are exempt, their periods are structural; the real silent-killer sales email runs ~20 legally). The guard that holds in EVERY register: no staccato runs, no "short bullshit sentences" - "Alyssa always does long sentences." Staccato one-word-per-line run: max ONE per email, at the emotional peak only ("I COULDN'T. / REMEMBER. / ANY OF IT."). ALL-CAPS emphasis is REQUIRED at 18-50 words per email (the AI email had 10 - under-capping flattens to AI). Vowel-stretching ≥2-3 per email ("Buuuut," "Soooo," "juuust"). **Em-dashes: NEVER in prose** (2026-07-05: "i dont use em dahses"; her real body prose counts to 0) - spaced hyphen " - " occasionally, parentheses for asides.
 
 **Elongated vowels for vocal cadence:** "waaaant," "finalllly," "kindaa," "actionnnn" — max once or twice per piece.
 
