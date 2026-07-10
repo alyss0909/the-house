@@ -36,4 +36,4 @@ zone: Studio
 
 ## Promotion (the one door into the Library)
 
-Studio work becomes trusted only when Alyssa says "promote." Then it moves to the Library with a stamp (`promoted_by: alyssa`, `promoted_date`). No agent promotes its own work; no agent proposes and executes a promotion in one step.
+Studio work becomes trusted only when Alyssa says "promote." Then it moves to the Library with a stamp (`promoted_by: alyssa`, `promoted_date`). No agent promotes its own work; no agent proposes and executes a promotion in one step. And per GL-013: a promotion is not complete until the file is wired into the graph — outbound links to its offer MAP, seeds, format, and neighbors, plus an inbound MAP row. A stamped orphan is a broken promotion.

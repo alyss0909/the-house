@@ -2,8 +2,8 @@
 signal_slug: ai-team-as-mirror-not-replacement
 content_type: teaching + idea
 first_seen: 2026-04-27
-last_seen: 2026-06-06
-recurrence_count: 5
+last_seen: 2026-07-05
+recurrence_count: 8
 signal_status: developing
 second_brain_connections:
   - Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md
@@ -20,6 +20,8 @@ Across her notes on AI tools, the PKM system, and the BOH voice memo, Alyssa kee
 
 The Head/Hands/Heart framework from Dan Harrison (saved June 5) gave this a structure: Heart = the why (human), Head = the strategy (hybrid), Hands = the execution (AI). Alyssa's instinct has always been that the Hands should be AI-owned and the Heart should always be hers. The system being built right now is the Hands. The idea garden is the Heart getting properly tended.
 
+Three more captures on Jul 5 keep the pattern alive: two Instagram saves (Hermes/mac mini, relations for agents) both explicitly cross-link to this signal and to the same second-brain article, plus a bare "Obsidian mind / Obsidian second brain" fragment. None of the three add new argument — they're all still orbiting the same core instinct (the system should mirror her thinking, not replace it) but the recurrence itself is the signal: this is the third straight session where PKM/second-brain material and this thesis show up together.
+
 ## The entries that feed this
 
 - [[2026-04-27-claude-notes]] — notes on how Claude should work; the instinct about what it should vs. shouldn't own
@@ -28,6 +30,9 @@ The Head/Hands/Heart framework from Dan Harrison (saved June 5) gave this a stru
 - [[2026-06-05-ai-agents-head-hands-heart]] — the explicit framework; Hands = AI, Heart = human
 - [[2026-06-06-boh-launch-email-inspo]] — "writing fucking good emails is something Claude can't teach you, contrary to popular belief"
 - [[2026-04-27-claude-notes]] — "I want to be more myself. I want to go down the rabbit holes."
+- [[Notebook/Journal/2026/07/2026-07-05-hermes-and-mac-mini]] — IG save, cross-linked to this signal directly
+- [[Notebook/Journal/2026/07/2026-07-05-relations-for-agents]] — IG save, cross-linked to this signal directly
+- [[Notebook/Journal/2026/07/2026-07-05-obsidian-mind]] — bare fragment, "Obsidian mind / Obsidian second brain"
 
 ## What it's connecting to in the Second Brain
 

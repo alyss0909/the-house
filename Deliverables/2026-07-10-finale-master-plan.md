@@ -33,3 +33,9 @@ Alyssa's one keystroke: `git push -u origin master && git push origin --tags` �
 
 ## After the finale (living in the house — together sessions, not reorg)
 [[Notebook/Drafts/Before Monday|Before Monday]] working session · Notebook/Todos design (paper-checklist replacement) · inbox co-processing cadence (the two-step, weekly).
+
+---
+
+## Wrap (2026-07-10, late)
+
+All five acts done. Act 1: docs match reality (final geography in [[HOUSE-MAP]], AGENTS.md folder map rewritten, GL-007 durable rewrite). Act 2: Library orphans 17 → 0, +385 real links, reciprocal MAP rows, honest sparseness where no seed existed. Act 3: Deliverables 1,372 → 6 (history kept at Archive/Deliverables-history/ on disk; live pinned loads moved to Studio/Content/craft-references/). Act 4 proof: gauntlet 6/6 cited via maps alone; stranger passed — guided by the new links, updated the existing signal, no duplicate, her journal untouched. Act 5: awaiting Alyssa's single push keystroke; weekly patrol guards the geometry from here.

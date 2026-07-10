@@ -9,6 +9,14 @@ source_class: map
 
 Empty desk = nothing needs you. Full background docs, if ever wanted: [[2026-07-10-inbox-triage-proposal|triage detail]] · [[2026-07-10-journal-integrity-audit|journal audit]] · [[2026-07-10-voice-metabolization-audit|voice audit]].
 
+## The reorg is COMPLETE 🏠 — one keystroke left
+
+Open a terminal in the-house folder and run: `git push -u origin master && git push origin --tags` (approve the one-time GitHub sign-in as alyss0909). That puts the house in two places, and everything is done.
+
+**The proof (fresh agents, zero briefing):** retrieval gauntlet 6/6 with correct citations, navigated by maps alone — including knowing voice-profile is retired-not-trusted and citing your ruling. Stranger test: passed — found your journal via the redirect, followed the wikilinks to the existing signal, updated it instead of duplicating, and never touched your entries. Full plan + wrap: [[2026-07-10-finale-master-plan|the finale master plan]].
+
+**The numbers:** Library orphans 17 → 0 (+385 links, the graph steered its first stranger today) · Deliverables 1,372 files → 6 · inbox 50 → 4 living notes · voice: one authority, 55 rules metabolized · founding docs describe the real house.
+
 ## Nothing needs a ruling right now ✨
 
 ## Done today (for the record)
