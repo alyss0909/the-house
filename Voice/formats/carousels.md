@@ -22,7 +22,7 @@ Her real examples, in full, live here:
 
 Write toward the captions and slide text first ([[Library/Examples/Carousels/captions]] has every real caption verbatim with performance data attached). Slide image folders hold the actual cover and slide text; read the slide-by-slide analysis at [[Studio/Analysis/carousel-slide-by-slide]] as downstream reference only, never as the source itself.
 
-## What makes hers hers
+## What makes her captions hers
 
 Pulled only from patterns actually visible in the captions in [[Library/Examples/Carousels/captions]].
 
