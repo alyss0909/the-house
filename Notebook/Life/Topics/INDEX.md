@@ -16,6 +16,6 @@ See [[GL-001-file-naming-conventions]].
 
 ## Cross-links
 
-- A Topic that deepens into an outcome with a horizon may graduate into a [[PKM/My Life/Goals/INDEX|Goal]].
-- A Topic that settles into something foundational may become a [[PKM/My Life/Key Elements/INDEX|Key Element]].
+- A Topic that deepens into an outcome with a horizon may graduate into a [[Notebook/Life/Goals/INDEX|Goal]].
+- A Topic that settles into something foundational may become a [[Notebook/Life/Key Elements/INDEX|Key Element]].
 - Journal entries link here whenever the topic comes up. The Topic file is the canonical home. Do not restate its definition elsewhere.

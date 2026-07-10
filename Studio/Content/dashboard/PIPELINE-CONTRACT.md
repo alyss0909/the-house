@@ -7,7 +7,7 @@ created: 2026-07-09
 
 # Pipeline Contract
 
-The **newest `Team Inbox/pitches/YYYY-Www-pitch.md`** is the single state machine. Everything — concepts, arcs, drafts, reacts, approvals — lives in that one file. No loose deck files. The dashboard reads it; the makers write it; the watcher advances it.
+The **newest `Studio/Content/YYYY-Www-pitch.md`** is the single state machine. Everything — concepts, arcs, drafts, reacts, approvals — lives in that one file. No loose deck files. The dashboard reads it; the makers write it; the watcher advances it.
 
 ## The four stages, their sections, and their approval marks
 

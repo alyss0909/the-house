@@ -15,6 +15,6 @@ See [[GL-001-file-naming-conventions]].
 
 ## Cross-links
 
-- A Habit feeds the [[PKM/My Life/Goals/INDEX|Goal]] or [[PKM/My Life/Key Elements/INDEX|Key Element]] named in its "Why I do it" field.
-- A Habit that sustains a bounded effort links to the [[PKM/My Life/Projects/INDEX|Project]] it drives.
+- A Habit feeds the [[Notebook/Life/Goals/INDEX|Goal]] or [[Notebook/Life/Key Elements/INDEX|Key Element]] named in its "Why I do it" field.
+- A Habit that sustains a bounded effort links to the [[Notebook/Life/Projects/INDEX|Project]] it drives.
 - Journal entries reference the Habit via `[[wikilinks]]` — the Habit file is the canonical home.

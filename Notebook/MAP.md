@@ -1,6 +1,6 @@
 ---
-title: Notebook — MAP (draft, points at current paths during transition)
-status: DRAFT — will move to Notebook/MAP.md when the folder is created
+title: Notebook — MAP
+status: ACTIVE — home of the Notebook zone (moved here 2026-07-10)
 owner: Larry
 zone: Notebook
 ---

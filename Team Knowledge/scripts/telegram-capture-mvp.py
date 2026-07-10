@@ -24,8 +24,11 @@ from typing import Any
 SCRIPT_DIR = Path(__file__).resolve().parent
 VAULT_ROOT = SCRIPT_DIR.parents[1]
 TEAM_INBOX = VAULT_ROOT / "Team Inbox"
-ENV_FILE = SCRIPT_DIR / "telegram-capture.env"
-STATE_FILE = SCRIPT_DIR / ".telegram-capture-state.json"
+# Secrets and runtime state live OUTSIDE the vault per security rule
+# (no credentials inside the OneDrive-synced vault). Moved 2026-07-10.
+CONFIG_DIR = Path.home() / ".config" / "telegram-capture"
+ENV_FILE = CONFIG_DIR / "telegram-capture.env"
+STATE_FILE = CONFIG_DIR / ".telegram-capture-state.json"
 POLL_TIMEOUT_SECONDS = 30
 
 ROUTE_COMMANDS = {
@@ -71,6 +74,7 @@ def load_offset() -> int | None:
 
 
 def save_offset(offset: int) -> None:
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps({"offset": offset}, indent=2), encoding="utf-8")
 
 
@@ -215,7 +219,7 @@ def main() -> None:
     if not token:
         raise SystemExit(
             "Missing TELEGRAM_BOT_TOKEN. Add it to "
-            f"{ENV_FILE.name} or set it as an environment variable."
+            f"{ENV_FILE} or set it as an environment variable."
         )
 
     if args.health_check:

@@ -1,6 +1,6 @@
 ---
 name: loop
-description: Content OS auto-advance loop. Polls the newest weekly pitch sheet for approvals and, on each trigger, dispatches the correct maker (Cass for arcs, Hermes for drafts) via the Agent tool so approved stages advance without a human relay. Implements dashboard/PIPELINE-CONTRACT.md. This is the mechanism that works here because the headless `claude -p` CLI is not installed (verified 2026-07-09).
+description: Content OS auto-advance loop. Polls the newest weekly pitch sheet for approvals and, on each trigger, dispatches the correct maker (Cass for arcs, Hermes for drafts) via the Agent tool so approved stages advance without a human relay. Implements Studio/Content/dashboard/PIPELINE-CONTRACT.md. This is the mechanism that works here because the headless `claude -p` CLI is not installed (verified 2026-07-09).
 user_invocable: true
 ---
 
@@ -10,16 +10,16 @@ Alyssa's order: "make approval auto advance." When she approves a stage in the
 dashboard, the next maker runs automatically and writes its output back where the
 dash renders it. The clean version is a background daemon shelling out to
 `claude -p`, but that binary is not available in this environment (see
-`dashboard/advance-watch.mjs` header for the verification). So Larry IS the loop:
+`Studio/Content/dashboard/advance-watch.mjs` header for the verification). So Larry IS the loop:
 this command runs the detector, then dispatches the makers via the Agent tool.
 
-Contract: `dashboard/PIPELINE-CONTRACT.md`. Detector: `dashboard/advance-watch.mjs`.
+Contract: `Studio/Content/dashboard/PIPELINE-CONTRACT.md`. Detector: `Studio/Content/dashboard/advance-watch.mjs`.
 
 ## One pass (default)
 
 1. **Detect.** Run:
    ```
-   node dashboard/advance-watch.mjs --once --json
+   node "Studio/Content/dashboard/advance-watch.mjs" --once --json
    ```
    Parse the `pending` array. Each entry is `{ trigger, stage, maker, dayKey, title }`.
    If `pending` is empty, report "pipeline caught up" and STOP — nothing to advance.
@@ -37,7 +37,7 @@ Contract: `dashboard/PIPELINE-CONTRACT.md`. Detector: `dashboard/advance-watch.m
 
    To fetch a prompt string without hand-copying it, run:
    ```
-   node -e "import('./dashboard/advance-watch.mjs').then(m=>console.log(m.arcPrompt({sheetPath:process.argv[1],dayKey:process.argv[2],title:process.argv[3]})))" "<sheetPath>" "<DAYKEY>" "<title>"
+   node -e "import('./Studio/Content/dashboard/advance-watch.mjs').then(m=>console.log(m.arcPrompt({sheetPath:process.argv[1],dayKey:process.argv[2],title:process.argv[3]})))" "<sheetPath>" "<DAYKEY>" "<title>"
    ```
    (swap `arcPrompt`→`draftPrompt` for drafts). Pass that string as the Agent task.
 

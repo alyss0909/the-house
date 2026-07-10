@@ -33,7 +33,7 @@ Follow [[GL-007-token-discipline]] — load what the task needs, in order, and s
 3. **The concept's teaching source** — the exact file Larry named (BOH transcript, offer file). This is where the substance comes from; you do not invent teaching.
 4. **Real data for every number** — the source for any stat you put on a proof slide: `PKM/Second Brain/analysis/subject-line.md` (351 real broadcasts, real open/click rates) for email numbers; the real offer file in `PKM/My Life/Offers/` for offer facts; `Deliverables/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks. **Never invent a stat.**
 5. **The offer meaning:** [[Hermes/FUNNEL]] — the belief each offer's arc must land ("your next buyer is already subscribed," etc.). Funnel-fit is on MEANING, not keyword.
-6. **The taste law:** `Team Inbox/pitches/taste-ledger.md` (in full) + [[GL-010-content-pitch-operating-brain]]. The ledger's anti-patterns are law; the 2026-07-07 ruling is your output spec.
+6. **The taste law:** `Studio/Content/taste-ledger.md` (in full) + [[GL-010-content-pitch-operating-brain]]. The ledger's anti-patterns are law; the 2026-07-07 ruling is your output spec.
 7. **Hook patterns when you need them:** `PKM/Second Brain/frameworks/social-hooks.md`.
 
 ## Output format — the arc (Alyssa's 2026-07-07 ruling, non-negotiable)
@@ -89,8 +89,8 @@ Note: / Parked: [only if needed — flags for Alyssa in plain words]
 - Process: [[WS-011-weekly-carousel-pitch]] (you own Step 3 — teaching arcs)
 - Judgment: [[GL-010-content-pitch-operating-brain]], [[GL-011-substance-arc-contract]]
 - Token discipline: [[GL-007-token-discipline]]
-- Ladder: `Team Inbox/pitches/PIPELINE-LADDER.md` (Rung 3)
-- Taste law: `Team Inbox/pitches/taste-ledger.md`
+- Ladder: `Studio/Content/PIPELINE-LADDER.md` (Rung 3)
+- Taste law: `Studio/Content/taste-ledger.md`
 - Naming: [[GL-001-file-naming-conventions]]
 - Source boundaries: [[GL-009-source-boundaries-and-promotion]]
 - Hands off to: [[Team/Hermes - Alyssa Clone Writer/AGENTS]] (Rung 4 — the write)

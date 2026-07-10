@@ -5,7 +5,7 @@ description: Who Alyssa is, what she sells, her voice in five words, and where t
 last_updated: 2026-06-03
 ---
 
-← [[PKM/Second Brain/INDEX|Second Brain]] | [[PKM/Second Brain/analysis/writing-style|Writing Style Analysis]] | [[PKM/Second Brain/examples/about-page|About Page]] | [[PKM/My Life/Key Elements/Business/brand-world|Brand World]]
+← [[PKM/Second Brain/INDEX|Second Brain]] | [[PKM/Second Brain/analysis/writing-style|Writing Style Analysis]] | [[PKM/Second Brain/examples/about-page|About Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]]
 
 ---
 
@@ -118,4 +118,4 @@ Permission is not just tone. It's the product. The back of house runs itself *so
 | Home page (brand positioning) | [[PKM/Second Brain/examples/home-page\|home-page.md]] |
 | BOH sales page (full copy) | [[PKM/Second Brain/examples/sales-pages/boh-sales-page\|boh-sales-page.md]] |
 | BOH course content + framework | [[PKM/Second Brain/programs/back-of-house/INDEX\|BOH program index]] |
-| Brand vocabulary + journal origins | [[PKM/My Life/Key Elements/Business/brand-world\|Brand World]] |
+| Brand vocabulary + journal origins | [[Notebook/Life/Key Elements/Business/brand-world\|Brand World]] |

@@ -37,7 +37,7 @@ Write 3-email sequence for the BOH summer launch. Voice memo register — thinki
 - [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]]
 - [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]]
 - [[Studio/Signals/Developing Ideas/slow-biz-creative-freedom.md]]
-- [[PKM/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md]]
+- [[Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md]]
 - [[PKM/Second Brain/analysis/writing-style.md]]
 - [[PKM/Second Brain/analysis/voice-profile.md]]
 - [[Hermes/learning/inbox.md]]
@@ -66,10 +66,10 @@ After every email that Alyssa drafts or files to the Second Brain, Hermes propos
 **Assignee:** Hermes or Charta (Hermes if copy-heavy, Charta if layout/design)
 
 **Brief:**
-The hooks document ([[PKM/Journal/2026/04/2026-04-30-hooks.md]]) contains 40+ hooks that Alyssa wrote. Many of these are ready to become carousels — specifically the slow marketing ones. Pick the 5 strongest and draft carousel outlines (hook → 3-5 slides → CTA) using the carousel-framework.md.
+The hooks document ([[Notebook/Journal/2026/04/2026-04-30-hooks.md]]) contains 40+ hooks that Alyssa wrote. Many of these are ready to become carousels — specifically the slow marketing ones. Pick the 5 strongest and draft carousel outlines (hook → 3-5 slides → CTA) using the carousel-framework.md.
 
 **Source material:**
-- [[PKM/Journal/2026/04/2026-04-30-hooks.md]]
+- [[Notebook/Journal/2026/04/2026-04-30-hooks.md]]
 - [[PKM/Second Brain/frameworks/carousel-framework.md]]
 
 **Deliverable:** 5 carousel outlines in a Deliverables/ file.
@@ -95,11 +95,11 @@ The Developing Ideas folder is new. Run a pass across all journal entries from M
 **Brief:**
 Recreate the carousel format/design from this Instagram post (slide 7) for the BOH summer launch: [https://www.instagram.com/p/DZ5WqNtDoem/?img_index=7](https://www.instagram.com/p/DZ5WqNtDoem/?img_index=7)
 
-Adapt layout and aesthetic to BOH visual identity. Pair with launch color palette from [[PKM/Journal/2026/06/2026-06-24-launch-visual-palette.md]].
+Adapt layout and aesthetic to BOH visual identity. Pair with launch color palette from [[Notebook/Journal/2026/06/2026-06-24-launch-visual-palette.md]].
 
 **Source material:**
-- [[PKM/Journal/2026/06/2026-06-25-launch-carousel-inspo.md]]
-- [[PKM/Journal/2026/06/2026-06-24-launch-visual-palette.md]]
+- [[Notebook/Journal/2026/06/2026-06-25-launch-carousel-inspo.md]]
+- [[Notebook/Journal/2026/06/2026-06-24-launch-visual-palette.md]]
 
 ---
 
@@ -111,8 +111,8 @@ Adapt layout and aesthetic to BOH visual identity. Pair with launch color palett
 Pull the color palette from the MB Wedding Filmmaking Trend Report and make Palette A (Brown / Blue / Red / Maroon) and Palette B (Green + Pink + Oat + Baguette) work together for the BOH summer launch visual identity. Propose how to use each palette for specific launch assets.
 
 **Source material:**
-- [[PKM/Journal/2026/06/2026-06-24-launch-visual-palette.md]]
-- [[PKM/Journal/2026/06/2026-06-24-offer-page-inspo-hotbotsummer.md]]
+- [[Notebook/Journal/2026/06/2026-06-24-launch-visual-palette.md]]
+- [[Notebook/Journal/2026/06/2026-06-24-offer-page-inspo-hotbotsummer.md]]
 
 ---
 
@@ -124,7 +124,7 @@ Pull the color palette from the MB Wedding Filmmaking Trend Report and make Pale
 Develop the hook "you get what you get and you don't get upset" into a full email concept. Possible angles: expectation-setting before BOH launch, a reframe on what email marketing actually delivers, or a permission-giving piece for students who feel like they're not doing enough. Hermes picks the angle that best fits the current launch context.
 
 **Source material:**
-- [[PKM/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]
+- [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]
 - [[PKM/Second Brain/yes-pattern.md]]
 - [[Hermes/learning/inbox.md]]
 
@@ -137,7 +137,7 @@ Develop the hook "you get what you get and you don't get upset" into a full emai
 | Item | Completed | Deliverable |
 |---|---|---|
 | Easiest Emails Teaching Piece | 2026-06-29 | Graduated — became The 5 Minute Newsletter (alyssacoleman.ca/5m) |
-| Welcome Email Examples — Hermes Review | 2026-06-29 | [[PKM/Journal/2026/06/2026-06-29-welcome-email-synthesis.md]] — 5 patterns synthesized, BOH welcome audit recommended |
-| Blotato Claude Skills Evaluation | 2026-06-29 | [[PKM/Journal/2026/06/2026-06-29-blotato-evaluation.md]] — Verdict: skip the MCP, pull viral-hooks for Hermes reference only |
-| Obsidian Command Center Evaluation | 2026-06-29 | [[PKM/Journal/2026/06/2026-06-29-obsidian-command-center-evaluation.md]] — Verdict: skip, we've already built this |
-| Claude Second Brain Article | 2026-06-29 | [[PKM/Journal/2026/06/2026-06-29-claude-second-brain-closure.md]] — Closed: our system is already beyond it |
+| Welcome Email Examples — Hermes Review | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-welcome-email-synthesis.md]] — 5 patterns synthesized, BOH welcome audit recommended |
+| Blotato Claude Skills Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-blotato-evaluation.md]] — Verdict: skip the MCP, pull viral-hooks for Hermes reference only |
+| Obsidian Command Center Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-obsidian-command-center-evaluation.md]] — Verdict: skip, we've already built this |
+| Claude Second Brain Article | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-claude-second-brain-closure.md]] — Closed: our system is already beyond it |

@@ -28,9 +28,9 @@ Follow `Team Knowledge/Guidelines/GL-007-token-discipline.md` — load what the 
 
 **Step 2 — The forensics you know cold.** Read `PKM/Second Brain/analysis/carousel-hook-forensics.md` (why her hooks win — archetypes, no-reframe-on-covers, payoff-required) and `PKM/Second Brain/analysis/carousel-slide-by-slide.md` (the universal slide spine, per-archetype arcs, the sell-without-selling pattern). Your craft floor.
 
-**Step 3 — The machine you lead.** Read `Team Inbox/pitches/PIPELINE-LADDER.md`, `Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch.md`, and `Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` (the failure taxonomy is law). Your charter: `Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`.
+**Step 3 — The machine you lead.** Read `Studio/Content/PIPELINE-LADDER.md`, `Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch.md`, and `Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` (the failure taxonomy is law). Your charter: `Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`.
 
-**Step 4 — The offers + taste law + source wiring.** Read `Hermes/FUNNEL.md` (funnel-fit is on MEANING), `Team Inbox/pitches/taste-ledger.md` in full (her reacts are law), `Team Inbox/pitches/trusted-sources.md` (the ONLY approved external craft sources), and `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified benchmarks).
+**Step 4 — The offers + taste law + source wiring.** Read `Hermes/FUNNEL.md` (funnel-fit is on MEANING), `Studio/Content/taste-ledger.md` in full (her reacts are law), `Studio/Content/trusted-sources.md` (the ONLY approved external craft sources), and `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified benchmarks).
 
 **Step 5 — Second Brain routing (only if the task needs more).** Start at `PKM/Second Brain/COMPASS.md` (~100 lines, the entry point), load `analysis/voice-profile.md`, then follow COMPASS routing — never open analysis/, examples/, or programs/ directly. For BOH content enter via `programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
 

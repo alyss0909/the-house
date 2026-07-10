@@ -25,7 +25,7 @@ It does not contradict Alyssa's carousel system when held at the right layer. It
 
 This is not voice, offer truth, strategy truth, or proof. Do not copy language from it. Do not cite it as evidence for what Alyssa teaches. Use it only as an external craft lens for carousel structure.
 
-If it conflicts with `PKM/Second Brain/analysis/carousel-hook-forensics.md`, `PKM/Second Brain/analysis/carousel-slide-by-slide.md`, `Hermes/TASTE.md`, or `Team Inbox/pitches/taste-ledger.md`, Alyssa's files win.
+If it conflicts with `PKM/Second Brain/analysis/carousel-hook-forensics.md`, `PKM/Second Brain/analysis/carousel-slide-by-slide.md`, `Hermes/TASTE.md`, or `Studio/Content/taste-ledger.md`, Alyssa's files win.
 
 ## How each rung uses it
 

@@ -1,5 +1,7 @@
 # HANDOFF 3 - Content OS Resourcing + Hiring Reset
 
+> Paths updated note (2026-07-10): Team Inbox/pitches/ → Studio/Content/ — see [[VAULT-MAP]].
+
 *Start this in a fresh chat. This is a build-and-review handoff, not a hire approval. Prepared by Larry after Alyssa's detailed hiring-plan review, 2026-07-08.*
 
 **Paste this to open the next session:**

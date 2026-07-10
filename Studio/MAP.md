@@ -1,6 +1,6 @@
 ---
-title: Studio — MAP (draft, points at current paths during transition)
-status: DRAFT — will move to Studio/MAP.md when the folder is created
+title: Studio — MAP
+status: ACTIVE — home of the Studio zone (moved here 2026-07-10)
 owner: Larry
 zone: Studio
 ---
@@ -13,7 +13,7 @@ zone: Studio
 
 | Desk | What it does | Current path |
 |---|---|---|
-| **Content** | The pitch pipeline, dashboard, taste ledger, swipe, briefs | `Team Inbox/pitches/` + `dashboard/` |
+| **Content** | The pitch pipeline, dashboard, taste ledger, swipe, briefs | `Studio/Content/` (dashboard at `Studio/Content/dashboard/`) — **MOVED 2026-07-10** from `Team Inbox/pitches/` + `dashboard/` |
 | **Voice** (Hermes) | Judgment, craft, voice rules, learning. Points at source; owns no facts. | `Hermes/` |
 | **Signals** | AI-detected patterns and theses from the journal | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (MOVED 2026-07-09, Pilot A) |
 | **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |

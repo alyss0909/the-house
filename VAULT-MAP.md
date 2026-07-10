@@ -1,7 +1,7 @@
 ---
 title: VAULT-MAP — read this first, every session
-status: DRAFT — awaiting Alyssa approval before agents are required to load it
-date: 2026-07-09
+status: ACTIVE — blessed by Alyssa 2026-07-09; mandatory first load per AGENTS.md
+date: 2026-07-10
 owner: Larry
 ---
 
@@ -28,7 +28,7 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Notebook/Inbox | `Team Inbox/` (the raw drops, NOT `pitches/`) |
 | Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `PKM/My Life/Offers/`; redirect stubs at old paths) |
 | Notebook/Images | **MOVED 2026-07-09** → `Notebook/Images/` (redirect stub at old path) |
-| Studio/Content OS | `Team Inbox/pitches/` + `dashboard/` |
+| Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at `Team Inbox/pitches/MOVED.md` and `dashboard/MOVED.md`) |
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
 | Studio/Analysis | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | Studio/Voice (Hermes station) | `Hermes/` |
@@ -44,8 +44,8 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 ## Read order, every job
 
 1. This file.
-2. The map for the place your job lives in (Notebook, Studio, or Library map — being built in Phase 0).
-3. Your workflow's job card (for content work: `dashboard/PIPELINE-CONTRACT.md` and GL-010 until the Content OS map exists).
+2. The map for the zone your job lives in: [[Notebook/MAP|Notebook map]], [[Studio/MAP|Studio map]], or [[Library/MAP|Library map]].
+3. Your workflow's job card (for content work: `Studio/Content/dashboard/PIPELINE-CONTRACT.md` and GL-010).
 4. Your own agent contract and its mandatory loads.
 5. The actual source files — full loads, per protocol.
 

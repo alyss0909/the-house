@@ -1,6 +1,6 @@
 # Auto-Advance — how approvals move themselves down the pipeline
 
-Built by Mack, 2026-07-09. Implements `dashboard/PIPELINE-CONTRACT.md`.
+Built by Mack, 2026-07-09. Implements `Studio/Content/dashboard/PIPELINE-CONTRACT.md`.
 
 ## What it does
 
@@ -13,7 +13,7 @@ between people, no "ok now go build the arc" relay.
 - A draft marked `[shipped]` is done — nothing runs after it.
 
 It never re-runs a stage that already has its output (idempotent), and it only ever
-touches the **newest** `Team Inbox/pitches/YYYY-Www-pitch.md`.
+touches the **newest** `Studio/Content/YYYY-Www-pitch.md`.
 
 ## Which mechanism you have
 
@@ -25,7 +25,7 @@ There are two possible engines. Which one is live depends on your machine.
 | **B. Larry-driven `/loop`** — Larry dispatches the makers via the Agent tool | nothing extra; works in Claude Code today | **This is what you use.** |
 
 If a headless `claude` CLI is ever installed, Engine A can be switched on by flipping
-`RUN_MODE` in `dashboard/advance-watch.mjs` and wiring the included `spawnMaker` stub.
+`RUN_MODE` in `Studio/Content/dashboard/advance-watch.mjs` and wiring the included `spawnMaker` stub.
 Until then, use Engine B below.
 
 ## How to turn it ON (Engine B — what you have)
@@ -49,16 +49,16 @@ Larry re-checks every ~10 seconds and stops once there's nothing left to advance
 To just see what's pending — read-only, changes nothing:
 
 ```
-node dashboard/advance-watch.mjs --once
+node "Studio/Content/dashboard/advance-watch.mjs" --once
 ```
 
 To watch it live (prints whenever the sheet changes; still read-only):
 
 ```
-node dashboard/advance-watch.mjs --watch
+node "Studio/Content/dashboard/advance-watch.mjs" --watch
 ```
 
-Optional npm shortcuts — add these to a `package.json` in `dashboard/` if you want
+Optional npm shortcuts — add these to a `package.json` in `Studio/Content/dashboard/` if you want
 `npm run advance` instead of the full node command (not required):
 
 ```json
@@ -113,6 +113,6 @@ Optional npm shortcuts — add these to a `package.json` in `dashboard/` if you 
 
 ## The moving parts
 
-- `dashboard/PIPELINE-CONTRACT.md` — the contract (sections, blocks, approval marks, triggers).
-- `dashboard/advance-watch.mjs` — the trigger **detector** + the maker **prompts** (reproduce Cass's and Hermes's mandatory loads and rules). Read-only against the sheet.
+- `Studio/Content/dashboard/PIPELINE-CONTRACT.md` — the contract (sections, blocks, approval marks, triggers).
+- `Studio/Content/dashboard/advance-watch.mjs` — the trigger **detector** + the maker **prompts** (reproduce Cass's and Hermes's mandatory loads and rules). Read-only against the sheet.
 - `.claude/commands/loop.md` — the `/loop` command Larry runs to dispatch the makers.

@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 tags: [writing-style, copy]
 ---
 
-← [[PKM/Second Brain/analysis/INDEX|Analysis]] | [[PKM/Second Brain/examples/about-page|About Page]] | [[PKM/Second Brain/examples/home-page|Home Page]] | [[PKM/Second Brain/examples/sales-pages/boh-sales-page|BOH Sales Page]] | [[PKM/My Life/Key Elements/Business/brand-world|Brand World]] | [[PKM/Second Brain/analysis/sales-page|Sales Page Analysis]]
+← [[PKM/Second Brain/analysis/INDEX|Analysis]] | [[PKM/Second Brain/examples/about-page|About Page]] | [[PKM/Second Brain/examples/home-page|Home Page]] | [[PKM/Second Brain/examples/sales-pages/boh-sales-page|BOH Sales Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[PKM/Second Brain/analysis/sales-page|Sales Page Analysis]]
 
 ---
 

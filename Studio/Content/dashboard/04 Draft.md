@@ -41,7 +41,7 @@ if (navEl) {
 const REACT_HEADING = "## Dashboard reacts";
 function dbNewestPitchFile() {
   const md = app.vault.getMarkdownFiles()
-    .filter(f => f.path.startsWith("Team Inbox/pitches/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
+    .filter(f => f.path.startsWith("Studio/Content/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
     .sort((a, b) => a.basename < b.basename ? 1 : -1);
   return md[0] || null;
 }
@@ -202,14 +202,14 @@ function dbEmptyDay(dayKey) {
   return `<div class="db-empty"><span class="db-day-chip ${dayChipClass[dayKey] || ""}">${dayFullLabel[dayKey] || dayKey}</span><br/>No draft on file yet. Full deck copy lands here once the writer finishes it.</div>`;
 }
 
-const pitchPages = dv.pages('"Team Inbox/pitches"')
+const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
 let html = "";
 
 if (pitchPages.length === 0) {
-  dv.el("div", "No pitch sheet found in Team Inbox/pitches/ yet.", {cls: "db-empty"});
+  dv.el("div", "No pitch sheet found in Studio/Content/ yet.", {cls: "db-empty"});
 } else {
   const latest = pitchPages[0];
   const raw = await dv.io.load(latest.file.path);

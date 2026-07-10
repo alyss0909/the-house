@@ -48,9 +48,9 @@
 // ---------------------------------------------------------------------------
 // USAGE
 // ---------------------------------------------------------------------------
-//   node dashboard/advance-watch.mjs --once      # print pending advances, exit
-//   node dashboard/advance-watch.mjs --watch      # poll every ~10s, print on change
-//   node dashboard/advance-watch.mjs --once --json # machine-readable for /loop
+//   node "Studio/Content/dashboard/advance-watch.mjs" --once      # print pending advances, exit
+//   node "Studio/Content/dashboard/advance-watch.mjs" --watch      # poll every ~10s, print on change
+//   node "Studio/Content/dashboard/advance-watch.mjs" --once --json # machine-readable for /loop
 //   npm run advance         (=> --once, see dashboard/package note in README)
 //   npm run advance:watch   (=> --watch)
 //
@@ -77,7 +77,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PITCHES_DIR = path.join(__dirname, "..", "Team Inbox", "pitches");
+const PITCHES_DIR = path.join(__dirname, "..");
 const POLL_MS = 10_000;
 
 // Executor mode. "detect" = read-only, print pending advances for Larry's /loop
@@ -242,9 +242,9 @@ export function arcPrompt({ sheetPath, dayKey, title }) {
     `3. PKM/Second Brain/analysis/carousel-slide-by-slide.md for her real arc shapes and which belief each slide moves.`,
     `4. The concept's teaching source (BOH transcript / offer file — enter Second Brain via PKM/Second Brain/COMPASS.md, BOH via programs/back-of-house/BOH-COMPASS.md). If the source is not obvious from the concept, read what the sheet's "Prepared by" line cites for that day; if still ambiguous, STOP and flag it, do not invent teaching.`,
     `5. Real data for EVERY number: analysis/subject-line.md (email rates), the real offer file in PKM/My Life/Offers/, Deliverables/2026-07-06-instagram-craft-foundation.md (IG benchmarks). Real engaged open rate ~40-57%; never 3%, never invented.`,
-    `6. Hermes/FUNNEL.md (belief each offer's arc must land), Team Inbox/pitches/taste-ledger.md IN FULL (anti-patterns are law), Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md.`,
+    `6. Hermes/FUNNEL.md (belief each offer's arc must land), Studio/Content/taste-ledger.md IN FULL (anti-patterns are law), Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md.`,
     ``,
-    `OUTPUT — append exactly ONE arc block into the "## Approved — slide skeletons" section of the sheet, in the EXACT contract format (dashboard/PIPELINE-CONTRACT.md):`,
+    `OUTPUT — append exactly ONE arc block into the "## Approved — slide skeletons" section of the sheet, in the EXACT contract format (Studio/Content/dashboard/PIPELINE-CONTRACT.md):`,
     `  ### ${dayKey} — ${title}`,
     `  **Cover:** <cover line>`,
     `  N. Role: [what the slide literally shows] → so that [belief shifted] — copy: "<real persuasive line that names + agitates the reader's current pain>"   (Role ∈ Cover/Frame/Proof/Step/CTA)`,
@@ -294,7 +294,7 @@ export function reactsLogLine({ stage, title }) {
 async function spawnMaker(_job, _sheetPath) {
   throw new Error(
     "spawn mode disabled: no headless `claude` CLI in this environment (verified 2026-07-09). " +
-      "Use Larry's /loop (Agent-tool dispatch) instead — see file header and dashboard/AUTO-ADVANCE-README.md."
+      "Use Larry's /loop (Agent-tool dispatch) instead — see file header and Studio/Content/dashboard/AUTO-ADVANCE-README.md."
   );
 }
 
@@ -324,7 +324,7 @@ function report(sheetPath, res, asJson) {
 function runOnce({ json }) {
   const sheet = newestPitchSheet();
   if (!sheet) {
-    console.error("[advance-watch] no YYYY-Www-pitch.md found in Team Inbox/pitches/");
+    console.error("[advance-watch] no YYYY-Www-pitch.md found in Studio/Content/");
     process.exit(1);
   }
   const res = evaluate(readFileSync(sheet, "utf8"));

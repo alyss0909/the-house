@@ -430,4 +430,4 @@ Every time she chooses between a general claim and a specific one, she chooses s
 - [[PKM/Second Brain/examples/home-page|Home Page — Full Copy]] — Primary source for this analysis. Always read alongside this document.
 - [[PKM/Second Brain/examples/about-page|About Page — Full Copy]] — What the home page can't do (personal story, origin narrative, credential depth) and defers to the about page to handle.
 - [[PKM/Second Brain/examples/meta-copy|Meta Copy]] — The most compressed version of the brand. Read alongside Section 10 of this document.
-- [[PKM/My Life/Key Elements/Business/brand-world|Brand World]] — The canonical brand vocabulary and metaphor system.
+- [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] — The canonical brand vocabulary and metaphor system.

@@ -22,6 +22,6 @@ See [[GL-001-file-naming-conventions]].
 
 ## Cross-links
 
-- A Project delivers a [[PKM/My Life/Goals/INDEX|Goal]] — link to it explicitly.
-- A Project is moved forward by the [[PKM/My Life/Habits/INDEX|Habits]] that sustain it.
+- A Project delivers a [[Notebook/Life/Goals/INDEX|Goal]] — link to it explicitly.
+- A Project is moved forward by the [[Notebook/Life/Habits/INDEX|Habits]] that sustain it.
 - When a Project is finished, the file stays as a record; it is not deleted.

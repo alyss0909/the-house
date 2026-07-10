@@ -46,7 +46,7 @@ const REACT_HEADING = "## Dashboard reacts";
 
 function dbNewestPitchFile() {
   const md = app.vault.getMarkdownFiles()
-    .filter(f => f.path.startsWith("Team Inbox/pitches/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
+    .filter(f => f.path.startsWith("Studio/Content/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
     .sort((a, b) => a.basename < b.basename ? 1 : -1);
   return md[0] || null;
 }
@@ -75,7 +75,7 @@ async function dbAppendReact(stage, title, verdict, words) {
 
 // Append a kept concept to the persistent idea bank (separate from the weekly pitch sheet).
 async function dbSaveToIdeaBank(title, desc, offer, theme, words) {
-  const path = "Team Inbox/pitches/idea-bank.md";
+  const path = "Studio/Content/idea-bank.md";
   let file = app.vault.getAbstractFileByPath(path);
   if (!file) {
     file = await app.vault.create(path, "---\ntitle: Good Idea Bank\npurpose: Parked concepts to pull from anytime.\n---\n\n# Good Idea Bank\n");
@@ -253,7 +253,7 @@ function dbShortenCta(cta) {
 }
 
 // ============ concepts render ============
-const pitchPages = dv.pages('"Team Inbox/pitches"')
+const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
@@ -300,7 +300,7 @@ function dbApplyRowState(row, stateTag) {
 }
 
 if (pitchPages.length === 0) {
-  dv.el("div", "No pitch sheet found in Team Inbox/pitches/ yet. Once one exists (named like 2026-W28-pitch.md), concepts will render here automatically.", {cls: "db-empty"});
+  dv.el("div", "No pitch sheet found in Studio/Content/ yet. Once one exists (named like 2026-W28-pitch.md), concepts will render here automatically.", {cls: "db-empty"});
 } else {
   const latest = pitchPages[0];
   const raw = await dv.io.load(latest.file.path);

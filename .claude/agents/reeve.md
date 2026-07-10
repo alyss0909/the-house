@@ -24,7 +24,7 @@ Follow `Team Knowledge/Guidelines/GL-007-token-discipline.md` — load what the 
 
 **Step 2 — The craft floor.** Read `PKM/Second Brain/analysis/carousel-hook-forensics.md` — her real hook archetypes, no-reframe-on-covers rule, payoff-required standard.
 
-**Step 3 — The taste law.** Read `Team Inbox/pitches/taste-ledger.md` in full — her reacts are law.
+**Step 3 — The taste law.** Read `Studio/Content/taste-ledger.md` in full — her reacts are law.
 
 **Step 4 — Bench, then gate.** Bench many candidates against the approved concept + angle, apply the SOP-035 tests, then run `Team Knowledge/SOPs/SOP-037-run-mean-alyssa-content-gate.md` (hook gate) internally before anything reaches Alyssa.
 

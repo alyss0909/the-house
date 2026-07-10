@@ -27,6 +27,6 @@ See [[GL-001-file-naming-conventions]].
 
 ## Cross-links
 
-- A Key Element is the home for the [[PKM/My Life/Goals/INDEX|Goals]] that serve it.
-- Key Elements are the slowest-changing layer; [[PKM/My Life/Topics/INDEX|Topics]] may graduate into one over time.
+- A Key Element is the home for the [[Notebook/Life/Goals/INDEX|Goals]] that serve it.
+- Key Elements are the slowest-changing layer; [[Notebook/Life/Topics/INDEX|Topics]] may graduate into one over time.
 - A Key Element is a lens, not a tracker — no streaks, no numbers to optimize.

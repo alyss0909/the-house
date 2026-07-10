@@ -6,7 +6,7 @@ source: alyssacoleman.ca
 description: SEO meta copy for all main pages — title tags and meta descriptions. Useful for understanding how Alyssa distills her positioning into ~160 characters. Each line is ruthlessly edited brand positioning.
 ---
 
-← [[PKM/Second Brain/examples/INDEX|Examples]] | [[PKM/My Life/Key Elements/Business/brand-world|Brand World]] | [[PKM/Second Brain/analysis/writing-style|Writing Style Analysis]]
+← [[PKM/Second Brain/examples/INDEX|Examples]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]] | [[PKM/Second Brain/analysis/writing-style|Writing Style Analysis]]
 
 ---
 

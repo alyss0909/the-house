@@ -43,7 +43,7 @@ Steal slide structure only. Never voice.
 
 - @shannonmckinstrie - carousel method, anti-"How to" hooks, caption-to-slide cross-pointing
 - @thejustinwelsh - one idea per slide, bold minimal design, hook-to-payoff
-- [[Team Inbox/pitches/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns|Tinna Loaiza - The 5 Patterns]] - carousel mechanics: intimacy, deprivation curiosity, tension, visual repetition, narrative. Suki-owned craft lens only; never voice, never Alyssa source.
+- [[Studio/Content/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns|Tinna Loaiza - The 5 Patterns]] - carousel mechanics: intimacy, deprivation curiosity, tension, visual repetition, narrative. Suki-owned craft lens only; never voice, never Alyssa source.
 
 ## Layer 3 - Macro platform trends (read weekly, ~5 min, free)
 
@@ -54,6 +54,6 @@ What format/mechanic is hot platform-wide (e.g. DM-shares weighted 3-5x, follow-
 
 ## The monthly scrape routine (automated - Alyssa never touches this)
 
-Once per month: for each Layer-1 account, pull top posts by saves/reach, read the slide images, append covers + hooks + slide skeletons + engagement counts to `Team Inbox/pitches/swipe/YYYY-MM-swipe.md`. Retry the "could not scrape" accounts each run. Uses Apify (spend pre-approved for this routine).
+Once per month: for each Layer-1 account, pull top posts by saves/reach, read the slide images, append covers + hooks + slide skeletons + engagement counts to `Studio/Content/swipe/YYYY-MM-swipe.md`. Retry the "could not scrape" accounts each run. Uses Apify (spend pre-approved for this routine).
 
 **Canonical definition:** [[trend-scout-monthly-routine]] - the verbatim scheduled Claude Routine prompt (mechanism, cadence, output). Scheduled monthly, **next run 2026-08-01** (confirmed by Alyssa 2026-07-08). SOP-033 re-slices this output; it does not re-scrape.

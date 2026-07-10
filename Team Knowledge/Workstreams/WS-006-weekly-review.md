@@ -125,7 +125,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 4. Identify what was superseded by better work later in the week. Archive, delete, demote, or mark as process evidence instead of leaving it active.
 5. Flag trust breaks that need Silas, Hermes, Pax, or Mack. Silas handles source-boundary/index drift; Hermes handles recurring rejection-informed rules; Pax handles external gold-standard proof; Mack handles connector/cron work after the manual behavior works once.
 6. Add a concise `## Grand metabolism` section to the weekly wrap. Monthly review should be able to read this instead of reopening raw chaos.
-7. **House-rules lint ([[GL-013-the-house-rules]], ~5 min).** Grep the week's live changes for: a known fact string (a price, a chat word) appearing outside its one home; citations to files that don't exist on disk; orphan files created with no real connections; any non-Penn write inside the Notebook. Fix each hit in this session. This is the weekly guard that keeps the geography honest.
+7. **House-keeping light pass — run [[SOP-039-house-keeping]] (~10 min).** The 8 weekly checks (Notebook write-lock, Library stamps, one-home-per-fact lint, ghost citations, orphans, desk hygiene, task truth, capture pulse). Fix mechanical hits immediately; log the `## House check` section into the weekly wrap. This is the weekly guard that keeps the geography honest.
 
 **Output:** The week becomes easier to use: fewer floating reports, clearer source paths, cleaner tasks, and one sharper next-week starting point.
 

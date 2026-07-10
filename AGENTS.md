@@ -79,7 +79,7 @@ See [[Team/agent-index]] for the full routing table.
   - `Workstreams/` - recurring multi-agent orchestrations.
   - `Guidelines/` - static reference info (naming, tone, defaults).
   - `session-logs/YYYY/MM/` - append-only record of every session.
-- `Notebook/` - Alyssa's raw material (Journal, Images, Life). Moved here 2026-07-09 (Phase 2). See [[Notebook-MAP]].
+- `Notebook/` - Alyssa's raw material (Journal, Images, Life). Moved here 2026-07-09 (Phase 2). See [[Notebook/MAP|Notebook map]].
   - `Journal/YYYY/MM/` - daily entries.
   - `Images/YYYY/MM/` - single shared image bucket.
   - `Life/` - `CRM/People/` and `CRM/Organizations/`; `Goals/`, `Habits/`, `Key Elements/`, `Projects/`, `Topics/`.

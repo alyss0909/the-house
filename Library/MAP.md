@@ -1,6 +1,6 @@
 ---
-title: Library — MAP (draft, points at current paths during transition)
-status: DRAFT — will move to Library/MAP.md when the folder is created
+title: Library — MAP
+status: ACTIVE — home of the Library zone (moved here 2026-07-10; shelf assembles in the Library phase)
 owner: Larry
 zone: Library
 ---

@@ -110,4 +110,4 @@ Real hooks from Alyssa's content vault. Use as inspiration or steal directly.
 
 ---
 
-*Cross-reference: [[frameworks/carousel-framework|Carousel Framework]] · [[analysis/carousel|Carousel Analysis]] · [[examples/Carousels/captions|Carousel Captions]] · [[PKM/Journal/2026/04/2026-04-30-hooks|Hooks (Journal)]]*
+*Cross-reference: [[frameworks/carousel-framework|Carousel Framework]] · [[analysis/carousel|Carousel Analysis]] · [[examples/Carousels/captions|Carousel Captions]] · [[Notebook/Journal/2026/04/2026-04-30-hooks|Hooks (Journal)]]*

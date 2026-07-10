@@ -15,6 +15,6 @@ See [[GL-001-file-naming-conventions]].
 
 ## Cross-links
 
-- A Goal sits inside the [[PKM/My Life/Key Elements/INDEX|Key Element]] it serves.
-- A Goal is driven day to day by one or more [[PKM/My Life/Habits/INDEX|Habits]].
-- A Goal is delivered through a bounded [[PKM/My Life/Projects/INDEX|Project]].
+- A Goal sits inside the [[Notebook/Life/Key Elements/INDEX|Key Element]] it serves.
+- A Goal is driven day to day by one or more [[Notebook/Life/Habits/INDEX|Habits]].
+- A Goal is delivered through a bounded [[Notebook/Life/Projects/INDEX|Project]].

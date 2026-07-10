@@ -45,4 +45,4 @@ maker produces options → Mean Alyssa tries to destroy them all → survivors �
 2. The performance bet is NOT a rung — it's Mean Alyssa's ammo. Trend Scout feeds her data ("this format saved 4x more, that hook flopped") and she uses it to attack at every gate.
 
 ## Still to spec (next)
-Each role as its own agent: who they are, what they MUST read, what they hand off. Start with the Concept specialist (now has a real swipe file: Team Inbox/pitches/swipe/2026-07-swipe.md + sources: Team Inbox/pitches/trusted-sources.md).
+Each role as its own agent: who they are, what they MUST read, what they hand off. Start with the Concept specialist (now has a real swipe file: Studio/Content/swipe/2026-07-swipe.md + sources: Studio/Content/trusted-sources.md).

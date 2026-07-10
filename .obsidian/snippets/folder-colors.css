@@ -73,6 +73,16 @@
   opacity: 0.8;
 }
 
+/* ── HIDE MACHINE FOLDERS from the sidebar (files untouched, fully reversible) ── */
+.nav-folder[data-path="node_modules"],
+.nav-folder[data-path="lead-magnet-system"],
+.nav-folder[data-path="website"],
+.nav-folder[data-path="_system"],
+.nav-folder[data-path="Expansions"],
+.nav-folder[data-path="scripts"] {
+  display: none !important;
+}
+
 /* Trust-zone symbols */
 .nav-folder[data-path="Notebook"] > .nav-folder-title .nav-folder-title-content::before {
   content: "✎ ";

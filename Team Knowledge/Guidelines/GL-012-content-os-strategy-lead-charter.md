@@ -4,7 +4,7 @@ date: 2026-07-07
 author: Nolan, from Alyssa's Suki hire brief + Pax's 2026-07-07 hire research
 status: active — load before any Content OS strategy call, maker-source-wiring change, or content-hire spec
 owner: Suki (Social Media Strategist / Head of Content)
-canon: Team Inbox/pitches/PIPELINE-LADDER.md (the machine) · GL-010-content-pitch-operating-brain.md (execution judgment) · Deliverables/2026-07-07-social-media-strategist-hire-research.md (the research behind the role)
+canon: Studio/Content/PIPELINE-LADDER.md (the machine) · GL-010-content-pitch-operating-brain.md (execution judgment) · Deliverables/2026-07-07-social-media-strategist-hire-research.md (the research behind the role)
 ---
 
 # GL-012 — Content OS Strategy Lead Charter
@@ -77,7 +77,7 @@ The lead holds strategy; the final taste / positioning / pricing call is Alyssa'
 ## Cross-references
 
 - Owner contract: [[Team/Suki - Social Media Strategist/AGENTS]]
-- The machine: [[Team Inbox/pitches/PIPELINE-LADDER.md]], [[WS-011-weekly-carousel-pitch]]
+- The machine: [[Studio/Content/PIPELINE-LADDER.md]], [[WS-011-weekly-carousel-pitch]]
 - Execution judgment: [[GL-010-content-pitch-operating-brain]]
 - Arc format: [[GL-011-substance-arc-contract]]
 - Source boundaries: [[GL-009-source-boundaries-and-promotion]]

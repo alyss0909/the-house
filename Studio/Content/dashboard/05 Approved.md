@@ -40,13 +40,13 @@ const now = new Date();
 const year = now.getFullYear();
 const month = now.getMonth(); // 0-indexed
 
-const pitchPages = dv.pages('"Team Inbox/pitches"')
+const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
 if (pitchPages.length === 0) {
   dv.el("h2", `${now.toLocaleString('default', { month: 'long' })} ${year}`, {});
-  dv.el("div", "No pitch sheet found in Team Inbox/pitches/ yet — calendar has nothing to plot.", {cls: "db-empty"});
+  dv.el("div", "No pitch sheet found in Studio/Content/ yet — calendar has nothing to plot.", {cls: "db-empty"});
 } else {
   const latest = pitchPages[0];
   // Kick off both file reads together (pitch sheet + MAP.md) instead of

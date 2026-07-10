@@ -1,10 +1,10 @@
 ---
 title: GL-011 — The Substance Arc Contract (Rung 3 carousel arc format)
 date: 2026-07-07
-author: Nolan, from Alyssa's 2026-07-07 ruling in Team Inbox/pitches/taste-ledger.md
+author: Nolan, from Alyssa's 2026-07-07 ruling in Studio/Content/taste-ledger.md
 status: active — load before building or reviewing any carousel arc (WS-011 Step 3)
 owner: Cassius (Substance Specialist)
-canon: Team Inbox/pitches/taste-ledger.md (the ruling) · GL-010-content-pitch-operating-brain.md (surrounding judgment)
+canon: Studio/Content/taste-ledger.md (the ruling) · GL-010-content-pitch-operating-brain.md (surrounding judgment)
 ---
 
 # GL-011 — The Substance Arc Contract
@@ -97,5 +97,5 @@ Both open rates are real-range: 45% is squarely inside her 40–57% engaged band
 - Owner contract: [[Team/Cassius - Substance Specialist/AGENTS]]
 - Surrounding judgment: [[GL-010-content-pitch-operating-brain]]
 - Process: [[WS-011-weekly-carousel-pitch]] (Step 3)
-- Taste law (the ruling): `Team Inbox/pitches/taste-ledger.md`
-- Ladder: `Team Inbox/pitches/PIPELINE-LADDER.md` (Rung 3)
+- Taste law (the ruling): `Studio/Content/taste-ledger.md`
+- Ladder: `Studio/Content/PIPELINE-LADDER.md` (Rung 3)

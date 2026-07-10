@@ -41,7 +41,7 @@ if (navEl) {
 const REACT_HEADING = "## Dashboard reacts";
 function dbNewestPitchFile() {
   const md = app.vault.getMarkdownFiles()
-    .filter(f => f.path.startsWith("Team Inbox/pitches/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
+    .filter(f => f.path.startsWith("Studio/Content/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
     .sort((a, b) => a.basename < b.basename ? 1 : -1);
   return md[0] || null;
 }
@@ -188,12 +188,12 @@ function dbArcReactRow(dayKey, title, approved, placeholder, hint) {
 }
 
 // ============ arc render ============
-const pitchPages = dv.pages('"Team Inbox/pitches"')
+const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
 if (pitchPages.length === 0) {
-  dv.el("div", "No pitch sheet found in Team Inbox/pitches/ yet.", {cls: "db-empty"});
+  dv.el("div", "No pitch sheet found in Studio/Content/ yet.", {cls: "db-empty"});
 } else {
   const latest = pitchPages[0];
   const raw = await dv.io.load(latest.file.path);
@@ -265,7 +265,7 @@ if (pitchPages.length === 0) {
       // directly under the title, same card, still compact.
       // REMOVED 2026-07-07 (Alyssa's direct flag): in every real pitch sheet,
       // the **Cover:** line is just the title repeated verbatim (see
-      // Team Inbox/pitches/2026-W29-pitch.md — "**Cover:** The Email That
+      // Studio/Content/2026-W29-pitch.md — "**Cover:** The Email That
       // Wakes Up A Dead List" under a heading of the exact same title), so
       // this was rendering the same title twice, stacked, on every card —
       // not the rare distinct-description case the comment above assumed.

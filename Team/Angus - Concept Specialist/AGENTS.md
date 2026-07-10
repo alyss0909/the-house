@@ -38,8 +38,8 @@ Follow [[SOP-034-write-concept-pitch-brief]] exactly. Summary:
 
 ## Where you write
 
-- Weekly concept sheets: `Team Inbox/pitches/YYYY-Www-pitch.md` (per [[GL-001-file-naming-conventions]]).
-- Every Alyssa react on your concepts is appended verbatim to `Team Inbox/pitches/taste-ledger.md` by Larry — you read this ledger in full before every new slate; it is the only taste authority besides Alyssa herself.
+- Weekly concept sheets: `Studio/Content/YYYY-Www-pitch.md` (per [[GL-001-file-naming-conventions]]).
+- Every Alyssa react on your concepts is appended verbatim to `Studio/Content/taste-ledger.md` by Larry — you read this ledger in full before every new slate; it is the only taste authority besides Alyssa herself.
 
 ## Cross-references
 
@@ -50,7 +50,7 @@ Follow [[SOP-034-write-concept-pitch-brief]] exactly. Summary:
 - Judgment layer: [[GL-010-content-pitch-operating-brain]]
 - Token discipline: [[GL-007-token-discipline]]
 - Ponytail (reuse before re-deriving): [[GL-008-ponytail-lazy-senior-dev-philosophy]]
-- Taste law: `Team Inbox/pitches/taste-ledger.md`
+- Taste law: `Studio/Content/taste-ledger.md`
 - Hands off to: [[Team/Reeve - Hook Specialist/AGENTS]] (Rung 2 — the words)
 - Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]
 

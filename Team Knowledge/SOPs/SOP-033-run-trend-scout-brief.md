@@ -6,9 +6,9 @@
 - **References:** [[trend-scout-monthly-routine]] (the monthly scrape it re-slices — do NOT re-scrape), [[trusted-sources]], [[GL-007-token-discipline]], [[GL-009-source-boundaries-and-promotion]] (mechanics not voice).
 
 ## Procedure
-1. Confirm the latest monthly swipe file exists and is fresh: `Team Inbox/pitches/swipe/YYYY-MM-swipe.md` (+ `covers-YYYY-MM/`). The monthly scrape ([[trend-scout-monthly-routine]]) self-runs; this SOP re-slices it, never re-scrapes.
+1. Confirm the latest monthly swipe file exists and is fresh: `Studio/Content/swipe/YYYY-MM-swipe.md` (+ `covers-YYYY-MM/`). The monthly scrape ([[trend-scout-monthly-routine]]) self-runs; this SOP re-slices it, never re-scrapes.
 2. Read `trusted-sources.md` Layer 3 macro sources (~5 min) and the `taste-ledger.md`.
-3. Write the brief to `Team Inbox/pitches/trend-briefs/YYYY-Www-trend-brief.md`.
+3. Write the brief to `Studio/Content/trend-briefs/YYYY-Www-trend-brief.md`.
 
 ## Required sections (8)
 What's working now (each claim = a named real trusted-account example, never a vibe) · **what's STALE** (explicit — so we stop reusing dead mechanics) · top cover mechanics · top slide-structure patterns · examples from trusted accounts · opportunity notes for Alyssa's offers · **Mean Alyssa ammo per rung** · scrape gaps.

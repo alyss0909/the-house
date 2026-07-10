@@ -3,12 +3,12 @@
 - **Default owner:** Suki / Larry. Reusable at every content rung (concept, hook, substance, voice).
 - **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
 - **Triggered by:** every content rung in WS-011 before work reaches Alyssa; "run the gate", "mean alyssa this".
-- **References:** [[MEAN-ALYSSA]] (doctrine/calibration), `Team Inbox/pitches/taste-ledger.md`, the week's trend brief, [[GL-009-source-boundaries-and-promotion]].
+- **References:** [[MEAN-ALYSSA]] (doctrine/calibration), `Studio/Content/taste-ledger.md`, the week's trend brief, [[GL-009-source-boundaries-and-promotion]].
 
 > Mean Alyssa is a **gate, not an agent** — you invoke this lens, you don't spawn a persona. Nothing reaches Alyssa that the team could have killed or answered internally.
 
 ## Must use
-Suki-approved craft references such as [[Team Inbox/pitches/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns]] are mechanics-only lenses. They can sharpen a gate, but they never outrank Alyssa source, taste ledger, or carousel forensics.
+Suki-approved craft references such as [[Studio/Content/craft-references/2026-07-09-tinna-loaiza-5-carousel-patterns]] are mechanics-only lenses. They can sharpen a gate, but they never outrank Alyssa source, taste ledger, or carousel forensics.
 
 taste ledger · trend brief (incl. **stale-mechanic kill authority** — a mechanic named stale in SOP-033 is an automatic strike) · Alyssa real-source proof · repo review mechanics · line-by-line kill format · subtract-points scoring · **both-directions control calibration against a FIXED control set** — re-score 2 real-*approved* pieces + 1 real-but-flagged-too-AI piece (e.g. the Soft Sundays miss / `me-i-need-ideas-i-already-had.md`) each run; if it misclassifies a control, the gate is benched before it judges new work (a judge that flags her REAL copy as fake is as broken as one that praises slop; note: *published ≠ approved*, so provenance alone isn't the control) · "what would Alyssa immediately call bullshit on?"
 

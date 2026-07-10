@@ -27,7 +27,7 @@ Your email list isn't dead — it's under-talked-to. A small list that gets a re
 - Wed → none live yet (soft link-in-bio only until Notion confirms)
 - Fri → **List** (only if the FTG angle earns a natural CTA; otherwise pure identity/permission)
 
-## Trend signal (from `Team Inbox/pitches/swipe/2026-07-swipe.md`)
+## Trend signal (from `Studio/Content/swipe/2026-07-swipe.md`)
 This month's biggest wins are NOT teaching-list hooks — they're **reframes** (@coolgirlceo insult→envy flip, 89k), **confessions** (@sunday.scaries relatable-tweet-over-still, 82k), and **permission lines** (@btlcopy "no one will forget you while ur offline"). Direct-address + open loop punches above follower count. **Concept should lean reframe / confession / permission-line structure for the email angle — not a numbered-list teaching cover.** Especially: Mon (reframe the "dead list" belief), Fri (permission-line identity angle).
 
 ## Alyssa's 2-line skim

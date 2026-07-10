@@ -38,8 +38,8 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 
 ## Where you write
 
-- Hook candidates append to the same week's pitch sheet: `Team Inbox/pitches/YYYY-Www-pitch.md`.
-- Every Alyssa react on your hooks is appended verbatim to `Team Inbox/pitches/taste-ledger.md` by Larry — you read this ledger in full before every new bench; it is the only taste authority besides Alyssa herself.
+- Hook candidates append to the same week's pitch sheet: `Studio/Content/YYYY-Www-pitch.md`.
+- Every Alyssa react on your hooks is appended verbatim to `Studio/Content/taste-ledger.md` by Larry — you read this ledger in full before every new bench; it is the only taste authority besides Alyssa herself.
 
 ## Cross-references
 
@@ -52,7 +52,7 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 - Token discipline: [[GL-007-token-discipline]]
 - Ponytail (reuse before re-deriving): [[GL-008-ponytail-lazy-senior-dev-philosophy]]
 - Source boundaries (repo mechanics as process only, never voice): [[GL-009-source-boundaries-and-promotion]]
-- Taste law: `Team Inbox/pitches/taste-ledger.md`
+- Taste law: `Studio/Content/taste-ledger.md`
 - Receives from: [[Team/Angus - Concept Specialist/AGENTS]] (Rung 1 — the angle)
 - Hands off to: [[Team/Cassius - Substance Specialist/AGENTS]] (Rung 3 — the arc)
 - Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]

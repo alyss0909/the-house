@@ -14,7 +14,7 @@ tags:
 
 This is a thesis statement, not a hook. It frames the entire BOH positioning in one sentence — the answer isn't marketing mastery, it's infrastructure that protects the obsession. 
 
-Feeds: [[PKM/Developing Ideas/boh-as-permission-not-product|BOH as Permission, Not Product]] and [[PKM/Developing Ideas/middle-ground-entrepreneur|Middle-Ground Entrepreneur]]
+Feeds: [[Studio/Signals/Developing Ideas/boh-as-permission-not-product|BOH as Permission, Not Product]] and [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur|Middle-Ground Entrepreneur]]
 
 *[Original Keep note](https://keep.google.com/#NOTE/1_V_0Cbrxp7m0_VaBHLwdgX5LPy_AS_DpDbN1TMGGWYhM1_Wjprh4viNlxMt7)*
 

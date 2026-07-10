@@ -34,7 +34,7 @@ if (navEl) {
 
 ```dataviewjs
 // ---- Header card + live pipeline status, read from the newest pitch sheet ----
-const pitchFiles = dv.pages('"Team Inbox/pitches"')
+const pitchFiles = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
@@ -99,7 +99,7 @@ if (headEl) {
 }
 
 if (!latest) {
-  dv.el("div", "No pitch sheet found yet in Team Inbox/pitches/ (expected a file matching YYYY-Www-pitch.md).", {cls: "db-empty"});
+  dv.el("div", "No pitch sheet found yet in Studio/Content/ (expected a file matching YYYY-Www-pitch.md).", {cls: "db-empty"});
 }
 ```
 

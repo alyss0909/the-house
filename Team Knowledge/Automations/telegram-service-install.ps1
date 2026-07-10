@@ -37,6 +37,13 @@
 .NOTES
     Requires: Windows 10 or 11, Python 3.x installed and available at the path
     below, and a valid TELEGRAM_BOT_TOKEN in telegram-capture.env.
+
+    SECRETS LIVE OUTSIDE THE VAULT (security rule, moved 2026-07-10):
+    the env file and runtime state are read from
+        C:\Users\accol\.config\telegram-capture\telegram-capture.env
+        C:\Users\accol\.config\telegram-capture\.telegram-capture-state.json
+    Never place telegram-capture.env inside the vault folder.
+
     Does NOT require NSSM, WSL, or any third-party service manager.
 #>
 

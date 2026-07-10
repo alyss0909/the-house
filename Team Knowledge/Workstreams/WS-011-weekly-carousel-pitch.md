@@ -41,15 +41,15 @@ Trend + strategy insights run **Sunday**. **Monday**, Alyssa reviews concepts fo
 
 **Step 1 is a HARD GATE — the chain cannot start without it.** No concepts (SOP-034) are generated until a real Trend Scout Brief exists for the week. **The brief's PRIMARY source is what Alyssa's Layer-1 trusted accounts are actually posting RIGHT NOW** — the swipe file / scrape read for the TOPICS and ANGLES her people are winning with (not just cover-format structure). **Generic marketing-blog / web trends are NOT the trend source** — they produce the evergreen filler she rejects; web is only ever for verifying one specific fact a concept needs, never the signal itself. If the brief is missing or thin, **Larry HALTS and flags it to Alyssa before any downstream rung runs — never silently proceeds.** (Origin: 2026-07-08 — concepts came out generic because Step 1 was skipped, then mis-sourced from generic web instead of her trusted accounts. The signal is HER niche, read from HER sources — e.g. the July swipe showed soft-life/offline/freedom confessions massively out-performing tactical how-tos.)
 
-Every react is appended verbatim by Larry to `Team Inbox/pitches/taste-ledger.md` (date, item, verdict, her words) — the ledger loads into every future SOP-034 run, so the system learns her taste instead of guessing it.
+Every react is appended verbatim by Larry to `Studio/Content/taste-ledger.md` (date, item, verdict, her words) — the ledger loads into every future SOP-034 run, so the system learns her taste instead of guessing it.
 
 ## Standing files
-- `Team Inbox/pitches/trend-briefs/YYYY-Www-trend-brief.md` — weekly Trend Scout Briefs (SOP-033)
-- `Team Inbox/pitches/swipe/YYYY-MM-swipe.md` — monthly swipe file (the scrape output)
+- `Studio/Content/trend-briefs/YYYY-Www-trend-brief.md` — weekly Trend Scout Briefs (SOP-033)
+- `Studio/Content/swipe/YYYY-MM-swipe.md` — monthly swipe file (the scrape output)
 - [[trend-scout-monthly-routine]] — the canonical monthly scrape routine definition
 - [[trusted-sources]] — the locked source list the scrape reads
-- `Team Inbox/pitches/YYYY-Www-pitch.md` — weekly concept sheets
-- `Team Inbox/pitches/taste-ledger.md` — cumulative react history; the only taste authority besides Alyssa herself
+- `Studio/Content/YYYY-Www-pitch.md` — weekly concept sheets
+- `Studio/Content/taste-ledger.md` — cumulative react history; the only taste authority besides Alyssa herself
 - `Deliverables/2026-07-08-content-os-reset/` — the reset pack (memo, SOP drafts, research, wiring, hiring plan v2)
 
 ## What this workflow explicitly does NOT do
