@@ -10,6 +10,7 @@ linked_people:
   - jane-doe
 linked_organizations:
   - acme-property-management
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

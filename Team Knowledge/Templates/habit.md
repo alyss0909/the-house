@@ -4,6 +4,7 @@ cadence: daily
 status: active
 started_on: 2026-04-01
 key_element: health
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

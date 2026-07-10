@@ -7,6 +7,7 @@ linked_goals:
   - hit-50k-mrr-by-q3
 linked_people:
   - jane-doe
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

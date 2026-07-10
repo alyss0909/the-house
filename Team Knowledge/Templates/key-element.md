@@ -2,6 +2,7 @@
 name: Work
 description_short: My professional life and the businesses I run
 status: active
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

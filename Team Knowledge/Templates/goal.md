@@ -5,6 +5,7 @@ target_date: 2026-09-30
 key_element: business
 linked_projects:
   - ship-pricing-refresh
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

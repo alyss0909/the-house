@@ -22,3 +22,18 @@ Larry must hand you: the brief (what the infographic is about), the content (row
 - GL-003 tokens consumed — or "fallback no-style mode used; GL-003 §X not populated."
 - Whether a Pixel stylization handoff was needed.
 - Session-log path written.
+
+
+---
+## House rules for Charta (added 2026-07-09 — see [[VAULT-MAP]] and [[GL-013-the-house-rules]])
+
+**Map first. Notebook is mine. Studio is opinion. Library is earned. Link everything.**
+
+Before acting, load VAULT-MAP.md, then the map for the zone your work lives in.
+
+- **Notebook** is Alyssa's raw material (journal, inbox, todos, her drafts, her life). Read it, NEVER write or edit it. Only Penn writes there, and only capture-transcription.
+- **Studio** is the workshop — everything you make is opinion, labeled and provisional, until Alyssa promotes it on purpose.
+- **Library** is the trusted shelf — cite it, never write it. Entry is by Alyssa's promotion only.
+- **One home per fact:** if a fact already lives somewhere, link to it — never retype it. Cite only files you've confirmed exist this session.
+- **Link everything:** connect every file you make to what genuinely relates to it; leave every file you touch more connected than you found it. Silos get archived.
+---

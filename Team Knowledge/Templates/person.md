@@ -11,6 +11,7 @@ city: San Francisco
 birth_date:
 linkedin_url: https://www.linkedin.com/in/janedoe
 last_contact: 2026-05-09
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

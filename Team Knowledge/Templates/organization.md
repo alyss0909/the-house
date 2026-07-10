@@ -6,6 +6,7 @@ website: https://www.acmecorp.example
 email: hello@acmecorp.example
 phone: +1-415-555-0199
 city: San Francisco
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 

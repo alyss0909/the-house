@@ -2,6 +2,7 @@
 name: Pricing Strategy
 key_element: business
 parent_topic:
+source_class: raw                          # raw|facts|derived|map|output|task — see GL-002 provenance fields
 tags:
 ---
 # Templates - Index

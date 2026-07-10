@@ -354,6 +354,58 @@ These files do not require a `tags:` field. The `type` property replaces content
 
 Do not apply entity schema rules to these files. Do not add them to SOP-002 migration tables.
 
+## Provenance fields (`source_class`, `promoted_by`, `promoted_date`)
+
+> **Added 2026-07-09.** Additive to everything above — no existing field changes. These fields make an address mean a level of trust, per [[GL-013-the-house-rules]] and [[GL-009-source-boundaries-and-promotion]]. They apply to **every file in the house**, entity and non-entity alike, not just the eight entity types.
+
+### Why this exists
+
+The house is organized by trust, not by birthplace. A reader must be able to tell, from a file's own frontmatter, whether it is reading Alyssa's mind, the team's opinion, business truth, a pointer, or a session product — without inferring it from the folder. `source_class` is that self-declaration. `promoted_by` / `promoted_date` are the stamp that lets a non-`raw` file earn a place on the Library shelf.
+
+### `source_class` — allowed values
+
+One value per file. Required on new files going forward (see migration plan for existing files).
+
+| Value | Meaning | Typical home |
+|---|---|---|
+| `raw` | Alyssa-original. Her words, drafts, journal, life facts, verbatim published work. Agents read it, never write it (GL-013 Rule 1). | Notebook; verbatim work on the Library shelf |
+| `facts` | Team-maintained business truth — the single home of a fact that agents keep current (prices, offer status, calendar). One home per fact (GL-013 Rule 3). | Studio/Library (facts layer, e.g. VAULT-MAP-registered homes) |
+| `derived` | AI/team opinion, analysis, framework, synthesis. Useful, never source. Must cite what it came from and stay labeled interpretation (GL-013 Rule 2). | Studio |
+| `map` | Pointer layer that routes to source without digesting it — INDEX, COMPASS, routing tables, this VAULT-MAP. | Beside what it routes |
+| `output` | Session work product — reports, audits, plans, drafts, handoffs. Not durable knowledge yet. | `Deliverables/` |
+| `task` | A concrete open loop with owner, status, next action. | `Team Knowledge/tasks/`, ready queues |
+
+Relationship to [[GL-009-source-boundaries-and-promotion]]: `source_class` refines GL-009's `source` class into `raw` (Alyssa-original) and `facts` (team-maintained truth). `map`, `derived`, `output`, `task` are unchanged.
+
+### Which value each zone expects
+
+| Zone | Expected `source_class` |
+|---|---|
+| **Notebook** | `raw` (only Penn capture-transcription writes here) |
+| **Studio** | `derived` primarily; also `map`, `facts`, `task` |
+| **Library** | `raw` (Alyssa verbatim), or `facts`/`derived` that carry a promotion stamp |
+| **Deliverables** | `output` (drains to Studio/Library/Archive over time) |
+| **Archive** | preserves whatever class the file had when archived |
+
+### `promoted_by` and `promoted_date`
+
+Present **only** on files that have been promoted onto the Library shelf. Absent everywhere else — do not add empty keys to non-Library files.
+
+```yaml
+source_class: derived
+promoted_by: alyssa
+promoted_date: 2026-07-09
+```
+
+- `promoted_by` — who authorized the promotion. Per GL-013 Rule 2, no agent promotes its own work; in practice this is `alyssa`.
+- `promoted_date` — ISO `YYYY-MM-DD` the file entered the Library.
+
+### The Library stamp gate (hard rule)
+
+**No `derived` (or `facts`) file may sit physically in the Library without a `promoted_by` stamp.** A `raw` file needs no stamp — it is Alyssa's verbatim work and is Library-native. Anything else on the shelf is there by promotion or it does not belong there.
+
+Enforcement is light, at the seams (GL-013): the **weekly review ([[WS-006-weekly-review]])** lints for any Library file whose `source_class` is not `raw` and that lacks a `promoted_by` stamp, and either promotes it properly or moves it back to the Studio. This is not blocked at write time — it is caught and fixed weekly.
+
 ## How to extend this Guideline
 
 Your myPKA grows. New fields will surface. Two acceptable extension paths:
