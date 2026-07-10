@@ -38,6 +38,23 @@
   border-radius: 4px;
 }
 
+/* ── THE THREE TRUST ZONES (new primary structure, 2026-07-09) ── */
+.nav-folder[data-path="Notebook"] > .nav-folder-title,
+.nav-folder-title[data-path="Notebook"] {
+  background: #b4b7e6 !important;   /* periwinkle — her mind */
+  border-radius: 4px;
+}
+.nav-folder[data-path="Studio"] > .nav-folder-title,
+.nav-folder-title[data-path="Studio"] {
+  background: #a3d9c9 !important;   /* teal — the workshop */
+  border-radius: 4px;
+}
+.nav-folder[data-path="Library"] > .nav-folder-title,
+.nav-folder-title[data-path="Library"] {
+  background: #f4b8a1 !important;   /* soft coral — the shelf */
+  border-radius: 4px;
+}
+
 /* Unicode symbols */
 .nav-folder[data-path="PKM"] > .nav-folder-title .nav-folder-title-content::before {
   content: "✦︎ ";
@@ -53,5 +70,19 @@
 }
 .nav-folder[data-path="Deliverables"] > .nav-folder-title .nav-folder-title-content::before {
   content: "⊙ ";
+  opacity: 0.8;
+}
+
+/* Trust-zone symbols */
+.nav-folder[data-path="Notebook"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "✎ ";
+  opacity: 0.8;
+}
+.nav-folder[data-path="Studio"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "❖ ";
+  opacity: 0.8;
+}
+.nav-folder[data-path="Library"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "❋ ";
   opacity: 0.8;
 }
