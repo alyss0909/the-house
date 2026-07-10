@@ -1,98 +1,58 @@
 ---
 title: Offer Map
 date: 2026-07-10
-source: "Notion Products DB (live truth)"
-note: "Regenerated from Notion Products DB. Do not hand-edit facts in this file — edit Notion, then regenerate."
+note: "Navigation map only. Facts (price, status, sales link, chat word) live in the Notion Products DB — never duplicated here. This map exists so any agent can skim the offer suite and jump straight to each offer's positioning notes in the library."
 ---
 
 # Offer Map
 
-Single skimmable source for every product in the Notion Products DB (collection `2f4c8b43-e565-8149-a25f-000b38310c24`). This file is the source of truth for offer facts across the vault. The per-offer `MAP.md` files under `Library/Offers/*/` are narrative/positioning pages, not fact sources — if their frontmatter disagrees with Notion, Notion wins (see mismatch list at bottom).
+A skimmable index of every offer that has notes in the library, grouped by funnel lane. Each link goes to that offer's own notes ([[offer/MAP]]). For live facts — price, status, sales page, chat word — read the Notion Products DB; this map deliberately holds none of that so it can never go stale.
 
-**Alyssa's rulings (2026-07-10) — these override anything stale in Notion:**
-- Quarter in a Day = $2,000 (Notion already shows $2,000 — confirmed match, no correction needed)
-- CEO Year Notion Planner = $79 list price, coupon `CALMMYEAR` → $39 (Notion shows $79 — confirmed match; coupon price is not a Notion field, noted here only)
-- Pin Planner chat word = PINTEREST (Notion already shows "Pinterest" — confirmed match, no correction needed)
+Ladder order within each lane: free opt-in → low ticket → core offer.
 
-## All offers (42)
+## Email
 
-| Name | Price | Status | Sales Page | Chat Word | Type | Theme | Vault Folder |
-|---|---|---|---|---|---|---|---|
-| The Numbers | $0 | Live | https://alyssacoleman.ca/formula | — | Freebie | BoH Systems | [[the-numbers/MAP]] |
-| To Do List Detox | $0 | Geriatric | https://alyssacoleman.ca/todolist | — | Freebie | Productivity | — |
-| Soft Sundays | $0 | Live | https://alyssacoleman.ca/sunday | Sunday | Freebie | Email, Productivity, Sales, BoH Systems, Pinterest | [[soft-sundays/MAP]] |
-| Plan Your Year | $0 | Geriatric | https://alyssacoleman.ca/year | Plan | Freebie | Productivity | — |
-| Soft Ceo Sessions | $0 | Live | https://alyssacoleman.ca/softceo | Softceo | Freebie | Productivity | [[soft-ceo-sessions/MAP]] |
-| Lazy Launch Checklist | $0 | Geriatric | https://alyssacoleman.ca/checklist | — | Freebie | Sales, Productivity | — |
-| The Ceo Year Notion Planner | $79 (coupon CALMMYEAR → $39) | Live | https://alyssacoleman.ca/ceoyear | Whimsy | Low Ticket | Productivity | [[the-ceo-year-notion-planner/MAP]] |
-| Art of Selling | $0 | Geriatric | https://alyssacoleman.ca/art | — | Freebie | Sales | — |
-| Steal My Content Workflow | $17 | Sunset | https://alyssacoleman.ca/flow | — | Low Ticket | — | — |
-| Steal My Launch Calendar | $17 | Sunset | https://alyssacoleman.ca/lcalendar | — | Low Ticket | — | — |
-| Quarter in a Day (VIP Day w Alyssa) | $2,000 | Live | https://alyssacoleman.ca/oneday | — | Offer | Productivity, Email, BoH Systems | [[quarter-in-a-day/MAP]] |
-| The Daily Profit Activities | $47 | Needs Edits | https://alyssacoleman.ca/slo | — | Low Ticket | Sales | [[the-daily-profit-activities/MAP]] |
-| Best Year Yet | $97 | Live | https://alyssacoleman.ca/plan | — | Low Ticket | Productivity | [[best-year-yet/MAP]] |
-| Back of House | $3,000 | Live | https://alyssacoleman.ca/boh | Yes Chef | Offer | BoH Systems | [[back-of-house/MAP]] |
-| Winter Arc | $0 | Sunset | — | — | Freebie | — | — |
-| Pitch Perfect | $397 | Sunset | https://alyssacoleman.ca/pitch | — | Offer | — | — |
-| Biz Tracker | $0 | Needs Edits | https://alyssacoleman.ca/track | — | Freebie | BoH Systems, Productivity, Sales | [[biz-tracker/MAP]] |
-| Steal My Calendar | $27 | Sunset | https://alyssacoleman.ca/steal | Calendar | Low Ticket | — | — |
-| Productivity Style Quiz | $0 | Sunset | — | — | Freebie | — | — |
-| Profit Systems | $0 | Geriatric | https://alyssacoleman.ca/rich | — | Freebie | BoH Systems | — |
-| The Promo Planner in Notion | $59 | Live | https://alyssacoleman.ca/promo-notion | — | Low Ticket | Sales, BoH Systems | [[the-promo-planner-in-notion/MAP]] |
-| Content That Converts | $599 | Geriatric | https://alyssacoleman.ca/content | — | Offer | Email | — |
-| The 90 Minute Reset | $333 | Live | https://alyssacoleman.ca/90 | — | Offer | Productivity, Email, BoH Systems | [[the-90-minute-reset/MAP]] |
-| Private Mentorship w Alyssa | $12,000 | Live | — | — | Offer | BoH Systems | [[private-mentorship-w-alyssa/MAP]] |
-| Email List Revival Plan | $0 | Live | https://alyssacoleman.ca/revival | List | Freebie | Email | [[email-list-revival-plan/MAP]] |
-| Lazy Girl's Guide to Launching | $2,000 | Geriatric | https://alyssacoleman.ca/launch | — | Offer | Sales | — |
-| Plan Your Month | $0 | Geriatric | https://alyssacoleman.ca/month-plan | — | Freebie | Productivity | — |
-| Soft Ceo Monthly Notion Template | $37 | Live | https://alyssacoleman.ca/ceomonth | Ceo | Low Ticket | Productivity | [[soft-ceo-monthly-notion-template/MAP]] |
-| The Big Four | $0 | Geriatric | https://alyssacoleman.ca/big | — | Freebie | Productivity | — |
-| A Year of Emails | $37 | Needs Edits | https://alyssacoleman.ca/emails | — | Low Ticket | Email | [[a-year-of-emails/MAP]] |
-| Funnel Templates | $199 | Sunset | https://alyssacoleman.thrivecart.com/funnel-procrastinator-checkout/ | — | Offer | — | — |
-| The Productive Entrepreneur | $11,000 | Live | https://alyssacoleman.ca/tpe | — | Offer | BoH Systems | [[the-productive-entrepreneur/MAP]] |
-| Pin Planner | $0 | Live | https://alyssacoleman.ca/traffic | Pinterest | Freebie | Pinterest | [[pin-planner/MAP]] |
-| Simmer System | $0 | Live | — | — | Asset | BoH Systems | [[simmer-system/MAP]] |
-| List Resuscitator | $11 | Live | https://alyssacoleman.ca/cold | Cold | Low Ticket | Email | [[list-resuscitator/MAP]] |
-| The 5 Minute Newsletter | $19 | Live | alyssacoleman.ca/5m | — | Low Ticket | Email | [[the-5-minute-newsletter/MAP]] |
-| Bingeable Newsletters | $0 | Live | www.alyssacoleman.ca/newsletter | — | Freebie | Email | [[bingeable-newsletters/MAP]] |
-| Unignorable Subject Lines | $9 | Live | — | — | Low Ticket | Email | [[unignorable-subject-lines/MAP]] |
-| 90d Clock In | $19 | Live | www.alyssacoleman.ca/clockin | Clock | Low Ticket | Productivity | [[90d-clock-in/MAP]] |
-| Cold Subscriber Automation | $0 | Live | — | Template | Freebie | Email | [[cold-subscriber-automation/MAP]] |
-| Quarter Prompt | $0 | Live | — | Claude | Freebie | Productivity | [[quarter-prompt/MAP]] |
+- [[bingeable-newsletters/MAP|Bingeable Newsletters]] — free opt-in
+- [[email-list-revival-plan/MAP|Email List Revival Plan]] — free opt-in
+- [[cold-subscriber-automation/MAP|Cold Subscriber Automation]] — free opt-in
+- [[unignorable-subject-lines/MAP|Unignorable Subject Lines]] — low ticket / order bump
+- [[the-5-minute-newsletter/MAP|The 5 Minute Newsletter]] — low ticket
+- [[list-resuscitator/MAP|List Resuscitator]] — low ticket
+- [[a-year-of-emails/MAP|A Year of Emails]] — low ticket
 
-## Vault folders with no matching Notion product
+## Pinterest
 
-- **[[rush-order/MAP]]** — vault frontmatter has `price_point: 2999`, `status: idea`. No "Rush Order" row exists in the Notion Products DB at all. This is the one real Notion-vs-vault mismatch: Rush Order is documented as a planned product (see `project_rush_order.md` memory — "done-with-you BOH upsell Alyssa wants to build soon; copy in PKM, sales page and checkout not yet built") but hasn't been added to Notion yet. Flagging rather than resolving — needs Alyssa's call on whether to add it to Notion now or leave it pre-launch.
+- [[pin-planner/MAP|Pin Planner]] — free opt-in → BOH via the Pinterest / Slowly Viral lane
 
-## Frontmatter duplicates found (pending Alyssa's OK to strip)
+## Productivity
 
-All 26 `Library/Offers/*/MAP.md` files carry `status`, `price_point`, and `sales_page_url` in frontmatter, duplicating what now lives in Notion above. None of the checked values CONTRADICT Notion (a few vault files simply have the field blank where Notion has a value, e.g. Pin Planner's `price_point` is blank in the vault but $0 in Notion — not a contradiction, just an unfilled freebie price). Full list of files carrying these duplicate fields:
+- [[quarter-prompt/MAP|Quarter Prompt]] — free opt-in
+- [[soft-ceo-sessions/MAP|Soft CEO Sessions]] — free opt-in
+- [[soft-ceo-monthly-notion-template/MAP|Soft CEO Monthly]] — low ticket
+- [[the-ceo-year-notion-planner/MAP|The CEO Year Notion Planner]] — low ticket
+- [[90d-clock-in/MAP|90d Clock In]] — low ticket
+- [[best-year-yet/MAP|Best Year Yet]] — low ticket
+- [[quarter-in-a-day/MAP|Quarter in a Day]] — VIP day
 
-- [[Library/Offers/rush-order/MAP|rush-order]] — price_point: 2999, status: idea (no Notion match, see above — do not strip until Rush Order is added to Notion)
-- [[Library/Offers/back-of-house/MAP|back-of-house]]
-- [[Library/Offers/best-year-yet/MAP|best-year-yet]]
-- [[Library/Offers/bingeable-newsletters/MAP|bingeable-newsletters]]
-- [[Library/Offers/biz-tracker/MAP|biz-tracker]]
-- [[Library/Offers/cold-subscriber-automation/MAP|cold-subscriber-automation]]
-- [[Library/Offers/email-list-revival-plan/MAP|email-list-revival-plan]]
-- [[Library/Offers/list-resuscitator/MAP|list-resuscitator]]
-- [[Library/Offers/pin-planner/MAP|pin-planner]]
-- [[Library/Offers/private-mentorship-w-alyssa/MAP|private-mentorship-w-alyssa]]
-- [[Library/Offers/quarter-in-a-day/MAP|quarter-in-a-day]]
-- [[Library/Offers/quarter-prompt/MAP|quarter-prompt]]
-- [[Library/Offers/simmer-system/MAP|simmer-system]]
-- [[Library/Offers/soft-ceo-monthly-notion-template/MAP|soft-ceo-monthly-notion-template]]
-- [[Library/Offers/soft-ceo-sessions/MAP|soft-ceo-sessions]]
-- [[Library/Offers/soft-sundays/MAP|soft-sundays]]
-- [[Library/Offers/the-5-minute-newsletter/MAP|the-5-minute-newsletter]]
-- [[Library/Offers/the-90-minute-reset/MAP|the-90-minute-reset]]
-- [[Library/Offers/the-ceo-year-notion-planner/MAP|the-ceo-year-notion-planner]]
-- [[Library/Offers/the-daily-profit-activities/MAP|the-daily-profit-activities]]
-- [[Library/Offers/the-numbers/MAP|the-numbers]]
-- [[Library/Offers/the-productive-entrepreneur/MAP|the-productive-entrepreneur]]
-- [[Library/Offers/the-promo-planner-in-notion/MAP|the-promo-planner-in-notion]]
-- [[Library/Offers/unignorable-subject-lines/MAP|unignorable-subject-lines]]
-- [[Library/Offers/90d-clock-in/MAP|90d-clock-in]]
-- [[Library/Offers/a-year-of-emails/MAP|a-year-of-emails]]
+## BoH Systems
 
-No edits were made to any of these 26 files — this list is for Alyssa to review before anyone strips the duplicate fact fields out of them.
+- [[the-numbers/MAP|The Numbers]] — free opt-in
+- [[biz-tracker/MAP|Biz Tracker]] — free opt-in
+- [[simmer-system/MAP|Simmer System]] — asset
+- [[the-90-minute-reset/MAP|The 90 Minute Reset]] — core offer
+- [[back-of-house/MAP|Back of House]] — flagship
+- [[the-productive-entrepreneur/MAP|The Productive Entrepreneur]] — high ticket
+- [[private-mentorship-w-alyssa/MAP|Private Mentorship]] — high ticket
+
+## Sales
+
+- [[the-daily-profit-activities/MAP|The Daily Profit Activities]] — low ticket
+- [[the-promo-planner-in-notion/MAP|The Promo Planner]] — low ticket (rides the promo overlay, not a week slot)
+
+## Cross-lane
+
+- [[soft-sundays/MAP|Soft Sundays]] — free opt-in, feeds every lane
+
+## Not yet in Notion
+
+- [[rush-order/MAP|Rush Order]] — planned done-with-you BOH upsell. Copy exists, sales page and checkout not built, no Notion row yet. Add to Notion when it launches.
