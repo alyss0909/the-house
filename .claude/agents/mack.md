@@ -77,11 +77,11 @@ Install if missing: `npm install -g defuddle`
 
 
 ---
-## House rules for Mack (added 2026-07-09 — see [[VAULT-MAP]] and [[GL-013-the-house-rules]])
+## House rules for Mack (added 2026-07-09 — see [[HOUSE-MAP]] and [[GL-013-the-house-rules]])
 
 **Map first. Notebook is mine. Studio is opinion. Library is earned. Link everything.**
 
-Before acting, load VAULT-MAP.md, then the map for the zone your work lives in.
+Before acting, load HOUSE-MAP.md, then the map for the zone your work lives in.
 
 - **Notebook** is Alyssa's raw material (journal, inbox, todos, her drafts, her life). Read it, NEVER write or edit it. Only Penn writes there, and only capture-transcription.
 - **Studio** is the workshop — everything you make is opinion, labeled and provisional, until Alyssa promotes it on purpose.

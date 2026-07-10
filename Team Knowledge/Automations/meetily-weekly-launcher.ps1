@@ -66,12 +66,11 @@
 #
 # HANDLED:  single (non-recurring) events; FREQ=WEEKLY at any INTERVAL
 #           (INTERVAL=2 == biweekly, e.g. the "Camila x Alyssa" Monday);
-#           BYDAY, UNTIL, and EXDATE are honored.
+#           BYDAY, UNTIL, COUNT, and EXDATE are honored.
 # NOT FULLY HANDLED:  FREQ=DAILY / MONTHLY / YEARLY are NOT expanded - for those
 #           only the base DTSTART occurrence is considered (and a WARN is
-#           logged). COUNT limits are not enforced (current-week scope makes
-#           this a non-issue in practice). DST boundaries: recurring instances
-#           are rebuilt from Toronto wall-clock time, so a meeting keeps its
+#           logged). DST boundaries: recurring instances are rebuilt from
+#           Toronto wall-clock time, so a meeting keeps its
 #           local start time across the spring/fall change (correct behavior).
 #           If a recurring meeting type beyond WEEKLY is ever needed, extend
 #           Expand-Recurrence below.
@@ -84,7 +83,10 @@ param(
     [string]$IcsFile,
     # Optional: parse + log qualifying meetings but do NOT create/delete any
     # scheduled tasks. Safe read-only dry run.
-    [switch]$NoSchedule
+    [switch]$NoSchedule,
+    # Optional: target the Mon-Sun week containing this date instead of the
+    # current week. Useful for testing next week's tasks before Monday.
+    [datetime]$WeekOfDate = [datetime]::MinValue
 )
 
 $ErrorActionPreference = "Stop"
@@ -123,10 +125,12 @@ function Write-Log {
 $IanaToWindowsTz = @{
     "America/Toronto"     = "Eastern Standard Time"
     "America/New_York"    = "Eastern Standard Time"
+    "America/Detroit"     = "Eastern Standard Time"
     "America/Chicago"     = "Central Standard Time"
     "America/Denver"      = "Mountain Standard Time"
     "America/Los_Angeles" = "Pacific Standard Time"
     "America/Vancouver"   = "Pacific Standard Time"
+    "Asia/Kolkata"        = "India Standard Time"
     "UTC"                 = "UTC"
 }
 
@@ -221,7 +225,7 @@ function Get-ICalText {
     }
 
     # Mask the token when logging - never echo the secret URL in full
-    $masked = $url -replace '/ical/.*?/', '/ical/****/'
+    $masked = $url -replace '/ical/.+?/basic\.ics$', '/ical/****/basic.ics'
     Write-Log "Fetching calendar from secret iCal feed: $masked"
 
     $maxAttempts = 4
@@ -346,6 +350,7 @@ function Expand-Recurrence {
     }
     $freq     = $rrule["FREQ"]
     $interval = if ($rrule["INTERVAL"]) { [int]$rrule["INTERVAL"] } else { 1 }
+    $countLimit = if ($rrule["COUNT"]) { [int]$rrule["COUNT"] } else { $null }
 
     $untilInstant = $null
     if ($rrule["UNTIL"]) {
@@ -415,6 +420,25 @@ function Expand-Recurrence {
         if ($candInstant -lt $startInstant) { continue }                       # before series start
         if ($untilInstant -and $candInstant -gt $untilInstant) { continue }    # after UNTIL
         if ($exSet.ContainsKey($candInstant.UtcDateTime.ToString("o"))) { continue }  # EXDATE
+        if ($countLimit) {
+            $occurrenceNumber = 0
+            $withinCount = $true
+            for ($week = $startWeekMon; $week -le $WeekStartTor; $week = $week.AddDays(7 * $interval)) {
+                foreach ($dayCode in $byDays) {
+                    $occWall = [datetime]::SpecifyKind($week.AddDays($ByDayOffset[$dayCode]).Date.Add($timeOfDay), 'Unspecified')
+                    if ($occWall -lt $startWall) { continue }
+                    $occurrenceNumber++
+                    if ($occWall -eq $candWall -and $occurrenceNumber -gt $countLimit) {
+                        $withinCount = $false
+                        break
+                    }
+                }
+                if (-not $withinCount) {
+                    break
+                }
+            }
+            if (-not $withinCount) { continue }
+        }
 
         $results += @{ Instant = $candInstant; Duration = $duration; AllDay = $dtStart.AllDay }
     }
@@ -424,7 +448,7 @@ function Expand-Recurrence {
 # ---------------------------------------------------------------
 # VIDEO LINK DETECTION PATTERN
 # ---------------------------------------------------------------
-$videoPattern = 'meet\.google|zoom\.us|teams\.microsoft|webex|whereby|loom\.com|bluejeans|gotomeet|skype|discord\.gg|around\.co|livestorm'
+$videoPattern = 'meet\.google|zoom\.us|alyssacoleman\.ca/zoom|teams\.microsoft|webex|whereby|loom\.com|bluejeans|gotomeet|skype|discord\.gg|around\.co|livestorm'
 
 # ---------------------------------------------------------------
 # FILTER: is this concrete instance a recordable meeting?
@@ -450,6 +474,10 @@ function Test-IsMeeting {
         Write-Log ("  EXCLUDE Stacia coworking: '{0}'" -f $subject)
         return $false
     }
+    if ($subject -match "(?i)Review BOH Qs") {
+        Write-Log ("  EXCLUDE internal BOH review: '{0}'" -f $subject)
+        return $false
+    }
     if ($subject -match "Camila.{0,5}Alyssa" -and $dayNum -eq 2) {
         Write-Log ("  EXCLUDE Camila x Alyssa Tuesday: '{0}'" -f $subject)
         return $false
@@ -469,11 +497,6 @@ function Test-IsMeeting {
         Write-Log ("  INCLUDE external attendee(s) ({0}): '{1}'" -f $externalCount, $subject)
         return $true
     }
-    if ($durationMin -ge $MinMeetingMin) {
-        Write-Log ("  INCLUDE duration {0} min: '{1}'" -f [int]$durationMin, $subject)
-        return $true
-    }
-
     Write-Log ("  SKIP (no qualifying criteria): '{0}' ({1} min)" -f $subject, [int]$durationMin)
     return $false
 }
@@ -490,7 +513,10 @@ if (-not (Test-Path $MeetilyExe)) {
 
 # --- Compute the Mon-Sun week window in Toronto wall-clock time ---
 $nowTor       = [System.TimeZoneInfo]::ConvertTimeFromUtc([datetime]::UtcNow, $TorontoTz)
-$todayTor     = $nowTor.Date
+$todayTor     = if ($WeekOfDate -ne [datetime]::MinValue) { $WeekOfDate.Date } else { $nowTor.Date }
+if ($WeekOfDate -ne [datetime]::MinValue) {
+    Write-Log ("Week override requested: using week containing {0:yyyy-MM-dd}" -f $todayTor)
+}
 $dow          = [int]$todayTor.DayOfWeek        # 0=Sun,1=Mon,...
 $daysToMon    = if ($dow -eq 0) { -6 } else { 1 - $dow }
 $weekStartTor = $todayTor.AddDays($daysToMon)                       # Monday 00:00 Toronto
@@ -579,6 +605,7 @@ foreach ($evt in $events) {
         -Argument ("-NonInteractive -WindowStyle Hidden -Command ""Start-Process '{0}'""" -f $MeetilyExe)
 
     $trigger = New-ScheduledTaskTrigger -Once -At $launchTime
+    $trigger.EndBoundary = $launchTime.AddHours(2).ToString("yyyy-MM-dd'T'HH:mm:ss")
 
     $principal = New-ScheduledTaskPrincipal `
         -UserId ([System.Security.Principal.WindowsIdentity]::GetCurrent().Name) `

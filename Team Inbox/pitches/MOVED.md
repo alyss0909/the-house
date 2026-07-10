@@ -10,4 +10,4 @@ date: 2026-07-10
 
 Everything that used to live here — pitch sheets (`YYYY-Www-pitch.md`), `taste-ledger.md`, `PIPELINE-LADDER.md`, `idea-bank.md`, `trusted-sources.md`, `trend-briefs/`, `swipe/`, `strategy-briefs/`, `craft-references/` — is now at `Studio/Content/`.
 
-See [[VAULT-MAP]] for the current transition table.
+See [[HOUSE-MAP]] for the current transition table.

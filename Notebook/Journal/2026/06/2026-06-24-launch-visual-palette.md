@@ -19,7 +19,7 @@ Green + Pink + Oat + Baguette
 
 ---
 
-**→ Team brief dispatched to Charta:** See [[PKM/Second Brain/ready-queue|Ready Queue]]
+**→ Team brief dispatched to Charta:** See [[Archive/ready-queue-retired-2026-07-10|Ready Queue]]
 
 *[Original Keep notes](https://keep.google.com/#NOTE/1wwo5EnNWzJGFLxdo6o_jznTBNqPQ2CUfERMmSegDKsByCZPIIzJBqz0GpeF05wRfK86w)*
 

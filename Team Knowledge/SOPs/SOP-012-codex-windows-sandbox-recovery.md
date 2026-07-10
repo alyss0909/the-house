@@ -127,19 +127,28 @@ Expected result:
 
 If the same error persists, restart Codex Desktop after the repair and rerun the smoke tests.
 
-## Closing Shift automation check
+## Meetily / Closing Shift automation check
 
-If the failure affected **Closing Shift: Notebook/Inbox Processing**, verify the Codex automation has both workspaces:
+If the failure affected meeting capture or Closing Shift, verify the current split:
 
-- `C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)`
-- `D:\Alyssa\Music\meetily-recordings`
+- Vault root is `C:\Users\accol\OneDrive\Desktop\the-house`.
+- Meetily raw source is `D:\Alyssa\Music\meetily-recordings`.
+- Daily Meeting Clean script is `Team Knowledge/Automations/meetily-inbox-prep.ps1`.
+- Meeting pointer destination is `Notebook/Inbox/Meeting Captures/`.
 
-The automation should:
+Daily Meeting Clean should:
 
-- Stay `kind = "cron"` for daily batch triage.
+- Create missing pointer notes only.
+- Delete audio/video after 7 days.
+- Retire transcripts only after a pointer is marked processed and the retention window has elapsed.
+- Never summarize meetings, write Journal notes, or create tasks.
+
+Closing Shift review should:
+
+- Be Larry-led judgment, run on request.
 - Stop at an approval report.
 - Never treat standing instructions or old thread context as approval.
-- Never delete raw Meetily folders, audio, transcripts, or source files.
+- Never delete transcripts or raw shell folders before processed memory exists.
 - Never auto-launch Obsidian or trigger `obsidian://` URIs.
 
 ## What not to do first

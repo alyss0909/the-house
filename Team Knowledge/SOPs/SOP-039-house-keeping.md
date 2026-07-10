@@ -34,7 +34,7 @@ Run each check. Fix mechanical hits immediately (fix-don't-flag). Log one line p
 
 Everything in the light pass, plus:
 
-**9. Transition-table truth.** Read [[VAULT-MAP]]'s transition table. Verify every row against disk. Any completed move not marked MOVED (or vice versa) → correct the table. The map must never lie; a lying map is worse than no map.
+**9. Transition-table truth.** Read [[HOUSE-MAP]]'s transition table. Verify every row against disk. Any completed move not marked MOVED (or vice versa) → correct the table. The map must never lie; a lying map is worse than no map.
 
 **10. MOVED-stub retirement.** For each `MOVED.md` redirect stub older than two clean weekly reviews with zero old-path hits in new session logs: delete the stub and its empty parent folder. Stubs are scaffolding, not furniture.
 

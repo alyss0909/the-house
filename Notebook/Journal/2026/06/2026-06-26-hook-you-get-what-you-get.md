@@ -13,7 +13,7 @@ Raw hook idea captured. Strong reframe energy — plays on the kindergarten phra
 
 ---
 
-**→ Wren brief dispatched.** See [[PKM/Second Brain/ready-queue|Ready Queue]]
+**→ Wren brief dispatched.** See [[Archive/ready-queue-retired-2026-07-10|Ready Queue]]
 
 *[Original Keep note](https://keep.google.com/#NOTE/164mi9kRMOhNvf21T6LMwPZ8aHUweKJoZS8iZjk7d1IRSgOiky-K70MIiZnB1_d4)*
 

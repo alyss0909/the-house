@@ -24,4 +24,4 @@ If you know exactly where a note belongs, write it directly in PKM. Notebook/Inb
 
 ---
 
-Moved from `Team Inbox/` 2026-07-10 as part of the Notebook assembly (see [[VAULT-MAP]]). Governed by [[GL-005-team-inbox-protocol]].
+Moved from `Team Inbox/` 2026-07-10 as part of the Notebook assembly (see [[HOUSE-MAP]]). Governed by [[GL-005-team-inbox-protocol]].

@@ -44,7 +44,7 @@ Everything the team makes is opinion, no matter how good. Analyzing Alyssa's rea
 
 Every fact has exactly one home. Everything else links to it. If you are typing a fact that already lives somewhere, stop and link instead — a second copy is a bug the moment it is written. Prices, chat words, offer status, calendar slots, framework names, taste reacts: typed once into their home, wikilinked everywhere else. One change upstream must never be able to silently desync two files. Quoting Alyssa verbatim with a citation is always welcome; paraphrasing her into a new "version" is not.
 
-The canonical registry (which file owns which fact) lives in [[VAULT-MAP]]. Facts do not live inside an agent's workspace — Hermes holds judgment, craft, and pointers, never business facts.
+The canonical registry (which file owns which fact) lives in [[HOUSE-MAP]]. Facts do not live inside an agent's workspace — Hermes holds judgment, craft, and pointers, never business facts.
 
 ### Rule 4 — Cite only what exists.
 

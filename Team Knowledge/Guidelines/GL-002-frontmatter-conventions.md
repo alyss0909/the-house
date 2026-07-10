@@ -369,9 +369,9 @@ One value per file. Required on new files going forward (see migration plan for 
 | Value | Meaning | Typical home |
 |---|---|---|
 | `raw` | Alyssa-original. Her words, drafts, journal, life facts, verbatim published work. Agents read it, never write it (GL-013 Rule 1). | Notebook; verbatim work on the Library shelf |
-| `facts` | Team-maintained business truth — the single home of a fact that agents keep current (prices, offer status, calendar). One home per fact (GL-013 Rule 3). | Studio/Library (facts layer, e.g. VAULT-MAP-registered homes) |
+| `facts` | Team-maintained business truth — the single home of a fact that agents keep current (prices, offer status, calendar). One home per fact (GL-013 Rule 3). | Studio/Library (facts layer, e.g. HOUSE-MAP-registered homes) |
 | `derived` | AI/team opinion, analysis, framework, synthesis. Useful, never source. Must cite what it came from and stay labeled interpretation (GL-013 Rule 2). | Studio |
-| `map` | Pointer layer that routes to source without digesting it — INDEX, COMPASS, routing tables, this VAULT-MAP. | Beside what it routes |
+| `map` | Pointer layer that routes to source without digesting it — INDEX, COMPASS, routing tables, this HOUSE-MAP. | Beside what it routes |
 | `output` | Session work product — reports, audits, plans, drafts, handoffs. Not durable knowledge yet. | `Deliverables/` |
 | `task` | A concrete open loop with owner, status, next action. | `Team Knowledge/tasks/`, ready queues |
 

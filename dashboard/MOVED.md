@@ -10,4 +10,4 @@ date: 2026-07-10
 
 Everything that used to live here — the 00-05 dash pages, `Parked.md`, `PIPELINE-CONTRACT.md`, `AUTO-ADVANCE-README.md`, `advance-watch.mjs`, `parser-check.mjs` — is now at `Studio/Content/dashboard/`.
 
-See [[VAULT-MAP]] for the current transition table.
+See [[HOUSE-MAP]] for the current transition table.

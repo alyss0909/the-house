@@ -20,9 +20,9 @@ Before triage, refresh the capture sources that feed `Notebook/Inbox/`.
 Current refresh actions:
 
 - **KeepSidian:** manual-only refresh. Do not auto-launch Obsidian. Do not trigger `obsidian://` URIs. If sync state cannot be confirmed, record "KeepSidian sync not confirmed" and continue.
-- **Meetily:** scan `D:/Alyssa/Music/meetily-recordings` for completed meeting folders containing `metadata.json` and `transcripts.json`. For each completed folder without an existing pointer, create a lightweight pointer note in `Notebook/Inbox/Meeting Captures/`.
+- **Meetily:** **Daily Meeting Clean** is handled by `Team Knowledge/Automations/meetily-inbox-prep.ps1`. It scans `D:/Alyssa/Music/meetily-recordings` for completed meeting folders, creates missing lightweight pointer notes in `Notebook/Inbox/Meeting Captures/`, deletes audio/video after 7 days, and retires transcripts only after processed meeting memory exists.
 
-Source refresh does not process or delete anything. It only pulls new inputs into the inbox lanes so Larry can triage them.
+Source refresh does not interpret inbox items or write final notes. Meetily media cleanup is the one mechanical exception: old audio/video deletes after the retention window because transcripts remain available as temporary source.
 
 Inbox processing must not fail just because KeepSidian sync was not triggered or could not be confirmed.
 
@@ -191,7 +191,9 @@ This workstream is channel-agnostic. Current channels:
 
 Current scheduled routine:
 
-- **Closing Shift: Notebook/Inbox Processing:** Codex automation at 4 PM local time. It runs Step 0 source refresh, then Step 1 triage, then presents the approval table. It does not bypass Alyssa's approval gate.
+- **Daily Meeting Clean:** Windows scheduled job / cron-style mechanical job. It creates meeting pointers and handles raw media cleanup. It does not interpret meetings or write final notes.
+- **Closing Shift: Notebook/Inbox Review:** Larry-led judgment pass run on request. It reads `Notebook/Inbox`, performs Step 1 triage, then presents the approval table. It does not bypass Alyssa's approval gate.
+- **Weekly Meeting Processing:** Larry/Penn meeting-memory pass, usually run during weekly review. It reads retained transcripts from meeting pointers, extracts decisions/action items/Alyssa language/client language, updates the durable notes, and marks pointers processed.
 
 Planned:
 
