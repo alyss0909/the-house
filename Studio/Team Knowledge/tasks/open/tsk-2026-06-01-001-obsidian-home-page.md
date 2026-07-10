@@ -51,7 +51,7 @@ Two sources pointing at the same need: the Dashboard++ article (how-to) and the 
 
 ## Success criteria
 
-- A `HOME.md` (or equivalent) file exists at the vault root or PKM root
+- A [[Notebook/Life/Key Elements/Life/home]] (or equivalent) file exists at the vault root or PKM root
 - Opens by default when Obsidian launches (Homepage plugin or equivalent)
 - Contains at minimum: active projects, recent captures, links to Key Elements
 - Contains a user-facing view of open tasks, including Alyssa-owned tasks and team-owned tasks

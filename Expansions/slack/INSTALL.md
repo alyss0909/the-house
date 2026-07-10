@@ -145,4 +145,4 @@ launchctl unload ~/Library/LaunchAgents/com.mypka.slack-listener.plist
 - **Bot doesn't see channel mentions:** invite the bot to the channel with `/invite @Larry`.
 - **Listener stops after laptop sleep (macOS):** install as a launchd service (step 8). `KeepAlive` + `RunAtLoad` will restart it automatically.
 
-For ongoing health checks, see `SOP-slack-listener-health.md` (auto-numbered into your `Team Knowledge/SOPs/` after install).
+For ongoing health checks, see [[Expansions/slack/sops/SOP-slack-listener-health]] (auto-numbered into your `Team Knowledge/SOPs/` after install).

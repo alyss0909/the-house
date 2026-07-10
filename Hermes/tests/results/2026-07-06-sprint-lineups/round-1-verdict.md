@@ -1,6 +1,6 @@
 # Round Verdict — Sprint Lineups, 2026-07-06 (Mean Alyssa v2 protocol)
 
-Scored per `Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map.md` protocol, against `KEY-do-not-open.md` (corrected identity table). Judges wrote independent blind verdicts before this scoring pass.
+Scored per [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]] protocol, against `KEY-do-not-open.md` (corrected identity table). Judges wrote independent blind verdicts before this scoring pass.
 
 ---
 

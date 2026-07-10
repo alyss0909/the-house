@@ -12,13 +12,13 @@ linked_guidelines: []
 
 ## Context
 
-Alyssa flagged `PKM/Second Brain/examples/Carousels/brief-bank.md` as completely inaccurate and asked where it came from.
+Alyssa flagged [[Library/Examples/Carousels/brief-bank]] as completely inaccurate and asked where it came from.
 
 ## What we did
 
 - Silas traced local provenance: the file was created on 2026-06-05 and was cross-linked into active carousel docs.
 - Silas found no usable Git history in the current folder, but did find June 4 session notes saying the intended output was "10 new carousels" / "10 ready-to-write briefs."
-- Larry retired the invalid `brief-bank.md` content and replaced it with a warning/provenance note.
+- Larry retired the invalid [[Library/Examples/Carousels/brief-bank]] content and replaced it with a warning/provenance note.
 - Larry removed active references to the brief bank and downgraded current Second Brain docs from "10 ready briefs" to "brief generator."
 
 ## Decisions made
@@ -32,7 +32,7 @@ Alyssa flagged `PKM/Second Brain/examples/Carousels/brief-bank.md` as completely
 
 ## Realignments
 
-- Alyssa's correction: the `brief-bank.md` contents were "literally 100% wrong" and should not be treated as true.
+- Alyssa's correction: the [[Library/Examples/Carousels/brief-bank]] contents were "literally 100% wrong" and should not be treated as true.
 
 ## Open threads
 
@@ -40,7 +40,7 @@ Alyssa flagged `PKM/Second Brain/examples/Carousels/brief-bank.md` as completely
 
 ## Next steps
 
-- Use `analysis/carousel.md`, `frameworks/carousel-quickref.md`, `frameworks/carousel-framework.md`, `templates/carousel-brief.md`, and the real carousel folders under `examples/Carousels/` for carousel work.
+- Use [[Studio/Analysis/carousel]], [[Studio/Analysis/Frameworks/carousel-quickref]], [[Studio/Analysis/Frameworks/carousel-framework]], [[Studio/Analysis/Templates/carousel-brief]], and the real carousel folders under `examples/Carousels/` for carousel work.
 
 ## Cross-links
 

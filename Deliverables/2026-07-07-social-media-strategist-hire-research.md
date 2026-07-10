@@ -5,7 +5,7 @@
 - **For:** Nolan (drafts the contract) → new hire identity + working method
 - **Scope:** External craft only. Find what already exists to adopt; do NOT reinvent, do NOT design the agent.
 - **Doctrine respected:** External craft makes the SYSTEM smarter (tests, taxonomy, mechanics). It never becomes Alyssa's voice or source. Hermes stays the only writer; this hire is a strategist, not a copy source.
-- **Builds beyond:** `Deliverables/2026-07-05-social-skills-repo-intake/` (6 repos + 7 Blotato skills) and its 20-rule audit at `extracted/2026-07-06-repo-alignment-audit.md`. Baseline finding I am extending: those repos gave us *testing discipline + taxonomy*, not new hook shapes or on-persona strategist DNA. This brief supplies the two things that intake could not: (1) newer/better on-persona external artifacts, and (2) real practitioner playbooks to ground the identity.
+- **Builds beyond:** `Deliverables/2026-07-05-social-skills-repo-intake/` (6 repos + 7 Blotato skills) and its 20-rule audit at [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]]. Baseline finding I am extending: those repos gave us *testing discipline + taxonomy*, not new hook shapes or on-persona strategist DNA. This brief supplies the two things that intake could not: (1) newer/better on-persona external artifacts, and (2) real practitioner playbooks to ground the identity.
 
 ---
 

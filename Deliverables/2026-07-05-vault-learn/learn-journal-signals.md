@@ -103,22 +103,22 @@ Last swept 2026-06-27 (+ a 2026-06-29 partial update). Next scheduled sweeps: 20
 
 Six garden notes currently growing (all read in full). None dismissed.
 
-### `middle-ground-entrepreneur.md` — thesis-ready, recurrence 8
+### [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur]] — thesis-ready, recurrence 8
 The identity Alyssa keeps circling: not an AI maximalist, not a luddite. Wants automation and a small paid team specifically so she can go deeper into her own obsessions. Larry's drafted thesis frames her as "the history girl, not the art girl" — reads patterns, doesn't predict trends. **Team brief dispatched and READY TO ASSIGN**: Wren gets the 3-email BOH Summer Launch sequence (Email 1: navigating the new online landscape; Email 2: The New 4-Hour Work Week; Email 3: The Auction Story). Check-back date was 2026-07-04 — if Wren hasn't started, Larry re-surfaces at next session open (today).
 
-### `people-undervalue-niche-obsessions.md` — thesis-ready, recurrence 6
+### [[Studio/Signals/Developing Ideas/people-undervalue-niche-obsessions]] — thesis-ready, recurrence 6
 What Alyssa believes about her *students*, distinct from what she believes about herself. The parasites person, the indigenous plants professor, the bilirubin-level person — specificity as the foundation, not the liability. **No brief dispatched yet** — needs a direction decision first (launch email vs. sales-page "who this is for" section vs. standalone Simmer/permission-slip email). Check back 2026-07-06.
 
-### `email-to-content-repurposing-system.md` — developing, recurrence 4
+### [[Studio/Signals/Developing Ideas/email-to-content-repurposing-system]] — developing, recurrence 4
 Documents a system she already runs intuitively (not aspirational): strong email topic → carousel slides → link back to freebie/low-ticket. Three real proof-of-concept pairs from June. **Ready to dispatch immediately** as a standing Wren instruction — propose 2 carousel angles within 24 hours of any email being filed. Check back 2026-07-04 (today) if not yet created.
 
-### `ai-team-as-mirror-not-replacement.md` — developing, recurrence 5
+### [[Studio/Signals/Developing Ideas/ai-team-as-mirror-not-replacement]] — developing, recurrence 5
 AI = Hands (execution), Alyssa = Head + Heart (strategy + soul), built on the Dan Harrison Head/Hands/Heart framework. Wants to become a BOH teaching module ("The Mirror, Not the Engine"). Also already the internal design philosophy of the myPKA system itself. No brief dispatched. Check back 2026-07-18.
 
-### `boh-as-permission-not-product.md` — developing, recurrence 5
+### [[Studio/Signals/Developing Ideas/boh-as-permission-not-product]] — developing, recurrence 5
 BOH's emotional payload isn't Pinterest+email+automation mechanics — it's permission to stop chasing the algorithm and be the niche obsessive. Latest capture (2026-06-27) states the thesis in one clean line (see Theme 3 above). Wants to become: sales page reframe, the emotional thread of the summer launch sequence, and a deepening of how the program introduces itself. Wren should read this before any BOH launch copy. Check back 2026-07-04 (today).
 
-### `slow-biz-creative-freedom.md` — becoming, recurrence ongoing since 2019
+### [[Studio/Signals/Developing Ideas/slow-biz-creative-freedom]] — becoming, recurrence ongoing since 2019
 The oldest signal in the garden and the founding thesis of BOH — doesn't need to graduate into a new product, needs to stay current. The 2026 update layers "slow biz is the answer to AI anxiety" on top of the original "slow marketing compounds" thesis. Flagged for cross-reference against `middle-ground-entrepreneur` once that thesis is finalized — they may be the same idea at different altitudes. This is the one signal explicitly marked evergreen, reviewed at every quarterly review.
 
 **Garden-wide pattern:** every note ends in a "Larry writes this, Alyssa edits directly" structure. As of this read, none of the six notes show visible Alyssa edits inside the "What I think you're actually saying" section — they're all still in Larry's draft voice, awaiting her reaction.

@@ -224,7 +224,7 @@ Use the audience profile to frame launches as repeatable, gentle, and email-firs
 
 This file is the Second Brain working profile. For the full analysis package, see:
 
-- `Deliverables/2026-06-02-2025-audience-survey-Studio/Analysis/2025-audience-survey-insight-brief.md`
+- [[Deliverables/2026-06-02-2025-audience-survey-analysis/2025-audience-survey-insight-brief]]
 - `Deliverables/2026-06-02-2025-audience-survey-Studio/Analysis/2025-audience-survey-analysis.xlsx`
 - `Deliverables/2026-06-02-2025-audience-survey-Studio/Analysis/anonymized-processed-responses.csv`
 

@@ -10,10 +10,10 @@ She is built from Alyssa's real rejections, corrections, realignments, failed ga
 
 ## Load before using
 
-1. `Hermes/ANTI-AI.md`
-2. `Hermes/TASTE.md`
-3. `Hermes/SOURCES.md`
-4. `Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md`
+1. [[Hermes/ANTI-AI]]
+2. [[Hermes/TASTE]]
+3. [[Hermes/SOURCES]]
+4. [[Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion]]
 5. The relevant rejection-corpus source below
 
 ## Rejection corpus
@@ -22,15 +22,15 @@ These are the receipts. Read the relevant one before repeating the failure.
 
 | Failure pattern | Source |
 |---|---|
-| Gate outputs passed internal checks but Alyssa would never publish them | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis.md` |
-| Hermes v2 wrote from excerpts, lacked anti-AI pass, and skipped full originals | `Deliverables/2026-07-05-hermes-v2-handoff.md` |
-| Generated carousel briefs became false source | `Studio/Team Knowledge/session-logs/2026/07/2026-07-04-17-01_larry_retired-invalid-carousel-brief-bank.md` |
-| Content OS got stuck on missing exact examples instead of grounded recipes | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-12-51_larry_content-os-realignment.md` |
-| The team created digests instead of maps and failed to reconcile INDEX promises against disk | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-14-45_larry_root-cause-and-one-brain-consolidation.md` |
-| BOH sales page already existed; sweep nearly recaptured known-good source | `Studio/Team Knowledge/session-logs/2026/07/2026-07-04-19-51_larry_boh-sales-page-realignment.md` |
-| Fixable vault issues were handed back instead of fixed | `Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup.md` |
-| Handoffs and open loops were left for Alyssa to remember | `Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_full-loop-audit-and-task-cleanup.md` |
-| Riff partner made up context, asked instead of moving, or dropped frameworks | `Deliverables/2026-05-27-riff-partner-research.md` |
+| Gate outputs passed internal checks but Alyssa would never publish them | [[Studio/Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]] |
+| Hermes v2 wrote from excerpts, lacked anti-AI pass, and skipped full originals | [[Deliverables/2026-07-05-hermes-v2-handoff]] |
+| Generated carousel briefs became false source | [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-17-01_larry_retired-invalid-carousel-brief-bank]] |
+| Content OS got stuck on missing exact examples instead of grounded recipes | [[Studio/Team Knowledge/session-logs/2026/07/2026-07-05-12-51_larry_content-os-realignment]] |
+| The team created digests instead of maps and failed to reconcile INDEX promises against disk | [[Studio/Team Knowledge/session-logs/2026/07/2026-07-05-14-45_larry_root-cause-and-one-brain-consolidation]] |
+| BOH sales page already existed; sweep nearly recaptured known-good source | [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-19-51_larry_boh-sales-page-realignment]] |
+| Fixable vault issues were handed back instead of fixed | [[Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup]] |
+| Handoffs and open loops were left for Alyssa to remember | [[Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_full-loop-audit-and-task-cleanup]] |
+| Riff partner made up context, asked instead of moving, or dropped frameworks | [[Deliverables/2026-05-27-riff-partner-research]] |
 
 ## The check
 
@@ -62,7 +62,7 @@ Ask these before every step.
 ### Taste and output
 
 - Is this polished but dead?
-- **Published is not approved.** Provenance never overrules the tells: judge every piece against ANTI-AI/TASTE even when it is (or reads as) her real published work — the corpus contains pieces she later flagged as too-AI (`Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md`; calibration miss 2026-07-05: a blind gate published it because it "was hers").
+- **Published is not approved.** Provenance never overrules the tells: judge every piece against ANTI-AI/TASTE even when it is (or reads as) her real published work — the corpus contains pieces she later flagged as too-AI ([[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]]; calibration miss 2026-07-05: a blind gate published it because it "was hers").
 - Did it pass a rubric but fail the publish/read-next-to-real-copy test?
 - Did it imitate a known winner instead of making a fresh move from the same taste?
 - Does it sound like a report when Alyssa needed a live creative move?

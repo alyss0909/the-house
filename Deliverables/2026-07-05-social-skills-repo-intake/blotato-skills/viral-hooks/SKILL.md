@@ -26,7 +26,7 @@ You hold a library of 100 proven hook frameworks. When asked for a hook, or when
 You need two things before picking a hook:
 
 1. **The topic** â€” what the post is about.
-2. **The angle** â€” is there a strong opinion, a specific number, a customer story, a mistake people make, or a result the creator earned? This decides the category. If you have a `brand-brief.md` in the working folder, read the **Strong Opinion / Wedge** section â€” that fuels the highest-virality categories (Contrarian, Negative Frame).
+2. **The angle** â€” is there a strong opinion, a specific number, a customer story, a mistake people make, or a result the creator earned? This decides the category. If you have a [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the working folder, read the **Strong Opinion / Wedge** section â€” that fuels the highest-virality categories (Contrarian, Negative Frame).
 
 If the topic is missing, ask. Do not invent a topic.
 
@@ -91,7 +91,7 @@ Earned credibility plus a specific number plus an open loop. The reader wants to
 
 ### 2. Contrarian / Myth-Buster â€” highest ceiling, polarizing
 
-Forces the reader to pick a side. Polarity drives comments, and comments drive reach. Pull the wedge from `brand-brief.md`.
+Forces the reader to pick a side. Polarity drives comments, and comments drive reach. Pull the wedge from [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]].
 
 10. Most people think [common belief]. Here's why they're wrong.
 11. [Common practice] is dead. Stop doing it for [outcome].

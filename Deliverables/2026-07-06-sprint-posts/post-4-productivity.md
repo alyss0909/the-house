@@ -1,13 +1,13 @@
 # Post 4 — Productivity/Systems Edu · "Head, Hands, Heart" · W4 Mon
 
 **Protocol:** B-hybrid (fact-discipline anchor, then full clone voice pass)
-**Revision:** v3, 2026-07-06 — rewritten in place after Round-2 catch (J4 LEAN-FAKE + J5 SURE-FAKE discounted to LEAN-equivalent; `Hermes/tests/results/2026-07-06-sprint-lineups/round-2-verdict.md` §3). Three standing tells addressed: slide-7 negation-first reframe rewritten as a single positive claim; the triad's grammar itself broken (fragment / buried mid-paragraph / full confession); both aphorism wrap-up closers cut (deck and caption now end on the concrete moment and the CTA). J5's "comment Claude" tell was STRUCK by the scorer — CTA kept, canonical per BUSINESS.md.
+**Revision:** v3, 2026-07-06 — rewritten in place after Round-2 catch (J4 LEAN-FAKE + J5 SURE-FAKE discounted to LEAN-equivalent; [[Hermes/tests/results/2026-07-06-sprint-lineups/round-2-verdict]] §3). Three standing tells addressed: slide-7 negation-first reframe rewritten as a single positive claim; the triad's grammar itself broken (fragment / buried mid-paragraph / full confession); both aphorism wrap-up closers cut (deck and caption now end on the concrete moment and the CTA). J5's "comment Claude" tell was STRUCK by the scorer — CTA kept, canonical per BUSINESS.md.
 
 ---
 
 ## Fact anchor (before any voice pass)
 
-Source: `PKM/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart.md` — dated 2026-06-05. The entry is Alyssa bookmarking a Dan Harrison video + Notion doc on a Head/Hands/Heart framework for what AI should carry vs. what stays human, with her own note: "Alyssa noted this is useful and wanted to copy the framework to her Notion."
+Source: [[Notebook/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart]] — dated 2026-06-05. The entry is Alyssa bookmarking a Dan Harrison video + Notion doc on a Head/Hands/Heart framework for what AI should carry vs. what stays human, with her own note: "Alyssa noted this is useful and wanted to copy the framework to her Notion."
 
 Anchor facts allowed into copy (as lived language only, never as citation): she found the framework mid-video and copied it into her own Notion before the video was even done. Dates and file references stay in this section only — none appear in the deliverable copy below.
 

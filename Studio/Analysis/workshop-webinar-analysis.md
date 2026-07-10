@@ -23,7 +23,7 @@ up: "[[Studio/Analysis/INDEX]]"
 
 ## Section 1 — Out of Office Webinar: Individual Analysis
 
-**Source:** `Library/Programs/back-of-house/webinars/Out of Office Webinar.md`
+**Source:** [[Library/Programs/back-of-house/webinars/Out of Office Webinar]]
 **Event:** Out of Office Marketing Class · BOH Sales Webinar
 
 ---
@@ -167,7 +167,7 @@ The pitch in Out of Office is woven throughout the content rather than delivered
 
 ## Section 2 — Slowly Viral Class: Individual Analysis
 
-**Source:** `Library/Programs/back-of-house/webinars/Slowly Viral Class.md`
+**Source:** [[Library/Programs/back-of-house/webinars/Slowly Viral Class]]
 **Event:** Slowly Viral Class · BOH Pinterest Webinar
 
 ---
@@ -328,7 +328,7 @@ The pitch in Slowly Viral is the most embedded of the three webinars — the for
 
 ## Section 3 — Slow Marketing Plan Class: Individual Analysis
 
-**Source:** `Library/Programs/back-of-house/webinars/Slow Marketing Plan Class.md`
+**Source:** [[Library/Programs/back-of-house/webinars/Slow Marketing Plan Class]]
 **Event:** The Slow Marketing Plan Class · Full BOH Pitch Event
 
 ---
@@ -569,7 +569,7 @@ The Slow Marketing Plan Class is structurally different from the other two becau
 
 ### Her Webinar Voice vs. Her Email Voice
 
-Reading all three webinars against `writing-style.md` reveals these specific divergences and matches:
+Reading all three webinars against [[Studio/Analysis/writing-style]] reveals these specific divergences and matches:
 
 **Where webinar voice matches written voice:**
 - Data with personality: same technique, same translations. The numbers are specific; the human meaning is always provided.
@@ -651,7 +651,7 @@ Alyssa does not describe her teaching philosophy in any of the three webinars. W
 
 ### What Copy Tasks Should Load This Document
 
-Load `workshop-webinar-analysis.md` before writing:
+Load [[Studio/Analysis/workshop-webinar-analysis]] before writing:
 - Webinar registration page copy (headline, bullet points, "what you'll learn" section)
 - Webinar promotional emails (invitation, reminder, replay)
 - Live webinar script outlines or frameworks
@@ -661,7 +661,7 @@ Load `workshop-webinar-analysis.md` before writing:
 - Email copy that mirrors webinar structure (problem frame → data → personal pivot → system → permission close)
 - Pitch-class specific copy: registration pages, launch emails, or replay sequences for a sales-oriented webinar (use Slow Marketing Plan Class as the model for voice register and close mechanics)
 
-Do NOT load this document for: regular simmer emails unconnected to a webinar event, Pinterest pin captions, subject line writing, general BOH homepage copy, or social posts. For those, `writing-style.md` and `sales-page.md` are sufficient.
+Do NOT load this document for: regular simmer emails unconnected to a webinar event, Pinterest pin captions, subject line writing, general BOH homepage copy, or social posts. For those, [[Studio/Analysis/writing-style]] and [[Studio/Analysis/sales-page]] are sufficient.
 
 ---
 
@@ -684,7 +684,7 @@ Pitch-class copy: sharper, more alarming data framing is appropriate. "Gaslit" a
 
 ### Hard Don'ts for Webinar Copy
 
-Based on what's observed in the transcripts and cross-referenced against `writing-style.md`:
+Based on what's observed in the transcripts and cross-referenced against [[Studio/Analysis/writing-style]]:
 
 - **Do not open with Alyssa's credentials.** All three webinars open with the audience's experience or aspiration, not her bio. Webinar registration copy should do the same — lead with the mirror ("if you're sick of never being done with your marketing") or the aspiration claim ("if you want to unhitch your wagon from social media"), not with "Alyssa Coleman is a strategist with 10 years of experience."
 

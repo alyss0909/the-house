@@ -36,7 +36,7 @@ If the user explicitly chooses to skip GL-003 setup ("let's just hack it togethe
 
 ### Step 1 — Open or create GL-003
 
-Path: `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`. The file ships as an empty template.
+Path: [[Studio/Team Knowledge/Guidelines/GL-003-design-system]]. The file ships as an empty template.
 
 Read it through with the user. Confirm which sections are still empty vs. already populated. The session focuses on the empty (or to-be-changed) sections.
 

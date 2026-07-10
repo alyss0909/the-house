@@ -16,6 +16,6 @@ A list of installed Expansions lives in `INDEX.md`, regenerated each session. Th
 
 **Expansions are third-party code.** When you drop an Expansion folder into your `Expansions/` directory, you are choosing to run software written by its author on your machine, with access to your myPKA. Paperless Movement S.L. does not vet, audit, sandbox, or guarantee third-party Expansions, and is not the data controller (GDPR Art. 4(7)) for any processing an Expansion performs.
 
-**Trust is yours to grant.** Read the Expansion's `LICENSE`, `README.md`, and `expansion.yaml` `env_vars:` and `mcp_servers:` declarations before installing. If an Expansion transmits data outside your machine, the Expansion's author is solely responsible for lawfully handling that data under GDPR, CCPA, or any other applicable law.
+**Trust is yours to grant.** Read the Expansion's `LICENSE`, [[README]], and `expansion.yaml` `env_vars:` and `mcp_servers:` declarations before installing. If an Expansion transmits data outside your machine, the Expansion's author is solely responsible for lawfully handling that data under GDPR, CCPA, or any other applicable law.
 
 **Official myICOR-issued Expansions** are published by Paperless Movement S.L. through the myICOR AI Library and are governed by the myICOR AI Library Software License. These are the only Expansions for which Paperless Movement S.L. accepts authorial responsibility. They are hash-pinned in `.trusted-sources` and pass Vex's security review before publication.

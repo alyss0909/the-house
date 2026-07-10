@@ -33,7 +33,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Run WS-004 across everything in Notebook/Inbox before sweeping. A sweep of unfiled content is noise — clear the inbox first so the sweep reads clean journal entries.
 
 **Steps:**
-1. Check `Notebook/Inbox/` for any unprocessed files (excluding `README.md`, `_KeepSidianLogs/`, `_Processed/`, `media/`, `Ignore.md`)
+1. Check `Notebook/Inbox/` for any unprocessed files (excluding [[README]], `_KeepSidianLogs/`, `_Processed/`, `media/`, `Ignore.md`)
 2. For each item: read content, determine category (signal, inspo, tool, personal, meeting capture, task)
 3. Route each item:
    - **Signal / content idea** → file to `Notebook/Journal/YYYY/MM/` + flag for sweep in Phase 1
@@ -72,7 +72,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Review the state of the idea garden. What's developing, what's stalled, what's ready.
 
 **Steps:**
-1. Open `Studio/Signals/Developing Ideas/INDEX.md`
+1. Open [[Studio/Signals/Developing Ideas/INDEX]]
 2. For each idea with status `thesis-ready` or `becoming`: check when it was last touched. If 2+ weeks with no Alyssa reaction, surface it in the wrap with a "this one is waiting for you" note
 3. For each idea with `developing` status: check if new source entries from Phase 1 should be wikilinked in
 4. Check `check-back` dates on all garden notes. Flag any that are overdue

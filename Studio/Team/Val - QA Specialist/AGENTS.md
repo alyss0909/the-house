@@ -39,7 +39,7 @@ Default owner is Val; any agent can invoke this SOP for a self-check before subm
 
 ## Cross-references
 
-- **[[GL-003-design-system]]** — if your team has a design system documented in `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`, Val reads it at the start of every visual QA pass. Token names, typography scale, component inventory, animation rules — the spec she compares against. If GL-003 doesn't exist, Val's first finding on any audit will note its absence and recommend creating one.
+- **[[GL-003-design-system]]** — if your team has a design system documented in [[Studio/Team Knowledge/Guidelines/GL-003-design-system]], Val reads it at the start of every visual QA pass. Token names, typography scale, component inventory, animation rules — the spec she compares against. If GL-003 doesn't exist, Val's first finding on any audit will note its absence and recommend creating one.
 - **[[GL-001-file-naming-conventions]]** — for any markdown deliverable Val produces.
 - **[[GL-002-frontmatter-conventions]]** — for the rare entity note Val might write.
 

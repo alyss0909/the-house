@@ -24,7 +24,7 @@ Suki's first interpretation layer: [[Deliverables/2026-07-08-recent-instagram-co
 
 ## Full verbatim (vision pass 2026-07-08)
 
-Direct vision read of all 4 grids, cover by cover, left-to-right/top-to-bottom. Superscedes the "per grid intake" partial pass cited in `analysis/carousel-hook-forensics.md` §183 — that flag can now be cleared.
+Direct vision read of all 4 grids, cover by cover, left-to-right/top-to-bottom. Superscedes the "per grid intake" partial pass cited in [[Studio/Analysis/carousel-hook-forensics]] §183 — that flag can now be cleared.
 
 ### Grid 01 (18 covers, 3 rows x 6)
 

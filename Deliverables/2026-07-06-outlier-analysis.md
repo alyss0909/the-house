@@ -1,6 +1,6 @@
 # Outlier Analysis — Top-9 Carousels, Jan-Mar 2026
 
-Source: `PKM/Second Brain/examples/Carousels/captions.md` (verbatim captions + metrics) + `PKM/Second Brain/analysis/carousel-slide-by-slide.md` (mechanic breakdowns). Ranked by the analysis file's own ranking table (by total engagement / named top metric).
+Source: `PKM/Second Brain/examples/Carousels/captions.md` (verbatim captions + metrics) + [[Studio/Analysis/carousel-slide-by-slide]] (mechanic breakdowns). Ranked by the analysis file's own ranking table (by total engagement / named top metric).
 
 ## The 9, in order, with what actually won
 
@@ -24,7 +24,7 @@ Source: `PKM/Second Brain/examples/Carousels/captions.md` (verbatim captions + m
 
 **The offer is always earned, never interrupts.** Across every top post, the CTA/chat-word slide is the LAST slide (or second-to-last with a repeat), never mid-deck as a hard pitch. Jan 29 seeds the offer three times but always as an aside ("comment PINTEREST" in handwritten script), never the headline claim.
 
-**Personal-testimony ("Why I Swapped X For Y") is a repeatable structural winner**, not just a formula on paper — Feb 24 uses it directly and lands strong comment counts (251, highest of the Pinterest-lane posts), confirming the "and not but" rule from `hook-patterns-map.md` in practice.
+**Personal-testimony ("Why I Swapped X For Y") is a repeatable structural winner**, not just a formula on paper — Feb 24 uses it directly and lands strong comment counts (251, highest of the Pinterest-lane posts), confirming the "and not but" rule from [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] in practice.
 
 ## Which patterns to bet on for the 6 posts (decision)
 

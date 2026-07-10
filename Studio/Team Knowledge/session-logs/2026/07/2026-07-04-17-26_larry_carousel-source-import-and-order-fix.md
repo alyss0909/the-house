@@ -16,8 +16,8 @@ Alyssa provided the real Claude OS carousel source files after identifying that 
 
 ## What we did
 
-- Silas imported the real slide-by-slide breakdown to `PKM/Second Brain/analysis/carousel-slide-by-slide.md`.
-- Silas imported the external carousel framework note to `PKM/Second Brain/frameworks/carousel-external-frameworks.md` as secondary context only.
+- Silas imported the real slide-by-slide breakdown to [[Studio/Analysis/carousel-slide-by-slide]].
+- Silas imported the external carousel framework note to [[Studio/Analysis/Frameworks/carousel-external-frameworks]] as secondary context only.
 - Silas renamed the 9 carousel example folders to date-prefixed kebab-case so they sort chronologically.
 - Silas renamed all carousel images to `slide-01.jpg`, `slide-02.jpg`, etc., preserving the intended read order.
 - Larry updated the Second Brain index, COMPASS, carousel routing, analysis index, frameworks index, quickref, and carousel brief generator references.
@@ -25,7 +25,7 @@ Alyssa provided the real Claude OS carousel source files after identifying that 
 ## Decisions made
 
 - **Question:** Should generated brief banks teach carousel structure?
-  **Decision:** No. The real source of truth is the actual carousel images plus `carousel-slide-by-slide.md` and `carousel.md`.
+  **Decision:** No. The real source of truth is the actual carousel images plus [[Studio/Analysis/carousel-slide-by-slide]] and [[Studio/Analysis/carousel]].
 
 - **Question:** How should carousel examples be named?
   **Decision:** Date-prefixed folders plus `slide-NN.jpg` images. This makes both chronological post order and intra-carousel slide order obvious to humans and LLMs.
@@ -44,7 +44,7 @@ Alyssa provided the real Claude OS carousel source files after identifying that 
 
 ## Next steps
 
-- For carousel work, use `analysis/voice-profile.md`, `frameworks/carousel-quickref.md`, `templates/carousel-brief.md`, and add `analysis/carousel-slide-by-slide.md` when studying real examples or building a new concept.
+- For carousel work, use [[Studio/Analysis/voice-profile]], [[Studio/Analysis/Frameworks/carousel-quickref]], [[Studio/Analysis/Templates/carousel-brief]], and add [[Studio/Analysis/carousel-slide-by-slide]] when studying real examples or building a new concept.
 
 ## Cross-links
 

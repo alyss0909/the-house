@@ -6,8 +6,8 @@ Status: extracted 2026-07-05
 
 - `hardikpandya__stop-slop` | SKILL.md, references/phrases.md, references/structures.md
 - `aaaronmiller__create-viral-content` | references/ai-tells.md
-- `PKM/Journal/2026/05/2026-05-28-githubs-im-into.md` | notes `WRITING.md -- Anbeeld` as a humanizer reference (link only, not mined here — description in that journal entry is just the label "*(humanizer)*"; no rules text saved in the vault to crosswalk against)
-- `Hermes/ANTI-AI.md` | SENIOR GATE — Alyssa's own saved rules + her 2026-07-05 corrections. This file outranks everything below. Nothing in this crosswalk edits it, adds to its authority, or overrides its carve-outs.
+- [[Notebook/Journal/2026/05/2026-05-28-githubs-im-into]] | notes `WRITING.md -- Anbeeld` as a humanizer reference (link only, not mined here — description in that journal entry is just the label "*(humanizer)*"; no rules text saved in the vault to crosswalk against)
+- [[Hermes/ANTI-AI]] | SENIOR GATE — Alyssa's own saved rules + her 2026-07-05 corrections. This file outranks everything below. Nothing in this crosswalk edits it, adds to its authority, or overrides its carve-outs.
 
 ## Rule
 

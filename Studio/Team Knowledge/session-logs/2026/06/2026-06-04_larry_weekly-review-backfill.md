@@ -24,8 +24,8 @@ Larry read all 68 session logs across the date range in parallel batches, extrac
 - **Larry** read all 17 W22 session logs in parallel batches (May 26–28: activation, Notion import phases 0–5, KE/Topics/Offers/Projects, Idea Pantry blueprint + import, vault enrichment, interlinking, Keep inbox processing, journal protocol fix)
 - **Larry** read 51 W23 session logs in parallel batches (June 1–4: idea garden, Second Brain build, BOH content import, voice layer build, Wren hire, Telegram MVP, Meetily automation, scaffold cleanup, Guidelines, Camila/Samir onboarding, podcast guesting)
 - **Larry** created `Team Knowledge/Weekly Reviews/2026/` directory (did not previously exist)
-- **Larry** wrote `2026-W22-weekly-wrap.md` — 17 sessions, 22 open threads, launch-week theme
-- **Larry** wrote `2026-W23-weekly-wrap.md` — 51 sessions, 23 open threads (post-linter), Second Brain + operational infrastructure theme
+- **Larry** wrote [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W22-weekly-wrap]] — 17 sessions, 22 open threads, launch-week theme
+- **Larry** wrote [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W23-weekly-wrap]] — 51 sessions, 23 open threads (post-linter), Second Brain + operational infrastructure theme
 
 ## Decisions made
 

@@ -17,7 +17,7 @@ Alyssa challenged the team's handling of the Content OS calendar evidence. The t
 ## What we did
 
 - Larry verified that the vault contains more evidence than the carousel grid: Soft Sundays, Simmers, sales emails, sales pages, journal riffs, webinar material, Kit performance chunks, and Team Inbox captures.
-- Larry created `Team Knowledge/content-os/content-evidence-system.md` as the operating rule for how the Content OS should use local evidence, external pulls, and cross-format examples.
+- Larry created [[Deliverables/_archive/content-os/content-evidence-system]] as the operating rule for how the Content OS should use local evidence, external pulls, and cross-format examples.
 
 ## Decisions made
 
@@ -47,7 +47,7 @@ Alyssa challenged the team's handling of the Content OS calendar evidence. The t
 
 ## Next steps
 
-- Build `Team Knowledge/content-os/evidence-table.md` from local vault sources before any external scraping.
+- Build [[Deliverables/_archive/content-os/evidence-table]] from local vault sources before any external scraping.
 - Use external pulls only to fill missing artifacts after the local evidence table shows exactly what is absent.
 
 ## Cross-links

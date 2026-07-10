@@ -35,9 +35,9 @@ Each slide line carries **actual persuasive copy that names and agitates the rea
 
 Every stat on a proof slide traces to Alyssa's real data. Never invent. Never round away from the real figure.
 
-- **Email open rates:** her real range is **34–57% opens** (`Studio/Analysis/subject-line.md`, 351 broadcasts). A real engaged open rate is ~40–57%. A cold/ghost open rate is single digits to low teens — believable.
+- **Email open rates:** her real range is **34–57% opens** ([[Studio/Analysis/subject-line]], 351 broadcasts). A real engaged open rate is ~40–57%. A cold/ghost open rate is single digits to low teens — believable.
 - **NEVER 3%.** Her exact callout: *"nobody has a fucking 3% open rate."*
-- **Offer facts:** the real offer file in `Library/Offers/`. **IG benchmarks:** `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
+- **Offer facts:** the real offer file in `Library/Offers/`. **IG benchmarks:** [[Deliverables/2026-07-06-instagram-craft-foundation]] (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
 - If a needed number isn't in her real data: build the slide without it, or flag the gap. Never fake it.
 
 ### 4. Attribution header on every arc
@@ -80,7 +80,7 @@ Concept: **The Email That Wakes Up A Dead List** (W29 Mon, freebie: Email List R
 
 > **3. Proof:** shows the math side by side — a 2,000-person list opening at 8% (160 reads) vs a 200-person list of people who actually read you opening at 45% (90 reads today, and climbing every send as you keep showing up) → so that she stops believing "I just need more subscribers" and starts believing the buyer she wants is already on her list, cold, waiting to be reminded she exists. **"You keep staring at that subscriber count like it's the problem. It isn't. The people who used to open every email you sent are still in there — you just went quiet on them, and they went cold."**
 
-Both open rates are real-range: 45% is squarely inside her 40–57% engaged band (`subject-line.md`); 8% is a believable cold/ghost rate — not the banned 3%. The belief it lands is the offer's belief from `Hermes/FUNNEL.md` ("your next buyer is already subscribed"). The bolded line is the persuasion doing its job on the slide, not deferred.
+Both open rates are real-range: 45% is squarely inside her 40–57% engaged band ([[Studio/Analysis/subject-line]]); 8% is a believable cold/ghost rate — not the banned 3%. The belief it lands is the offer's belief from [[Hermes/FUNNEL]] ("your next buyer is already subscribed"). The bolded line is the persuasion doing its job on the slide, not deferred.
 
 ## Reviewer checklist (Larry's mechanical gate)
 
@@ -88,7 +88,7 @@ Both open rates are real-range: 45% is squarely inside her 40–57% engaged band
 - [ ] Every slide line is ONE line in the `X → so that Y` shape (not a 4-field block).
 - [ ] Slide 2 and every payoff slide carry real persuasive copy that names + agitates a real pain.
 - [ ] Every number traces to her real data; no invented stats; no 3% open rates.
-- [ ] Funnel-fit is on MEANING vs `Hermes/FUNNEL.md`; the CTA belief is earned by the arc.
+- [ ] Funnel-fit is on MEANING vs [[Hermes/FUNNEL]]; the CTA belief is earned by the arc.
 - [ ] Fits the dashboard contract (DAYKEY, Cover, numbered lines, Sources, Hooks).
 - [ ] No re-skin of a published winner; no curriculum/guru vocab.
 
@@ -97,5 +97,5 @@ Both open rates are real-range: 45% is squarely inside her 40–57% engaged band
 - Owner contract: [[Studio/Team/Cassius - Substance Specialist/AGENTS]]
 - Surrounding judgment: [[GL-010-content-pitch-operating-brain]]
 - Process: [[WS-011-weekly-carousel-pitch]] (Step 3)
-- Taste law (the ruling): `Studio/Content/taste-ledger.md`
-- Ladder: `Studio/Content/PIPELINE-LADDER.md` (Rung 3)
+- Taste law (the ruling): [[Studio/Content/taste-ledger]]
+- Ladder: [[Studio/Content/PIPELINE-LADDER]] (Rung 3)

@@ -84,7 +84,7 @@ The highest-leverage automations are the ones that:
 - [[Team Inbox/README]] says raw inputs get filed, then removed from Team Inbox once filed.
 - [[Team Knowledge/Guidelines/GL-005-team-inbox-protocol]] says inbox root items should be processed within the session and `_Processed/` means safe to delete.
 - [[Team Knowledge/Workstreams/WS-004-inbox-processing]] defines the daily inbox approval table and action tiers.
-- Current inbox state includes root files such as `2026-07-01-Most people are putting highvalue thinking into-trunc.md`, `2026-07-01-slowly viral embed.md`, and two files under `Team Inbox/Meeting Captures/`.
+- Current inbox state includes root files such as [[Notebook/Inbox/2026-07-01-Most people are putting highvalue thinking into-trunc]], [[Notebook/Inbox/2026-07-01-slowly viral embed]], and two files under `Team Inbox/Meeting Captures/`.
 
 **Expected payoff:** Captures stop becoming a second backlog. Good ideas move into Journal, Ready Queue, Signals, or tasks before the moment cools.
 
@@ -259,7 +259,7 @@ The highest-leverage automations are the ones that:
 - [[Team Knowledge/tasks/open/tsk-2026-06-26-001-converter-pack-runtime-install]] says the converter pack SOPs are installed but runtime prerequisites are not.
 - [[Team Knowledge/tasks/open/tsk-2026-06-02-001-automate-meetily-capture-inbox]] is open for automatic Meetily pointer creation.
 - [[Team Knowledge/tasks/open/tsk-2026-06-03-004-google-calendar-api-setup]] and [[Team Knowledge/tasks/open/tsk-2026-06-03-005-meetily-first-oauth-run]] are still open.
-- Team Inbox contains `2026-07-01-slowly viral embed.md`, `2026-07-01-Use for email and post inspo.md`, and meeting capture pointers.
+- Team Inbox contains [[Notebook/Inbox/2026-07-01-slowly viral embed]], [[Notebook/Inbox/2026-07-01-Use for email and post inspo]], and meeting capture pointers.
 - [[Deliverables/2026-06-04-claude-routines-automation-fit-report]] recommends Video Watcher as a manual skill feeding Listening and Research Aggregator or Second Brain.
 
 **Expected payoff:** Videos, meetings, webinars, and saved links become source-backed notes and action items instead of unprocessed embeds. This strengthens the Second Brain without asking Alyssa to manually extract transcripts.
@@ -275,7 +275,7 @@ The highest-leverage automations are the ones that:
 
 **Dependency/risk:** Some installs require user-side system permissions and large model downloads. Do not auto-download large Whisper models without Alyssa's choice.
 
-**First next action:** Install converter runtime or, if that is too much, process `2026-07-01-slowly viral embed.md` manually as the first Video Watcher proof.
+**First next action:** Install converter runtime or, if that is too much, process [[Notebook/Inbox/2026-07-01-slowly viral embed]] manually as the first Video Watcher proof.
 
 ## Recent active projects
 

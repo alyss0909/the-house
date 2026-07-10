@@ -73,14 +73,14 @@ Alyssa clarified that internal skills in this myPKA are **SOPs**.
 
 The Blotato/social-repo material currently lives in:
 
-- `Deliverables/2026-07-05-social-skills-repo-intake/manifest.md`
-- `Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]]
 - `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/`
 - `Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/`
-- `Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit.md`
-- `Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map.md`
-- `Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk.md`
-- `Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
 
 They are **not live skills yet**. They are reference packs and extracted maps. The next step is promotion into SOPs, not raw install.
 
@@ -175,7 +175,7 @@ Next available SOP number at time of writing: SOP-033.
 Inputs:
 
 - Claude Routine monthly scrape output.
-- `Team Inbox/pitches/trusted-sources.md`
+- [[Studio/Content/trusted-sources]]
 - `Team Inbox/pitches/swipe/YYYY-MM-swipe.md`
 - weekly macro platform sources listed in trusted-sources.
 - recent Alyssa grid / covers if relevant.
@@ -212,10 +212,10 @@ Inputs:
 - Weekly Trend Scout Brief.
 - Suki Weekly Strategy Brief.
 - weekly theme / slots / offers.
-- `Hermes/FUNNEL.md`
-- `Hermes/MAP.md` section 3.
-- `Hermes/BUSINESS.md` / offer files as needed.
-- `Team Inbox/pitches/taste-ledger.md`
+- [[Hermes/FUNNEL]]
+- [[Hermes/MAP]] section 3.
+- [[Hermes/BUSINESS]] / offer files as needed.
+- [[Studio/Content/taste-ledger]]
 - Alyssa source files for the topic.
 
 Output:
@@ -258,7 +258,7 @@ Inputs:
 - Alyssa-approved concept.
 - Weekly Trend Scout Brief.
 - current swipe covers.
-- `Studio/Analysis/carousel-hook-forensics.md`
+- [[Studio/Analysis/carousel-hook-forensics]]
 - `Deliverables/.../repo-alignment-audit.md`
 - Blotato/social repo mechanics as adapted process only.
 
@@ -296,7 +296,7 @@ Inputs:
 - Suki brief.
 - exact Alyssa source files.
 - BOH/module/transcript/template/offer files as applicable.
-- `Hermes/FUNNEL.md`
+- [[Hermes/FUNNEL]]
 - Alyssa carousel forensics.
 - real data sources if claims/numbers appear.
 
@@ -505,9 +505,9 @@ After hire/retrain:
 
 Create:
 
-- `Studio/Team/Suki - Social Media Strategist/HIRING-PLAN-v2.md`
+- [[Studio/Team/Suki - Social Media Strategist/HIRING-PLAN-v2]]
 - drafts for SOP-033 through SOP-037, or a single `Deliverables/YYYY-MM-DD-content-os-sop-draft-pack.md` if Alyssa wants to review before files become canonical.
-- revised `WS-011-weekly-carousel-pitch.md` draft or patch plan.
+- revised [[Studio/Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch]] draft or patch plan.
 - a short approval memo for Alyssa: what changed, what she is approving, what happens after yes.
 
 Do not overwrite the current HIRING-PLAN until Alyssa approves v2.

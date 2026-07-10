@@ -24,7 +24,7 @@ If the request is "fix this component" or "this UI is broken," that's frontend t
 Before writing a single line of code:
 
 1. **Confirm the spec.** What does the component do, what are its inputs, what are its states (loading / empty / error / success / disabled)? If any of these are ambiguous, ask the user before proceeding. Building the wrong thing fast is slower than asking once.
-2. **Read your team's design system** at `Studio/Team Knowledge/Guidelines/GL-003-design-system.md` if it exists. Note the relevant tokens (color, typography, spacing, radius, animation), primitive components already in your stack, and any banned patterns.
+2. **Read your team's design system** at [[Studio/Team Knowledge/Guidelines/GL-003-design-system]] if it exists. Note the relevant tokens (color, typography, spacing, radius, animation), primitive components already in your stack, and any banned patterns.
 3. **Inspect the existing codebase.** Glob for similar components. Read the closest existing match. Match the project's conventions — file structure, naming, import style, prop interface style. Don't introduce a new pattern; match the prevailing one.
 
 ### 2. Decide where it lives

@@ -34,7 +34,7 @@ Fields observed:
 
 Local meaning and positioning live here:
 
-`PKM/My Life/Offers/INDEX.md`
+[[PKM/My Life/Offers/INDEX]]
 
 Use this shelf to understand what an offer is, who it is for, and how Alyssa positions it. Do not treat it as the final source for chat words.
 
@@ -56,7 +56,7 @@ This table is a bridge, not the canonical database. Verify against Notion before
 
 | Product | Local offer file | Type | Themes | Observed chat word status |
 |---|---|---|---|---|
-| Soft Sundays | `PKM/My Life/Offers/soft-sundays.md` | Freebie | Email, Productivity, Sales, BOH Systems, Pinterest | `Sunday` observed in Notion context |
+| Soft Sundays | [[Hermes/examples/good/soft-sundays]] | Freebie | Email, Productivity, Sales, BOH Systems, Pinterest | `Sunday` observed in Notion context |
 | Pin Planner | `PKM/My Life/Offers/pin-planner.md` | Freebie | Pinterest | `Pinterest` observed in Notion context |
 | Back of House | `PKM/My Life/Offers/back-of-house.md` | Offer | BOH Systems | `Yes Chef` observed in Notion context |
 | Bingeable Newsletters | `PKM/My Life/Offers/bingeable-newsletters.md` | Freebie | Email | Blank from observed Notion row |

@@ -16,10 +16,10 @@ plan: C:\Users\accol\.claude\plans\k-i-reviewed-the-robust-dove.md (Alyssa-appro
 
 # What the next session does (scope-locked)
 
-**Deliverable: ONE Weekly Pitch Sheet at `Team Inbox/pitches/2026-W28-pitch.md`** matching her sketch exactly (structure below). Outline only. ZERO copy/decks until she approves concepts. Confirmed: vault file, weekly cadence, inline ✅/✖/edit reacts.
+**Deliverable: ONE Weekly Pitch Sheet at [[Studio/Content/2026-W28-pitch]]** matching her sketch exactly (structure below). Outline only. ZERO copy/decks until she approves concepts. Confirmed: vault file, weekly cadence, inline ✅/✖/edit reacts.
 
 Order of work:
-1. Verify the two cleanup agents' outputs exist: `Deliverables/2026-07-06-content-os-learnings.md` + `Deliverables/_archive/sprint-1/` (if missing, redo per plan Step 1).
+1. Verify the two cleanup agents' outputs exist: [[Deliverables/2026-07-06-content-os-learnings]] + `Deliverables/_archive/sprint-1/` (if missing, redo per plan Step 1).
 2. **Offer essence map** (one sonnet worker): for every LIVE offer in Hermes/BUSINESS.md — one-line essence in her words (from its real sales page / PKM/My Life/Offers file) + "teaches from" module list (via Deliverables/2026-07-05-vault-learn/learn-pitch-index.md). Append to BUSINESS.md under its ceiling, else create Hermes/FUNNEL.md and pointer it. This kills the 90d-Clock-In-class mismatch.
 3. **Pitch Sheet #1** (ONE Pitch Composer agent, single context — research + concepts + hooks together, NO relay): pick the current theme week from Hermes/MAP.md §3. Loads: FABLE.md, MAP §3/§4, the essence map, Deliverables/2026-07-06-hook-frameworks-cheatsheet.md (three-check hook standard = her verbatim ruling), the theme's real source files read in full, Deliverables/2026-07-06-sprint-pitches.md (concept salvage bank — reuse what fits). Mean Alyssa preflight before delivery (funnel-fit on MEANING, banned shapes in hooks, source citations real).
 4. Deliver the sheet + tell Alyssa it's ready. STOP. No decks.
@@ -63,5 +63,5 @@ Style note: per her seed spec — short sentences that could be highlighted text
 # Paste-in prompt for the new session (give Alyssa this)
 
 ---
-Larry — regroup execution, session 1. Read `Deliverables/2026-07-06-regroup-handoff.md` FIRST and follow it exactly; it is scope-locked and Alyssa-approved. This session delivers exactly ONE thing: the Weekly Pitch Sheet at `Team Inbox/pitches/2026-W28-pitch.md` (outline only — concepts, sources, 2 hooks per slot, FTG interview block; ZERO copy or decks). Steps: (1) verify the learnings doc + sprint-1 archive exist, (2) build the offer essence map, (3) one Pitch Composer agent writes the sheet, (4) Mean Alyssa preflight (funnel-fit on meaning, hook three-check, real citations), (5) deliver and stop. Use low-cost subagents for busywork, one context per creative task, no copy relays. When the sheet is ready, tell me it's ready to react to — nothing else.
+Larry — regroup execution, session 1. Read [[Deliverables/2026-07-06-regroup-handoff]] FIRST and follow it exactly; it is scope-locked and Alyssa-approved. This session delivers exactly ONE thing: the Weekly Pitch Sheet at [[Studio/Content/2026-W28-pitch]] (outline only — concepts, sources, 2 hooks per slot, FTG interview block; ZERO copy or decks). Steps: (1) verify the learnings doc + sprint-1 archive exist, (2) build the offer essence map, (3) one Pitch Composer agent writes the sheet, (4) Mean Alyssa preflight (funnel-fit on meaning, hook three-check, real citations), (5) deliver and stop. Use low-cost subagents for busywork, one context per creative task, no copy relays. When the sheet is ready, tell me it's ready to react to — nothing else.
 ---

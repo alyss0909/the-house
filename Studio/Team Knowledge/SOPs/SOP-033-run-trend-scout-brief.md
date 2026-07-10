@@ -7,7 +7,7 @@
 
 ## Procedure
 1. Confirm the latest monthly swipe file exists and is fresh: `Studio/Content/swipe/YYYY-MM-swipe.md` (+ `covers-YYYY-MM/`). The monthly scrape ([[trend-scout-monthly-routine]]) self-runs; this SOP re-slices it, never re-scrapes.
-2. Read `trusted-sources.md` Layer 3 macro sources (~5 min) and the `taste-ledger.md`.
+2. Read [[Studio/Content/trusted-sources]] Layer 3 macro sources (~5 min) and the [[Studio/Content/taste-ledger]].
 3. Write the brief to `Studio/Content/trend-briefs/YYYY-Www-trend-brief.md`.
 
 ## Required sections (8)

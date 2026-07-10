@@ -4,7 +4,7 @@
 - **Type:** Workstream — a multi-agent composition. The agents below collaborate to deliver the outcome. New Workstreams emerge when patterns repeat across session-logs; this one ships pre-canonicalized because the import flow needs the connection-half (Mack) and the content-shape (Silas) split working out of the box.
 - **Owners:** **Silas (pre-hired)** is the primary executor — runs §2 onward (clarifying questions, inventory, plan, entity creation, wikilink normalization, session-log entry). **Mack (pre-hired)** runs the §1 connection layer when the source is reachable only via OAuth/API/MCP — fetches the bytes, lands them at a path, hands off to Silas. **Pax** for unfamiliar source formats that need research before the import plan is drafted.
 - **References:** [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[SOP-002-convert-mypka-to-sqlite]], [[WS-001-daily-journaling]], [[Studio/Team Knowledge/Templates/INDEX]]
-- **Triggered by:** any user phrasing that signals "bring my old notes from another tool into this myPKA." Trigger phrase contract is defined in the root `AGENTS.md` under **External Knowledge Import Triggers (LLM-agnostic)**. This Workstream is the canonical procedure those triggers run.
+- **Triggered by:** any user phrasing that signals "bring my old notes from another tool into this myPKA." Trigger phrase contract is defined in the root [[AGENTS]] under **External Knowledge Import Triggers (LLM-agnostic)**. This Workstream is the canonical procedure those triggers run.
 
 ## Purpose
 
@@ -154,14 +154,14 @@ This is the canonical map. Every concrete source format collapses into this set 
 | Source concept | myPKA destination | Notes |
 |---|---|---|
 | daily note / journal entry / diary | `Notebook/Journal/YYYY/MM/YYYY-MM-DD.md` (or `YYYY-MM-DD-<slug>.md` if the source has a per-day theme) | Apply the daily-note frontmatter shape used by [[WS-001-daily-journaling]]. If multiple entries exist for the same date, append as new sections in chronological order. |
-| person / contact / human | `Notebook/Life/CRM/People/<slug>.md` | Use `Studio/Team Knowledge/Templates/person.md`. Required fields per [[GL-002-frontmatter-conventions]] §5. |
-| company / institution / venue | `Notebook/Life/CRM/Organizations/<slug>.md` | Use `Studio/Team Knowledge/Templates/organization.md`. Cross-link to People who work there. |
-| project / time-bound effort with a finish line | `Notebook/Life/Projects/<slug>.md` | Use `Studio/Team Knowledge/Templates/project.md`. |
-| goal / objective / OKR / aspiration with a horizon | `Notebook/Life/Goals/<slug>.md` | Use `Studio/Team Knowledge/Templates/goal.md`. Goals link upward to a Key Element. |
-| habit / routine / rhythm with a cadence | `Notebook/Life/Habits/<slug>.md` | Use `Studio/Team Knowledge/Templates/habit.md`. |
-| topic / area / category / interest | `Notebook/Life/Topics/<slug>.md` | Use `Studio/Team Knowledge/Templates/topic.md`. Stable categories of attention, not projects. |
-| MOC / index / hub / area-of-life / dimension | `Notebook/Life/Key Elements/<slug>.md` | Use `Studio/Team Knowledge/Templates/key-element.md`. Key Elements are dimensions (Health, Family, Career), not goals. |
-| reference document / file-record / passport / contract / certificate | `PKM/Documents/<slug>.md` | Use `Studio/Team Knowledge/Templates/document.md`. |
+| person / contact / human | `Notebook/Life/CRM/People/<slug>.md` | Use [[Studio/Team Knowledge/Templates/person]]. Required fields per [[GL-002-frontmatter-conventions]] §5. |
+| company / institution / venue | `Notebook/Life/CRM/Organizations/<slug>.md` | Use [[Studio/Team Knowledge/Templates/organization]]. Cross-link to People who work there. |
+| project / time-bound effort with a finish line | `Notebook/Life/Projects/<slug>.md` | Use [[Studio/Team Knowledge/Templates/project]]. |
+| goal / objective / OKR / aspiration with a horizon | `Notebook/Life/Goals/<slug>.md` | Use [[Studio/Team Knowledge/Templates/goal]]. Goals link upward to a Key Element. |
+| habit / routine / rhythm with a cadence | `Notebook/Life/Habits/<slug>.md` | Use [[Studio/Team Knowledge/Templates/habit]]. |
+| topic / area / category / interest | `Notebook/Life/Topics/<slug>.md` | Use [[Studio/Team Knowledge/Templates/topic]]. Stable categories of attention, not projects. |
+| MOC / index / hub / area-of-life / dimension | `Notebook/Life/Key Elements/<slug>.md` | Use [[Studio/Team Knowledge/Templates/key-element]]. Key Elements are dimensions (Health, Family, Career), not goals. |
+| reference document / file-record / passport / contract / certificate | `PKM/Documents/<slug>.md` | Use [[Studio/Team Knowledge/Templates/document]]. |
 | arbitrary note that doesn't fit the seven concept types above | `PKM/Documents/<slug>.md` | Same destination as references — Document is the catch-all for "this is content, but it isn't a Person/Org/Project/Goal/Habit/Topic/Key Element". Flag to the user during planning. |
 | backlinks / wikilinks (`[[Title]]`, `((uid))`, `@mention`) | normalize to `[[<kebab-case-slug>]]` form | Slug rules per [[GL-001-file-naming-conventions]]. Roam-style block refs (`((uid))`) lose their granularity — they become a link to the parent page note. The LLM warns the user about this lossy step. |
 | tags (`#tag`, `tag::value`, `tags: [...]`) | YAML `tags: [...]` array | Per [[GL-002-frontmatter-conventions]]. Hierarchical tags (`#parent/child`) flatten unless the user picked the "tags-to-Topics" option in Step 2. |
@@ -211,4 +211,4 @@ The Workstream is complete when **all** of these are true:
 
 ## Trigger phrases
 
-The trigger contract for this Workstream is in the root `AGENTS.md` under **External Knowledge Import Triggers (LLM-agnostic)**. Pattern-match intent, not literal strings. If a tool name in the user's request isn't recognized, ask clarifying questions per Step 2 — never refuse.
+The trigger contract for this Workstream is in the root [[AGENTS]] under **External Knowledge Import Triggers (LLM-agnostic)**. Pattern-match intent, not literal strings. If a tool name in the user's request isn't recognized, ask clarifying questions per Step 2 — never refuse.

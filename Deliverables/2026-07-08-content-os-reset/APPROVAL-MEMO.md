@@ -54,16 +54,16 @@ They're **mechanics and QA**, never your voice or source. The test: *changes wha
 
 ## What happens after "yes"
 
-- **Gate 2:** you review the SOP drafts (`SOP-DRAFT-PACK.md`) + `HIRING-PLAN-v2.md` + the WS-011 patch. They go canonical only when you approve.
+- **Gate 2:** you review the SOP drafts ([[Deliverables/2026-07-08-content-os-reset/SOP-DRAFT-PACK]]) + [[Studio/Team/Suki - Social Media Strategist/HIRING-PLAN-v2]] + the WS-011 patch. They go canonical only when you approve.
 - **Gate 3:** *only then* you decide hiring, per the decision matrix in the hiring plan — Nolan + Suki both recommend: **run Hook & Concept internally one controlled week first, Trend as automation, re-test Cassius before any rebuild.** SOP-001 (actual hiring) fires only when you name a specific role.
 - **Gate 4:** one controlled week, gates kill before you see, you react to a few survivors, then go live.
 
 ## The files (all drafts — nothing canonical yet)
 
-- `APPROVAL-MEMO.md` — this.
-- `SOP-DRAFT-PACK.md` — SOP-033→038 + WS-011 patch.
-- `HIRING-PLAN-v2.md` — resource-first, Gate-3 matrix. *(Your current HIRING-PLAN is untouched.)*
-- `RESEARCH-standards.md` — Pax's external validation.
-- `trend-scout-wiring.md` — Mack's trend documentation + weekly-brief spec.
+- [[Deliverables/2026-07-08-content-os-reset/APPROVAL-MEMO]] — this.
+- [[Deliverables/2026-07-08-content-os-reset/SOP-DRAFT-PACK]] — SOP-033→038 + WS-011 patch.
+- [[Studio/Team/Suki - Social Media Strategist/HIRING-PLAN-v2]] — resource-first, Gate-3 matrix. *(Your current HIRING-PLAN is untouched.)*
+- [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]] — Pax's external validation.
+- [[Deliverables/2026-07-08-content-os-reset/trend-scout-wiring]] — Mack's trend documentation + weekly-brief spec.
 
 *Mean Alyssa's kill pass on this pack runs before you spend time on it — her findings get folded in so you're reviewing something that already survived her.*

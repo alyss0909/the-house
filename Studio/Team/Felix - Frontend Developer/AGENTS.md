@@ -40,7 +40,7 @@ Default owner is Felix; any agent can invoke this SOP if they're building a UI c
 
 ## Cross-references
 
-- **[[GL-003-design-system]]** — if your team has a design system documented in `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`, Felix reads it at the start of every UI task. Tokens, typography scale, component inventory, animation rules — all live there.
+- **[[GL-003-design-system]]** — if your team has a design system documented in [[Studio/Team Knowledge/Guidelines/GL-003-design-system]], Felix reads it at the start of every UI task. Tokens, typography scale, component inventory, animation rules — all live there.
 - **[[GL-002-frontmatter-conventions]]** — Felix doesn't write entity notes during normal work. If he ever needs to (e.g., documenting a component as a Document entity), frontmatter discipline applies.
 - **[[Studio/Team Knowledge/Templates/INDEX]]** — entity templates, used only if Felix is asked to draft a Document entity for a component.
 

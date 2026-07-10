@@ -21,7 +21,7 @@ Alyssa returned to continue the Telegram capture MVP after a Codex restart. The 
 - Mack ran the Telegram helper with network access, confirmed the current token is valid for `@ideaeaterbot`, and confirmed there were no queued messages.
 - Mack found proof of the pipe in `Team Inbox/_Processed/`: Telegram captures had already landed for Alyssa's test message and conversion-rate article.
 - Mack improved `telegram-capture-mvp.py` with `--health-check`, `--once`, `--timeout`, and flushed status output.
-- Mack updated `telegram-capture-README.md` with the new quick-check and one-time test commands.
+- Mack updated [[Studio/Team Knowledge/scripts/telegram-capture-README]] with the new quick-check and one-time test commands.
 - Larry updated [[tsk-2026-06-01-004-telegram-claude-automation]] to show the true remaining blocker: regenerate the exposed BotFather token and run one final test.
 - Larry unblocked [[tsk-2026-06-01-003-semantic-recurrence-layer]] because Alyssa clarified that Larry should make the call instead of waiting on a performative approval step.
 - Larry created [[tsk-2026-06-03-007-brainstorm-camila-recurring-work]] and [[tsk-2026-06-03-008-resolve-background-open-loops]].

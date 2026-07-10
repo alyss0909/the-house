@@ -38,12 +38,12 @@ All 5 files renamed. 19 active vault files updated. Zero old references remainin
 | carousel-analysis.md | carousel.md |
 | subject-line-analysis.md | subject-line.md |
 
-`workshop-webinar-analysis.md` intentionally kept with suffix (no collision risk, descriptive).
+[[Studio/Analysis/workshop-webinar-analysis]] intentionally kept with suffix (no collision risk, descriptive).
 
 ### BOH Phase 5 Bonuses
 
 - Created `PKM/Second Brain/programs/back-of-house/5. Bonuses/`
-- Moved `bots.md` and `scriptbook.md` there
+- Moved [[Library/Programs/back-of-house/5. Bonuses/bots]] and [[Library/Programs/back-of-house/5. Bonuses/scriptbook]] there
 - Updated BOH INDEX phase table and resource links
 
 ### notion-templates.md populated
@@ -54,13 +54,13 @@ Added: live offer links, 15-template bundle concept, team home idea, inspo entri
 
 - Cleared 4 files from `Team Inbox/_Processed/`
 - No broken wikilinks detected in changed files
-- `workshop-webinar-analysis.md` is new — Silas created it during analysis sweep; contains webinar/workshop copy routing. Legitimate new file.
+- [[Studio/Analysis/workshop-webinar-analysis]] is new — Silas created it during analysis sweep; contains webinar/workshop copy routing. Legitimate new file.
 
 ## Decisions made
 
 - `/compact` = mid-task context management; new session = phase switch. Alyssa choosing new session is correct.
-- `workshop-webinar-analysis.md` stays with `-analysis` suffix (no collision, name is descriptive)
-- `notion-templates.md` stays as a Project (not Topic) for now — has a clear deliverable hiding in it (the 15-template bundle decision)
+- [[Studio/Analysis/workshop-webinar-analysis]] stays with `-analysis` suffix (no collision, name is descriptive)
+- [[Notebook/Life/Projects/notion-templates]] stays as a Project (not Topic) for now — has a clear deliverable hiding in it (the 15-template bundle decision)
 
 ## Open threads
 
@@ -68,7 +68,7 @@ Added: live offer links, 15-template bundle concept, team home idea, inspo entri
 - [ ] Decide on notion-templates.md: is the 15-template bundle the next offer?
 - [ ] Full tag review — 160 tags, check against GL-004 approved list (planned for next session)
 - [ ] Review all Guidelines (GL-001 through GL-006) for accuracy and completeness
-- [ ] `adele.md` CRM stub — rename to `adele-lastname.md` when full name known
+- [ ] [[Notebook/Life/CRM/People/adele]] CRM stub — rename to `adele-lastname.md` when full name known
 - [ ] Next session: tag review + Guidelines review as planned
 
 ## Cross-links

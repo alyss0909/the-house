@@ -30,7 +30,7 @@ The post comes as text inline, or as a file path. If you're invoked by `post-wri
 
 ### Step 2: Read brand brief if available
 
-Check for `brand-brief.md` in the current directory. If found, read it â€” you'll grade voice match against the user's defined voice. If missing, skip the voice-match dimension and note it in the output.
+Check for [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory. If found, read it â€” you'll grade voice match against the user's defined voice. If missing, skip the voice-match dimension and note it in the output.
 
 ### Step 3: Grade across 7 dimensions
 
@@ -42,7 +42,7 @@ Score each on 1-10. Be specific about the issue when scoring under 8. **Hook is 
 | **Curiosity & specificity (0-10)** | Real numbers, real names, real moments â€” or generic statements ("many customers," "great results")? Does the post create a question/tension and then resolve it? Will the reader want to keep going past the first paragraph? |
 | **Emotional charge (0-10)** | Does the post provoke a strong feeling â€” surprise, anger, vindication, recognition, pride, indignation, relief? Posts without emotion don't travel. If you finish reading and feel nothing, score low. |
 | **Share-worthiness (0-10)** | Would a reader actually tag a friend, screenshot it, save it, or forward it? What's the specific reason they'd share â€” does it make THEM look smart, validate something they believe, or solve a recurring problem? "Informative" is not share-worthy. "I needed to hear this today" is. |
-| **Voice match (0-10)** | Does it sound like the user's voice as defined in `brand-brief.md`? Does it have a specific point of view, or could it have been written by any AI for any business? Generic voice = generic content = no virality. If no brief exists, skip and note. |
+| **Voice match (0-10)** | Does it sound like the user's voice as defined in [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]]? Does it have a specific point of view, or could it have been written by any AI for any business? Generic voice = generic content = no virality. If no brief exists, skip and note. |
 | **Polarity / takeable position (0-10)** | Does the post say something arguable? A reader should be able to nod hard OR push back. "Most marketing is wrong for sub-$10k businesses" is polarizing. "Marketing is important" is not. Polarizing posts drive comments â†’ algorithm boost. |
 | **Platform fit (0-10)** | Length appropriate? Hook within first 125 chars for Instagram? Under 280 for Twitter? Hashtag count right? Format matches platform conventions? Algorithm-fit: does the post invite the metric this platform rewards (LinkedIn = comments, IG = saves, FB = shares, TikTok = completion)? |
 

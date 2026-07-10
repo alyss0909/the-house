@@ -49,9 +49,9 @@ Use this to judge ANY draft (yours or anyone's) before it ships. The failure mod
 - Enthusiasm markers absent exactly where the copy claims to be excited.
 - Rule of repair: every item in any list must carry one detail that could not be invented (a real jar count, a real client, a real Tuesday).
 
-## Banned LLM constructions → `ANTI-AI.md` (HER OWN saved rules — mandatory pass before scoring)
+## Banned LLM constructions → [[Hermes/ANTI-AI]] (HER OWN saved rules — mandatory pass before scoring)
 
-Alyssa keeps her own anti-AI rules in the vault (journal 2026-04-27, "It's not [X], it's [Y]"): the 15 negative-parallelism shapes, banned vocabulary, dead openings/transitions, rule-of-three ban, plus her 2026-07-05 punctuation corrections (em-dashes: ZERO; staccato periods: near-zero; "its not this its that" banned in ALL forms incl. hooks and headers). Run the full `ANTI-AI.md` final-pass checklist on every draft BEFORE this rubric. Two gates have now died on drafts that scored well here but hit her banned shapes — the ANTI-AI pass is the senior gate.
+Alyssa keeps her own anti-AI rules in the vault (journal 2026-04-27, "It's not [X], it's [Y]"): the 15 negative-parallelism shapes, banned vocabulary, dead openings/transitions, rule-of-three ban, plus her 2026-07-05 punctuation corrections (em-dashes: ZERO; staccato periods: near-zero; "its not this its that" banned in ALL forms incl. hooks and headers). Run the full [[Hermes/ANTI-AI]] final-pass checklist on every draft BEFORE this rubric. Two gates have now died on drafts that scored well here but hit her banned shapes — the ANTI-AI pass is the senior gate.
 
 ## Scoring rubric (score 0-2 per axis; judge with 2 real passages side-by-side)
 

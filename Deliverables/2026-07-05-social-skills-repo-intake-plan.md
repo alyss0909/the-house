@@ -4,7 +4,7 @@ Date: 2026-07-05
 Owner: Larry  
 Research: Pax  
 Adoption gate: Vex license/security pass -> Mack clone pass -> Silas provenance/index pass -> Hermes skill extraction
-Status: executed for Tier 1 on 2026-07-05. See `Deliverables/2026-07-05-social-skills-repo-intake/manifest.md` and `Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF.md`.
+Status: executed for Tier 1 on 2026-07-05. See [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]] and [[Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]].
 
 ## Executive read
 
@@ -18,18 +18,18 @@ The best path is to clone selected upstream repos as exact external references, 
 
 Local references:
 
-- `PKM/Journal/2026/06/2026-06-17-blotato-claude-skills.md`
-- `PKM/Journal/2026/06/2026-06-29-blotato-evaluation.md`
-- `Hermes/learning/anti-ai-web-research.md`
-- `Deliverables/2026-07-05-content-os-brain/web-research-steal-list.md`
-- `Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis.md`
+- [[Notebook/Journal/2026/06/2026-06-17-blotato-claude-skills]]
+- [[Notebook/Journal/2026/06/2026-06-29-blotato-evaluation]]
+- [[Hermes/learning/anti-ai-web-research]]
+- [[Deliverables/2026-07-05-content-os-brain/web-research-steal-list]]
+- [[Studio/Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]]
 
 Blotato skills Alyssa had already surfaced:
 
 | Skill | What it does | Adopt? |
 |---|---|---|
 | `content-coach` | Orchestrates social content workflow | Mine/adapt into Larry/Test Kitchen, not direct install |
-| `brand-brief` | Captures voice/brand context before writing | Make our own using `Hermes/MAP.md`, `Hermes/STYLE.md`, `Hermes/TASTE.md`, source load rules |
+| `brand-brief` | Captures voice/brand context before writing | Make our own using [[Hermes/MAP]], [[Hermes/STYLE]], [[Hermes/TASTE]], source load rules |
 | `post-writer` | Writes platform-native posts | Skip direct use; Hermes writes final copy |
 | `post-grader` | Scores posts, with hook weighted heavily | Adopt the scoring pattern for the Maitre d' station |
 | `post-scheduler` | Schedules via Blotato MCP, fallback file output | Skip for now; Alyssa's actual path is Kit/ManyChat/Notion, not Blotato scheduling |
@@ -113,7 +113,7 @@ Build our own skills from proven external patterns:
 | Caption/Carousel Writer Support | `blacktwist/caption-writer-sms`, `carousel-writer-sms`, `EricTechPro/instagram-carousel-skills` | Hermes support files only; Hermes remains final writer |
 | Maitre d' Scorer | Blotato `post-grader`, `marketingskills/ab-testing`, IG algorithm notes | Honest rubric scorer, not virality predictor |
 | Mean Alyssa | `agent-review-panel`, `create-viral-content` six-pass refinement | Blind adversarial review + decoy calibration |
-| Anti-AI Gate | `stop-slop`, `no-slop`, `anti-ai-slop-writing`, `unslop`, Alyssa's `ANTI-AI.md` | Keep source-specific rules senior; external tells as supporting lint |
+| Anti-AI Gate | `stop-slop`, `no-slop`, `anti-ai-slop-writing`, `unslop`, Alyssa's [[Hermes/ANTI-AI]] | Keep source-specific rules senior; external tells as supporting lint |
 | The Pass | `social-ai-team` packaging/publisher flow, Blotato repurpose model | Notion/ManyChat/designer handoff, no direct Blotato dependency yet |
 
 ## Exact copy protocol
@@ -164,8 +164,8 @@ git clone https://github.com/shixinzhang/tiktok-viral-hooks.git Deliverables/202
 
 ## Next action
 
-Tier 1 clone pass is complete. The six repos are exact Git checkouts under `Deliverables/2026-07-05-social-skills-repo-intake/repos/`, with hashes captured in `manifest.md`.
+Tier 1 clone pass is complete. The six repos are exact Git checkouts under `Deliverables/2026-07-05-social-skills-repo-intake/repos/`, with hashes captured in [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]].
 
 Blotato public official docs are captured under `Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/`; no public upstream Blotato Claude Skills GitHub repo, zip, raw download, or install command was found. Actual Blotato skill files still require authenticated delivery or explicit Blotato-provided source.
 
-Next: Content OS team reads `CONTENT-OS-HANDOFF.md`, completes the four extracted maps, then Larry decides what gets promoted into Hermes/Content OS vs parked as referenced external research.
+Next: Content OS team reads [[Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]], completes the four extracted maps, then Larry decides what gets promoted into Hermes/Content OS vs parked as referenced external research.

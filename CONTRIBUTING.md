@@ -17,7 +17,7 @@ If you want to improve your own version of the scaffold, **fork it freely**. The
 Issues are accepted for a narrow set of cases:
 
 - Typo fixes and broken links in the docs
-- Clearly reproducible bugs in `SOP-002-convert-mypka-to-sqlite.md` (the migration prompt)
+- Clearly reproducible bugs in [[Studio/Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite]] (the migration prompt)
 - Reproducible bugs in `Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py` (the v1.3.0 inline-fields migration helper)
 - Factual errors in scaffold content (a wrong USPTO number, an outdated URL, etc.)
 
@@ -25,11 +25,11 @@ Use the issue templates so the right one gets routed quickly.
 
 ## Note shape and frontmatter
 
-Every entity note (Person, Organization, Project, Goal, Habit, Topic, Key Element, Document) is shaped by `Team Knowledge/Guidelines/GL-002-frontmatter-conventions.md` and starts from a template in `Team Knowledge/Templates/`. Field names match SQLite column names in `SOP-002-convert-mypka-to-sqlite.md`. If you fork and want to add or rename a field, edit GL-002 first, then update the matching template — the SOP and the Templates inherit field names from the Guideline by `[[wikilink]]`, not by copy.
+Every entity note (Person, Organization, Project, Goal, Habit, Topic, Key Element, Document) is shaped by [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]] and starts from a template in `Team Knowledge/Templates/`. Field names match SQLite column names in [[Studio/Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite]]. If you fork and want to add or rename a field, edit GL-002 first, then update the matching template — the SOP and the Templates inherit field names from the Guideline by `[[wikilink]]`, not by copy.
 
 ## Adding new tool patterns to WS-002
 
-`Team Knowledge/Workstreams/WS-002-import-external-knowledge-base.md` ships with a starter set of source-tool signatures (Heptabase, Notion, Obsidian, Roam, Logseq, Mem, Capacities, Apple Notes, Evernote, Tana via MCP, etc.). If you run an import and discover a new export format quirk — a fresh signature for sniffing, an undocumented tag-encoding convention, a SQLite schema variant — that's a community contribution candidate. Open an issue with: source tool name + version, the smallest folder/file fingerprint that identifies it, and the mapping that worked for you. Approved patterns land in WS-002 directly.
+[[Studio/Team Knowledge/Workstreams/WS-002-import-external-knowledge-base]] ships with a starter set of source-tool signatures (Heptabase, Notion, Obsidian, Roam, Logseq, Mem, Capacities, Apple Notes, Evernote, Tana via MCP, etc.). If you run an import and discover a new export format quirk — a fresh signature for sniffing, an undocumented tag-encoding convention, a SQLite schema variant — that's a community contribution candidate. Open an issue with: source tool name + version, the smallest folder/file fingerprint that identifies it, and the mapping that worked for you. Approved patterns land in WS-002 directly.
 
 ## Methodology questions, "how do I adapt this for X", anything deeper
 

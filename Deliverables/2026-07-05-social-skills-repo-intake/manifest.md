@@ -36,15 +36,15 @@ Do not install these directly into `.claude/skills/`. The team does not activate
 
 Captured pages and files:
 
-- `source-note.md` - Alyssa's original Keep-note provenance and `automation` connection
-- `claude-skills.md`
-- `brand-brief.md`
-- `content-coach.md`
-- `post-writer.md`
-- `post-grader.md`
-- `post-scheduler.md`
-- `viral-hooks.md`
-- `repurpose.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/source-note]] - Alyssa's original Keep-note provenance and `automation` connection
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/claude-skills]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/content-coach]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/post-writer]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/post-grader]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/post-scheduler]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/viral-hooks]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/repurpose]]
 
 Extracted vendor/reference skills:
 
@@ -60,9 +60,9 @@ Use the extracted files as Blotato vendor references. They are free to download/
 
 ## Extraction Files
 
-- `extracted/social-skill-coverage-map.md`
-- `extracted/hook-patterns-map.md`
-- `extracted/anti-slop-crosswalk.md`
-- `extracted/mean-alyssa-review-panel-map.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/social-skill-coverage-map]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
 
 Each extraction must cite `repo_id`, local source path, and commit hash.

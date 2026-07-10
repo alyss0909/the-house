@@ -18,9 +18,9 @@ Alyssa asked to install `github.com/bradautomates/claude-video` (a Claude Code `
 
 - Larry cloned the upstream repo, read `skills/watch/SKILL.md`, and drafted `Expansions/claude-video/expansion.yaml` (type `connector`, default owner Mack) following the `converter-pack` precedent exactly (unmodified upstream scripts live in `lib/`, myPKA-facing procedure is a thin SOP pointer).
 - Vex-equivalent security sweep: grepped the full repo for token-shaped strings (`sk-`, `ghp_`, `xox[bap]-`, AWS keys) — clean. Confirmed Whisper API keys are never committed, only read from `~/.config/watch/.env` (mode 0600) or environment. MIT license, no smuggled network calls beyond yt-dlp/ffmpeg/Whisper as documented. Verdict: GREEN.
-- Nolan-equivalent merge: auto-numbered the SOP into `Team Knowledge/SOPs/SOP-031-watch-video.md`, added the INDEX.md row, bumped "Next available SOP number" to SOP-032.
-- Larry updated `Expansions/INDEX.md` with the new row and archived the manifest snapshot to `Expansions/_installed/claude-video-0.2.0/.manifest.yaml`.
-- Wrote `Expansions/claude-video/README.md` and `.env.example` documenting the real config location (`~/.config/watch/.env`, not the Expansion folder) and the upstream-update procedure.
+- Nolan-equivalent merge: auto-numbered the SOP into [[Studio/Team Knowledge/SOPs/SOP-031-watch-video]], added the INDEX.md row, bumped "Next available SOP number" to SOP-032.
+- Larry updated [[Expansions/INDEX]] with the new row and archived the manifest snapshot to `Expansions/_installed/claude-video-0.2.0/.manifest.yaml`.
+- Wrote [[Expansions/claude-video/README]] and `.env.example` documenting the real config location (`~/.config/watch/.env`, not the Expansion folder) and the upstream-update procedure.
 
 ## Decisions made
 
@@ -40,7 +40,7 @@ Alyssa asked to install `github.com/bradautomates/claude-video` (a Claude Code `
 ## Open threads
 
 - [ ] First actual `/watch`-equivalent run will trigger `lib/setup.py --json` — yt-dlp/ffmpeg install and optional Whisper key prompt happens then, not now.
-- [ ] No agent update needed (`Team/agent-index.md` untouched) — this is a connector capability, not a new specialist.
+- [ ] No agent update needed ([[Studio/Team/agent-index]] untouched) — this is a connector capability, not a new specialist.
 
 ## Next steps
 

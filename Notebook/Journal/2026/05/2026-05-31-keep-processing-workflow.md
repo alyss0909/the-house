@@ -14,7 +14,7 @@ A shorthand capture of the 5-step process for turning raw Keep notes into clean 
 4. Tag, wikilink, add related notes and connections
 5. Send for approval
 
-The full SOP lives at `Team Knowledge/SOPs/SOP-003-keep-notes-to-journal.md`. A scheduled agent will run this automatically so the inbox stays clear without manual sorting.
+The full SOP lives at [[Studio/Team Knowledge/SOPs/SOP-003-keep-notes-to-journal]]. A scheduled agent will run this automatically so the inbox stays clear without manual sorting.
 
 *[Original Keep note](https://keep.google.com/#NOTE/1QmYgNs2JsgFAw3cWkN_FoCN_ZQq-OqLbLMUrBfSHSdWTOJvnUqKCkDE1Ahx8_SFdwesK)*
 

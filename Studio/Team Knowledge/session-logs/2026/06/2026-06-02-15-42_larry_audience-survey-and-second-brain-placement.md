@@ -12,7 +12,7 @@ tags: [session-log, close-session, audience-survey, second-brain, back-of-house]
 
 - Processed Alyssa's 2025 audience survey CSV from `Team Inbox/2025 Audience Survey_ (Responses) - Responses (1).csv`.
 - Created an analysis package in `Deliverables/2026-06-02-2025-audience-survey-analysis/`.
-- Built a readable insight brief: `2025-audience-survey-insight-brief.md`.
+- Built a readable insight brief: [[Deliverables/2026-06-02-2025-audience-survey-analysis/2025-audience-survey-insight-brief]].
 - Built an analysis workbook: `2025-audience-survey-analysis.xlsx`.
 - Built an anonymized processed-response file for audit use: `anonymized-processed-responses.csv`.
 - Interpreted the strongest audience pattern: the BOH audience wants calmer client generation, especially through email, Pinterest, slow marketing, and implementation support.

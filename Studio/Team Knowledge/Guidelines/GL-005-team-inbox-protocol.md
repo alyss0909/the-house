@@ -4,7 +4,7 @@
 
 This is the source of truth for how the inbox works — what subfolders exist, who processes what, and how the inbox stays clean.
 
-**Location note (2026-07-10):** the raw-drops inbox moved from `Team Inbox/` to `Notebook/Inbox/` as part of the Notebook assembly. A redirect stub remains at `Team Inbox/MOVED.md`. This Guideline uses the new path throughout.
+**Location note (2026-07-10):** the raw-drops inbox moved from `Team Inbox/` to `Notebook/Inbox/` as part of the Notebook assembly. A redirect stub remains at [[Team Inbox/MOVED]]. This Guideline uses the new path throughout.
 
 ## What the inbox is for
 

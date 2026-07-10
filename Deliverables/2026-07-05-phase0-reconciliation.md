@@ -14,17 +14,17 @@ Per THE ONE MECHANISM: every INDEX/table/link touched this phase, promise vs dis
 |---|---|---|
 | `Team Knowledge/content-os/` emptied + removed | `ls` → does not exist | ✅ |
 | 3 content-os files archived | `Deliverables/_archive/content-os/` holds README, content-evidence-system, evidence-table | ✅ |
-| Mean Alyssa agent draft archived | `_archive/station-mean-alyssa.agent-draft.md` present; `2026-07-05-content-os-brain/` holds only web-research-steal-list.md; no `.claude/agents/mean-alyssa.md` exists | ✅ |
+| Mean Alyssa agent draft archived | [[Deliverables/_archive/station-mean-alyssa.agent-draft]] present; `2026-07-05-content-os-brain/` holds only web-research-steal-list.md; no [[Hermes/MEAN-ALYSSA]] exists | ✅ |
 | WS-011 draft folded into WS-008 + archived | WS-008 has Touchpoint 1/2 sections + HALT rules (lines ~97-102); draft in `_archive/` | ✅ |
 | v3 labels | FABLE.md frontmatter `status: v3 — Phase 0 reconciliation`; README.md "The four parts (v3 …)" | ✅ |
-| PITCH facts stripped | `learn-pitch-index.md` prices/statuses/chat-words → `[[Hermes/BUSINESS]]` pointers (per Librarian recon report) | ✅ (spot-checked via report) |
+| PITCH facts stripped | [[Deliverables/2026-07-05-vault-learn/learn-pitch-index]] prices/statuses/chat-words → `[[Hermes/BUSINESS]]` pointers (per Librarian recon report) | ✅ (spot-checked via report) |
 | Wren sweep | `.claude/agents/wren.md` retirement banner added; agent-index already correct | ✅ |
 | Task INDEX regenerated | Counts on disk: 17 open / 0 in-progress / 3 done — matches regenerated INDEX | ✅ |
 | MAP §3 carries her ladders | Email ladder (Bingeable → 5 Minute Newsletter + bumps), Pinterest ladder (Pin Planner → Slowly Viral), Promo Planner moved OUT of W3 grid to Sales-overlay line, W3/W4 teach-from-source notes | ✅ |
 | MAP §7 examples/good-bad fixed | Quarantine/§7 now states `Hermes/examples/good|bad` exist; PKM variant missing | ✅ |
-| Cupcake fix | gate3-v5 line 85: real party spread from `PKM/Journal/2026/05/2026-05-07-norah-bday-planning.md`; no unicorn/cupcake remains except in the HALT note | ✅ |
+| Cupcake fix | gate3-v5 line 85: real party spread from [[Notebook/Journal/2026/05/2026-05-07-norah-bday-planning]]; no unicorn/cupcake remains except in the HALT note | ✅ |
 | CUPCAKE reply word | Flagged HALT-manual, real BOH word "Yes Chef", not swapped silently | ✅ (correct behavior) |
-| Sitting doc | `Deliverables/2026-07-05-phase2-decision-sitting.md` exists, fate needs-Alyssa | ✅ |
+| Sitting doc | [[Deliverables/2026-07-05-phase2-decision-sitting]] exists, fate needs-Alyssa | ✅ |
 
 ## 2. Link integrity after moves
 
@@ -32,7 +32,7 @@ Grep for `Team Knowledge/content-os` and `station-*` across Hermes/, .claude/, T
 
 ## 3. Fable's own Phase 0 edits
 
-- **Voice-authority ruling (item 6):** JUDGMENT layer (SOUL/STYLE/TASTE/ANTI-AI v3) = sole voice authority. Recorded in `Hermes/SOURCES.md` (tier-2 para + ruling block); `writing-style.md` added to MAP quarantine row with void-frontmatter note. No PKM file edited (prime rule 1).
+- **Voice-authority ruling (item 6):** JUDGMENT layer (SOUL/STYLE/TASTE/ANTI-AI v3) = sole voice authority. Recorded in [[Hermes/SOURCES]] (tier-2 para + ruling block); [[Studio/Analysis/writing-style]] added to MAP quarantine row with void-frontmatter note. No PKM file edited (prime rule 1).
 - **Memory (item 13):** wren → retired; second-brain-voice-layer → superseded; voice-profile-methodology → historical; hermes-brain → v3 + Mean-Alyssa-is-a-gate + Big Plan pointer; MEMORY.md index lines synced.
 
 ## 4. Mean Alyssa audit verdict
@@ -52,6 +52,6 @@ Retired folder empty ✅ · drafts archived ✅ · MAP carries her ladder ✅ ·
 |---|---|
 | 5 moved files | archived |
 | WS-008, FABLE, README, MAP, SOURCES, learn-pitch-index, tasks/INDEX, wren.md shim | promoted (system state) |
-| `2026-07-05-phase2-decision-sitting.md` | needs-Alyssa |
-| `2026-07-05-phase0-reconciliation-librarian.md`, this file | referenced → archive after LIVE |
+| [[Deliverables/2026-07-05-phase2-decision-sitting]] | needs-Alyssa |
+| [[Deliverables/2026-07-05-phase0-reconciliation-librarian]], this file | referenced → archive after LIVE |
 | Larry memory files | promoted |

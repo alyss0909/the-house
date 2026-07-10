@@ -12,20 +12,20 @@ linked_guidelines: []
 
 ## Context
 
-Picked up the live handoff (`Deliverables/2026-07-06-content-os-sprint-handoff.md`) mid-sprint: produce 6 posts across different lanes, option blocks throughout, each pressure-tested in blind lineups against her top-9 real decks until indistinguishable. Ran the full pipeline end to end in one session via parallel subagents.
+Picked up the live handoff ([[Deliverables/2026-07-06-content-os-sprint-handoff]]) mid-sprint: produce 6 posts across different lanes, option blocks throughout, each pressure-tested in blind lineups against her top-9 real decks until indistinguishable. Ran the full pipeline end to end in one session via parallel subagents.
 
 ## What we did
 
 - Larry verified all four repo-extraction maps complete (no extractor respawn needed) and confirmed the master plan already carried the Phase-4 automation spec (handoff task #5 was stale).
 - Larry added Alyssa's dashboard / daily-Hermes-agents idea to the master plan Phase-4 spec (Larry pitches daily-view options at Phase-4 open).
-- Test Kitchen (5 forced personas) ran the outlier analysis on the top-9 (`Deliverables/2026-07-06-outlier-analysis.md`) and pitched 6 posts across 6 lanes (`Deliverables/2026-07-06-content-os-pitches.md`).
-- Mean Alyssa gate scored all 6 + a planted decoy (decoy caught cleanly; all 6 passed, 2 with repair conditions) — `Deliverables/2026-07-06-pitch-gate-verdict.md`.
+- Test Kitchen (5 forced personas) ran the outlier analysis on the top-9 ([[Deliverables/2026-07-06-outlier-analysis]]) and pitched 6 posts across 6 lanes ([[Deliverables/2026-07-06-content-os-pitches]]).
+- Mean Alyssa gate scored all 6 + a planted decoy (decoy caught cleanly; all 6 passed, 2 with repair conditions) — [[Deliverables/2026-07-06-pitch-gate-verdict]].
 - Two Hermes writers wrote all 6 posts under B-hybrid protocol into `Deliverables/2026-07-06-sprint-posts/`.
 - Larry ran mechanical lint before every judging round; caught 2 banned-vocab breaches (incl. one "fix" a writer documented but never applied) and sent them back.
 - Four rounds of blind lineups (9 judges total, calibration-gated, key triple-checked by a dedicated builder): round 1 cleared posts 5-6, round 2 cleared post 2, round 3 cleared posts 1 and 4, round 4 cleared post 3. **Final: 6/6.** Verdicts in `Hermes/tests/results/2026-07-06-sprint-lineups/`.
 - Larry enforced fact discipline mid-pipeline: Writer A purged five invented-biography spots from post 1; Writer B independently self-caught the same pattern in post 4.
-- Larry packaged everything into the sitting doc: `Deliverables/2026-07-06-sprint-sitting-doc.md` (hook menus, decks, captions, CTA option blocks, design brief lines, 12-item decisions queue).
-- Larry logged 3 proposed brain rulings + Alyssa's hook correction context to `Hermes/learning/inbox.md`.
+- Larry packaged everything into the sitting doc: [[Deliverables/2026-07-06-sprint-sitting-doc]] (hook menus, decks, captions, CTA option blocks, design brief lines, 12-item decisions queue).
+- Larry logged 3 proposed brain rulings + Alyssa's hook correction context to [[Hermes/learning/inbox]].
 
 ## Decisions made
 
@@ -48,7 +48,7 @@ Picked up the live handoff (`Deliverables/2026-07-06-content-os-sprint-handoff.m
 
 ## Open threads
 
-- [ ] Alyssa answers the 12-item decisions queue in `Deliverables/2026-07-06-sprint-sitting-doc.md` (items 1, 2, 5 block shipping posts 1, 2, 3).
+- [ ] Alyssa answers the 12-item decisions queue in [[Deliverables/2026-07-06-sprint-sitting-doc]] (items 1, 2, 5 block shipping posts 1, 2, 3).
 - [ ] Three proposed brain rulings pending her call (ironic-self-reference carve-out; cross-post reuse rule; BOH metaphor-density carve-out) — in inbox + queue #10-12.
 - [ ] If reuse ruling lands against reuse: post-3 v4 gets one re-review before publish.
 - [ ] Webinar framework processing (both BOH webinars) — still pending from prior session.

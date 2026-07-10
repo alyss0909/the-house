@@ -87,7 +87,7 @@ find "Team" -path "*/journal/*.md" | grep -i <keyword>
 
 ### 5. Write the file
 
-Copy `Studio/Team Knowledge/tasks/_template.md` to `Studio/Team Knowledge/tasks/open/${FILENAME}`. Fill in:
+Copy [[Studio/Team Knowledge/tasks/_template]] to `Studio/Team Knowledge/tasks/open/${FILENAME}`. Fill in:
 
 - All identity, ownership, status, time, provenance fields
 - All six `linked_*` arrays (use `[]` if genuinely none — but only after walking step 4)

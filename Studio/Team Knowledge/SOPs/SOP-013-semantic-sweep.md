@@ -83,10 +83,10 @@ For each `developing` or `thesis-ready` signal: check which Second Brain files a
 For any signal at 6+ recurrence with no thesis draft: write it now. For any signal where Alyssa has edited the thesis draft: update status to `becoming` in signals-index.
 
 ### Step 6 — Voice loop check
-Read the last month of `Hermes/learning/inbox.md` and `Hermes/learning/log.md`. Is there a pattern of corrections that should become a standing rule? If so, propose graduating it into `Hermes/STYLE.md`, `TASTE.md`, or `ANTI-AI.md` - Alyssa approves before it lands.
+Read the last month of [[Hermes/learning/inbox]] and [[Hermes/learning/log]]. Is there a pattern of corrections that should become a standing rule? If so, propose graduating it into [[Hermes/STYLE]], [[Hermes/TASTE]], or [[Hermes/ANTI-AI]] - Alyssa approves before it lands.
 
 ### Step 7 — Taste loop check
-Read `Studio/Analysis/taste-log.md`. Are there new approval patterns from the month? Are any YES patterns now strong enough to become standing instructions? Flag in the sweep note.
+Read [[Studio/Analysis/taste-log]]. Are there new approval patterns from the month? Are any YES patterns now strong enough to become standing instructions? Flag in the sweep note.
 
 ### Step 8 — Content type classification
 For every new signal: add content type tags from the set: `idea | content | teaching | voice`. These drive content activation — `content` and `teaching` signals get prioritized in WS-008.
@@ -106,7 +106,7 @@ Larry delegates to a subagent. Brief includes: date range, signals-index at star
 
 Subagent produces: full intelligence report. Larry writes: 1-page executive summary for Alyssa — plain language, what compounded, what's ready to act on, what needs her input.
 
-Also produces: updated `Studio/Analysis/yes-pattern.md` + proposed Hermes rule graduations (Alyssa approves).
+Also produces: updated [[Studio/Analysis/yes-pattern]] + proposed Hermes rule graduations (Alyssa approves).
 
 ---
 

@@ -33,4 +33,4 @@ Carousel learning and generation should be source-first:
 
 ## Open Thread
 
-`carousel-quickref.md` and `templates/carousel-brief.md` still exist. They may remain useful as execution helpers, but they should not be treated as primary learning sources. Revisit later if Alyssa wants a stricter cleanup pass.
+[[Studio/Analysis/Frameworks/carousel-quickref]] and [[Studio/Analysis/Templates/carousel-brief]] still exist. They may remain useful as execution helpers, but they should not be treated as primary learning sources. Revisit later if Alyssa wants a stricter cleanup pass.

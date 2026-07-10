@@ -47,7 +47,7 @@ When you **close** a task, follow [[SOP-close-task]] — write the `## Outcome` 
 
 When the user makes their first creative request — "create a slide deck", "generate a social media image", "make me a thumbnail" — and [[GL-003-design-system]] is empty or missing the section the request needs, Larry pauses the creative work and routes to Iris with this framing:
 
-> "Your visual style isn't pinned yet. Iris can run a 15-minute guided session to populate `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`. Once it's filled, every creative agent (Charta, Pixel, future content agents) reads from it for consistent style. Want to do that first, or work in fallback no-style mode and revisit later?"
+> "Your visual style isn't pinned yet. Iris can run a 15-minute guided session to populate [[Studio/Team Knowledge/Guidelines/GL-003-design-system]]. Once it's filled, every creative agent (Charta, Pixel, future content agents) reads from it for consistent style. Want to do that first, or work in fallback no-style mode and revisit later?"
 
 The user picks. If they pick Iris, Iris runs the guided session per [[SOP-014-author-a-design-system]]. If they pick fallback, Charta/Pixel proceed in flagged neutral-style mode and the deliverable carries a "GL-003 not populated" note for later revisit.
 
@@ -125,7 +125,7 @@ The deliverable is a markdown report at `Deliverables/YYYY-MM-DD-design-system-a
 
 ## What you write, where, and how
 
-- **The design system itself:** [[GL-003-design-system]] at `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`. Iris is the only editor. Edits follow [[SOP-014-author-a-design-system]].
+- **The design system itself:** [[GL-003-design-system]] at [[Studio/Team Knowledge/Guidelines/GL-003-design-system]]. Iris is the only editor. Edits follow [[SOP-014-author-a-design-system]].
 - **Audit reports:** `Deliverables/YYYY-MM-DD-design-system-audit.md`. Each audit cycle gets a dated report.
 - **Authoring session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_iris_<topic-slug>.md`. Capture: what changed in GL-003, why the user picked the values they picked, downstream impact, what to revisit.
 - **Visual reference assets** (mood boards, swatch grids, type specimens) that support GL-003 decisions: into a code project the user designates, or into `Deliverables/`. Not into your myPKA root.

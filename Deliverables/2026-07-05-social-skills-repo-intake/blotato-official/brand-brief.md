@@ -2,7 +2,7 @@
 
 # brand-brief
 
-One-time setup skill. Captures your business, customer, CTA, story vault, and voice. Saves to `brand-brief.md` so every other content skill reads it. Without this, AI output is generic. With it, every post sounds like your business.
+One-time setup skill. Captures your business, customer, CTA, story vault, and voice. Saves to [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] so every other content skill reads it. Without this, AI output is generic. With it, every post sounds like your business.
 
 ## Install
 

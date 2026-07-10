@@ -21,12 +21,12 @@ Sixth session for Alyssa. Direct continuation of Phase 5 rethink from prior sess
 - **Larry** confirmed entity body formats against canonical ICOR course examples (inline bold prose for KEs and Topics; H2 headers for Projects, Goals, Habits per scaffold templates).
 - **Larry** established the collision architecture: every Journal entry gets `**Connections:** [[slug]]` wikilinks so notes surface passively in Obsidian backlinks panel when any linked entity is opened.
 - **Silas** ran Phase 1 pre-import cleanup:
-  - Created `PKM/My Life/Projects/notion-templates.md`
-  - Renamed `PKM/My Life/Topics/ai.md` → `pkm.md`
+  - Created [[Notebook/Life/Projects/notion-templates]]
+  - Renamed `PKM/My Life/Topics/ai.md` → [[Notebook/Life/Topics/pkm]]
   - Deleted 9 Topic files (brand-words, design-inspo, garden, good-copy, montessori, personal-development, seo, space, webinars)
   - Added `## Related notes` section to 46 entity files (all KEs, Projects, Offers, Goals, CRM People)
 - **Silas** ran the Tier 1 CSV import: 472 Journal entries created in `PKM/Journal/YYYY/MM/`, spanning 2019–2026, with YAML tags and `**Connections:**` wikilinks derived from Label, Area, Tags, Projects, and client name detection.
-- **Larry** created `PKM/CRM/People/alex.md` (CRM file was missing; 3 Journal entries were pointing to `[[alex]]`).
+- **Larry** created [[Notebook/Life/CRM/People/alex]] (CRM file was missing; 3 Journal entries were pointing to `[[alex]]`).
 - **Larry** spot-checked sample entries: all three verified correct (Gillian design inspo → `[[gillian]]`, spinach copy → `[[emails]]`, Good Rug → `[[home]]`, 2019 Muising → `muisings` tag + `[[life]]`).
 
 ## Decisions made
@@ -65,7 +65,7 @@ Sixth session for Alyssa. Direct continuation of Phase 5 rethink from prior sess
 
 - [ ] **Tier 2 routing** — 193 Journal entries have only `[[life]]` as their Connections wikilink. Larry needs a read pass to apply more specific entity wikilinks (offers, projects, KEs, clients). Start of next session.
 - [ ] **Tier 3 surface to Alyssa** — ~70 genuinely ambiguous notes to batch and present for her input after Tier 2 pass.
-- [ ] **BOH imagery entry** — `PKM/Journal/2026/02/2026-02-28-boh-imagery.md` is rich Back of House offer content but only has `[[rebrand]]` in Connections. Should also have `[[back-of-house]]`. Fix during Tier 2 pass.
+- [ ] **BOH imagery entry** — [[Notebook/Journal/2026/02/2026-02-28-boh-imagery]] is rich Back of House offer content but only has `[[rebrand]]` in Connections. Should also have `[[back-of-house]]`. Fix during Tier 2 pass.
 - [ ] **`design` area mapping** — Silas mapped "Design" Area → `[[operations]]` in ~12 notes. Review during Tier 2 pass; many likely belong in `[[rebrand]]`, `[[business]]`, or client CRM records instead.
 - [ ] **Entity body content** — KE bodies are structural shells with blank sections. Will fill naturally as Related notes wikilinks accumulate post-import and post-Tier 2.
 - [ ] **Habit files** — none exist yet. After Tier 2 review, patterns in the Idea Pantry may suggest 2-3 Habits to create. Surface to Alyssa then.

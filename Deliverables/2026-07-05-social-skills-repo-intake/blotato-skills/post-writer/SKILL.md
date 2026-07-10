@@ -21,13 +21,13 @@ If the topic is missing, ask. If the platform is missing, ask. Don't fill in def
 
 ### Step 1: Load context
 
-1. Look for `brand-brief.md` in the current directory. **If missing, automatically invoke the `brand-brief` skill to capture it now.** Don't tell the user to "run brand-brief first" â€” just walk them through the brief, save it, then continue.
+1. Look for [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory. **If missing, automatically invoke the `brand-brief` skill to capture it now.** Don't tell the user to "run brand-brief first" â€” just walk them through the brief, save it, then continue.
 2. Read the brief once it exists. Pay special attention to the **Strong Opinion / Wedge** section â€” that's the viral fuel for contrarian-take and "most people think X" hooks.
 3. Confirm the topic and platform with the user if either is unclear.
 
 ### Step 2: Pick a hook pattern
 
-**The hook is 50% of the post-grader score. If the hook is weak, the post can't recover.** Pick a pattern that fits the topic AND the user's wedge from `brand-brief.md`.
+**The hook is 50% of the post-grader score. If the hook is weak, the post can't recover.** Pick a pattern that fits the topic AND the user's wedge from [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]].
 
 Choose ONE of these proven patterns. These are public templates from top short-form creators.
 
@@ -75,7 +75,7 @@ Choose ONE of these proven patterns. These are public templates from top short-f
 > Or: "[Audience] keeps telling me [X]. They're missing the point."
 > Example: "Most candle makers think scent is the product. The product is calm."
 > Example: "Every coach tells you to find your niche. Find your enemy first."
-> Why it works: forces the reader to pick a side. Polarity drives comments. Pull the wedge from `brand-brief.md`.
+> Why it works: forces the reader to pick a side. Polarity drives comments. Pull the wedge from [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]].
 
 **11. The Stolen Lesson Hook (high-virality, tactical)**
 > "I copied [specific thing]. Here's what happened."
@@ -123,7 +123,7 @@ Body rules (apply ALL):
 
 ### Step 4: Add the CTA
 
-One CTA per post. Not three. Pull from `brand-brief.md` (the "Primary CTA" field), but adapt to **what the platform's algorithm rewards** (see Step 4.5 below).
+One CTA per post. Not three. Pull from [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] (the "Primary CTA" field), but adapt to **what the platform's algorithm rewards** (see Step 4.5 below).
 
 **Share-driving CTAs (strongest â€” they trigger the metric algorithms reward most):**
 - "Tag someone who needs to hear this." (drives shares + tags)

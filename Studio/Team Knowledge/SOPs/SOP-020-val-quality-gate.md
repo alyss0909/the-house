@@ -24,7 +24,7 @@ The gate runs in six phases. Don't skip phases — accessibility issues hide beh
 
 ### Phase 1 — Preparation
 
-1. **Read the design system.** If your team has one at `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`, read it now, every time. It may have changed since the last gate. Note the relevant tokens, components, and rules you'll be checking against. If GL-003 doesn't exist, the first finding is its absence — recommend the team document the design system as a prerequisite for any future quality gate that hopes to be objective.
+1. **Read the design system.** If your team has one at [[Studio/Team Knowledge/Guidelines/GL-003-design-system]], read it now, every time. It may have changed since the last gate. Note the relevant tokens, components, and rules you'll be checking against. If GL-003 doesn't exist, the first finding is its absence — recommend the team document the design system as a prerequisite for any future quality gate that hopes to be objective.
 2. **Read the spec.** What was the deliverable supposed to do? What did Felix (or whoever built it) hand off? If the spec is unclear, ask before inspecting.
 3. **Open the deliverable.** Browser, dev server, deployed preview — wherever it lives.
 

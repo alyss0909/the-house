@@ -9,12 +9,12 @@ scope: dashboard/01 Concepts.md (dataviewjs only — no CSS change needed)
 # Fix: choosing a concept doesn't turn the card green
 
 ## Symptom
-On the Concepts dashboard (`dashboard/01 Concepts.md`), clicking **✓ Choose** saves the react but the card does **not** turn green/locked. Alyssa chose 3 concepts on 2026-07-07 and none turned green.
+On the Concepts dashboard ([[Studio/Content/dashboard/01 Concepts]]), clicking **✓ Choose** saves the react but the card does **not** turn green/locked. Alyssa chose 3 concepts on 2026-07-07 and none turned green.
 
 ## Root cause (confirmed by reading the code)
 The green state is **already fully built** — this is NOT a styling bug:
 - **CSS exists and is correct:** `.dashboard .db-card.db-card-locked` in `.obsidian/snippets/dashboard.css` (~line 201) already recolors the whole card green (sage-mix background + darker border). No CSS change needed.
-- **Render logic exists and is correct:** in `01 Concepts.md`, a concept renders green when its numbered line in the pitch sheet starts with a `✓`. The parser is `line.match(/^(\d+)\.\s*(✓\s*)?(.+)$/)` and sets `approved = !!numMatch[2]`, which applies the `db-card-locked` class.
+- **Render logic exists and is correct:** in [[Studio/Content/dashboard/01 Concepts]], a concept renders green when its numbered line in the pitch sheet starts with a `✓`. The parser is `line.match(/^(\d+)\.\s*(✓\s*)?(.+)$/)` and sets `approved = !!numMatch[2]`, which applies the `db-card-locked` class.
 
 **The one missing piece:** the **✓ Choose** click handler (`doReact("✓ this week")` → `dbAppendReact`) only *appends a line to the `## Dashboard reacts` log*. It never writes the `✓` back onto the concept's own numbered line — so the flag that drives the green state is never set. Choosing logs the react but leaves the concept line unmarked, so it stays oat-colored.
 
@@ -59,4 +59,4 @@ Then in the existing handlers: on the `week`/Choose button call `dbMarkConceptCh
 - **Match titles by string equality, not regex** — some titles contain periods (e.g., "Big Lists Are Cute. Engaged Lists Make Money.").
 - The rendered title has `**bold**` stripped and whitespace collapsed; normalize the same way when matching (see helper).
 - This introduces a **modify** (in-place line edit) alongside the existing append-only reacts write. That's fine — same file — but worth knowing since the current code comment says "append-only."
-- No CSS work required. If you also touch `02 Arc.md`: a single-Wednesday arc currently has no `WED` entry in that file's `dayChipClass`/`dayFullLabel` maps (only `WED-A`/`WED-B`), so a lone Wednesday arc shows the label "WED" with no color — adding a `WED` key there is a nice-to-have, not part of this fix.
+- No CSS work required. If you also touch [[Studio/Content/dashboard/02 Arc]]: a single-Wednesday arc currently has no `WED` entry in that file's `dayChipClass`/`dayFullLabel` maps (only `WED-A`/`WED-B`), so a lone Wednesday arc shows the label "WED" with no color — adding a `WED` key there is a nice-to-have, not part of this fix.

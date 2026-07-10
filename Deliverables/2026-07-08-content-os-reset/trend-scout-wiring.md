@@ -10,14 +10,14 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
 
 - **What it is:** a monthly scrape currently run via **Apify** (`instagram-post-scraper`,
   confirmed run id `KM38FSuIlxdZk0Yvq`, seeded 2026-07-07) against the 16 Layer-1
-  trusted accounts in `Team Inbox/pitches/trusted-sources.md`.
+  trusted accounts in [[Studio/Content/trusted-sources]].
 - **HANDOFF-3 calls this a "Claude Routine visible in the Claude app."** The artifact I can
   see on disk is an Apify actor run, not a Claude Routine object. These may be the same
   thing (a Claude Routine that *invokes* the Apify actor) or two different descriptions of
   one pipeline. **CONFIRM WITH ALYSSA: is the monthly scrape a Claude Routine that calls
   Apify, or is "Claude Routine" describing something else entirely (e.g. a scheduled
   prompt in the Claude app UI)?** I am not touching either until this is confirmed.
-- **Cadence:** monthly (per `trusted-sources.md` frontmatter: `scrape_cadence: monthly`).
+- **Cadence:** monthly (per [[Studio/Content/trusted-sources]] frontmatter: `scrape_cadence: monthly`).
   **CONFIRM WITH ALYSSA: exact day-of-month it fires, and whether it's on a schedule or
   manually kicked off inside the Claude app.**
 - **What it scrapes:** top posts by saves/reach (winners only) from the Layer-1 accounts,
@@ -25,7 +25,7 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
   low-priority/proxy only. Also retries the known-private accounts each run
   (@cassklass_, @hellomedia, @milanasarenac).
 - **Output path (known):** `Team Inbox/pitches/swipe/YYYY-MM-swipe.md` — confirmed to exist
-  (`2026-07-swipe.md`, 255 lines, plus a `covers-2026-07` asset folder alongside it).
+  ([[Studio/Content/swipe/2026-07-swipe]], 255 lines, plus a `covers-2026-07` asset folder alongside it).
 - **Output shape (known, observed):** frontmatter (title/source/note) + a "Verified top
   covers" table (account, likes, verbatim cover text read off the image, the move/mechanic)
   + presumably more sections below (not fully read here — token discipline). Ranked by
@@ -58,9 +58,9 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
   `Team Inbox/pitches/`.
 - **Inputs:**
   - current month's `Team Inbox/pitches/swipe/YYYY-MM-swipe.md` (most recent monthly scrape)
-  - `Team Inbox/pitches/trusted-sources.md` (Layer 3 macro feeds, read weekly — newengen +
+  - [[Studio/Content/trusted-sources]] (Layer 3 macro feeds, read weekly — newengen +
     creatorflow links)
-  - `Team Inbox/pitches/taste-ledger.md` (what Alyssa has already reacted to, so the brief
+  - [[Studio/Content/taste-ledger]] (what Alyssa has already reacted to, so the brief
     doesn't re-pitch dead mechanics)
   - prior week's `Team Inbox/pitches/YYYY-Www-pitch.md` if one exists (avoid repeat ammo)
 - **Output path:** `Team Inbox/pitches/trend-briefs/YYYY-Www-trend-brief.md`
@@ -72,7 +72,7 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
   4. Top slide-structure patterns (named + example accounts)
   5. Examples from trusted accounts (verbatim, cited, cover+likes)
   6. Opportunity notes for Alyssa's offers (where a trend mechanic could carry a real
-     BOH/offer angle — tie to `Hermes/FUNNEL.md` if available downstream, Suki's call)
+     BOH/offer angle — tie to [[Hermes/FUNNEL]] if available downstream, Suki's call)
   7. Mean Alyssa ammo (specific reasons a lazy pitch would die this week)
   8. Scrape gaps (accounts that failed/were private, any staleness in the source swipe file)
 
@@ -106,8 +106,8 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
 ## 5. Mack-ready wiring for SOP-033 + WS-011
 
 - **SOP-033 inputs, confirmed against real paths:**
-  `Team Inbox/pitches/swipe/YYYY-MM-swipe.md`, `Team Inbox/pitches/trusted-sources.md`
-  (Layer 3 links), `Team Inbox/pitches/taste-ledger.md`.
+  `Team Inbox/pitches/swipe/YYYY-MM-swipe.md`, [[Studio/Content/trusted-sources]]
+  (Layer 3 links), [[Studio/Content/taste-ledger]].
 - **SOP-033 output, confirmed path:** `Team Inbox/pitches/trend-briefs/YYYY-Www-trend-brief.md`
   (new folder, created on first run — no other setup needed).
 - **How revised WS-011 calls it:** WS-011 step 1 invokes SOP-033 before Suki's Weekly
@@ -119,7 +119,7 @@ status: draft for Alyssa approval (Gate 2, HANDOFF-3)
   vault files (no external API calls of its own), so no rate limit exposure. Idempotent —
   re-running for the same ISO week overwrites/regenerates `YYYY-Www-trend-brief.md`
   rather than appending. The monthly Apify scrape (upstream, out of scope here) already
-  has its own retry-the-private-accounts behavior noted in `trusted-sources.md`; Mack does
+  has its own retry-the-private-accounts behavior noted in [[Studio/Content/trusted-sources]]; Mack does
   not change that.
 
 ---

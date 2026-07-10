@@ -11,13 +11,13 @@ linked_guidelines: [GL-003-design-system]
 # Draft tab (04) rewired to render real decks + [shipped] persistence
 
 ## What I built
-- Rewrote `dashboard/04 Draft.md`. Retired the hardcoded "layout preview"/"awaiting" stubs entirely. It now reads the newest pitch sheet's `## Drafts` section (per PIPELINE-CONTRACT.md), parses each `### <DAYKEY> — Title` block, and renders a real draft card: cover (shared `.db-storyboard-cover`), every numbered slide line verbatim (`.db-draft-slides`), and the caption (`.db-caption-box`).
+- Rewrote [[Studio/Content/dashboard/04 Draft]]. Retired the hardcoded "layout preview"/"awaiting" stubs entirely. It now reads the newest pitch sheet's `## Drafts` section (per PIPELINE-CONTRACT.md), parses each `### <DAYKEY> — Title` block, and renders a real draft card: cover (shared `.db-storyboard-cover`), every numbered slide line verbatim (`.db-draft-slides`), and the caption (`.db-caption-box`).
 - Ship/Redo react persists a ` [shipped]` suffix onto the draft's `### ` heading — an exact mirror of Arc's `[approved]` mechanism (`dbSetDraftShipped` / `dbDraftHeadingRegex` / `dbDraftIsShipped` clone `dbSetArcApproved` / `dbArcHeadingRegex` / `dbArcIsApproved`). Shipped locks the card green via `db-card-locked` + button `db-state-locked`, one-signal rule (GL-003 §5). Survives reload (state read from disk at wire time).
 - Empty-state per day when no draft exists (`dbEmptyDay`) — clean neutral, no fake content.
 - Nav pills, react-append helper (`dbAppendReact`), and design system identical to the other tabs. No new tokens; `.db-react-btn.ship` piggybacks `.week.yes`.
 
 ## Content move
-- Moved `Team Inbox/pitches/W30-friday-slow-down-deck.md` into a new `## Drafts` section of `2026-W30-pitch.md` as `### FRI — THE WORK STILL GETS DONE WHEN I SLOW DOWN` (contract Draft-block format: **Cover:**, **Caption:**, 10 numbered slide lines). Deleted the loose file (no loose decks — contract rule).
+- Moved `Team Inbox/pitches/W30-friday-slow-down-deck.md` into a new `## Drafts` section of [[Studio/Content/2026-W30-pitch]] as `### FRI — THE WORK STILL GETS DONE WHEN I SLOW DOWN` (contract Draft-block format: **Cover:**, **Caption:**, 10 numbered slide lines). Deleted the loose file (no loose decks — contract rule).
 - Concrete-poetry stagger preserved as ` / ` within each numbered slide line (contract wants one numbered line per slide).
 
 ## Contract edge case I hit (and fixed) — carry this forward

@@ -128,7 +128,7 @@ If a matching Project or Offer file exists:
 
 This step is mandatory. A meeting without a project cross-link is a ghost in the system — the Journal entry exists but the project file doesn't know the meeting happened.
 
-If no matching Project file exists but the meeting clearly relates to ongoing project work, Larry creates a stub Project file following the template in `Studio/Team Knowledge/Templates/project.md` and links it.
+If no matching Project file exists but the meeting clearly relates to ongoing project work, Larry creates a stub Project file following the template in [[Studio/Team Knowledge/Templates/project]] and links it.
 
 ## Step 4 - Raw Source Cleanup
 

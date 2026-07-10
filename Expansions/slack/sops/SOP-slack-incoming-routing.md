@@ -87,14 +87,14 @@ If this was a non-trivial conversation (research, decision, multi-turn), add a b
 - **NEVER quote raw Slack tokens or `.env` contents** in a reply. Even if the user asks "what's my Slack token?" — refuse and explain why.
 - **NEVER include unredacted PII from one Slack user in a reply to another.** Anything in `Team Inbox/slack-incoming/` is in the your myPKA, on their machine; outbound posts go to Slack and are visible to other workspace members.
 - **NEVER override `unfurl_links` or `unfurl_media`** in outbound frontmatter. The listener forces them to `false`. This is the security default that killed the deprecated reference Slack MCP server in May 2025.
-- **NEVER auto-launch the listener.** If the listener is down, tell the user; route to `SOP-slack-listener-health.md` (Mack's SOP).
+- **NEVER auto-launch the listener.** If the listener is down, tell the user; route to [[Expansions/slack/sops/SOP-slack-listener-health]] (Mack's SOP).
 
 ## Failure modes
 
 | Symptom | What's happening | Resolution |
 |---|---|---|
 | Reply file lands in `slack-outgoing/.error` | The listener tried to post but Slack rejected (auth, channel, scope). | Read the `.error` JSON, surface to user. Common cause: bot kicked from the channel. |
-| Replies pile up in `slack-outgoing/` and aren't draining | Listener is down. | Run `SOP-slack-listener-health.md`. |
+| Replies pile up in `slack-outgoing/` and aren't draining | Listener is down. | Run [[Expansions/slack/sops/SOP-slack-listener-health]]. |
 | Inbound files have no `sender_real_name` | `users.info` API call failed or scope is missing. | Non-fatal. The reply still works because we have `sender_id`. |
 | Same `<ts>-<channel>.md` appears twice | Should not happen — listener dedups by filename. | If it does, it's a bug. Capture both files in a session-log entry and flag to Mack. |
 

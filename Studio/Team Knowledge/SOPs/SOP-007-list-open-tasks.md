@@ -11,7 +11,7 @@ This is the resumption-at-scale SOP. At session start, we need to answer: "What'
 
 ## Two ways to do this
 
-- **§A Fast:** read `Studio/Team Knowledge/tasks/INDEX.md`. The index is auto-rebuilt by every task-touching SOP, so it's almost always fresh.
+- **§A Fast:** read [[Studio/Team Knowledge/tasks/INDEX]]. The index is auto-rebuilt by every task-touching SOP, so it's almost always fresh.
 - **§B Authoritative:** walk the folders directly with grep. Use this when you don't trust the index, or when you need a filter the index doesn't render.
 
 Default to §A. Fall back to §B when needed.

@@ -77,7 +77,7 @@ Second session for Alyssa. Continuation of the pre-import structure design start
 
 ## GL-002 extensions applied
 
-Three schema changes made to `GL-002-frontmatter-conventions.md`:
+Three schema changes made to [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]]:
 
 1. **`parent_key_element`** (optional slug) added to Key Element schema. Enables two-level KE nesting. Max depth two levels — do not chain further.
 2. **`linked_topics`** (optional list of slugs) added to Projects schema. Explicit FK from a Project to its related Topic(s).

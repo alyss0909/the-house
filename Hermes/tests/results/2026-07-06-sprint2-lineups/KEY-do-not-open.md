@@ -2,7 +2,7 @@
 
 Do not open this file until all three judges have filed verdicts on their calib + lineup files.
 
-Candidate identity (from `Deliverables/2026-07-06-sprint-posts-A.md` and `Deliverables/2026-07-06-sprint-posts-B.md`):
+Candidate identity (from [[Deliverables/_archive/sprint-1/2026-07-06-sprint-posts-A]] and [[Deliverables/_archive/sprint-1/2026-07-06-sprint-posts-B]]):
 - post-1 = Email/Edu, "Your First Email Already Lost Them." (welcome-sequence-as-documentary)
 - post-2 = Offer dual-CTA, "Your Next Buyer Already Subscribed." (cold-list two-diseases; **Option A CTA only rendered** — chat word "Cold" → List Resuscitator, per build instruction)
 - post-3 = Pinterest/Edu, "Pinterest Already Flagged Your Best Pin." (fresh-pin-is-a-combination-problem)
@@ -10,7 +10,7 @@ Candidate identity (from `Deliverables/2026-07-06-sprint-posts-A.md` and `Delive
 - post-5 = FTG Manifesto, "Your Weird Obsession Is The Business Plan." (portrait gallery, no CTA)
 - post-6 = Wildcard single-image, "she asked for a logo. she needed a witness." (**Version A only rendered**, per build instruction)
 
-Real post identity uses the caption-file date, sourced from `Library/Examples/Carousels/captions.md` and `Studio/Analysis/carousel-slide-by-slide.md`. All self-check/HALT/menu/option-block annotations were stripped from every candidate before insertion — judges see only cover/slides/caption, formatting parity held with the real items (no metrics, no source citations, no rewrite notes on any item in any file).
+Real post identity uses the caption-file date, sourced from [[Library/Examples/Carousels/captions]] and [[Studio/Analysis/carousel-slide-by-slide]]. All self-check/HALT/menu/option-block annotations were stripped from every candidate before insertion — judges see only cover/slides/caption, formatting parity held with the real items (no metrics, no source citations, no rewrite notes on any item in any file).
 
 ---
 
@@ -113,7 +113,7 @@ Confirmed: 6/6 candidates, one occurrence each, no duplicates, no omissions.
 
 ## VERIFICATION LOG
 
-**Pass 1 — item-by-item identity match.** Read every item in all six files against source material (`captions.md` dates/captions, `carousel-slide-by-slide.md` headline text, and the six post-N deliverable files in `2026-07-06-sprint-posts-A.md` / `-B.md`). Confirmed each item's true identity as tabled above.
+**Pass 1 — item-by-item identity match.** Read every item in all six files against source material (`captions.md` dates/captions, [[Studio/Analysis/carousel-slide-by-slide]] headline text, and the six post-N deliverable files in [[Deliverables/_archive/sprint-1/2026-07-06-sprint-posts-A]] / `-B.md`). Confirmed each item's true identity as tabled above.
 
 **Pass 2 — candidate completeness.** Confirmed the three lineup-B files together contain exactly 6 candidates (post-1 through post-6), one occurrence each, no duplicates, no omissions.
 

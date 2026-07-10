@@ -42,7 +42,7 @@ Visual direction: silver serving tray, single object — a torn-open envelope wi
 
 Body: I DID SOMETHING I TELL PEOPLE NOT TO DO, WHICH IS ACTUALLY LOOK AT MY OWN NUMBERS INSTEAD OF JUST TELLING EVERYONE ELSE TO LOOK AT THEIRS.. AND WHAT I FOUND WASN'T THE PART I EXPECTED TO HURT.
 
-Un-inventable detail: the cover claim is her verbatim sales-page line ("What If Your Next Buyer is already subscribed?" — `list-resuscitator-sales-page.md`) restated as a flat claim; slide 2 withholds WHERE the buyer is hiding, which the two-disease teaching resolves. "Mine" = my next buyer, chaining the open loop to the v3 cover.
+Un-inventable detail: the cover claim is her verbatim sales-page line ("What If Your Next Buyer is already subscribed?" — [[Library/Examples/sales-pages/list-resuscitator-sales-page]]) restated as a flat claim; slide 2 withholds WHERE the buyer is hiding, which the two-disease teaching resolves. "Mine" = my next buyer, chaining the open loop to the v3 cover.
 
 ### Slide 3 — Agitate
 
@@ -58,7 +58,7 @@ Body: EVERYONE TREATS A COLD LIST LIKE ONE BROKEN THING AND BUYS ONE FIX FOR IT.
 
 Body: THE BEST EMAIL IN THE WORLD IS USELESS IF NOBODY CLICKS. THAT'S THE WHOLE PROBLEM WITH TREATING "GOOD COPY" AS THE FIX FOR A COLD LIST.. YOU CAN WRITE THE MOST BEAUTIFUL EMAIL OF YOUR LIFE AND IT WON'T MATTER IF THE SUBJECT LINE READS LIKE EVERY OTHER ONE SITTING IN THAT INBOX.
 
-Un-inventable detail: "80 subject lines in all my MOST clicked categories (like emotional whiplash, dumb lessons, existential crisis, or *ur gonna hate this*)" — verbatim from the real Unignorable Subject Lines upsell copy (source: `PKM/Second Brain/examples/sales-pages/list-resuscitator-sales-page.md`). The category names ARE the texture, not paraphrased.
+Un-inventable detail: "80 subject lines in all my MOST clicked categories (like emotional whiplash, dumb lessons, existential crisis, or *ur gonna hate this*)" — verbatim from the real Unignorable Subject Lines upsell copy (source: [[Library/Examples/sales-pages/list-resuscitator-sales-page]]). The category names ARE the texture, not paraphrased.
 
 ### Slide 5 — Value 2 (teaching, un-inventable detail required)
 
@@ -66,13 +66,13 @@ Un-inventable detail: "80 subject lines in all my MOST clicked categories (like 
 
 Body: ONCE THEY'RE OPENING AGAIN, THE SECOND FAILURE POINT SHOWS UP. THEY OPEN, THEY DON'T TRUST WHAT'S INSIDE, THEY GHOST. THE FIX IS KNOWING WHICH KIND OF EMAIL A COLD SUBSCRIBER NEEDS FIRST, AND SENDING THAT ONE.
 
-Un-inventable detail: the real sorted categories, verbatim — "Relationship Builders, Authority Boosters & Sales emails" (`list-resuscitator-sales-page.md`) — so you know exactly what to send, when.
+Un-inventable detail: the real sorted categories, verbatim — "Relationship Builders, Authority Boosters & Sales emails" ([[Library/Examples/sales-pages/list-resuscitator-sales-page]]) — so you know exactly what to send, when.
 
 ### Slide 6 — Emotional validation (hinge, no CTA)
 
 **Headline:** A Cold Subscriber Isn't A Lost Cause.
 
-*(Carve-out note: this line is verbatim from her own published sales page — "A cold subscriber isn't a lost cause. Sometimes life gets busy." (`list-resuscitator-sales-page.md`, line 93) — the sole approved exception to the negation-shape scan, per her ruling: lines verbatim from her voice stay as she wrote them, never newly generated.)*
+*(Carve-out note: this line is verbatim from her own published sales page — "A cold subscriber isn't a lost cause. Sometimes life gets busy." ([[Library/Examples/sales-pages/list-resuscitator-sales-page]], line 93) — the sole approved exception to the negation-shape scan, per her ruling: lines verbatim from her voice stay as she wrote them, never newly generated.)*
 
 Body: SOMETIMES LIFE GETS BUSY. THAT'S IT. THAT'S THE WHOLE REASON. THEY'RE NOT GHOSTING YOU ON PURPOSE, THEY FORGOT YOU EXIST FOR A WHILE, AND A SIMPLE NUDGE CAN REMIND THEM WHY THEY SUBSCRIBED IN THE FIRST PLACE.
 
@@ -138,7 +138,7 @@ xx
 ### Post 2 self-check
 
 **Texture inventory (≥1 un-inventable detail per value slide, source paths):**
-- Slide 4: "80 subject lines... emotional whiplash, dumb lessons, existential crisis... ur gonna hate this" — `PKM/Second Brain/examples/sales-pages/list-resuscitator-sales-page.md`, lines 121-123.
+- Slide 4: "80 subject lines... emotional whiplash, dumb lessons, existential crisis... ur gonna hate this" — [[Library/Examples/sales-pages/list-resuscitator-sales-page]], lines 121-123.
 - Slide 5: "Relationship Builders, Authority Boosters & Sales emails" — same source, line 45 / `PKM/My Life/Offers/list-resuscitator.md` line 59.
 - Slide 7: "better engagement = better delivery = better engagement = (..you get the idea..)" — same source, line 89 (cited as a real self-aware loop device, not restyled as new).
 - Slide 8: "Big lists are cute, but engaged lists make money" — `PKM/My Life/Offers/list-resuscitator.md`, line 19, her own verbatim carve-out line per STYLE.md §6.
@@ -200,7 +200,7 @@ anyway. no freebie today, no offer, just the thing i keep noticing.
 
 xx
 
-**Shared teaching source (both versions):** the "Odd Connection" prompt, verbatim — *"What's one symptom your dream client definitely feels but wouldn't think is connected to the deeper issue? (ex: I thought my problem was procrastination, but it was actually decision fatigue.)"* (`PKM/Second Brain/programs/back-of-house/2. The Warm Plate Method/2.1 Wanna Hear the Specials.md`, Part 1, Odd Connection). Version B translates the prompt's own worked example; Version A applies the prompt's mechanic to a coined pair.
+**Shared teaching source (both versions):** the "Odd Connection" prompt, verbatim — *"What's one symptom your dream client definitely feels but wouldn't think is connected to the deeper issue? (ex: I thought my problem was procrastination, but it was actually decision fatigue.)"* ([[Library/Programs/back-of-house/2. The Warm Plate Method/2.1 Wanna Hear the Specials]], Part 1, Odd Connection). Version B translates the prompt's own worked example; Version A applies the prompt's mechanic to a coined pair.
 
 Shared hashtag block: #alyssacolemanca #slowmarketing #softceo #backofhouse #boh #businesscoach #productivity #entrepreneur #femaleentrepreneur #solopreneur
 
@@ -209,9 +209,9 @@ Shared hashtag block: #alyssacolemanca #slowmarketing #softceo #backofhouse #boh
 ### Post 6 self-check
 
 **Texture inventory (source paths):**
-- Format precedent: "the guest check post" / "cup quotes" — `PKM/Journal/2026/03/2026-03-12-repeatable-formats.md`, lines 7-9.
-- Real Mar 10 precedent metrics (honestly cited, not inflated): 7,472 views, 4,523 reach, 308 likes, 47 shares, 3 follows, 11 comments, 89 saves — `PKM/Second Brain/examples/Carousels/captions.md`, lines 359-369, and cross-verified in `PKM/Second Brain/analysis/carousel-hook-forensics.md` line 25.
-- The diagnostic pairing itself: verbatim Odd Connection prompt + its own worked example (procrastination/decision fatigue) — `PKM/Second Brain/programs/back-of-house/2. The Warm Plate Method/2.1 Wanna Hear the Specials.md`, Part 1.
+- Format precedent: "the guest check post" / "cup quotes" — [[Notebook/Journal/2026/03/2026-03-12-repeatable-formats]], lines 7-9.
+- Real Mar 10 precedent metrics (honestly cited, not inflated): 7,472 views, 4,523 reach, 308 likes, 47 shares, 3 follows, 11 comments, 89 saves — `PKM/Second Brain/examples/Carousels/captions.md`, lines 359-369, and cross-verified in [[Studio/Analysis/carousel-hook-forensics]] line 25.
+- The diagnostic pairing itself: verbatim Odd Connection prompt + its own worked example (procrastination/decision fatigue) — [[Library/Programs/back-of-house/2. The Warm Plate Method/2.1 Wanna Hear the Specials]], Part 1.
 - No CTA / no chat word: matches the real Mar 10 post's own recorded "CTA word: none" — `captions.md` line 369.
 
 **ANTI-AI pass results:**

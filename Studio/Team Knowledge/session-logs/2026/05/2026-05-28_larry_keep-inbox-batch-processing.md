@@ -25,9 +25,9 @@ Alyssa opened with a handoff from the prior session. ~34 Google Keep exports had
 - **Larry** swept orphaned images (4 vault-root PNG files + 2 media files with no extension) and moved all to `PKM/Images/2026/05/`.
 - **Larry** deleted 33 processed inbox files and cleared `_KeepSidianLogs/2026-05-28.md`.
 - **Penn** wrote 32 journal entries across `PKM/Journal/2024/`, `PKM/Journal/2025/`, and `PKM/Journal/2026/`.
-- **Penn** appended 3 new Norahisms to existing `2025-03-19-norah-isms.md` (no new file created).
-- **Penn** replaced `2025-07-16-service-pros-consider-hiring.md` with the updated inbox version.
-- **Larry** wrote `SOP-003-keep-notes-to-journal.md` codifying the full process including the canonical journal entry format.
+- **Penn** appended 3 new Norahisms to existing [[Notebook/Journal/2025/03/2025-03-19-norah-isms]] (no new file created).
+- **Penn** replaced [[Notebook/Journal/2025/07/2025-07-16-service-pros-consider-hiring]] with the updated inbox version.
+- **Larry** wrote [[Studio/Team Knowledge/SOPs/SOP-003-keep-notes-to-journal]] codifying the full process including the canonical journal entry format.
 
 ## Decisions made
 

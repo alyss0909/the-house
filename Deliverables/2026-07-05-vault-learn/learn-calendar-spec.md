@@ -3,11 +3,11 @@
 > Batch-mode backbone for Alyssa Coleman's Content OS. Every claim is sourced to a vault file. Where a slot has no documented real-post example, it is marked **GAP** — those need her gold-standard input, not inference.
 >
 > Sources of truth:
-> - Grid (theme/type/role/product/CTA per real post): `PKM/Second Brain/examples/Carousels/captions.md` + `PKM/Second Brain/analysis/carousel-slide-by-slide.md`
-> - Product/price/chat-word: `Hermes/BUSINESS.md` (Notion snapshot 2026-07-05) + `PKM/My Life/Offers/`
+> - Grid (theme/type/role/product/CTA per real post): `PKM/Second Brain/examples/Carousels/captions.md` + [[Studio/Analysis/carousel-slide-by-slide]]
+> - Product/price/chat-word: [[Hermes/BUSINESS]] (Notion snapshot 2026-07-05) + `PKM/My Life/Offers/`
 > - Batching method: `PKM/Second Brain/programs/back-of-house/3. Traffic Pantry/` (3.1 Bread and Butter, 3.3 The Batch, transcripts, slides)
-> - Promo/monthly layer: `PKM/Second Brain/programs/back-of-house/4. Soft Sales System/4.1 Promo Copy Planner.md`
-> - Taxonomy lock: `Team Knowledge/session-logs/2026/07/2026-07-04-18-22_larry_carousel-notion-taxonomy-rule.md`
+> - Promo/monthly layer: [[Library/Programs/back-of-house/4. Soft Sales System/4.1 Promo Copy Planner]]
+> - Taxonomy lock: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-18-22_larry_carousel-notion-taxonomy-rule]]
 
 ---
 
@@ -106,14 +106,14 @@ Cross-theme (any): The 90 Minute Reset $333 (Prod/Email/BoH), Quarter in a Day V
 The Content OS runs **her** system, not a generic calendar. Two nested batch engines:
 
 ### D1. Bread & Butter / cornerstone engine (M3.1) — the weekly container
-Source: `3.1 Bread and Butter Content.md`, transcript.
+Source: [[Library/Programs/back-of-house/3. Traffic Pantry/3.1 Bread and Butter Content]], transcript.
 - **One cornerstone piece per week**, spun automatically into email + social + Pinterest + video. "You're not creating more content, you're creating smarter containers."
 - **4 Signature Pillars** = the four things she wants to be known for. Each pillar must: (1) relate to an offer, (2) lead to a freebie, (3) carry a POV.
 - Under each pillar, **13 post ideas** (= one quarter of weekly cornerstones per pillar; 4 pillars × 13 = 52 weeks).
 - **These 4 pillars ARE the 4 weekly themes** of §A: Email / Pinterest / BoH Systems / Productivity. The monthly rotation cycles one pillar per week.
 
 ### D2. The 7×10×4×5 Pinterest batch engine (M3.3) — the traffic multiplier
-Source: `3.3 The Batch.md`, `3.3 The Batch Transcript.md` (lines 112-130), `3.3 Pin Batching Slides.md`.
+Source: [[Library/Programs/back-of-house/3. Traffic Pantry/3.3 The Batch]], [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.3 The Batch Transcript]] (lines 112-130), [[Library/Programs/back-of-house/3. Traffic Pantry/slides/3.3 Pin Batching Slides]].
 - **Goal:** 1,400 unique fresh pins from content you already have, scheduled to run daily for 6 months in one batch session.
 - **The formula (7×10×4×5):**
   - **7 URLs** = 4 cornerstone blogs + freebie + tripwire + offer
@@ -139,7 +139,7 @@ Source: `3.3 The Batch.md`, `3.3 The Batch Transcript.md` (lines 112-130), `3.3 
 
 The weekly grid is the always-on baseline. On top of it, promos and launches are planned via the **Promo Copy Planner** (M4.1), which is event-driven, not week-of-month driven.
 
-Source: `4.1 Promo Copy Planner.md`.
+Source: [[Library/Programs/back-of-house/4. Soft Sales System/4.1 Promo Copy Planner]].
 
 - **Three email tracks per conversion event** (the psychological journey):
   - **PTR — Push to Register** (the invites): 4 emails (Announcement → Logical → Emotional → 1hr-before) + 5 social posts

@@ -15,7 +15,7 @@ The clone does not eat summaries. It reads HER files, guided by this map. Rule o
 | `Notebook/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
 | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
 | `Library/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
-| quarantine (never load as voice) | `Studio/Analysis/voice-profile.md`, `voice-archive.md`, `writing-style.md` (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `Studio/Analysis/Templates/`, `Library/Examples/Carousels/brief-bank.md`, all Wren files, stale-voice pages | SOURCES.md |
+| quarantine (never load as voice) | [[Studio/Analysis/voice-profile]], [[Studio/Analysis/voice-archive]], [[Studio/Analysis/writing-style]] (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `Studio/Analysis/Templates/`, [[Library/Examples/Carousels/brief-bank]], all Wren files, stale-voice pages | SOURCES.md |
 
 ## 2. Task → mandatory source loads (the recipes)
 
@@ -23,19 +23,19 @@ Every writing task = JUDGMENT files (SOUL+STYLE+TASTE+ANTI-AI) + these vault loa
 
 | Task | Read, end to end |
 |---|---|
-| Simmer | all 3 `Library/Examples/simmers/` + `Library/Programs/.../2.3 The Simmer Transcript.md` |
-| Soft Sunday | 3 of `Library/Examples/soft-sundays/` incl. why-i-burned-down-my-business.md (never the flagged one) + `Studio/Analysis/soft-sunday.md` |
+| Simmer | all 3 `Library/Examples/simmers/` + [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] |
+| Soft Sunday | 3 of `Library/Examples/soft-sundays/` incl. why-i-burned-down-my-business.md (never the flagged one) + [[Studio/Analysis/soft-sunday]] |
 | Sales email | ALL `Library/Examples/sales-emails/` |
-| Subject lines | `Studio/Analysis/subject-line.md` in full |
-| Sales page | `Library/Examples/sales-pages/boh-sales-page.md` + 1-2 same-lane pages + `Studio/Analysis/sales-page.md` |
-| Carousel / caption | `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/Frameworks/social-hooks.md` + `Library/Examples/Carousels/captions.md` |
+| Subject lines | [[Studio/Analysis/subject-line]] in full |
+| Sales page | [[Library/Examples/sales-pages/boh-sales-page]] + 1-2 same-lane pages + [[Studio/Analysis/sales-page]] |
+| Carousel / caption | [[Studio/Analysis/carousel-slide-by-slide]] + [[Studio/Analysis/Frameworks/social-hooks]] + [[Library/Examples/Carousels/captions]] |
 | Email → carousel | carousel load + the source email in full |
 | Teaching content | the BOH module named in §4, in full (workbook + transcript) |
-| Offer/pitch copy | BUSINESS.md + the product's `Library/Offers/` file + `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` |
+| Offer/pitch copy | BUSINESS.md + the product's `Library/Offers/` file + [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] |
 | Pitching concepts | §3 slot row + the slot's exemplar analyses (§5) + signals-index |
 | Judging (gate) | ANTI-AI + TASTE + 2 real same-format pieces from Library/Examples/ for the lineup |
-| Trust gate before asking/creating/promoting | `Hermes/MEAN-ALYSSA.md` + `Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md` + the relevant rejection-corpus source |
-| Taste/strategy decision with no provable answer | `Hermes/MEAN-ALYSSA.md` + same-format Library/Examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
+| Trust gate before asking/creating/promoting | [[Hermes/MEAN-ALYSSA]] + [[Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion]] + the relevant rejection-corpus source |
+| Taste/strategy decision with no provable answer | [[Hermes/MEAN-ALYSSA]] + same-format Library/Examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
 | Any topic at all | grep `Notebook/Journal/` for her raw take first |
 
 ## 3. The calendar → slot map
@@ -63,7 +63,7 @@ Sales = event-driven promo overlay (PTR→PTS→PTB per `4.1 The Lazy Launch`), 
 
 Sales overlay (event-driven, never a weekly slot): **The Promo Planner in Notion** — one signature offer replated across 10 seasonal reframes (84 Combinations). Runs on its own PTR→PTS→PTB event calendar per `4.1 The Lazy Launch`, layered on top of whichever week it lands in.
 
-Pin under-layer, always on: 7×10×4×5 → 1,400 pins (`3.3 The Batch Transcript`). Open gaps & conflicts in full: `Deliverables/2026-07-05-vault-learn/learn-relations-map.md` §2 (decision queue for Alyssa, not a load).
+Pin under-layer, always on: 7×10×4×5 → 1,400 pins (`3.3 The Batch Transcript`). Open gaps & conflicts in full: [[Deliverables/2026-07-05-vault-learn/learn-relations-map]] §2 (decision queue for Alyssa, not a load).
 
 ## 4. Named-framework registry (name → source file; definitions live IN the source)
 
@@ -72,20 +72,20 @@ Phase 1: Email First Ecosystem + Four Core Questions + Old Way/New Way → `1.1`
 Phase 2: Symptoms→Diagnosis→Prescription → `2.1 transcript` · Double Curiosity + CTA Trio + Sweet Segmentation → `2.2 transcript` · The Simmer + Flavor Profile + Magic Word → `2.3 transcript` · Story→Point→Value Drop→Right-Time Offer + 84 Combinations → `2.3 slides`
 Phase 3: Bread & Butter + 8 Hallmarks + 6 Content Styles → `3.1` (+ slides/transcript) · Slow Pinterest + Big 7 Keyword Areas → `3.2` (+ slides) · 7×10×4×5 + The Rotation → `3.3 transcript`
 Phase 4: Lazy Launch + Five Sales Emails + 72-Hour Mini Promo → `4.1` (+ transcript) · Hot Lead Loop (Grow→Nourish→Launch) → `4.1 slides` · Launch Debrief → `4.3`
-Webinars: Feed vs Index Visibility → `webinars/Slowly Viral Class.md`
-(All paths under `Library/Programs/back-of-house/`. Full registry with one-line definitions: `Deliverables/2026-07-05-vault-learn/learn-programs.md` §2.)
+Webinars: Feed vs Index Visibility → [[Library/Programs/back-of-house/webinars/Slowly Viral Class]]
+(All paths under `Library/Programs/back-of-house/`. Full registry with one-line definitions: [[Deliverables/2026-07-05-vault-learn/learn-programs]] §2.)
 
 ## 5. Exemplar index (which analysis section covers which real post)
 
-All 14 carousel folders live in `Library/Examples/Carousels/` with verbatim captions + metrics in `captions.md`; per-post slide breakdowns in `Studio/Analysis/carousel-slide-by-slide.md` (12 of 14; valentines/march-affirmations/guest-cheque are captions-only — never invent their slide content). Proven top performers by metrics: 01-20 (132K views, 4,070 saves), 01-15 (5,781 saves), 01-22 (highest share ratio — the FTG benchmark).
+All 14 carousel folders live in `Library/Examples/Carousels/` with verbatim captions + metrics in `captions.md`; per-post slide breakdowns in [[Studio/Analysis/carousel-slide-by-slide]] (12 of 14; valentines/march-affirmations/guest-cheque are captions-only — never invent their slide content). Proven top performers by metrics: 01-20 (132K views, 4,070 saves), 01-15 (5,781 saves), 01-22 (highest share ratio — the FTG benchmark).
 
 ## 6. Seed bank (unmined journal moments → path; the SEED input beats slot-filling)
 
 - spinach-nutritionist stint → `Notebook/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach…`
-- cattle-horn cry (Simmer story) → `Notebook/Journal/2026/03/2026-03-19-simmer-story.md`
+- cattle-horn cry (Simmer story) → [[Notebook/Journal/2026/03/2026-03-19-simmer-story]]
 - "I can't wait to see why this didn't work out" (self-trust cluster, 6 linked entries 2019→2026) → `Notebook/Journal/2026/03/2026-03-06-…`
 - "mom life has me working in the margins" → `Notebook/Journal/2026/01/2026-01-22-…`
-- Stephen Covey line + middle-ground voice memo (launch material) → `Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md`
+- Stephen Covey line + middle-ground voice memo (launch material) → [[Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo]]
 - auction woman → same file — RESERVED: Email 3 of BOH Summer Launch
 
 ## 7. Known broken / waiting on Alyssa

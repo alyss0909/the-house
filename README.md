@@ -39,7 +39,7 @@ Everything else is unchanged — the task system, per-agent journals, and the LL
 1. Clone or download the repo into a folder you'll actually use.
 2. Open the folder in your LLM tool (Claude Code, Codex CLI, Gemini CLI, Cursor, or Obsidian + chat plugin).
 3. Paste the contents of `initialize yourself in this folder` as your first message.
-4. The LLM reads `ADAPTER-PROMPT.md`, writes a tool-specific pointer file (`CLAUDE.md`, `GEMINI.md`, etc.), and reports the team is online.
+4. The LLM reads [[ADAPTER-PROMPT]], writes a tool-specific pointer file ([[CLAUDE]], `GEMINI.md`, etc.), and reports the team is online.
 5. Ask "Who are you?" and you'll see Larry is at your service.
 6. Ask "What's open?" and Larry walks the new `Team Knowledge/tasks/open/` folder for you.
 
@@ -54,10 +54,10 @@ A working knowledge system, fully assembled, that does this on day one:
 - **Organizes your life from a single daily journal.** You write what happened. The team files the people, projects, decisions, and ideas where they belong. Connections between notes are made for you.
 - **Remembers unfinished work for you.** When something can't finish in one turn, the team writes it down as a task in `Team Knowledge/tasks/`. Next session, Larry walks `tasks/open/` and surfaces what's waiting. The team genuinely picks up where it left off.
 - **Carries learning forward.** Each specialist keeps a journal of durable insights at `Team/<Name>/journal/`. When a task references one of their entries, they re-read their own past thinking before starting work.
-- **Runs in any LLM you already use.** Claude Code (and Claude Cowork), Codex CLI, Gemini CLI, Cursor, ChatGPT, Obsidian with a chat plugin. The same scaffold, the same team, the same files. You change models. Your knowledge doesn't move. Session-log triggers (`close session`, `keep this in mind`, `let's realign`, etc.) work with any LLM that reads `AGENTS.md` — ChatGPT, Claude, Gemini, Cursor, Cline, Codex, and the rest. Not Claude-only.
+- **Runs in any LLM you already use.** Claude Code (and Claude Cowork), Codex CLI, Gemini CLI, Cursor, ChatGPT, Obsidian with a chat plugin. The same scaffold, the same team, the same files. You change models. Your knowledge doesn't move. Session-log triggers (`close session`, `keep this in mind`, `let's realign`, etc.) work with any LLM that reads [[AGENTS]] — ChatGPT, Claude, Gemini, Cursor, Cline, Codex, and the rest. Not Claude-only.
 - **Stays in plain markdown.** Every note is a `.md` file. You can read it without the AI. You can grep it. You can sync it with Dropbox or git. You can open it in Obsidian and keep working with no AI at all.
-- **Upgrades to SQLite when you outgrow plain files.** Once your myPKA gets large, paste the prompt at `Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite.md` into your LLM. Markdown stays canonical. SQLite becomes a fast lookup layer on top.
-- **Imports from any PKM tool.** Drop your existing notes (Heptabase backup, Notion export, Obsidian vault, Roam graph, Logseq folder, Apple Notes export, Evernote dump, Tana via MCP, etc.) anywhere on disk, then ask your LLM something like *"import my Notion export from `~/Downloads/notion.zip`"* or *"how do I bring in my Heptabase backup?"*. The scaffold ships with [[Team Knowledge/Workstreams/WS-002-import-external-knowledge-base]] — the LLM follows it to extract entities (people, organizations, projects, goals, habits, topics, key elements, documents), normalize wikilinks to the slug form, copy attachments into `PKM/Images/YYYY/MM/`, and place files into the right folders, asking clarifying questions where needed and never overwriting your myPKA without explicit approval. Works with any LLM that reads `AGENTS.md`.
+- **Upgrades to SQLite when you outgrow plain files.** Once your myPKA gets large, paste the prompt at [[Studio/Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite]] into your LLM. Markdown stays canonical. SQLite becomes a fast lookup layer on top.
+- **Imports from any PKM tool.** Drop your existing notes (Heptabase backup, Notion export, Obsidian vault, Roam graph, Logseq folder, Apple Notes export, Evernote dump, Tana via MCP, etc.) anywhere on disk, then ask your LLM something like *"import my Notion export from `~/Downloads/notion.zip`"* or *"how do I bring in my Heptabase backup?"*. The scaffold ships with [[Team Knowledge/Workstreams/WS-002-import-external-knowledge-base]] — the LLM follows it to extract entities (people, organizations, projects, goals, habits, topics, key elements, documents), normalize wikilinks to the slug form, copy attachments into `PKM/Images/YYYY/MM/`, and place files into the right folders, asking clarifying questions where needed and never overwriting your myPKA without explicit approval. Works with any LLM that reads [[AGENTS]].
 
 There is no lock-in. The whole system is text on your disk. It works in Obsidian today. It upgrades to SQLite when you want it. It runs on whichever model or LLM you prefer, and it keeps running when you switch.
 
@@ -101,7 +101,7 @@ Six specialists ship pre-loaded. **You only ever talk to Larry.** Larry routes.
 </tr>
 </table>
 
-Each specialist has a contract at `Team/<Name> - <Role>/AGENTS.md` and a `journal/` folder for durable insights. Full routing table at `Team/agent-index.md`.
+Each specialist has a contract at `Team/<Name> - <Role>/AGENTS.md` and a `journal/` folder for durable insights. Full routing table at [[Studio/Team/agent-index]].
 
 > Need brand and visual work — design systems, infographics, stylized images? The **Designer Expansion Pack** adds three creative specialists (Iris, Charta, Pixel) to your team. It's an optional pack from the AI Library, not part of the base six.
 
@@ -110,11 +110,11 @@ Each specialist has a contract at `Team/<Name> - <Role>/AGENTS.md` and a `journa
 ## What lives where
 
 - `PKM/` is your knowledge. `My Life/` holds the five life concepts (Goals, Habits, Topics, Projects, Key Elements). `Documents/`, `CRM/`, `Images/`, and `Journal/` sit alongside it. Notes connect through `[[wikilinks]]`, not nested folders.
-- `Team/` holds your specialists. One folder per agent. Each has its own `AGENTS.md` and its own `journal/` for durable cross-session insights.
+- `Team/` holds your specialists. One folder per agent. Each has its own [[AGENTS]] and its own `journal/` for durable cross-session insights.
 - `Team Knowledge/` holds the team's playbook. SOPs are atomic procedures. Workstreams orchestrate multi-agent flows. Guidelines are static reference info. `tasks/` holds unfinished work the team is tracking across sessions (`open/`, `in-progress/`, `done/<YYYY>/<MM>/`, `cancelled/<YYYY>/<MM>/`).
 - `Deliverables/` is where the team puts work-in-progress and finished artifacts - research briefs, hire workups, multi-file projects. Time-stamped, ephemeral, the team's working surface. **Pax** drops research here. **Nolan** drops hire workups here. **Larry** collects multi-specialist work here.
 - `Team Inbox/` is your drop zone for raw inputs. Drop screenshots, voice memos, business cards, links, or a quick braindump and the team files them into PKM. *"I have something, not sure where"* goes here. **Penn** usually picks it up, **Larry** routes it.
-- `AGENTS.md` at the root is the source of truth for how the whole team behaves.
+- [[AGENTS]] at the root is the source of truth for how the whole team behaves.
 
 > **Note on note shape.** Every entity note (a Person, an Organization, a Project, a Goal, a Habit, a Topic, a Key Element, a Document) starts from a template in `Team Knowledge/Templates/`. Structured data lives in YAML frontmatter at the top of the file; narrative lives in the body. The canonical field schemas are in [[Team Knowledge/Guidelines/GL-002-frontmatter-conventions]]. The mypka-interface Properties tab and the SQLite migration both read frontmatter — keep your facts there, your stories in the body.
 
@@ -138,7 +138,7 @@ v2.0.0 is a **breaking** upgrade — the base roster shrinks by three. This is t
 - **If you do only PKM, journaling, research, hiring, automation, or database work**, no action is needed. The six-specialist base covers you.
 - **Existing session logs** that reference the removed agents or SOP-007–010 are left untouched as a historical record.
 
-Open `CHANGELOG-MIGRATION.md` at the root and ask your LLM to run the recipe — it's numbered and idempotent, and you can audit each step before it runs. After the migration, run `bash validation-script.sh .` from the scaffold root — it exits 0 when the upgrade is structurally complete. See the `[2.0.0]` entry in [CHANGELOG.md](CHANGELOG.md) for the full list of what moved.
+Open [[CHANGELOG-MIGRATION]] at the root and ask your LLM to run the recipe — it's numbered and idempotent, and you can audit each step before it runs. After the migration, run `bash validation-script.sh .` from the scaffold root — it exits 0 when the upgrade is structurally complete. See the `[2.0.0]` entry in [CHANGELOG.md](CHANGELOG.md) for the full list of what moved.
 
 ## Principles
 
@@ -183,7 +183,7 @@ Once you've used myPKA for a while, you'll want more than six specialists. The *
 - **Connector Expansions** for the tools you already live in (Notion, Readwise, Linear, …).
 - **Office hours and walkthroughs** with the team that builds this scaffold.
 
-Membership-only is honest, not a gate. The scaffold here is genuinely complete. The AI Library is for people running serious work on top of it. See `Expansions/docs/expansion-spec.md` for the install model.
+Membership-only is honest, not a gate. The scaffold here is genuinely complete. The AI Library is for people running serious work on top of it. See [[Expansions/docs/expansion-spec]] for the install model.
 
 ## License and trademarks
 

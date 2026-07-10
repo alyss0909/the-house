@@ -33,7 +33,7 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 **Source evidence:**
 - [[Deliverables/2026-07-04-inbox-approval-report]] lists 31 top-level inbox files, 2 meeting pointer notes, 1 support image, and explicit approval points.
 - [[Team Knowledge/Workstreams/WS-004-inbox-processing]] defines the approval table, Team brief column, and cleanup rules.
-- `Team Inbox/2026-07-01-Most people are putting highvalue thinking into-trunc.md` contains a fresh "asset infrastructure" thesis that should feed [[email-to-content-repurposing-system]], [[boh-as-permission-not-product]], and the Content OS.
+- [[Notebook/Inbox/2026-07-01-Most people are putting highvalue thinking into-trunc]] contains a fresh "asset infrastructure" thesis that should feed [[email-to-content-repurposing-system]], [[boh-as-permission-not-product]], and the Content OS.
 - [[PKM/Second Brain/taste-log]] says approvals were not being converted into assignments, which is the Content Activation gap.
 
 **Expected payoff:** Captures stop dying in the inbox. Strategic notes become Journal entries, signals, Ready Queue briefs, or task updates while the context is still live. This is small recurring work with high compounding value.
@@ -102,7 +102,7 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 **Rough implementation path:**
 1. Mack connects to the Notion Products DB or receives a CSV/export.
 2. Silas defines a volatile derived snapshot shape: product name, status, price, theme, URL, chat word, pitchability.
-3. The verifier compares Notion against `Hermes/BUSINESS.md`, `PKM/My Life/Offers/`, and Content OS files.
+3. The verifier compares Notion against [[Hermes/BUSINESS]], `PKM/My Life/Offers/`, and Content OS files.
 4. Output is a diff report: conflicts, missing chat words, non-pitchable products, stale local notes.
 5. Nothing updates live copy without Alyssa approval.
 
@@ -160,7 +160,7 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 **Expected payoff:** Hermes gets sharper without drifting or accumulating unresolved contradictions. Alyssa only sees the few decisions that actually need her taste.
 
 **Rough implementation path:**
-1. Mack schedules a guard job that checks deep-read runs, `Hermes/learning/deep-reads/INDEX.md`, `Hermes/learning/inbox.md`, and task status.
+1. Mack schedules a guard job that checks deep-read runs, [[Hermes/learning/deep-reads/INDEX]], [[Hermes/learning/inbox]], and task status.
 2. If inbox has unresolved contradictions, produce a compact adjudication sheet with 3-5 decisions max.
 3. If the scheduled window has ended, prompt to disable/delete the tasks.
 4. If distillation happens, log every changed file and rerun Hermes tests.
@@ -183,7 +183,7 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 **Source evidence:**
 - [[Deliverables/2026-06-04-claude-routines-automation-fit-report]] recommends Weekly Vault Formatting and Drift Sweep as the first pilot.
 - [[Team Knowledge/tasks/INDEX]] says summary Open: 13, section Open: 15, while the `open/` folder contains more open task files plus an example task.
-- [[PKM/Developing Ideas/email-to-content-repurposing-system]] references `PKM/Second Brain/analysis/carousel-analysis.md`, while the current file is `analysis/carousel.md`.
+- [[PKM/Developing Ideas/email-to-content-repurposing-system]] references `PKM/Second Brain/analysis/carousel-analysis.md`, while the current file is [[Studio/Analysis/carousel]].
 - [[Team/Wren - Brand Voice Partner/memory]] also references `PKM/Second Brain/analysis/carousel-analysis.md`.
 - [[Team Knowledge/Guidelines/GL-002-frontmatter-conventions]] requires structured frontmatter discipline for queryability.
 
@@ -304,9 +304,9 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 
 **Source evidence:**
 - [[Deliverables/2026-06-04-claude-routines-automation-fit-report]] recommends Listening and Research Aggregator plus Video Watcher.
-- `Team Inbox/2026-07-01-slowly viral embed.md` contains a Descript embed that should become source material, not sit as raw HTML.
-- `Team Inbox/2026-07-01-Use for email and post inspo.md` is a B-DOW email example link.
-- `Team Inbox/2026-06-29-Stills_2026_Design_Trend_Report.pdf.md` is a design trend report pointer.
+- [[Notebook/Inbox/2026-07-01-slowly viral embed]] contains a Descript embed that should become source material, not sit as raw HTML.
+- [[Notebook/Inbox/2026-07-01-Use for email and post inspo]] is a B-DOW email example link.
+- [[Notebook/Inbox/2026-06-29-Stills_2026_Design_Trend_Report.pdf]] is a design trend report pointer.
 - [[Team Knowledge/Workstreams/WS-004-inbox-processing]] defines `read + synthesize` and `evaluate` tiers.
 - [[tsk-2026-06-26-001-converter-pack-runtime-install]] would unlock transcription, URL extraction, OCR, and conversion utilities.
 
@@ -368,7 +368,7 @@ The core pattern: Alyssa has built the intelligence layer. The next automation l
 
 - The task index is stale and internally inconsistent.
 - A naive link scan produced 843 unresolved candidates out of 5,897 wikilinks. This includes placeholders and relative links, so it is not a clean defect count, but it proves the need for a vault-aware checker.
-- High-value notes contain stale Second Brain path references, including `carousel-analysis.md` where the current file appears to be `carousel.md`.
+- High-value notes contain stale Second Brain path references, including `carousel-analysis.md` where the current file appears to be [[Studio/Analysis/carousel]].
 - Canonical project notes are thinner than active planning files. Example: [[spring-26-launch]] and [[blog-and-pin]] are mostly shells while live strategy is in Deliverables, Ready Queue, Hermes, and Developing Ideas.
 - Some approval tasks trail the system state. Example: semantic sweep approval is open while the sweep layer is already active.
 - Team Inbox contains new strategic captures and older approval-remnant files. Filing and cleanup lag behind triage.

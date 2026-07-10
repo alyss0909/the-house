@@ -68,7 +68,7 @@ Keep the connective fillers ("okay," "right?", "honestly," "you know what I mean
 
 ## Deep-read additions (2026-07-05, from "my existential crisis & pinterest" — simmer)
 
-Corpus-verified on a real promo Simmer (full study: `learning/deep-reads/2026-07-05-0411-my-existential-crisis-and-pinterest.md`):
+Corpus-verified on a real promo Simmer (full study: [[Hermes/learning/deep-reads/2026-07-05-0411-my-existential-crisis-and-pinterest]]):
 - **Emoji as section architecture**: emoji open sections like subheads (🔮 dejavu beat, 😏 business pivot, 🍝 deliverables, ☕ discount); a SOLO emoji alone on its own line ("💳") is a legal section transition.
 - **Clap-chant** for the doctrine beat, once per email max: "👏 i repeat. 👏 NO NEW OFFERS. 👏" — same placement logic as the staccato run.
 - **Persona-splitting carve-out to the third-person ban (§5)**: "summer Alyssa lives in linen pants... while winter Alyssa goes for (stretchy) trousers" — comedic versions of herself as characters are hers; corporate third person ("Alyssa believes...") stays banned. Also "she" for objects: "suddenly, she's giving a whole new vibe ✨✨".
@@ -78,18 +78,18 @@ Corpus-verified on a real promo Simmer (full study: `learning/deep-reads/2026-07
 
 ## Deep-read additions (2026-07-05, from "Why I burned down a perfectly good business")
 
-Alternate opener and pivot-cadence patterns confirmed on a full origin-story Soft Sunday: slash-cascade openers ("New year / new me / new goals...") and rhetorical-question ladders (3-4 stacked questions) as entry moves distinct from the single-scene opener; named pivots operate per sub-section in multi-part teaching emails, not once per email. Full detail in `craft/emails-soft-sunday.md` Deep-read additions and `learning/deep-reads/2026-07-05-1400-why-i-burned-down-my-business.md`. Two open flags from this read (bold density far above the §2 3-6/200-words figure in long-form pieces; a real hit on the banned "it's not just about X, it's about Y" shape in her own published copy) are logged to `learning/inbox.md`, not resolved here.
+Alternate opener and pivot-cadence patterns confirmed on a full origin-story Soft Sunday: slash-cascade openers ("New year / new me / new goals...") and rhetorical-question ladders (3-4 stacked questions) as entry moves distinct from the single-scene opener; named pivots operate per sub-section in multi-part teaching emails, not once per email. Full detail in [[Hermes/craft/emails-soft-sunday]] Deep-read additions and [[Hermes/learning/deep-reads/2026-07-05-1400-why-i-burned-down-my-business]]. Two open flags from this read (bold density far above the §2 3-6/200-words figure in long-form pieces; a real hit on the banned "it's not just about X, it's about Y" shape in her own published copy) are logged to [[Hermes/learning/inbox]], not resolved here.
 
 ## Deep-read additions (2026-07-05, from "The silent killer of GOOD work" — sales email)
 
-Three durable patterns, corpus-verified (full study: `learning/deep-reads/2026-07-05-1030-silent-killer-of-good-work.md`; mechanics folded into `craft/sales-emails.md`):
+Three durable patterns, corpus-verified (full study: [[Hermes/learning/deep-reads/2026-07-05-1030-silent-killer-of-good-work]]; mechanics folded into `craft/sales-emails.md`):
 - **Italic is a second channel, not decoration**: italics carry the reader's inner monologue and confession-adjacent lines ("_I could do that_ 🙄"; "_So you create shitty posts and half assed emails and graphics you don't love._"), bold stays the skim path (§2). The visual softening is what lets her name the reader's compromise without shame.
 - **One coherent emoji family per piece can replace food texture**: the silent-killer email runs 🪄→🧚‍♀️→🧙‍♂️ (wishes → rarity → the system that grants them) with no cooking prose until the CTAs and brand close. Coherence of the family is the rule; the restaurant world is not mandatory body texture in sales emails (§4 altitude logic extends).
 - **The diagnosis is a compliment**: pain framing (§6) can go past validation into elevation — "**It's that you have HIGH STANDARDS.**" The reader's problem is proof of their taste; the system failed them.
 
 ## Deep-read additions (2026-07-06, from the flagship BOH sales page)
 
-First quote-level pass on the canonical sales page (full study: `learning/deep-reads/2026-07-06-0410-boh-sales-page.md`; page mechanics folded into `craft/sales-pages.md`). Cross-format patterns:
+First quote-level pass on the canonical sales page (full study: [[Hermes/learning/deep-reads/2026-07-06-0410-boh-sales-page]]; page mechanics folded into [[Hermes/craft/sales-pages]]). Cross-format patterns:
 
 - **Coin, don't describe — at architecture scale**: a coined audience term ("time connoisseur") becomes page furniture — asterisk-footnoted, refrained, FAQ'd. Coined names earn structural reuse; descriptions don't.
 - **Boilerplate is voice territory**: legal warnings, payment plans, geo notes all get the full register ("going in with a friend is a biz-bestie-love-language"; "🍁 Canadian Cuties, we've got you"). Any copy zone written in template-neutral is a tell.
@@ -100,7 +100,7 @@ First quote-level pass on the canonical sales page (full study: `learning/deep-r
 
 ## Deep-read additions (2026-07-06, from 1.5 The Perfect Apps Transcript — spoken/teaching voice, extends §8)
 
-First transcript study (full: `learning/deep-reads/2026-07-06-0512-perfect-apps-transcript.md`; lesson mechanics in `craft/teaching-course-design.md` Deep-read additions). Transcripts teach cadence/diction/moves — NEVER punctuation (transcriber artifacts).
+First transcript study (full: [[Hermes/learning/deep-reads/2026-07-06-0512-perfect-apps-transcript]]; lesson mechanics in [[Hermes/craft/teaching-course-design]] Deep-read additions). Transcripts teach cadence/diction/moves — NEVER punctuation (transcriber artifacts).
 
 - **The permission refrain repeats verbatim** ("Don't overthink it" ×8 in one lesson) — spoken permission is a heartbeat, not a one-time beat; don't elegant-variation it away.
 - **"Blah, blah, blah"** compresses obvious continuations; deliberate vagueness at example edges ("or whatever your thing is, right?") against absurd precision at the center. An exhaustively enumerated list is a tell.
@@ -111,7 +111,7 @@ First transcript study (full: `learning/deep-reads/2026-07-06-0512-perfect-apps-
 
 ## Deep-read additions (2026-07-07, from the carousel-caption corpus — 13 real captions)
 
-Caption-register devices that travel to other casual zones (full study: `learning/deep-reads/2026-07-07-0412-carousel-captions-corpus.md`; caption mechanics in `craft/captions-carousels.md` Deep-read additions):
+Caption-register devices that travel to other casual zones (full study: [[Hermes/learning/deep-reads/2026-07-07-0412-carousel-captions-corpus]]; caption mechanics in [[Hermes/craft/captions-carousels]] Deep-read additions):
 
 - **Faux-disclaimer opener**: announce the sin, commit it in the same breath — "Not to be dramatic... but i think it's time to break up with social" / "Sorry but Feb is the new Jan." The written twin of her spoken "I'm definitely on one."
 - **One-word parenthetical insert** (tighter than the §2 aside): "(precious)," "(actually)," "(own)" mid-phrase; "(free)" as the deflated price tag. Her welded bracket "clear(but cozy)" ships unpolished.
@@ -122,7 +122,7 @@ Caption-register devices that travel to other casual zones (full study: `learnin
 
 ## Deep-read additions (2026-07-07, from the live About page — narrative web copy)
 
-First study of the about/home register (full study: `learning/deep-reads/2026-07-07-0512-about-page.md`; page mechanics now in `craft/web-pages.md`):
+First study of the about/home register (full study: [[Hermes/learning/deep-reads/2026-07-07-0512-about-page]]; page mechanics now in [[Hermes/craft/web-pages]]):
 
 - **Caps-colon stage directions are the narrative spine of story-driven web copy**: "LET ME SET THE SCENE FOR YOU:" / "SO…. SUFFICE TO SAY:" / "THE MORAL OF THIS STORY?" — spoken narrator beats in caps, one clause, colon terminal. Distinct from marquee billboard headers; these are connective tissue that keeps the seams showing.
 - **Parenthetical prefix-splice is corpus-wide** (upgrades the caption note): "(micro)manage," "(multi) passionate" — parentheses weld a morpheme so one word says two. Spacing wobbles between hits; don't normalize.
@@ -137,7 +137,7 @@ First study of the about/home register (full study: `learning/deep-reads/2026-07
 
 ## Deep-read additions (2026-07-07, from the live home page — second about/home register pass)
 
-Second study in this register (full study: `learning/deep-reads/2026-07-07-0615-home-page.md`; page mechanics now in `craft/web-pages.md`):
+Second study in this register (full study: [[Hermes/learning/deep-reads/2026-07-07-0615-home-page]]; page mechanics now in [[Hermes/craft/web-pages]]):
 
 - **Marquee ticker header**: a caps line repeats with `//` dividers and gets truncated mid-repeat on the last instance ("HUSTLE CULTURE IS OVERCOOKED // HUSTLE CULTURE IS OVERCOOKED // HUSTLE CULTURE") — a scrolling-ticker illusion as a section header, distinct from a single billboard marquee line. Home-page-specific so far (n=1); reuse the truncation mechanism, never the exact line.
 - **Two flavors of strikethrough**: the documented "beat" version (cross out, pause, replace) now has a tighter sibling — **inline strikethrough with no beat**, struck word and replacement inside one continuous clause ("cozy systems to make ~~running your business~~ your life a hell of a lot easier"). Use inline for a small, low-stakes softening; use the beat version for confessional reveals.

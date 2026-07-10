@@ -74,7 +74,7 @@ Action: Update WS-008 standing instructions if needed. Review the queue sources:
 
 ## Step 6 — Update yes-pattern.md
 
-`Studio/Analysis/yes-pattern.md` is the standing filter brief used by every specialist before starting a task. Once a month, Larry updates it to reflect:
+[[Studio/Analysis/yes-pattern]] is the standing filter brief used by every specialist before starting a task. Once a month, Larry updates it to reflect:
 - Any new YES patterns confirmed this month
 - Any new NO patterns confirmed this month
 - Any shifts in what Alyssa is focused on (changes in active offers, upcoming launches, content priorities)

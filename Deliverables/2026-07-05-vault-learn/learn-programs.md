@@ -188,10 +188,10 @@ Quote: *"welcome to the low maintenance side."*
 
 ### Bonuses
 
-**Bot Roster** (`5. Bonuses/bots.md`)
+**Bot Roster** ([[Library/Programs/back-of-house/5. Bonuses/bots]])
 11 named AI bots across 4 "departments" — Brand Lobby, Writing Wing, Idea Servers, Keymasters. Full roster with module usage: The Brand Bellhop, The Sign-Off Sommelier, The Messaging Maître-d', The Copy Closer, The Copy Valet, The Hook Butler, The Subject Server, The Postmaster, The Magnet Mixologist, The Tab Opener, The Pin Keymaster.
 
-**ScriptBook** (`5. Bonuses/scriptbook.md`)
+**ScriptBook** ([[Library/Programs/back-of-house/5. Bonuses/scriptbook]])
 Consolidated fill-in-the-blank templates spanning all 4 phases — buyer persona, elevator pitch, signature offer, sales page titles, freebie/tripwire delivery + oops emails, symptom/diagnosis/prescription email templates, Pinterest bio/board/pin templates, launch blurb templates. This is the DFY compression of the entire program's copy frameworks in one file.
 
 ### Webinars (top-of-funnel, feed the BOH offer)
@@ -212,47 +212,47 @@ Key quote: *"The slowly viral process is investing vs. day-trading."*
 
 | Framework | One-line Definition | Source |
 |---|---|---|
-| **Grow / Nourish / Offer** | The 3 jobs every email must do: provide value, deepen relationship, open a door to a sale | `0. Welcome/0.2 Sign Off Specials.md` |
-| **Sign Off Specials** | Low-key offer nudges under the email sign-off; 4-step build + 5 copy techniques | `0. Welcome/0.2 Sign Off Specials.md` |
-| **The Cozy Business Plan** | Full-business snapshot workbook: mission, buyer persona, offers, pricing, funnel decisions | `0. Welcome/0.3 Cozy Business Plan.md` |
-| **The Quarterly Recap** | 90-day debrief + forecast paired with an emotional "does this excite you" check | `0. Welcome/0.4 Quarterly Recap.md` |
-| **Email First Ecosystem / Email-First Offer Suite** | Design the whole offer suite around the inbox, not social; 3 rules (sells without over-explaining, always available, easy to re-offer) | `1. The House Specials/1.1 Email First Ecosystem.md` |
-| **The Four Core Questions** | Q1 outcome / Q2 fears / Q3 insecurities / Q4 deep struggle — generates every positioning sentence | `1. The House Specials/1.1 Email First Ecosystem.md` |
-| **Old Way / New Way** | Contrast the mainstream "old way" of solving the problem against your disruptive "new way" | `1. The House Specials/1.1 Email First Ecosystem.md` |
-| **Signature Dish / Signature Method / Signature Philosophy** | The unique way you solve a problem, distilled into a memorable philosophy + repeatable method | `1. The House Specials/1.2 Your Signature Dish.md` (+ transcript) |
-| **The BFF Test** | "What would you do for your best friend for free?" exercise to uncover your natural method | `1. The House Specials/transcripts/1.2 Your Signature Dish Transcript.md` |
-| **The Bacon and Butter Rule** | Your offer must stand out like bacon and butter in a world of oatmeal — disruption is non-negotiable | `1. The House Specials/slides/1.2 Sales Pages Slides.md` |
-| **The Editing Process** | 4 rounds: first draft → focus edit → fun edit → persuasion edit | `1. The House Specials/slides/1.2 Sales Pages Slides.md` |
-| **Breadcrumbs** | Recurring sensory cues (texture, lighting, crop style, symbols, shape, color, phrase) that create brand recognition | `1. The House Specials/1.3 The Main Attraction.md` |
-| **The Muse** | Choose a celebrity/character embodying your client's "upgraded" identity; design visuals around them | `1. The House Specials/1.3 The Main Attraction.md` |
-| **Lazy Girl's Branding** | 5-step fast branding process: inspo gather → analyze patterns → fonts → colors → logo (move on) | `1. The House Specials/1.3 The Main Attraction.md` |
-| **The Double Yes Method** | Freebie = first yes, tripwire = second yes; both pre-qualify buyers before the main offer | `1. The House Specials/1.4 The Double Yes Method.md` (+ transcript, slides) |
-| **The Fridge Test** | Would your dream client print this out / screenshot it / save it? Freebie quality gut-check | `1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript.md` |
-| **The Freebie Framework (PDF/Quiz)** | DFY skeletons: PDF (cover→about you→how it works→3 things→congrats) and Quiz (4 results→questions→scoring→blurbs) | `1. The House Specials/1.4 The Freebie Framework.md` |
-| **The Tripwire Product Checklist** | 10-point gut-check for whether a low-ticket idea is genuinely irresistible | `1. The House Specials/1.5 The Perfect Apps.md` |
-| **The Five Tripwire Principles** | Real Problem (5 Whys) → Hair on Fire → Micro Fix → Wildly Generous → Seal the Deal | `1. The House Specials/slides/1.5 Tripwire Training Slides.md` |
-| **The Double Yes Checklist** | Final funnel QA pass confirming freebie, opt-in, thank-you, tripwire, and emails are all live and connected | `1. The House Specials/1.6 The Finishing Touches.md` |
-| **Symptoms → Diagnosis → Prescription** | The 3-part "documentary/doctor" welcome-sequence structure; min. 6 emails | `2. The Warm Plate Method/transcripts/2.1 Warm Welcome Sequence Transcript.md` |
-| **Double Curiosity** | Subject lines must spark curiosity about both *what* and *why/how* | `2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript.md` |
-| **The CTA Trio** | Every email needs 3 CTA touches: above the fold, mid-body, and in the P.S. | `2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript.md` |
-| **Sweet Segmentation** | Low-maintenance, human-feeling automated segments (lifecycle, on-the-fence, vibe picker) | `2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript.md` |
-| **The Simmer** | Weekly, non-automated nurture email — the anchor ritual of the whole email-first model | `2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript.md` |
-| **Flavor Profile** | Defining your newsletter's tone, cadence, and unspoken promise before you write a single email | `2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript.md` |
-| **Story → Point → Value Drop → Right-Time Offer** | The 4-part simmer email anatomy | `2. The Warm Plate Method/slides/2.3 The Weekly Simmer Slides.md` |
-| **The 84 Combinations** | 6 feature highlights × 7 reasons to join = 84 ways to reframe the same offer without a new product | `2. The Warm Plate Method/slides/2.3 The Weekly Simmer Slides.md` |
-| **The Magic Word** | Reply-with-one-word CTA mechanism that triggers a personal, human follow-up | `2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript.md` |
-| **Bread & Butter Content** | 4 evergreen cornerstone content pieces per pillar, each with a content upgrade | `3. Traffic Pantry/3.1 Bread and Butter Content.md` |
-| **The 8 Hallmarks of Evergreen Content** | Timeless, core to method, repurposable, clear message, always generating leads, prevents burnout, scales, loved by search | `3. Traffic Pantry/slides/3.1 Bread and Butter Content Slides.md` |
-| **Content Styles (Hot Take, Bridge Builder, How-To, Proof, Listicle, BTS)** | 6 blog/content archetypes, each with a distinct emotional register | `3. Traffic Pantry/transcripts/3.1 Bread and Butter Transcript.md` |
-| **Slow Pinterest** | Treat Pinterest as a search engine (keyword-first), not a social platform | `3. Traffic Pantry/3.2 Slow Pinterest.md` |
-| **The Big 7 Keyword Placement Areas** | Profile name, bio, board titles, board descriptions, pin titles, pin descriptions, image overlay text | `3. Traffic Pantry/slides/3.2 Slow Pinterest Slides.md` |
-| **The 7×10×4×5 Formula** | 7 URLs × 5 templates × 2 overlays = 10 designs × 4 copy combos × 5 boards = 1,400 unique "fresh" pins | `3. Traffic Pantry/transcripts/3.3 The Batch Transcript.md` |
-| **Feed-Based vs. Index-Based Visibility** | Social = casino/hunting (resets daily); Pinterest/search = farming/library (compounds forever) | `webinars/Slowly Viral Class.md` |
-| **The Lazy Launch / The Soft Stir** | Repeatable minimal-effort launch: 1 offer + 1 conversion event + 5 sales emails | `4. Soft Sales System/4.1 The Lazy Launch.md` (+ transcript, slides) |
-| **The Five Sales Emails** | Announcement → Logic → Emotion → Last Day (FAQ) → Final Countdown | `4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript.md` |
-| **The Hot Lead Loop / Grow → Nourish → Launch** | Quarterly cadence: 1 month growth focus, 1 month nourish focus, 1 month launch | `4. Soft Sales System/slides/4.1 Soft Sales Back of House Slides.md` |
-| **The 72-Hour Mini Promo** | Small-scale cash-injection version of a Right-Time Offer, run as a standalone 72-hour push | `4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript.md` |
-| **The Launch Debrief** | Post-launch data + emotional debrief done immediately, "soft CEO headspace" | `4. Soft Sales System/4.3 The Launch Debrief.md` |
+| **Grow / Nourish / Offer** | The 3 jobs every email must do: provide value, deepen relationship, open a door to a sale | [[Library/Programs/back-of-house/0. Welcome/0.2 Sign Off Specials]] |
+| **Sign Off Specials** | Low-key offer nudges under the email sign-off; 4-step build + 5 copy techniques | [[Library/Programs/back-of-house/0. Welcome/0.2 Sign Off Specials]] |
+| **The Cozy Business Plan** | Full-business snapshot workbook: mission, buyer persona, offers, pricing, funnel decisions | [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan]] |
+| **The Quarterly Recap** | 90-day debrief + forecast paired with an emotional "does this excite you" check | [[Library/Programs/back-of-house/0. Welcome/0.4 Quarterly Recap]] |
+| **Email First Ecosystem / Email-First Offer Suite** | Design the whole offer suite around the inbox, not social; 3 rules (sells without over-explaining, always available, easy to re-offer) | [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]] |
+| **The Four Core Questions** | Q1 outcome / Q2 fears / Q3 insecurities / Q4 deep struggle — generates every positioning sentence | [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]] |
+| **Old Way / New Way** | Contrast the mainstream "old way" of solving the problem against your disruptive "new way" | [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]] |
+| **Signature Dish / Signature Method / Signature Philosophy** | The unique way you solve a problem, distilled into a memorable philosophy + repeatable method | [[Library/Programs/back-of-house/1. The House Specials/1.2 Your Signature Dish]] (+ transcript) |
+| **The BFF Test** | "What would you do for your best friend for free?" exercise to uncover your natural method | [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.2 Your Signature Dish Transcript]] |
+| **The Bacon and Butter Rule** | Your offer must stand out like bacon and butter in a world of oatmeal — disruption is non-negotiable | [[Library/Programs/back-of-house/1. The House Specials/slides/1.2 Sales Pages Slides]] |
+| **The Editing Process** | 4 rounds: first draft → focus edit → fun edit → persuasion edit | [[Library/Programs/back-of-house/1. The House Specials/slides/1.2 Sales Pages Slides]] |
+| **Breadcrumbs** | Recurring sensory cues (texture, lighting, crop style, symbols, shape, color, phrase) that create brand recognition | [[Library/Programs/back-of-house/1. The House Specials/1.3 The Main Attraction]] |
+| **The Muse** | Choose a celebrity/character embodying your client's "upgraded" identity; design visuals around them | [[Library/Programs/back-of-house/1. The House Specials/1.3 The Main Attraction]] |
+| **Lazy Girl's Branding** | 5-step fast branding process: inspo gather → analyze patterns → fonts → colors → logo (move on) | [[Library/Programs/back-of-house/1. The House Specials/1.3 The Main Attraction]] |
+| **The Double Yes Method** | Freebie = first yes, tripwire = second yes; both pre-qualify buyers before the main offer | [[Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method]] (+ transcript, slides) |
+| **The Fridge Test** | Would your dream client print this out / screenshot it / save it? Freebie quality gut-check | [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript]] |
+| **The Freebie Framework (PDF/Quiz)** | DFY skeletons: PDF (cover→about you→how it works→3 things→congrats) and Quiz (4 results→questions→scoring→blurbs) | [[Library/Programs/back-of-house/1. The House Specials/1.4 The Freebie Framework]] |
+| **The Tripwire Product Checklist** | 10-point gut-check for whether a low-ticket idea is genuinely irresistible | [[Library/Programs/back-of-house/1. The House Specials/1.5 The Perfect Apps]] |
+| **The Five Tripwire Principles** | Real Problem (5 Whys) → Hair on Fire → Micro Fix → Wildly Generous → Seal the Deal | [[Library/Programs/back-of-house/1. The House Specials/slides/1.5 Tripwire Training Slides]] |
+| **The Double Yes Checklist** | Final funnel QA pass confirming freebie, opt-in, thank-you, tripwire, and emails are all live and connected | [[Library/Programs/back-of-house/1. The House Specials/1.6 The Finishing Touches]] |
+| **Symptoms → Diagnosis → Prescription** | The 3-part "documentary/doctor" welcome-sequence structure; min. 6 emails | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.1 Warm Welcome Sequence Transcript]] |
+| **Double Curiosity** | Subject lines must spark curiosity about both *what* and *why/how* | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript]] |
+| **The CTA Trio** | Every email needs 3 CTA touches: above the fold, mid-body, and in the P.S. | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript]] |
+| **Sweet Segmentation** | Low-maintenance, human-feeling automated segments (lifecycle, on-the-fence, vibe picker) | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript]] |
+| **The Simmer** | Weekly, non-automated nurture email — the anchor ritual of the whole email-first model | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] |
+| **Flavor Profile** | Defining your newsletter's tone, cadence, and unspoken promise before you write a single email | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] |
+| **Story → Point → Value Drop → Right-Time Offer** | The 4-part simmer email anatomy | [[Library/Programs/back-of-house/2. The Warm Plate Method/slides/2.3 The Weekly Simmer Slides]] |
+| **The 84 Combinations** | 6 feature highlights × 7 reasons to join = 84 ways to reframe the same offer without a new product | [[Library/Programs/back-of-house/2. The Warm Plate Method/slides/2.3 The Weekly Simmer Slides]] |
+| **The Magic Word** | Reply-with-one-word CTA mechanism that triggers a personal, human follow-up | [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] |
+| **Bread & Butter Content** | 4 evergreen cornerstone content pieces per pillar, each with a content upgrade | [[Library/Programs/back-of-house/3. Traffic Pantry/3.1 Bread and Butter Content]] |
+| **The 8 Hallmarks of Evergreen Content** | Timeless, core to method, repurposable, clear message, always generating leads, prevents burnout, scales, loved by search | [[Library/Programs/back-of-house/3. Traffic Pantry/slides/3.1 Bread and Butter Content Slides]] |
+| **Content Styles (Hot Take, Bridge Builder, How-To, Proof, Listicle, BTS)** | 6 blog/content archetypes, each with a distinct emotional register | [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.1 Bread and Butter Transcript]] |
+| **Slow Pinterest** | Treat Pinterest as a search engine (keyword-first), not a social platform | [[Library/Programs/back-of-house/3. Traffic Pantry/3.2 Slow Pinterest]] |
+| **The Big 7 Keyword Placement Areas** | Profile name, bio, board titles, board descriptions, pin titles, pin descriptions, image overlay text | [[Library/Programs/back-of-house/3. Traffic Pantry/slides/3.2 Slow Pinterest Slides]] |
+| **The 7×10×4×5 Formula** | 7 URLs × 5 templates × 2 overlays = 10 designs × 4 copy combos × 5 boards = 1,400 unique "fresh" pins | [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.3 The Batch Transcript]] |
+| **Feed-Based vs. Index-Based Visibility** | Social = casino/hunting (resets daily); Pinterest/search = farming/library (compounds forever) | [[Library/Programs/back-of-house/webinars/Slowly Viral Class]] |
+| **The Lazy Launch / The Soft Stir** | Repeatable minimal-effort launch: 1 offer + 1 conversion event + 5 sales emails | [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch]] (+ transcript, slides) |
+| **The Five Sales Emails** | Announcement → Logic → Emotion → Last Day (FAQ) → Final Countdown | [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]] |
+| **The Hot Lead Loop / Grow → Nourish → Launch** | Quarterly cadence: 1 month growth focus, 1 month nourish focus, 1 month launch | [[Library/Programs/back-of-house/4. Soft Sales System/slides/4.1 Soft Sales Back of House Slides]] |
+| **The 72-Hour Mini Promo** | Small-scale cash-injection version of a Right-Time Offer, run as a standalone 72-hour push | [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]] |
+| **The Launch Debrief** | Post-launch data + emotional debrief done immediately, "soft CEO headspace" | [[Library/Programs/back-of-house/4. Soft Sales System/4.3 The Launch Debrief]] |
 
 *Note: "Right-Time Offer" appears first in 2.3 (Simmer) and is reused/extended in 4.1 (Lazy Launch) — it is one framework taught in two places, not two separate frameworks.*
 
@@ -297,13 +297,13 @@ Distilled: **BOH's thesis is that sustainable marketing is not about doing more,
 
 **Fully read (100% of content, no files skipped):**
 - `programs/INDEX.md`
-- `back-of-house/INDEX.md`, `BOH-COMPASS.md`, `back-of-house/INDEX.md`
+- `back-of-house/INDEX.md`, [[Library/Programs/back-of-house/BOH-COMPASS]], `back-of-house/INDEX.md`
 - All of Phase 0 (4 modules): 4 transcripts, 3 workbooks
 - All of Phase 1 (6 modules): 6 workbooks + Freebie Framework, 8 transcripts, 3 slide decks
 - All of Phase 2 (4 modules): 2 workbooks, 5 transcripts, 3 slide decks
 - All of Phase 3 (4 modules): 4 workbooks + Blog Title Generator, 5 transcripts, 3 slide decks
 - All of Phase 4 (4 modules): 3 workbooks, 3 transcripts, 1 slide deck
-- Bonuses: `bots.md`, `scriptbook.md`
+- Bonuses: [[Library/Programs/back-of-house/5. Bonuses/bots]], [[Library/Programs/back-of-house/5. Bonuses/scriptbook]]
 - All 3 webinars: Out of Office Marketing, The Slow Marketing Plan Class, Slowly Viral Class
 
 **Files I could not read fully:** None. Every file that exists on disk under `back-of-house/` was opened and read in its entirety (all were short-to-medium length transcripts/workbooks; none required partial/skimmed reads).
@@ -320,4 +320,4 @@ These are not gaps in my reading — they are content that was never imported in
 
 **Other programs in `programs/`:** `ctc/`, `yoe/`, `webinar-1/`, `webinar-2/` have no folders or files on disk — confirmed via directory listing. The master INDEX lists them as "❌ not started." No content exists to read for these.
 
-**Adjacent territory referenced but outside the requested scope (not read, per instructions to stay in `programs/`):** `PKM/Second Brain/analysis/` (writing-style.md, sales-page.md, workshop-webinar-analysis.md, audience/back-of-house-2025-survey-client-profile.md) and `PKM/Second Brain/examples/sales-pages/boh-sales-page.md` are cross-linked from BOH-COMPASS.md and would deepen a copy/voice task, but were not part of the "programs/" territory this task defined.
+**Adjacent territory referenced but outside the requested scope (not read, per instructions to stay in `programs/`):** `PKM/Second Brain/analysis/` (writing-style.md, sales-page.md, workshop-webinar-analysis.md, audience/back-of-house-2025-survey-client-profile.md) and [[Library/Examples/sales-pages/boh-sales-page]] are cross-linked from BOH-COMPASS.md and would deepen a copy/voice task, but were not part of the "programs/" territory this task defined.

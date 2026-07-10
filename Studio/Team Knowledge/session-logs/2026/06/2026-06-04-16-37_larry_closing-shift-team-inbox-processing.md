@@ -28,7 +28,7 @@ Alyssa ran the closing-shift inbox automation, reviewed the approval report, the
 - Larry appended [[systematize-socials]] with the new Camila weekly-rhythm proposal and linked back to [[2026-06-04-camila-weekly-rhythm]].
 - Larry checked both processed Meetily meetings for duplication. Result: one pointer note and one Journal note per meeting, no duplicate meeting outputs, no duplicate follow-up tasks.
 - Larry normalized meeting pointer metadata so both processed pointers now carry `meeting_title` plus `raw_source_path` instead of relying on raw-folder naming.
-- Larry cleared the processed root inbox file so `Team Inbox/` now contains only the expected standing folders plus `README.md`.
+- Larry cleared the processed root inbox file so `Team Inbox/` now contains only the expected standing folders plus [[README]].
 
 ## Decisions made
 

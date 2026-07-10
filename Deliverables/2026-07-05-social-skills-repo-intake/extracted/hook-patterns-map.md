@@ -6,12 +6,12 @@ Author: Larry (worker pass, no delegation)
 ## Priority Sources (with commit hashes)
 
 - `blacktwist__social-media-skills | 4f85b07069983b3b0b9bbe6519fed7017edcce81 | skills/hook-writer-sms/SKILL.md` — 9-pattern hook library
-- `aaaronmiller__create-viral-content | 51483020215d9259c7565511c289d87ac43d3bcb | SKILL.md` (Hook Architecture section) + `references/title-formulas.md` — 50+ title formulas
+- `aaaronmiller__create-viral-content | 51483020215d9259c7565511c289d87ac43d3bcb | SKILL.md` (Hook Architecture section) + [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]] — 50+ title formulas
 - `shixinzhang__tiktok-viral-hooks | 0d9c79a8b5c66a83488d852abbbecd7789306ee1 | by-pattern/en/` — 203 pattern files, sampled across the index
 - `blotato-official | vendor/private/license-unknown | Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/viral-hooks/SKILL.md` — 100-hook library across 13 categories
-- Alyssa's own system: `Hermes/craft/captions-carousels.md` — 7 hook formulas, cover rules, weird-beats-formula ruling
+- Alyssa's own system: [[Hermes/craft/captions-carousels]] — 7 hook formulas, cover rules, weird-beats-formula ruling
 
-Her voice rules used as the filter for every pattern below (all from `captions-carousels.md`):
+Her voice rules used as the filter for every pattern below (all from [[Hermes/craft/captions-carousels]]):
 - Under 7 words on covers
 - Payoff mandatory (fix / threat / confession / series stake / joke)
 - No reframe shape on covers
@@ -24,7 +24,7 @@ Her voice rules used as the filter for every pattern below (all from `captions-c
 
 ## (a) Patterns She Already Runs
 
-Cited from her own 7-formula system in `captions-carousels.md`:
+Cited from her own 7-formula system in [[Hermes/craft/captions-carousels]]:
 
 1. **The Paradox** — taboo behavior + legitimizing reframe, period close ("Wasting Time Is Part of My Process.") — overlaps with create-viral-content's "Before/After Compression" and Blotato's "Contrarian" categories, but hers ends flat, never as a reframe-resolution (the reframe lives on interior slides, not covers).
 2. **Bold Outcome Promise** — time-anchored claim, no stacking "every/all" ("How To Get All Your Clients From Pinterest This Year") — direct overlap with Blacktwist's "Bold Claim" and Blotato's "Speed/Effortless How-To" category, but hers avoids the generic-superlative version those libraries lean on.
@@ -60,7 +60,7 @@ These are process/testing mechanics, not hook text, filtered to what survives he
 | **Second-person cover hooks** — Blacktwist's "Empathy" pattern ("If you're struggling to stay consistent..."), Blotato's Question Hook category (#64-71: "Are you still...", "Have you ever felt..."), title-formulas' "How to X even if [objection]" | Direct violation of her Rule 4 — no you/your on covers. These belong in body copy or CTAs only, never the cover. |
 | **Reframe-shaped covers** — Blotato's "Reframe" category isn't named as such but several entries are reframes-in-one-breath ("Your 9-5 isn't killing your dreams. Wasting your 5-9 is." from Blotato post-writer's hook patterns), title-formulas' "The Wrong Approach" ("X is wrong — here's why") | Violates Rule 3 — a reframe resolves itself in the same breath, leaving nothing to swipe for. Her reframes live on interior/closing slides only. |
 | **Generic curiosity-gap engagement bait** — Blotato's "Curiosity Gap" category #34-42 ("Here's what nobody tells you about X," "I can't believe no one told me this"), Blacktwist's plain "Question" pattern with no specific stakes | These are the exact shape of "slop leak" content ANTI-AI.md and TASTE.md exist to catch — vague curiosity with no un-inventable detail, would fail the texture floor and the "label + description" tell instantly. |
-| **"Change my mind" / "What do you think?" / explicit engagement-bait CTAs treated as hooks** — create-viral-content explicitly bans these too (rare point of full agreement across sources) | Already banned in her system implicitly via the CTA rules in `captions-carousels.md` (comment-word CTAs framed as gifts, never commands) — external sources confirm this is bad practice everywhere, not just for her. |
+| **"Change my mind" / "What do you think?" / explicit engagement-bait CTAs treated as hooks** — create-viral-content explicitly bans these too (rare point of full agreement across sources) | Already banned in her system implicitly via the CTA rules in [[Hermes/craft/captions-carousels]] (comment-word CTAs framed as gifts, never commands) — external sources confirm this is bad practice everywhere, not just for her. |
 | **Negative-superlative clickbait framing** ("X mistakes destroying your Y," "Warning: X is killing your Y" — Blotato Negative Frame category #19-27, title-formulas' "The Warning") | The MECHANIC (threat payoff) is fine and she already uses it ("...Is Dying"); the SPECIFIC SHAPE (numbered mistake-list framed as a countdown to failure) is a generic listicle-fear hybrid that reads as bought-template, not her voice. Ban the shape, keep the underlying threat-payoff logic. |
 | **TikTok-style "wait for it" / "POV:" spoken-hook conventions** (Blacktwist TikTok guidance, TikTok hook-forensics corpus) | Platform-wrong — these are video-audio hook conventions for a platform/format (talking-head video) Alyssa doesn't run. Zero applicability to static carousels or captions. |
 | **Pinterest-style pure-SEO keyword-stuffed titles** ("Small Kitchen Organization Ideas for Renters (No Drilling Required)" — Blacktwist Pinterest guidance) | Platform-wrong for her current primary platform (Instagram-first carousels); would also violate her "coined concept beats pattern-matched winner" rule since SEO-title formulas are the definition of pattern-matched. |

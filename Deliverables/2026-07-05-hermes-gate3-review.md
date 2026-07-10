@@ -175,4 +175,4 @@ no new offer. no spamming your own list. just your signature dish, plated a lil 
 
 ---
 
-*Protocol proof + scores: `Hermes/tests/results/2026-07-05-gate2-v2.md`. Every piece: full tier-1 originals loaded before writing; banned-constructions scan; judge pass caught and fixed 3 residual tells before this doc.*
+*Protocol proof + scores: [[Hermes/tests/results/2026-07-05-gate2-v2]]. Every piece: full tier-1 originals loaded before writing; banned-constructions scan; judge pass caught and fixed 3 residual tells before this doc.*

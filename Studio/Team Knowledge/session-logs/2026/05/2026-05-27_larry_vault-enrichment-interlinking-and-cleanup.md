@@ -17,8 +17,8 @@ Long two-part session (ran out of context mid-way, resumed from summary). Alyssa
 ## What we did
 
 **KE file enrichment (carried over from prior context)**
-- **Larry** fixed the `becoming.md` nav line — duplicate `[[life]] · [[life]] · [[home]]` corrected to `[[life]] · [[parenting]] · [[home]]`
-- **Larry** updated `clients.md`: added a **Current clients** section listing all four active clients (`[[alex]]`, `[[gillian]]`, `[[lara]]`, `[[maude]]`) with piped wikilink aliases, positioned after "What I am ignoring" and before Related notes, in vertical bullet list format
+- **Larry** fixed the [[Notebook/Life/Key Elements/Life/becoming]] nav line — duplicate `[[life]] · [[life]] · [[home]]` corrected to `[[life]] · [[parenting]] · [[home]]`
+- **Larry** updated [[Notebook/Life/Key Elements/Business/clients]]: added a **Current clients** section listing all four active clients (`[[alex]]`, `[[gillian]]`, `[[lara]]`, `[[maude]]`) with piped wikilink aliases, positioned after "What I am ignoring" and before Related notes, in vertical bullet list format
 
 **Mega interlinking — 18 clusters, 167 notes**
 - **Larry** inventoried the full journal (280+ notes), built 18 topic clusters from slug names + targeted reads, confirmed format with Alyssa (matching KE **Related notes** style: vertical bullets, piped aliases, blank line before **Connections:**)
@@ -64,7 +64,7 @@ Long two-part session (ran out of context mid-way, resumed from summary). Alyssa
 ## Open threads
 
 - [ ] **brand-world.md body prose** — "What this covers / What good looks like / What I am ignoring" still blank. Alyssa flagged this. Needs a riff before writing.
-- [ ] **Maude Trottier CRM** — `maude.md` details pending. Alyssa said "let's fill in her details later."
+- [ ] **Maude Trottier CRM** — [[Notebook/Life/CRM/People/maude]] details pending. Alyssa said "let's fill in her details later."
 - [ ] **Offer file formatting** — offer files still use H2 sections (`## What it is`, `## Who it's for`). Not yet reformatted to match new compact KE standard. Deferred.
 - [ ] **Obsidian folder exclusion** — Team/, Team Knowledge/, .claude/ still polluting tags + properties panels with system noise. Alyssa wants to understand the feature before enabling. Revisit when ready.
 - [ ] **Inline hashtag artifacts** — `#b5b1d8`, `#LIVE`, `#allthethings` etc. in journal note bodies still show as tags. Minor noise, not worth touching note content to fix.

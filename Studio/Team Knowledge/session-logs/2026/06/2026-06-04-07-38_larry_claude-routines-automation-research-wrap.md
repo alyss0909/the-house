@@ -29,7 +29,7 @@ Alyssa shared a public Notion page of "Claude Routines Use Cases + Prompts" and 
   - Weekly Status and Pattern Report
   - Listening and Research Aggregator
   - Video Watcher
-- Pax wrote the full linked report to `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`.
+- Pax wrote the full linked report to [[Deliverables/2026-06-04-claude-routines-automation-fit-report]].
 - Larry created follow-up task [[tsk-2026-06-04-001-review-claude-routines-automation-report]] so Alyssa can review and decide on June 5 or June 6.
 
 ## Decisions made
@@ -55,7 +55,7 @@ Alyssa shared a public Notion page of "Claude Routines Use Cases + Prompts" and 
 
 ## Open threads
 
-- [ ] Alyssa to review `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`.
+- [ ] Alyssa to review [[Deliverables/2026-06-04-claude-routines-automation-fit-report]].
 - [ ] Alyssa to decide whether Weekly Vault Formatting and Drift Sweep should report only or make safe structural fixes automatically.
 - [ ] Alyssa to decide whether Personal Knowledge Base Opportunity Digest should become the Semantic Recurrence pilot.
 - [ ] Alyssa to decide whether Weekly Status and Pattern Report should become a standing weekly rhythm.

@@ -27,7 +27,7 @@ Pinterest isn't another platform to keep up with — it's 4 pieces of content do
 - Wed → **Pinterest** (live; ladders to **Yes Chef** if it goes to BOH)
 - Fri → none (soft mention only)
 
-## Trend signal (from `swipe/2026-07-swipe.md`, scraped 2026-07-07 — fresh, no staleness flag)
+## Trend signal (from [[Studio/Content/swipe/2026-07-swipe]], scraped 2026-07-07 — fresh, no staleness flag)
 Top performers are NOT "5 tips" teaching-list covers — they're **reframes** (insult→envy), **confessions**, and **permission/direct-address lines**. For Mon/Wed Pinterest teaching, the transferable mechanic is a **reframe or direct-address cover** paired with her real Pinterest teaching (3.1 Bread & Butter, 3.3 The Batch) — adopt the mechanic, never lift exemplar copy (GL-009).
 
 ## Mean Alyssa ammo for the gate

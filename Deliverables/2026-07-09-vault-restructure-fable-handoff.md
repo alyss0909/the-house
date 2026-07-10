@@ -306,11 +306,11 @@ Conceptually, Hermes is a team brain, judgment layer, and source-routing layer o
 
 However, this is a high-risk physical move because many files point to:
 
-- `Hermes/MAP.md`
-- `Hermes/SOURCES.md`
-- `Hermes/FABLE.md`
-- `Hermes/BUSINESS.md`
-- `Hermes/README.md`
+- [[Hermes/MAP]]
+- [[Hermes/SOURCES]]
+- [[Hermes/FABLE]]
+- [[Hermes/BUSINESS]]
+- [[Hermes/README]]
 
 Fable should consider whether Hermes should stay physically at root during the first phase with a map explaining its conceptual home.
 
@@ -320,8 +320,8 @@ Do not break Larry.
 
 Larry currently depends on:
 
-- `AGENTS.md`
-- `Team/agent-index.md`
+- [[AGENTS]]
+- [[Studio/Team/agent-index]]
 - `Team Knowledge/SOPs`
 - `Team Knowledge/Workstreams`
 - `Team Knowledge/Guidelines`

@@ -20,7 +20,7 @@ Alyssa reviewed the just-shipped Arc/Hook button work with real screenshots and 
 
 ## What I changed
 
-**`dashboard/02 Arc.md`:**
+**[[Studio/Content/dashboard/02 Arc]]:**
 - Removed the shared `dbReactRow`/`dbWireReacts` helper entirely from this file. Arc now has its own `dbArcReactRow` / `dbWireArcReacts` — Arc and Hook no longer share unmodified duplicate logic where their behavior actually differs.
 - Two buttons only: **Approve** / **Redo**. Approve uses the locked pink token (`.week`), Redo uses peach (`.reject` class, reused for its "send back" semantic rather than sage which reads as a second positive action).
 - New persistence: `dbSetArcApproved(dayKey, title, approved)` writes a `[approved]` suffix tag directly onto the arc's own `### DAYKEY — Title` heading line in the pitch sheet — same file-based suffix-tag pattern Concepts uses for `[saved]`/`[rejected]`, just applied to Arc's heading line since arcs aren't numbered list items. `dbArcIsApproved(raw, dayKey, title)` reads it back.
@@ -28,7 +28,7 @@ Alyssa reviewed the just-shipped Arc/Hook button work with real screenshots and 
 - The A/B "Pick this one" button now also calls `dbSetArcApproved(dayKey, title, true)` and greens that card live — picking an option IS approving it, so it uses the same underlying mechanism as the Approve button (one signal, one write path) instead of only writing to the reacts log.
 - Approve button disables and reads "Approved" once persisted, matching the Concepts/Save "locked, quiet" pattern (`db-state-locked`), surviving reload.
 
-**`dashboard/03 Hook.md`:**
+**[[Studio/Content/dashboard/03 Hook]]:**
 - Cloned Concepts' 3-button pattern exactly: **✓ Choose / ✕ Reject / ☆ Save**, same classes (`week`/`reject`/`idea`) so it inherits the locked pink/peach/sage token mapping already correct from the prior pass.
 - New persistence keyed off a hook's own quoted text (hooks have no individual numbered line the way concepts do): `dbSetHookState(dayKey, hookText, tag)` scans to the arc's own `### DAYKEY —` block, finds its `Hooks:` line, and rewrites the specific hook's trailing tag in place — e.g. `Hooks: "hook one" [chosen] · "hook two" [rejected] · "hook three"`. `dbParseHookTokens`/`dbSerializeHookTokens` handle the round-trip.
 - Chosen -> green card (`db-card-locked`) + disabled "Chosen" button, mirroring Concepts' Choose. Saved -> lavender-fill "Saved" button (`db-state-locked` + `.idea`). Rejected -> hollow-peach "Rejected" button (`db-state-locked` + `.reject`). All three persist on reload via `dbApplyHookRowState` reading the parsed tag at render time, same as Concepts' `dbApplyRowState`.
@@ -53,4 +53,4 @@ Every state-locked button keeps a distinct `aria-label` reflecting its current s
 
 ## Val handoff
 
-Ready for QA gate — recommend Val verify in-browser: Arc card stays neutral until Approve is clicked (MON/FRI and both A/B options), Hook's three buttons/colors match Concepts pixel-for-pixel, and both pages' persisted states survive an Obsidian reload against `Team Inbox/pitches/2026-W29-pitch.md`.
+Ready for QA gate — recommend Val verify in-browser: Arc card stays neutral until Approve is clicked (MON/FRI and both A/B options), Hook's three buttons/colors match Concepts pixel-for-pixel, and both pages' persisted states survive an Obsidian reload against [[Studio/Content/2026-W29-pitch]].

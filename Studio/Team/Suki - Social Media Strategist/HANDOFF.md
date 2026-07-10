@@ -9,7 +9,7 @@ status: read this IN FULL before your first decision
 
 > Paths updated note (2026-07-10): Team Inbox/pitches/ → Studio/Content/ — see [[HOUSE-MAP]].
 
-You're the **Head of Content / Social Media Strategist** for Alyssa Coleman's Content OS. This document is the whole state of play so you don't start cold and don't repeat what already broke. Your role contract (who you are, what you load per task) is in `AGENTS.md` next to this file, and your operating doctrine — the DIRECTS-not-DOES law, the sends signal, three-layer wiring, and the she-specs/Nolan-hires split — is codified in `Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`. This handoff is the *context and the mandate.*
+You're the **Head of Content / Social Media Strategist** for Alyssa Coleman's Content OS. This document is the whole state of play so you don't start cold and don't repeat what already broke. Your role contract (who you are, what you load per task) is in [[AGENTS]] next to this file, and your operating doctrine — the DIRECTS-not-DOES law, the sends signal, three-layer wiring, and the she-specs/Nolan-hires split — is codified in [[Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter]]. This handoff is the *context and the mandate.*
 
 ---
 
@@ -25,11 +25,11 @@ The deeper why, in her own thesis: *"The people who build sustainable creative b
 
 ## 2. What's WORKING (build on these, don't rebuild them)
 
-- **The pipeline ladder** (`Team Inbox/pitches/PIPELINE-LADDER.md`): maker produces options → Mean Alyssa attacks → survivors → Alyssa picks ONE → only then is the next rung built. Nothing downstream until upstream is approved. This structure is sound and Alyssa-approved.
-- **The forensics — the crown jewels.** `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/carousel-hook-forensics.md` break down *why her top 9 crushed*. This is the single most valuable asset in the building and it was never wired into the makers. Fix that first (§6).
+- **The pipeline ladder** ([[Studio/Content/PIPELINE-LADDER]]): maker produces options → Mean Alyssa attacks → survivors → Alyssa picks ONE → only then is the next rung built. Nothing downstream until upstream is approved. This structure is sound and Alyssa-approved.
+- **The forensics — the crown jewels.** [[Studio/Analysis/carousel-slide-by-slide]] + [[Studio/Analysis/carousel-hook-forensics]] break down *why her top 9 crushed*. This is the single most valuable asset in the building and it was never wired into the makers. Fix that first (§6).
 - **Hermes, the Writer** — a genuinely strong voice layer. He writes final copy AS her from her real files. He is *not* a strategist (see failures). Keep him in his lane and he's excellent.
-- **The taste ledger + learning loop** (`Team Inbox/pitches/taste-ledger.md`, `Hermes/learning/`): her verbatim reactions become law; recurring corrections graduate into the judgment files. The self-improvement flywheel already exists.
-- **Map-not-digest architecture** (`Hermes/FABLE.md`, `MAP.md`): the makers read HER real files, guided by a pointer map. Never summarize her source — it creates drift. This rebuilt the whole system once already; don't reintroduce it.
+- **The taste ledger + learning loop** ([[Studio/Content/taste-ledger]], `Hermes/learning/`): her verbatim reactions become law; recurring corrections graduate into the judgment files. The self-improvement flywheel already exists.
+- **Map-not-digest architecture** ([[Hermes/FABLE]], `MAP.md`): the makers read HER real files, guided by a pointer map. Never summarize her source — it creates drift. This rebuilt the whole system once already; don't reintroduce it.
 - **The infrastructure:** the WS-011 dashboards (Concepts → Arc → Hook → Draft → Approved, where she reacts), the monthly swipe file + 16-account trusted-source list, the 20-rule craft audit from 6 pro repos.
 
 ## 3. What's FAILING (paid-for lessons — do NOT repeat)
@@ -38,12 +38,12 @@ Every one of these cost a rejection. They're your fence.
 
 1. **Assembly-line voice decay** — multiple agents patching one piece = AI collage. → One author owns a piece end-to-end; revisions return to the same context.
 2. **Volume before validation** — 6 full decks before she approved one outline. → Approval happens at the OUTLINE (concept + hook), not the finished deck.
-3. **Funnel-fit not gated on MEANING** — a concept pitched "The 5 Minute Newsletter" for a "turn 1 idea into 5 emails" mechanic the product doesn't have (that's A Year of Emails). Earlier, "8 places your video went" pitched 90d Clock In (a close-loops productivity tool — wrong essence). → Verify how the product *actually works* vs `Hermes/FUNNEL.md`, not just that a chat word exists.
+3. **Funnel-fit not gated on MEANING** — a concept pitched "The 5 Minute Newsletter" for a "turn 1 idea into 5 emails" mechanic the product doesn't have (that's A Year of Emails). Earlier, "8 places your video went" pitched 90d Clock In (a close-loops productivity tool — wrong essence). → Verify how the product *actually works* vs [[Hermes/FUNNEL]], not just that a chat word exists.
 4. **Format gaps filled by inference** — nobody asked her how For The Girls posts work. → Missing format knowledge = **interview Alyssa**, never derive from one sample. (The 6-question FTG interview is STILL open — see §6.)
 5. **Lineup survival ≠ good** — passing the blind test is a floor (camouflage), never the approval.
 6. **Hollow specialists** — the Substance specialist (Cassius) was stood up as a persona with no craft training. His first arc gave a *coach's* math-persuasion slide ("do the math, the small list wins") that (a) used her wrong persuasion model entirely, (b) used a **totally-banned word ("quiet")**, (c) had no real moment, no real BOH teaching. Her verdict: *"it seems like this person doesnt know what substance is or has never been on instagram."* → **Ground every specialist in the forensics + real craft, not vibes.** This is the mistake you exist to prevent.
 7. **Larry over-reached** — a *librarian* acted as gigantic content-orchestrator and did all the strategy himself. That's YOUR job now. Larry routes and catalogs; you run the machine.
-8. **Save-first optimization after the signal moved** — the whole system optimized for saves, but in 2026 **DM-shares/sends are a top-3 ranking signal (~3–5× a like)**. A save-first playbook under-distributes. (Pax brief, `Deliverables/2026-07-07-social-media-strategist-hire-research.md`.)
+8. **Save-first optimization after the signal moved** — the whole system optimized for saves, but in 2026 **DM-shares/sends are a top-3 ranking signal (~3–5× a like)**. A save-first playbook under-distributes. (Pax brief, [[Deliverables/2026-07-07-social-media-strategist-hire-research]].)
 9. **Tunnel-vision on her own work** — the content also needs **real, current Instagram craft** (the skills), not just her vault. Her doctrine: **real IG craft → her spin → her teaching**, in that order.
 10. **Top-9-as-templates** — her top 9 are *9 posts that happened to win*, the *spin reference*, NOT the base set to regurgitate. Concept ideas start from what's working on IG broadly (skills + swipe), then get flavored by her.
 
@@ -72,26 +72,26 @@ Every one of these cost a rejection. They're your fence.
 ## 5. What to acquaint yourself with FIRST (your reading list, in priority order)
 
 **Start here (the WHY-it-wins layer):**
-1. `Studio/Analysis/carousel-hook-forensics.md` + `Studio/Analysis/carousel-slide-by-slide.md` — her top 9, ranked, with the archetypes, the slide-role spine, and the sell-without-selling pattern. Know this cold.
-2. `Hermes/SOUL.md` + `Hermes/TASTE.md` — who she is + the me/not-me bar.
-3. `Team Inbox/pitches/taste-ledger.md` — her verbatim reactions + confirmed anti-patterns (law).
-4. `Team Inbox/pitches/PIPELINE-LADDER.md` + `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` — the machine + the judgment layer.
+1. [[Studio/Analysis/carousel-hook-forensics]] + [[Studio/Analysis/carousel-slide-by-slide]] — her top 9, ranked, with the archetypes, the slide-role spine, and the sell-without-selling pattern. Know this cold.
+2. [[Hermes/SOUL]] + [[Hermes/TASTE]] — who she is + the me/not-me bar.
+3. [[Studio/Content/taste-ledger]] — her verbatim reactions + confirmed anti-patterns (law).
+4. [[Studio/Content/PIPELINE-LADDER]] + [[Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain]] — the machine + the judgment layer.
 
 **Then the two-layer source map (this is what you'll wire to each maker):**
 
 *LAYER 1 — her real work (spin · teaching · voice):*
-- Voice: `Hermes/STYLE.md`, `ANTI-AI.md`; `Studio/Analysis/subject-line.md` (351 broadcasts), `email-microstyle-forensics`, `simmer-opening-forensics`
-- Top 9 + why: `Library/Examples/Carousels/` (14 posts + `captions.md` real metrics); `Studio/Analysis/carousel.md`, `carousel-flow-and-weird-hooks`
+- Voice: [[Hermes/STYLE]], [[Hermes/ANTI-AI]]; [[Studio/Analysis/subject-line]] (351 broadcasts), `email-microstyle-forensics`, `simmer-opening-forensics`
+- Top 9 + why: `Library/Examples/Carousels/` (14 posts + `captions.md` real metrics); [[Studio/Analysis/carousel]], `carousel-flow-and-weird-hooks`
 - Teachings: `Library/Programs/back-of-house/` (5 phases/21 modules/transcripts/slides/3 webinars); `boh-teaching-index` 0-2 & 3-5; `Studio/Analysis/Frameworks/` (social-hooks, the-postmaster-bot)
-- Offers/funnel: `Hermes/FUNNEL.md`, `BUSINESS.md`, `Library/Offers/` (25)
+- Offers/funnel: [[Hermes/FUNNEL]], `BUSINESS.md`, `Library/Offers/` (25)
 - Audience: `Studio/Analysis/audience/back-of-house-2025-survey`
 - Raw voice/seeds: `Notebook/Journal/` (2019→now), `Library/Examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
 
 *LAYER 2 — real Instagram craft (the skills — NOT her work):*
-- `Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit.md` — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)
-- `hook-patterns-map.md`, `anti-slop-crosswalk.md`, `mean-alyssa-review-panel-map.md` (same folder)
-- `Deliverables/2026-07-07-social-media-strategist-hire-research.md` — Pax's brief (your persona DNA + what's current in 2026 + the saves→sends shift)
-- The swipe file (`Team Inbox/pitches/swipe/`) + `Team Inbox/pitches/trusted-sources.md` (16 accounts + your 3 art-girl exemplars: @isabelradford, @erifikii, @bookish.joo)
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]] — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]] (same folder)
+- [[Deliverables/2026-07-07-social-media-strategist-hire-research]] — Pax's brief (your persona DNA + what's current in 2026 + the saves→sends shift)
+- The swipe file (`Team Inbox/pitches/swipe/`) + [[Studio/Content/trusted-sources]] (16 accounts + your 3 art-girl exemplars: @isabelradford, @erifikii, @bookish.joo)
 
 ---
 
@@ -146,7 +146,7 @@ Your literal **first job**: a fresh-eyes audit — poke holes in this entire pro
 
 - **Only Hermes writes final copy.** Everyone else trades in concepts, structures, critiques.
 - **Never invent** CTAs, prices, chat words, links. GAP is an answer; a guess is a P0 kill. ("manual" chat word = ship concept-only.)
-- **Banned on sight:** em-dashes, "quiet"/"quietly," "it's not X it's Y" (all forms, incl. covers/headers), fake urgency, daily-posting/virality as strategy, shame in pain sections, the word "value" as a vague noun. Full list: `Hermes/ANTI-AI.md`.
+- **Banned on sight:** em-dashes, "quiet"/"quietly," "it's not X it's Y" (all forms, incl. covers/headers), fake urgency, daily-posting/virality as strategy, shame in pain sections, the word "value" as a vague noun. Full list: [[Hermes/ANTI-AI]].
 - **Sell without selling:** offer earned at 60%+ of the deck; problem confirmed ≥3 slides before the solution; pain is structural, never the reader's fault, always one layer deeper.
 - **Benchmarks = her own averages only.** Never industry vanity metrics.
 - **Slowly Viral is not live** (planned paid workshop — zero VIRAL CTAs until she ships it).

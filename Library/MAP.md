@@ -16,7 +16,7 @@ zone: Library
 | Her verbatim copy | `Library/Examples/` (carousels, simmers, soft-sundays, sales pages, emails) | Exactly as she wrote it. Source. **MOVED 2026-07-10** from `PKM/Second Brain/examples/`. |
 | Program curriculum | `Library/Programs/` (Back of House transcripts, modules, webinars) | Her real teaching. Source. **MOVED 2026-07-10** from `PKM/Second Brain/programs/`. |
 | Offers | `Library/Offers/<offer>/MAP.md` — one folder per offer | Facts + positioning; verbatim sales copy links to `Library/Examples/` instead of duplicating it. **MOVED 2026-07-10** from `PKM/My Life/Offers/` (flat files); Back of House is the reference pattern. |
-| Promoted work | [[Library/me\|me.md]] — identity anchor | Studio work Alyssa has explicitly signed. **PROMOTED 2026-07-10** from `Studio/Analysis/me.md`; `promoted_by: alyssa`, `promoted_date: 2026-07-10`. |
+| Promoted work | [[Library/me\|me.md]] — identity anchor | Studio work Alyssa has explicitly signed. **PROMOTED 2026-07-10** from [[Library/me]]; `promoted_by: alyssa`, `promoted_date: 2026-07-10`. |
 
 ## What is NOT here
 

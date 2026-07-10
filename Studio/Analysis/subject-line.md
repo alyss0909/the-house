@@ -54,7 +54,7 @@ Reach for this file when:
 - **Auditing a subject line batch** — checking if drafts sound like Alyssa or like generic email marketing
 - **Training any team member on email** — subject lines are the most imitated and most easily botched element
 
-> Do NOT use this file alone for Soft Sunday subject lines — also read `Studio/Analysis/writing-style.md` Section 7 (humor) and Section 6 (permission voice) for the full emotional register those emails require.
+> Do NOT use this file alone for Soft Sunday subject lines — also read [[Studio/Analysis/writing-style]] Section 7 (humor) and Section 6 (permission voice) for the full emotional register those emails require.
 
 ---
 

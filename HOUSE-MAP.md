@@ -25,12 +25,12 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Conceptual home | Current physical path |
 |---|---|
 | Notebook/Journal | **MOVED 2026-07-09** → `Notebook/Journal/` (redirect stub at old path) |
-| Notebook/Inbox | **MOVED 2026-07-10** → `Notebook/Inbox/` (the raw drops + `media/` + `Meeting Captures/`; redirect stub at `Team Inbox/MOVED.md`; `_archive/`, `_Processed/`, `_KeepSidianLogs/` backlog swept to `Archive/Team Inbox/`) |
+| Notebook/Inbox | **MOVED 2026-07-10** → `Notebook/Inbox/` (the raw drops + `media/` + `Meeting Captures/`; redirect stub at [[Team Inbox/MOVED]]; `_archive/`, `_Processed/`, `_KeepSidianLogs/` backlog swept to `Archive/Team Inbox/`) |
 | Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `Library/Offers/`; redirect stubs at old paths) |
 | Notebook/Images | **MOVED 2026-07-09** → `Notebook/Images/` (redirect stub at old path) |
-| Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at `Team Inbox/pitches/MOVED.md` and `dashboard/MOVED.md`) |
+| Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at [[Team Inbox/pitches/MOVED]] and `dashboard/MOVED.md`) |
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
-| Studio/Analysis | **MOVED 2026-07-10** → `Studio/Analysis/` (analysis files at root, `Frameworks/` + `Templates/` subfolders, `COMPASS.md` entry point; from root `PKM/Second Brain/analysis/`, `frameworks/`, `templates/`) |
+| Studio/Analysis | **MOVED 2026-07-10** → `Studio/Analysis/` (analysis files at root, `Frameworks/` + `Templates/` subfolders, [[Studio/Analysis/COMPASS]] entry point; from root `PKM/Second Brain/analysis/`, `frameworks/`, `templates/`) |
 | Studio/Voice (Hermes station) | `Hermes/` |
 | Studio/Team | **MOVED 2026-07-10** → `Studio/Team/` + `Studio/Team Knowledge/` (Bring It Home restructure) |
 | Studio/Automations | **MOVED 2026-07-10** → `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` |
@@ -46,7 +46,7 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 
 1. This file.
 2. The map for the zone your job lives in: [[Notebook/MAP|Notebook map]], [[Studio/MAP|Studio map]], or [[Library/MAP|Library map]].
-3. Your workflow's job card (for content work: `Studio/Content/dashboard/PIPELINE-CONTRACT.md` and GL-010).
+3. Your workflow's job card (for content work: [[Studio/Content/dashboard/PIPELINE-CONTRACT]] and GL-010).
 4. Your own agent contract and its mandatory loads.
 5. The actual source files — full loads, per protocol.
 

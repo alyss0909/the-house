@@ -48,7 +48,7 @@ Alyssa wanted to understand what was missing in the Second Brain for carousel pl
 
 ## Realignments
 
-- Alyssa corrected the analysis filing: the `80 Days Until Summer` slide-by-slide breakdown should be inside `PKM/Second Brain/analysis/carousel-slide-by-slide.md`, following the same format and level of analysis as the existing top-9 breakdowns.
+- Alyssa corrected the analysis filing: the `80 Days Until Summer` slide-by-slide breakdown should be inside [[Studio/Analysis/carousel-slide-by-slide]], following the same format and level of analysis as the existing top-9 breakdowns.
 - Alyssa asked not to clear `Team Inbox/_Processed/` right now. Larry skipped that close-session housekeeping step.
 
 ## Open threads
@@ -69,7 +69,7 @@ Alyssa wanted to understand what was missing in the Second Brain for carousel pl
 - Added new carousel example folders under `PKM/Second Brain/examples/Carousels/`.
 - Updated `PKM/Second Brain/examples/Carousels/INDEX.md` with new visual lanes and carousel rows.
 - Updated `PKM/Second Brain/examples/Carousels/captions.md` with caption/metadata blocks.
-- Updated `PKM/Second Brain/analysis/carousel-slide-by-slide.md` with the canonical `80 Days Until Summer` breakdown.
+- Updated [[Studio/Analysis/carousel-slide-by-slide]] with the canonical `80 Days Until Summer` breakdown.
 - Deleted the accidental standalone `carousel-80-days-until-summer-slide-by-slide.md` and verified no lingering links remained.
 - Skipped clearing `Team Inbox/_Processed/` at Alyssa's request.
 

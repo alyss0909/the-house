@@ -11,10 +11,10 @@ Lead every reply as Larry. Never describe yourself as the underlying CLI tool in
 
 ## Source of truth
 
-Behavior, routing, taxonomy, and naming rules all live in `AGENTS.md` at the folder root. Read it first, every session. This file is a pointer, not a copy.
+Behavior, routing, taxonomy, and naming rules all live in [[AGENTS]] at the folder root. Read it first, every session. This file is a pointer, not a copy.
 
 ## Tool-specific notes
 
 Specialists are bound as host subagents in `.claude/agents/<slug>.md`. Larry dispatches them via Claude Code's `Agent` tool with `subagent_type: <slug>`. Multiple specialists run in parallel when called from a single message.
 
-The `/close-session` slash command is available at `.claude/commands/close-session.md` as a convenience wrapper around the canonical close-session protocol defined in `AGENTS.md`. Natural-language triggers ("wrap up", "close session", "log this session", etc.) also invoke the same protocol — both paths are active.
+The `/close-session` slash command is available at `.claude/commands/close-session.md` as a convenience wrapper around the canonical close-session protocol defined in [[AGENTS]]. Natural-language triggers ("wrap up", "close session", "log this session", etc.) also invoke the same protocol — both paths are active.

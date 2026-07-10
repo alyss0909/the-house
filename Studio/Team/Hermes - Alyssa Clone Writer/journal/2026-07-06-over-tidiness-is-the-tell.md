@@ -29,5 +29,5 @@ Calibrated judges never caught me on vocabulary or shapes after lint — they ca
 
 ## Evidence
 - [[2026-07-06-content-os-six-post-sprint-complete]] (session log)
-- `Hermes/tests/results/2026-07-06-sprint-lineups/round-1-verdict.md` through `round-4-verdict.md`
+- [[Hermes/tests/results/2026-07-06-sprint-lineups/round-1-verdict]] through [[Hermes/tests/results/2026-07-06-sprint-lineups/round-4-verdict]]
 - Post-1 v3→v3.1 sweep (five invented-biography spots purged); post-4 v3 self-catch (fake "quarter plan" memory)

@@ -42,10 +42,10 @@ Scope: validate SOP-034 (Concept Pitch Brief) and SOP-036 (Substance Dossier) dr
 The repo-alignment-audit.md and hook-patterns-map.md already did the mining and drew a defensible line; my job here is to validate that line against outside practice, not redraw it.
 
 - **External confirmation of the line itself**: brand-voice literature independently states the same rule the repo audit already applied — "a key mistake is adopting a voice just because it's trendy; brands should choose traits that feel natural to their company," i.e., adopt method, not tone/voice, from any outside reference ([brandedagency.com / general brand-voice literature synthesis](https://www.brandedagency.com/blog/brand-voice-guidelines)). This is a soft, single-cluster corroboration (marketing-vendor content, not a primary ethics/IP source) — flagged as directional support only, not a hard citation.
-- The repo audit's own distinction (Section on Blotato: "Do not adopt hook TEXT from this library, only the process mechanics") is stronger and more specific than anything found externally, because it's grounded in Alyssa's actual voice rules (`Hermes/ANTI-AI.md`, `captions-carousels.md`) rather than generic brand-voice advice. **The repo audit's line should stand as-is; external search did not surface a more rigorous standard.**
+- The repo audit's own distinction (Section on Blotato: "Do not adopt hook TEXT from this library, only the process mechanics") is stronger and more specific than anything found externally, because it's grounded in Alyssa's actual voice rules ([[Hermes/ANTI-AI]], [[Hermes/craft/captions-carousels]]) rather than generic brand-voice advice. **The repo audit's line should stand as-is; external search did not surface a more rigorous standard.**
 - The clean, restatable version of the boundary for SOP-034/SOP-036 and any future repo intake:
   - **Adaptable as process (safe):** scoring mechanics (hook = 50% of score), test protocols (first-3-words, so-what bridge, ICE tie-break), QA infrastructure (control-validation calibration, subtract-points scoring, batch-variety gates), output-count discipline, platform mechanics (character folds).
-  - **Not adaptable, ever (source/voice risk):** hook copy text, title-formula phrasing, brand-brief file structures that would compete with `Hermes/BUSINESS.md`/`TASTE.md`, any corpus under a non-commercial or unclear license (`shixinzhang/tiktok-viral-hooks` is CC BY-NC-SA — reference method only, per manifest.md).
+  - **Not adaptable, ever (source/voice risk):** hook copy text, title-formula phrasing, brand-brief file structures that would compete with [[Hermes/BUSINESS]]/[[Hermes/TASTE]], any corpus under a non-commercial or unclear license (`shixinzhang/tiktok-viral-hooks` is CC BY-NC-SA — reference method only, per manifest.md).
   - **The test**: if adopting the mechanic changes *what a post says* or *how it sounds*, it's a source/voice risk. If it changes *how a post is checked or scored*, it's process and safe.
 
 **Verdict: no correction needed to the existing repo-boundary ruling.** It already matches (and in places exceeds) external brand-voice best practice. Reopen it only if a future repo intake includes primary-source IP/licensing law — the current audit's own manifest.md licensing notes (MIT vs. CC BY-NC-SA vs. vendor/unknown) are doing the real legal-adjacent work already, not this research pass.
@@ -54,12 +54,12 @@ The repo-alignment-audit.md and hook-patterns-map.md already did the mining and 
 
 ## Source Files That Must Be Reopened Before Alyssa Approves
 
-1. `Team/Suki - Social Media Strategist/handoffs/HANDOFF-3-content-os-resourcing-and-hiring-reset.md` — the spec itself; SOP-034/036 drafts must trace back to it line for line.
-2. `Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit.md` — the 20-item distilled rule set is the actual source of truth for what's "process, not voice"; SOP-035/037 authors must cite it directly, not re-derive it.
-3. `Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk.md` — Section 4 ("over-correction traps") must be re-read by whoever builds Mean Alyssa's Skeptic/Competitor passes, so new gates don't reintroduce blanket bans already rejected.
-4. `Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map.md` — needed by Hook Specialist SOP-035 author; confirms Concept ≠ Hook split externally as well as internally.
-5. `Deliverables/2026-07-05-social-skills-repo-intake/manifest.md` — licensing table; must be reopened any time a new repo mechanic is proposed for adoption, to re-confirm MIT vs. restricted-license status before use.
-6. `Hermes/ANTI-AI.md` and `Hermes/craft/captions-carousels.md` — senior-gate law; both the repo audit and this research pass treat them as outranking all external material; Alyssa should reconfirm this hierarchy is still what she wants stated explicitly in SOP-036/037.
+1. [[Studio/Team/Suki - Social Media Strategist/handoffs/HANDOFF-3-content-os-resourcing-and-hiring-reset]] — the spec itself; SOP-034/036 drafts must trace back to it line for line.
+2. [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]] — the 20-item distilled rule set is the actual source of truth for what's "process, not voice"; SOP-035/037 authors must cite it directly, not re-derive it.
+3. [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] — Section 4 ("over-correction traps") must be re-read by whoever builds Mean Alyssa's Skeptic/Competitor passes, so new gates don't reintroduce blanket bans already rejected.
+4. [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] — needed by Hook Specialist SOP-035 author; confirms Concept ≠ Hook split externally as well as internally.
+5. [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]] — licensing table; must be reopened any time a new repo mechanic is proposed for adoption, to re-confirm MIT vs. restricted-license status before use.
+6. [[Hermes/ANTI-AI]] and [[Hermes/craft/captions-carousels]] — senior-gate law; both the repo audit and this research pass treat them as outranking all external material; Alyssa should reconfirm this hierarchy is still what she wants stated explicitly in SOP-036/037.
 
 ---
 

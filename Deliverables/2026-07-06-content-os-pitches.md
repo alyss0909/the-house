@@ -1,8 +1,8 @@
 # Content OS Pitches — 6 Posts, 6 Lanes
 
-Generated 2026-07-06 by Test Kitchen (Larry, worker pass — no delegation). Loads completed per FABLE.md §1: FABLE + MAP + BUSINESS + hook-patterns-map + content-os-relevant-source-map + outlier analysis (`Deliverables/2026-07-06-outlier-analysis.md`). No pitch-index file exists in Hermes/ — none loaded.
+Generated 2026-07-06 by Test Kitchen (Larry, worker pass — no delegation). Loads completed per FABLE.md §1: FABLE + MAP + BUSINESS + hook-patterns-map + content-os-relevant-source-map + outlier analysis ([[Deliverables/2026-07-06-outlier-analysis]]). No pitch-index file exists in Hermes/ — none loaded.
 
-Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (kills sameness), **Scroller** (attention judge), **Obsessive** (craft/detail), **Bestie** (audience real-life read). Batch-variety gate applied: no more than 2 pitches share a hook formula (per `hook-patterns-map.md` checklist item 3) — confirmed below, each pitch uses a distinct formula.
+Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (kills sameness), **Scroller** (attention judge), **Obsessive** (craft/detail), **Bestie** (audience real-life read). Batch-variety gate applied: no more than 2 pitches share a hook formula (per [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] checklist item 3) — confirmed below, each pitch uses a distinct formula.
 
 ---
 
@@ -14,7 +14,7 @@ Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (
 - "Your Emails Don't Have A Flavor." (Paradox/threat — confession payoff, period close, ≤7 words)
 - "Nobody's Craving Your Newsletter Yet." (Threat payoff, no reframe, no second-person)
 
-**Real teaching opened:** `PKM/Second Brain/programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript.md` — Step 1: Find Your Flavor (tone, cadence, POV diagnostic questions — "after someone reads your email, how do they feel?").
+**Real teaching opened:** [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] — Step 1: Find Your Flavor (tone, cadence, POV diagnostic questions — "after someone reads your email, how do they feel?").
 
 **Funnel job:** Email is strategic base per source map. This carousel repurposes a teaching moment from the Simmer module into an IG/Pinterest-dual-purpose asset, driving to the email ladder's freebie entry point.
 
@@ -33,7 +33,7 @@ Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (
 - "I Never Do The Math By Hand." (Personal Testimony — first-person, "and" energy not concession)
 - "Your Income Goal Has A Number Attached." (Bold Outcome Promise, no stacking superlative)
 
-**Real teaching opened:** `PKM/Second Brain/programs/back-of-house/0. Welcome/0.3 Cozy Business Plan.md` §THE NUMBERS / §LIST GROWTH NUMBERS — the profit-formula-without-a-calculator diagnostic.
+**Real teaching opened:** [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan]] §THE NUMBERS / §LIST GROWTH NUMBERS — the profit-formula-without-a-calculator diagnostic.
 
 **Funnel job:** BoH/low-ticket dual-CTA lane. Carousels are an output lane here, not the strategic base — the real teaching source is the Cozy Biz Plan workbook.
 
@@ -72,7 +72,7 @@ Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (
 - "Systems Do The Hands Work Now." (Bold Outcome, time-anchored implicitly via "now")
 - "I Kept The Heart, Outsourced The Rest." (Personal Testimony)
 
-**Real teaching opened:** This concept is sourced from Alyssa's own journal note `PKM/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart.md` (per `Deliverables/2026-07-06-content-os-relevant-source-map.md` §3 — "AI handles the hands; Alyssa keeps head and heart. Strong operating rule for Content OS"). Cross-referenced with `0.1 The Prep Work Transcript.md` (Inspiration Pantry — the systems/mindset-before-tactics framing of Phase 0) for the productivity-systems teaching pairing per MAP §4.
+**Real teaching opened:** This concept is sourced from Alyssa's own journal note [[Notebook/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart]] (per [[Deliverables/2026-07-06-content-os-relevant-source-map]] §3 — "AI handles the hands; Alyssa keeps head and heart. Strong operating rule for Content OS"). Cross-referenced with [[Library/Programs/back-of-house/0. Welcome/transcripts/0.1 The Prep Work Transcript]] (Inspiration Pantry — the systems/mindset-before-tactics framing of Phase 0) for the productivity-systems teaching pairing per MAP §4.
 
 **Funnel job:** Productivity/systems edu, W4 Mon slot. Teach from the real Soft CEO Sessions/journal source per MAP §3 ruling (no forced carousel gymnastics) — this is a legitimate carousel candidate because the source material (a named 3-part framework) compresses cleanly, unlike Soft Sunday's narrative format.
 
@@ -96,20 +96,20 @@ Personas run on every pitch: **Historian** (archive precedent), **Contrarian** (
 
 **Product / chat word:** none (matches all 3 real FTG posts in the top-9, which carry CTA word "none" or a soft brand mention only) — no HALT needed, absence of a chat word is the documented pattern here.
 
-**Persona notes:** Historian is the loudest voice on this pitch: insists the "I" litany mechanic and the cup-as-container visual device (per `carousel-slide-by-slide.md` Jan 22 breakdown) are proven, but the CONTENT must come from a different seed than Jan 22's actual permission slips, or this is a recycled winner's construction (banned per her Rule 3: "never recycle a documented winner's exact construction"). Contrarian agrees this is the highest-risk-of-sameness pitch in the batch and pushed hard for the self-trust cluster specifically because it's never been carouseled. Scroller flags this lane doesn't need a strong scroll-stopping hook — the real Jan 22 cover ("Wasting Time Is Part of My Process.") worked because of the coffee-cup visual container, not hook mechanics alone; Obsessive should brief the visual motif requirement to Iris/Pixel, not just Hermes. Obsessive: wants one small real detail from the actual linked journal entries (a specific failed plan, dated) rather than a generic "sometimes things don't work out" line — Small real thing > big true claim. Bestie: this format performs on emotional resonance, not education — confirmed by the outlier analysis (Jan 22 had zero data, zero framework, and still beat most educational posts on share ratio).
+**Persona notes:** Historian is the loudest voice on this pitch: insists the "I" litany mechanic and the cup-as-container visual device (per [[Studio/Analysis/carousel-slide-by-slide]] Jan 22 breakdown) are proven, but the CONTENT must come from a different seed than Jan 22's actual permission slips, or this is a recycled winner's construction (banned per her Rule 3: "never recycle a documented winner's exact construction"). Contrarian agrees this is the highest-risk-of-sameness pitch in the batch and pushed hard for the self-trust cluster specifically because it's never been carouseled. Scroller flags this lane doesn't need a strong scroll-stopping hook — the real Jan 22 cover ("Wasting Time Is Part of My Process.") worked because of the coffee-cup visual container, not hook mechanics alone; Obsessive should brief the visual motif requirement to Iris/Pixel, not just Hermes. Obsessive: wants one small real detail from the actual linked journal entries (a specific failed plan, dated) rather than a generic "sometimes things don't work out" line — Small real thing > big true claim. Bestie: this format performs on emotional resonance, not education — confirmed by the outlier analysis (Jan 22 had zero data, zero framework, and still beat most educational posts on share ratio).
 
 ---
 
 ## 6. Repeatable-format wildcard — Guest Cheque Quote
 
-**Concept:** Use the "guest cheque quote" repeatable format (per `PKM/Journal/2026/03/2026-03-12-repeatable-formats.md`, item 1) as a single-image aphorism post, following the exact minimal real precedent (Mar 10 post: one line of text, no body copy, no CTA). Teaches nothing directly — this lane exists to prove the format is repeatable, using a NEW one-liner drawn from her real voice register, not a copy of the Mar 10 line.
+**Concept:** Use the "guest cheque quote" repeatable format (per [[Notebook/Journal/2026/03/2026-03-12-repeatable-formats]], item 1) as a single-image aphorism post, following the exact minimal real precedent (Mar 10 post: one line of text, no body copy, no CTA). Teaches nothing directly — this lane exists to prove the format is repeatable, using a NEW one-liner drawn from her real voice register, not a copy of the Mar 10 line.
 
 **Hook (Visual Joke / aphorism, single option per real precedent — this format runs ONE line, not multiple options):**
-- "I Think I Figured It Out, Actually." (mirrors the real Mar 10 line's casual confidence — "actually" is her documented trust-device word per `hook-patterns-map.md` — but is a new, distinct line, not a reuse)
+- "I Think I Figured It Out, Actually." (mirrors the real Mar 10 line's casual confidence — "actually" is her documented trust-device word per [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] — but is a new, distinct line, not a reuse)
 
 Note: because the real precedent (`captions.md` Mar 10 entry) is a single unpunctuated confession line with zero teaching, this pitch intentionally has one hook, not the standard 2-4 — per Fable Rule 3, offering fabricated alternate framings for a format whose entire mechanic IS understatement would violate the format's own logic. Flagging this deviation explicitly rather than padding it.
 
-**Real teaching opened:** No teaching opens here — this is a For The Girls / brand-world repeatable format per the source map (`2026-03-12-repeatable-formats.md` item 1, "the guest check post"), matching the real Mar 10 example's "Post type: For The Girls" tag in `captions.md`.
+**Real teaching opened:** No teaching opens here — this is a For The Girls / brand-world repeatable format per the source map ([[Notebook/Journal/2026/03/2026-03-12-repeatable-formats]] item 1, "the guest check post"), matching the real Mar 10 example's "Post type: For The Girls" tag in `captions.md`.
 
 **Funnel job:** None — brand-world seed only, matching the real Mar 10 post's "CTA word: none." Carousels/single-images are the output lane; this is not funnel-forward by design (the repeatable-format itself IS the strategic value: consistency and recognizability over time, per the source map's cadence notes).
 
@@ -121,7 +121,7 @@ Note: because the real precedent (`captions.md` Mar 10 entry) is a single unpunc
 
 ## Batch-Variety Gate Check
 
-Hook formulas used across the 6 pitches: Paradox/threat (1: email), Bold Outcome + Personal Testimony mixed (2: BoH dual-CTA), Personal Testimony + coined-concept (3: Pinterest), Audience Identity/coined-concept (4: productivity), "I" litany/aphorism (5: FTG), single confession line (6: wildcard). No formula repeats more than twice across the batch — passes the checklist item 3 gate from `hook-patterns-map.md`.
+Hook formulas used across the 6 pitches: Paradox/threat (1: email), Bold Outcome + Personal Testimony mixed (2: BoH dual-CTA), Personal Testimony + coined-concept (3: Pinterest), Audience Identity/coined-concept (4: productivity), "I" litany/aphorism (5: FTG), single confession line (6: wildcard). No formula repeats more than twice across the batch — passes the checklist item 3 gate from [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]].
 
 ## HALT Log (things needing Alyssa's call before shipping)
 

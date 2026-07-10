@@ -12,7 +12,7 @@ linked_guidelines: ["GL-001-file-naming-conventions"]
 
 ## Context
 
-Alyssa came in because `PKM/Second Brain/examples/Carousels/brief-bank.md` was materially wrong and the carousel examples were not connected well enough for a future writing clone/Hermes/Fable workflow. The goal became cleaning the carousel source area so it is grounded in Alyssa's actual slides, captions, analysis, taxonomy, and offers.
+Alyssa came in because [[Library/Examples/Carousels/brief-bank]] was materially wrong and the carousel examples were not connected well enough for a future writing clone/Hermes/Fable workflow. The goal became cleaning the carousel source area so it is grounded in Alyssa's actual slides, captions, analysis, taxonomy, and offers.
 
 ## What we did
 

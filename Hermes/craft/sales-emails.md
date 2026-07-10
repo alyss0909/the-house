@@ -24,7 +24,7 @@ A launch = one conversion event + five promo emails. "Your urgency must be real.
 
 ## Deep-read additions (2026-07-05, from "The silent killer of GOOD work")
 
-Corpus-verified on the full silent-killer BOH email (study: `learning/deep-reads/2026-07-05-1030-silent-killer-of-good-work.md`):
+Corpus-verified on the full silent-killer BOH email (study: [[Hermes/learning/deep-reads/2026-07-05-1030-silent-killer-of-good-work]]):
 
 - **One coherent emoji family per email, food optional in body.** This email runs a magic-world escalation — 🪄 (x3) on the desire list, 🧚‍♀️ on the rarity beat, 🧙‍♂️ (x3) on the system list — with zero cooking prose until the CTA layer ("🥨 Back of House is that business model. 🥨", "👻 Ghost your Feed Tmrw >>") and the brand-close footer. Framework steps always take the four brand emoji (🐌 BUILD / 💌 AUTOMATE / 📌 GROW / 🧸 SELL).
 - **Italic = inner voice, bold = argument spine.** Italics carry the reader's inner monologue and the confession-adjacent lines ("_I could do that_ 🙄" / "_So you create shitty posts and half assed emails..._"); bold stays the skim path. Interleave so the bolded payoff lands last: "Not to make you do more, but to make sure what _you do (once)_ actually **works. 👏**"

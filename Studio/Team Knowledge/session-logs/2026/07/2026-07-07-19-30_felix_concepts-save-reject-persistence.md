@@ -13,8 +13,8 @@ linked_guidelines: [GL-003-design-system]
 ## What I found
 
 - **Choose** already had a real persistence story: `dbMarkConceptChosen()` writes a `✓` prefix onto the concept's own numbered line in the pitch sheet, and the render loop reads that `✓` back on every load (`db-card-locked` green recolor). Correct, unchanged.
-- **Save** persisted real data (`dbSaveToIdeaBank()` appends an entry to `Team Inbox/pitches/idea-bank.md`) but had **zero read-back**. Nothing on the concept's own line recorded that it had been saved. `showSaved()` only fired a 2.5s fade message — after reload the button always came back as "☆ Save" regardless of history.
-- **Reject** wrote to the reacts log (`dbAppendReact`) and called `dbMarkConceptChosen(title, false)` — which **clears** the `✓` if present but does not add any rejected-state marker of its own. A rejected concept rendered byte-for-byte identical to a never-touched one. Confirmed live: `2026-W29-pitch.md`'s reacts log shows "You're Allowed To Email Like A Person, Not A Brand" rejected at 19:01, but its numbered line had no marker at all before this fix.
+- **Save** persisted real data (`dbSaveToIdeaBank()` appends an entry to [[Studio/Content/idea-bank]]) but had **zero read-back**. Nothing on the concept's own line recorded that it had been saved. `showSaved()` only fired a 2.5s fade message — after reload the button always came back as "☆ Save" regardless of history.
+- **Reject** wrote to the reacts log (`dbAppendReact`) and called `dbMarkConceptChosen(title, false)` — which **clears** the `✓` if present but does not add any rejected-state marker of its own. A rejected concept rendered byte-for-byte identical to a never-touched one. Confirmed live: [[Studio/Content/2026-W29-pitch]]'s reacts log shows "You're Allowed To Email Like A Person, Not A Brand" rejected at 19:01, but its numbered line had no marker at all before this fix.
 - No separate "kill record"/footer convention exists for concept-level rejects specifically (the locked kill-record convention in the memory note applies to Larry pulling a whole concept off the slate entirely — a different, coarser action from a per-card Reject click on a still-listed concept). So Reject needed the same fix as Save, not a different one.
 
 ## What I built
@@ -26,7 +26,7 @@ Added a `[saved]` / `[rejected]` suffix tag on the concept's own numbered line, 
 8. You're Allowed To Email Like A Person, Not A Brand [rejected]
 ```
 
-New functions in `dashboard/01 Concepts.md`:
+New functions in [[Studio/Content/dashboard/01 Concepts]]:
 - `dbSplitStateTag(rawTitle)` — strips/reads the `[saved]`/`[rejected]` suffix off a title string (used both when writing and when parsing the pitch sheet at render time).
 - `dbSetConceptStateTag(title, tag)` — writes the tag onto the matching line (skips lines that are already `✓` chosen — chosen is the higher-priority, mutually exclusive state).
 - `dbApplyRowState(row, stateTag)` — reflects the state on the row's buttons in the live DOM, both at initial render (via a `data-state-tag` attribute baked into the row's HTML from the parsed pitch sheet) and immediately after a click (no reload needed to see it flip).
@@ -55,7 +55,7 @@ Logged the full convention under a new §5 subsection ("Saved / Rejected persist
 
 ## Backfill
 
-Retroactively tagged the one concept in the live `2026-W29-pitch.md` that was already rejected before this fix existed ("You're Allowed To Email Like A Person, Not A Brand") with `[rejected]`, so the dashboard reflects real history immediately rather than only going forward.
+Retroactively tagged the one concept in the live [[Studio/Content/2026-W29-pitch]] that was already rejected before this fix existed ("You're Allowed To Email Like A Person, Not A Brand") with `[rejected]`, so the dashboard reflects real history immediately rather than only going forward.
 
 ## Accessibility
 

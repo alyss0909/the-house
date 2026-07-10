@@ -38,7 +38,7 @@ tags: [automation, second-brain, content-system, decision]
 
 ## What this is
 
-Alyssa asked Pax to fully summarize the Claude Routines Notion page and recommend which automations are actually applicable to her business. The report is now in `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`. Alyssa has already flagged several routines she wants to seriously consider: #21 as a weekly vault formatting/interconnection sweep, #27 as a PKB opportunity digest, #09 as a weekly status/pattern report, a merged listening/research aggregator, and an added Video Watcher skill for processing useful video inputs. This task puts the remaining decision back in Alyssa's court for June 5 or June 6: review the revised report and choose which routine Larry should design first.
+Alyssa asked Pax to fully summarize the Claude Routines Notion page and recommend which automations are actually applicable to her business. The report is now in [[Deliverables/2026-06-04-claude-routines-automation-fit-report]]. Alyssa has already flagged several routines she wants to seriously consider: #21 as a weekly vault formatting/interconnection sweep, #27 as a PKB opportunity digest, #09 as a weekly status/pattern report, a merged listening/research aggregator, and an added Video Watcher skill for processing useful video inputs. This task puts the remaining decision back in Alyssa's court for June 5 or June 6: review the revised report and choose which routine Larry should design first.
 
 ## Context one click away
 
@@ -47,7 +47,7 @@ Alyssa asked Pax to fully summarize the Claude Routines Notion page and recommen
 - Business context: [[systematize-socials]], [[back-of-house]], [[rush-order]], [[blog-and-pin]], [[monthly-workshops]]
 - Birthed in: [[2026-06-04-07-38_larry_claude-routines-automation-research-wrap]]
 - Alyssa preference update: [[2026-06-04-10-38_larry_automation-preferences-proactive]]
-- Pax report: `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`
+- Pax report: [[Deliverables/2026-06-04-claude-routines-automation-fit-report]]
 
 ## Success criteria
 

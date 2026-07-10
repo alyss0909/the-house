@@ -12,7 +12,7 @@ Position note: Round 1 always placed the fake at Item X — a leak. Round 2 rand
 
 ---
 
-## Judge File 1 (`2026-07-05-r2-lineup-judge1.md`)
+## Judge File 1 ([[Hermes/tests/results/2026-07-05-r2-lineup-judge1]])
 
 | Lineup | Fake position | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|
@@ -24,7 +24,7 @@ Real decks used in this file (6 distinct across candidate lineups + 3 in control
 
 ---
 
-## Judge File 2 (`2026-07-05-r2-lineup-judge2.md`)
+## Judge File 2 ([[Hermes/tests/results/2026-07-05-r2-lineup-judge2]])
 
 | Lineup | Fake position | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|
@@ -36,7 +36,7 @@ Real decks used in this file (no repeats within file): Jan 20, Jan 29, Jan 22, F
 
 ---
 
-## Judge File 3 (`2026-07-05-r2-lineup-judge3.md`)
+## Judge File 3 ([[Hermes/tests/results/2026-07-05-r2-lineup-judge3]])
 
 | Lineup | Fake position | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|

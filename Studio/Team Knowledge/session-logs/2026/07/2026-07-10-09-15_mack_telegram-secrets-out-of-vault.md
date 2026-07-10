@@ -28,5 +28,5 @@ Alyssa-approved move: the Telegram capture bot's credentials no longer live insi
 
 1. **Two scheduled tasks exist.** The live one is `TelegramCaptureBot` (runs `python.exe` directly, no log redirect). The old `myPKA - Telegram Capture Bot` is Disabled and points at a dead vault path (`mypka-scaffold-latest (2)`) — safe to unregister, left in place because task cleanup was outside this session's lane.
 2. **There is no telegram-capture.log.** The live task's action has no stdout/stderr redirect, so the bot currently logs nothing. Pre-existing gap, not introduced here. If observability matters, re-register the task with a cmd.exe redirect wrapper like the install script builds — and point the log outside OneDrive or keep it under the existing `**/*.log` gitignore.
-3. `telegram-capture-README.md` in scripts/ still describes the old env location — not updated (outside lane). Fix on next touch.
+3. [[Studio/Team Knowledge/scripts/telegram-capture-README]] in scripts/ still describes the old env location — not updated (outside lane). Fix on next touch.
 4. Gitignore coverage confirmed: `*.env`, `**/.telegram-capture-state.json`, `**/*.log` at root; scripts/.gitignore retains the old explicit entries as defense-in-depth.

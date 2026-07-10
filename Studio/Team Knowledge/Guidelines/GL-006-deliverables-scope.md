@@ -34,7 +34,7 @@ Single-file deliverables: `Deliverables/YYYY-MM-DD-<slug>.md`
 Multi-file deliverables (a project with several documents): `Deliverables/YYYY-MM-DD-<slug>/` with an `INDEX.md` inside.
 
 Examples:
-- `Deliverables/2026-05-26-business-strategy-partner-hire-research.md`
+- [[Deliverables/2026-05-26-business-strategy-partner-hire-research]]
 - `Deliverables/2026-06-02-2025-audience-survey-Studio/Analysis/INDEX.md`
 
 ## Lifecycle

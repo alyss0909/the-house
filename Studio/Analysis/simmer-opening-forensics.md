@@ -3,9 +3,9 @@
 Forensic teardown of Alyssa's real Simmer emails vs. the rejected "Swedish ladder" draft. Purpose: convert her two rejection notes ("nothing to do with audience for too long / not hooky enough" + "metaphor too obvious and un-nuanced") into measurable, enforceable craft guards.
 
 **Corpus read in full:**
-- Simmers: `gentle-parent-your-business-model.md`, `my-existential-crisis-and-pinterest.md`, `when-delta-stole-my-business-idea.md`, `simmers/INDEX.md`
-- Framework: `2.3 The Simmer Transcript.md`
-- Soft Sundays: `why-i-burned-down-my-business.md`, `if-lorelai-had-an-online-biz.md`, `i-failed-formula-for-growth.md`, and `me-i-need-ideas-i-already-had.md` (NEGATIVE case — Alyssa-flagged "too AI")
+- Simmers: [[Library/Examples/simmers/gentle-parent-your-business-model]], [[Library/Examples/simmers/my-existential-crisis-and-pinterest]], [[Library/Examples/simmers/when-delta-stole-my-business-idea]], `simmers/INDEX.md`
+- Framework: [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]]
+- Soft Sundays: [[Library/Examples/soft-sundays/why-i-burned-down-my-business]], [[Library/Examples/soft-sundays/if-lorelai-had-an-online-biz]], [[Library/Examples/soft-sundays/i-failed-formula-for-growth]], and [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]] (NEGATIVE case — Alyssa-flagged "too AI")
 
 **The rejected draft under audit:** domestic scene — a Swedish ladder on her wishlist — mapped to "evergreen assets vs. daily posting." Spent ~40% of body on wanting furniture, zero conflict, obvious 1:1 metaphor.
 

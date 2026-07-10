@@ -19,10 +19,10 @@ Alyssa opened wanting to riff on how her PKA should feel and work for her specif
 - **Vera** ran an extended riff with Alyssa on her PKA working style — established the mine/shafts mental model, mapped brain dump items to entity types, worked through Inner World / Outer World iCOR logic.
 - **Larry** looked up actual iCOR entity definitions from the scaffold source files after Vera made several incorrect routing recommendations (Key Elements vs. Topics vs. Documents). Saved the definitions to memory.
 - **Larry** saved updated Vera riff-style guidance to memory (`feedback_vera_riff_style.md`) — propose, don't interview.
-- **Silas** restructured `PKM/My Life/Key Elements/` into Business/ and Life/ sub-folders so the hierarchy is visually navigable in Obsidian. Session log at `2026-05-27-14-00_silas_ke-subfolder-restructure.md`.
+- **Silas** restructured `PKM/My Life/Key Elements/` into Business/ and Life/ sub-folders so the hierarchy is visually navigable in Obsidian. Session log at [[Studio/Team Knowledge/session-logs/2026/05/2026-05-27-14-00_silas_ke-subfolder-restructure]].
 - **Alyssa + Larry** audited the Operations Key Element live — routed all related notes to correct destinations (business.md, back-of-house.md, journal).
-- **Silas** retired `operations.md`, created `brand-world.md` as a new child Key Element under Business, updated INDEX.md and business.md accordingly.
-- **Silas** moved `business.md` and `life.md` into their respective sub-folders to eliminate visual stragglers.
+- **Silas** retired `operations.md`, created [[Notebook/Life/Key Elements/Business/brand-world]] as a new child Key Element under Business, updated INDEX.md and business.md accordingly.
+- **Silas** moved `business.md` and [[Notebook/Life/Key Elements/Life/life]] into their respective sub-folders to eliminate visual stragglers.
 - **Larry** wrote a detailed Vera handover file at `Team Inbox/vera-riff-handover-2026-05-27.md` with Alyssa's exact quotes from the riff for resumption next session.
 
 ## Decisions made
@@ -67,7 +67,7 @@ Alyssa opened wanting to riff on how her PKA should feel and work for her specif
 - [ ] **Vera riff — resume from handover file.** Full handover at `Team Inbox/vera-riff-handover-2026-05-27.md`. Alyssa wants to do a live journal entry demo: capture today's thoughts (idea people, romanticizing work, Right Time Offer angles) and walk through exactly how they flow through the system and get resurfaced.
 - [ ] **Asset tag vocabulary (`#asset/` prefix).** Not yet decided. Alyssa wasn't ready to commit. Bring it up naturally when the topic fits — don't force it.
 - [ ] **External inspiration routing.** Where do Rebecca Saunders post, checkout pages, etc. live? Partially resolved (journal entry → linked to relevant KE/Topic) but never fully confirmed. Resolve in next riff.
-- [ ] **WS-002 Notion import** still at Step 3 (inventory). Was not touched this session. Pick up per `2026-05-26_larry_structure-design-and-gl002-extensions.md`.
+- [ ] **WS-002 Notion import** still at Step 3 (inventory). Was not touched this session. Pick up per [[Studio/Team Knowledge/session-logs/2026/05/2026-05-26_larry_structure-design-and-gl002-extensions]].
 - [ ] **Brand World KE content.** File created but empty. Needs Alyssa to fill in "What this covers / What good looks like / What I am ignoring."
 - [ ] **Topics for Socials.** The riff surfaced several candidate Topics (content strategy / creative direction, angle frameworks). Not created yet. Will emerge naturally from the journal entry demo.
 

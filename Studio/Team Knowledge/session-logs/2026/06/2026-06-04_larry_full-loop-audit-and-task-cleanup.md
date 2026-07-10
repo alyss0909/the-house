@@ -19,7 +19,7 @@ Alyssa opened the session asking for a comprehensive sweep of everything outstan
 ## What we did
 
 - **Larry** read AGENTS.md, then ran a full parallel scan: all session logs May–June 2026, all files in Deliverables/, all open tasks in Team Knowledge/tasks/open/, Team Inbox contents, and both named handoff files.
-- **Larry** read every open task file (14 total), the two explicit handoff documents (`2026-06-02-17-20_larry_telegram-capture-mvp-handoff.md` and `2026-06-03-kit-broadcast-csv-export-handoff.md`), and the six most recent session logs to surface every open thread.
+- **Larry** read every open task file (14 total), the two explicit handoff documents ([[Studio/Team Knowledge/session-logs/2026/06/2026-06-02-17-20_larry_telegram-capture-mvp-handoff]] and [[Deliverables/2026-06-03-kit-broadcast-csv-export-handoff]]), and the six most recent session logs to surface every open thread.
 - **Larry** identified `tsk-2026-06-02-002` (Samir email) as already confirmed done in the June 2 session log but still sitting in `open/`. Closed it: updated status to done, filled Outcome, moved to `done/`.
 - **Larry** updated `tsk-2026-06-01-004` (Telegram automation) — corrected stale `blocked_reason` from `waiting-on-alyssa-details` to `listener-never-ran-successfully` and added full MVP progress notes inline.
 - **Larry** rebuilt `Team Knowledge/tasks/INDEX.md` from scratch — the prior INDEX was missing all six June 3 tasks and had a stale count of 8 open tasks. New INDEX reflects all 14 open tasks with correct assignees, due dates, and block reasons. (Note: a linter also ran on the INDEX post-write and added two additional tasks — 007 and 008 — and incremented count to 14.)
@@ -60,7 +60,7 @@ Several items I initially reported as open were resolved in sessions that ran af
 
 - **Codex Windows sandbox** — FIXED in `2026-06-03-22-16`. Corrupted `deny_read_acl_state.json` was repaired and `config.toml` changed from `sandbox = "elevated"` to `sandbox = "unelevated"`. SOP-011 created. The Windows sandbox error that blocked CSV creation and the Telegram listener no longer exists.
 - **Telegram MVP** — PIPE PROVEN in `2026-06-03-22-31`. Captures already exist in `Team Inbox/_Processed/`. The only remaining step is token security: Alyssa regenerates the exposed BotFather token, Mack updates the env file, one final `--once` test.
-- **Kit CSV export** — realigned in `2026-06-03-22-20`. Session shifted from CSV files to the more useful Second Brain deliverable: Wren created `PKM/Second Brain/frameworks/subject-line-operating-system.md`. CSV files still pending but no longer the priority.
+- **Kit CSV export** — realigned in `2026-06-03-22-20`. Session shifted from CSV files to the more useful Second Brain deliverable: Wren created [[Studio/Analysis/Frameworks/subject-line-operating-system]]. CSV files still pending but no longer the priority.
 - **Semantic Recurrence Layer (tsk-003)** — UNBLOCKED. Alyssa realigned: Larry should make the call and execute without a formal approval loop.
 - **Two missed morning meetings** — CLOSED. Alyssa: *"dw about the missed morning meetings from today."*
 - **BOH welcome-module transcripts** — DEPRIORITIZED. Alyssa: *"dw about back of house transcripts for welcome module right now."*
@@ -72,7 +72,7 @@ Several items I initially reported as open were resolved in sessions that ran af
 ## Open threads
 
 ### Due June 4 (Alyssa)
-- [ ] **tsk-2026-06-03-006** — Review `about_me.md` + `voice-archive.md`, then run the 13-question gap interview (prompt is in the task file)
+- [ ] **tsk-2026-06-03-006** — Review `about_me.md` + [[Studio/Analysis/voice-archive]], then run the 13-question gap interview (prompt is in the task file)
 - [ ] **tsk-2026-06-03-004** — Google Calendar API credentials setup (step-by-step in task file)
 - [ ] **tsk-2026-06-03-005** — Run Meetily launcher OAuth (blocked by 004)
 
@@ -91,7 +91,7 @@ Several items I initially reported as open were resolved in sessions that ran af
 
 ### Camila
 - [ ] Alyssa to send Camila's objectives/context → Larry creates CRM-style role note + brainstorms better recurring-task options (tsk-007)
-- [ ] `PKM/CRM/People/camila.md` doesn't exist yet
+- [ ] [[Notebook/Life/CRM/People/camila]] doesn't exist yet
 - [ ] Confirm Andrew's last name for CRM stub rename
 
 ### Content drops (lower urgency)

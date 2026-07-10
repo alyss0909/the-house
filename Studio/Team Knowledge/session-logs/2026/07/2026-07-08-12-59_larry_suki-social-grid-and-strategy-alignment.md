@@ -12,7 +12,7 @@ linked_guidelines: ["GL-010-content-pitch-operating-brain", "GL-012-content-os-s
 
 ## Context
 
-Alyssa asked Larry to get Suki involved in adding new social/grid source material to the Content OS, then asked whether Suki's `AGENTS.md` still reflected the newest strategy after the Suki activation session. The key prior log was [[2026-07-08_larry_suki-activation-playbook-and-hiring-plan]], which had already locked comments as the north star and shares as a lever.
+Alyssa asked Larry to get Suki involved in adding new social/grid source material to the Content OS, then asked whether Suki's [[AGENTS]] still reflected the newest strategy after the Suki activation session. The key prior log was [[2026-07-08_larry_suki-activation-playbook-and-hiring-plan]], which had already locked comments as the north star and shares as a lever.
 
 ## What we did
 
@@ -39,7 +39,7 @@ Alyssa asked Larry to get Suki involved in adding new social/grid source materia
 ## Insights
 
 - The top-9 forensics are not enough by themselves. They show what won hardest, but the grid screenshots show Alyssa's broader baseline: her normal cover language, visual range, object-world, and repeatable instincts.
-- Suki's `AGENTS.md` and GL-012 had drifted from the approved Suki playbook. The playbook had comments as the north star, while the older contract still over-emphasized sends and a generic Reels mix.
+- Suki's [[AGENTS]] and GL-012 had drifted from the approved Suki playbook. The playbook had comments as the north star, while the older contract still over-emphasized sends and a generic Reels mix.
 - Public platform advice is useful only as craft input. It cannot outrank Alyssa's actual funnel architecture: email-first, carousel-led, keyword comment, DM, list/offer.
 
 ## Realignments
@@ -52,7 +52,7 @@ Alyssa asked Larry to get Suki involved in adding new social/grid source materia
 ## Open threads
 
 - [ ] Alyssa to review Suki's [[Team/Suki - Social Media Strategist/HIRING-PLAN]] in detail before any hook/idea hires proceed.
-- [ ] Continue the offer-suite + calendar guided discovery from `Team/Suki - Social Media Strategist/handoffs/HANDOFF-2-offer-suite-and-calendar.md`.
+- [ ] Continue the offer-suite + calendar guided discovery from [[Studio/Team/Suki - Social Media Strategist/handoffs/HANDOFF-2-offer-suite-and-calendar]].
 - [ ] W29 live week still needs Alyssa's hook picks and Friday hook redo under the For The Girls rule.
 - [ ] GL-011 still has the flagged banned word / exemplar cleanup from the earlier Suki audit.
 - [ ] Re-test Cassius / the substance person under the new playbook before calling the role solid.
@@ -68,7 +68,7 @@ Alyssa asked Larry to get Suki involved in adding new social/grid source materia
 
 **Today's larger objective:** Turn Suki from a new hire concept into the operating interface for Alyssa's Content OS.
 
-**What connected:** The Suki activation log, Suki's playbook, the recent Instagram grid screenshots, WS-011, GL-010, GL-012, and Suki's own `AGENTS.md`.
+**What connected:** The Suki activation log, Suki's playbook, the recent Instagram grid screenshots, WS-011, GL-010, GL-012, and Suki's own [[AGENTS]].
 
 **What changed in source maps / tasks / Hermes / Ready Queue:** The recent grid screenshots now have a canonical source note and durable image locations. WS-011 and GL-010 now point makers to the grid when the task needs broader cover calibration. Suki and GL-012 now state the correct strategy hierarchy.
 

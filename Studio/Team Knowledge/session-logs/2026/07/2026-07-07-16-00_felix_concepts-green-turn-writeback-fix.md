@@ -12,7 +12,7 @@ linked_guidelines: []
 
 ## What was broken (root cause)
 
-In `dashboard/01 Concepts.md`, clicking **Choose** (or **Reject**) only ever called
+In [[Studio/Content/dashboard/01 Concepts]], clicking **Choose** (or **Reject**) only ever called
 `dbAppendReact()`, which appends a line to the `## Dashboard reacts` log in the newest
 pitch sheet. It never touched the concept's own numbered line in that pitch sheet.
 
@@ -28,10 +28,10 @@ missing write-back in the click handler.
 
 ## What I changed
 
-File: `dashboard/01 Concepts.md`
+File: [[Studio/Content/dashboard/01 Concepts]]
 
 1. Added `dbMarkConceptChosen(title, chosen)` helper (adapted directly from the design
-   brief at `Deliverables/2026-07-07-concepts-green-turn-design-brief.md`, no material
+   brief at [[Deliverables/2026-07-07-concepts-green-turn-design-brief]], no material
    changes needed — the brief's helper matched the current code as-is). It:
    - Finds the newest pitch sheet via existing `dbNewestPitchFile()`.
    - Reads the file, finds the numbered line whose title matches (string equality on
@@ -63,7 +63,7 @@ confirmed CSS was already correct, and I didn't touch `.obsidian/snippets/dashbo
 
 ## Not done (out of scope, brief flagged as nice-to-have only)
 
-`02 Arc.md`'s `dayChipClass`/`dayFullLabel` maps are missing a bare `WED` key (only has
+[[Studio/Content/dashboard/02 Arc]]'s `dayChipClass`/`dayFullLabel` maps are missing a bare `WED` key (only has
 `WED-A`/`WED-B`), which causes a lone-Wednesday arc to render an uncolored "WED" label.
 Brief explicitly calls this out as not part of this fix. Left alone.
 

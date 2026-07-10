@@ -24,10 +24,10 @@ Back of House is Alyssa's flagship $3,000 course. Four phases: offers + sales pa
 | "What is the [Double Yes / Lazy Launch / Simmer / Batch / Bread & Butter]?" | Key Definitions section below → then that module's transcript if more depth needed |
 | "What copy snippets / lesson titles does module X use?" | `INDEX.md` — scroll to that module's detailed section |
 | "What does the full course cover?" | `INDEX.md` lines 44–210 (the Quick Scan — compact map of all phases) |
-| "Writing copy that references BOH content by name" | Copy snippets in `INDEX.md` (per module) + `Studio/Analysis/voice-profile.md` |
-| "What do the BOH webinars teach?" | `Studio/Analysis/workshop-webinar-analysis.md` (all 3 analyzed) |
+| "Writing copy that references BOH content by name" | Copy snippets in `INDEX.md` (per module) + [[Studio/Analysis/voice-profile]] |
+| "What do the BOH webinars teach?" | [[Studio/Analysis/workshop-webinar-analysis]] (all 3 analyzed) |
 | "What are the BOH bots and what do they do?" | `INDEX.md` Bot Roster section (near end of file) |
-| "Who is the BOH audience?" | `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` |
+| "Who is the BOH audience?" | [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] |
 
 **Do not load `INDEX.md` in full** unless you need detail across more than one phase. Load the relevant transcript or phase INDEX instead.
 
@@ -76,7 +76,7 @@ Back of House is Alyssa's flagship $3,000 course. Four phases: offers + sales pa
 | Slide structure / deck content text | Slides | `[phase]/slides/[module]-slides.md` |
 | Quick module checklist / student objectives | Phase INDEX | `[phase]/INDEX.md` |
 | Full course map with links to all assets | BOH INDEX (Quick Scan) | `INDEX.md` lines 44–210 |
-| Webinar teaching + pitch structure | Webinar files + analysis | `webinars/` + `Studio/Analysis/workshop-webinar-analysis.md` |
+| Webinar teaching + pitch structure | Webinar files + analysis | `webinars/` + [[Studio/Analysis/workshop-webinar-analysis]] |
 
 ---
 

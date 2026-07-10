@@ -1,6 +1,6 @@
 # ADAPT-EXPANSION — Voice & File Converter v1.1.1 (LLM operating manual)
 
-This is the LLM-facing operating manual for this Expansion. The user reads `README.md`. Larry / Mack / Vex / Nolan / Silas read this file when WS-003 invokes the Expansion.
+This is the LLM-facing operating manual for this Expansion. The user reads [[README]]. Larry / Mack / Vex / Nolan / Silas read this file when WS-003 invokes the Expansion.
 
 ---
 
@@ -10,7 +10,7 @@ A **connector** Expansion: Mack-owned SOPs + env vars, with executable scripts (
 
 It is NOT an `agent_pack` (no new specialists). It carries **zero credentials** and registers **no MCP server** (§12 Q4 — MCP wrapper deferred). The whole pack is SOP/CLI-driven.
 
-**v1.1.0 note — license surface changed.** v1.1 adds OCR for scanned PDFs (OCRmyPDF + Tesseract + Ghostscript) and a file-metadata inspect/strip skill (ExifTool). The OCR feature pulls in **Ghostscript, which is AGPL-3.0** — v1.0 was deliberately AGPL-free. Ghostscript is never bundled, never modified, never network-exposed: it is fetched by the system package manager and invoked only as a separate local CLI subprocess that OCRmyPDF spawns. The user-facing AGPL disclosure is in `README.md` ("Open-source tools & licenses"). Because the license surface changed, v1.1 **re-triggers the Vex/§8 security gate** before release (WS-003 §8).
+**v1.1.0 note — license surface changed.** v1.1 adds OCR for scanned PDFs (OCRmyPDF + Tesseract + Ghostscript) and a file-metadata inspect/strip skill (ExifTool). The OCR feature pulls in **Ghostscript, which is AGPL-3.0** — v1.0 was deliberately AGPL-free. Ghostscript is never bundled, never modified, never network-exposed: it is fetched by the system package manager and invoked only as a separate local CLI subprocess that OCRmyPDF spawns. The user-facing AGPL disclosure is in [[README]] ("Open-source tools & licenses"). Because the license surface changed, v1.1 **re-triggers the Vex/§8 security gate** before release (WS-003 §8).
 
 ## Manifest contract
 
@@ -23,7 +23,7 @@ It is NOT an `agent_pack` (no new specialists). It carries **zero credentials** 
 
 ### Step 1 — Larry: present preview
 
-Larry shows the user: 0 agents, 7 SOPs, 5 optional non-sensitive env vars, 0 background processes, ~4 post-install steps. Larry sets the honest expectation: a package-manager prerequisite and a ~466 MB one-time model download (see `README.md` "What to expect").
+Larry shows the user: 0 agents, 7 SOPs, 5 optional non-sensitive env vars, 0 background processes, ~4 post-install steps. Larry sets the honest expectation: a package-manager prerequisite and a ~466 MB one-time model download (see [[README]] "What to expect").
 
 ### Step 2 — Security review
 
@@ -40,7 +40,7 @@ Per **§12 Q1 (Tom-signed): when Vex is NOT a hired agent, Larry runs the §8 se
 5. **`fetch-models.sh` / `.ps1` review.** Downloads only from the official whisper.cpp model repo on Hugging Face (`huggingface.co/ggerganov/whisper.cpp` — the exact repo whisper.cpp's own `download-ggml-model.sh` uses). SHA-256-verifies the file after download; a mismatch deletes the file and fails. Models are never git-tracked.
 6. **`lib/` wrapper review.** All nine wrappers source `lib/common.sh`, which validates input paths/URLs, quotes all variables, and never `eval`s. User-supplied URLs are scheme-checked (`http`/`https` only) and passed as single quoted args. `yt-dlp` is always called with `--no-update`. `ffmpeg` is always called with `-nostdin`. The two v1.1 wrappers — `strip-metadata.sh` and `ocr-pdf.sh` — never overwrite the user's input in place (output is always a separate file; the wrapper refuses if output == input). `ocr-pdf.sh` runs OCRmyPDF, which spawns Tesseract and Ghostscript as separate local subprocesses — no network, no credentials.
 7. **Permission surface.** Manifest declares `env_vars` (five, non-sensitive) only. No `runtime` block, no `mcp_servers`, no `adds_agents`. File tree is only `lib/`, `scripts/`, `sops/` + trinity files + `INSTALL.md` + `LICENSE` + `.env.example` + `.gitignore`.
-8. **License hygiene — CHANGED IN v1.1.** v1.1 adds OCR, which pulls in **Ghostscript (AGPL-3.0)** — v1.0 was deliberately AGPL-free. The pack ships NO Ghostscript binary or source; it is fetched by the package manager and used only as a CLI subprocess (no linking, no modification, no network exposure). The user-facing AGPL disclosure is in `README.md` ("Open-source tools & licenses") and the full notice is in `LICENSE`. The gate must confirm: the README AGPL disclosure is present and plainly worded; `LICENSE` lists Ghostscript as AGPL-3.0 and every other fetched tool's license; no Ghostscript binary is in the tree. **Because the license surface changed, v1.1 re-triggers this gate even though v1.0 passed — this is a fresh review, not a re-stamp.**
+8. **License hygiene — CHANGED IN v1.1.** v1.1 adds OCR, which pulls in **Ghostscript (AGPL-3.0)** — v1.0 was deliberately AGPL-free. The pack ships NO Ghostscript binary or source; it is fetched by the package manager and used only as a CLI subprocess (no linking, no modification, no network exposure). The user-facing AGPL disclosure is in [[README]] ("Open-source tools & licenses") and the full notice is in `LICENSE`. The gate must confirm: the README AGPL disclosure is present and plainly worded; `LICENSE` lists Ghostscript as AGPL-3.0 and every other fetched tool's license; no Ghostscript binary is in the tree. **Because the license surface changed, v1.1 re-triggers this gate even though v1.0 passed — this is a fresh review, not a re-stamp.**
 
 First time this `(slug, version)` is presented, the manifest hash is not yet in `.trusted-sources` — the gate returns YELLOW the first time, GREEN on subsequent installs of the same pair after the hash is pinned. The release pipeline (`release-pack.yml`) appends the pin on tag.
 
@@ -48,13 +48,13 @@ First time this `(slug, version)` is presented, the manifest hash is not yet in 
 
 Seven SOPs auto-numbered into `Team Knowledge/SOPs/`, all default owner **Mack**:
 
-- `sops/SOP-transcribe-audio.md` → `SOP-NNN-transcribe-audio.md`
-- `sops/SOP-transcribe-url.md` → `SOP-NNN-transcribe-url.md`
-- `sops/SOP-webpage-to-text.md` → `SOP-NNN-webpage-to-text.md`
-- `sops/SOP-convert-images-pdf.md` → `SOP-NNN-convert-images-pdf.md`
-- `sops/SOP-convert-documents.md` → `SOP-NNN-convert-documents.md`
-- `sops/SOP-ocr-scanned-pdf.md` → `SOP-NNN-ocr-scanned-pdf.md`        (new in v1.1)
-- `sops/SOP-inspect-strip-metadata.md` → `SOP-NNN-inspect-strip-metadata.md`  (new in v1.1)
+- [[Expansions/converter-pack/sops/SOP-transcribe-audio]] → `SOP-NNN-transcribe-audio.md`
+- [[Expansions/converter-pack/sops/SOP-transcribe-url]] → `SOP-NNN-transcribe-url.md`
+- [[Expansions/converter-pack/sops/SOP-webpage-to-text]] → `SOP-NNN-webpage-to-text.md`
+- [[Expansions/converter-pack/sops/SOP-convert-images-pdf]] → `SOP-NNN-convert-images-pdf.md`
+- [[Expansions/converter-pack/sops/SOP-convert-documents]] → `SOP-NNN-convert-documents.md`
+- [[Expansions/converter-pack/sops/SOP-ocr-scanned-pdf]] → `SOP-NNN-ocr-scanned-pdf.md`        (new in v1.1)
+- [[Expansions/converter-pack/sops/SOP-inspect-strip-metadata]] → `SOP-NNN-inspect-strip-metadata.md`  (new in v1.1)
 
 No agents. No guidelines. No templates. No new workstreams.
 
@@ -76,7 +76,7 @@ Confirm the seven SOPs validate frontmatter, wikilinks resolve, and the SOP inde
 
 ### Step 7 — Larry: archive + announce
 
-Archive to `Expansions/_installed/converter-pack-1.1.0/.manifest.json`. Update `Expansions/INDEX.md`. Announce per `README.md` "completion message" — point the user at dropping a test voice memo into `Team Inbox/`.
+Archive to `Expansions/_installed/converter-pack-1.1.0/.manifest.json`. Update [[Expansions/INDEX]]. Announce per [[README]] "completion message" — point the user at dropping a test voice memo into `Team Inbox/`.
 
 ---
 

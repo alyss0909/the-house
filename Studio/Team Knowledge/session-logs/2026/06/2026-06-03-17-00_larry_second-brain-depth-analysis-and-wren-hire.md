@@ -21,13 +21,13 @@ Second session of the day continuing the Second Brain build. Alyssa came back wi
 - **Larry** (3 parallel agents) built three new analysis files simultaneously:
   - `analysis/about-page-analysis.md` — 12-section reverse-engineering of the about page: trust architecture (what the page is actually selling), the opening line dissected word-by-word, 7-movement brand story arc, expertise-without-credentials mechanics, self-deprecating humor as relationship architecture, the empathy bridge, personality list pattern extraction, 12 DOs + 11 DO NOT EVERs, about page vs. sales page cross-comparison
   - `analysis/home-page-analysis.md` — 13-section reverse-engineering of the home page: cold conversion mechanics, opening sequence word-by-word ("Come over to the soft side" through "SOUNDS DELISH"), the marquee as pre-pain frame, compressed pain architecture vs. sales page version, the Time Connoisseur section fully unpacked ("Agatha.", "the far park", the antique mall close), anti-brand positioning map, meta copy as compression test, 12 DOs + 10 DO NOT EVERs
-  - `analysis/copy-task-routing.md` — LLM routing map: 10 sections, routing table for 14 task types (Simmer, Soft Sunday, sales email, welcome, opt-in, full sales page, about/bio, home page, Pinterest, social, subject lines, webinar, adaptation, voice audit), 3-tier calibration ladder, annotated analysis file guide, red flags with remediation, honest gap documentation
+  - [[Studio/Analysis/copy-task-routing]] — LLM routing map: 10 sections, routing table for 14 task types (Simmer, Soft Sunday, sales email, welcome, opt-in, full sales page, about/bio, home page, Pinterest, social, subject lines, webinar, adaptation, voice audit), 3-tier calibration ladder, annotated analysis file guide, red flags with remediation, honest gap documentation
 
 - **Larry** filed `analysis/subject-line-analysis.md` (v1 preliminary) from Alyssa's own analysis of her last 30 emails: 7 pattern types documented (DM-not-a-headline, INSIDE pattern, personalization-as-concierge, contradiction/odd phrasing, Soft Sunday wrappers, preview text opportunities), the "raccoon in a cashmere sweater" formula established, sweet spot formula codified, default Soft Sunday combo documented, v2 flagged as pending top performers data
 
-- **Pax** (background) produced `Deliverables/2026-06-03-copy-hire-research-brief.md` — market research on voice-match copywriter hiring: no clean market title exists, taste vs. skill distinction is real and most processes test only skill, Second Brain documentation shortens calibration from 2-4 months to 3-6 weeks for a taste-matched writer, the "trap brief" (embedded fake scarcity) is the best evaluation screen, strongest anti-pattern is hiring an excellent writer who can't subordinate their own voice
+- **Pax** (background) produced [[Deliverables/2026-06-03-copy-hire-research-brief]] — market research on voice-match copywriter hiring: no clean market title exists, taste vs. skill distinction is real and most processes test only skill, Second Brain documentation shortens calibration from 2-4 months to 3-6 weeks for a taste-matched writer, the "trap brief" (embedded fake scarcity) is the best evaluation screen, strongest anti-pattern is hiring an excellent writer who can't subordinate their own voice
 
-- **Nolan** (background + follow-up) produced `Deliverables/2026-06-03-copy-hire-role-plan.md` — role planning document for "Brand Voice Partner": scope split into 3 tiers, 7 sensibility non-negotiables from the Second Brain, skills the Second Brain can teach vs. what must be brought, onboarding reading order, two test tasks with pass criteria, 8 wrong-person warning signs, hire-readiness checklist (limited scope now; full scope needs 3-5 Simmers + about_me.md gap interview)
+- **Nolan** (background + follow-up) produced [[Deliverables/2026-06-03-copy-hire-role-plan]] — role planning document for "Brand Voice Partner": scope split into 3 tiers, 7 sensibility non-negotiables from the Second Brain, skills the Second Brain can teach vs. what must be brought, onboarding reading order, two test tasks with pass criteria, 8 wrong-person warning signs, hire-readiness checklist (limited scope now; full scope needs 3-5 Simmers + about_me.md gap interview)
 
 - **Nolan** (follow-up, after Alyssa clarified this is an AI hire) designed Wren — the AI Brand Voice Partner:
   - Created `.claude/agents/wren.md` — full operating contract with hard-coded Don'ts (not just referenced), mandatory 6-step pre-task protocol, 3-tier calibration levels (L1/L2/L3), 5-part quality gate (Don'ts scan, raccoon check, food metaphor check, DM test, CTA check), scope and routing rules
@@ -39,7 +39,7 @@ Second session of the day continuing the Second Brain build. Alyssa came back wi
   - Added `reference_wren.md` to memory index
   - Updated MEMORY.md
 
-- **Larry** (librarian) updated `analysis/INDEX.md` throughout (4 new rows), `PKM/Second Brain/INDEX.md` (routing map callout added to How to Use section)
+- **Larry** (librarian) updated `analysis/INDEX.md` throughout (4 new rows), [[PKM/Second Brain/INDEX]] (routing map callout added to How to Use section)
 
 ---
 
@@ -91,7 +91,7 @@ Second session of the day continuing the Second Brain build. Alyssa came back wi
 - [ ] **4.2 Simple Socials transcript** — does it exist? Confirm yes/no so P4 INDEX can be resolved
 
 **Alyssa's own input required:**
-- [ ] **Review `analysis/voice-archive.md`** — AI-mined from existing content; she annotates gaps and corrects anything that landed wrong, then Larry recompiles `about_me.md`
+- [ ] **Review [[Studio/Analysis/voice-archive]]** — AI-mined from existing content; she annotates gaps and corrects anything that landed wrong, then Larry recompiles `about_me.md`
 - [ ] **The about_me.md gap interview** — the Ruben Hassid second step: Alyssa's own 100-question interview pass to fill LOW/MED confidence gaps. Unlocks the full portable voice profile.
 - [ ] **Give Wren a first real task** — try her on a Simmer email or subject line batch to calibrate and give feedback
 

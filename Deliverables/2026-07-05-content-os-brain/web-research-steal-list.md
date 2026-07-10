@@ -41,7 +41,7 @@ The ecosystem Alyssa wants to steal from already exists in pieces, nowhere as a 
 ## 2. GitHub / Claude skills per agent role
 
 ### (a) Hook generation with data-backed libraries
-- **[aaaronmiller/create-viral-content](https://github.com/aaaronmiller/create-viral-content)** — the strongest single repo found. Three hook architectures: **Prediction+Stakes, Tribal Identity Split, Before/After Compression.** Cites a 40-source research base incl. BuzzSumo's 100M-headline dataset. Also ships **100+ "AI tells" with replacements** (text, platform-specific, visual) and platform templates (Reddit/X/LinkedIn/etc.). Detailed formulas live in `title-formulas.md` and `refinement-protocol.md` in-repo — worth cloning and reading directly.
+- **[aaaronmiller/create-viral-content](https://github.com/aaaronmiller/create-viral-content)** — the strongest single repo found. Three hook architectures: **Prediction+Stakes, Tribal Identity Split, Before/After Compression.** Cites a 40-source research base incl. BuzzSumo's 100M-headline dataset. Also ships **100+ "AI tells" with replacements** (text, platform-specific, visual) and platform templates (Reddit/X/LinkedIn/etc.). Detailed formulas live in [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]] and [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]] in-repo — worth cloning and reading directly.
 - **[shixinzhang/tiktok-viral-hooks](https://github.com/shixinzhang/tiktok-viral-hooks)** — open library of viral-video teardowns: exact 3-second opener quoted, hook pattern named, retention move identified, 2-sentence steal-able template per video. This is genuinely data-backed (real viral posts, deconstructed) rather than formula-guessing. TikTok-centric but the hook patterns transfer to carousel slide 1.
 - **[Viral Hook Creator skill](https://mcpmarket.com/tools/skills/viral-hook-creator)** — 18 psychological hook patterns + trigger-word library, per-platform. (Page rate-limited during research; pattern list not extracted. **Single source — flagged.**)
 - **Trap to know:** GitHub searches for "hooks" mostly return **Claude Code lifecycle hooks** (e.g., disler/claude-code-hooks-mastery, the "Hook Factory" skill) — unrelated to content hooks. Filter accordingly.
@@ -114,7 +114,7 @@ Nine web searches + five targeted page/repo fetches, 2026-07-05. Prioritized pri
 ## Limitations
 
 - Viral Hook Creator skill page rate-limited; its 18 patterns not extracted (single-source, unverified).
-- create-viral-content's full formula files (`title-formulas.md`, `refinement-protocol.md`) not read in-repo — worth a clone-and-read before building the hook agent.
+- create-viral-content's full formula files ([[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]], [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]]) not read in-repo — worth a clone-and-read before building the hook agent.
 - IG algorithm claims are practitioner-observed, not Instagram-published, except Mosseri's direct statements. Weights (e.g., "shares are #1") are directional, not quantified.
 - FeedHive's 1.5M-post training claim is vendor-sourced only.
 - No mature open-source repo found that implements the *whole* pitch→critic→score→polish chain for social content; the assembly is the novel part of Alyssa's build.

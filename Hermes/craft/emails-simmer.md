@@ -2,7 +2,7 @@
 
 # craft/emails-simmer.md
 
-**Mandatory load before writing any Simmer:** `Studio/Analysis/Frameworks/the-postmaster-bot.md` + `Studio/Analysis/Frameworks/bingeable-newsletter-knowledge-file.md` (HER OWN bot + knowledge file for this exact format, handed over 2026-07-05: "learn it WELL") + all 3 real simmers.
+**Mandatory load before writing any Simmer:** [[Studio/Analysis/Frameworks/the-postmaster-bot]] + [[Studio/Analysis/Frameworks/bingeable-newsletter-knowledge-file]] (HER OWN bot + knowledge file for this exact format, handed over 2026-07-05: "learn it WELL") + all 3 real simmers.
 
 The Simmer = the weekly nurture email. HER canonical 5-part framework (The Postmaster, verbatim hers):
 
@@ -38,7 +38,7 @@ Personal-scale metaphors mapped tightly to ONE marketing lesson (bath time → l
 1. **Pivot to business by 35% of body** (real corpus: Delta ~1%, bath ~29%, closet ~34% = the ceiling). Extend toward ~50% ONLY if pre-paid by an early signal: subject/preview promising business ("...& pinterest" / "ends in your bank account") or conflict in line one. A static scene earns zero extension - pivot by ~30%.
 2. **Scene-stakes test: the seed must score ≥2 of 4** - conflict / loss-or-stakes / absurdity / emotional charge. Bath = 3 (fight + neighbor absurdity + charge). A wanted object = 0/4 and is the same failure as her flagged too-AI email (static wishlist). Wanting is not conflict; the reader needs to watch her FIGHT something.
 3. **Metaphor-nuance test, all 3 required**: (a) yields ≥2 distinct mapped insights (bath = reset + compassion-with-boundary + assets-vs-evaporation); (b) carries an internal tension mirroring the business tension (compassion vs boundary); (c) a self-aware exit joke is writable ("okay I swear I'm done with the bath metaphors"). One flat 1:1 mapping = "too obvious and un-nuanced" (her verdict, 2026-07-05).
-Full evidence: `Studio/Analysis/simmer-opening-forensics.md`.
+Full evidence: [[Studio/Analysis/simmer-opening-forensics]].
 
 ## Don'ts specific to Simmers
 
@@ -46,7 +46,7 @@ No multi-topic emails. No teaching before the story earns it. No food-metaphor u
 
 ## Deep-read additions (2026-07-05, from "my existential crisis & pinterest")
 
-Full study: `../learning/deep-reads/2026-07-05-0411-my-existential-crisis-and-pinterest.md`.
+Full study: [[Hermes/learning/deep-reads/2026-07-05-0411-my-existential-crisis-and-pinterest]].
 
 **The promo-variant Simmer — CONFIRMED by her ruling 2026-07-05 ("I think it's version B. Most simmer emails are simple one or two line replies, but sometimes I'll write a simmer email that's more of a promo").** Two modes: **Nurture** (the default spec above — 1-2 line offer, reply-word) and **Promo** (legal ONLY on a flagged promo week — full offer block, never the default) — it's a full block (~40% of the email): "That's why I built [product]" bridge → 4 emoji-bulleted deliverables with odd counts ("25 pre-written **email prompts**", "13 ready to steal **reframes**") → bolded outcome line ("a quarter's worth of sales campaigns planned in under an hour") → discount CTA ("[**🍸 Get it 50% Off >>**]"). Link CTAs only, no reply-word; the discount code is themed to the email's pop-culture bit (code LUKE → ☕ → "binge the coziest season of Gilmore Girls", preview text "& a gilmore coupon"). The 1-2-line reply-word spec above is the NURTURE variant.
 

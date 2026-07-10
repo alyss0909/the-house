@@ -43,7 +43,7 @@ Every Expansion folder MUST contain an `expansion.yaml` at its root. Larry parse
 | `name` | string | Human-readable name. |
 | `slug` | string | kebab-case. MUST match the folder name. |
 | `version` | semver | `MAJOR.MINOR.PATCH`. |
-| `description` | string | One sentence. Goes into `Expansions/INDEX.md`. |
+| `description` | string | One sentence. Goes into [[Expansions/INDEX]]. |
 | `category` | string | Free-text tag for the AI Library (e.g., `agents`, `connector`, `productivity`). |
 | `expansion_type` | enum | `agent_pack` \| `connector` \| `runtime` \| `hybrid` |
 | `requires_scaffold_version` | semver range | e.g. `">=1.7.0 <2.0.0"`. Larry refuses to install on mismatch. |
@@ -211,9 +211,9 @@ post_install_validation:
 ## Conventions
 
 - **Folder name = `slug`.** No exceptions.
-- **Trinity files at root:** `expansion.yaml`, `README.md`, `ADAPT-EXPANSION.md`. The `ADAPT-EXPANSION.md` is the LLM-facing operating manual (what to do when this Expansion is invoked).
+- **Trinity files at root:** `expansion.yaml`, [[README]], `ADAPT-EXPANSION.md`. The `ADAPT-EXPANSION.md` is the LLM-facing operating manual (what to do when this Expansion is invoked).
 - **Token files never committed.** `.env.example` is committed; `.env` is gitignored and chmod 600 by the install script.
-- **SOPs ship as files in the Expansion folder, not pre-numbered.** The install workstream auto-numbers them into the your myPKA. Filename inside the Expansion is descriptive (`SOP-slack-post-message.md`); the installer renames to the next free `SOP-NNN-…` slot.
+- **SOPs ship as files in the Expansion folder, not pre-numbered.** The install workstream auto-numbers them into the your myPKA. Filename inside the Expansion is descriptive ([[Expansions/slack/sops/SOP-slack-post-message]]); the installer renames to the next free `SOP-NNN-…` slot.
 - **Agent folder names follow `<Name> - <Role>`** to match scaffold convention.
 - **No code at the scaffold root.** All Expansion code stays inside the Expansion folder. `runtime/` for long-lived processes; `scripts/` for installers and starters.
 
@@ -261,7 +261,7 @@ Trust is granted to a `(slug, version)` pair. Major version bumps re-prompt.
 Symmetric to install. The uninstall flow ([[WS-003-install-an-expansion]] §uninstall):
 
 1. Larry detects an uninstall request ("uninstall the Slack Expansion", "remove App Developer pack").
-2. Nolan reverses the team merge (removes the Expansion's agents from `Team/`, restores `Team/agent-index.md`).
+2. Nolan reverses the team merge (removes the Expansion's agents from `Team/`, restores [[Studio/Team/agent-index]]).
 3. Mack tears down connector wiring (stops runtimes, removes launchd plists, deregisters MCP servers).
 4. Silas validates the post-uninstall myPKA state.
 5. Larry archives the Expansion folder to `Expansions/_uninstalled/<slug>-<version>/.manifest.json` and writes the session-log entry.
@@ -276,7 +276,7 @@ Symmetric to install. The uninstall flow ([[WS-003-install-an-expansion]] §unin
 
 - The field is missing or malformed → `invalid` row in `INDEX.md`, install blocked.
 - The scaffold version sits outside the declared range → `incompatible` row, install blocked.
-- A required pre-hired agent listed in `requires_agents` is not in `Team/agent-index.md` → install blocked with a "install X first" message.
+- A required pre-hired agent listed in `requires_agents` is not in [[Studio/Team/agent-index]] → install blocked with a "install X first" message.
 
 Larry never silently coerces.
 
@@ -295,7 +295,7 @@ Before zipping your Expansion and shipping it:
 - `adds_sops` files exist in the Expansion folder and are LLM-agnostic.
 - `adds_agents` folders match `Team/<Name> - <Role>/AGENTS.md` shape.
 - `uninstall.residual_paths` lists every path written outside the Expansion folder.
-- `README.md` at the folder root: human-facing, in the user's voice, what it does + how to remove it.
+- [[README]] at the folder root: human-facing, in the user's voice, what it does + how to remove it.
 - `ADAPT-EXPANSION.md` at the folder root: LLM-facing operating manual.
 - Optional but recommended: `INSTALL.md` walking the user through any external setup (creating an OAuth app, generating tokens, etc.).
 - Vex security pass before tier-2 hash pinning.

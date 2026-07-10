@@ -22,7 +22,7 @@ Continuation of the previous session (`[[2026-06-02-17-20_larry_telegram-capture
 - Larry diagnosed and resolved a HTTP 409 Conflict error caused by a stale background Python process from an earlier run attempt.
 - Larry confirmed no webhook is set on the bot (`getWebhookInfo` returned empty URL).
 - Listener started successfully: Python process PID 20616 is running and polling.
-- No test message was confirmed before session close — `Team Inbox/` still only contains `README.md`.
+- No test message was confirmed before session close — `Team Inbox/` still only contains [[README]].
 
 ## Decisions made
 

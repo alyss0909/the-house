@@ -57,7 +57,7 @@ Locked per Alyssa 2026-07-07: oat `#fcfaf5` cards on linen `#eee6de` frame, dark
 ## Success criteria
 
 - Alyssa can gut-react to a weekly pitch sheet in ≤60 seconds without opening raw markdown
-- Reacts land verbatim in `Team Inbox/pitches/taste-ledger.md`
+- Reacts land verbatim in [[Studio/Content/taste-ledger]]
 - Parked escalations are visible on every visit, plain words
 - Zero tool-specific syntax written into pitch/note content (portability rule — dashboard note is the exception layer)
 - Buttons run Claude headless, never the API

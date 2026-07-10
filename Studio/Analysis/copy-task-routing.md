@@ -14,15 +14,15 @@ tags: [copy]
 
 Before any copy task, regardless of type, these two files are the floor. Every session starts here.
 
-**File 1: `me.md` — read first, always**
+**File 1: [[Library/me]] — read first, always**
 This is the identity anchor. It tells you who Alyssa is, what she sells, the five words that define her voice, the origin story arc, the restaurant metaphor system, the permission pattern, and where to go next. It takes five minutes to read. Without it, you are guessing. With it, you have the skeleton key.
 
-**File 2: `Studio/Analysis/writing-style.md` — read second, always**
+**File 2: [[Studio/Analysis/writing-style]] — read second, always**
 This is the calibration layer. It covers 14 sections including sentence rhythm, metaphor rules, exact vocabulary (the "lol," "bc," "fkn" words and where they belong), CTA style, what she never says, how she uses strikethrough and ALL CAPS and em-dashes, and the complete swipe file. This file tells you the difference between writing "like Alyssa" and writing like a content creator who has read Alyssa once.
 
-**What can be skipped for a quick, low-stakes task:** Everything else is context-dependent. If the task is short (one email subject line, one IG caption, one Pinterest description), `me.md` + `writing-style.md` is enough to calibrate. Skip the rest — it will only slow you down.
+**What can be skipped for a quick, low-stakes task:** Everything else is context-dependent. If the task is short (one email subject line, one IG caption, one Pinterest description), [[Library/me]] + [[Studio/Analysis/writing-style]] is enough to calibrate. Skip the rest — it will only slow you down.
 
-**What can never be skipped no matter what:** `writing-style.md` Section 12 ("What She Never Does — The Don'ts"). Generic urgency, corporate positivity, hustle framing, "level up," "take action," "mindset shift," "do the work" — these are disqualifiers. One sentence written in those registers and the voice is already broken. Read the Don'ts before writing a single word.
+**What can never be skipped no matter what:** [[Studio/Analysis/writing-style]] Section 12 ("What She Never Does — The Don'ts"). Generic urgency, corporate positivity, hustle framing, "level up," "take action," "mindset shift," "do the work" — these are disqualifiers. One sentence written in those registers and the voice is already broken. Read the Don'ts before writing a single word.
 
 ---
 
@@ -32,10 +32,10 @@ This is the calibration layer. It covers 14 sections including sentence rhythm, 
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 3, 5, 6, 7, 12) |
-| **Skim** | `Library/Programs/back-of-house/INDEX.md` (Modules 2.2–2.3 copy snippets and objectives, Simmer Strategy notes) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 3, 5, 6, 7, 12) |
+| **Skim** | [[Library/Programs/back-of-house/INDEX]] (Modules 2.2–2.3 copy snippets and objectives, Simmer Strategy notes) |
 | **Read once available** | `Library/Examples/simmers/` — currently not filed; see Section 10 for the gap this creates |
-| **Skip** | `Studio/Analysis/sales-page.md` · `Studio/Analysis/about-page.md` · `Studio/Analysis/home-page.md` |
+| **Skip** | [[Studio/Analysis/sales-page]] · [[Studio/Analysis/about-page]] · [[Studio/Analysis/home-page]] |
 
 **Decision note:** The Simmer is a nurture email — conspiratorial and personal, not a conversion push. Lead with a real moment or observation. Do not use sales-page persuasion architecture here.
 
@@ -56,17 +56,17 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/voice-profile.md` · `Studio/Analysis/writing-style.md` (Sections 1, 3, 5, 6, 7, 10) |
-| **Read** | `Studio/Analysis/soft-sunday.md` — SS-specific dos/don'ts, emoji/bold/CAPS rules, topic framing, CTA architecture. Built from 6 real examples. |
-| **Read** | `Studio/Analysis/Frameworks/soft-sunday-framework.md` — section anatomy, build template, CTA logic |
+| **Read** | [[Library/me]] · [[Studio/Analysis/voice-profile]] · [[Studio/Analysis/writing-style]] (Sections 1, 3, 5, 6, 7, 10) |
+| **Read** | [[Studio/Analysis/soft-sunday]] — SS-specific dos/don'ts, emoji/bold/CAPS rules, topic framing, CTA architecture. Built from 6 real examples. |
+| **Read** | [[Studio/Analysis/Frameworks/soft-sunday-framework]] — section anatomy, build template, CTA logic |
 | **Read** | `Library/Examples/soft-sundays/` — read at least 2; choose the example closest to your topic type |
-| **Skip** | `Studio/Analysis/sales-page.md` · `Studio/Analysis/about-page.md` · `Studio/Analysis/home-page.md` |
+| **Skip** | [[Studio/Analysis/sales-page]] · [[Studio/Analysis/about-page]] · [[Studio/Analysis/home-page]] |
 
-**Decision note:** Soft Sundays are the most personal register she writes in. The origin story arc (Section 10 of `writing-style.md`) is especially relevant — this is the email type where personal scenes from real life do the work. Do not pitch anything. Do not include a CTA that redirects to a product unless the story organically earns it.
+**Decision note:** Soft Sundays are the most personal register she writes in. The origin story arc (Section 10 of [[Studio/Analysis/writing-style]]) is especially relevant — this is the email type where personal scenes from real life do the work. Do not pitch anything. Do not include a CTA that redirects to a product unless the story organically earns it.
 
-**Voice-flagged example note:** `Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md` — use this file for structural reference only. Do NOT use it for voice calibration; it has been flagged as atypical voice and should not set the tone register.
+**Voice-flagged example note:** [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]] — use this file for structural reference only. Do NOT use it for voice calibration; it has been flagged as atypical voice and should not set the tone register.
 
-**Do not conflate with Simmer emails.** Simmers are weekly nurture emails — conspiratorial and personal, but shorter, punchier, and relationship-maintenance focused. Soft Sundays are a distinct format: longer, more scene-based, personal essay register, and built around a single emotional moment or story. Different audience state, different structure, different CTA logic. Read `Studio/Analysis/soft-sunday.md` to understand where they diverge.
+**Do not conflate with Simmer emails.** Simmers are weekly nurture emails — conspiratorial and personal, but shorter, punchier, and relationship-maintenance focused. Soft Sundays are a distinct format: longer, more scene-based, personal essay register, and built around a single emotional moment or story. Different audience state, different structure, different CTA logic. Read [[Studio/Analysis/soft-sunday]] to understand where they diverge.
 
 ---
 
@@ -74,11 +74,11 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (all) · `Studio/Analysis/sales-page.md` (CTA Architecture section + Key Patterns to Replicate) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (all) · [[Studio/Analysis/sales-page]] (CTA Architecture section + Key Patterns to Replicate) |
 | **Skim** | `Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript` — for launch doctrine (real urgency, "giving away the island," what not to say) |
-| **Skip** | `Studio/Analysis/about-page.md` · `Studio/Analysis/home-page.md` |
+| **Skip** | [[Studio/Analysis/about-page]] · [[Studio/Analysis/home-page]] |
 
-**Decision note:** Sales emails use the "But Instead" pain-contrast structure and permission-giving voice to earn the CTA. Read the CTA catalog in `writing-style.md` Section 8 before writing a single button. No "Buy Now." No "Sign Up." The CTA should sound like the reader's internal monologue or a food-metaphor move.
+**Decision note:** Sales emails use the "But Instead" pain-contrast structure and permission-giving voice to earn the CTA. Read the CTA catalog in [[Studio/Analysis/writing-style]] Section 8 before writing a single button. No "Buy Now." No "Sign Up." The CTA should sound like the reader's internal monologue or a food-metaphor move.
 
 ---
 
@@ -86,11 +86,11 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (all) |
-| **Skim** | `Library/Programs/back-of-house/INDEX.md` (Modules 2.0–2.1 copy snippets) · `Studio/Analysis/Templates/email-delivery.md` · `Studio/Analysis/Templates/email-tripwire.md` |
-| **Skip** | `Studio/Analysis/home-page.md` · `Studio/Analysis/about-page.md` |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (all) |
+| **Skim** | [[Library/Programs/back-of-house/INDEX]] (Modules 2.0–2.1 copy snippets) · [[Studio/Analysis/Templates/email-delivery]] · [[Studio/Analysis/Templates/email-tripwire]] |
+| **Skip** | [[Studio/Analysis/home-page]] · [[Studio/Analysis/about-page]] |
 
-**Decision note:** Welcome sequences build relationship before they build cases. The "We vs. I vs. You" pattern (Section 13 of `writing-style.md`) is critical here — welcome sequences lean heavily into "you" for empathy and "I" for story, with "we" reserved for program/community references. Read how she structures documentary-style narrative (the BOH Module 2.1 transcript references a "documentary" structure) before drafting.
+**Decision note:** Welcome sequences build relationship before they build cases. The "We vs. I vs. You" pattern (Section 13 of [[Studio/Analysis/writing-style]]) is critical here — welcome sequences lean heavily into "you" for empathy and "I" for story, with "we" reserved for program/community references. Read how she structures documentary-style narrative (the BOH Module 2.1 transcript references a "documentary" structure) before drafting.
 
 ---
 
@@ -98,8 +98,8 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 3, 4, 6, 8, 11, 12) · `Studio/Analysis/sales-page.md` (Opening Hook section + Hero Headline section) |
-| **Skim** | `Studio/Analysis/Templates/page-opt-in.md` |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 3, 4, 6, 8, 11, 12) · [[Studio/Analysis/sales-page]] (Opening Hook section + Hero Headline section) |
+| **Skim** | [[Studio/Analysis/Templates/page-opt-in]] |
 | **Skip** | Full sales page architecture; opt-in pages are compressed versions of the hook + qualify + benefit + CTA structure only |
 
 **Decision note:** An opt-in page is a compressed sales page. Lead with the problem or the specific life-pleasure the freebie unlocks. The "Do Not Disturb" principle from the sales page analysis applies — close with a state-of-being the reader wants, not a feature of the thing.
@@ -110,13 +110,13 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (all) · `Studio/Analysis/sales-page.md` (all) |
-| **Read** | `Library/Examples/sales-pages/boh-sales-page.md` — the primary source before any new sales page is written |
-| **Read** | `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` — if writing for the BOH audience |
-| **Skim** | `Studio/Analysis/about-page.md` (origin story sections — the about page version of the story feeds into the sales page founder section) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (all) · [[Studio/Analysis/sales-page]] (all) |
+| **Read** | [[Library/Examples/sales-pages/boh-sales-page]] — the primary source before any new sales page is written |
+| **Read** | [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] — if writing for the BOH audience |
+| **Skim** | [[Studio/Analysis/about-page]] (origin story sections — the about page version of the story feeds into the sales page founder section) |
 | **Skip** | Nothing. This is a full-calibration task. |
 
-**Decision note:** Do not begin without reading the actual BOH sales page. The analysis file documents what the page does — the sales page example shows what it sounds like. You need both. The build map in `sales-page.md` is a 28-step section order; follow it as the structural spine and fill from the voice files.
+**Decision note:** Do not begin without reading the actual BOH sales page. The analysis file documents what the page does — the sales page example shows what it sounds like. You need both. The build map in [[Studio/Analysis/sales-page]] is a 28-step section order; follow it as the structural spine and fill from the voice files.
 
 ---
 
@@ -124,9 +124,9 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 5, 7, 10, 13) · `Studio/Analysis/about-page.md` |
-| **Read** | `Library/Examples/about-page.md` — the actual about page |
-| **Skip** | `Studio/Analysis/sales-page.md` (different architecture — the about page is not a sales page) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 5, 7, 10, 13) · [[Studio/Analysis/about-page]] |
+| **Read** | [[Library/Examples/about-page]] — the actual about page |
+| **Skip** | [[Studio/Analysis/sales-page]] (different architecture — the about page is not a sales page) |
 
 **Decision note:** The about page opens with "Dude, we must be soulmates" and spends the first half on her personality, quirks, and real-world markers before the story. This is deliberately opposite to conversion-first copy. The "I" voice dominates. `about-page.md` covers the personal brand architecture, self-deprecating humor mechanics, and origin story arc as it's told in that specific context. Read it before writing anything first-person on her behalf.
 
@@ -136,9 +136,9 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 6, 8, 11, 12) · `Studio/Analysis/home-page.md` |
-| **Read** | `Library/Examples/home-page.md` — the actual home page |
-| **Skip** | `Studio/Analysis/sales-page.md` (different architecture — the home page is brand-first, not product-specific) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 6, 8, 11, 12) · [[Studio/Analysis/home-page]] |
+| **Read** | [[Library/Examples/home-page]] — the actual home page |
+| **Skip** | [[Studio/Analysis/sales-page]] (different architecture — the home page is brand-first, not product-specific) |
 
 **Decision note:** The home page is cold-audience-first. "HUSTLE CULTURE IS OVERCOOKED" is the opening declaration. The architecture leads with worldview, not offer. `home-page.md` covers the marquee copy mechanics, the "time connoisseur" section, and brand positioning for a reader who knows nothing about Alyssa. This is the highest-compression version of her brand — every line has to do brand-level work, not just voice-level work.
 
@@ -148,9 +148,9 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 2, 11, 12) |
-| **Read** | `Library/Programs/back-of-house/INDEX.md` (Modules 3.2–3.3 — keyword strategy + batching methodology) |
-| **Skip** | `Studio/Analysis/sales-page.md` · `Studio/Analysis/about-page.md` |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 2, 11, 12) |
+| **Read** | [[Library/Programs/back-of-house/INDEX]] (Modules 3.2–3.3 — keyword strategy + batching methodology) |
+| **Skip** | [[Studio/Analysis/sales-page]] · [[Studio/Analysis/about-page]] |
 
 **Decision note:** Pinterest pin descriptions are keyword-driven but must still sound like her. The "Slow Pinterest" and "The Batch" module copy snippets show how she talks about Pinterest content. Never write a description that sounds like generic SEO text. The metaphor system should appear at the idiom level ("set it and forget it," "slow burn," "stock your pantry"), not as an extended construction.
 
@@ -160,14 +160,14 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read first** | `me.md` · `Studio/Analysis/carousel.md` — 9 top-performer post-mortems, performance data, voice and design patterns |
-| **Read when learning from examples** | `Studio/Analysis/carousel-slide-by-slide.md` — slide-by-slide copy/design/tactic breakdowns |
-| **Read** | `Studio/Analysis/Frameworks/carousel-framework.md` — 6 archetypes, 7 hook formulas, copy rules, design system |
-| **Browse** | `Library/Examples/Carousels/INDEX.md` → open 2–3 slide images from the relevant archetype folder in `slide-01.jpg` order |
-| **Execute from** | `Studio/Analysis/Templates/carousel-brief.md` — pre-production checklist for generating a new brief |
-| **Skip** | `Studio/Analysis/sales-page.md` · full BOH program content |
+| **Read first** | [[Library/me]] · [[Studio/Analysis/carousel]] — 9 top-performer post-mortems, performance data, voice and design patterns |
+| **Read when learning from examples** | [[Studio/Analysis/carousel-slide-by-slide]] — slide-by-slide copy/design/tactic breakdowns |
+| **Read** | [[Studio/Analysis/Frameworks/carousel-framework]] — 6 archetypes, 7 hook formulas, copy rules, design system |
+| **Browse** | [[Library/Examples/Carousels/INDEX]] → open 2–3 slide images from the relevant archetype folder in `slide-01.jpg` order |
+| **Execute from** | [[Studio/Analysis/Templates/carousel-brief]] — pre-production checklist for generating a new brief |
+| **Skip** | [[Studio/Analysis/sales-page]] · full BOH program content |
 
-**Decision note — always run the pre-production checklist first.** The checklist in `Studio/Analysis/Templates/carousel-brief.md` has 5 decision sets that must be answered before a word is written: archetype, hook formula, performance goal, architecture (slide count / footer / palette / prop / CTA keyword), and copy skeleton. Skipping the checklist produces carousels that look like Alyssa but don't perform like Alyssa — the structure is what makes them work, not just the voice.
+**Decision note — always run the pre-production checklist first.** The checklist in [[Studio/Analysis/Templates/carousel-brief]] has 5 decision sets that must be answered before a word is written: archetype, hook formula, performance goal, architecture (slide count / footer / palette / prop / CTA keyword), and copy skeleton. Skipping the checklist produces carousels that look like Alyssa but don't perform like Alyssa — the structure is what makes them work, not just the voice.
 
 **The archetype → metric map (from performance data):**
 - Want saves + non-follower reach? → Trend Report
@@ -183,10 +183,10 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Sections 1, 3, 5, 6, 7, 12) |
-| **Skip** | `Studio/Analysis/sales-page.md` · full BOH program content |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Sections 1, 3, 5, 6, 7, 12) |
+| **Skip** | [[Studio/Analysis/sales-page]] · full BOH program content |
 
-**Decision note:** Captions are where her dry humor and short-punch rhythm are most visible. Section 3 of `writing-style.md` (sentence structure) and Section 7 (humor mechanics) are the most important sections for this task. The "aside-as-punchline" pattern buried in parentheses is a caption staple.
+**Decision note:** Captions are where her dry humor and short-punch rhythm are most visible. Section 3 of [[Studio/Analysis/writing-style]] (sentence structure) and Section 7 (humor mechanics) are the most important sections for this task. The "aside-as-punchline" pattern buried in parentheses is a caption staple.
 
 ---
 
@@ -194,12 +194,12 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `Studio/Analysis/subject-line.md` — 12 patterns from 351-broadcast analysis, template banks for every pattern and email type, the Three Subject Line Jobs decision framework |
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Section 3 for rhythm, Section 5 for exact vocabulary, Section 7 for humor) |
-| **Read** | `Studio/Analysis/subject-line.md` (v2.1) — 11 named patterns, top performers list, preview text rules, and template banks for every pattern + email type. This is the primary reference. `Library/Examples/subjects-and-previews.md` as a curated raw-pairs file is still TBD but is not blocking. |
-| **Skip** | `Studio/Analysis/sales-page.md` |
+| **Read** | [[Studio/Analysis/subject-line]] — 12 patterns from 351-broadcast analysis, template banks for every pattern and email type, the Three Subject Line Jobs decision framework |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Section 3 for rhythm, Section 5 for exact vocabulary, Section 7 for humor) |
+| **Read** | [[Studio/Analysis/subject-line]] (v2.1) — 11 named patterns, top performers list, preview text rules, and template banks for every pattern + email type. This is the primary reference. `Library/Examples/subjects-and-previews.md` as a curated raw-pairs file is still TBD but is not blocking. |
+| **Skip** | [[Studio/Analysis/sales-page]] |
 
-**Decision note:** Always run the Three Subject Line Jobs decision framework (in `subject-line.md`) before writing. Identify the job first — relationship email, resource email, sales email, or event email — and pick the formula from that category. Wrong formula for the job type is the #1 subject line mistake. No generic urgency, no clickbait, no manufactured scarcity that isn't real. The raccoon-in-cashmere filter: would a person who knows Alyssa personally recognize this as something she'd send?
+**Decision note:** Always run the Three Subject Line Jobs decision framework (in [[Studio/Analysis/subject-line]]) before writing. Identify the job first — relationship email, resource email, sales email, or event email — and pick the formula from that category. Wrong formula for the job type is the #1 subject line mistake. No generic urgency, no clickbait, no manufactured scarcity that isn't real. The raccoon-in-cashmere filter: would a person who knows Alyssa personally recognize this as something she'd send?
 
 ---
 
@@ -207,13 +207,13 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (all) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (all) |
 | **Read** | `Library/Programs/back-of-house/webinars/` — both the Out of Office Webinar and Slowly Viral Class transcripts are available in the BOH program folder |
-| **Skim** | `Studio/Analysis/sales-page.md` (objection-handling section, social proof strategy — webinar closes mirror sales page structure) |
-| **Read** | `Studio/Analysis/workshop-webinar-analysis.md` — all 3 BOH webinars analyzed: teaching structure, pitch architecture, voice patterns, cross-webinar synthesis, Hermes routing guide |
-| **Skip** | `Studio/Analysis/about-page.md` · `Studio/Analysis/home-page.md` |
+| **Skim** | [[Studio/Analysis/sales-page]] (objection-handling section, social proof strategy — webinar closes mirror sales page structure) |
+| **Read** | [[Studio/Analysis/workshop-webinar-analysis]] — all 3 BOH webinars analyzed: teaching structure, pitch architecture, voice patterns, cross-webinar synthesis, Hermes routing guide |
+| **Skip** | [[Studio/Analysis/about-page]] · [[Studio/Analysis/home-page]] |
 
-**Decision note:** Webinar scripts are the most complete expression of her teaching voice — not just her brand voice. The BOH webinar transcripts show how she opens a room, builds tension, teaches the mechanism, handles objections, and closes with a pitch. Until `workshop-webinar-analysis.md` exists, those transcripts are the only source. Read at least one in full before scripting anything.
+**Decision note:** Webinar scripts are the most complete expression of her teaching voice — not just her brand voice. The BOH webinar transcripts show how she opens a room, builds tension, teaches the mechanism, handles objections, and closes with a pitch. Until [[Studio/Analysis/workshop-webinar-analysis]] exists, those transcripts are the only source. Read at least one in full before scripting anything.
 
 ---
 
@@ -221,9 +221,9 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `me.md` · `Studio/Analysis/writing-style.md` (Section 13 — We/I/You pronoun shifts, Section 1 — voice identity) |
+| **Read** | [[Library/me]] · [[Studio/Analysis/writing-style]] (Section 13 — We/I/You pronoun shifts, Section 1 — voice identity) |
 | **Read** | The original copy being adapted |
-| **Read** | `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` — if adapting for a BOH-adjacent audience |
+| **Read** | [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] — if adapting for a BOH-adjacent audience |
 | **Skip** | Analysis files unrelated to the specific task |
 
 **Decision note:** Adaptation means adjusting the container, not the voice. The five words (Conspiratorial. Grounded. Dry-funny. Permissive. Precise.) must survive the adaptation. The food metaphor should be adapted only where it maps naturally; forcing it into a new context produces decoration, not architecture.
@@ -234,9 +234,9 @@ TASK: Write a Soft Sunday email
 
 | | Files |
 |---|---|
-| **Read** | `Studio/Analysis/writing-style.md` Section 12 (Don'ts) + Section 14 (Swipe File) |
+| **Read** | [[Studio/Analysis/writing-style]] Section 12 (Don'ts) + Section 14 (Swipe File) |
 | **Read** | Section 9 of this document (Red Flags) |
-| **Skim** | `me.md` (voice identity section and permission pattern) |
+| **Skim** | [[Library/me]] (voice identity section and permission pattern) |
 | **Skip** | Everything else — auditing requires contrast, not immersion |
 
 **Decision note:** A voice audit is a diagnostic, not a calibration. Read the Don'ts list as a checklist. Run the copy against Section 14's swipe file phrases — proximity matters. Then use the Red Flags section below to name what's off and prescribe the fix.
@@ -249,7 +249,7 @@ TASK: Write a Soft Sunday email
 
 For: one-off subject lines, short captions, minor copy edits, quick pin descriptions.
 
-**Read:** `me.md` + `Studio/Analysis/writing-style.md` Sections 1, 12, and 14 only.
+**Read:** [[Library/me]] + [[Studio/Analysis/writing-style]] Sections 1, 12, and 14 only.
 
 That's the voice in five words, the Don'ts, and the swipe file. If you can't place the task in those three sections, escalate to Level 2.
 
@@ -259,7 +259,7 @@ That's the voice in five words, the Don'ts, and the swipe file. If you can't pla
 
 For: full emails (Simmer, welcome sequence, sales email), landing pages, carousel scripts, social copy.
 
-**Read:** `me.md` (all) + `Studio/Analysis/writing-style.md` (all 14 sections) + one real example from `Library/Examples/` most relevant to the task type.
+**Read:** [[Library/me]] (all) + [[Studio/Analysis/writing-style]] (all 14 sections) + one real example from `Library/Examples/` most relevant to the task type.
 
 The example is not optional at Level 2. Reading the analysis without reading a real example produces technically correct but lifeless copy. The example restores the rhythm that analysis can't fully capture.
 
@@ -270,11 +270,11 @@ The example is not optional at Level 2. Reading the analysis without reading a r
 For: sales pages, about pages, home page copy, webinar scripts, anything that will be published publicly and represents Alyssa's brand at full volume.
 
 **Read:**
-1. `me.md` (all)
-2. `Studio/Analysis/writing-style.md` (all)
-3. The specific analysis file for the task type (`sales-page.md`, `about-page.md`, or `home-page.md`)
-4. The corresponding real example (`Library/Examples/sales-pages/boh-sales-page.md`, `Library/Examples/about-page.md`, `Library/Examples/home-page.md`)
-5. `Studio/Analysis/audience/back-of-house-2025-survey-client-profile.md` if the task is selling or nurturing BOH buyers
+1. [[Library/me]] (all)
+2. [[Studio/Analysis/writing-style]] (all)
+3. The specific analysis file for the task type ([[Studio/Analysis/sales-page]], `about-page.md`, or `home-page.md`)
+4. The corresponding real example ([[Library/Examples/sales-pages/boh-sales-page]], [[Library/Examples/about-page]], [[Library/Examples/home-page]])
+5. [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] if the task is selling or nurturing BOH buyers
 
 Do not begin drafting until all five have been read. Level 3 copy will be read by strangers who form opinions about Alyssa's brand from a single page. That requires full calibration, not minimum viable calibration.
 
@@ -282,17 +282,17 @@ Do not begin drafting until all five have been read. Level 3 copy will be read b
 
 ## 4. The Analysis Files — What Each One Is Actually For
 
-### `writing-style.md`
+### [[Studio/Analysis/writing-style]]
 
 **What it's for:** Sentence-level voice patterns, the metaphor taxonomy, humor mechanics, CTA style, exact vocabulary, what she never says, and the swipe file. This is the *how she writes* document.
 
-**When NOT to use it alone:** For a full sales page or about page, `writing-style.md` alone gives you the voice but not the architecture. It needs to be paired with the corresponding structural analysis file (`sales-page.md` or `about-page.md`). Voice without structure produces copy that sounds like her but doesn't persuade.
+**When NOT to use it alone:** For a full sales page or about page, [[Studio/Analysis/writing-style]] alone gives you the voice but not the architecture. It needs to be paired with the corresponding structural analysis file ([[Studio/Analysis/sales-page]] or `about-page.md`). Voice without structure produces copy that sounds like her but doesn't persuade.
 
 **The one question it answers better than any other file:** "Is this sentence something Alyssa would actually write?"
 
 ---
 
-### `sales-page.md`
+### [[Studio/Analysis/sales-page]]
 
 **What it's for:** The section-by-section structural map of the BOH sales page — every section, its persuasion job, and why it's placed where it is. Includes the pain section formula, the pivot structure, the CTA architecture (21 CTAs analyzed), the social proof sequencing, the curriculum naming conventions, the FAQ tone shift, and a 28-step build template for new sales pages.
 
@@ -324,7 +324,7 @@ Do not begin drafting until all five have been read. Level 3 copy will be read b
 
 ---
 
-### `audience/back-of-house-2025-survey-client-profile.md`
+### [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]]
 
 **What it's for:** Real client intelligence — who the BOH buyer actually is, what they said about themselves, what problems they named, what language they use to describe their situation. This is not Alyssa's voice; it's her buyers' voice. Essential for writing pain sections, testimonial-adjacent copy, and audience identity sections that need to mirror real people.
 
@@ -344,25 +344,25 @@ Do not begin drafting until all five have been read. Level 3 copy will be read b
 
 **Read:** `Library/Examples/simmers/` (once available) for a nurture email, `Library/Examples/soft-sundays/` (once available) for a personal/inspirational email, or `Library/Examples/sales-emails/` (once available) for a promo email.
 
-**Until those folders are populated:** Read `Library/Examples/about-page.md`. It has the highest density of casual register writing — the "lol," the strikethrough humor, the aside-punchlines, the fragmented rhythm — of anything currently filed. It is the closest available approximation to how her emails sound. It is not a substitute, but it is the best available option.
+**Until those folders are populated:** Read [[Library/Examples/about-page]]. It has the highest density of casual register writing — the "lol," the strikethrough humor, the aside-punchlines, the fragmented rhythm — of anything currently filed. It is the closest available approximation to how her emails sound. It is not a substitute, but it is the best available option.
 
 ---
 
 ### Before writing a sales page
 
-**Read:** `Library/Examples/sales-pages/boh-sales-page.md` — the full live copy. Non-negotiable. Then read `Studio/Analysis/sales-page.md` to understand what each section is doing and why. The sequence matters: example first, analysis second. Analysis alone is a skeleton. Example first makes the skeleton make sense.
+**Read:** [[Library/Examples/sales-pages/boh-sales-page]] — the full live copy. Non-negotiable. Then read [[Studio/Analysis/sales-page]] to understand what each section is doing and why. The sequence matters: example first, analysis second. Analysis alone is a skeleton. Example first makes the skeleton make sense.
 
 ---
 
 ### Before writing brand copy (home page, marquee, positioning)
 
-**Read:** `Library/Examples/home-page.md` — this is the only filed example of her coldest-audience, highest-compression brand writing. Read it in full before writing anything that needs to declare the brand rather than sell a product.
+**Read:** [[Library/Examples/home-page]] — this is the only filed example of her coldest-audience, highest-compression brand writing. Read it in full before writing anything that needs to declare the brand rather than sell a product.
 
 ---
 
 ### Before writing bio or about page copy
 
-**Read:** `Library/Examples/about-page.md` — the full about page. Then `Studio/Analysis/about-page.md`. As with sales pages: example before analysis.
+**Read:** [[Library/Examples/about-page]] — the full about page. Then [[Studio/Analysis/about-page]]. As with sales pages: example before analysis.
 
 ---
 
@@ -370,7 +370,7 @@ Do not begin drafting until all five have been read. Level 3 copy will be read b
 
 Read more than one example when: (a) you are writing in a format that doesn't yet have an analysis file (carousels, webinar scripts, Simmer emails); or (b) you are calibrating for a new product or audience that differs from BOH; or (c) you have read one example and the voice still feels uncertain.
 
-Two examples that are close in format will calibrate better than one example from a different format. If the only available examples are all from the same page type and you're writing something different, note the gap and use `writing-style.md` as the primary calibration source instead.
+Two examples that are close in format will calibrate better than one example from a different format. If the only available examples are all from the same page type and you're writing something different, note the gap and use [[Studio/Analysis/writing-style]] as the primary calibration source instead.
 
 ---
 
@@ -392,19 +392,19 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 ## 7. The Templates Folder — When to Use and When Not To
 
-**Use a template when:** You know the structure but need a starting frame. The templates at `Studio/Analysis/Templates/` are useful for: opt-in pages (`page-opt-in.md`), sales pages (`page-sales.md`), and transactional emails (delivery, tripwire, oops, push-to-buy). These exist and are marked as starters.
+**Use a template when:** You know the structure but need a starting frame. The templates at `Studio/Analysis/Templates/` are useful for: opt-in pages ([[Studio/Analysis/Templates/page-opt-in]]), sales pages ([[Studio/Analysis/Templates/page-sales]]), and transactional emails (delivery, tripwire, oops, push-to-buy). These exist and are marked as starters.
 
-**Do not use a template as a substitute for calibration.** A template filled in by an uncalibrated LLM produces copy that fits the structure but sounds generic. Templates only work if `writing-style.md` has been read first.
+**Do not use a template as a substitute for calibration.** A template filled in by an uncalibrated LLM produces copy that fits the structure but sounds generic. Templates only work if [[Studio/Analysis/writing-style]] has been read first.
 
-**Do not use a template when:** The template for that task type doesn't exist yet (Simmer, Soft Sunday, sales email, carousel). Starting from a blank template that doesn't exist is better than starting from a template for a different task type and trying to force-fit it. For missing templates, go directly to `writing-style.md` + the nearest real example.
+**Do not use a template when:** The template for that task type doesn't exist yet (Simmer, Soft Sunday, sales email, carousel). Starting from a blank template that doesn't exist is better than starting from a template for a different task type and trying to force-fit it. For missing templates, go directly to [[Studio/Analysis/writing-style]] + the nearest real example.
 
 **The template crutch trap:** A template is a container, not a voice. "Fill in the brackets" only works if the fill is written in her voice. If the bracket-filling sounds like generic marketing language, the template made it worse, not better — because now the structure is correct and the voice is wrong, which is harder to fix than starting cold.
 
 ---
 
-## 8. The `me.md` File — When It's Enough and When It's Not
+## 8. The [[Library/me]] File — When It's Enough and When It's Not
 
-### When `me.md` alone is sufficient
+### When [[Library/me]] alone is sufficient
 
 - Checking the correct brand one-liner before using it in another context
 - Confirming the food metaphor vocabulary before a quick-turn task
@@ -412,21 +412,21 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 - Writing a short social caption or subject line at Level 1 calibration
 - Answering a structural question about what Alyssa sells and who she sells it to
 
-### When `me.md` is the starting point but more is required
+### When [[Library/me]] is the starting point but more is required
 
-- Any email longer than a few sentences → add `writing-style.md`
-- Any copy that references her origin story → add `writing-style.md` Section 10, then the relevant example
-- Any copy that uses the food metaphor beyond single words → add `writing-style.md` Section 2
-- Any copy with CTAs → add `writing-style.md` Section 8
+- Any email longer than a few sentences → add [[Studio/Analysis/writing-style]]
+- Any copy that references her origin story → add [[Studio/Analysis/writing-style]] Section 10, then the relevant example
+- Any copy that uses the food metaphor beyond single words → add [[Studio/Analysis/writing-style]] Section 2
+- Any copy with CTAs → add [[Studio/Analysis/writing-style]] Section 8
 
-### When `me.md` is barely relevant
+### When [[Library/me]] is barely relevant
 
 - Technical setup tasks (configuring an email sequence in a platform, editing a template structure, formatting a document)
 - Reviewing analytics or data
 - Researching keyword strategy for Pinterest
 - Any task where the output is not written in Alyssa's voice
 
-`me.md` is calibration, not reference. It orients you to the person. It does not tell you how to write in her voice — that's `writing-style.md`.
+[[Library/me]] is calibration, not reference. It orients you to the person. It does not tell you how to write in her voice — that's [[Studio/Analysis/writing-style]].
 
 ---
 
@@ -436,7 +436,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** You calibrated on the voice adjectives ("conspiratorial, grounded, dry-funny") without reading the sentence-level patterns. The copy has the right temperature but not the right texture.
 
-**Go read:** `writing-style.md` Section 3 (sentence structure and rhythm) + Section 14 (swipe file). Then rewrite the first paragraph until a line from Section 14 could plausibly live in the same paragraph.
+**Go read:** [[Studio/Analysis/writing-style]] Section 3 (sentence structure and rhythm) + Section 14 (swipe file). Then rewrite the first paragraph until a line from Section 14 could plausibly live in the same paragraph.
 
 ---
 
@@ -444,7 +444,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** You defaulted to "Sign Up," "Learn More," "Get Started," or similar neutral language. None of those appear anywhere in her copy.
 
-**Go read:** `writing-style.md` Section 8 (the full CTA catalog with annotations). Every CTA should be either a food-metaphor move or the reader's internal monologue written out. Rewrite every CTA before calling the draft done.
+**Go read:** [[Studio/Analysis/writing-style]] Section 8 (the full CTA catalog with annotations). Every CTA should be either a food-metaphor move or the reader's internal monologue written out. Rewrite every CTA before calling the draft done.
 
 ---
 
@@ -452,7 +452,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** The food metaphor is appearing in every sentence rather than at transition moments and section headers. Or it's being extended into an allegory when it should work at the idiom level.
 
-**Go read:** `writing-style.md` Section 2, specifically "Rules for extending the metaphor." The rule is: the metaphor must serve the point, not perform it. If removing the metaphor from a sentence makes the sentence clearer, remove the metaphor.
+**Go read:** [[Studio/Analysis/writing-style]] Section 2, specifically "Rules for extending the metaphor." The rule is: the metaphor must serve the point, not perform it. If removing the metaphor from a sentence makes the sentence clearer, remove the metaphor.
 
 ---
 
@@ -460,7 +460,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** The pain section is telling the reader they're doing it wrong, rather than naming the situation sympathetically.
 
-**Go read:** `Studio/Analysis/sales-page.md` Pain Section Analysis — "How the section creates identification without shame." Also `writing-style.md` Section 4 ("Making people feel seen without amplifying shame"). The core technique: name the situation, not the person. The problem is structural, not personal.
+**Go read:** [[Studio/Analysis/sales-page]] Pain Section Analysis — "How the section creates identification without shame." Also [[Studio/Analysis/writing-style]] Section 4 ("Making people feel seen without amplifying shame"). The core technique: name the situation, not the person. The problem is structural, not personal.
 
 ---
 
@@ -468,7 +468,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** You're writing informational content — step-by-step or feature-by-feature — in sections that are meant to be emotionally resonant. The reader is being taught rather than felt.
 
-**Go read:** `Studio/Analysis/sales-page.md` Dream/Permission Section and the Life Vision list analysis. Resonance comes from specific images, not explanations. "Read poetry by the window" resonates. "Have more free time to pursue creative activities" explains. Replace every abstract benefit with a specific image.
+**Go read:** [[Studio/Analysis/sales-page]] Dream/Permission Section and the Life Vision list analysis. Resonance comes from specific images, not explanations. "Read poetry by the window" resonates. "Have more free time to pursue creative activities" explains. Replace every abstract benefit with a specific image.
 
 ---
 
@@ -476,7 +476,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** You wrote: "Alyssa went to Portugal, came back burned out, and built Back of House." That's a summary. The origin story works because it's a scene — fishing village, the moment of dread, "on paper everything was fine," the hyperfixation.
 
-**Go read:** `writing-style.md` Section 10 (The Origin Story Arc) — specifically "How the story is told differently in different contexts." Then read `Library/Examples/about-page.md` for the full scene version, and `Library/Examples/sales-pages/boh-sales-page.md` for the compressed conversion version. Use the right edit for the right context.
+**Go read:** [[Studio/Analysis/writing-style]] Section 10 (The Origin Story Arc) — specifically "How the story is told differently in different contexts." Then read [[Library/Examples/about-page]] for the full scene version, and [[Library/Examples/sales-pages/boh-sales-page]] for the compressed conversion version. Use the right edit for the right context.
 
 ---
 
@@ -484,7 +484,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **What happened:** The copy is giving information or instructions but never giving explicit permission for the reader to want what they secretly want.
 
-**Go read:** `writing-style.md` Section 6 (The Permission-Giving Voice). Specifically: "Permission isn't just tone — it's the mechanism of the offer." At least one permission statement should appear in every major copy piece. It's the thing that makes her brand feel different from every other marketing strategist.
+**Go read:** [[Studio/Analysis/writing-style]] Section 6 (The Permission-Giving Voice). Specifically: "Permission isn't just tone — it's the mechanism of the offer." At least one permission statement should appear in every major copy piece. It's the thing that makes her brand feel different from every other marketing strategist.
 
 ---
 
@@ -494,51 +494,51 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 **Gap:** `Library/Examples/simmers/` is empty. There is no real Simmer email to read before writing one.
 
-**What this means:** You cannot calibrate Simmer voice from a real example. You can only calibrate from `writing-style.md` and the Simmer-adjacent copy in the BOH program materials (Module 2.2–2.3).
+**What this means:** You cannot calibrate Simmer voice from a real example. You can only calibrate from [[Studio/Analysis/writing-style]] and the Simmer-adjacent copy in the BOH program materials (Module 2.2–2.3).
 
-**In the meantime:** Read the Module 2.3 copy snippets in the BOH INDEX for her language around the Simmer concept. Read `Library/Examples/about-page.md` for the casual register. Treat `writing-style.md` Sections 3, 5, and 7 as the primary calibration, and be conservative — don't push into territory the copy hasn't confirmed.
+**In the meantime:** Read the Module 2.3 copy snippets in the BOH INDEX for her language around the Simmer concept. Read [[Library/Examples/about-page]] for the casual register. Treat [[Studio/Analysis/writing-style]] Sections 3, 5, and 7 as the primary calibration, and be conservative — don't push into territory the copy hasn't confirmed.
 
 ---
 
 ### Soft Sundays
 
-**Status:** Complete as of 2026-06-05. `Studio/Analysis/soft-sunday.md` and `Studio/Analysis/Frameworks/soft-sunday-framework.md` are both filed. `Library/Examples/soft-sundays/` is populated (6 real examples).
+**Status:** Complete as of 2026-06-05. [[Studio/Analysis/soft-sunday]] and [[Studio/Analysis/Frameworks/soft-sunday-framework]] are both filed. `Library/Examples/soft-sundays/` is populated (6 real examples).
 
-**Full routing is now in Section 2 above.** Read `Studio/Analysis/soft-sunday.md` (dos/don'ts, formatting rules, voice patterns) and `Studio/Analysis/Frameworks/soft-sunday-framework.md` (section anatomy, build template, CTA logic) before writing any Soft Sunday. Read at least 2 examples from `Library/Examples/soft-sundays/` first.
+**Full routing is now in Section 2 above.** Read [[Studio/Analysis/soft-sunday]] (dos/don'ts, formatting rules, voice patterns) and [[Studio/Analysis/Frameworks/soft-sunday-framework]] (section anatomy, build template, CTA logic) before writing any Soft Sunday. Read at least 2 examples from `Library/Examples/soft-sundays/` first.
 
-**Voice-flagged example:** `Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md` — structure reference only, not voice calibration.
+**Voice-flagged example:** [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]] — structure reference only, not voice calibration.
 
 ---
 
 ### Carousels
 
-**Status:** Built in W23 and corrected 2026-07-04. `Studio/Analysis/carousel.md` (9 top-performer post-mortems), `Studio/Analysis/carousel-slide-by-slide.md` (source slide breakdown), `Studio/Analysis/Frameworks/carousel-framework.md` (6 archetypes, 7 hook formulas), and `Studio/Analysis/Templates/carousel-brief.md` (brief generator) are all filed. Example folders and images are normalized into chronological `slide-01.jpg` order. See carousel routing in Section 2 above for full instructions.
+**Status:** Built in W23 and corrected 2026-07-04. [[Studio/Analysis/carousel]] (9 top-performer post-mortems), [[Studio/Analysis/carousel-slide-by-slide]] (source slide breakdown), [[Studio/Analysis/Frameworks/carousel-framework]] (6 archetypes, 7 hook formulas), and [[Studio/Analysis/Templates/carousel-brief]] (brief generator) are all filed. Example folders and images are normalized into chronological `slide-01.jpg` order. See carousel routing in Section 2 above for full instructions.
 
 ---
 
 ### Webinar + workshop analysis
 
-**Status:** `Studio/Analysis/workshop-webinar-analysis.md` built in W23. Covers all 3 BOH webinars (Out of Office, Slowly Viral Class, Slow Marketing Plan Class) with individual analysis + cross-webinar synthesis + Hermes routing guide. See webinar routing in Section 2 above.
+**Status:** [[Studio/Analysis/workshop-webinar-analysis]] built in W23. Covers all 3 BOH webinars (Out of Office, Slowly Viral Class, Slow Marketing Plan Class) with individual analysis + cross-webinar synthesis + Hermes routing guide. See webinar routing in Section 2 above.
 
-**Still TBD:** Alyssa's theoretical webinar framework (currently in Team Inbox) needs to be filed to `Studio/Analysis/Frameworks/webinar-framework.md` and mapped against what she actually does in practice (per workshop-webinar-analysis.md).
+**Still TBD:** Alyssa's theoretical webinar framework (currently in Team Inbox) needs to be filed to [[Studio/Analysis/Frameworks/webinar-framework]] and mapped against what she actually does in practice (per workshop-webinar-analysis.md).
 
 ---
 
 ### XML voice profile — AI-mined draft (awaiting Alyssa review)
 
-**Status:** `Studio/Analysis/voice-profile.md` now exists. Built 2026-06-03 via AI-mined pass across all transcripts, webinars, sales pages, and existing analysis. ~3,000 tokens, XML format, AI-ready.
+**Status:** [[Studio/Analysis/voice-profile]] now exists. Built 2026-06-03 via AI-mined pass across all transcripts, webinars, sales pages, and existing analysis. ~3,000 tokens, XML format, AI-ready.
 
 **Load this at the start of any copy session** — it is the fastest single-file calibration. Treat as a strong draft; Alyssa is reviewing and will run a gap interview for ~13 LOW/MED-confidence questions.
 
-**Also available:** `Studio/Analysis/voice-archive.md` — the full 100-question evidence archive with source citations and confidence ratings. Human-readable. The `voice-profile.md` was compiled from this.
+**Also available:** [[Studio/Analysis/voice-archive]] — the full 100-question evidence archive with source citations and confidence ratings. Human-readable. The [[Studio/Analysis/voice-profile]] was compiled from this.
 
 ---
 
 ### Subject lines + preview text
 
-**Status:** `Studio/Analysis/subject-line.md` v2.1 now exists. Built from 351 Kit broadcasts (Jun 2024–Jun 2026). Contains 11 named patterns with performance data, template banks for every pattern and email type, top performers list, preview text rules, the Three Subject Line Jobs decision framework, and a quick reference card.
+**Status:** [[Studio/Analysis/subject-line]] v2.1 now exists. Built from 351 Kit broadcasts (Jun 2024–Jun 2026). Contains 11 named patterns with performance data, template banks for every pattern and email type, top performers list, preview text rules, the Three Subject Line Jobs decision framework, and a quick reference card.
 
-**`Library/Examples/subjects-and-previews.md`:** Still TBD as a standalone curated raw-pairs file. Not blocking — `subject-line.md` v2.1 covers all analytical needs. Larry can build the examples file from existing vault data without a content drop from Alyssa.
+**`Library/Examples/subjects-and-previews.md`:** Still TBD as a standalone curated raw-pairs file. Not blocking — [[Studio/Analysis/subject-line]] v2.1 covers all analytical needs. Larry can build the examples file from existing vault data without a content drop from Alyssa.
 
 ---
 

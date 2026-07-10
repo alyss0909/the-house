@@ -12,7 +12,7 @@ linked_guidelines: [GL-003-design-system]
 
 ## What I did
 
-Alyssa spent ~8 rounds today iterating the dashboard calendar chips (`dashboard/05 Approved.md` and neighboring tabs) with Larry until she approved a final pattern. That pattern was live in `.obsidian/snippets/dashboard.css` but not yet written into [[GL-003-design-system]] — I read the CSS directly as source of truth (not the brief's paraphrase) and added four new subsections under §5 Component conventions:
+Alyssa spent ~8 rounds today iterating the dashboard calendar chips ([[Studio/Content/dashboard/05 Approved]] and neighboring tabs) with Larry until she approved a final pattern. That pattern was live in `.obsidian/snippets/dashboard.css` but not yet written into [[GL-003-design-system]] — I read the CSS directly as source of truth (not the brief's paraphrase) and added four new subsections under §5 Component conventions:
 
 1. **Two-tier chip hierarchy** — identity chips (dark `#1a1a1a` text, primary category markers, e.g. folder/pastel chips) vs. info/meta chips (unbolded, 10.5px, `--db-terracotta` text, quieter contextual metadata — `.db-cal-type` and `.db-cal-week-pill` are the canonical live examples). Same shape/fill grammar for both; only text treatment differs.
 2. **Contrast exception** — lavender fill (`#a186bc`) gets white text instead of terracotta/dark, because neither reads well on it. Documented as case-by-case, not a blanket rule — check contrast per fill.

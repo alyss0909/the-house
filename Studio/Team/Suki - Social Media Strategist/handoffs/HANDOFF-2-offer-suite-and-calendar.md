@@ -11,7 +11,7 @@
 
 A single **funnel-logic layer** that wikilinks every **free opt-in to its paid partner**, tagged by posting slot, so every pitch knows — without guessing — which opt-in Monday pushes and which product Wednesday sells (and what bump rides at checkout). Feeds the comments → list/coupon → sale funnel.
 
-**2026-07-08 correction from Alyssa:** do **not** create a new `Hermes/OFFER-ATLAS.md`. Redundancy sweep found the layer already exists across `Hermes/MAP.md` section 3 (calendar / posting-slot map), `Hermes/BUSINESS.md` (Notion Products DB snapshot, product status, price, chat word, funnel chains), and `Hermes/FUNNEL.md` (offer essence map). The right move is to reconcile those existing files, not add another atlas. Map-not-digest still applies: point, don't re-copy offer facts.
+**2026-07-08 correction from Alyssa:** do **not** create a new `Hermes/OFFER-ATLAS.md`. Redundancy sweep found the layer already exists across [[Hermes/MAP]] section 3 (calendar / posting-slot map), [[Hermes/BUSINESS]] (Notion Products DB snapshot, product status, price, chat word, funnel chains), and [[Hermes/FUNNEL]] (offer essence map). The right move is to reconcile those existing files, not add another atlas. Map-not-digest still applies: point, don't re-copy offer facts.
 
 ## Confirmed so far (from Alyssa's calendar — 4-WEEK MONTHLY ROTATION)
 
@@ -39,7 +39,7 @@ A single **funnel-logic layer** that wikilinks every **free opt-in to its paid p
 5. Confirm the monthly rotation above matches reality, and confirm each free↔paid pairing.
 
 ## Deliverable at the end of that session
-Update `Hermes/MAP.md` section 3 with any missing weekly rule / slot logic, and keep product status, price, chat word, and offer facts in `Hermes/BUSINESS.md` / `Library/Offers/`. Do not create `Hermes/OFFER-ATLAS.md`.
+Update [[Hermes/MAP]] section 3 with any missing weekly rule / slot logic, and keep product status, price, chat word, and offer facts in [[Hermes/BUSINESS]] / `Library/Offers/`. Do not create `Hermes/OFFER-ATLAS.md`.
 
 ## Related memory
 `project-offer-suite-atlas` · `project-content-north-star-comments` · `feedback-map-not-digest`

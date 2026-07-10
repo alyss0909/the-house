@@ -12,15 +12,15 @@ linked_guidelines: [GL-003-design-system]
 
 ## What I did
 
-Alyssa gave the go-ahead on the open thread I'd flagged in the last GL-003 update: `02 Arc.md`, `03 Hook.md`, `04 Draft.md` (and, it turned out, `05 Approved.md` too) still carried the pre-fix bare `# Title` + plain-paragraph header pattern that caused her "doesn't feel like a dashboard" complaint on Concepts.
+Alyssa gave the go-ahead on the open thread I'd flagged in the last GL-003 update: [[Studio/Content/dashboard/02 Arc]], [[Studio/Content/dashboard/03 Hook]], [[Studio/Content/dashboard/04 Draft]] (and, it turned out, [[Studio/Content/dashboard/05 Approved]] too) still carried the pre-fix bare `# Title` + plain-paragraph header pattern that caused her "doesn't feel like a dashboard" complaint on Concepts.
 
-No live Obsidian render available in this environment (no browser/Bash, no running Obsidian process), so this was a **direct code-parity audit**: read all five dashboard sub-pages plus `dashboard.css` in full, diffed structurally against the now-fixed `01 Concepts.md`, and brought the other three (plus one I found still broken) into alignment in code. Flagging this explicitly to Alyssa as a code-level parity pass, not visual QA against a live render.
+No live Obsidian render available in this environment (no browser/Bash, no running Obsidian process), so this was a **direct code-parity audit**: read all five dashboard sub-pages plus `dashboard.css` in full, diffed structurally against the now-fixed [[Studio/Content/dashboard/01 Concepts]], and brought the other three (plus one I found still broken) into alignment in code. Flagging this explicitly to Alyssa as a code-level parity pass, not visual QA against a live render.
 
 ## What changed
 
 **Header/subtitle treatment (fixed, all four):**
-- `02 Arc.md`, `03 Hook.md`, `04 Draft.md` converted from bare `# NN Title` + plain paragraph to `<h1 class="db-page-title">` + `<p class="db-page-sub">`.
-- `05 Approved.md` — **this one was a surprise.** My own prior GL-003 note said this page still had the bare-markdown pattern (correct), but the brief I was handed characterized 05 Approved as already fixed/polished. It was not converted. Fixed it in the same pass. This corrects a stale claim in GL-003 §5 that had said (in one place) 05 Approved was already done — it wasn't; now it genuinely is.
+- [[Studio/Content/dashboard/02 Arc]], [[Studio/Content/dashboard/03 Hook]], [[Studio/Content/dashboard/04 Draft]] converted from bare `# NN Title` + plain paragraph to `<h1 class="db-page-title">` + `<p class="db-page-sub">`.
+- [[Studio/Content/dashboard/05 Approved]] — **this one was a surprise.** My own prior GL-003 note said this page still had the bare-markdown pattern (correct), but the brief I was handed characterized 05 Approved as already fixed/polished. It was not converted. Fixed it in the same pass. This corrects a stale claim in GL-003 §5 that had said (in one place) 05 Approved was already done — it wasn't; now it genuinely is.
 
 **Chip/oval sizing (audited, no fix needed):** Arc, Hook, Draft only render `.db-day-chip`/`.db-chip` as single, non-repeating instances per section — never a repeating same-type row/column like the calendar's day-type ovals or Concepts' three action buttons. The locked uniform-sizing rule (GL-003 §5) only binds repeating chip sets; it doesn't apply here. No page-specific width override was found reintroducing the old self-sizing bug. Confirmed clean.
 

@@ -38,4 +38,4 @@ Alyssa has a voice memo, audio recording, or article URL she wants to transcribe
 
 ## Notes
 
-Ghostscript (for OCR) is AGPL-3.0. It's installed as a system CLI subprocess by OCRmyPDF; the pack never bundles or modifies it. Disclosure is in `Expansions/converter-pack/README.md`.
+Ghostscript (for OCR) is AGPL-3.0. It's installed as a system CLI subprocess by OCRmyPDF; the pack never bundles or modifies it. Disclosure is in [[Expansions/converter-pack/README]].

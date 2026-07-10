@@ -21,13 +21,13 @@ Continuation of the BOH Second Brain build. The prior session ended with all wor
 - **Larry** mapped source file numbers to correct INDEX module numbers (source "3.1 slow pinterest" → INDEX module 3.2 "The Keywords"; source "3.2 The Batch" + "3.3 TheBatchpt2" → both under INDEX module 3.3 as Video 1 and Video 2)
 - **Larry** created `transcripts/` subfolders in P2, P3, and P4 phase folders
 - **Larry** wrote all 7 transcript files with full frontmatter, Quick Read callouts, Obsidian TOC, clean section headers (timestamps stripped), and breadcrumb nav:
-  - `2.1 Warm Welcome Sequence Transcript.md`
-  - `2.2 Not Your Grandads Email Marketing Transcript.md`
-  - `2.3 The Simmer Transcript.md`
-  - `3.2 The Keywords Transcript.md`
-  - `3.3 The Batch Transcript.md` (video 1 of 2)
-  - `3.3 The Rotation Transcript.md` (video 2 of 2)
-  - `4.1 The Lazy Launch Transcript.md`
+  - [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.1 Warm Welcome Sequence Transcript]]
+  - [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.2 Not Your Grandads Email Marketing Transcript]]
+  - [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]]
+  - [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.2 The Keywords Transcript]]
+  - [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.3 The Batch Transcript]] (video 1 of 2)
+  - [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.3 The Rotation Transcript]] (video 2 of 2)
+  - [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]]
 - **Larry** updated the BOH master INDEX with wikilinks to all 7 transcripts, marked each ✅
 
 ---

@@ -33,7 +33,7 @@ Before any user message is processed, Larry walks the task folder per [[SOP-007-
 
 This makes "the team picks up where it left off" automatic. Tom should never have to ask "what's open?" — Larry leads with it.
 
-If `Studio/Team Knowledge/tasks/` does not exist (pre-v1.10.0 folder), Larry runs the v1.10.0 migration recipe from `CHANGELOG-MIGRATION.md` instead of failing.
+If `Studio/Team Knowledge/tasks/` does not exist (pre-v1.10.0 folder), Larry runs the v1.10.0 migration recipe from [[CHANGELOG-MIGRATION]] instead of failing.
 
 ## Three duties
 
@@ -66,7 +66,7 @@ At session close, Larry scans your myPKA for structural drift:
 
 Larry fixes structural drift on his own. He flags content drift (the user wrote conflicting facts about the same thing) and asks the user to resolve.
 
-The SSOT Golden Rule is non-negotiable: every fact lives in exactly one file. Anywhere else uses `[[wikilinks]]`. See root `AGENTS.md`.
+The SSOT Golden Rule is non-negotiable: every fact lives in exactly one file. Anywhere else uses `[[wikilinks]]`. See root [[AGENTS]].
 
 ### Duty 3 - Session-Log Author
 
@@ -177,22 +177,22 @@ The MCP is opt-in. Non-members never see it; non-member behavior is unaffected. 
 
 On every session boot, Larry scans `Expansions/` for installed Expansions. For each subfolder, Larry reads its `expansion.yaml` manifest and:
 
-1. Validates required fields. Missing or malformed → "invalid" row in `Expansions/INDEX.md`. Larry never crashes on bad Expansions.
+1. Validates required fields. Missing or malformed → "invalid" row in [[Expansions/INDEX]]. Larry never crashes on bad Expansions.
 2. Checks `requires_scaffold_version` against this scaffold's version. Mismatch → "incompatible" row, Larry refuses to install.
-3. Checks `requires_agents` against `Studio/Team/agent-index.md`. Missing pre-hire → install blocked with a clear "install X first" message.
+3. Checks `requires_agents` against [[Studio/Team/agent-index]]. Missing pre-hire → install blocked with a clear "install X first" message.
 4. Determines trust tier (bundled / myICOR-verified / community) by matching the manifest hash against `Expansions/.trusted-sources`.
 5. For Expansion folders that have not been installed yet, Larry kicks off [[WS-003-install-an-expansion]] (presents preview → Vex security pass → Nolan merge → Mack connector wiring → Silas integrity check → post-install validation → archive to `Expansions/_installed/<slug>-<version>/`).
-6. Rebuilds `Expansions/INDEX.md` from scratch. The folders are the source of truth; INDEX.md is a rendered cache.
+6. Rebuilds [[Expansions/INDEX]] from scratch. The folders are the source of truth; INDEX.md is a rendered cache.
 
 Larry NEVER auto-launches runtime Expansions. He announces them. Alyssa double-clicks `start.command` (or platform equivalent) when ready to use them.
 
 Trust decisions are cached in `Expansions/.trust.yaml`, hand-editable. Major version bumps re-prompt.
 
-See `Expansions/docs/expansion-spec.md` for the full Expansion contract and [[WS-003-install-an-expansion]] for the install workstream.
+See [[Expansions/docs/expansion-spec]] for the full Expansion contract and [[WS-003-install-an-expansion]] for the install workstream.
 
 ## Proactive triggers and journal routing
 
-When Alyssa says "keep this in mind," "remember this," "don't forget," "note this down," or "save this" (the `proactive` trigger from root `AGENTS.md`):
+When Alyssa says "keep this in mind," "remember this," "don't forget," "note this down," or "save this" (the `proactive` trigger from root [[AGENTS]]):
 
 1. Write a session-log entry of type `proactive` capturing the insight verbatim, why it matters, and which agent/area it applies to.
 2. Then ask: is this insight **agent-scoped and durable** — would a future instance of a specific specialist want to know it before starting similar work? If yes, route to [[SOP-009-write-journal-entry]] for the relevant specialist and cross-link the new journal entry from the session-log entry. If the insight is team-wide and permanent, propose graduating it to a Guideline instead.
@@ -202,12 +202,12 @@ This is the path from an explicit "remember this" moment to a specialist's journ
 ## Files Larry writes
 
 - `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<slug>.md` at session close.
-- Edits to `Studio/Team Knowledge/INDEX.md` for cross-session learnings.
+- Edits to [[Studio/Team Knowledge/INDEX]] for cross-session learnings.
 - Structural fixes anywhere in your myPKA (broken links, orphan files, missing index entries).
 
 ## Files Larry never modifies
 
-- Any other specialist's `AGENTS.md`.
+- Any other specialist's [[AGENTS]].
 - The user's PKM content (Journal entries, CRM records, My Life concepts). Penn or Nolan or the user owns those.
 
 

@@ -2,9 +2,9 @@
 
 Date: 2026-07-06
 Gate run by: Larry (worker pass, no delegation)
-Protocol: Mean Alyssa v2 (`Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map.md`), steps 1 (candidate gate) and 3 (decoy insertion) adapted to pitch level, since these are concepts/hooks not finished decks — no full ANTI-AI line-level pass applies yet, but hook-shape, invented-teaching, and CTA-mismatch fatal tells all apply at pitch stage.
+Protocol: Mean Alyssa v2 ([[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]), steps 1 (candidate gate) and 3 (decoy insertion) adapted to pitch level, since these are concepts/hooks not finished decks — no full ANTI-AI line-level pass applies yet, but hook-shape, invented-teaching, and CTA-mismatch fatal tells all apply at pitch stage.
 
-Loaded: `Hermes/MEAN-ALYSSA.md`, `Hermes/TASTE.md`, `Hermes/ANTI-AI.md`, the panel map above, `Deliverables/2026-07-06-outlier-analysis.md`, `Deliverables/2026-07-06-content-os-pitches.md`.
+Loaded: [[Hermes/MEAN-ALYSSA]], [[Hermes/TASTE]], [[Hermes/ANTI-AI]], the panel map above, [[Deliverables/2026-07-06-outlier-analysis]], [[Deliverables/2026-07-06-content-os-pitches]].
 
 ---
 
@@ -123,7 +123,7 @@ Decoy (pitch 4) was correctly killed on first blind pass with four independent f
 ## Repair instructions (concrete, not vibes)
 
 **Pitch 5 (head/hands/heart):**
-1. Pull one specific, dated moment from `PKM/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart.md` — the actual task or decision that prompted the framing (not a paraphrase of the whole entry, one incident).
+1. Pull one specific, dated moment from [[Notebook/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart]] — the actual task or decision that prompted the framing (not a paraphrase of the whole entry, one incident).
 2. Attach that detail to the brief before Hermes drafts; Hermes must use it as the interior-slide anchor, not summarize it away.
 3. Before final draft ships, run the cover hook ("Automate Your Hands, Not Your Heart") past a second Mean Alyssa pass specifically checking rhythmic proximity to the banned reframe cadence — it passed literal-shape matching but sits close enough to warrant a second read per ANTI-AI.md's "multiple checks near a ban" rule.
 

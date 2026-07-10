@@ -24,7 +24,7 @@ If the input is short (a single idea, under a paragraph), this is the wrong skil
 
 ### Step 1: Load context
 
-1. Look for `brand-brief.md` in the current directory. If it exists, read it â€” use the voice, audience, CTA, and **Strong Opinion / Wedge** to shape every output. If it's missing, do not block. Repurpose works without a brief. Mention once that running [brand-brief](brand-brief.md) first sharpens the voice, then continue.
+1. Look for [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory. If it exists, read it â€” use the voice, audience, CTA, and **Strong Opinion / Wedge** to shape every output. If it's missing, do not block. Repurpose works without a brief. Mention once that running [brand-brief](brand-brief.md) first sharpens the voice, then continue.
 2. Confirm the source type (blog, newsletter, transcript, script). Transcripts and raw scripts have filler and verbal tics â€” plan to cut them.
 
 ### Step 2: Extract the core themes

@@ -17,16 +17,16 @@ Alyssa dropped a raw copy file from Downloads (`BACK OF HOUSE COPY EVERYTHING.md
 ## What we did
 
 - **Larry** searched Offers, Projects, and tasks folders — confirmed no existing Rush Order files and initially couldn't find the tasks folder.
-- **Larry** created `PKM/Journal/2026/06/2026-06-03-rush-order-copy.md` — full copy doc with both sales page versions, all positioning angles, placement options, and early-joiner bonus idea (Story Mining).
+- **Larry** created [[Notebook/Journal/2026/06/2026-06-03-rush-order-copy]] — full copy doc with both sales page versions, all positioning angles, placement options, and early-joiner bonus idea (Story Mining).
 - **Larry** created `PKM/My Life/Offers/rush-order.md` — offer entity, status `idea`, $2,999, linked to back-of-house and spring-26-launch.
-- **Larry** updated `PKM/My Life/Offers/INDEX.md` — Rush Order added.
+- **Larry** updated [[PKM/My Life/Offers/INDEX]] — Rush Order added.
 - **Larry** updated `PKM/My Life/Offers/back-of-house.md` — added "Related offers" section pointing to Rush Order.
 - **Larry (Explore)** located the tasks system at `Team Knowledge/tasks/` after a broader search.
 - **Larry (Explore)** searched the journal for "Rush Order", "done-with-you", "OTO", "bespoke", "upsell" mentions — no pre-existing Rush Order notes found by name; concept surfaces only as VIP Day format ideas and BOH upgrade musings.
-- **Larry** created `Team Knowledge/tasks/open/tsk-2026-06-03-001-build-rush-order.md` — priority 2, assigned to Alyssa, linked to offer file and copy doc.
+- **Larry** created [[Studio/Team Knowledge/tasks/open/tsk-2026-06-03-001-build-rush-order]] — priority 2, assigned to Alyssa, linked to offer file and copy doc.
 - **Larry** updated `Team Knowledge/tasks/INDEX.md` — count bumped to 8, entry added.
-- **Larry** added wikilinks from `rush-order.md` and `2026-06-03-rush-order-copy.md` to five related BOH journal notes: vip-day, boh-upgrades, boh-idea, boh-prices, boh-copy.
-- **Larry** added backlinks in `2022-09-27-vip-day.md` and `2025-07-07-boh-upgrades.md` pointing to Rush Order.
+- **Larry** added wikilinks from `rush-order.md` and [[Notebook/Journal/2026/06/2026-06-03-rush-order-copy]] to five related BOH journal notes: vip-day, boh-upgrades, boh-idea, boh-prices, boh-copy.
+- **Larry** added backlinks in [[Notebook/Journal/2022/09/2022-09-27-vip-day]] and [[Notebook/Journal/2025/07/2025-07-07-boh-upgrades]] pointing to Rush Order.
 - **Larry** created memory file `project_rush_order.md` and `reference_tasks_folder.md`; updated MEMORY.md.
 
 ## Decisions made

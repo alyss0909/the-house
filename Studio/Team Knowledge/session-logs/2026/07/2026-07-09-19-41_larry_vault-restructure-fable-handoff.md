@@ -14,7 +14,7 @@ linked_guidelines: [GL-009-source-boundaries-and-promotion]
 
 Alyssa wanted to continue the folder-structure rethink from the recent PKM / ICOR / Hermes / Content OS conversations. The core issue is trust and usability: raw Alyssa notes, AI interpretation, active team work, maps, deliverables, dashboards, and trusted source material are currently too blended.
 
-The session ended with a clean Fable 5 handoff written to `Deliverables/2026-07-09-vault-restructure-fable-handoff.md`.
+The session ended with a clean Fable 5 handoff written to [[Deliverables/2026-07-09-vault-restructure-fable-handoff]].
 
 ## What we did
 
@@ -22,7 +22,7 @@ The session ended with a clean Fable 5 handoff written to `Deliverables/2026-07-
 - Larry clarified the proposed top-level model: `Thinking` = raw Alyssa, `Building` = team/AI workshop, `Finished` = trusted reusable shelves.
 - Larry emphasized that the new structure needs more map work, not less: visible folders for Alyssa, `MAP.md` rails for agents.
 - Larry identified major red flags for Fable to research: big-bang migration, `Building` becoming a junk drawer, AI analysis becoming source, Team Inbox path confusion, Hermes path dependency, Offers/Programs merge complexity, dashboard hardcoded paths, and multiple competing brains/maps.
-- Larry created the Fable handoff doc at `Deliverables/2026-07-09-vault-restructure-fable-handoff.md`.
+- Larry created the Fable handoff doc at [[Deliverables/2026-07-09-vault-restructure-fable-handoff]].
 - Larry provided Alyssa with a copy-paste Fable prompt in her preferred `Task / Current situation / Intended result / Main goal` shape.
 
 ## Decisions made
@@ -58,7 +58,7 @@ The session ended with a clean Fable 5 handoff written to `Deliverables/2026-07-
 ## Open threads
 
 - [ ] Alyssa to send the Fable prompt with the handoff path:
-  `C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)\Deliverables\2026-07-09-vault-restructure-fable-handoff.md`
+  [[Deliverables/2026-07-09-vault-restructure-fable-handoff]]
 - [ ] Fable to return a research-backed architecture stress test, not a migration.
 - [ ] After Fable's response, Larry should compare it against the current handoff and identify what needs to become a real pilot plan.
 - [ ] The first likely pilot area remains Content OS, but this is not final until Fable returns.

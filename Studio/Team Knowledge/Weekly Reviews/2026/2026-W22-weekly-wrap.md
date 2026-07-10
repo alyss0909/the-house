@@ -25,7 +25,7 @@ This was the launch week — myPKA went from zero to a fully structured vault. T
 - **SOP-003 codified** — Keep Notes to Journal; canonical journal entry format locked
 - **Brand World KE created** — Operations retired; Brand World added as child KE under Business
 - **Alex, Gillian, Lara, Maude CRM stubs** created
-- **2 Habits created** — `daily-content-output.md`, `weekly-client-check-ins.md` (flagged as possibly wrong — see Open Threads)
+- **2 Habits created** — [[Notebook/Life/Habits/daily-content-output]], [[Notebook/Life/Habits/weekly-client-check-ins]] (flagged as possibly wrong — see Open Threads)
 - **Norah Birthday project** created with food plan and tasks
 - **Journal protocol fix** — session-close journal gate wired into close-session.md; Vera's journal folder + protocol added
 - **Deliverables:** business-strategy-partner hire research, Remi hire research, Vera hire research, riff-partner research, alyssa-review-pass (archived)
@@ -71,11 +71,11 @@ This was the launch week — myPKA went from zero to a fully structured vault. T
 - [ ] **`2026-05-13-7 AI imagery prompt.md`** — was missing from inbox when Penn ran; Alyssa may have handled
 
 ### Entity Stubs
-- [ ] **Maude Trottier CRM** — `maude.md` details pending
-- [ ] **`office-reno.md` project stub** — Alyssa said she doesn't have this project. Delete?
+- [ ] **Maude Trottier CRM** — [[Notebook/Life/CRM/People/maude]] details pending
+- [ ] **[[Notebook/Life/Projects/office-reno]] project stub** — Alyssa said she doesn't have this project. Delete?
 - [x] **`github-resources.md` Topic stub** — deleted in W23 scaffold cleanup ✅
 - [ ] **`daily-content-output` + `weekly-client-check-ins` Habit stubs** — flagged as possibly wrong; Alyssa to clean in Obsidian
-- [ ] **`slo-updates.md` linked_offers** — blank; which offer slug maps to the SLO?
+- [ ] **[[Notebook/Life/Projects/slo-updates]] linked_offers** — blank; which offer slug maps to the SLO?
 
 ### Offer Files
 - [ ] **Offer body content** — all 28 Offer files have blank body sections (What it is / Who it's for / Where to find it / Notes)

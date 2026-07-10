@@ -8,7 +8,7 @@
 
 **1. Style match: Mack/Silas v1.5 lean.** Used those two files as the AGENTS.md template — second-person voice, no `agent_version` frontmatter, no Library Card block, no MCP-First Mandate, no in-monorepo paths. Lifted capability rigor from the Larry-repo Felix/Vex/Vera files but stripped every myICOR specific (Supabase, React 19, Tailwind v4, OKLCH, Phosphor, Vercel, etc.). Substituted "your stack" / "your design system" / "your platform" throughout.
 
-**2. SOP filenames without numeric prefixes.** Per the brief — install workstream auto-numbers them. Filenames are `SOP-felix-build-a-component.md`, `SOP-vex-security-audit.md`, `SOP-vera-quality-gate.md`. Each SOP header carries the "Default owner: <agent>; any agent can invoke" line per the locked taxonomy.
+**2. SOP filenames without numeric prefixes.** Per the brief — install workstream auto-numbers them. Filenames are [[Expansions/app-developer-v1.0.2/sops/SOP-felix-build-a-component]], [[Expansions/app-developer-v1.0.2/sops/SOP-vex-security-audit]], [[Expansions/app-developer-v1.0.2/sops/SOP-vera-quality-gate]]. Each SOP header carries the "Default owner: <agent>; any agent can invoke" line per the locked taxonomy.
 
 **3. One signature SOP per agent.** Held the line. Genuine candidates I considered and rejected:
    - *Felix*: "performance audit" and "accessibility hardening" — both are workstreams that will emerge from `SOP-felix-build-a-component` use, not day-1 skills.
@@ -37,14 +37,14 @@
 ## Files shipped (all under `Deliverables/26-05-09_mypka-expansions/app-developer-pack/`)
 
 - `expansion.yaml`
-- `README.md`
+- [[README]]
 - `BUILD-NOTES.md` (this file)
 - `agents/Felix - Frontend Developer/AGENTS.md`
 - `agents/Vex - Security Engineer/AGENTS.md`
 - `agents/Vera - QA Specialist/AGENTS.md`
-- `sops/SOP-felix-build-a-component.md`
-- `sops/SOP-vex-security-audit.md`
-- `sops/SOP-vera-quality-gate.md`
+- [[Expansions/app-developer-v1.0.2/sops/SOP-felix-build-a-component]]
+- [[Expansions/app-developer-v1.0.2/sops/SOP-vex-security-audit]]
+- [[Expansions/app-developer-v1.0.2/sops/SOP-vera-quality-gate]]
 
 Total: 9 files. Pack is drop-in ready for Mack's v1.7 install workstream once that spec lands.
 
@@ -62,10 +62,10 @@ Pack now ships ten files (added ADAPT-EXPANSION.md). Trinity complete: README + 
 
 Packaging-only release. No agent behavior, SOP content, or routing changed.
 
-- **Folder = slug.** Pack now ships in a folder named exactly `app-developer/` (was `app-developer-pack/`), per `expansion-spec.md` ("Folder name = `slug`"). The `app-developer-v1.0.2.zip` lays the `app-developer/` folder contents at the archive root, matching the v1.0.1 zip convention.
+- **Folder = slug.** Pack now ships in a folder named exactly `app-developer/` (was `app-developer-pack/`), per [[Expansions/docs/expansion-spec]] ("Folder name = `slug`"). The `app-developer-v1.0.2.zip` lays the `app-developer/` folder contents at the archive root, matching the v1.0.1 zip convention.
 - **Per-agent `journal/` folders added.** Each of the three agent folders now ships `journal/_template.md`, replicating the canonical journal-entry template used by the nine core specialists (frontmatter: `agent_id`, `type`, `created`, `updated`, `topic`, `tags`, `linked_session_logs`, `linked_tasks`, `related_journal_entries`, `status`). `agent_id` is set per agent — `felix` / `vex` / `vera`. This makes the pack pass the scaffold validation script's per-agent journal check.
 - **`expansion.yaml`:** `version` 1.0.1 → 1.0.2. `requires_agents` resolved from `[Larry, Nolan, Mack]` → `[Larry, Nolan]` — this is a pure `agent_pack` with no connectors, so Mack is not required.
 - **`ADAPT-EXPANSION.md`:** header v1.0.0 → v1.0.2; Step 2 hash-verification rewritten so a correct v1.0.2 install verifies GREEN on first run (the hash is re-pinned for v1.0.2 because the `expansion.yaml` bytes change); Step 7 archive path generalized to `<slug>-<version>` form resolved from the manifest.
-- **`README.md`:** Compatibility section corrected — required core agents are now Larry and Nolan (was Larry, Nolan, Mack), matching the resolved `requires_agents`.
+- **[[README]]:** Compatibility section corrected — required core agents are now Larry and Nolan (was Larry, Nolan, Mack), matching the resolved `requires_agents`.
 - **SOP wikilinks:** unchanged. Descriptive unnumbered names are the documented convention.
 - **Re-pin.** `expansion.yaml` bytes changed, so `Expansions/.trusted-sources` needs a fresh `app-developer@1.0.2 sha256=…` line. v1.0.1 artifacts (`app-developer-pack/`, `app-developer-v1.0.1.zip`) are left intact for archive/diff.

@@ -20,7 +20,7 @@ Alyssa wanted a full Obsidian vault redesign from scratch, modeled on kristenbou
 - Larry diagnosed and fixed a multi-cause tab-bar-disappearing bug: root cause was `.view-header-title-container { opacity: 0 }` hiding tab label text under AnuPpuccin's native Card Layout, compounded by manual `.workspace-leaf` card CSS colliding with the theme's own card engine, and separately a border color set nearly identical to its background.
 - Larry switched the vault's structural approach mid-session: initially hand-rolled `.workspace-leaf` borders/margins for the floating-card look, then discovered AnuPpuccin has a **native Card Layout variant** (Style Settings → Workspace → Workspace Layout → Card) that does this correctly — removed the hand-rolled version once the native toggle was confirmed working.
 - Larry fixed folder-visibility bugs: `_system`, `Expansions`, `scripts` folders were reappearing because `userIgnoreFilters` in `app.json` no longer hides items from the file explorer in modern Obsidian (it only affects search/graph) — moved the hides into `hide-ui.css` instead.
-- Larry saved the finalized design system as a journal entry in Iris's own folder (`Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system.md`), correctly scoped as separate from GL-003 (which governs outward-facing brand/content design, not the Obsidian app's own interface theming).
+- Larry saved the finalized design system as a journal entry in Iris's own folder ([[Studio/Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system]]), correctly scoped as separate from GL-003 (which governs outward-facing brand/content design, not the Obsidian app's own interface theming).
 - Larry cleaned up a memory duplication (an auto-saved `project_vault_design_system.md` and a redundant Larry-created one) down to one canonical memory entry pointing at Iris's journal.
 
 ## Decisions made
@@ -56,7 +56,7 @@ Alyssa wanted a full Obsidian vault redesign from scratch, modeled on kristenbou
 
 ## Next steps
 
-- Any future vault UI work (dashboard, Bases gallery, Custom Frames) starts by reading Iris's `2026-06-13-obsidian-vault-design-system.md` journal entry before touching CSS.
+- Any future vault UI work (dashboard, Bases gallery, Custom Frames) starts by reading Iris's [[Studio/Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system]] journal entry before touching CSS.
 - If another vault CSS bug appears, default to DevTools inspection first per [[feedback-css-debugging-approach]] rather than iterative guessing.
 
 ## Cross-links

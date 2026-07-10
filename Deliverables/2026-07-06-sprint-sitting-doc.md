@@ -41,7 +41,7 @@ Read order: skim the hook menu, pick, skim the deck, glance the caption, note th
 
 **CTA / chat-word HALTs:** both the deck's slide 9 and the caption carry `[HALT: chat word not live in BUSINESS.md — manual selection needed]` for the "Bingeable Newsletters" freebie. This is the only ship blocker on this post — see Decisions Queue #1.
 
-**Teaching source:** `PKM/Second Brain/programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript.md` §Newsletter Naming and Concepts + §Step 1: Find Your Flavor.
+**Teaching source:** [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.3 The Simmer Transcript]] §Newsletter Naming and Concepts + §Step 1: Find Your Flavor.
 
 **Funnel job:** Email is the strategic base lane. This carousel repurposes the Simmer module's teaching into an IG/Pinterest dual-purpose asset, driving into the email ladder's freebie entry point. No separate Pinterest variant called for — Pin/email note not split here since this post *is* the email-lane asset.
 
@@ -96,7 +96,7 @@ Read order: skim the hook menu, pick, skim the deck, glance the caption, note th
 >
 > #alyssacolemanca #slowmarketing #softceo #businesscoach #womeninbusiness #entrepreneur #solopreneur #femaleentrepreneur #womensupportingwomen #ceo #femaleceo #productivitystrategist #productivity #soft #softceo #backofhouse #boh #emailmarketing #listgrowth #businessmath
 
-**Teaching source:** `PKM/Second Brain/programs/back-of-house/0. Welcome/0.3 Cozy Business Plan.md` §THE NUMBERS / §LIST GROWTH NUMBERS.
+**Teaching source:** [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan]] §THE NUMBERS / §LIST GROWTH NUMBERS.
 
 **Funnel job:** BoH/low-ticket dual-CTA lane. Carousel is the output lane; the Cozy Biz Plan workbook is the real teaching source, not carousel-native content.
 
@@ -194,7 +194,7 @@ Read order: skim the hook menu, pick, skim the deck, glance the caption, note th
 
 **Chat words:** Softceo (Soft CEO Sessions) + Claude (Quarter Prompt) — both verbatim-live in BUSINESS.md, scorer-confirmed twice, no HALT.
 
-**Teaching source:** `PKM/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart.md` (Dan Harrison video + Notion doc bookmark) cross-referenced with `0.1 The Prep Work Transcript.md`.
+**Teaching source:** [[Notebook/Journal/2026/06/2026-06-05-ai-agents-head-hands-heart]] (Dan Harrison video + Notion doc bookmark) cross-referenced with [[Library/Programs/back-of-house/0. Welcome/transcripts/0.1 The Prep Work Transcript]].
 
 **Funnel job:** Productivity/systems edu, W4 Mon. Legitimate carousel candidate (a compressible 3-part framework), unlike Soft Sunday's narrative format.
 
@@ -273,7 +273,7 @@ Read order: skim the hook menu, pick, skim the deck, glance the caption, note th
 
 **No CTA, no chat word** — matches the real Mar 10 precedent exactly (single-image, brand-world Friday post).
 
-**Teaching source:** none — brand-world repeatable format per `PKM/Journal/2026/03/2026-03-12-repeatable-formats.md` item 1 ("the guest check post"), matched to the real precedent in `PKM/Second Brain/examples/Carousels/captions.md` (2026-03-10, 89 saves, 47 shares, 308 likes).
+**Teaching source:** none — brand-world repeatable format per [[Notebook/Journal/2026/03/2026-03-12-repeatable-formats]] item 1 ("the guest check post"), matched to the real precedent in `PKM/Second Brain/examples/Carousels/captions.md` (2026-03-10, 89 saves, 47 shares, 308 likes).
 
 **Funnel job:** none by design — brand-world seed, consistency/recognizability over time is the strategic value, not conversion.
 

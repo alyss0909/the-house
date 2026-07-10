@@ -19,11 +19,11 @@ Continued from the prior BOH content import session (2026-06-02). Alyssa dropped
 ## What we did
 
 - **Larry** (3 parallel agents) created `slides/` subfolders in all 4 phase folders and filed 10 slides files from txt exports — P1: 1.2, 1.4, 1.5; P2: 2.1, 2.2, 2.3; P3+P4: 3.1, 3.2, 3.3, 4.1. All 4 phase INDEXes updated (NotebookLM → live wikilinks, — → ✅).
-- **Larry** filed the Freebie Framework as `1.4 The Freebie Framework.md` in P1 (stripped blank answer tables, kept PDF and Quiz structural frameworks). P1 INDEX updated.
-- **Larry** (agent) created `programs/back-of-house/scriptbook.md` — full DFY ScriptBook as a BOH reference file. 5 sections, 28 templates including the generic examples (kept as teaching IP). BOH INDEX Resources section updated.
+- **Larry** filed the Freebie Framework as [[Library/Programs/back-of-house/1. The House Specials/1.4 The Freebie Framework]] in P1 (stripped blank answer tables, kept PDF and Quiz structural frameworks). P1 INDEX updated.
+- **Larry** (agent) created [[Library/Programs/back-of-house/5. Bonuses/scriptbook]] — full DFY ScriptBook as a BOH reference file. 5 sections, 28 templates including the generic examples (kept as teaching IP). BOH INDEX Resources section updated.
 - **Larry** (agent) created 7 starter template files in `templates/`: email-delivery, email-tripwire, email-oops, email-push-to-register, email-push-to-buy, page-sales, page-opt-in. Templates INDEX updated (7 rows flipped to ✅ starter).
 - **Larry** deleted the empty `4.2 Simple Socials.md` shell. P4 INDEX updated to note content covered by 4.1.
-- **Larry** (agent) created `webinars/Out of Office Webinar.md` — full webinar transcript cleaned into 10 sections, ~2,800 words, all key stats preserved. BOH INDEX Resources updated.
+- **Larry** (agent) created [[Library/Programs/back-of-house/webinars/Out of Office Webinar]] — full webinar transcript cleaned into 10 sections, ~2,800 words, all key stats preserved. BOH INDEX Resources updated.
 - **Larry** (librarian pass) updated Second Brain master INDEX (`templates/` → 🔶 building) and BOH INDEX (slides "still needed" note → marked complete).
 
 ---
@@ -31,7 +31,7 @@ Continued from the prior BOH content import session (2026-06-02). Alyssa dropped
 ## Decisions made
 
 - **`slides/` subfolder pattern:** Slides go in `slides/` subfolders within each phase folder — mirrors the existing `transcripts/` pattern. Now the established convention.
-- **ScriptBook stays as one file:** Rather than splitting by module, the ScriptBook lives at `programs/back-of-house/scriptbook.md` as a whole-program companion resource.
+- **ScriptBook stays as one file:** Rather than splitting by module, the ScriptBook lives at [[Library/Programs/back-of-house/5. Bonuses/scriptbook]] as a whole-program companion resource.
 - **Freebie Framework kept:** Despite being mostly blank student execution tables, the structural frameworks (PDF freebie outline, Quiz layout) have reference value. Filed, empty tables stripped.
 - **4.2 Simple Socials deleted:** The workbook was a title-page-only shell. Content is fully covered by the 4.1 Lazy Launch slides and transcript.
 - **ScriptBook generic examples kept as IP:** The generic placeholder examples (Chappell Roan email, "stop being so damn BUSY", BOH buyer persona sample) are Alyssa's teaching IP — included in the scriptbook.md, not stripped.
@@ -50,8 +50,8 @@ Continued from the prior BOH content import session (2026-06-02). Alyssa dropped
 
 ## Realignments
 
-- **"the freebie framework is more or less useless but ya like process it and see if that is worth keeping for a future project"** → Filed it as `1.4 The Freebie Framework.md`, stripped blank tables, kept structural frameworks. Noted as useful for reference not deep content.
-- **"the scriptbook should be processed as back of house frameworks first and foremost"** → Created `scriptbook.md` at the BOH root first, then derived the personal templates from it — not the other way around.
+- **"the freebie framework is more or less useless but ya like process it and see if that is worth keeping for a future project"** → Filed it as [[Library/Programs/back-of-house/1. The House Specials/1.4 The Freebie Framework]], stripped blank tables, kept structural frameworks. Noted as useful for reference not deep content.
+- **"the scriptbook should be processed as back of house frameworks first and foremost"** → Created [[Library/Programs/back-of-house/5. Bonuses/scriptbook]] at the BOH root first, then derived the personal templates from it — not the other way around.
 - **"dw about buyerpersona or anything that first positioning one, and ALSO dont bring over anything in the pinterest one for ME and MY templates"** → Prep Work section (buyer persona, elevator pitch, offer templates) and Pinterest section excluded from `templates/`. Kept in scriptbook.md only.
 - **"these are still good thats my IP"** (re: ScriptBook generic examples) → Confirmed: kept all examples including generic ones as teaching IP.
 
@@ -65,7 +65,7 @@ Continued from the prior BOH content import session (2026-06-02). Alyssa dropped
 - [ ] **4.2 Simple Socials transcript** — `transcript-v4.2.md` still listed ❌ in P4 INDEX. Likely same situation as the workbook — may not exist or be worth importing. Alyssa to confirm.
 - [ ] **BOH master INDEX course map** — Quick-scan section still shows slides as "(NotebookLM)". Not broken but slightly stale. Low priority cleanup.
 - [ ] **`examples/` and `analysis/`** — Not started. Build order: programs → examples → analysis → templates.
-- [ ] **`me.md`** — Not built yet. Waiting on examples/ being populated.
+- [ ] **[[Library/me]]** — Not built yet. Waiting on examples/ being populated.
 - [ ] **7 starter templates** — Marked as starter. Real examples + Alyssa's nuance to be added once `examples/` exists.
 
 ---

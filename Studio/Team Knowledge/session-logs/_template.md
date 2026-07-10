@@ -20,7 +20,7 @@ asking for, what state was your myPKA in.
 Bulleted list of concrete actions the team took during the session. Each
 item names the specialist who did the work.
 
-- Penn captured the dinner notes into `2026-05-04-first-day.md`.
+- Penn captured the dinner notes into [[Notebook/Journal/2026/05/2026-05-04-first-day]].
 - Pax returned a triangulated brief on X to `Deliverables/...`.
 - Larry consolidated two duplicate facts about Y into `[[<canonical-file>]]`.
 

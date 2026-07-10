@@ -73,7 +73,7 @@ The five things true of every winning cover she's made:
 
 **Widen the set of HER OWN winners in the reference set too.** The makers currently calibrate on the top handful — widen it. Gather, in one reference file:
 - **Every cover + first slide** from her real carousel folders (`Library/Examples/Carousels/` — all posts, not just the ranked 9), transcribed verbatim as they appear.
-- Her For The Girls covers/first slides (`Library/Examples/Carousels/for-the-girls-slide-copy.md`) folded in as their own section.
+- Her For The Girls covers/first slides ([[Library/Examples/Carousels/for-the-girls-slide-copy]]) folded in as their own section.
 - Each tagged with which of her 7 hook shapes it is + the metric it won on (from the hook forensics), so a maker can see the *range* of her real voice, not just the greatest hits.
 
 So the reference set = **two layers: her widened own-winners (the spin/voice floor) + the current-IG swipe (fresh mechanic stimulus).** Both feed hooks; neither is ever copied.
@@ -82,7 +82,7 @@ So the reference set = **two layers: her widened own-winners (the spin/voice flo
 
 ## PART 5 — THE FOR THE GIRLS RULE (Friday runs on a DIFFERENT format)
 
-**For The Girls is not a normal carousel — stop applying carousel-hook rules to it.** Friday's rejected hooks failed because the writer applied cover-hook rules (payoff, curiosity gap, comment-CTA) to a lane that runs on none of them. Grounded in her real FTG skill file (`Hermes/craft/for-the-girls-posts.md`) and her real FTG slides (`Library/Examples/Carousels/for-the-girls-slide-copy.md`):
+**For The Girls is not a normal carousel — stop applying carousel-hook rules to it.** Friday's rejected hooks failed because the writer applied cover-hook rules (payoff, curiosity gap, comment-CTA) to a lane that runs on none of them. Grounded in her real FTG skill file ([[Hermes/craft/for-the-girls-posts]]) and her real FTG slides ([[Library/Examples/Carousels/for-the-girls-slide-copy]]):
 
 **What For The Girls IS:** a Friday identity / permission / brand-world post. Its job is to make the reader feel *"I already know this in my soul, but I forgot I was allowed to live like this."* A tiny permission slip. It sells the *deeper thing* (space, slower marketing, a business that runs while you live) softly — usually with **no CTA at all.**
 

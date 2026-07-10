@@ -19,8 +19,8 @@ Ran a full Idea Pantry CSV import for Alyssa: Phase 1 (vault pre-cleanup) + Phas
 
 ### Phase 1 — Pre-import cleanup
 
-1. Created `PKM/My Life/Projects/notion-templates.md` from the project template.
-2. Renamed `PKM/My Life/Topics/ai.md` to `pkm.md`, updated frontmatter name to PKM, updated description_short.
+1. Created [[Notebook/Life/Projects/notion-templates]] from the project template.
+2. Renamed `PKM/My Life/Topics/ai.md` to [[Notebook/Life/Topics/pkm]], updated frontmatter name to PKM, updated description_short.
 3. Deleted 9 Topic files: brand-words, design-inspo, garden, good-copy, montessori, personal-development, seo, space, webinars.
 4. Added `## Related notes` section to 46 entity files (11 KE, 6 Projects, 25 Offers, 2 Goals, 3 CRM People). 1 file (notion-templates.md) already had it.
 
@@ -66,7 +66,7 @@ Script updated with backtick variant in projectMap for future re-runs.
 - `team` — mapped to `[[operations]]`
 - `products` — mapped to `[[offers]]`
 
-### No `alex.md` in CRM/People
+### No [[Notebook/Life/CRM/People/alex]] in CRM/People
 Brief specified client detection for Alex, Gillian, Lara, Maude. Only gillian.md, lara.md, maude.md exist. alex.md does not exist. Any notes that matched "Alex" in body text will have `[[alex]]` wikilinks pointing to a missing file. Larry should flag this as an orphan wikilink or create alex.md.
 
 ### Inspo field vs URL field

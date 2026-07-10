@@ -20,7 +20,7 @@ Alyssa came in wanting to automate the daily KeepSidian sync (which she currentl
 - **Larry** guided Alyssa through finding the KeepSidian command IDs via the Obsidian developer console (`Ctrl+Shift+I` → Console → type `allow pasting` to unlock → run `Object.keys(app.commands.commands).filter(k => k.toLowerCase().includes("keep"))`).
 - **Larry** identified `keepsidian:sync-now` as the target command (vs two-way sync, import-only, push-only options — all are available).
 - **Larry** built and tested the Obsidian URI: `obsidian://command?vault=mypka-scaffold-latest%20(2)&id=keepsidian:sync-now` — fired via `Start-Process`, returned no errors.
-- **Larry** reviewed `WS-004-inbox-processing.md` — confirmed it already covers KeepSidian as a source channel, is well-structured, and needs no changes.
+- **Larry** reviewed [[Studio/Team Knowledge/Workstreams/WS-004-inbox-processing]] — confirmed it already covers KeepSidian as a source channel, is well-structured, and needs no changes.
 - **Larry** surfaced the approval gate issue: WS-004 Step 2 requires Alyssa to approve the routing table before Penn executes, making a fully unattended routine impractical.
 
 ## Decisions made

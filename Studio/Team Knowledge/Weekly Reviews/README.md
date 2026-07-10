@@ -20,7 +20,7 @@ Run `/weekly-review` at any point during or after a week. Larry reads all sessio
 
 `YYYY/YYYY-WNN-weekly-wrap.md`
 
-Example: `2026/2026-W23-weekly-wrap.md`
+Example: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W23-weekly-wrap]]
 
 Week numbers follow ISO 8601 (Monday starts the week).
 

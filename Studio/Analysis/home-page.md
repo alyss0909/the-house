@@ -23,7 +23,7 @@ Reach for this document first in the following situations:
 - **Understanding the "HUSTLE CULTURE IS OVERCOOKED" counter-positioning** — before writing anything that touches anti-hustle, slow marketing, or sustainability messaging
 - **Writing any copy where "who this is NOT for" is as important as "who this IS for"**
 
-Do NOT use this file as a substitute for `writing-style.md`. That file covers voice and craft mechanics. This file covers architecture — the structural decisions that organize the whole page.
+Do NOT use this file as a substitute for [[Studio/Analysis/writing-style]]. That file covers voice and craft mechanics. This file covers architecture — the structural decisions that organize the whole page.
 
 ---
 

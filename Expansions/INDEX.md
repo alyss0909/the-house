@@ -14,5 +14,5 @@
 Regenerated: 2026-07-07T00:00:00Z · 6 expansions · 0 invalid · 0 incompatible
 
 > Larry rebuilds this file on every session boot from the contents of this folder.
-> See myicor.com/library for official Expansions or `Expansions/docs/expansion-spec.md` to author your own.
+> See myicor.com/library for official Expansions or [[Expansions/docs/expansion-spec]] to author your own.
 > Install procedure: [[WS-003-install-an-expansion]].

@@ -19,7 +19,7 @@ Alyssa asked whether Larry could read a Notion page titled "The Instagram Saves 
 - **Pax** fetched and summarized the Notion page: the useful system is a two-layer pipeline where raw Instagram saves are captured first, then processed later into content ideas.
 - **Larry** translated the Mac/Claude-specific instructions into the Android + Windows reality and flagged that Instagram session-cookie capture is the security-sensitive part.
 - **Mack** updated [[tsk-2026-06-01-004-telegram-claude-automation]] so the Telegram plan borrows the processing/ideation layer from the Instagram Saves Engine while avoiding browser-cookie capture.
-- **Mack** added a capture convention to `Team Knowledge/scripts/telegram-capture-README.md`: Instagram/social URLs should include intent tags like `#recreate`, `#repost`, `#design`, `#content`, and `#hook`.
+- **Mack** added a capture convention to [[Studio/Team Knowledge/scripts/telegram-capture-README]]: Instagram/social URLs should include intent tags like `#recreate`, `#repost`, `#design`, `#content`, and `#hook`.
 - **Larry** closed the session and recorded the realignment for future work.
 
 ## Decisions made

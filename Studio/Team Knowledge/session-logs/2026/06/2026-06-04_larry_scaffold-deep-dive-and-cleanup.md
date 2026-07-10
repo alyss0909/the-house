@@ -60,11 +60,11 @@ GL-003 remains reserved for Designer Expansion Pack. Next available GL number: *
 - **Guidelines INDEX.md**: updated with GL-004, GL-005, GL-006
 
 ### PKM capture (Penn)
-- Filed Peter Yang tutorial (Claude skills + evals + memory) → `PKM/Journal/2026/06/2026-06-04-peter-yang-self-improving-claude-skills.md`
-- Filed Ruben Hassid "I can be you" article → `PKM/Journal/2026/06/2026-06-04-ruben-hassid-voice-profile-methodology.md`, cross-linked to `Second Brain/analysis/voice-profile.md` and `voice-archive.md`
-- Created CRM stubs: `peter-yang.md`, `ruben-hassid.md`, `adele.md`
-- Created Topics: `ai-tools.md`, `voice-and-writing-style.md`
-- Stubbed `rebrand.md` with known context: site rebrand with Adele, meeting June 3, follow-ups sent, monitoring for next steps
+- Filed Peter Yang tutorial (Claude skills + evals + memory) → [[Notebook/Journal/2026/06/2026-06-04-peter-yang-self-improving-claude-skills]]
+- Filed Ruben Hassid "I can be you" article → [[Notebook/Journal/2026/06/2026-06-04-ruben-hassid-voice-profile-methodology]], cross-linked to [[Studio/Analysis/voice-profile]] and [[Studio/Analysis/voice-archive]]
+- Created CRM stubs: [[Notebook/Life/CRM/People/peter-yang]], [[Notebook/Life/CRM/People/ruben-hassid]], [[Notebook/Life/CRM/People/adele]]
+- Created Topics: [[Notebook/Life/Topics/ai-tools]], [[Notebook/Life/Topics/voice-and-writing-style]]
+- Stubbed [[Notebook/Life/Projects/rebrand]] with known context: site rebrand with Adele, meeting June 3, follow-ups sent, monitoring for next steps
 - Original inbox files deleted by Larry (subagents can't Bash-delete; Larry in main thread can)
 
 ## Decisions made
@@ -95,12 +95,12 @@ GL-003 remains reserved for Designer Expansion Pack. Next available GL number: *
 
 ## Realignments
 
-- **Adele, not Adel.** Session log had "Adele" — CRM stub created as `adele.md` with first-name-only for now. Rename to `adele-lastname.md` when full name is known.
+- **Adele, not Adel.** Session log had "Adele" — CRM stub created as [[Notebook/Life/CRM/People/adele]] with first-name-only for now. Rename to `adele-lastname.md` when full name is known.
 
 ## Open threads
 
 - [ ] Manually delete `Team Inbox/_Processed/Full Tutorial Build Self-Improving Claude Skills in 20 Min...md` and `Team Inbox/_Processed/I can be you.md` when Alyssa is ready to clear _Processed
-- [ ] Rename `PKM/CRM/People/adele.md` to `adele-lastname.md` once full name is confirmed
+- [ ] Rename [[Notebook/Life/CRM/People/adele]] to `adele-lastname.md` once full name is confirmed
 - [ ] The Obsidian exclusion list hasn't been set — Alyssa can exclude `_system/`, `.github/`, `Expansions/`, `scripts/`, `.obsidian/`, `.codex/`, `.claude/` from the File Explorer sidebar via Settings → Files and Links → Excluded files to clean daily view
 
 ## SSOT / Librarian pass

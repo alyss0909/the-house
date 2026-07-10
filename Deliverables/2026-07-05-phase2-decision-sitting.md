@@ -24,7 +24,7 @@ Five sections. React to each. The learning-inbox items (§1) are the only ones t
 
 # §1 — Learning-inbox adjudications (7 items)
 
-Each is a real correction/pattern sitting in `Hermes/learning/inbox.md` waiting to graduate into ANTI-AI.md or TASTE.md. I've built each as **A (safer, source-close) vs B (nuanced, higher-upside)** with verbatim receipts from your own published work. **These are proposals — I did not touch ANTI-AI/TASTE.** Pick A or B (or edit).
+Each is a real correction/pattern sitting in [[Hermes/learning/inbox]] waiting to graduate into ANTI-AI.md or TASTE.md. I've built each as **A (safer, source-close) vs B (nuanced, higher-upside)** with verbatim receipts from your own published work. **These are proposals — I did not touch ANTI-AI/TASTE.** Pick A or B (or edit).
 
 ---
 
@@ -33,7 +33,7 @@ Each is a real correction/pattern sitting in `Hermes/learning/inbox.md` waiting 
 **The pattern:** ANTI-AI bans all 15 negative-parallelism reframes. But your own published Simmer contains one, verbatim:
 
 > "Once you know how to reframe your core offer for each, you don't need new jeans, you just need [the right layering]."
-> — `examples/simmers/my-existential-crisis-and-pinterest.md`, line 68
+> — [[Library/Examples/simmers/my-existential-crisis-and-pinterest]], line 68
 
 Both halves (jeans / layering) live *inside* your running wardrobe metaphor. The ban was written for the case where X = the reader's belief being corrected in neutral prose.
 
@@ -46,7 +46,7 @@ Both halves (jeans / layering) live *inside* your running wardrobe metaphor. The
 
 ## ADJ-2 — Same shape, second + third + fourth corpus hits (the refined hypothesis)
 
-**The pattern:** beyond the jeans line, three more live hits, all verbatim from `examples/sales-emails/silent-killer-of-good-work.md`:
+**The pattern:** beyond the jeans line, three more live hits, all verbatim from [[Library/Examples/sales-emails/silent-killer-of-good-work]]:
 
 > "The question isn't whether or not you COULD do it… **It's that you have HIGH STANDARDS.**" (shape #10) — lines 31–33
 > "Not to make you do more, but to make sure what you do (once) actually **works. 👏**" (not-X-but-Y) — line 51
@@ -63,12 +63,12 @@ Across all 5 corpus hits, the pattern holds: the shape reads as YOU when it's **
 
 ## ADJ-3 — Pun-tagged metaphor callbacks (contradicts the cupcake-FLOP rule)
 
-**The pattern:** `craft/emails-simmer.md` says the metaphor stays in the STORY and doesn't leak into the argument (the rule the cupcake draft flopped on). But your closet Simmer re-maps the wardrobe metaphor AFTER the takeaway, three times, each **tagged with a self-aware pun** — verbatim:
+**The pattern:** [[Hermes/craft/emails-simmer]] says the metaphor stays in the STORY and doesn't leak into the argument (the rule the cupcake draft flopped on). But your closet Simmer re-maps the wardrobe metaphor AFTER the takeaway, three times, each **tagged with a self-aware pun** — verbatim:
 
 > "Here are two ways to **layer (see what i did there)** your existing offer this season" — line 48
 > "…finally ride the buying season's coattails **(ok last outfit pun)**." — line 72
 > "you don't need new jeans, you just need the right layering" — line 68
-> — `examples/simmers/my-existential-crisis-and-pinterest.md`
+> — [[Library/Examples/simmers/my-existential-crisis-and-pinterest]]
 
 - **Version A (revert — keep metaphor in the story):** Metaphor lives in the story only; no callbacks in the value/offer section. Safest against "metaphor-as-wallpaper" (a TASTE Disgust). The closet email's tags get read as a rare exception, not a licensed pattern.
 - **Version B (tagged-callback exemption):** Rule reads: *"Metaphor may return after the takeaway ONLY when each callback is pun-tagged (a visible wink like '(see what i did there)'). Untagged allegory mid-argument stays banned."* The tag is the honesty signal that separates your move from AI wallpaper. Higher upside — it's a signature move — but relies on the judge catching untagged leaks.
@@ -79,7 +79,7 @@ Across all 5 corpus hits, the pattern holds: the shape reads as YOU when it's **
 
 ## ADJ-4 — The promo-week Simmer offer block (contradicts "offer = 1–2 lines")
 
-**The pattern:** `craft/emails-simmer.md` specs the Simmer offer as 1–2 lines + a reply-word. But your gentle-parent Simmer's offer block is ~40% of the email — a full pitch: bridge + 3 bullets + reply-word + link CTAs + a footer stack of 3 more offers. Verbatim structure from `examples/simmers/gentle-parent-your-business-model.md`:
+**The pattern:** [[Hermes/craft/emails-simmer]] specs the Simmer offer as 1–2 lines + a reply-word. But your gentle-parent Simmer's offer block is ~40% of the email — a full pitch: bridge + 3 bullets + reply-word + link CTAs + a footer stack of 3 more offers. Verbatim structure from [[Library/Examples/simmers/gentle-parent-your-business-model]]:
 
 > "**Inside Back of House, we build EVERGREEN, email-first systems that:**" + 3 bullets (lines 71–74)
 > "📌 Reply **"SHAMPOO"** and I'll send you the link…" (line 86)
@@ -99,7 +99,7 @@ The closet Simmer (ADJ-3 source) does the same — full offer block, code LUKE, 
 **The pattern:** ANTI-AI bans the dread family ("silently killing," "quietly dying"). But your own subject line is one — instantly deflated by a txt-speak rider. Verbatim:
 
 > "The silent killer of GOOD work. **(pls avoid!⚠️)**"
-> — `examples/sales-emails/silent-killer-of-good-work.md`, line 5 (subject_line)
+> — [[Library/Examples/sales-emails/silent-killer-of-good-work]], line 5 (subject_line)
 
 The rider ("pls avoid!⚠️") punctures the dread before it can land as portentous.
 
@@ -133,14 +133,14 @@ The rider ("pls avoid!⚠️") punctures the dread before it can land as portent
 
 # §2 — Cupcake fix (confirm-only)
 
-**Done, in `Deliverables/2026-07-05-hermes-gate3-v5.md` (workspace, not SOURCE).**
+**Done, in [[Deliverables/2026-07-05-hermes-gate3-v5]] (workspace, not SOURCE).**
 
-**What I swapped:** the invented **unicorn-cupcake wobble beat** → the REAL party details from `PKM/Journal/2026/05/2026-05-07-norah-bday-planning.md`, quoted from your own notes: Norah's **4th birthday, June 20th**, **6 lbs pork + 5 lbs chicken**, **master buns**, **sides from the moms** (coleslaw, macaroni, salad, watermelon). No cupcakes or unicorn appear anywhere in that journal, so they're gone.
+**What I swapped:** the invented **unicorn-cupcake wobble beat** → the REAL party details from [[Notebook/Journal/2026/05/2026-05-07-norah-bday-planning]], quoted from your own notes: Norah's **4th birthday, June 20th**, **6 lbs pork + 5 lbs chicken**, **master buns**, **sides from the moms** (coleslaw, macaroni, salad, watermelon). No cupcakes or unicorn appear anywhere in that journal, so they're gone.
 
 **Confirm:** swapped invented cupcake/unicorn → real journal party spread. ✅ / edit?
 
 **Two things I did NOT invent (flagged, not fixed):**
-1. **The "you get what you get" party moment is a GAP.** Your journal (`2026-06-26-hook-you-get-what-you-get.md`) captures the phrase *only as a standalone hook idea* — "Raw hook idea captured" — never as a witnessed party scene. The party journal has no chant moment. I left a **placeholder** where the real beat goes. → *Tell me what actually happened (who said it, over what) and I'll write it — or say "keep it as a phrase I keep hearing" and I'll reframe.*
+1. **The "you get what you get" party moment is a GAP.** Your journal ([[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get]]) captures the phrase *only as a standalone hook idea* — "Raw hook idea captured" — never as a witnessed party scene. The party journal has no chant moment. I left a **placeholder** where the real beat goes. → *Tell me what actually happened (who said it, over what) and I'll write it — or say "keep it as a phrase I keep hearing" and I'll reframe.*
 2. **Reply-word "CUPCAKE" = HALT-manual.** It was an invented chat word tied to the removed cupcake beat. BOH's verified word in BUSINESS.md is **"Yes Chef."** I did NOT swap it silently (BUSINESS.md rule #3). → *Confirm "Yes Chef," or give me the word.* The two orphaned "cupcake tray" callbacks come out once the real story beat lands.
 
 ---
@@ -175,7 +175,7 @@ MAP §7 flags a real gap: `examples/good/` and `examples/bad/` are referenced by
 
 # §4 — Touchpoint-1 pitch-slate reacts (keep / kill / redirect)
 
-**Where it lives:** the current Content-OS pilot's Week 1 Email slate = the two written pilot pieces in `Deliverables/2026-07-05-hermes-gate3-v5.md` (Piece 1 = Mon Edu carousel, Piece 2 = the Simmer). Presented here as concept + hook for a fast react — **I did not rewrite them.** A larger backlog of Email-lane concepts exists in `Deliverables/2026-06-05-carousel-angle-proposals-v2.md` (see the HALT note at the bottom).
+**Where it lives:** the current Content-OS pilot's Week 1 Email slate = the two written pilot pieces in [[Deliverables/2026-07-05-hermes-gate3-v5]] (Piece 1 = Mon Edu carousel, Piece 2 = the Simmer). Presented here as concept + hook for a fast react — **I did not rewrite them.** A larger backlog of Email-lane concepts exists in [[Deliverables/2026-06-05-carousel-angle-proposals-v2]] (see the HALT note at the bottom).
 
 **PITCH 1 — Edu carousel (Mon · W1 Email · freebie-led)**
 - **Concept:** clean your email list like you clean your fridge; a full list can still starve you (sender-reputation teaching); the clean-out IS the growth strategy.
@@ -188,7 +188,7 @@ MAP §7 flags a real gap: `examples/good/` and `examples/bad/` are referenced by
 - **Hook / subject options (verbatim):** A) *"you get what you get"* · B) *"a preschooler fixed my marketing"* · preview *"the algorithm gentle-parented us 🥴"*
 - **React:** keep / kill / redirect + **pick subject A or B**. → *(⚠️ Blocked on the §2 GAP: the party beat + the reply-word. Concept can survive as-is; copy can't finalize until you answer §2.)*
 
-**BACKLOG — v2 Email-lane angles (react only if you want more in rotation):** Double Yes Flip · Warm Plate Method · Action Training 101 · Email vs Social Brain · Right-Time Offers · What the Simmer Actually Does · The Fake Urgency Autopsy (`2026-06-05-carousel-angle-proposals-v2.md`, Email section).
+**BACKLOG — v2 Email-lane angles (react only if you want more in rotation):** Double Yes Flip · Warm Plate Method · Action Training 101 · Email vs Social Brain · Right-Time Offers · What the Simmer Actually Does · The Fake Urgency Autopsy ([[Deliverables/2026-06-05-carousel-angle-proposals-v2]], Email section).
 - **⚠️ HALT-manual on this backlog:** it's a **deprecated Wren artifact** (Wren is retired per MEMORY; Content OS replaced it) and the "Double Yes Flip" angle contains the banned word **"quietly"** verbatim ("quietly costing you sales"). I did **not** fix it — flagging per BUSINESS.md/ANTI-AI. If you want any of these promoted, I'll rebuild them clean through the current pipeline. → *keep-as-backlog / ignore / promote-specific-ones (name them).*
 
 ---
@@ -200,20 +200,20 @@ Short list of things source could not answer. Each needs one line from you.
 1. **The "you get what you get" party moment (GAP).** Journal has the phrase as a hook idea only, never a witnessed scene. → what actually happened, or "keep it abstract."
 2. **BOH reply-word in the Simmer (HALT).** Confirm **"Yes Chef"** or give the word. ("CUPCAKE" was invented.)
 3. **Gold standards not yet named (§3).** Pick one benchmark per format; flag any format you want left open.
-4. **New corpus hit on the "quiet" ban (FYI, low-stakes):** your real gentle-parent Simmer says *"here's how we make it quieter and more profitable"* (`examples/simmers/gentle-parent-your-business-model.md`, line 98) — a verbatim "quiet"-family hit predating your 2026-07-05 total ban. It's grandfathered source (we never generate new ones), just noting the ban post-dates some of your own copy. No action needed unless you want it logged.
+4. **New corpus hit on the "quiet" ban (FYI, low-stakes):** your real gentle-parent Simmer says *"here's how we make it quieter and more profitable"* ([[Library/Examples/simmers/gentle-parent-your-business-model]], line 98) — a verbatim "quiet"-family hit predating your 2026-07-05 total ban. It's grandfathered source (we never generate new ones), just noting the ban post-dates some of your own copy. No action needed unless you want it logged.
 
 ---
 
 ## Reconciliation — artifacts touched this session (file → action → fate)
 
-- `Hermes/learning/inbox.md` → READ in full; built 7 A/B adjudications from it → unchanged (source of §1)
-- `Deliverables/2026-07-05-hermes-gate3-v5.md` → EDITED: swapped invented unicorn-cupcake beat for real journal party details; inserted GAP placeholder for the chant moment; flagged reply-word "CUPCAKE" as HALT ("Yes Chef") → needs-Alyssa confirm
-- `PKM/Journal/2026/05/2026-05-07-norah-bday-planning.md` → READ (SOURCE, read-only); cited as cupcake-fix receipt → untouched
-- `PKM/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md` → READ (SOURCE, read-only); confirms seed hook is real but scene is not → untouched
-- `PKM/Second Brain/examples/simmers/my-existential-crisis-and-pinterest.md` → READ (SOURCE); receipts for ADJ-1, ADJ-3, ADJ-4 → untouched
-- `PKM/Second Brain/examples/simmers/gentle-parent-your-business-model.md` → READ (SOURCE); receipts for ADJ-4 + §5 quiet-hit → untouched
-- `PKM/Second Brain/examples/sales-emails/silent-killer-of-good-work.md` → READ (SOURCE); receipts for ADJ-2, ADJ-5, ADJ-6 → untouched
+- [[Hermes/learning/inbox]] → READ in full; built 7 A/B adjudications from it → unchanged (source of §1)
+- [[Deliverables/2026-07-05-hermes-gate3-v5]] → EDITED: swapped invented unicorn-cupcake beat for real journal party details; inserted GAP placeholder for the chant moment; flagged reply-word "CUPCAKE" as HALT ("Yes Chef") → needs-Alyssa confirm
+- [[Notebook/Journal/2026/05/2026-05-07-norah-bday-planning]] → READ (SOURCE, read-only); cited as cupcake-fix receipt → untouched
+- [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get]] → READ (SOURCE, read-only); confirms seed hook is real but scene is not → untouched
+- [[Library/Examples/simmers/my-existential-crisis-and-pinterest]] → READ (SOURCE); receipts for ADJ-1, ADJ-3, ADJ-4 → untouched
+- [[Library/Examples/simmers/gentle-parent-your-business-model]] → READ (SOURCE); receipts for ADJ-4 + §5 quiet-hit → untouched
+- [[Library/Examples/sales-emails/silent-killer-of-good-work]] → READ (SOURCE); receipts for ADJ-2, ADJ-5, ADJ-6 → untouched
 - `PKM/Second Brain/examples/Carousels/captions.md` → READ (SOURCE); ADJ-7 resolution + §3 metrics → untouched
-- `Deliverables/2026-07-05-vault-learn/learn-pitch-index.md`, `learn-carousel-codex.md`, `content-os-master-plan.md` → READ; located pitch slate + chat-word/status facts → untouched
-- `Deliverables/2026-06-05-carousel-angle-proposals-v2.md` → READ; flagged as deprecated-Wren backlog with banned-word hit → untouched (HALT for Alyssa)
-- **THIS FILE** `Deliverables/2026-07-05-phase2-decision-sitting.md` → CREATED → needs-Alyssa
+- [[Deliverables/2026-07-05-vault-learn/learn-pitch-index]], [[Deliverables/2026-07-05-vault-learn/learn-carousel-codex]], `content-os-master-plan.md` → READ; located pitch slate + chat-word/status facts → untouched
+- [[Deliverables/2026-06-05-carousel-angle-proposals-v2]] → READ; flagged as deprecated-Wren backlog with banned-word hit → untouched (HALT for Alyssa)
+- **THIS FILE** [[Deliverables/2026-07-05-phase2-decision-sitting]] → CREATED → needs-Alyssa

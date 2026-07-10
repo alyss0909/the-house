@@ -73,8 +73,8 @@ All 25 offer files also got a `Facts (price/status/chat word): [[Hermes/BUSINESS
 
 ## 4. Name-matching ambiguities NOT guessed on
 
-- **soft-ceo-monthly-notion-template.md vs soft-ceo-sessions.md**: two separate sales pages exist (`soft-ceo-monthly-notion-template-sales-page.md` and `soft-ceo-sessions-sales-page.md`) and both matched cleanly by name — no ambiguity, but flagging since the names are close enough to warrant a note.
-- **the-numbers.md**: sales page file is named `the-numbers-sales-page.md` — matched confidently, but the offer's own frontmatter `theme` is `boh_systems` while its "Tier" line inside the body says "Emails" (pre-existing inconsistency in her content, not something I touched or resolved).
+- **soft-ceo-monthly-notion-template.md vs soft-ceo-sessions.md**: two separate sales pages exist ([[Library/Examples/sales-pages/soft-ceo-monthly-notion-template-sales-page]] and [[Library/Examples/sales-pages/soft-ceo-sessions-sales-page]]) and both matched cleanly by name — no ambiguity, but flagging since the names are close enough to warrant a note.
+- **the-numbers.md**: sales page file is named [[Library/Examples/sales-pages/the-numbers-sales-page]] — matched confidently, but the offer's own frontmatter `theme` is `boh_systems` while its "Tier" line inside the body says "Emails" (pre-existing inconsistency in her content, not something I touched or resolved).
 - **Carousel-to-offer matching for GAP slots**: MAP.md §3 marks several week/day slots as "GAP — no real post" (W1 Wed, W1 Fri, W3 Mon, W4 Mon, W4 Fri). For offers living in those slots (list-resuscitator's Wed reveal, the-5-minute-newsletter, unignorable-subject-lines, biz-tracker, the-numbers, soft-sundays, soft-ceo-sessions, quarter-prompt, best-year-yet), I did not guess a substitute carousel — I reported the gap explicitly and, where MAP.md flagged a "nearest lane" post, named it only as "nearest lane" (list-resuscitator), never as a direct pitch.
 - **PIN vs Pinterest chat-word conflict** (pin-planner.md): flagged in Hermes/MAP.md §7 and BUSINESS.md as her call to make — I did not resolve it, just linked to BUSINESS.md as canonical.
 - **Price conflicts** (quarter-in-a-day.md: $2,000 vs $111; the-ceo-year-notion-planner.md: $79 vs $27–47): pre-existing, documented in the files' own Notes already; I referenced MAP.md §7 in the new Wiki line rather than picking a number.
@@ -82,30 +82,30 @@ All 25 offer files also got a `Facts (price/status/chat word): [[Hermes/BUSINESS
 ## 5. `[[operations]]` / `[[work]]` links found OUTSIDE Offers/ (report only — not edited)
 
 Frontmatter `key_element: operations` / `key_element: work`:
-- `Deliverables/2026-07-05-vault-learn/learn-goals-life.md`
-- `PKM/Journal/2026/05/2026-05-27-larry-pkm-todos.md`
-- `PKM/My Life/Topics/ai-tools.md`
-- `PKM/My Life/Topics/instagram-inspiration.md`
-- `PKM/My Life/Topics/pkm.md`
-- `PKM/My Life/Topics/voice-and-writing-style.md`
-- `Team Knowledge/Guidelines/GL-002-frontmatter-conventions.md`
-- `Team Knowledge/Guidelines/GL-004-tag-taxonomy.md`
-- `Team Knowledge/session-logs/2026/05/2026-05-28-team-inbox-bulk-processing.md`
-- `Team Knowledge/Templates/goal.md`
-- `Team Knowledge/Templates/project.md`
-- `Team Knowledge/Templates/topic.md`
+- [[Deliverables/2026-07-05-vault-learn/learn-goals-life]]
+- [[Notebook/Journal/2026/05/2026-05-27-larry-pkm-todos]]
+- [[Notebook/Life/Topics/ai-tools]]
+- [[Notebook/Life/Topics/instagram-inspiration]]
+- [[Notebook/Life/Topics/pkm]]
+- [[Notebook/Life/Topics/voice-and-writing-style]]
+- [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]]
+- [[Studio/Team Knowledge/Guidelines/GL-004-tag-taxonomy]]
+- [[Studio/Team Knowledge/session-logs/2026/05/2026-05-28-team-inbox-bulk-processing]]
+- [[Studio/Team Knowledge/Templates/goal]]
+- [[Studio/Team Knowledge/Templates/project]]
+- [[Studio/Team Knowledge/Templates/topic]]
 
 Inline `[[operations]]` wikilinks:
 - 18 files under `PKM/Journal/2021-2026/...` (life-admin / systematize-socials / back-of-house cross-references)
 - `PKM/My Life/Topics/INDEX.md` (line 7 — "pkm" listed "under [[operations]]")
-- `PKM/My Life/Topics/pkm.md` ("Part of:** [[operations]]")
+- [[Notebook/Life/Topics/pkm]] ("Part of:** [[operations]]")
 - Several `Deliverables/` and `Team Knowledge/session-logs/` docs (historical review notes, session logs) referencing `[[operations]]`/`design`-area mapping decisions
 
 None of these were touched, per scope (edits restricted to `PKM/My Life/Offers/`).
 
 ## 6. INDEX.md check
 
-Alyssa's mission brief said rush-order was "exists on disk, missing from the bullet list" — on inspection, **rush-order was already listed** in `PKM/My Life/Offers/INDEX.md` (line: `- [[rush-order]] — Rush Order (idea)`). Cross-checked every file on disk against the INDEX bullet list and every INDEX bullet against disk: all 25 offer files are listed, and all listed files exist. No changes needed or made to INDEX.md.
+Alyssa's mission brief said rush-order was "exists on disk, missing from the bullet list" — on inspection, **rush-order was already listed** in [[PKM/My Life/Offers/INDEX]] (line: `- [[rush-order]] — Rush Order (idea)`). Cross-checked every file on disk against the INDEX bullet list and every INDEX bullet against disk: all 25 offer files are listed, and all listed files exist. No changes needed or made to INDEX.md.
 
 ## Files touched
 

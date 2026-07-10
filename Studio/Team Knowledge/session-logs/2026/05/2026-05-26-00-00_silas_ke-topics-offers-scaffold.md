@@ -23,7 +23,7 @@ Multi-phase schema extension and scaffold population for Alyssa's myPKA.
 - Edit D: added full Offers entity section (new entity type with 6-field schema)
 
 **Phase 0b — Offers folder:**
-- Created `PKM/My Life/Offers/INDEX.md`
+- Created [[PKM/My Life/Offers/INDEX]]
 
 **Phase 0c — Deleted 8 scaffold placeholder files:**
 - health.md, ship-mvp-by-q3.md, morning-build-session.md, side-project-mvp.md, ai-tooling.md, dr-schmidt.md, dr-schmidt-clinic.md, passport.md

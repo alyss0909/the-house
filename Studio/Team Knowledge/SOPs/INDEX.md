@@ -15,7 +15,7 @@ Filename pattern: `SOP-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] f
 | SOP-005 | [[SOP-005-claim-task]] | Any agent | Claim an existing open task — add the claiming agent and timestamp, move to in-progress state. |
 | SOP-006 | [[SOP-006-close-task]] | Any agent | Close a completed task — write the Outcome, optionally write a journal entry, move file to `closed/`. |
 | SOP-007 | [[SOP-007-list-open-tasks]] | Any agent | List all open tasks in `Studio/Team Knowledge/tasks/open/` with summary status. |
-| SOP-008 | [[SOP-008-rebuild-task-index]] | Larry | Regenerate `Studio/Team Knowledge/tasks/INDEX.md` from the open and closed task files. |
+| SOP-008 | [[SOP-008-rebuild-task-index]] | Larry | Regenerate [[Studio/Team Knowledge/tasks/INDEX]] from the open and closed task files. |
 | SOP-009 | [[SOP-009-write-journal-entry]] | Penn | Write a durable journal entry under `Studio/Team/<agent>/journal/` capturing a learning or insight. |
 | SOP-010 | [[SOP-010-read-own-journal]] | Any agent | Read an agent's own journal entries before starting a task, to carry forward prior learnings. |
 | SOP-011 | [[SOP-011-write-session-log]] | Larry | Write an end-of-session log entry under `Studio/Team Knowledge/session-logs/YYYY/MM/`. |

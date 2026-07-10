@@ -16,13 +16,13 @@ Extracted from real examples — ready to use now.
 
 | File | What it covers | Status |
 |---|---|---|
-| [`subject-line-operating-system.md`](subject-line-operating-system.md) | 10-pattern subject + preview generator built from the 351-broadcast analysis; includes job routing, preview pairing, and quality gates | complete 2026-06-04 |
-| [`carousel-framework.md`](carousel-framework.md) | 6 carousel archetypes, 7 hook formulas, copy rules, design system, series architecture | ✅ 2026-06-03 |
-| [`social-hooks.md`](social-hooks.md) | 7 source-grounded hook formulas and 21 curated raw hooks for social copy | refreshed 2026-07-04 |
-| [`carousel-external-frameworks.md`](carousel-external-frameworks.md) | Light external carousel framework note. Use as secondary context only; Alyssa's actual carousel analysis is the source of truth. | source import 2026-07-04 |
-| [`webinar-framework.md`](webinar-framework.md) | Alyssa's theoretical webinar structure — The Open (10 components), The Shifts, The Close (5 components). Pair with `Studio/Analysis/workshop-webinar-analysis.md` for actual practice. | ✅ 2026-06-04 |
-| [`soft-sunday-framework.md`](soft-sunday-framework.md) | Full structural map of the Soft Sunday newsletter — 10 named sections with verbatim taglines, story-to-content bridge mechanics, Check In ritual (verbatim), CTA architecture, short vs. long decision logic, and a complete build template. Pair with `Studio/Analysis/soft-sunday.md`. | ✅ 2026-06-05 |
-| [`bump-offer-and-oops-email-framework.md`](bump-offer-and-oops-email-framework.md) | Bump offer formula, common traits, two bump examples, and oops email formula linked to a real Email List Resuscitator example | complete 2026-07-04 |
+| [[[Studio/Analysis/Frameworks/subject-line-operating-system]]](subject-line-operating-system.md) | 10-pattern subject + preview generator built from the 351-broadcast analysis; includes job routing, preview pairing, and quality gates | complete 2026-06-04 |
+| [[[Studio/Analysis/Frameworks/carousel-framework]]](carousel-framework.md) | 6 carousel archetypes, 7 hook formulas, copy rules, design system, series architecture | ✅ 2026-06-03 |
+| [[[Studio/Analysis/Frameworks/social-hooks]]](social-hooks.md) | 7 source-grounded hook formulas and 21 curated raw hooks for social copy | refreshed 2026-07-04 |
+| [[[Studio/Analysis/Frameworks/carousel-external-frameworks]]](carousel-external-frameworks.md) | Light external carousel framework note. Use as secondary context only; Alyssa's actual carousel analysis is the source of truth. | source import 2026-07-04 |
+| [[[Studio/Analysis/Frameworks/webinar-framework]]](webinar-framework.md) | Alyssa's theoretical webinar structure — The Open (10 components), The Shifts, The Close (5 components). Pair with [[Studio/Analysis/workshop-webinar-analysis]] for actual practice. | ✅ 2026-06-04 |
+| [[[Studio/Analysis/Frameworks/soft-sunday-framework]]](soft-sunday-framework.md) | Full structural map of the Soft Sunday newsletter — 10 named sections with verbatim taglines, story-to-content bridge mechanics, Check In ritual (verbatim), CTA architecture, short vs. long decision logic, and a complete build template. Pair with [[Studio/Analysis/soft-sunday]]. | ✅ 2026-06-05 |
+| [[[Studio/Analysis/Frameworks/bump-offer-and-oops-email-framework]]](bump-offer-and-oops-email-framework.md) | Bump offer formula, common traits, two bump examples, and oops email formula linked to a real Email List Resuscitator example | complete 2026-07-04 |
 
 ---
 

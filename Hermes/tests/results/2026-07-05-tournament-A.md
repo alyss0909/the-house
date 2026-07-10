@@ -15,10 +15,10 @@ Isolated worker run. Did not open brief-bank.md, any Wren file, or voice-profile
 ## DECK 1 — W1 Mon Email Education (freebie-led)
 
 **Slot:** W1 Mon · Theme: Email · Post type: Education (freebie-led)
-**Chat word:** **List** — verified verbatim in `Hermes/BUSINESS.md` row "Email List Revival Plan | $0 | Email | List". (Bingeable Newsletters chat word is "manual" — NOT pitched in this deck; The 5 Minute Newsletter also "manual" — not pitched as a paid step here, freebie-only CTA per Jan 15/20 precedent.)
+**Chat word:** **List** — verified verbatim in [[Hermes/BUSINESS]] row "Email List Revival Plan | $0 | Email | List". (Bingeable Newsletters chat word is "manual" — NOT pitched in this deck; The 5 Minute Newsletter also "manual" — not pitched as a paid step here, freebie-only CTA per Jan 15/20 precedent.)
 **Archetype:** Editorial Trend/Education spine (Jan 15 / Jan 20 precedent) — cover, credibility/open-loop, agitate, 4 value slides teaching the REAL Double Yes Method mechanism, content-aha, CTA.
-**Seed:** journal title-stub `2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about.md` — "How I stopped trying to sell spinach (& no this isn't about my short stint as a nutritionist) / Ok it kinda is." Two lines, a wink, and a callback to her real nutritionist stint (documented in SOUL.md). The spinach-in-smoothie image is NOT invented for this deck — it is the exact teaching metaphor she uses in the 1.4 transcript for the "known problem vs. real problem" freebie principle. The journal entry and the BOH module are the same idea from two angles; that convergence is the deck.
-**Teaching source:** `1.4 The Double Yes Method.md` (workbook) + `1.4 The Double Yes Freebie Transcript.md` (transcript) — read end to end.
+**Seed:** journal title-stub [[Notebook/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about]] — "How I stopped trying to sell spinach (& no this isn't about my short stint as a nutritionist) / Ok it kinda is." Two lines, a wink, and a callback to her real nutritionist stint (documented in SOUL.md). The spinach-in-smoothie image is NOT invented for this deck — it is the exact teaching metaphor she uses in the 1.4 transcript for the "known problem vs. real problem" freebie principle. The journal entry and the BOH module are the same idea from two angles; that convergence is the deck.
+**Teaching source:** [[Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method]] (workbook) + [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript]] (transcript) — read end to end.
 
 ### Cover
 > **When The Freebie Doesn't Sell Anything.**
@@ -127,9 +127,9 @@ comment LIST and i'll send you the 5 re-engagement strategies that are actually 
 None required — chat word "List" fully verified, no paid product pitched, no invented CTA.
 
 ### Source files read (this session, this deck)
-- `PKM/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about.md`
-- `Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method.md`
-- `Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript.md`
+- [[Notebook/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about]]
+- [[Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method]]
+- [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript]]
 - Plus mandatory carousel corpus (below, shared across all 3 decks)
 
 ### Mean Alyssa self-check
@@ -152,8 +152,8 @@ None required — chat word "List" fully verified, no paid product pitched, no i
 ## DECK 2 — W3 Wed Offer (still educational), Back of House
 
 **Slot:** W3 Wed · Theme: BoH Systems · Post type: Offer (still educational)
-**Chat word:** **Yes Chef** — verified verbatim in `Hermes/BUSINESS.md` row "Back of House | $3,000 | BoH | **Yes Chef**". (Note: MAP.md abbreviates this "YESCHEF" in its slot table and the real Mar 3 caption used lowercase "yeschef" — BUSINESS.md is the facts table and wins per its own rule #3; I use "Yes Chef" as the product-fact chat word and match her lowercase-comment convention in the CTA line, same way the real Mar 3 post did.)
-**Teaching source:** `1.1 Email First Ecosystem.md` (workbook) + `1.1 Email First Business Model Transcript.md` (transcript) — Four Core Questions, Old Way/New Way, the 3 rules of an email-first offer suite; plus `4.1 The Lazy Launch Transcript.md` — the five sales emails / PTR→PTS→PTB cadence, referenced as the "what happens after you join" proof-of-system beat.
+**Chat word:** **Yes Chef** — verified verbatim in [[Hermes/BUSINESS]] row "Back of House | $3,000 | BoH | **Yes Chef**". (Note: MAP.md abbreviates this "YESCHEF" in its slot table and the real Mar 3 caption used lowercase "yeschef" — BUSINESS.md is the facts table and wins per its own rule #3; I use "Yes Chef" as the product-fact chat word and match her lowercase-comment convention in the CTA line, same way the real Mar 3 post did.)
+**Teaching source:** [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]] (workbook) + [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript]] (transcript) — Four Core Questions, Old Way/New Way, the 3 rules of an email-first offer suite; plus [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]] — the five sales emails / PTR→PTS→PTB cadence, referenced as the "what happens after you join" proof-of-system beat.
 **Precedent deck:** Mar 3 "Organic Marketing Is Dying" (Data Argument archetype, BoH lane, chat word Yes Chef precedent) — read via carousel-slide-by-slide.md + captions.md.
 
 ### Cover
@@ -258,11 +258,11 @@ comment yes chef and i'll send you the details
 None required — Yes Chef chat word fully verified verbatim in BUSINESS.md; product one-liner quoted verbatim; no discount/price invented (the real Mar 3 $500 coupon was a launch-specific promo, correctly excluded as a standing fact).
 
 ### Source files read (this session, this deck)
-- `Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem.md`
-- `Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript.md`
-- `Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch.md`
-- `Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript.md`
-- `Hermes/BUSINESS.md` (chat word + one-liner verification)
+- [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]]
+- [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript]]
+- [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch]]
+- [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]]
+- [[Hermes/BUSINESS]] (chat word + one-liner verification)
 - carousel-slide-by-slide.md Mar 3 section + captions.md Mar 3 entry (precedent, not copied)
 
 ### Mean Alyssa self-check
@@ -285,7 +285,7 @@ None required — Yes Chef chat word fully verified verbatim in BUSINESS.md; pro
 **Slot:** W3 Fri (or any Fri lane — MAP marks W3 Fri as GAP with only the guest-cheque quote on file; this deck follows the Jan 22 Manifesto archetype precedent exactly, not a specific week's teaching source, per rule "identity/permission, soft/no CTA unless source shows one")
 **Chat word:** none — Jan 22 precedent carries no CTA word; this deck follows suit exactly.
 **Archetype:** Manifesto (Jan 22 "Wasting Time Is Part of My Process" is the structural precedent, read via carousel-slide-by-slide.md + captions.md) — no credibility slide, no agitate, no teaching, no product CTA. First-person permission litany → one non-"I" maxim → brand pause (no copy) → engagement question close.
-**Seed:** journal cluster "I can't wait to see why this didn't work out" (`2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md`) + the 6 linked entries read end to end: `2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md`, `2021-02-26-hold-your-vision-trust-the-process.md`, `2021-08-16-freedom-is-your-compass.md`, `2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it.md`, `2023-11-21-nourishing-north-star.md`, `2024-02-25-there-is-so-right-and-wrong-decision.md`. **Texture note:** every one of these entries is a title-only stub (one line, sometimes two) spanning 2019→2026 — there is no developed scene to mine, only title-fragments. The throughline across all seven is self-trust under uncertainty: unrealistic goals as self-sabotage, holding vision while trusting process, freedom as the compass (not a plan), no right/wrong decision only what you make of it, "nourishing north star" questions (who is this easy for / what can I eliminate). The permission slips below are built directly from these title-fragments, not invented from scratch — but this is thinner sourcing than Decks 1-2 and is flagged in the self-verdict.
+**Seed:** journal cluster "I can't wait to see why this didn't work out" ([[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]]) + the 6 linked entries read end to end: [[Notebook/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge]], [[Notebook/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process]], [[Notebook/Journal/2021/08/2021-08-16-freedom-is-your-compass]], [[Notebook/Journal/2023/10/2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it]], [[Notebook/Journal/2023/11/2023-11-21-nourishing-north-star]], [[Notebook/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision]]. **Texture note:** every one of these entries is a title-only stub (one line, sometimes two) spanning 2019→2026 — there is no developed scene to mine, only title-fragments. The throughline across all seven is self-trust under uncertainty: unrealistic goals as self-sabotage, holding vision while trusting process, freedom as the compass (not a plan), no right/wrong decision only what you make of it, "nourishing north star" questions (who is this easy for / what can I eliminate). The permission slips below are built directly from these title-fragments, not invented from scratch — but this is thinner sourcing than Decks 1-2 and is flagged in the self-verdict.
 
 ### Cover
 > **I Can't Wait To See Why This Didn't Work Out.**
@@ -371,14 +371,14 @@ None — no chat word required or invented; no product pitched; matches Jan 22's
 **Concept-only flag (not a HALT, a texture disclosure):** unlike Decks 1-2, this deck's seed material is genuinely thin — six of seven source files are single-line title-stubs with no developed scene, image, or specific sensory detail (contrast with the spinach-in-smoothie or Four Core Questions teaching, which carry real transcript texture). The permission slips are built by compressing her real title-fragments into fresh sentences, which is a legitimate move for a Manifesto deck (Jan 22's real slides are also short compressed permission statements, not developed scenes) — but the "≥2 non-inventable details per deck" floor is thinner here. The two hardest non-inventable anchors are: the verbatim cover sentence itself, and the "so so simple" doubled-word texture from the 2023-10-15 entry.
 
 ### Source files read (this session, this deck)
-- `PKM/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md`
-- `PKM/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md`
-- `PKM/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process.md`
-- `PKM/Journal/2021/08/2021-08-16-freedom-is-your-compass.md`
-- `PKM/Journal/2023/10/2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it.md`
-- `PKM/Journal/2023/11/2023-11-21-nourishing-north-star.md`
-- `PKM/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision.md`
-- `PKM/Journal/2026/03/2026-03-06-good-things-are-always-happening-to-me.md` and `2026-03-06-slo.md` and `2026-03-06-the-most-important-things-to-have-in-your-boh.md` were found in the same directory search but are NOT part of the linked "Related notes" cluster for this specific entry (checked frontmatter/related-notes fields) — excluded to avoid conflating separate journal threads.
+- [[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]]
+- [[Notebook/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge]]
+- [[Notebook/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process]]
+- [[Notebook/Journal/2021/08/2021-08-16-freedom-is-your-compass]]
+- [[Notebook/Journal/2023/10/2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it]]
+- [[Notebook/Journal/2023/11/2023-11-21-nourishing-north-star]]
+- [[Notebook/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision]]
+- [[Notebook/Journal/2026/03/2026-03-06-good-things-are-always-happening-to-me]] and [[Notebook/Journal/2026/03/2026-03-06-slo]] and [[Notebook/Journal/2026/03/2026-03-06-the-most-important-things-to-have-in-your-boh]] were found in the same directory search but are NOT part of the linked "Related notes" cluster for this specific entry (checked frontmatter/related-notes fields) — excluded to avoid conflating separate journal threads.
 - carousel-slide-by-slide.md Jan 22 section + captions.md Jan 22 entry (structural precedent, not copied)
 
 ### Mean Alyssa self-check
@@ -399,12 +399,12 @@ None — no chat word required or invented; no product pitched; matches Jan 22's
 
 ## Cross-deck source loads (mandatory carousel corpus, read once, applies to all three)
 
-- `Studio/Analysis/carousel-slide-by-slide.md` (full — all decks/archetypes)
-- `Studio/Analysis/Frameworks/social-hooks.md`
-- `Library/Examples/Carousels/captions.md`
-- `Studio/Analysis/carousel-hook-forensics.md`
-- `Studio/Analysis/carousel-flow-and-weird-hooks.md`
-- `Hermes/craft/captions-carousels.md`
-- `Hermes/FABLE.md`, `Hermes/MAP.md`, `Hermes/SOUL.md`, `Hermes/STYLE.md`, `Hermes/TASTE.md`, `Hermes/ANTI-AI.md`, `Hermes/BUSINESS.md`
+- [[Studio/Analysis/carousel-slide-by-slide]] (full — all decks/archetypes)
+- [[Studio/Analysis/Frameworks/social-hooks]]
+- [[Library/Examples/Carousels/captions]]
+- [[Studio/Analysis/carousel-hook-forensics]]
+- [[Studio/Analysis/carousel-flow-and-weird-hooks]]
+- [[Hermes/craft/captions-carousels]]
+- [[Hermes/FABLE]], [[Hermes/MAP]], [[Hermes/SOUL]], [[Hermes/STYLE]], [[Hermes/TASTE]], [[Hermes/ANTI-AI]], [[Hermes/BUSINESS]]
 
-Never opened: `Carousels/brief-bank.md`, any Wren file, `analysis/voice-profile.md`, `analysis/writing-style.md` — confirmed quarantined per instructions.
+Never opened: [[Library/Examples/Carousels/brief-bank]], any Wren file, [[Studio/Analysis/voice-profile]], [[Studio/Analysis/writing-style]] — confirmed quarantined per instructions.

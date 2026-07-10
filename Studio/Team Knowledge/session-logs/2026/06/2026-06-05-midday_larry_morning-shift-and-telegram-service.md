@@ -29,7 +29,7 @@ Larry pulled all 16 open tasks, all active projects, and the most recent session
 
 **Background open loops cleanup (background agent)**
 Larry delegated the full audit to a subagent. Results:
-- [[tsk-2026-06-01-003-semantic-recurrence-layer]] — **executed**: SOP-013 built, Signals Index seeded at `PKM/Signals/signals-index.md`, GL-002 extended with Signal schema, AGENTS.md updated with sweep trigger. Assigned SOP-013 (SOP-004 was already taken).
+- [[tsk-2026-06-01-003-semantic-recurrence-layer]] — **executed**: SOP-013 built, Signals Index seeded at [[Studio/Signals/signals-index]], GL-002 extended with Signal schema, AGENTS.md updated with sweep trigger. Assigned SOP-013 (SOP-004 was already taken).
 - [[tsk-2026-06-03-008-resolve-background-open-loops]] — closed as complete.
 - All W22/W23 session-log open threads reviewed — confirmed resolved in the June 4 audit session. No re-surfacing items.
 - Open task count: 15 → 13.
@@ -52,7 +52,7 @@ Service is now registered in Task Scheduler. Starts at boot, restarts on failure
 Alyssa found https://github.com/linuz90/claude-telegram-bot — wants to evaluate it as a smarter layer: Telegram → Claude Code → specific named workflow (vs. current dumb pipe). Task [[tsk-2026-06-05-002-claude-telegram-bot-research]] created for this afternoon.
 
 **Webinar theory-vs-practice mapping**
-Alyssa believes she already did this pass. Larry checked: `workshop-webinar-analysis.md` exists and is thorough; `webinar-theory-vs-practice.md` is still listed as (TBD) in `webinar-framework.md`. Deferred to the Second Brain architecture session to resolve.
+Alyssa believes she already did this pass. Larry checked: [[Studio/Analysis/workshop-webinar-analysis]] exists and is thorough; `webinar-theory-vs-practice.md` is still listed as (TBD) in [[Studio/Analysis/Frameworks/webinar-framework]]. Deferred to the Second Brain architecture session to resolve.
 
 ---
 
@@ -95,7 +95,7 @@ Alyssa believes she already did this pass. Larry checked: `workshop-webinar-anal
 ## Librarian pass
 
 - No SSOT violations introduced this session.
-- `rebrand.md` updated with Gmail logo backburner item — correct home.
+- [[Notebook/Life/Projects/rebrand]] updated with Gmail logo backburner item — correct home.
 - `tsk-2026-06-04-002` updated with deferral note — not moved to done, still open but intentionally parked.
 - `feedback_approve_before_execute.md` created in memory; MEMORY.md index updated.
 - No orphaned files created this session.

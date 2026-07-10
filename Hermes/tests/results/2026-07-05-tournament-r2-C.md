@@ -188,4 +188,4 @@ What Didn't Work Out That You're Now Grateful For?
 
 ## Cross-deck notes
 - No architecture-identifying commentary included in the candidate copy itself (self-check log kept separate, below the fold, per instruction).
-- All three decks checked against `Library/Examples/Carousels/captions.md` for caption register match (lowercase-native, sign-off "xx", hashtag block density, comment-word phrasing "comment X for Y (free)").
+- All three decks checked against [[Library/Examples/Carousels/captions]] for caption register match (lowercase-native, sign-off "xx", hashtag block density, comment-word phrasing "comment X for Y (free)").

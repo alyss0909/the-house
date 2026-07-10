@@ -1,6 +1,6 @@
 # ADAPT-EXPANSION — Slack Expansion v1.0.0 (LLM operating manual)
 
-This is the LLM-facing operating manual for this Expansion. The user reads `README.md`. Larry/Mack/Vex/Nolan/Silas read this file when WS-003 invokes the Expansion.
+This is the LLM-facing operating manual for this Expansion. The user reads [[README]]. Larry/Mack/Vex/Nolan/Silas read this file when WS-003 invokes the Expansion.
 
 ---
 
@@ -40,9 +40,9 @@ If all six pass → GREEN. The first time this version is presented to Vex, the 
 
 Three SOPs auto-numbered into `Team Knowledge/SOPs/`:
 
-- `sops/SOP-slack-incoming-routing.md` → `SOP-NNN-slack-incoming-routing.md` (default owner: Larry).
-- `sops/SOP-slack-post-message.md` → `SOP-NNN-slack-post-message.md` (default owner: Mack).
-- `sops/SOP-slack-listener-health.md` → `SOP-NNN-slack-listener-health.md` (default owner: Mack).
+- [[Expansions/slack/sops/SOP-slack-incoming-routing]] → `SOP-NNN-slack-incoming-routing.md` (default owner: Larry).
+- [[Expansions/slack/sops/SOP-slack-post-message]] → `SOP-NNN-slack-post-message.md` (default owner: Mack).
+- [[Expansions/slack/sops/SOP-slack-listener-health]] → `SOP-NNN-slack-listener-health.md` (default owner: Mack).
 
 No agents. No guidelines. No templates. No new workstreams.
 
@@ -83,7 +83,7 @@ Hand the user `SOP-NNN-slack-listener-health.md` for ongoing health checks.
 
 ### Step 7 — Larry: archive + announce
 
-Archive to `Expansions/_installed/slack-1.0.0/.manifest.json`. Update `Expansions/INDEX.md`. Announce: "Slack is wired. DM your bot or @-mention it; messages land in `Team Inbox/slack-incoming/` and I'll route them on my next session."
+Archive to `Expansions/_installed/slack-1.0.0/.manifest.json`. Update [[Expansions/INDEX]]. Announce: "Slack is wired. DM your bot or @-mention it; messages land in `Team Inbox/slack-incoming/` and I'll route them on my next session."
 
 ---
 

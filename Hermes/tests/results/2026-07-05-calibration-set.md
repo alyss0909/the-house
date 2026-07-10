@@ -13,8 +13,8 @@ You are a fresh judge. You have not seen these before and you do not know which 
 ## Judging instructions (follow in order)
 
 1. **Score each item ALONE, before looking at any other item.** Blind first, compare second. Anchoring will eat your judgment if you skim the whole set first.
-2. **ANTI-AI senior pass FIRST.** Run `Hermes/ANTI-AI.md`'s final-pass checklist on the item: negative parallelism / reframe shapes (incl. in hooks and headers), em-dashes (must be 0), staccato period runs, banned vocab, dead openings, "-ing significance clauses," rule-of-three padding, invented facts. One clean hit = the item is suspect no matter how nice it reads.
-3. **THEN TASTE.** Run `Hermes/TASTE.md`: the Loves, the Disgusts, the 8 red flags, the "too AI" tells (label+generic-description with no voice, missing named pivot, neat resolution, no detail that couldn't be invented).
+2. **ANTI-AI senior pass FIRST.** Run [[Hermes/ANTI-AI]]'s final-pass checklist on the item: negative parallelism / reframe shapes (incl. in hooks and headers), em-dashes (must be 0), staccato period runs, banned vocab, dead openings, "-ing significance clauses," rule-of-three padding, invented facts. One clean hit = the item is suspect no matter how nice it reads.
+3. **THEN TASTE.** Run [[Hermes/TASTE]]: the Loves, the Disgusts, the 8 red flags, the "too AI" tells (label+generic-description with no voice, missing named pivot, neat resolution, no detail that couldn't be invented).
 4. **Verdict per item: `publish` / `edit` / `kill`** + one line of reasoning. `publish` = she'd ship it with a light touch. `edit` = right bones, needs a pass. `kill` = she'd never send it / it's not hers.
 5. **After all 12:** in the final block, name the item numbers you believe are NOT Alyssa's own published work, and say why for each. This is the real test — the verdicts are the warm-up.
 

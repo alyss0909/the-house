@@ -97,7 +97,7 @@ post-grader        → scores, lists fixes, post-writer applies them, loops to 8
 post-scheduler     → schedules via Blotato
 ```
 
-Once `brand-brief.md` exists, you can call any skill standalone:
+Once [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] exists, you can call any skill standalone:
 
 * post-writer directly when you have an idea
 * post-grader directly when you wrote a draft and want feedback
@@ -133,7 +133,7 @@ Sarah types: "I want to start posting but I don't know what to do."
 
 1. Claude triggers content-coach
 2. content-coach checks the working folder for a brand brief. None found, so it silently invokes brand-brief
-3. brand-brief asks 5 short questions: what you sell, who buys, one CTA, recent story, vibe. Saves answers to `brand-brief.md`
+3. brand-brief asks 5 short questions: what you sell, who buys, one CTA, recent story, vibe. Saves answers to [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]]
 4. content-coach reads the brief and generates 5 specific post ideas tied to her candles and audience
 5. Sarah picks one: "the customer who used my candle in a proposal"
 6. content-coach asks which platform. She says Instagram

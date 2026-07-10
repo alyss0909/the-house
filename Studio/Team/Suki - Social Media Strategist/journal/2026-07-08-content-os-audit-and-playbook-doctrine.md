@@ -24,4 +24,4 @@ She explicitly does NOT want her hooks to inbreed on her own top 9. Keep a swipe
 ## She gates hiring and system wiring
 Nothing gets researched or hired until she reviews the plan in detail. Spec the gap; let HR (Nolan) hire. Never collapse spec + hire into one seat — that was the old bottleneck.
 
-See: [[project-content-os-head-of-content]], the playbook at `Team/Suki - Social Media Strategist/PLAYBOOK.md`.
+See: [[project-content-os-head-of-content]], the playbook at [[Studio/Team/Suki - Social Media Strategist/PLAYBOOK]].

@@ -40,7 +40,7 @@ Next available: SOP-031.
 
 WS-001 daily journaling (Penn+Larry) · WS-002 import external KB (Silas+Mack+Pax) · WS-003 install expansion (Larry+Vex+Nolan+Mack+Silas) · WS-004 inbox processing (Larry+Alyssa+Penn) · WS-005 meeting capture (Larry+Mack+Penn) · WS-006 weekly review (Larry) · WS-007 monthly review (Larry, reads weekly wraps only).
 
-**Gap confirmed by 2026-07-05 vault-automation-analysis:** no WS-011 or equivalent exists yet for Content OS batch production, despite a station draft (`Deliverables/2026-07-05-content-os-brain/station-ws-011-weekly-content-batch.draft.md`) already using that number. WS-009 (monthly intelligence update) is referenced in that analysis but does not appear in the Workstreams INDEX — check whether it was ever formally added.
+**Gap confirmed by 2026-07-05 vault-automation-analysis:** no WS-011 or equivalent exists yet for Content OS batch production, despite a station draft ([[Deliverables/_archive/station-ws-011-weekly-content-batch.draft]]) already using that number. WS-009 (monthly intelligence update) is referenced in that analysis but does not appear in the Workstreams INDEX — check whether it was ever formally added.
 
 ### Team (17 roles across Team/ + agent-index.md)
 
@@ -63,7 +63,7 @@ WS-001 daily journaling (Penn+Larry) · WS-002 import external KB (Silas+Mack+Pa
 | Val | QA/UI Quality — SOP-020, runs after Felix |
 | Hermes | (not in agent-index table, but active/central) — Alyssa clone writer, built 2026-07-05, replacing ad hoc Wren/Fable copy work for the Content OS pipeline. Lives in `.claude/agents/hermes.md` + `Hermes/` brain folder. |
 
-**Note:** Hermes is fully operational (five Gate-3 rounds, scheduled learning runs) but is **not listed in `Team/agent-index.md`**. Every other active specialist has a row there; Hermes doesn't. Worth flagging to Alyssa/Nolan — routing table is incomplete against actual team composition.
+**Note:** Hermes is fully operational (five Gate-3 rounds, scheduled learning runs) but is **not listed in [[Studio/Team/agent-index]]**. Every other active specialist has a row there; Hermes doesn't. Worth flagging to Alyssa/Nolan — routing table is incomplete against actual team composition.
 
 ### Hermes brain structure (`Hermes/`)
 
@@ -80,18 +80,18 @@ converter-pack-1.1.1, designer-pack-1.1.1, app-developer-v1.0.2, slack-1.0.0 —
 
 ### From July 2026 session logs
 
-- **Hermes learning inbox — 5 unresolved adjudications** awaiting Alyssa (banned-shape #11 exemption question, metaphor-callback pun-tag nuance, promo-vs-nurture offer-block length variant, dread-subject + period-density nuance, and the general "keep total ban or codify exemptions" question). Source: `Hermes/learning/inbox.md`.
-- **Content OS master plan — Phase 2 awaiting her "go."** Needs from her: day anchors (Education/Offer weekday), fills for 4 empty calendar slots (Email·Offer, Email·FTG, BoH·Education, Productivity·Education), 13 chat words still "manual," 2 price conflicts (Quarter in a Day $2,000 vs $111; CEO Year Planner $79 vs $27–47), cold-list ladder clarification (Cold Subscriber Automation / Email List Revival Plan / List Resuscitator overlap), gold-standard picks per content lane, the unicorn-cupcake Simmer fact-check. Source: `Deliverables/2026-07-05-content-os-master-plan.md`.
+- **Hermes learning inbox — 5 unresolved adjudications** awaiting Alyssa (banned-shape #11 exemption question, metaphor-callback pun-tag nuance, promo-vs-nurture offer-block length variant, dread-subject + period-density nuance, and the general "keep total ban or codify exemptions" question). Source: [[Hermes/learning/inbox]].
+- **Content OS master plan — Phase 2 awaiting her "go."** Needs from her: day anchors (Education/Offer weekday), fills for 4 empty calendar slots (Email·Offer, Email·FTG, BoH·Education, Productivity·Education), 13 chat words still "manual," 2 price conflicts (Quarter in a Day $2,000 vs $111; CEO Year Planner $79 vs $27–47), cold-list ladder clarification (Cold Subscriber Automation / Email List Revival Plan / List Resuscitator overlap), gold-standard picks per content lane, the unicorn-cupcake Simmer fact-check. Source: [[Deliverables/2026-07-05-content-os-master-plan]].
 - **Alyssa to adjudicate three specific Simmer/carousel corrections** flagged in the 2026-07-05-23-30 session close (negative-parallelism shape #11 in her own metaphor, pun-tagged metaphor-callback exception, promo-vs-nurture offer-block split) — duplicates the inbox items above; same open loop, two sources.
 - **Alyssa to supply 13 "manual" chat words** including The Promo Planner — same as Content OS gap above.
-- **`hermes-deep-voice-study` scheduled routine** — still running unattended (3x/day, Jul 5–7); needs disable/delete check after Jul 7 or it re-arms next July. Source: `2026-07-05-23-45_larry_hermes-deep-read-scheduling.md`.
-- **Feb Is The New Jan carousel** — needs images when Alyssa sends them. Source: `2026-07-04-20-07_larry_carousel-second-brain-intake.md`.
+- **`hermes-deep-voice-study` scheduled routine** — still running unattended (3x/day, Jul 5–7); needs disable/delete check after Jul 7 or it re-arms next July. Source: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-05-23-45_larry_hermes-deep-read-scheduling]].
+- **Feb Is The New Jan carousel** — needs images when Alyssa sends them. Source: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-20-07_larry_carousel-second-brain-intake]].
 - **80 Days Until Summer / 90 Day Clock In carousel** — needs metrics/caption capture. Same source.
-- **cold-subscriber-automation, quarter-prompt, simmer-system, rush-order offers** — still lack usable sales-page copy (no `sales_page_url` present to capture from). Source: `2026-07-04-20-09_larry_sales-page-copy-recovery.md`.
-- **Guest Cheque Quote source image** — placeholder Instagram screenshot; needs a clean cropped export if Alyssa has one. Source: `2026-07-04-18-24_larry_fable-content-relay-source-truth.md`.
+- **cold-subscriber-automation, quarter-prompt, simmer-system, rush-order offers** — still lack usable sales-page copy (no `sales_page_url` present to capture from). Source: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-20-09_larry_sales-page-copy-recovery]].
+- **Guest Cheque Quote source image** — placeholder Instagram screenshot; needs a clean cropped export if Alyssa has one. Source: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-18-24_larry_fable-content-relay-source-truth]].
 - **Quarter in a Day price conflict ($2,000 vault vs $111 ThriveCart)** and **CEO Year Planner price conflict ($79 vs $27–47 promo)** — flagged in multiple places (BUSINESS.md, MEMORY.md, master plan); needs Notion verification.
-- **Voice-interview Q81/Q85 answered by inference only** and **13 gap-interview answers derived by Fable, not yet confirmed** — `Hermes/MEMORY.md` gaps ledger #1–2.
-- **voice-profile.md / voice-archive.md never reviewed by Alyssa** — quarantined pending her review. `Hermes/MEMORY.md` gap #3.
+- **Voice-interview Q81/Q85 answered by inference only** and **13 gap-interview answers derived by Fable, not yet confirmed** — [[Hermes/MEMORY]] gaps ledger #1–2.
+- **voice-profile.md / voice-archive.md never reviewed by Alyssa** — quarantined pending her review. [[Hermes/MEMORY]] gap #3.
 
 ### From Deliverables (2026-07 vault-automation-analysis and content-os set)
 
@@ -120,9 +120,9 @@ Notably still open despite being superseded by later work: `tsk-2026-06-05-001-r
 
 ### Stale folder reference: `Team Knowledge/content-os/` does not exist
 
-`Deliverables/2026-07-05-0655-vault-automation-analysis.md` links `[[Team Knowledge/content-os/calendar-spec]]` and `[[Team Knowledge/content-os/product-index]]` four times (lines 65, 66, 95, 337, 359). No `Team Knowledge/content-os/` folder exists anywhere in the vault. The actual content lives at `Hermes/CALENDAR.md` (calendar spec) and `Hermes/PITCH.md` (product/pitch index) — both created the same day, after the analysis file's mental model was formed. This is a same-day naming drift: the analysis was written assuming a Team Knowledge home for Content OS reference material, but the team decided (per Hermes/README.md: "Content OS modules merged … one brain, her call") to fold everything into `Hermes/` instead. **Fix:** update the four links in the vault-automation-analysis file to point at `Hermes/CALENDAR.md` and `Hermes/PITCH.md`, or add a redirect note.
+[[Deliverables/2026-07-05-0655-vault-automation-analysis]] links `[[Team Knowledge/content-os/calendar-spec]]` and `[[Team Knowledge/content-os/product-index]]` four times (lines 65, 66, 95, 337, 359). No `Team Knowledge/content-os/` folder exists anywhere in the vault. The actual content lives at `Hermes/CALENDAR.md` (calendar spec) and `Hermes/PITCH.md` (product/pitch index) — both created the same day, after the analysis file's mental model was formed. This is a same-day naming drift: the analysis was written assuming a Team Knowledge home for Content OS reference material, but the team decided (per Hermes/README.md: "Content OS modules merged … one brain, her call") to fold everything into `Hermes/` instead. **Fix:** update the four links in the vault-automation-analysis file to point at `Hermes/CALENDAR.md` and `Hermes/PITCH.md`, or add a redirect note.
 
-Two other files mention "content-os" as a plain-text label, not a broken link — not drift: `Team/Pax - Researcher/journal/2026-07-05-ai-content-pipeline-landscape.md` (references a research artifact by that name, not a vault path) and the Hermes session logs (narrative only).
+Two other files mention "content-os" as a plain-text label, not a broken link — not drift: [[Studio/Team/Pax - Researcher/journal/2026-07-05-ai-content-pipeline-landscape]] (references a research artifact by that name, not a vault path) and the Hermes session logs (narrative only).
 
 ### SSOT duplication: Hermes/PITCH.md vs Hermes/BUSINESS.md
 
@@ -132,23 +132,23 @@ By design, not accidental — but worth naming as intentional duplication with a
 
 `Team Knowledge/tasks/INDEX.md` states "Last rebuilt: 2026-06-05T00:00:00Z" and reports Open: 13 (summary) vs Open (15) (section header) — already internally inconsistent. It is missing at minimum: `tsk-2026-06-26-001-converter-pack-runtime-install` and `tsk-2026-06-26-002-slack-expansion-token-wiring`, both of which exist as files in `tasks/open/` but do not appear in the index at all. SOP-008 (rebuild task index) has not been run since June 5 despite a month of subsequent work. This matches the finding already made independently in the 2026-07-05 vault-automation-analysis.
 
-### Stale cross-reference: `carousel-analysis.md` vs `carousel.md`
+### Stale cross-reference: `carousel-analysis.md` vs [[Studio/Analysis/carousel]]
 
-Per the vault-automation-analysis (which I did not re-verify file-by-file but is corroborated by the carousel session-log trail): `PKM/Developing Ideas/email-to-content-repurposing-system` and `Team/Wren - Brand Voice Partner/memory.md` both reference `PKM/Second Brain/analysis/carousel-analysis.md`, but the current canonical file (per the July 4 carousel-cleanup session logs) is `PKM/Second Brain/analysis/carousel.md`. Two live rename-drift links outside my directly-read territory — flagging per the source document's own finding, not independently re-verified in this pass.
+Per the vault-automation-analysis (which I did not re-verify file-by-file but is corroborated by the carousel session-log trail): `PKM/Developing Ideas/email-to-content-repurposing-system` and `Team/Wren - Brand Voice Partner/memory.md` both reference `PKM/Second Brain/analysis/carousel-analysis.md`, but the current canonical file (per the July 4 carousel-cleanup session logs) is [[Studio/Analysis/carousel]]. Two live rename-drift links outside my directly-read territory — flagging per the source document's own finding, not independently re-verified in this pass.
 
 ### Hermes not in Team/agent-index.md
 
-Hermes is fully built, tested (5 Gate-3 rounds), and running scheduled learning tasks, but has no row in the routing table at `Team/agent-index.md`. Every other active specialist (Larry through Val) has one. This is a documentation gap, not a functional one — Larry clearly already routes to Hermes in practice — but it means the canonical "who owns what" table is out of sync with reality.
+Hermes is fully built, tested (5 Gate-3 rounds), and running scheduled learning tasks, but has no row in the routing table at [[Studio/Team/agent-index]]. Every other active specialist (Larry through Val) has one. This is a documentation gap, not a functional one — Larry clearly already routes to Hermes in practice — but it means the canonical "who owns what" table is out of sync with reality.
 
 ### No SSOT overlap found between Team Knowledge and Hermes
 
-I checked explicitly for facts duplicated between `Team Knowledge/` (SOPs/Guidelines/Workstreams) and `Hermes/` — none found. Hermes correctly treats the Second Brain vault (`PKM/Second Brain/`) as its source layer and Team Knowledge as pure ops/procedure; the two don't restate the same facts. The one soft overlap is procedural: Hermes's own learning/distillation loop (capture → distill → replace → clear, described in `Hermes/README.md` and `LEARNING.md`) parallels SOP-013 (semantic sweep) in shape but operates on a completely different corpus (Hermes voice corrections vs. Journal/PKM signal clustering) — not true duplication, just a similar pattern independently implemented. Worth a Guideline someday if a third such loop appears (per Team Knowledge/INDEX.md's own "if you're restating the same rule twice, write a Guideline" rule), but not current debt.
+I checked explicitly for facts duplicated between `Team Knowledge/` (SOPs/Guidelines/Workstreams) and `Hermes/` — none found. Hermes correctly treats the Second Brain vault (`PKM/Second Brain/`) as its source layer and Team Knowledge as pure ops/procedure; the two don't restate the same facts. The one soft overlap is procedural: Hermes's own learning/distillation loop (capture → distill → replace → clear, described in [[Hermes/README]] and [[Hermes/LEARNING]]) parallels SOP-013 (semantic sweep) in shape but operates on a completely different corpus (Hermes voice corrections vs. Journal/PKM signal clustering) — not true duplication, just a similar pattern independently implemented. Worth a Guideline someday if a third such loop appears (per Team Knowledge/INDEX.md's own "if you're restating the same rule twice, write a Guideline" rule), but not current debt.
 
 ---
 
 ## 4. What the system already promised her (commitments recorded, not yet delivered)
 
-- **A working "Content OS"** — the six-station pipeline (Test Kitchen → Mean Alyssa → Maître d' → Sous Chef → Hermes → The Pass) is fully designed and documented (`Deliverables/2026-07-05-content-os-master-plan.md`, `-architecture.md`) but Phase 2 (building the actual agent/skill stations) has not started — explicitly gated on her "go," which per the session logs she had not yet given as of this pass.
+- **A working "Content OS"** — the six-station pipeline (Test Kitchen → Mean Alyssa → Maître d' → Sous Chef → Hermes → The Pass) is fully designed and documented ([[Deliverables/2026-07-05-content-os-master-plan]], `-architecture.md`) but Phase 2 (building the actual agent/skill stations) has not started — explicitly gated on her "go," which per the session logs she had not yet given as of this pass.
 - **One full pilot batch** — "Run one full pilot batch (Week 1 Email theme: Edu carousel + Offer carousel + FTG + Simmer + pins) end-to-end for her Gate review before scaling to full-month batches" — promised as the next concrete step in the hermes-rebuild session log; not yet run.
 - **BOH Summer Launch Email Sequence** — named the #1 highest-priority Ready Queue item across both the W27 weekly wrap and the vault-automation-analysis, assigned to Wren, source material fully staged — not visibly delivered as of the most recent logs.
 - **Launch Carousel + Visual Palette** (Charta) — two briefs staged and ready to run in parallel per W27; delivery status not confirmed in territory read.

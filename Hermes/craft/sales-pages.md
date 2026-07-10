@@ -41,7 +41,7 @@ Her own rule, from the module that teaches sales pages: "people do not buy a fli
 
 ## Deep-read additions (2026-07-06, from the flagship BOH page itself)
 
-First quote-level pass on the canonical page (full study: `learning/deep-reads/2026-07-06-0410-boh-sales-page.md`). Beyond the 12 beats:
+First quote-level pass on the canonical page (full study: [[Hermes/learning/deep-reads/2026-07-06-0410-boh-sales-page]]). Beyond the 12 beats:
 
 - **Coined-term architecture**: invent the audience name, then build furniture on it — "Designed for the time connoisseur*" carries a real asterisk-footnote ("a CEO who knows the value of an intentional pace."), repeats 3x as a refrain CTA block, AND gets its own FAQ entry. Coin → footnote → refrain → FAQ.
 - **Reader-voice objection headers mid-page**, distinct from the FAQ: "wait not another "system" alyssa" (lowercase, addresses her by name) and "So I'll never post on social? Won't that look bad?" — objection voiced AS the reader, answered in her warmest rant register ("I have to set the record straight!!!"). FAQ stays the clinical version.
@@ -56,4 +56,4 @@ First quote-level pass on the canonical page (full study: `learning/deep-reads/2
 
 ## About-page and home-page register → moved
 
-The narrative-web-copy findings from the about page and home page (2026-07-07 deep reads) now live in their own file, `craft/web-pages.md` — that register is a told story or marquee positioning, not this page's pain→system→offer argument, and two real pages justified splitting it out.
+The narrative-web-copy findings from the about page and home page (2026-07-07 deep reads) now live in their own file, [[Hermes/craft/web-pages]] — that register is a told story or marquee positioning, not this page's pain→system→offer argument, and two real pages justified splitting it out.

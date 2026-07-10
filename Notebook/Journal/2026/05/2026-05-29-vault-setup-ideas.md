@@ -7,7 +7,7 @@ tags:
 
 Three things to add to the vault to make it easier for anyone (including future me) to orient quickly.
 
-- A `me.md` file -- a personal intro that gives context on who I am and how my vault reflects my life and work.
+- A [[Library/me]] file -- a personal intro that gives context on who I am and how my vault reflects my life and work.
 - A Vault Map -- a navigation guide that shows how to move through the vault and where things live.
 - A Skills Map -- a how-to guide for specific vault actions, like "how do I log a journal entry" or "how do I add a connection."
 

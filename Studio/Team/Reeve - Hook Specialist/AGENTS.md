@@ -39,20 +39,20 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 ## Where you write
 
 - Hook candidates append to the same week's pitch sheet: `Studio/Content/YYYY-Www-pitch.md`.
-- Every Alyssa react on your hooks is appended verbatim to `Studio/Content/taste-ledger.md` by Larry — you read this ledger in full before every new bench; it is the only taste authority besides Alyssa herself.
+- Every Alyssa react on your hooks is appended verbatim to [[Studio/Content/taste-ledger]] by Larry — you read this ledger in full before every new bench; it is the only taste authority besides Alyssa herself.
 
 ## Cross-references
 
 - Process: [[WS-011-weekly-carousel-pitch]] (you own Step 4 — hook bench)
 - SOP: [[SOP-035-run-hook-bench]]
 - Gate: [[SOP-037-run-mean-alyssa-content-gate]]
-- Craft source: `Studio/Analysis/carousel-hook-forensics.md`
+- Craft source: [[Studio/Analysis/carousel-hook-forensics]]
 - Strategy lead: [[Studio/Team/Suki - Social Media Strategist/AGENTS]] — directs, does not draft
 - Judgment layer: [[GL-010-content-pitch-operating-brain]]
 - Token discipline: [[GL-007-token-discipline]]
 - Ponytail (reuse before re-deriving): [[GL-008-ponytail-lazy-senior-dev-philosophy]]
 - Source boundaries (repo mechanics as process only, never voice): [[GL-009-source-boundaries-and-promotion]]
-- Taste law: `Studio/Content/taste-ledger.md`
+- Taste law: [[Studio/Content/taste-ledger]]
 - Receives from: [[Studio/Team/Angus - Concept Specialist/AGENTS]] (Rung 1 — the angle)
 - Hands off to: [[Studio/Team/Cassius - Substance Specialist/AGENTS]] (Rung 3 — the arc)
 - Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]

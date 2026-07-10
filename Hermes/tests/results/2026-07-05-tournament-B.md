@@ -8,7 +8,7 @@ status: complete
 
 # Architecture B — Carousel Copywriter output
 
-Load actually completed: `Hermes/FABLE.md`, `Hermes/MAP.md`, `Hermes/ANTI-AI.md`, `Hermes/craft/captions-carousels.md`, `Studio/Analysis/carousel-slide-by-slide.md`, `Studio/Analysis/carousel-hook-forensics.md`, `Studio/Analysis/carousel-flow-and-weird-hooks.md`, `Library/Examples/Carousels/captions.md`, `Hermes/BUSINESS.md`, `Hermes/tests/results/2026-07-05-tournament-stage1-briefs.md`. Nothing else. All teaching lines below are the brief's verbatim module quotes — no BOH file was opened directly.
+Load actually completed: [[Hermes/FABLE]], [[Hermes/MAP]], [[Hermes/ANTI-AI]], [[Hermes/craft/captions-carousels]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Analysis/carousel-hook-forensics]], [[Studio/Analysis/carousel-flow-and-weird-hooks]], [[Library/Examples/Carousels/captions]], [[Hermes/BUSINESS]], [[Hermes/tests/results/2026-07-05-tournament-stage1-briefs]]. Nothing else. All teaching lines below are the brief's verbatim module quotes — no BOH file was opened directly.
 
 ---
 

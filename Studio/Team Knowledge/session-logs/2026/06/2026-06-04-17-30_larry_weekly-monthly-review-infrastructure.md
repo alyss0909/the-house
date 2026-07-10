@@ -26,12 +26,12 @@ Alyssa flagged that things were getting lost in the mix — 51+ session logs in 
 - Larry built all infrastructure files:
   - `Team Knowledge/Weekly Reviews/` — README, `_template.md`, `2026/` subfolder
   - `Team Knowledge/Monthly Reviews/` — README, `_template.md`, `2026/` subfolder
-  - `Team Knowledge/Workstreams/WS-006-weekly-review.md` — full workstream with 5-step process
-  - `Team Knowledge/Workstreams/WS-007-monthly-review.md` — full workstream, reads weekly wraps only
+  - [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review]] — full workstream with 5-step process
+  - [[Studio/Team Knowledge/Workstreams/WS-007-monthly-review]] — full workstream, reads weekly wraps only
   - `.claude/commands/weekly-review.md` — `/weekly-review` slash command with `--week` and `--from/--to` override support
   - `.claude/commands/monthly-review.md` — `/monthly-review` slash command with `--month` override
 - Larry updated `Team Knowledge/Workstreams/INDEX.md` with WS-006 and WS-007 entries.
-- Larry added WS-006/WS-007 trigger section to `AGENTS.md` including the close-session nudge rule.
+- Larry added WS-006/WS-007 trigger section to [[AGENTS]] including the close-session nudge rule.
 - Larry updated `.claude/commands/close-session.md` with the weekly review nudge check (step 6).
 - Larry updated `Team Knowledge/INDEX.md` to document Weekly Reviews and Monthly Reviews sections.
 

@@ -31,5 +31,5 @@ This changes Pax's prioritization. Routine 21 was originally scored low-medium b
 
 ## Applied to
 
-- `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`
+- [[Deliverables/2026-06-04-claude-routines-automation-fit-report]]
 - [[tsk-2026-06-04-001-review-claude-routines-automation-report]]

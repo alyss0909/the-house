@@ -8,13 +8,13 @@ status: complete
 
 # Stage 1 briefs — three seeds
 
-Load protocol completed in full: FABLE.md, MAP.md, ANTI-AI.md, TASTE.md, carousel-hook-forensics.md, carousel-flow-and-weird-hooks.md, frameworks/social-hooks.md, Hermes/craft/captions-carousels.md, BUSINESS.md, plus every seed source end to end (paths cited inline). `brief-bank.md` was never opened.
+Load protocol completed in full: FABLE.md, MAP.md, ANTI-AI.md, TASTE.md, carousel-hook-forensics.md, carousel-flow-and-weird-hooks.md, frameworks/social-hooks.md, Hermes/craft/captions-carousels.md, BUSINESS.md, plus every seed source end to end (paths cited inline). [[Library/Examples/Carousels/brief-bank]] was never opened.
 
 ---
 
 ## SEED 1 — Email edu (W1 Mon)
 
-**Sources read in full:** `PKM/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about.md` + `Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method.md` (workbook) + `.../transcripts/1.4 The Double Yes Freebie Transcript.md` (transcript).
+**Sources read in full:** [[Notebook/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach-and-no-this-isnt-about]] + [[Library/Programs/back-of-house/1. The House Specials/1.4 The Double Yes Method]] (workbook) + [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript]] (transcript).
 
 ### Journal seed, verbatim
 Title/body (identical, journal convention): *"How I stopped trying to sell spinach (& no this isn't about my short stint as a nutritionist)"* ... *"Ok it kinda is ."* Tagged `copy`, linked to KE `[[emails]]`. This is a one-line seed, not a developed piece — the module transcript is where the spinach metaphor actually gets built out ("This comes back to the spinach in the smoothie example. Your kid doesn't know that they are feeling so exhausted because they're low on minerals. They feel like I just want something sweet to make me feel better." — 1.4 transcript, ~[00:12:31]). The angle: selling what people already want (the smoothie/sweet craving) as the vehicle for what they actually need (minerals/spinach) — applied here to freebies/email, where the "sweet craving" is a quick win and the "spinach" is the deeper diagnosis her paid system solves.
@@ -48,12 +48,12 @@ Title/body (identical, journal convention): *"How I stopped trying to sell spina
 
 ### Chosen archetype + slide-by-slide structure map
 
-**Archetype: Education/Trend default spine** (this is an educational Monday freebie-led slot; W1 Mon precedent decks are Jan 15/Jan 20 Trend Report archetype per MAP §3 and §5 — but since this seed is a single teaching idea, not a trend roundup, it runs the **validated default 9-slide spine** from `carousel-flow-and-weird-hooks.md`, which the craft file calls the default for every deck unless an archetype legitimately deviates. No deviation is warranted here — it's straight one-nuance teaching, textbook spine.)
+**Archetype: Education/Trend default spine** (this is an educational Monday freebie-led slot; W1 Mon precedent decks are Jan 15/Jan 20 Trend Report archetype per MAP §3 and §5 — but since this seed is a single teaching idea, not a trend roundup, it runs the **validated default 9-slide spine** from [[Studio/Analysis/carousel-flow-and-weird-hooks]], which the craft file calls the default for every deck unless an archetype legitimately deviates. No deviation is warranted here — it's straight one-nuance teaching, textbook spine.)
 
 | Slide | Role | The ONE idea it carries | Source |
 |---|---|---|---|
 | 1 — Cover | Hook, ≤7 words, confession payoff | "I Stopped Trying To Sell Spinach." | journal seed, `2026-01-31-how-i-stopped-trying-to-sell-spinach...md` |
-| 2 — Credibility/open loop | Authority + withheld payoff: something like her real credibility line pattern ("I've reviewed my notes..." construction) recast for freebies — establishes she's built freebies that convert, withholds how | pattern from `carousel-slide-by-slide.md` Jan 15/20/29 credibility slide (quote structure, not the literal words — new context) |
+| 2 — Credibility/open loop | Authority + withheld payoff: something like her real credibility line pattern ("I've reviewed my notes..." construction) recast for freebies — establishes she's built freebies that convert, withholds how | pattern from [[Studio/Analysis/carousel-slide-by-slide]] Jan 15/20/29 credibility slide (quote structure, not the literal words — new context) |
 | 3 — Agitate | Name the real failure mode: freebies that "collect dust," bloated lists of wrong-fit subscribers | 1.4 transcript: "most freebies actually fail... just collect dust in people's inboxes... their freebies are either too vague, they're overwhelming, they're not specific enough" |
 | 4 — Value 1 | The spinach/smoothie metaphor stated as the core teaching mechanism: solve the FELT problem (sweet craving) while quietly solving the REAL problem (mineral deficiency) | transcript spinach line, verbatim above |
 | 5 — Value 2 | "Useful does not lead to conversions" — the myth-bust that a freebie must be maximally helpful/dense | 1.4 transcript: "Useful does not lead to conversions... We need to actually layer in bio-psychology... create this desire and hunger for the churros" |
@@ -79,12 +79,12 @@ Title/body (identical, journal convention): *"How I stopped trying to sell spina
 - "Please don't let ChatGPT write it for you... people can tell."
 
 ### Fact sheet
-- **Chat word:** "List" — verified verbatim in `Hermes/BUSINESS.md` live offer map: Email List Revival Plan (freebie, $0, Email theme, chat word **List**). Positioning verbatim: "The exact 5 re-engagement email strategies that are working now."
+- **Chat word:** "List" — verified verbatim in [[Hermes/BUSINESS]] live offer map: Email List Revival Plan (freebie, $0, Email theme, chat word **List**). Positioning verbatim: "The exact 5 re-engagement email strategies that are working now."
 - **Alternative freebie option per brief:** Bingeable Newsletters — chat word is **manual** (not yet assigned; verified in BUSINESS.md row, status "manual"). If this freebie is used instead of List Resuscitator/List, HALT on chat word — write "manual selection needed," do not invent.
 - **Non-inventable texture harvested:** "collecting dust in your four later folder" (verbatim, transcript — note: likely a transcription artifact of "folder," left verbatim per transcript-fidelity rule, not corrected); the margarita/ladies-night/app-menu/churros extended metaphor (transcript [00:03:13]-[00:04:09]); "spinach in the smoothie" (transcript [00:12:31]); journal source path and exact title string above.
 
 ### Mean Alyssa self-check log
-- Hook #4 ("Nobody Wants Your Free PDF.") killed for second-person "your" on cover — violates Rule 4 (`carousel-hook-forensics.md` §2) and craft-file cover rule 4. Logged, not shipped.
+- Hook #4 ("Nobody Wants Your Free PDF.") killed for second-person "your" on cover — violates Rule 4 ([[Studio/Analysis/carousel-hook-forensics]] §2) and craft-file cover rule 4. Logged, not shipped.
 - Checked all 5 survivors against ANTI-AI negative-parallelism list — none use an "it's not X, it's Y" shape.
 - Checked for documented-winner reuse (weirdness Rule 1) — none of the 4 surviving hooks recycle a logged construction verbatim; "I Stopped Trying To Sell Spinach" is new phrasing even though it shares the Personal-Testimony FORMULA (not a specific winning skeleton) with "Why I Swapped Instagram For Pinterest" — formula reuse is legal, verbatim-construction reuse is not (this is a formula, not a skeleton clone).
 - Confirmed no em-dashes, no staccato runs, no banned vocabulary in any of the 5 hook drafts.
@@ -93,15 +93,15 @@ Title/body (identical, journal convention): *"How I stopped trying to sell spina
 
 ## SEED 2 — Offer (W3 Wed), Back of House
 
-**Sources read in full:** `Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem.md` (workbook) + `Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch.md` (workbook/transcript-adjacent prompts document — note: this file IS the workbook; a separate `4.1 The Lazy Launch Transcript.md` file exists at `transcripts/4.1 The Lazy Launch Transcript.md` — read `4.1 The Lazy Launch.md` in full per instruction; transcript file exists but instruction named "4.1 The Lazy Launch transcript" generically, both draw from same framework).
+**Sources read in full:** [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]] (workbook) + [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch]] (workbook/transcript-adjacent prompts document — note: this file IS the workbook; a separate [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]] file exists at [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.1 The Lazy Launch Transcript]] — read [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch]] in full per instruction; transcript file exists but instruction named "4.1 The Lazy Launch transcript" generically, both draw from same framework).
 
 ### Fact sheet — chat word verification (do this first, it's the gate)
-- **BOH's chat word, verbatim from BUSINESS.md:** **Yes Chef** (table row: "Back of House (flagship) | $3,000 | BoH | Yes Chef | 'The automated sales & marketing department for CEOs with better things to do.'"). Note: `carousel-hook-forensics.md` and `craft/captions-carousels.md` both log the real deployed comment word in-caption as lowercase "yeschef" (Mar 3 carousel: "comment yeschef"). BUSINESS.md's canonical casing is "Yes Chef" — use BUSINESS.md as the verbatim source per Prime Rule 3; the in-caption stylization (lowercase, one word) is a caption-craft choice for the writer to make, not a chat-word fact to alter.
+- **BOH's chat word, verbatim from BUSINESS.md:** **Yes Chef** (table row: "Back of House (flagship) | $3,000 | BoH | Yes Chef | 'The automated sales & marketing department for CEOs with better things to do.'"). Note: [[Studio/Analysis/carousel-hook-forensics]] and [[Hermes/craft/captions-carousels]] both log the real deployed comment word in-caption as lowercase "yeschef" (Mar 3 carousel: "comment yeschef"). BUSINESS.md's canonical casing is "Yes Chef" — use BUSINESS.md as the verbatim source per Prime Rule 3; the in-caption stylization (lowercase, one word) is a caption-craft choice for the writer to make, not a chat-word fact to alter.
 - **Price:** $3,000, confirmed live/pitchable (not in Sunset/Geriatric/idea-stage list).
 - **Positioning, verbatim:** "The automated sales & marketing department for CEOs with better things to do."
 
 ### The Four Core Questions (1.1) — the teaching spine for this seed
-Verbatim from `1.1 Email First Ecosystem.md`:
+Verbatim from [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]]:
 - **Q1:** "What are the amazing outcomes that someone will get after they work with you?"
 - **Q2:** "What are the things your ideal client is scared they will have to do in order to get the outcome you describe in question one?"
 - **Q3:** "What are the reasons your ideal client thinks they can't have the outcome you describe in question one? These are usually their insecurities."
@@ -176,7 +176,7 @@ Plus the Old Way/New Way framework and the Rules of an Email-First Offer Suite (
 
 ## SEED 3 — For The Girls (Fri)
 
-**Sources read in full:** `PKM/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md` + the full linked cluster (6 entries, confirmed via grep matching the note's own "Related notes" list exactly — no additional hits found beyond the KE file): `2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md`, `2021-02-26-hold-your-vision-trust-the-process.md`, `2021-08-16-freedom-is-your-compass.md`, `2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it.md`, `2023-11-21-nourishing-north-star.md`, `2024-02-25-there-is-so-right-and-wrong-decision.md`. Also read the parent KE `PKM/My Life/Key Elements/Life/becoming.md`, which indexes all six under "inspo" with Alyssa's own one-line gloss on the 03-06 entry: "reframe setbacks with curiosity instead of catastrophizing." Read Jan 22 precedent slide-by-slide in full (`analysis/carousel-slide-by-slide.md` lines 360-459) per the manifesto archetype mandate.
+**Sources read in full:** [[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]] + the full linked cluster (6 entries, confirmed via grep matching the note's own "Related notes" list exactly — no additional hits found beyond the KE file): [[Notebook/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge]], [[Notebook/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process]], [[Notebook/Journal/2021/08/2021-08-16-freedom-is-your-compass]], [[Notebook/Journal/2023/10/2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it]], [[Notebook/Journal/2023/11/2023-11-21-nourishing-north-star]], [[Notebook/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision]]. Also read the parent KE [[Notebook/Life/Key Elements/Life/becoming]], which indexes all six under "inspo" with Alyssa's own one-line gloss on the 03-06 entry: "reframe setbacks with curiosity instead of catastrophizing." Read Jan 22 precedent slide-by-slide in full ([[Studio/Analysis/carousel-slide-by-slide]] lines 360-459) per the manifesto archetype mandate.
 
 ### The cluster, verbatim (these are short musing-fragment entries — near-total content is the title line itself, which IS the note body per her journal convention)
 
@@ -223,14 +223,14 @@ Plus the Old Way/New Way framework and the Rules of an Email-First Offer Suite (
 | Slide | Role | The ONE idea it carries | Source |
 |---|---|---|---|
 | 1 — Cover | Provocation hook + identity qualifier, no teaching | "Nothing Has Gone Wrong Yet." | this brief, cover-hook ranking above |
-| 2 — Permission slip #1 | "I" statement translating the 2019 entry | Setting unrealistic goals is self-sabotage → reframed as permission: naming realistic goals as the trustworthy ones | `2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md` |
-| 3 — Permission slip #2 | "I" statement from the 2021 entries | Holding vision + trusting process as the actual compass (not the outcome) | `2021-02-26-hold-your-vision-trust-the-process.md` + `2021-08-16-freedom-is-your-compass.md` (these two entries are thematically fused — vision/process/freedom-as-compass are one idea across two notes) |
-| 4 — Permission slip #3 | "I" statement, decision-philosophy | No decision is objectively right or wrong — only what's made of it | `2024-02-25-there-is-so-right-and-wrong-decision.md` |
-| 5 — Permission slip #4 | "I" statement, the nourishing filter | The four-question self-check before taking anything on: who is this easy for, what can be eliminated, what has to be done, what's actually stressing her out | `2023-11-21-nourishing-north-star.md` |
+| 2 — Permission slip #1 | "I" statement translating the 2019 entry | Setting unrealistic goals is self-sabotage → reframed as permission: naming realistic goals as the trustworthy ones | [[Notebook/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge]] |
+| 3 — Permission slip #2 | "I" statement from the 2021 entries | Holding vision + trusting process as the actual compass (not the outcome) | [[Notebook/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process]] + [[Notebook/Journal/2021/08/2021-08-16-freedom-is-your-compass]] (these two entries are thematically fused — vision/process/freedom-as-compass are one idea across two notes) |
+| 4 — Permission slip #3 | "I" statement, decision-philosophy | No decision is objectively right or wrong — only what's made of it | [[Notebook/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision]] |
+| 5 — Permission slip #4 | "I" statement, the nourishing filter | The four-question self-check before taking anything on: who is this easy for, what can be eliminated, what has to be done, what's actually stressing her out | [[Notebook/Journal/2023/11/2023-11-21-nourishing-north-star]] |
 | 6 — Insight/maxim (the ONE non-"I" slide, per Jan 22's own rule) | Universal principle, 4ish words, breaks the "I" pattern deliberately | Candidate maxim: "Curiosity Outlasts Certainty." or "Nothing Has Gone Wrong Yet." repositioned as the maxim if the cover uses a different line — **flagged for Alyssa/finals to pick which line is cover vs. maxim, since both are strong enough to fight over the same slot** (this is a genuine open call, not resolved here per Mean Alyssa doctrine on taste calls with no provable single answer) | derived from the cluster's throughline, not any single verbatim line — composed maxim, to be treated as a NEW line requiring her sign-off, not sourced verbatim |
-| 7 — Permission slip #5 / anchor | "I" statement, the self-trust anchor closing the arc | The literal seed line: "I can't wait to see why this didn't work out" — positioned here (not on cover) as the anchor statement, exactly where Jan 22 put its own longest, most self-trust-forward line ("I Trust Myself to Know the Difference...") | `2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md` |
+| 7 — Permission slip #5 / anchor | "I" statement, the self-trust anchor closing the arc | The literal seed line: "I can't wait to see why this didn't work out" — positioned here (not on cover) as the anchor statement, exactly where Jan 22 put its own longest, most self-trust-forward line ("I Trust Myself to Know the Difference...") | [[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]] |
 | 8 — Brand pause (pattern interrupt, wordless per brief's "no credibility slide" spirit) | Visual-only beat, NO product/logo CTA per this brief's explicit instruction (stricter than Jan 22, which had a soft waitlist seed) — recommend a wordless brand-color pause slide with zero text, not even "waitlist" | brief instruction: "NO product CTA" |
-| 9 — Engagement-question close | Open question inviting the reader's own version | Candidate: "What Didn't Work Out That You're Now Grateful For?" (mirrors Jan 22's exact close-question structure: "What Are Your January Reminders?") | structural precedent: `carousel-slide-by-slide.md` Jan 22 Slide 9, verbatim quoted above |
+| 9 — Engagement-question close | Open question inviting the reader's own version | Candidate: "What Didn't Work Out That You're Now Grateful For?" (mirrors Jan 22's exact close-question structure: "What Are Your January Reminders?") | structural precedent: [[Studio/Analysis/carousel-slide-by-slide]] Jan 22 Slide 9, verbatim quoted above |
 
 **Prop-world direction:** Jan 22 used the BOH monogram coffee cup as a literal text-container across all 9 slides (deep terracotta red background, words resting inside the cup). Per brief's manifesto-archetype mandate (no credibility slide, no product mention), recommend the SAME cup-as-container visual device for continuity/brand-recognition across For The Girls posts (this is documented as her design metaphor, not an invented one), but the color/prop choice itself (which color, which object) is a TASTE call belonging to Iris/design, not this brief's scope.
 
@@ -238,16 +238,16 @@ Plus the Old Way/New Way framework and the Rules of an Email-First Offer Suite (
 - **No teaching content in this seed — correct per archetype.** This is identity/permission content; per MAP/FABLE Failure Mode #9, treating it as filler would be a violation. It is being treated with full structural weight here.
 - **No chat word needed** — Jan 22 precedent explicitly "CTA word: none," and this brief mandates NO product CTA, consistent with the archetype.
 - **Non-inventable texture harvested (verbatim, with paths):**
-  - "I can't wait to see why this didn't work out" — `Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md`
-  - "Setting unrealistic goals is a form of self sabatoge" [sic, preserve her spelling] — `Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md`
-  - "Hold your vision, trust the process" — `Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process.md`
-  - "freedom is your compass" — `Journal/2021/08/2021-08-16-freedom-is-your-compass.md`
-  - "Who is this easy for / How can I just eliminate this / What has to be done / What is stressing me out / feeling shitty" — `Journal/2023/11/2023-11-21-nourishing-north-star.md`
-  - "There is so right and wrong decision [sic] ... there is the decisions that we make and how we make the most of them" — `Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision.md`
-  - Her own gloss on the anchor entry, from the `becoming` KE: "reframe setbacks with curiosity instead of catastrophizing" — `PKM/My Life/Key Elements/Life/becoming.md`
+  - "I can't wait to see why this didn't work out" — [[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]]
+  - "Setting unrealistic goals is a form of self sabatoge" [sic, preserve her spelling] — [[Notebook/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge]]
+  - "Hold your vision, trust the process" — [[Notebook/Journal/2021/02/2021-02-26-hold-your-vision-trust-the-process]]
+  - "freedom is your compass" — [[Notebook/Journal/2021/08/2021-08-16-freedom-is-your-compass]]
+  - "Who is this easy for / How can I just eliminate this / What has to be done / What is stressing me out / feeling shitty" — [[Notebook/Journal/2023/11/2023-11-21-nourishing-north-star]]
+  - "There is so right and wrong decision [sic] ... there is the decisions that we make and how we make the most of them" — [[Notebook/Journal/2024/02/2024-02-25-there-is-so-right-and-wrong-decision]]
+  - Her own gloss on the anchor entry, from the `becoming` KE: "reframe setbacks with curiosity instead of catastrophizing" — [[Notebook/Life/Key Elements/Life/becoming]]
 
 ### Mean Alyssa self-check log
-- Hook #1 (verbatim seed line as cover) and #4 (extended self-trust line) both killed for being interior/content-slide-length lines cosplaying as covers — the exact failure mode named in `carousel-hook-forensics.md` §1 for the original rejected "Your List Isn't Cold" hook. Both were reclassified into the slide map rather than discarded outright (the seed line lives at Slide 7, its natural weight-bearing position).
+- Hook #1 (verbatim seed line as cover) and #4 (extended self-trust line) both killed for being interior/content-slide-length lines cosplaying as covers — the exact failure mode named in [[Studio/Analysis/carousel-hook-forensics]] §1 for the original rejected "Your List Isn't Cold" hook. Both were reclassified into the slide map rather than discarded outright (the seed line lives at Slide 7, its natural weight-bearing position).
 - Slide 6 maxim is flagged as an OPEN CALL, not resolved — two strong candidate lines compete for cover vs. maxim placement, and per MEAN-ALYSSA doctrine (taste/strategy decision with no provable single answer) this is logged for Alyssa's direct call at the tournament finals rather than silently picked.
 - Confirmed zero em-dashes, zero staccato runs, zero banned vocabulary, zero reframe shapes across all 5 hook drafts and the slide-map candidate lines.
 - Confirmed this seed pulls ONLY from the mandated cluster + the 2026-03-06 entry — no cross-contamination from Seed 1 or Seed 2 sources (checked explicitly, given the cross-contamination catch already made in Seed 2).

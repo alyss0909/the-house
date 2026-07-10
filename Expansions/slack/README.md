@@ -63,9 +63,9 @@ Proprietary — myICOR AI Library Software License. See LICENSE.
 Declared in `expansion.yaml` `uninstall.residual_paths`:
 
 - `~/Library/LaunchAgents/com.mypka.slack-listener.plist` (macOS only, if autostart is enabled)
-- `Team Knowledge/SOPs/SOP-slack-incoming-routing.md` (auto-numbered into next free SOP-NNN slot)
-- `Team Knowledge/SOPs/SOP-slack-post-message.md` (auto-numbered)
-- `Team Knowledge/SOPs/SOP-slack-listener-health.md` (auto-numbered)
+- [[Expansions/slack/sops/SOP-slack-incoming-routing]] (auto-numbered into next free SOP-NNN slot)
+- [[Expansions/slack/sops/SOP-slack-post-message]] (auto-numbered)
+- [[Expansions/slack/sops/SOP-slack-listener-health]] (auto-numbered)
 - `Team Inbox/slack-incoming/` (your inbound message queue)
 - `Team Inbox/slack-outgoing/` (your outbound message queue)
 - `/tmp/mypka-slack-listener.log` and `/tmp/mypka-slack-listener.err` (launchd capture)

@@ -2,7 +2,7 @@
 
 # craft/captions-carousels.md
 
-**Mandatory vault load before writing any carousel:** read `Studio/Analysis/carousel-slide-by-slide.md` + `Studio/Analysis/Frameworks/social-hooks.md` + `Library/Examples/Carousels/captions.md` in full, plus `Studio/Analysis/carousel-hook-forensics.md` (the ranked cover analysis). Do not write from this summary alone.
+**Mandatory vault load before writing any carousel:** read [[Studio/Analysis/carousel-slide-by-slide]] + [[Studio/Analysis/Frameworks/social-hooks]] + [[Library/Examples/Carousels/captions]] in full, plus [[Studio/Analysis/carousel-hook-forensics]] (the ranked cover analysis). Do not write from this summary alone.
 
 ## Cover rules (Gate-3 v2 failure autopsy, 2026-07-05 — "literally not even a social media hook")
 
@@ -73,7 +73,7 @@ Watch-for: gate-trained judges over-penalize her REAL slide-2 audience-belief-mi
 
 ## Deep-read additions (2026-07-07, full caption-corpus pass — micro-mechanics the first mining missed)
 
-Full study: `learning/deep-reads/2026-07-07-0412-carousel-captions-corpus.md`. All quoted from the real top-13.
+Full study: [[Hermes/learning/deep-reads/2026-07-07-0412-carousel-captions-corpus]]. All quoted from the real top-13.
 
 1. **The whisper caption — length scales inversely with the visual.** When the image/deck carries the joke, the caption goes near-silent and reacts instead of explaining: the Guest Cheque quote post's ENTIRE caption is "guys, i think i figured it out" (5 words, no CTA). Education/offer decks earn the full 5-8-paragraph build. A caption that restates the slides is a tell.
 2. **Faux-disclaimer openers**: announce the sin, commit it anyway — "Not to be dramatic... but i think it's time to break up with social" / "Sorry but Feb is the new Jan." The disclaimer IS the joke, distinct from throat-clearing.

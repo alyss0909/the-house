@@ -24,7 +24,7 @@ Larry dispatched Silas to execute Phase 3 of the Notion Products DB import. Sour
 - Stripped currency symbols and commas from Price Point; left field blank for $0.00 records.
 - Used Sales Page column (not Link to Product) as sales_page_url. Trimmed whitespace from URLs with trailing spaces.
 - Wrote 28 Offer files to `PKM/My Life/Offers/<slug>.md`.
-- Updated `PKM/My Life/Offers/INDEX.md` Active files section with all 28 entries, alphabetically sorted by slug.
+- Updated [[PKM/My Life/Offers/INDEX]] Active files section with all 28 entries, alphabetically sorted by slug.
 
 ## Decisions made
 

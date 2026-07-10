@@ -2,7 +2,7 @@
 
 *DRAFT — not canonical. Prepared by Larry for Alyssa's Gate-2 review, 2026-07-08. Nothing here becomes a live SOP until Alyssa approves. Synthesizes Suki (strategy), Pax (standards research), Mack (trend wiring), Nolan (hiring gate).*
 
-**Read order for reviewers:** this pack is the process. `APPROVAL-MEMO.md` is the plain-English "what am I approving." Read the memo first.
+**Read order for reviewers:** this pack is the process. [[Deliverables/2026-07-08-content-os-reset/APPROVAL-MEMO]] is the plain-English "what am I approving." Read the memo first.
 
 ---
 
@@ -39,7 +39,7 @@ Monthly Apify scrape (existing — do NOT rebuild)
 
 - **Owner:** Mack (wiring) / Suki (interpretation). *Automation function, not a hire — see hiring plan.*
 - **Trigger:** **Sunday**, before SOP-038 — feeds Monday's review of a future publish week.
-- **Inputs:** latest monthly Apify swipe file (`Team Inbox/pitches/swipe/YYYY-MM-swipe.md` + `covers-YYYY-MM/`); `trusted-sources.md` Layer 3 macro sources; `taste-ledger.md`; recent Alyssa grid if relevant.
+- **Inputs:** latest monthly Apify swipe file (`Team Inbox/pitches/swipe/YYYY-MM-swipe.md` + `covers-YYYY-MM/`); [[Studio/Content/trusted-sources]] Layer 3 macro sources; [[Studio/Content/taste-ledger]]; recent Alyssa grid if relevant.
 - **Output:** `Team Inbox/pitches/trend-briefs/YYYY-Www-trend-brief.md` (new folder, no setup blocker).
 - **Must include (8):** what's working now (each claim = a named real trusted-account example, never a vibe) · **what's STALE** (explicit — so we stop reusing dead mechanics) · top cover mechanics · top slide-structure patterns · examples from trusted accounts · opportunity notes for Alyssa's offers · **Mean Alyssa ammo per rung** · scrape gaps.
 - **Health checks (Mack, ceilings named):** no-run detection = swipe-file mtime only (can't see inside the Claude app); gap reporting echoes what the swipe file logged; staleness/overlap = naive text match, not semantic. WS-011 step 1 halts on a stale-scrape banner before Suki's brief runs.
@@ -50,7 +50,7 @@ Monthly Apify scrape (existing — do NOT rebuild)
 
 - **Owner:** Suki (strategic; not a maker rung).
 - **Trigger:** **Sunday**, right after SOP-033, before Concept.
-- **Inputs:** the week's Trend Scout Brief; offer atlas / `Hermes/MAP.md` §3 + `FUNNEL.md`; taste ledger.
+- **Inputs:** the week's Trend Scout Brief; offer atlas / [[Hermes/MAP]] §3 + [[Hermes/FUNNEL]]; taste ledger.
 - **Format (Alyssa, 2026-07-08 — resolved):** a **team-usable one-pager** (theme · per-slot offer lock M=free/W=product/F · what we're deliberately STOPPING · the ONE belief we're moving · comment-CTA keyword per slot) that the makers work off directly. **Alyssa's surface is a 2-line skim only:** *"Here's our ultimate goal this week — and here's your first approval."* She does not read the full brief unless she wants to.
 - **PASS:** Concept can pitch straight off the one-pager with no re-guessing; the bet is explicit; Alyssa's 2-line skim names the goal + the one thing she's approving first.
 - **FAIL:** raw trend data forwarded with no bet attached; no stop-list; north star left implicit; Alyssa handed the full brief instead of the 2-line skim.
@@ -58,7 +58,7 @@ Monthly Apify scrape (existing — do NOT rebuild)
 ## SOP-034 — Write Concept Pitch Brief
 
 - **Owner:** Concept Specialist / Suki-directed. *(Run internally first, per hiring plan.)*
-- **Inputs:** Trend Brief; Suki Weekly Brief; slot/offer lock; `Hermes/FUNNEL.md`, `MAP.md` §3, offer files; taste ledger; Alyssa source files for the topic.
+- **Inputs:** Trend Brief; Suki Weekly Brief; slot/offer lock; [[Hermes/FUNNEL]], `MAP.md` §3, offer files; taste ledger; Alyssa source files for the topic.
 - **Output:** 10+ concept candidates internally → survivors shown to Alyssa as **plain-language concepts**. Goal: 3 Mean-Alyssa-surviving concepts per M/W/F slot before Alyssa chooses.
 - **Backend fields (Pax: match professional creative-brief norm — Asana/adlibrary verbatim):** audience moment · objective · key insight · single message · desired behavior · **angle (the belief-breaking meaning — named separately from words: Concept owns the angle, Hook owns the words)** · offer/freebie tie · **comment-CTA keyword** · trend signal · Alyssa teaching/source clue · belief it breaks · approval path.
 - **Alyssa-facing shape:** "A post about [reader problem] and [specific solution/angle], funny/sharp because [belief it breaks], gives them [do-right-now payoff], CTA [freebie/offer]."
@@ -68,7 +68,7 @@ Monthly Apify scrape (existing — do NOT rebuild)
 ## SOP-035 — Run Hook Bench
 
 - **Owner:** Hook Specialist / Suki-directed. *(Run internally first.)*
-- **Inputs:** Alyssa-approved concept (+ its named angle); Trend Brief; current swipe covers; `analysis/carousel-hook-forensics.md`; repo mechanics **as adapted process only**.
+- **Inputs:** Alyssa-approved concept (+ its named angle); Trend Brief; current swipe covers; [[Studio/Analysis/carousel-hook-forensics]]; repo mechanics **as adapted process only**.
 - **Use:** first-3-words test · hook = 50% of the score · batch variety · payoff required · no self-resolving reframe · one reach word + one emotional/coined word · "so what?" test · **comment/send-driving check** (the north star — save is a *secondary* lever, never the target).
 - **Output:** many internally → **3 Mean-Alyssa-surviving hooks per concept** for Alyssa to choose.
 - **PASS:** real reason to swipe AND matches the concept's actual teaching (no bait-and-switch); has a payoff; engineered toward the comment/send. **"Save-worthy but not comment-driving" is a FAIL, not a pass.**
@@ -77,15 +77,15 @@ Monthly Apify scrape (existing — do NOT rebuild)
 ## SOP-036 — Build Substance Dossier
 
 - **Owner:** Substance Specialist (Cassius, re-tested under THIS standard — not the old "make an arc" one).
-- **Inputs:** approved concept + hook; Suki brief; **exact Alyssa source files**; BOH/module/transcript/template/offer files; `Hermes/FUNNEL.md`; Alyssa carousel forensics; real data sources for any number.
+- **Inputs:** approved concept + hook; Suki brief; **exact Alyssa source files**; BOH/module/transcript/template/offer files; [[Hermes/FUNNEL]]; Alyssa carousel forensics; real data sources for any number.
 - **Output — TWO parts:** (1) **the GL-011 arc, in its exact §5 contract** (`### DAYKEY — Title` / `**Cover:**` / numbered `N. Role: X → so that Y — copy` / `Sources:` / `Hooks:`) — this is the *deliverable*, dashboard-parseable, per the law Cassius is bound to; (2) a **provenance sheet** — the worksheet fields behind it: what Alyssa actually teaches · where (file/line) · her philosophy AND anti-philosophy · reader desire + objection · source quotes · un-inventable proof · what the post gives away vs teases · $5 + offer-desire checks. *The dossier fields are the maker's worksheet; the GL-011 arc is what ships downstream.* Numbers per GL-011 §3 (see PASS).
-- **PASS (evidence-bound, not vibes):** **$5 test** passes ONLY if the post carries ≥1 un-inventable, *cited* (file/line) detail a reader couldn't get free from a top-9 post. **Offer-desire test** passes ONLY if the tease maps to a specific named `FUNNEL.md` belief-gap. Every number real and inside GL-011 §3 bands (engaged ~40–57%; single-digit/low-teens OK for cold/ghost lists; **never an invented 3%**).
+- **PASS (evidence-bound, not vibes):** **$5 test** passes ONLY if the post carries ≥1 un-inventable, *cited* (file/line) detail a reader couldn't get free from a top-9 post. **Offer-desire test** passes ONLY if the tease maps to a specific named [[Hermes/FUNNEL]] belief-gap. Every number real and inside GL-011 §3 bands (engaged ~40–57%; single-digit/low-teens OK for cold/ghost lists; **never an invented 3%**).
 - **DEADLIEST FAIL:** "feels like Alyssa would teach this" with no cited source — the exact Cassius failure, and the exact industry mediocrity pattern (Pax, externally verified). Substance without provenance is confident generic advice.
 
 ## SOP-037 — Run Mean Alyssa Content Gate  *(reusable at every rung)*
 
 - **Owner:** Suki / Larry; every content rung runs it.
-- **Must use:** taste ledger · trend brief (incl. **stale-mechanic kill authority** — Suki hole #3: a mechanic named stale in SOP-033 is an automatic strike) · Alyssa real-source proof · repo review mechanics · line-by-line kill format · subtract-points scoring · **both-directions control calibration against a FIXED control set** — the gate re-scores 2 real-*approved* pieces + 1 real-but-flagged-too-AI piece (e.g. the Soft Sundays miss / `me-i-need-ideas-i-already-had.md`) each run; if it misclassifies a control, the gate is benched before it judges new work (a judge that flags her REAL copy as fake is as broken as one that praises slop; note: *published ≠ approved*, so provenance alone isn't the control) · "what would Alyssa immediately call bullshit on?"
+- **Must use:** taste ledger · trend brief (incl. **stale-mechanic kill authority** — Suki hole #3: a mechanic named stale in SOP-033 is an automatic strike) · Alyssa real-source proof · repo review mechanics · line-by-line kill format · subtract-points scoring · **both-directions control calibration against a FIXED control set** — the gate re-scores 2 real-*approved* pieces + 1 real-but-flagged-too-AI piece (e.g. the Soft Sundays miss / [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]]) each run; if it misclassifies a control, the gate is benched before it judges new work (a judge that flags her REAL copy as fake is as broken as one that praises slop; note: *published ≠ approved*, so provenance alone isn't the control) · "what would Alyssa immediately call bullshit on?"
 - **Kill questions per gate:**
   - **Concept:** idea or topic? · stranger stops or module-summary-in-a-trenchcoat? · name the belief it breaks or it's dead · what does it sell, does the tease earn the freebie?
   - **Hook:** first 3 words — swipe or yawn? · does it resolve itself? · my hook or a library reheat? · where's the payoff? · does anyone SEND this?

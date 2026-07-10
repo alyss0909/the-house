@@ -28,8 +28,8 @@ Fourth session for Alyssa. WS-002 execution session: Phases 0–4 of the Notion 
 - **Silas** (Phase 2): Created 10 Topic files (Good Copy, Brand Words, Webinars, SEO, Design Inspo, Personal Development, Montessori, Garden, Space, AI). Updated Topics `INDEX.md`.
 - **Silas** (Phase 3): Read Products DB CSV, filtered to Live + Needs Edits (25 of 41 records), created 25 Offer files. Updated Offers `INDEX.md`.
 - **Silas** (Phase 4): Created 5 Project files (Rebrand, Spring '26 Launch, Office Reno, Systematize Socials, Slo Updates) + 2 Goal files (Monthly Workshops, Blog & Pin). Updated both INDEXes.
-- **Larry** wired `linked_offers: [back-of-house]` on `spring-26-launch.md` (Notion had this relation).
-- **Larry** added `linked_topics` to GL-002 Goals schema (parity with Projects; triggered by `blog-and-pin.md` using the field).
+- **Larry** wired `linked_offers: [back-of-house]` on [[Notebook/Life/Projects/spring-26-launch]] (Notion had this relation).
+- **Larry** added `linked_topics` to GL-002 Goals schema (parity with Projects; triggered by [[Notebook/Life/Goals/blog-and-pin]] using the field).
 - **Silas** (post-Phase 4 remediation): Wired `**Part of:** [[KE]]` and `**Related X:**` wikilinks into all 42 entity file bodies — 10 Topics, 5 Projects, 2 Goals, 25 Offers. All relationship data was already known from Notion; this was a structural gap in the initial import where bodies were left empty. Cross-links are structural data in myPKA, not optional prose — wired at import time going forward.
 
 ## Decisions made
@@ -63,7 +63,7 @@ Fourth session for Alyssa. WS-002 execution session: Phases 0–4 of the Notion 
 
 - [ ] **Phase 5 — Idea Pantry Documents:** Ready to run in a new session. Handoff note written in this session's conversation. CSV at `C:\Users\accol\AppData\Local\Temp\idea Pantry DB 2f4c8b43e5658142a060f4e3c920e7f4_all.csv`. ~450 non-Archived records. Batch at ~100/pass.
 - [x] **Offer Tags + Chat Word:** Dropped from Offer import. Alyssa confirmed: not needed. Closed.
-- [ ] **`slo-updates.md` linked_offers:** Blank. Which offer slug maps to the SLO? Alyssa to fill in manually once she knows (likely `list-resuscitator` or a product not yet imported).
+- [ ] **[[Notebook/Life/Projects/slo-updates]] linked_offers:** Blank. Which offer slug maps to the SLO? Alyssa to fill in manually once she knows (likely `list-resuscitator` or a product not yet imported).
 - [ ] **design area:** Parked from session 1. Circle back after main import is complete.
 - [ ] **Published content archive:** Deferred. Not in import scope.
 - [ ] **AI Writing Context pack:** Future workstream. Not in scope.

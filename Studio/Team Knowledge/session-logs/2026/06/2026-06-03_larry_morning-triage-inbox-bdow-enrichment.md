@@ -19,12 +19,12 @@ Alyssa opened with a morning check-in — no formal task queue existed, so Larry
 - **Larry** confirmed Telegram test message landed in `Team Inbox/` — `2026-06-02-19-10-test-this-is-my-new-idea.md` captured cleanly. Pipe is working.
 - **Larry** created `Team Inbox/_Processed/` archive folder as the inbox cleanup solution (no delete permission needed — move processed files here, Alyssa deletes the folder manually when ready).
 - **Larry** moved the Telegram test capture and the morning conversion article capture into `_Processed/`.
-- **Larry** updated `PKM/CRM/People/samir.md` — corrected rate to $28/hr, added contract_status: agreed pending final written version.
-- **Larry** fetched `bdow.com/stories/conversion-rate-optimization/` and filed full enriched entry at `PKM/Journal/2026/06/2026-06-03-conversion-rate-optimization-article.md` — stats, five-bucket framework, leaky bucket quote, "how I'd use this" section.
-- **Larry** fetched `bdow.com/stories/headline-formulas/` and enriched the existing stub at `PKM/Journal/2026/05/2026-05-14-headline-formulas.md` — 35 formulas in 6 buckets, tables format, tagged `second-brain` and `email subject lines`.
-- **Larry** fetched `bdow.com/stories/persuasive-email/` and `bdow.com/stories/trigger-words/` for context summaries only — added as blurbs to `PKM/Journal/2026/01/2026-01-11-blog-post-ideas.md` (kept as running list, not fully enriched).
+- **Larry** updated [[Notebook/Life/CRM/People/samir]] — corrected rate to $28/hr, added contract_status: agreed pending final written version.
+- **Larry** fetched `bdow.com/stories/conversion-rate-optimization/` and filed full enriched entry at [[Notebook/Journal/2026/06/2026-06-03-conversion-rate-optimization-article]] — stats, five-bucket framework, leaky bucket quote, "how I'd use this" section.
+- **Larry** fetched `bdow.com/stories/headline-formulas/` and enriched the existing stub at [[Notebook/Journal/2026/05/2026-05-14-headline-formulas]] — 35 formulas in 6 buckets, tables format, tagged `second-brain` and `email subject lines`.
+- **Larry** fetched `bdow.com/stories/persuasive-email/` and `bdow.com/stories/trigger-words/` for context summaries only — added as blurbs to [[Notebook/Journal/2026/01/2026-01-11-blog-post-ideas]] (kept as running list, not fully enriched).
 - **Larry** wikilinked all four Bdow entries to each other across all three files.
-- **Larry** confirmed web copy is already filed in Second Brain — `examples/about-page.md`, `examples/home-page.md`, `examples/meta-copy.md` all present.
+- **Larry** confirmed web copy is already filed in Second Brain — `examples/about-page.md`, `examples/home-page.md`, [[Library/Examples/meta-copy]] all present.
 - **Larry** surfaced and organized Alyssa's full day task list (see Decisions and Open Threads).
 
 ## Decisions made

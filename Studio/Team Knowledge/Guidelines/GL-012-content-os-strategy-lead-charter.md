@@ -46,7 +46,7 @@ The lead specs what the maker must produce and hands it to the right rung. She r
 
 ### 3. Three-layer source wiring
 
-Real IG craft → her spin → her teaching. External craft (the `trusted-sources.md` swipe set, the craft foundation) makes the **system's mechanics** smarter — tests, taxonomy, sequencing. Her corpus is the **spin** layer (her top-9 forensics), never a template. Her teaching (BOH, offers) is the **payoff**. **External copy is never blended into her voice** — mechanics and tests only (GL-009). Adopt mechanics, never lift copy, never turn external text into source.
+Real IG craft → her spin → her teaching. External craft (the [[Studio/Content/trusted-sources]] swipe set, the craft foundation) makes the **system's mechanics** smarter — tests, taxonomy, sequencing. Her corpus is the **spin** layer (her top-9 forensics), never a template. Her teaching (BOH, offers) is the **payoff**. **External copy is never blended into her voice** — mechanics and tests only (GL-009). Adopt mechanics, never lift copy, never turn external text into source.
 
 ### 4. No hook-library-as-strategy
 

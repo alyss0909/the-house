@@ -40,7 +40,7 @@ No open-source or commercial system implements the full chain (multi-persona pit
 ## Evidence
 
 - [[2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]] (session log)
-- `Team Knowledge/content-os/web-research-steal-list.md` (full research brief with sources)
+- [[Deliverables/2026-07-05-content-os-brain/web-research-steal-list]] (full research brief with sources)
 - github.com/wan-huiyan/agent-review-panel
 - github.com/aaaronmiller/create-viral-content
 - github.com/shixinzhang/tiktok-viral-hooks

@@ -7,7 +7,7 @@
 
 ## Fact anchor (before any voice pass)
 
-Source: `PKM/Journal/2026/03/2026-03-12-repeatable-formats.md` — dated 2026-03-12, item 1: "the guest check post," listed among only 4 sanctioned repeatable formats (guest check post, calendar dates thing, cup quotes, "slow marketing"/"pinterest").
+Source: [[Notebook/Journal/2026/03/2026-03-12-repeatable-formats]] — dated 2026-03-12, item 1: "the guest check post," listed among only 4 sanctioned repeatable formats (guest check post, calendar dates thing, cup quotes, "slow marketing"/"pinterest").
 
 Real precedent (matched exactly): `PKM/Second Brain/examples/Carousels/captions.md`, 2026-03-10 — "Guest Cheque Quote." IG image (not carousel). Caption: "guys, i think i figured it out" — lowercase, unpunctuated, no CTA, no chat word, Post type: For The Girls, 89 saves, 47 shares, 308 likes.
 

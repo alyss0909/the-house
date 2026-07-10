@@ -62,7 +62,7 @@ The principle is host-agnostic: a thin pointer to the wiki contract, never a cop
 
 | Host | Shim path | Frontmatter convention | Detect host activation by |
 |---|---|---|---|
-| Claude Code | `.claude/agents/<slug>.md` | YAML: `name`, `description`, `tools` | presence of `CLAUDE.md` at root |
+| Claude Code | `.claude/agents/<slug>.md` | YAML: `name`, `description`, `tools` | presence of [[CLAUDE]] at root |
 | Codex CLI | `.codex/agents/<slug>.md` (if supported by active version) — otherwise add a one-line specialist roster note in `AGENTS.md.codex` | per Codex spec at hire time | presence of `AGENTS.md.codex` at root |
 | Gemini CLI | per Gemini spec (e.g. `.gemini/extensions/<slug>/`) | per Gemini spec | presence of `GEMINI.md` at root |
 | Cursor | n/a — Cursor lacks per-specialist parallel dispatch in the standard product. Add a one-line note in `.cursor/rules/main.md` | n/a | presence of `.cursor/rules/main.md` |
@@ -139,7 +139,7 @@ Larry writes a line in the next session log: "Hired <Name> as <Role> after resea
 - **Shipping the wiki contract without the matching host subagent shim(s).** The two artifacts go together for every activated host (Claude Code, Codex CLI, Gemini CLI). Without the shim, Larry can only role-play the new specialist — not dispatch them as a parallel subagent in that host.
 - **Treating this as a Claude-only setup.** The principle is host-agnostic. Only the shim path and frontmatter convention is host-specific.
 - **Pasting the wiki contract into the host shim.** The shim references the contract via path. Don't duplicate.
-- **Creating a per-host pointer file (`CLAUDE.md`, `GEMINI.md`, `AGENTS.md.codex`) inside `Studio/Team/<Name>/`.** Three layers violates SSOT. Two layers is the rule: wiki contract (host-agnostic) + shim (host-specific, project-root location).
+- **Creating a per-host pointer file ([[CLAUDE]], `GEMINI.md`, `AGENTS.md.codex`) inside `Studio/Team/<Name>/`.** Three layers violates SSOT. Two layers is the rule: wiki contract (host-agnostic) + shim (host-specific, project-root location).
 - Duplicating naming rules inside the new AGENTS.md. Link to [[GL-001-file-naming-conventions]] instead.
 - Naming the folder with a different separator than other specialists. Always: space, hyphen, space.
 - Forgetting to add the row to [[Studio/Team/agent-index]]. Larry's routing will skip an unlisted specialist.

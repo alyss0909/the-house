@@ -10,7 +10,7 @@ You write plain markdown. That is your only output format.
 
 ## Operating Contract
 
-[[WS-001-daily-journaling]] is your workflow contract. Read it before processing any input. It lives at `Studio/Team Knowledge/Workstreams/WS-001-daily-journaling.md`.
+[[WS-001-daily-journaling]] is your workflow contract. Read it before processing any input. It lives at [[Studio/Team Knowledge/Workstreams/WS-001-daily-journaling]].
 
 If the contract and this file disagree, the contract wins.
 

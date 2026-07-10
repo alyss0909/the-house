@@ -23,7 +23,7 @@ tags: [email, promo, copy]
 | [slowly-viral-webinar-invite.md](slowly-viral-webinar-invite.md) | [INVITE inside] Slowly Viral free pinterest class inside | Launch invite for Slowly Viral free class (Feb 26) - reframes virality, pitches slow compounding Pinterest strategy | Willy Wonka golden ticket metaphor; research cite (2025 Scientific Reports); BOH soft open teaser |
 | [slow-marketing-plan-webinar-invite.md](slow-marketing-plan-webinar-invite.md) | Your 2026 business plan inside | Launch invite for Slow Marketing Plan free class (Oct 22) - antisocial-media system, Pinterest + email, 19.4-hour content stat | BOH early access waitlist CTA; segment opt-out footer preserved |
 | [silent-killer-of-good-work.md](silent-killer-of-good-work.md) | The silent killer of GOOD work. (pls avoid!) | Creatives-with-high-standards positioning - "make things" contrast, compromising quality just to keep up, BOH as the system that gives creative time back | 4-step framework (Build -> Automate -> Grow -> Sell); CTA reply "Ghost your Feed"; enrollment segment opt-out preserved |
-| [email-list-resuscitator-oops-email.md](email-list-resuscitator-oops-email.md) | Oops / last chance email | Email List Resuscitator | 70% off last-chance oops email; source example for `email-oops.md` |
+| [email-list-resuscitator-oops-email.md](email-list-resuscitator-oops-email.md) | Oops / last chance email | Email List Resuscitator | 70% off last-chance oops email; source example for [[Studio/Analysis/Templates/email-oops]] |
 
 ---
 

@@ -26,7 +26,7 @@ Analysis files, frameworks, templates, routing guides, and Wren memory are usefu
 
 Do not train the clone layer on AI-derived drafts, stale brief banks, templates, or generated voice profiles as if they are Alyssa's real voice.
 
-Known caution: `PKM/Second Brain/examples/soft-sundays/me-i-need-ideas-i-already-had.md` was explicitly flagged by Alyssa as too AI.
+Known caution: [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]] was explicitly flagged by Alyssa as too AI.
 
 ## Wider vault rule
 

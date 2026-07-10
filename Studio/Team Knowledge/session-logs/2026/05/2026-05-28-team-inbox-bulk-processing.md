@@ -22,8 +22,8 @@ Alyssa came in with 87 Google Keep exports dumped into a new `TeamInbox/` subfol
 - **Larry** facilitated Alyssa's review of Vera's output, resolved project/habit list, applied corrections to the mapping table over multiple rounds.
 - **Larry** deleted confirmed-delete files: Social Media Manager Upwork, TOP FREELANCERS, Aurora James Substack, 6 garbled auto-exports.
 - **Larry** moved 11 files to `_archive/` (Geraldine confirmed; 8 others without explicit approval — 7 restored when Alyssa flagged).
-- **Larry** created `PKM/My Life/Habits/daily-content-output.md` and `weekly-client-check-ins.md`, indexed both in `Habits/INDEX.md`.
-- **Larry** created `PKM/My Life/Projects/norah-birthday-june-2026.md` with food plan, tasks, date/location.
+- **Larry** created [[Notebook/Life/Habits/daily-content-output]] and [[Notebook/Life/Habits/weekly-client-check-ins]], indexed both in `Habits/INDEX.md`.
+- **Larry** created [[Notebook/Life/Projects/norah-birthday-june-2026]] with food plan, tasks, date/location.
 - **Larry** created `PKM/My Life/Topics/github-resources.md` with 3 repos and descriptions.
 - **Larry** identified `2025-07-16-Service pros consider hiring.md` (inbox) as an exact duplicate of an existing journal entry — flagged for deletion next session.
 - **Larry** confirmed confirmed-mapping table (see Open Threads — Penn has not filed yet).
@@ -66,9 +66,9 @@ Alyssa came in with 87 Google Keep exports dumped into a new `TeamInbox/` subfol
 ## Open threads
 
 ### Penn filing (not started — next session priority)
-- [ ] Delete `2025-07-16-Service pros consider hiring.md` from inbox (duplicate of `PKM/Journal/2025/07/2025-07-16-service-pros-consider-hiring.md`)
+- [ ] Delete `2025-07-16-Service pros consider hiring.md` from inbox (duplicate of [[Notebook/Journal/2025/07/2025-07-16-service-pros-consider-hiring]])
 - [ ] Penn files all confirmed notes — check existing journal entries before creating/appending
-- [x] Fix `rebrand.md` frontmatter: `key_element: operations` → `key_element: brand-world` ✓
+- [x] Fix [[Notebook/Life/Projects/rebrand]] frontmatter: `key_element: operations` → `key_element: brand-world` ✓
 - [ ] After filing, move processed notes to `Team Inbox/_processed/`
 
 ### Still needs Alyssa's routing decisions
@@ -88,9 +88,9 @@ Alyssa came in with 87 Google Keep exports dumped into a new `TeamInbox/` subfol
 - [ ] Camila task list — file in Camilla's CRM stub?
 
 ### Structural
-- [ ] `office-reno.md` project stub in PKM — Alyssa said she doesn't have this project. Delete?
+- [ ] [[Notebook/Life/Projects/office-reno]] project stub in PKM — Alyssa said she doesn't have this project. Delete?
 - [x] `github-resources.md` Topic: added to Topics/INDEX.md ✓
-- [x] `norah-birthday-june-2026.md` Project: added to Projects/INDEX.md ✓
+- [x] [[Notebook/Life/Projects/norah-birthday-june-2026]] Project: added to Projects/INDEX.md ✓
 - [ ] Habits INDEX confirmed updated ✓
 - [ ] Norahisms: update existing file (don't create new)
 - [ ] Norah's Bday inbox file: file memory, discard guest email list after June 20
@@ -102,7 +102,7 @@ Alyssa came in with 87 Google Keep exports dumped into a new `TeamInbox/` subfol
 2. Finish routing the 6 unconfirmed notes + restored files (~10 min)
 3. Penn files the full confirmed batch, checking existing journal entries first
 4. Librarian pass after Penn is done
-5. Decide on `office-reno.md` stub
+5. Decide on [[Notebook/Life/Projects/office-reno]] stub
 
 ## Cross-links
 

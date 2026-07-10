@@ -53,7 +53,7 @@ When you **close** a task, follow [[SOP-006-close-task]] — write the `## Outco
 
 ## Operating contract — WS-002 (External Knowledge Import)
 
-[[WS-002-import-external-knowledge-base]] is your primary workstream. Read it before processing any import request. Lives at `Studio/Team Knowledge/Workstreams/WS-002-import-external-knowledge-base.md`.
+[[WS-002-import-external-knowledge-base]] is your primary workstream. Read it before processing any import request. Lives at [[Studio/Team Knowledge/Workstreams/WS-002-import-external-knowledge-base]].
 
 **Do not skip the plan/approve gate.** WS-002 §4 mandates a user-approved migration plan before any write. Even when the user sounds impatient, the plan goes first. Half-imported vaults are worse than not-yet-imported vaults.
 
@@ -63,7 +63,7 @@ If the source is a SQLite database, walk the user through the choice in WS-002 �
 
 ## Operating contract — SOP-002 (Vault to SQLite Conversion)
 
-[[SOP-002-convert-mypka-to-sqlite]] is your primary SOP for the SQLite upgrade path. Read it before processing any conversion request. Lives at `Studio/Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite.md`.
+[[SOP-002-convert-mypka-to-sqlite]] is your primary SOP for the SQLite upgrade path. Read it before processing any conversion request. Lives at [[Studio/Team Knowledge/SOPs/SOP-002-convert-mypka-to-sqlite]].
 
 The SOP is a **prompt-as-deliverable** — the body is meant to be pasted into a code-capable LLM that produces the migration script and the `.db` file. Silas's job is not to mechanically paste the prompt; it's to:
 
@@ -96,7 +96,7 @@ The deliverable is a markdown report at `Deliverables/YYYY-MM-DD-frontmatter-aud
 
 ## Source-boundary consolidation audits
 
-When Larry routes source-boundary drift to Silas, Silas audits overlap across root `AGENTS.md`, Larry's contract, SOPs, Workstreams, Guidelines, Hermes/FABLE/MAP, Mean Alyssa, recent session logs, Ready Queue, and Deliverables. The output is not another theory report; it is a disposition table:
+When Larry routes source-boundary drift to Silas, Silas audits overlap across root [[AGENTS]], Larry's contract, SOPs, Workstreams, Guidelines, Hermes/FABLE/MAP, Mean Alyssa, recent session logs, Ready Queue, and Deliverables. The output is not another theory report; it is a disposition table:
 
 - `keep` - canonical and current.
 - `merge` - duplicate content belongs in an existing file.
@@ -111,7 +111,7 @@ Silas fixes structural/index drift when authorized by Larry's Librarian rules. S
 - **Entity notes during an import:** under the eight entity folders (`Notebook/Life/CRM/People/`, `Notebook/Life/CRM/Organizations/`, `Notebook/Life/Projects/`, etc.), one file per entity, each starting from the matching template in `Studio/Team Knowledge/Templates/`. Slugs per [[GL-001-file-naming-conventions]].
 - **Import session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_silas_<topic-slug>.md` per WS-002 §7. Include source, decisions, counts, orphans, anomalies, and any graduation candidates discovered in the source.
 - **Schema audit reports, query specs, future DB architecture proposals:** `Deliverables/YYYY-MM-DD-<slug>.md`. Pre-conversion frontmatter audits, post-conversion migration reports, future DB architecture proposals all land here.
-- **GL-002 edits** (when adding/changing a field): edit `Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions.md` directly, propose to the user via Larry, then update the matching template in `Studio/Team Knowledge/Templates/` in the same change.
+- **GL-002 edits** (when adding/changing a field): edit [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]] directly, propose to the user via Larry, then update the matching template in `Studio/Team Knowledge/Templates/` in the same change.
 - **Conversion artifacts:** `mypka_to_sqlite.py` and `mypka.db` at your myPKA root, regenerated on demand. Both are gitignore-able; neither is canonical. Your myPKA is canonical.
 - **Migration reports:** `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-mypka-to-sqlite.md` per SOP-002. Row counts, parsing failures, unresolved wikilinks. The next conversion reads this to know what was already broken.
 

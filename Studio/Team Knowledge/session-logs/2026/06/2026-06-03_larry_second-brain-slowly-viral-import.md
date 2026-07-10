@@ -12,13 +12,13 @@ linked_guidelines: []
 
 ## Context
 
-Alyssa dropped the raw transcript from her "Slowly Viral Class" Pinterest webinar and wanted it captured in the Second Brain. The existing BOH structure already had `3.2 Slow Pinterest.md` (a setup/checklist workbook) and the Out of Office Webinar (philosophy + full system), so the question was where this fit and what format to use.
+Alyssa dropped the raw transcript from her "Slowly Viral Class" Pinterest webinar and wanted it captured in the Second Brain. The existing BOH structure already had [[Library/Programs/back-of-house/3. Traffic Pantry/3.2 Slow Pinterest]] (a setup/checklist workbook) and the Out of Office Webinar (philosophy + full system), so the question was where this fit and what format to use.
 
 ## What we did
 
-- **Larry** read the raw transcript and audited the existing Second Brain structure — `3.2 Slow Pinterest.md`, `3.2 The Keywords Transcript.md`, `Out of Office Webinar.md`, and the BOH INDEX — before touching anything.
-- **Larry** proposed: `webinars/Slowly Viral Class.md` (parallel to Out of Office Webinar), distilled prose in Alyssa's voice, same Quick Read + Obsidian TOC format.
-- **Larry** created `PKM/Second Brain/programs/back-of-house/webinars/Slowly Viral Class.md` — 10 sections covering: who it's for → the viral dream + its holes → feed-based vs. index-based visibility → bird's eye view → 7×10×4×5 formula (full walkthrough) → the math (1 page → 73k/year) → scaling to 500k (7 URLs) → Pinterest + email flywheel → why most people don't → what slowly viral actually gives you.
+- **Larry** read the raw transcript and audited the existing Second Brain structure — [[Library/Programs/back-of-house/3. Traffic Pantry/3.2 Slow Pinterest]], [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.2 The Keywords Transcript]], [[Library/Programs/back-of-house/webinars/Out of Office Webinar]], and the BOH INDEX — before touching anything.
+- **Larry** proposed: [[Library/Programs/back-of-house/webinars/Slowly Viral Class]] (parallel to Out of Office Webinar), distilled prose in Alyssa's voice, same Quick Read + Obsidian TOC format.
+- **Larry** created [[Library/Programs/back-of-house/webinars/Slowly Viral Class]] — 10 sections covering: who it's for → the viral dream + its holes → feed-based vs. index-based visibility → bird's eye view → 7×10×4×5 formula (full walkthrough) → the math (1 page → 73k/year) → scaling to 500k (7 URLs) → Pinterest + email flywheel → why most people don't → what slowly viral actually gives you.
 - **Larry** updated the BOH INDEX Resources table to include the new webinar link.
 - **Larry** saved a memory note flagging that both BOH webinars (OOO + Slowly Viral) need a pass through Alyssa's specific webinar framework (intro, teaching, value stack, etc.) — deferred to a future session.
 
@@ -40,7 +40,7 @@ Alyssa dropped the raw transcript from her "Slowly Viral Class" Pinterest webina
 
 ## Open threads
 
-- [ ] **Webinar framework pass** — both `Out of Office Webinar.md` and `Slowly Viral Class.md` need to be mapped against Alyssa's webinar structure (intro, teaching, value stack, close, etc.). Alyssa will drop the framework when ready. Don't assume section names — wait for her to share it.
+- [ ] **Webinar framework pass** — both [[Library/Programs/back-of-house/webinars/Out of Office Webinar]] and [[Library/Programs/back-of-house/webinars/Slowly Viral Class]] need to be mapped against Alyssa's webinar structure (intro, teaching, value stack, close, etc.). Alyssa will drop the framework when ready. Don't assume section names — wait for her to share it.
 
 ## Next steps
 

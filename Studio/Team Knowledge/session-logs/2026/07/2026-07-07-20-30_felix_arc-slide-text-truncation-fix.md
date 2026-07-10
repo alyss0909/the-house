@@ -21,7 +21,7 @@ a real usability blocker, not cosmetic.
 Pure CSS, not JS. `.db-slide-text` in `.obsidian/snippets/dashboard.css` (line
 ~417-419) applies `-webkit-line-clamp: 4` with `overflow: hidden`. The full
 untruncated slide text was already in the DOM the whole time — it's rendered
-into a `title="${full}"` attribute on the card in `dashboard/02 Arc.md`
+into a `title="${full}"` attribute on the card in [[Studio/Content/dashboard/02 Arc]]
 (dataviewjs, `renderArcCard`) — so it was reachable via hover tooltip, but that
 wasn't discoverable/reliable enough for a real approve/redo decision. No JS
 `.slice()`/`.substring()` truncation anywhere in the render path.
@@ -34,7 +34,7 @@ dataviewjs codebase to reuse — checked 01 Concepts and others, none found —
 so this establishes the pattern, matching the file's existing `dbWire*`
 wiring convention).
 
-- `dashboard/02 Arc.md`:
+- [[Studio/Content/dashboard/02 Arc]]:
   - Slide card markup now adds `tabindex="0" role="button" aria-expanded="false" aria-label="..."` and a `.db-slide-expand-hint` ("read more" / "show less") span, keeping `title="${full}"` as-is.
   - New `dbWireSlideExpand(container)` function: click or Enter/Space toggles `.db-slide-expanded` on that card, flips `aria-expanded`, updates the hint text. Uses the same `dataset.wired` double-bind guard as the file's other wiring functions.
   - Called alongside `dbWireArcReacts(dv.container)` at render time.

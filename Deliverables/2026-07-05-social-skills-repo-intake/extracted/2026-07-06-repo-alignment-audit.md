@@ -2,9 +2,9 @@
 
 Date: 2026-07-06
 Author: Larry (worker pass)
-Status: consolidation pass over existing extraction work — no new repo mining was needed; this file re-frames prior extraction (`social-skill-coverage-map.md`, `hook-patterns-map.md`, `anti-slop-crosswalk.md`, `mean-alyssa-review-panel-map.md`) into ALIGNS / CONFLICTS / BUILD-INTO-INSTRUCTIONS per Alyssa's three-layer doctrine (IG craft → her spin → her teaching).
+Status: consolidation pass over existing extraction work — no new repo mining was needed; this file re-frames prior extraction ([[Deliverables/2026-07-05-social-skills-repo-intake/extracted/social-skill-coverage-map]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]) into ALIGNS / CONFLICTS / BUILD-INTO-INSTRUCTIONS per Alyssa's three-layer doctrine (IG craft → her spin → her teaching).
 
-**Filter used throughout:** Alyssa's rules in `Hermes/craft/captions-carousels.md` (cover rules: ≤7 words, payoff mandatory, no reframe on covers, second-person now LEGAL per 2026-07-06 ruling, period-or-nothing) and `PKM/Second Brain/frameworks/carousel-framework.md` (6 archetypes, THE flow, voice-signature system). Anything that duplicates her existing, more specific rules is marked skip/redundant rather than aligned — redundancy isn't a conflict, but it isn't a new instruction either.
+**Filter used throughout:** Alyssa's rules in [[Hermes/craft/captions-carousels]] (cover rules: ≤7 words, payoff mandatory, no reframe on covers, second-person now LEGAL per 2026-07-06 ruling, period-or-nothing) and [[Studio/Analysis/Frameworks/carousel-framework]] (6 archetypes, THE flow, voice-signature system). Anything that duplicates her existing, more specific rules is marked skip/redundant rather than aligned — redundancy isn't a conflict, but it isn't a new instruction either.
 
 **Note on second-person:** the hook-patterns-map.md and social-skill-coverage-map.md extractions (dated 2026-07-05) still ban "you/your" on covers as a hard rule. Her 2026-07-06 ruling in captions-carousels.md legalized second-person on covers. This audit applies the newer ruling; any "second-person banned" language quoted from the 2026-07-05 extraction files below is historical and should not be read as current law.
 
@@ -15,9 +15,9 @@ Status: consolidation pass over existing extraction work — no new repo mining 
 | Repo / Skill | Verdict | One-line why |
 |---|---|---|
 | **aaaronmiller/create-viral-content** — SKILL.md hook architecture | Partial | Hook taxonomy converges on her 7 formulas (no new shapes); the AI-tell taxonomy and five-pass refinement protocol are genuinely useful process, not copy |
-| create-viral-content — `references/refinement-protocol.md` (Skeptic→Expert→Scroller→Competitor→Editor) | Aligned | Adversarial pass order is sound, adopt order not voice; fills a real gap in Mean Alyssa (no Skeptic/Competitor pass today) |
-| create-viral-content — `references/title-formulas.md` | Conflicts (mostly) | Curiosity-Gap, Contrarian, Comparison formulas mostly reframe-shaped or generic-viral; "Fix" formula and negative-superlative data point are the only usable pieces |
-| create-viral-content — `references/ai-tells.md` | Partial | Organizing taxonomy is useful; several individual bans (blanket adverb kill, blanket passive-voice kill) directly conflict with her voice |
+| create-viral-content — [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]] (Skeptic→Expert→Scroller→Competitor→Editor) | Aligned | Adversarial pass order is sound, adopt order not voice; fills a real gap in Mean Alyssa (no Skeptic/Competitor pass today) |
+| create-viral-content — [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]] | Conflicts (mostly) | Curiosity-Gap, Contrarian, Comparison formulas mostly reframe-shaped or generic-viral; "Fix" formula and negative-superlative data point are the only usable pieces |
+| create-viral-content — [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/ai-tells]] | Partial | Organizing taxonomy is useful; several individual bans (blanket adverb kill, blanket passive-voice kill) directly conflict with her voice |
 | **blacktwist/social-media-skills** — `hook-writer-sms` | Partial | 9-pattern taxonomy and first-3-words test are useful vocabulary/triage; actual hook copy is below her texture floor |
 | blacktwist — `caption-writer-sms` | Partial | Platform character-count mechanics (IG 125-char fold, Pinterest 500-char cap) are new and useful; voice/register guidance is redundant, hers is more forensic |
 | blacktwist — `carousel-writer-sms` | Partial | Word-cap-per-zone (30/body, 8/header) is a usable mechanical check; the 4-zone structural framework itself is thinner than THE flow, skip |
@@ -53,10 +53,10 @@ Status: consolidation pass over existing extraction work — no new repo mining 
 - The "So what" / Fix formula ("[Problem]? Here's the fix") maps cleanly onto her existing payoff category #1 (fix).
 
 **CONFLICTS:**
-- Most of `title-formulas.md`'s other categories (Curiosity-Gap "what X won't tell you," Contrarian "is dead," Comparison "vs") either violate the reframe ban, are generic-internet-viral (fails texture floor), or invite recycled constructions.
-- `ai-tells.md`'s implicit blanket bans on adverbs and passive voice, if adopted mechanically, would sand down her run-on/aside-heavy voice — explicitly named as an over-correction trap in `extracted/anti-slop-crosswalk.md` Section 4.
+- Most of [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]]'s other categories (Curiosity-Gap "what X won't tell you," Contrarian "is dead," Comparison "vs") either violate the reframe ban, are generic-internet-viral (fails texture floor), or invite recycled constructions.
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/ai-tells]]'s implicit blanket bans on adverbs and passive voice, if adopted mechanically, would sand down her run-on/aside-heavy voice — explicitly named as an over-correction trap in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] Section 4.
 
-**BUILD INTO INSTRUCTIONS (source: `repos/aaaronmiller__create-viral-content/references/refinement-protocol.md`):**
+**BUILD INTO INSTRUCTIONS (source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]]):**
 - Adopt the pass ORDER (Skeptic → Expert → Scroller → Competitor → Editor) for Mean Alyssa, not their voice/tone language.
 
 ---
@@ -109,15 +109,15 @@ Status: consolidation pass over existing extraction work — no new repo mining 
 **License:** MIT.
 
 **ALIGNS:**
-- Several NEW anti-AI tells not yet in `Hermes/ANTI-AI.md`, each screened against her voice carve-outs in `extracted/anti-slop-crosswalk.md` Section 2: Wh-word sentence openers as rhetorical setup; false agency verbs ("the data tells us," "the market rewards" — scoped to a specific verb list, not banning all abstract subjects); narrator-from-a-distance ("people tend to..." vs. her actual direct-to-"you" address — this one actually reinforces her voice); pleonasms/tautologies ("true fact," "end result," "revert back"); burstiness/uniform-sentence-length as a length-variance heuristic (aligns with her "always long sentences, staccato only at peak" rule); paragraph-initial hedge words beyond her existing list ("Overall," "Importantly,").
+- Several NEW anti-AI tells not yet in [[Hermes/ANTI-AI]], each screened against her voice carve-outs in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] Section 2: Wh-word sentence openers as rhetorical setup; false agency verbs ("the data tells us," "the market rewards" — scoped to a specific verb list, not banning all abstract subjects); narrator-from-a-distance ("people tend to..." vs. her actual direct-to-"you" address — this one actually reinforces her voice); pleonasms/tautologies ("true fact," "end result," "revert back"); burstiness/uniform-sentence-length as a length-variance heuristic (aligns with her "always long sentences, staccato only at peak" rule); paragraph-initial hedge words beyond her existing list ("Overall," "Importantly,").
 
 **CONFLICTS:**
 - Blanket adverb ban ("kill all adverbs, no -ly words") — direct conflict, her voice runs on run-ons and natural spoken rhythm; ANTI-AI.md never bans adverbs as a class, and this would sand toward the "aggressively choppy, adverb-free prose is its own AI template" she explicitly warned against.
 - Blanket passive-voice ban ("every sentence needs a human subject doing something") — too rigid for her long winding sentence style; some passive constructions read naturally inside a run-on aside.
 - "Two items beat three" / no-three-item-lists-ever — collides with her own grandfathered real three-act structures (e.g., "Reason nO1/nO2/nO3"); her narrower version (ban shallow enumeration only) already supersedes this.
 
-**BUILD INTO INSTRUCTIONS (source: `repos/hardikpandya__stop-slop/SKILL.md`, `references/phrases.md`, `references/structures.md`):**
-- Wh-opener, false-agency (scoped verb list), narrator-from-a-distance, pleonasm, burstiness, and paragraph-initial-hedge lint additions — all as SUPPORT LAYER flags for human review, never auto-kill, per `extracted/anti-slop-crosswalk.md` Section 3.
+**BUILD INTO INSTRUCTIONS (source: `repos/hardikpandya__stop-slop/SKILL.md`, [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/phrases]], [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/structures]]):**
+- Wh-opener, false-agency (scoped verb list), narrator-from-a-distance, pleonasm, burstiness, and paragraph-initial-hedge lint additions — all as SUPPORT LAYER flags for human review, never auto-kill, per [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] Section 3.
 
 ---
 
@@ -150,13 +150,13 @@ Status: consolidation pass over existing extraction work — no new repo mining 
 - Reasoning-strategy diversity per persona (DMAD, ICLR 2025) — assign each judge a distinct reasoning strategy/failure-catching angle rather than reusing generalist gates.
 
 **CONFLICTS:**
-- None identified — this repo's mechanics are process/QA infrastructure, not voice or content, so there's no direct collision with her craft rules. The only caution: don't import panel prose as team canon without provenance (per manifest.md prohibited_use), and don't let their per-run-only calibration replace the extended per-judge, cross-round precision tracking already planned in `mean-alyssa-review-panel-map.md`.
+- None identified — this repo's mechanics are process/QA infrastructure, not voice or content, so there's no direct collision with her craft rules. The only caution: don't import panel prose as team canon without provenance (per manifest.md prohibited_use), and don't let their per-run-only calibration replace the extended per-judge, cross-round precision tracking already planned in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]].
 
-**BUILD INTO INSTRUCTIONS (source: `repos/wan-huiyan__agent-review-panel/README.md`, `skills/agent-review-panel/SKILL.md`, `docs/research-foundations.md`):**
+**BUILD INTO INSTRUCTIONS (source: `repos/wan-huiyan__agent-review-panel/README.md`, `skills/agent-review-panel/SKILL.md`, [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations]]):**
 - Judge-calibration protocol run before every round (3-5 known all-real control lineups; judge passes only if ≤1 non-"sure" false positive, zero "sure"-confidence false positives).
 - Subtract-points + veto scoring replacing "does this look real/fake" gut verdicts.
 - Correlated-bias flag when judge score spread < 2 across a lineup.
-- Per-judge, per-round precision tracking (extension beyond the repo's per-run-only design), per `extracted/mean-alyssa-review-panel-map.md`'s "Mean Alyssa v2 protocol," steps 2 and 6.
+- Per-judge, per-round precision tracking (extension beyond the repo's per-run-only design), per [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]'s "Mean Alyssa v2 protocol," steps 2 and 6.
 
 ---
 
@@ -187,64 +187,64 @@ Status: consolidation pass over existing extraction work — no new repo mining 
 These are the concrete, ready-to-adopt rules distilled from the ALIGNS material above. Each is standing mandatory-load instruction for pitch/hook/caption work going forward, with its source file cited.
 
 1. **Hook = 50% of Maitre d's score; no post/deck can score above ~7.5/10 if the hook scores below 8.**
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/post-grader/SKILL.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/post-grader/SKILL]]
 
 2. **Every Maitre d'/Mean Alyssa rejection must use the three-part fix format: quote the exact line → state specifically why it hurts (cite the broken rule) → give the specific rewrite.** Never a bare "tighten this."
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/post-grader/SKILL.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/post-grader/SKILL]]
 
 3. **Run the first-3-words test as a discrete, named pre-Maitre-d' gate on every cover:** isolate the first 3 words alone and ask whether they create alarm, curiosity, or a claim independent of the rest of the sentence.
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/hook-writer-sms/SKILL.md`; corroborated by `blotato-skills/viral-hooks/SKILL.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/hook-writer-sms/SKILL]]; corroborated by `blotato-skills/viral-hooks/SKILL.md`
 
 4. **Batch-variety gate: if Test Kitchen pitches 5 concepts, no more than 2 may share a hook formula** (Paradox, Bold Outcome, Personal Testimony, Trend Alarm, Reframe Question, Audience Identity, Visual Joke). Enforce at pitch stage, before Mean Alyssa scoring.
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/viral-hooks/SKILL.md`; also `repos/blacktwist__social-media-skills/skills/content-repurposer-sms/SKILL.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/viral-hooks/SKILL]]; also `repos/blacktwist__social-media-skills/skills/content-repurposer-sms/SKILL.md`
 
 5. **Dual-layer keyword check: every cover needs one reach-word (topical/searchable) and one coined/emotional word.** Check both are present before a cover ships.
    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/shixinzhang__tiktok-viral-hooks/by-pattern/en/` (method only, no corpus text used — CC BY-NC-SA)
 
 6. **"So what?" bridge test on every hook and every teaching claim: after drafting, ask "so what?" once, out loud. If nothing answers, it's a label, not a hook** (or a dangling fact, not a benefit, for teaching claims).
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/coreyhaines31__marketingskills/skills/copywriting/SKILL.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/coreyhaines31__marketingskills/skills/copywriting/SKILL]]
 
 7. **Add a Skeptic pass to Mean Alyssa BEFORE the ANTI-AI senior pass: "why should I care, what's actually new here?"** Kill substance-empty concepts before spending review cycles polishing their voice.
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]]
 
 8. **Add a formal Competitor pass to Mean Alyssa's tournament: check each surviving concept against Alyssa's own recent real decks/captions**, operationalizing the "never recycle a documented winner" rule instead of leaving it to manual pattern-matching.
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol.md`
+   Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]]
 
 9. **Judge calibration protocol, run before every Mean Alyssa tournament round:** give each judge 3-5 control lineups that are 100% real Alyssa decks (unknown to the judge). A judge advances only if they clear these controls — at most one non-"sure" false positive, zero "sure"-confidence false positives on real material. A judge who fails is not used for that round; misfires get folded back into ANTI-AI/STYLE carve-outs if they reveal a real pattern being over-penalized.
-   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/` (README.md, skills/agent-review-panel/SKILL.md, docs/research-foundations.md); adapted in `Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map.md`
+   Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/` (README.md, skills/agent-review-panel/SKILL.md, docs/research-foundations.md); adapted in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
 
 10. **Mean Alyssa scoring runs subtract-points-from-10-per-axis with veto, not add-points.** Judge states which specific cliché/hole/tell caused each deduction; any fatal tell (banned reframe shape, non-real-source device passed off as real) is a veto to 0 on that axis, never averaged away.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations]]
 
 11. **Correlated-bias flag: when all Mean Alyssa judges agree on a lineup with score spread < 2, treat that as the most dangerous failure signal (shared bias), not confirmation** — escalate to human review rather than logging as a clean, confident catch.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations]]
 
 12. **Track judge precision per judge, per round, over time** (real-source false-positive rate; candidate-catch true-positive rate). A judge with a repeat pattern of real-source false positives across rounds gets retrained or retired from judging.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map.md` (extension beyond the source repo's per-run-only design)
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]] (extension beyond the source repo's per-run-only design)
 
 13. **Word-cap-per-zone mechanical check for carousels: 30 words max per body slide, 8-word cap on headers**, run as a hard Maitre d' check independent of content quality.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/carousel-writer-sms/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/carousel-writer-sms/SKILL]]
 
 14. **Platform character-fold checklist for The Pass when publishing outside pure-IG-carousel: IG caption fold ~125 chars, FB mobile fold ~120 chars, Pinterest description cap 500 chars. Never duplicate hashtags across platforms.**
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/caption-writer-sms/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/caption-writer-sms/SKILL]]
 
 15. **Anti-padding output-count discipline for repurposing/derivatives: produce exactly the strong count the source supports — don't pad to a requested number with weak filler.** Reuse a theme across formats only when the angle actually changes; never publish the same post twice in different fonts.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/repurpose/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/repurpose/SKILL]]
 
 16. **Calendar hygiene guardrails: keep 20-30% of slots flexible/open (reactive capacity isn't wasted capacity); no single content pillar occupies more than 40% of slots in a given period.**
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/content-calendar-sms/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/content-calendar-sms/SKILL]]
 
 17. **Post-performance review rule: benchmark every post only against Alyssa's own historical averages, never industry vanity-metric benchmarks.**
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/performance-analyzer-sms/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/performance-analyzer-sms/SKILL]]
 
 18. **ICE score (Impact + Confidence + Ease / 3) as Larry's tie-breaker when multiple concepts clear Mean Alyssa in the same batch and only one can be built first.**
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/coreyhaines31__marketingskills/skills/ab-testing/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/coreyhaines31__marketingskills/skills/ab-testing/SKILL]]
 
-19. **Anti-AI lint additions (support-layer, human-review-only, never auto-kill): Wh- word rhetorical openers; false-agency verbs scoped to a specific list (becomes/emerges/shifts/unlocks, "the data tells us," "the market rewards"); narrator-from-a-distance phrasing ("people tend to," "nobody designed this"); pleonasms/tautologies (true fact, end result, revert back); burstiness (4+ consecutive sentences in a narrow word-count band); paragraph-initial hedges beyond the existing list (Overall,/Importantly,).** Explicitly do NOT adopt: blanket adverb bans, blanket passive-voice bans, or a "two beats three" list-length rule — all three conflict with her actual voice and are already rejected in `anti-slop-crosswalk.md` Section 4.
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/` (SKILL.md, references/phrases.md, references/structures.md); full spec in `Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk.md` Section 3
+19. **Anti-AI lint additions (support-layer, human-review-only, never auto-kill): Wh- word rhetorical openers; false-agency verbs scoped to a specific list (becomes/emerges/shifts/unlocks, "the data tells us," "the market rewards"); narrator-from-a-distance phrasing ("people tend to," "nobody designed this"); pleonasms/tautologies (true fact, end result, revert back); burstiness (4+ consecutive sentences in a narrow word-count band); paragraph-initial hedges beyond the existing list (Overall,/Importantly,).** Explicitly do NOT adopt: blanket adverb bans, blanket passive-voice bans, or a "two beats three" list-length rule — all three conflict with her actual voice and are already rejected in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] Section 4.
+    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/` (SKILL.md, references/phrases.md, references/structures.md); full spec in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]] Section 3
 
 20. **Repurposing-matrix lookup for The Pass (source format → best derivative → asset needed), built from Alyssa's real formats only, plus the guardrail "don't post all derivatives of one source the same day — it floods the feed."**
-    Source: `Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/content-repurposer-sms/SKILL.md`
+    Source: [[Deliverables/2026-07-05-social-skills-repo-intake/repos/blacktwist__social-media-skills/skills/content-repurposer-sms/SKILL]]
 
 ---
 

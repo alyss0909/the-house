@@ -79,5 +79,5 @@ Full ANTI-AI checklist rerun: zero em-dashes in prose, zero quiet-family, no ref
 
 ## HALT log
 
-- No chat-word gaps — Pin Planner chat word "PIN" verified live and verbatim in `Hermes/BUSINESS.md`.
+- No chat-word gaps — Pin Planner chat word "PIN" verified live and verbatim in [[Hermes/BUSINESS]].
 - **For Alyssa:** the personal-results beats (slide 8 "leads went UP"; caption "my freebie in August") are directionally supported by her own sales copy but not stat-sourced — confirm or soften before ship.

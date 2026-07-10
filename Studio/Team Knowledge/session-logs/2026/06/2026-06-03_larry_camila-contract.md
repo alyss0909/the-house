@@ -46,14 +46,14 @@ Alyssa came in with a prior freelance contract (written for a creative marketing
 ## Open threads
 
 - [ ] Recurring tasks for Camila still unconfirmed — Pax surfaced 7 candidates (ads/SLO report, pre-workshop intake, client prep brief, Samir creative brief, evergreen funnel audit, Rush Order enrollment ops, brand world maintenance). Alyssa to decide which to assign.
-- [ ] No CRM file for Camila — `PKM/CRM/People/camila.md` does not exist yet. Should be created and linked to `systematize-socials.md` and the contract.
+- [ ] No CRM file for Camila — [[Notebook/Life/CRM/People/camila]] does not exist yet. Should be created and linked to [[Notebook/Life/Projects/systematize-socials]] and the contract.
 - [ ] No Notion workspace or weekly task template set up for Camila yet — the contract references Notion but no shared workspace confirmed.
 - [ ] Samir creative brief (Pax idea #4) — highest immediate-leverage task per Pax, unblocks Samir who was just onboarded June 2. Worth confirming next session.
 
 ## Next steps
 
 - Next session: confirm which of Pax's 7 recurring task ideas to assign Camila, then build a simple weekly rhythm doc she can reference.
-- Create `PKM/CRM/People/camila.md` when ready.
+- Create [[Notebook/Life/CRM/People/camila]] when ready.
 
 ## Cross-links
 

@@ -86,7 +86,7 @@ The vault already has 33 INDEX.md files. **Do not add MAPs on top of INDEXes** �
 | `Finished/Offers/MAP.md` | Offer directory: one row per offer → its folder. Funnel pairing (Mon free ↔ Wed paid — the offer-suite atlas gets its home here). The no-CTA list (e.g. Unignorable Subject Lines has no checkout — never CTA to it). | Suki |
 | `Finished/Offers/<offer>/MAP.md` | Everything about this offer in one card: facts (price/status/CTA keyword), curriculum entry point, sales copy, real posts that sold it, what NOT to claim. Replaces the My Life/Offers pointer file. | Suki |
 | `Finished/Second Brain/MAP.md` | Source shelf card: examples subfolders and what each holds; COMPASS pointer for deep navigation; the analysis-is-not-here rule (analysis lives in Building until promoted). | Larry |
-| `Building/Team/Hermes/MAP.md` → *alias note only* | During phases 0–2 this is a one-line redirect: "Hermes physically at root: `Hermes/MAP.md`." Hermes' own MAP.md stays authoritative. | Hermes |
+| `Building/Team/Hermes/MAP.md` → *alias note only* | During phases 0–2 this is a one-line redirect: "Hermes physically at root: [[Hermes/MAP]]." Hermes' own MAP.md stays authoritative. | Hermes |
 
 Ten maps total. Anything beyond this list needs a reason written into VAULT-MAP.md, or it's map sprawl.
 
@@ -98,15 +98,15 @@ Ranked by blast radius, from the code audit:
 
 | # | Move | Risk | Failure mode | Detectability |
 |---|---|---|---|---|
-| 1 | `Team Inbox/pitches` → Building/Work/Content OS | **HIGH** | 7 dashboard pages hardcode `"Team Inbox/pitches"` in DataviewJS (~9 occurrences) and **fail silently** — dashboards render empty, no error. `advance-watch.mjs:80` + `parser-check.mjs:10` resolve the dir via `path.join(__dirname, "..", "Team Inbox", "pitches")` — the /loop auto-advance stalls without an error. 4 of 5 maker agent shims (suki, cass, angus, reeve) hardcode `taste-ledger.md` and sibling paths. GL-010/011/012, WS-011, SOP-034/036/038, PIPELINE-CONTRACT all reference the paths in prose. | **Silent** — worst kind |
-| 2 | `Hermes/` → Building/Team/Hermes | **HIGH** | ~130 inbound references; live ones: hermes.md's entire self-bootstrap (10 file paths), cass/suki shims, GL-010's embedded "fresh Hermes" prompt template, Suki HANDOFF, `dashboard/05 Approved.md`'s `dv.io.load("Hermes/MAP.md")` (degrades silently via `.catch`). Internal Hermes cross-links are bare-relative and survive an atomic move — the break surface is entirely external (~10–15 live files). | Mixed |
+| 1 | `Team Inbox/pitches` → Building/Work/Content OS | **HIGH** | 7 dashboard pages hardcode `"Team Inbox/pitches"` in DataviewJS (~9 occurrences) and **fail silently** — dashboards render empty, no error. `advance-watch.mjs:80` + `parser-check.mjs:10` resolve the dir via `path.join(__dirname, "..", "Team Inbox", "pitches")` — the /loop auto-advance stalls without an error. 4 of 5 maker agent shims (suki, cass, angus, reeve) hardcode [[Studio/Content/taste-ledger]] and sibling paths. GL-010/011/012, WS-011, SOP-034/036/038, PIPELINE-CONTRACT all reference the paths in prose. | **Silent** — worst kind |
+| 2 | `Hermes/` → Building/Team/Hermes | **HIGH** | ~130 inbound references; live ones: hermes.md's entire self-bootstrap (10 file paths), cass/suki shims, GL-010's embedded "fresh Hermes" prompt template, Suki HANDOFF, [[Studio/Content/dashboard/05 Approved]]'s `dv.io.load("Hermes/MAP.md")` (degrades silently via `.catch`). Internal Hermes cross-links are bare-relative and survive an atomic move — the break surface is entirely external (~10–15 live files). | Mixed |
 | 3 | `Team Knowledge/` or `Team/` rename | **HIGH** | `validation-script.sh` **hard-fails** on both. The installed Telegram Windows service points at `Team Knowledge/scripts/telegram-capture-mvp.py` — stale service path = capture dies until reinstalled. Meetily launcher self-registers its scheduled-task path under `Team Knowledge/Automations`. Every SOP/WS/GL cross-link. Close-session, weekly/monthly review commands glob `Team Knowledge/session-logs`. | Hard-fail (good) + service rot (bad) |
 | 4 | `Team Inbox` (raw half) → Thinking/Inbox | **MEDIUM** | `telegram-capture-mvp.py:26` computes `VAULT_ROOT / "Team Inbox"` and **writes** there — captures break or land wrong. WS-004/GL-005 own the protocol. Split complexity: media/, Meeting Captures/, _Processed/, _archive/ need destinations. | Loud-ish (capture log) |
 | 5 | `PKM/Journal` → Thinking/Journal | **MEDIUM** | No live *code* writes here except import scripts (one-shot) and the already-broken `fix_connections.py`. Prose surface is wide: AGENTS.md, SOP-003/009/010/013, WS-001/002/006, GL-009, hermes.md, penn.md. Historic wikilinks in session logs can stay stale (archival). `PKM/.user.yaml` must be relocated deliberately. | Prose-stale, not crashing |
 | 6 | Second Brain split (examples/programs → Finished; analysis/frameworks/templates → Building) | **MEDIUM-HIGH** | Hermes SOURCES.md tier-1 loads point at `PKM/Second Brain/examples` + `programs` — Hermes writing quality dies quietly if these dangle. cass.md, suki.md, reeve.md each hardcode specific analysis files. `import-sales-page-copy.ps1` baked `[[PKM/Second Brain/...]]` wikilinks into historical note *content* — permanent dead links unless swept. COMPASS/INDEX internal nav. | Quiet degradation of writing quality — insidious |
 | 7 | `My Life` + `CRM` → Thinking/Life | **LOW-MEDIUM** | `migrate-inline-fields-to-frontmatter.py` FOLDER_SCHEMA dict keys silently no-op after rename; WS-002 import table; GL-002 schemas (path refs only); 25 offer files cross-link Hermes (outbound, fine). | Mostly benign |
 | 8 | `PKM/Signals` + `Developing Ideas` → Building/Signals | **LOW** | AGENTS.md semantic-sweep section + SOP-013 own the paths; WS-006 garden check. Pure prose, one owner, easy sweep. | Benign — ideal pilot material |
-| 9 | Deliverables dissolution | **LOW** | GL-006/GL-009 scope prose; suki.md/cass.md pin one specific deliverable (`2026-07-06-instagram-craft-foundation.md`) as a mandatory load — that file must be promoted, not archived. | Benign if reconciled file-by-file |
+| 9 | Deliverables dissolution | **LOW** | GL-006/GL-009 scope prose; suki.md/cass.md pin one specific deliverable ([[Deliverables/2026-07-06-instagram-craft-foundation]]) as a mandatory load — that file must be promoted, not archived. | Benign if reconciled file-by-file |
 
 Cross-cutting risks:
 - **OneDrive**: the vault lives in OneDrive. Bulk moves can trigger sync churn/conflicted copies mid-migration. Do physical moves with Obsidian open (so wikilinks auto-update) and OneDrive paused, then let it sync.
@@ -128,7 +128,7 @@ Cross-cutting risks:
 | `Hermes/` | **STAY AT ROOT** with a conceptual alias in Building/Team/MAP.md. Revisit only after everything else is stable. Moving it buys zero navigation value for Alyssa (she doesn't browse it) and risks the writing engine. | Phase 4 or never |
 | `Team/` + `Team Knowledge/` | **STAY** physically; VAULT-MAP + Building/Team/MAP.md present them as Building/Team conceptually. The Windows service, scheduled task, validator, and the entire SOP cross-link mesh make this the most expensive move for the least Alyssa-visible benefit. Revisit in phase 4. | Phase 4, optional |
 | `Deliverables/` | **STAY**, drain gradually via reconciliation (GL-009 fates). Never bulk-move. | Ongoing |
-| `AGENTS.md`, `.claude/`, `_system/`, `Expansions/`, `website/`, `lead-magnet-system/` | **STAY** — infrastructure, not vault content | — |
+| [[AGENTS]], `.claude/`, `_system/`, `Expansions/`, `website/`, `lead-magnet-system/` | **STAY** — infrastructure, not vault content | — |
 
 Redirect mechanism: during any transition window, a stub note at each old location — frontmatter `redirect_to:` + one line — plus a redirect table in VAULT-MAP.md. Stubs are removed after two clean weekly reviews confirm nothing reads the old path (grep session logs for old-path hits).
 
@@ -175,7 +175,7 @@ Unresolved decisions for Alyssa (nothing below blocks Pilot A):
 1. **Todos**: where do raw todos actually live today? (No dedicated folder found — Journal-embedded?) Define before creating Thinking/Todos.
 2. **Meetily write target** and **Instagram Saves Engine write target** — verify empirically before Pilot B.
 3. **Meeting Captures**: Thinking (raw transcripts of her meetings) or Building? Recommendation: Thinking.
-4. **`me.md`**: AI-compiled identity anchor — Building (honest) or Finished after her review (useful)? Recommendation: promote it explicitly — it's small and load-bearing.
+4. **[[Library/me]]**: AI-compiled identity anchor — Building (honest) or Finished after her review (useful)? Recommendation: promote it explicitly — it's small and load-bearing.
 5. **Offer facts ownership**: per-offer `Offer/facts.md` is team-maintained — comfortable with team-writable files inside Finished if the MAP labels them, or should facts stay in Building with the offer MAP pointing at them? Recommendation: inside Finished with `class: facts` labels; splitting them defeats "one home."
 6. **Dashboard physical home**: move `dashboard/` into Content OS folder (cleaner) or leave at root (safer)? Recommendation: move it in Pilot B while everything's being swept anyway; it's only 9 files and /loop's `node dashboard/advance-watch.mjs` command is a one-line edit.
 7. **Does `Thinking` keep the PKM name anywhere?** myICOR/WS-002 import tooling references PKM paths; recommendation: retire the visible name, keep a redirect stub for one phase.
@@ -206,7 +206,7 @@ Each phase gates on: previous phase survived one full weekly review with zero ol
 Executable (must be edited, will not auto-update):
 - [ ] `dashboard/advance-watch.mjs:80` — PITCHES_DIR
 - [ ] `dashboard/parser-check.mjs:10` + fixture filenames
-- [ ] `dashboard/*.md` — all `dv.pages("Team Inbox/pitches")`, `startsWith` filters, `dv.io.load("Hermes/MAP.md")` (05 Approved), `idea-bank.md` literal (01 Concepts)
+- [ ] `dashboard/*.md` — all `dv.pages("Team Inbox/pitches")`, `startsWith` filters, `dv.io.load("Hermes/MAP.md")` (05 Approved), [[Studio/Content/idea-bank]] literal (01 Concepts)
 - [ ] `Team Knowledge/scripts/telegram-capture-mvp.py:26` — TEAM_INBOX
 - [ ] `Team Knowledge/Automations/telegram-service-install.ps1` — absolute vault root + script/log paths; **reinstall service after move**
 - [ ] `Team Knowledge/Automations/meetily-weekly-launcher.ps1:453` — scheduled-task self-path; re-register task if Automations moves
@@ -232,7 +232,7 @@ Operating documents:
 
 Content-level:
 - [ ] Vault-wide grep for each old path (both `[[wikilink]]` and quoted-string forms) — especially import-generated `[[PKM/...]]` links in note bodies
-- [ ] `Deliverables/2026-07-06-instagram-craft-foundation.md` — promote before Deliverables drains (pinned load in cass.md/suki.md)
+- [ ] [[Deliverables/2026-07-06-instagram-craft-foundation]] — promote before Deliverables drains (pinned load in cass.md/suki.md)
 - [ ] `.claude/settings.local.json` — prune stale absolute allowlist entries (cosmetic)
 
 Post-move verifiers (positive checks, because failure is silent):

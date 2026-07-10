@@ -12,7 +12,7 @@ tags: [copy]
 
 ## When to Use This File
 
-Reach for this file (not just `writing-style.md`) when you need:
+Reach for this file (not just [[Studio/Analysis/writing-style]]) when you need:
 
 - **Writing or updating Alyssa's bio** for a guest post, podcast pitch, collaborator intro, newsletter introduction, or press feature — this file gives you the architecture of how she presents herself, not just her voice.
 - **Any first-person personal brand copy** where the central subject is Alyssa herself: who she is, why she does this work, what makes her different.
@@ -22,7 +22,7 @@ Reach for this file (not just `writing-style.md`) when you need:
 - **Writing any intro sequence or welcome email** where she's introducing herself to someone new — the about page is the master template for that context.
 - **Understanding how she thinks about herself vs. how she presents herself** — she self-edits strategically. This file maps what she includes, what she omits, and why each decision is made.
 
-Do NOT use this file as a replacement for `writing-style.md`. That file covers the full voice system. This file covers how that voice operates specifically in first-person, self-revealing contexts. Use both when writing as Alyssa about Alyssa.
+Do NOT use this file as a replacement for [[Studio/Analysis/writing-style]]. That file covers the full voice system. This file covers how that voice operates specifically in first-person, self-revealing contexts. Use both when writing as Alyssa about Alyssa.
 
 ---
 

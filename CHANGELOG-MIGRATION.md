@@ -30,14 +30,14 @@ Adds team-internal task management and per-agent topical journals. **Purely addi
 - `Team/<Name> - <Role>/journal/_template.md` — starter file for new journal entries.
 - `.scaffold-version` — plain-text file at root containing `1.10.0`.
 - New SOPs in `Team Knowledge/SOPs/`:
-  - `SOP-004-create-task.md`
-  - `SOP-005-claim-task.md`
-  - `SOP-006-close-task.md`
-  - `SOP-007-list-open-tasks.md`
-  - `SOP-008-rebuild-task-index.md`
-  - `SOP-009-write-journal-entry.md`
-  - `SOP-010-read-own-journal.md`
-  - `SOP-011-write-session-log.md`
+  - [[Studio/Team Knowledge/SOPs/SOP-004-create-task]]
+  - [[Studio/Team Knowledge/SOPs/SOP-005-claim-task]]
+  - [[Studio/Team Knowledge/SOPs/SOP-006-close-task]]
+  - [[Studio/Team Knowledge/SOPs/SOP-007-list-open-tasks]]
+  - [[Studio/Team Knowledge/SOPs/SOP-008-rebuild-task-index]]
+  - [[Studio/Team Knowledge/SOPs/SOP-009-write-journal-entry]]
+  - [[Studio/Team Knowledge/SOPs/SOP-010-read-own-journal]]
+  - [[Studio/Team Knowledge/SOPs/SOP-011-write-session-log]]
 
 ### Changed
 
@@ -97,11 +97,11 @@ There is **no `blocked/` folder**. Blocked tasks live in `in-progress/` with `bl
 Copy these files from the v1.10.0 release `templates/` directory:
 - `templates/tasks/_template.md` → `<root>/Team Knowledge/tasks/_template.md`
 - `templates/tasks/INDEX.md` → `<root>/Team Knowledge/tasks/INDEX.md`
-- `templates/tasks/open/EXAMPLE-tsk-2026-05-10-001-welcome-to-tasks.md` → `<root>/Team Knowledge/tasks/open/tsk-<TODAY>-001-welcome-to-tasks.md` (rename the date prefix to today's date so it sorts correctly)
+- [[Studio/Team Knowledge/tasks/open/EXAMPLE-tsk-2026-05-10-001-welcome-to-tasks]] → `<root>/Team Knowledge/tasks/open/tsk-<TODAY>-001-welcome-to-tasks.md` (rename the date prefix to today's date so it sorts correctly)
 
 #### Step 5/9 — Create per-agent journal folders
 
-For each subdirectory of `<root>/Team/` that follows the `<Name> - <Role>` pattern AND contains an `AGENTS.md`:
+For each subdirectory of `<root>/Team/` that follows the `<Name> - <Role>` pattern AND contains an [[AGENTS]]:
 
 ```bash
 for AGENT in "$ROOT/Team/"*/; do
@@ -111,7 +111,7 @@ for AGENT in "$ROOT/Team/"*/; do
 done
 ```
 
-Do NOT create journal folders for `agent-index.md` or any non-agent subdirectory.
+Do NOT create journal folders for [[Studio/Team/agent-index]] or any non-agent subdirectory.
 
 #### Step 6/9 — Copy the new SOPs
 

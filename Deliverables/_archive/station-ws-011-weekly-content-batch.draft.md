@@ -12,14 +12,14 @@ status: draft-v1
 
 # WS-011 — Weekly Content Batch
 
-Runs one theme week (or a full month) of content end-to-end with exactly two Alyssa touchpoints. Any capable model can orchestrate this if it loads the Fable Brain first. This workstream is the wiring; all judgment lives in `FABLE.md` and the files it indexes.
+Runs one theme week (or a full month) of content end-to-end with exactly two Alyssa touchpoints. Any capable model can orchestrate this if it loads the Fable Brain first. This workstream is the wiring; all judgment lives in [[Hermes/FABLE]] and the files it indexes.
 
 ## Phase 0 — Slot resolution (orchestrator, 2 min)
 
-1. Determine week-of-month → theme via `Hermes/MAP.md` §3 (W1 Email / W2 Pinterest / W3 BoH / W4 Productivity).
-2. Pull the week's 3 slots (Mon Edu / Wed Offer / Fri FTG) from `Hermes/MAP.md` §3: freebie, product, chat word, BOH module, exemplar, snippets.
+1. Determine week-of-month → theme via [[Hermes/MAP]] §3 (W1 Email / W2 Pinterest / W3 BoH / W4 Productivity).
+2. Pull the week's 3 slots (Mon Edu / Wed Offer / Fri FTG) from [[Hermes/MAP]] §3: freebie, product, chat word, BOH module, exemplar, snippets.
 3. **Halt condition:** if the slot's chat word is "manual selection needed" or the product has a flagged conflict, the slot ships as concept-only and the missing item goes in the For Alyssa block. Never invent, never delay the rest of the batch.
-4. Check `PKM/Signals/signals-index.md` + recent journal for a live seed (a real moment beats a cold slot-fill).
+4. Check [[Studio/Signals/signals-index]] + recent journal for a live seed (a real moment beats a cold slot-fill).
 
 ## Phase 1 — Test Kitchen (4-6 parallel subagents, Sonnet/Haiku)
 
@@ -51,7 +51,7 @@ Per slot: slide-by-slide spec + caption + chat word (re-verified verbatim or HAL
 
 ## Phase 7 — TOUCHPOINT 2: Alyssa reviews finals
 
-One sitting. Her corrections are logged verbatim to `Hermes/learning/inbox.md` (the self-improvement loop). Recurring corrections get a graduation proposal into ANTI-AI/TASTE — proposal only, she approves.
+One sitting. Her corrections are logged verbatim to [[Hermes/learning/inbox]] (the self-improvement loop). Recurring corrections get a graduation proposal into ANTI-AI/TASTE — proposal only, she approves.
 
 ## Weekly stats loop (when wired)
 

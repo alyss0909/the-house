@@ -32,7 +32,7 @@ Two things fail *silently* — they wouldn't throw an error, so I couldn't confi
 
 - **A few broken links inside your Notebook index files.** When your Life folders moved, their index pages kept pointing at the old path. Silas refused to fix them because editing inside your Notebook needs your say-so — the boundary working. Say "fix the Notebook links" and I'll do it in seconds (it's pure path cleanup, never your words).
 - **`ready-queue.md` in Second Brain** has 13 links to journal entries that now point at the old path. Hermes reads this file, so it's the top operational item for the Library phase — I left all of Second Brain untouched on purpose, so this gets fixed first when we start that phase.
-- **`PKM/My Life/INDEX.md`** now describes five folders that moved out (Offers stayed). It'll be cleaned when Offers moves to the Library.
+- **[[PKM/My Life/INDEX]]** now describes five folders that moved out (Offers stayed). It'll be cleaned when Offers moves to the Library.
 - **Obsidian plugin:** a note-keeper plugin still points at `PKM/Journal`. Safest for you to update in Obsidian's plugin settings, or tell me and I'll try.
 - **Security:** your Telegram bot token sits in a file *inside* the vault (`telegram-capture.env`). It's excluded from git so it wasn't committed, but it should move out of the vault to a safer spot. Small follow-up when you want.
 

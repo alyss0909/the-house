@@ -26,7 +26,7 @@ Every phase ends with: reconciliation logged, one clean weekly review before the
 **Dispatched to subagents:**
 - **Silas**: add `source_class` (raw / derived / facts / map / output / task) and `promoted_by`/`promoted_date` to GL-002 schemas and Templates; plan the frontmatter backfill (execute in later phases).
 - **Nolan**: draft the re-education addendum for every `.claude/agents/*.md` and `Team/*/AGENTS.md` — the house rule, read order, connection doctrine, write-locks — one consistent block, applied to all contracts.
-- **General worker**: root-cause cleanup task — merge the five calendar copies into `Hermes/MAP.md` §3, resolve the two ghost references (CALENDAR.md, PITCH.md), strip re-typed prices to wikilinks, demote `Hermes/BUSINESS.md` to a values-free pointer table, repoint the 25 offer "Facts:" lines to the offers themselves.
+- **General worker**: root-cause cleanup task — merge the five calendar copies into [[Hermes/MAP]] §3, resolve the two ghost references (CALENDAR.md, PITCH.md), strip re-typed prices to wikilinks, demote [[Hermes/BUSINESS]] to a values-free pointer table, repoint the 25 offer "Facts:" lines to the offers themselves.
 
 Gate: Alyssa reads GL-013 + VAULT-MAP, says go. Then agents are REQUIRED to load VAULT-MAP first.
 
@@ -49,7 +49,7 @@ Rename `mypka-scaffold-latest (2)` → `the-house`. This breaks machine-level th
 
 Scope: `Team Inbox/pitches/*` + `dashboard/*` → `Studio/Content/`; raw `Team Inbox` remainder → `Notebook/Inbox/` (per-file triage — grocery lists to product visions get sorted, `_Processed`/`_archive` → Archive); `Team Knowledge/Automations` + `scripts` → `Studio/Automations/` (with service/task re-registration again).
 
-**Merged in from the Bitter Lesson audit ([[2026-07-09-bitter-lesson-harness-upgrade]]):** because this phase already touches `PIPELINE-CONTRACT.md` and `advance-watch.mjs`, loosen them in the SAME pass instead of moving-then-rewriting. Recast the contract as semantic (newest sheet = state machine, each post at one of four stages, Alyssa's mark advances it) rather than exact-string; replace the parser's role with a model read of the sheet; delete the duplicated `arcPrompt`/`draftPrompt` from the JS and have /loop point makers at their own contracts; move cycle-specific facts (chat word, banned CTAs) to their one home. Keep a thin mechanical detector only if the Obsidian dashboard truly needs exact headers to render.
+**Merged in from the Bitter Lesson audit ([[2026-07-09-bitter-lesson-harness-upgrade]]):** because this phase already touches [[Studio/Content/dashboard/PIPELINE-CONTRACT]] and `advance-watch.mjs`, loosen them in the SAME pass instead of moving-then-rewriting. Recast the contract as semantic (newest sheet = state machine, each post at one of four stages, Alyssa's mark advances it) rather than exact-string; replace the parser's role with a model read of the sheet; delete the duplicated `arcPrompt`/`draftPrompt` from the JS and have /loop point makers at their own contracts; move cycle-specific facts (chat word, banned CTAs) to their one home. Keep a thin mechanical detector only if the Obsidian dashboard truly needs exact headers to render.
 - **Mack**: the two watcher scripts, telegram bot write target, loop.md shell command.
 - **Silas**: 7 dashboard DataviewJS paths, 5 maker agent shims (suki, cass, angus, reeve, hermes pitch references), PIPELINE-CONTRACT, GL-010/011/012, WS-011, SOP-033–038, WS-004/GL-005 rewrite for the new Inbox.
 - **Suki**: writes `Studio/Content/MAP.md` (the job card) and blesses the new layout for the makers.

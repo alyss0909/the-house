@@ -1,6 +1,6 @@
 # Auto-Advance — how approvals move themselves down the pipeline
 
-Built by Mack, 2026-07-09. Implements `Studio/Content/dashboard/PIPELINE-CONTRACT.md`.
+Built by Mack, 2026-07-09. Implements [[Studio/Content/dashboard/PIPELINE-CONTRACT]].
 
 ## What it does
 
@@ -113,6 +113,6 @@ Optional npm shortcuts — add these to a `package.json` in `Studio/Content/dash
 
 ## The moving parts
 
-- `Studio/Content/dashboard/PIPELINE-CONTRACT.md` — the contract (sections, blocks, approval marks, triggers).
+- [[Studio/Content/dashboard/PIPELINE-CONTRACT]] — the contract (sections, blocks, approval marks, triggers).
 - `Studio/Content/dashboard/advance-watch.mjs` — the trigger **detector** + the maker **prompts** (reproduce Cass's and Hermes's mandatory loads and rules). Read-only against the sheet.
 - `.claude/commands/loop.md` — the `/loop` command Larry runs to dispatch the makers.

@@ -12,7 +12,7 @@ linked_guidelines: []
 
 ## Context
 
-Alyssa came in with the Kit broadcast performance export (`Deliverables/2026-06-03-kit-broadcast-performance-export.md`) — 351 broadcasts of subject line data spanning June 2024–June 2026 — and wanted the Second Brain analysis upgraded from the v1 preliminary file. The session ran three passes: a v2 rebuild from the Kit data, absorption of a second LLM analysis Alyssa shared, and a final full clean rewrite for readability and LLM usability.
+Alyssa came in with the Kit broadcast performance export ([[Deliverables/2026-06-03-kit-broadcast-performance-export]]) — 351 broadcasts of subject line data spanning June 2024–June 2026 — and wanted the Second Brain analysis upgraded from the v1 preliminary file. The session ran three passes: a v2 rebuild from the Kit data, absorption of a second LLM analysis Alyssa shared, and a final full clean rewrite for readability and LLM usability.
 
 ## What we did
 
@@ -49,13 +49,13 @@ Alyssa came in with the Kit broadcast performance export (`Deliverables/2026-06-
 ## Open threads
 
 - [ ] `PKM/Second Brain/examples/subjects-and-previews.md` is still missing — Wren's routing file references it as a future source of real examples. Build this when the raw Kit subject/preview archive is available. (Carried from prior session.)
-- [ ] `PKM/Second Brain/frameworks/subject-line-operating-system.md` references "12 named patterns" in its intro — should be updated to "11 patterns" now that v2.1 is the canonical file. Low priority.
-- [ ] The Kit raw export in `Deliverables/2026-06-03-kit-broadcast-performance-export.md` is a data artifact, not a usable analysis file. Can be archived or deleted once Alyssa confirms the Second Brain file has everything she needs.
+- [ ] [[Studio/Analysis/Frameworks/subject-line-operating-system]] references "12 named patterns" in its intro — should be updated to "11 patterns" now that v2.1 is the canonical file. Low priority.
+- [ ] The Kit raw export in [[Deliverables/2026-06-03-kit-broadcast-performance-export]] is a data artifact, not a usable analysis file. Can be archived or deleted once Alyssa confirms the Second Brain file has everything she needs.
 
 ## Next steps
 
 - When Wren writes subject lines: read `subject-line-analysis.md` v2.1 → identify the email's job (Four Subject Line Jobs) → pick from the matching pattern family → deliver with subject + preview.
-- Use `frameworks/subject-line-operating-system.md` as the Wren interface layer on top of this analysis.
+- Use [[Studio/Analysis/Frameworks/subject-line-operating-system]] as the Wren interface layer on top of this analysis.
 - If the examples file (`examples/subjects-and-previews.md`) gets built, it will strengthen every pattern here with real cited examples — flag that build when there's bandwidth.
 
 ## Cross-links

@@ -20,7 +20,7 @@ sources:
 
 You're right, and here's the actual failure, not a soft version of it: Wren has a mandatory pre-task protocol — load the voice profile, load real examples, never write from instinct — and I let her skip straight to it without doing the reading. Round one worked off your raw notes alone. Round two, when you asked for fresh, I improvised a metaphor (live shows vs. recorded tracks) that has zero relationship to your actual brand world. You don't talk in music-industry language anywhere in your real copy. You talk in kitchen language — pantry, simmer, bread and butter, bouncers, mise en place, signature dish, high-maintenance vs. low-maintenance — and I never went and read the actual sales page, home page, about page, or a real transcript to find that out. I had the analysis-of-your-webinars file open the whole time and never opened the primary sources it points to. That's the miss.
 
-I just read all four: `sales-page.md`, `home-page.md`, `about-page.md`, the 2025 audience survey, the full `Slow Marketing Plan Class` transcript (your actual spoken voice, not a summary of it), and `1.4 The Double Yes Method`. Below is rebuilt entirely on that material. Every metaphor, every piece of terminology, and every stat below is either something you've already said on record or explicitly marked as new/invented.
+I just read all four: [[Studio/Analysis/sales-page]], `home-page.md`, `about-page.md`, the 2025 audience survey, the full `Slow Marketing Plan Class` transcript (your actual spoken voice, not a summary of it), and `1.4 The Double Yes Method`. Below is rebuilt entirely on that material. Every metaphor, every piece of terminology, and every stat below is either something you've already said on record or explicitly marked as new/invented.
 
 ---
 
@@ -50,7 +50,7 @@ That's the actual takeaway. Not a new pipeline — a filter for the one you have
 
 ## 2. REALITY GAP
 
-**This line already exists, word for word, in your own audience profile** (`back-of-house-2025-survey-client-profile.md`, under Email Writing Notes → Good angles): 
+**This line already exists, word for word, in your own audience profile** ([[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]], under Email Writing Notes → Good angles): 
 
 > *"The problem is not that you have no ideas. The problem is that your ideas are not connected to a client pathway."*
 

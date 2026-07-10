@@ -29,10 +29,10 @@ Assume less is built than it looks. Push back if the relay idea depends on a mis
 Attach or point Fable to:
 
 - This entire folder: `Deliverables/2026-07-04-fable-5-ingestion-pack/`
-- The continuation handoff: `Deliverables/2026-07-04-fable-content-relay-continuation-handoff.md`
+- The continuation handoff: [[Deliverables/2026-07-04-fable-content-relay-continuation-handoff]]
 - The Second Brain root: `PKM/Second Brain/`
 - The offer shelf: `PKM/My Life/Offers/`
-- The session source truth: `Team Knowledge/session-logs/2026/07/2026-07-04-18-24_larry_fable-content-relay-source-truth.md`
+- The session source truth: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-04-18-24_larry_fable-content-relay-source-truth]]
 - The Notion Products DB link from [[04-product-cta-bridge]]
 
 If Fable cannot read the whole vault, attach the Second Brain and offer shelf first, then let Fable tell Alyssa what is missing.

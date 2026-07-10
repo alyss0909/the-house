@@ -75,7 +75,7 @@ The work became both a filing job and a future-team design question: should this
 
 - Created [[podcast-guesting-workflow]] as the planning Project and linked it from `PKM/My Life/Projects/INDEX.md`.
 - Created [[podcast-guesting]] as the evergreen Topic and linked it from `PKM/My Life/Topics/INDEX.md`.
-- Added [[2026-06-04-podcast-guesting-pitching-research]] to `Deliverables/README.md`.
+- Added [[2026-06-04-podcast-guesting-pitching-research]] to [[Deliverables/README]].
 - Reversed the attempted `github-resources` Topic stub after Alyssa clarified it should not be a Topic; removed the Topics index entry and deleted the stub.
 - Confirmed `[[business]]` already resolves through `PKM/My Life/Key Elements/Business/business.md`; no duplicate Business stub was created.
 - `Team Inbox/_Processed/` had no files to clear.

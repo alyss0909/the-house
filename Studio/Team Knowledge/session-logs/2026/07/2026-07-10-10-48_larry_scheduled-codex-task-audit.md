@@ -14,7 +14,7 @@ Alyssa asked for a review of scheduled Codex tasks after the house restructure, 
 
 ## What I checked
 
-- Confirmed `[[HOUSE-MAP]]` is the active root map. Root `AGENTS.md` still says `[[VAULT-MAP]]`, so old prompts that ask for VAULT-MAP may fail or start from stale assumptions.
+- Confirmed `[[HOUSE-MAP]]` is the active root map. Root [[AGENTS]] still says `[[VAULT-MAP]]`, so old prompts that ask for VAULT-MAP may fail or start from stale assumptions.
 - Read `[[GL-013-the-house-rules]]`, `[[Team/Silas - Database Architect/AGENTS]]`, `[[Notebook/MAP]]`, `[[Studio/MAP]]`, `[[GL-005-team-inbox-protocol]]`, `[[WS-004-inbox-processing]]`, and `[[WS-005-meeting-capture-processing]]`.
 - Inspected Codex automation definitions under `C:\Users\accol\.codex\automations\`.
 

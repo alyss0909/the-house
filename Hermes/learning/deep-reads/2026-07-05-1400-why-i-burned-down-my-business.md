@@ -8,7 +8,7 @@ studied_by: Larry (hermes-deep-voice-study scheduled task, run 1)
 # Deep read: "Why I burned down a perfectly good business (on purpose)"
 
 First run of the deep-voice-study task — no prior INDEX, so this is also the
-source document for the subject-line exception already cited in `STYLE.md` §7
+source document for the subject-line exception already cited in [[Hermes/STYLE]] §7
 ("the only line that won opens AND clicks"). This study goes past the subject
 line into full body-copy structure.
 
@@ -20,7 +20,7 @@ line into full body-copy structure.
    > "New year / new me / new goals / new vision / new life loading / vibes
    > that are swirling in the air right now — Am i right?"
    This is a documented alternate Pep Talk opener alongside the
-   scene/confession/blurt already in `craft/emails-soft-sunday.md` — a
+   scene/confession/blurt already in [[Hermes/craft/emails-soft-sunday]] — a
    recognition-cascade that names the reader's mental noise before the real
    question lands. Note the wait — this uses an em dash mid-cascade ("right
    now — Am i right?"), the single em dash found in the whole document (see
@@ -86,19 +86,19 @@ line into full body-copy structure.
   — three instances in ~1,700 words, consistent with the "max once or twice
   per piece" guidance being closer to a soft ceiling than a hard one in a
   longer-format email.
-- **Check-In skeleton matches `craft/emails-soft-sunday.md` exactly**: mood
+- **Check-In skeleton matches [[Hermes/craft/emails-soft-sunday]] exactly**: mood
   question → anchor word bookended by the same emoji twice ("🧚‍♀️ magic
   🧚‍♀️") → "the one thing" fill-in → CTA. One-to-one match, no drift.
 
 ## Contradictions / corrections
 
-Flag these to `learning/inbox.md` for Alyssa to adjudicate — they are real,
+Flag these to [[Hermes/learning/inbox]] for Alyssa to adjudicate — they are real,
 published Alyssa copy that trips rules currently written as hard bans.
 
 1. **Banned negative-parallelism shape appears verbatim in her own copy**:
    > "Because it's not just about automating, it's about automating with
    > intention."
-   This is shape #6 on the banned-15 list in `ANTI-AI.md` ("It's not just
+   This is shape #6 on the banned-15 list in [[Hermes/ANTI-AI]] ("It's not just
    about X, it's about Y"). Either (a) this predates the 2026-04-27 rule she
    saved for herself and is now off-brand by her own current standard, or (b)
    the ban is too absolute and needs a carve-out for her own historical
@@ -116,7 +116,7 @@ published Alyssa copy that trips rules currently written as hard bans.
    her current standard. Flagging rather than overwriting the existing rule.
 
 3. **Three-part structure as the entire teaching spine** ("Reason nO1/nO2/
-   nO3") sits close to the "rule of three" ban in `ANTI-AI.md` ("AI lists 3
+   nO3") sits close to the "rule of three" ban in [[Hermes/ANTI-AI]] ("AI lists 3
    when it doesn't know what to say"). This read as a real exception worth
    codifying, not a contradiction to flag upward: each "reason" runs 300-500
    words with its own scene, problem, and named pivot — the ban is clearly

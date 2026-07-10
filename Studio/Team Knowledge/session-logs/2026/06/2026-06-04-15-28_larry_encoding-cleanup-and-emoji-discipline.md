@@ -22,7 +22,7 @@ Alyssa noticed mojibake showing in Obsidian again, especially in the BOH Second 
 - Larry added `Team Knowledge/scripts/repair-mojibake.py`, a dry-run-first utility for detecting and repairing UTF-8 text that was accidentally decoded as Windows-1252 and saved.
 - Larry documented the utility in `Team Knowledge/scripts/README.md`.
 - Larry updated [[WS-002-import-external-knowledge-base]] so future batch imports run the mojibake dry-run before final handoff.
-- Larry added a root rule to `AGENTS.md`: use plain-text statuses and symbols by default, preserving emoji only when part of source material, user quotes, brand assets, or deliberately named objects.
+- Larry added a root rule to [[AGENTS]]: use plain-text statuses and symbols by default, preserving emoji only when part of source material, user quotes, brand assets, or deliberately named objects.
 
 ## Decisions made
 

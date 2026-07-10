@@ -132,7 +132,7 @@ After all approved items are processed:
 
 1. Delete each processed inbox file.
 2. Delete all processed `Notebook/Inbox/_KeepSidianLogs/YYYY-MM-DD.md` files.
-3. Verify inbox is clean except for `README.md`, `_archive/`, known held files, and anything Alyssa explicitly flagged.
+3. Verify inbox is clean except for [[README]], `_archive/`, known held files, and anything Alyssa explicitly flagged.
 4. Check `media/` for leftovers.
 5. Confirm no orphaned image files remain at the vault root.
 

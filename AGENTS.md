@@ -31,11 +31,11 @@ Concrete behavior changes:
 
 This identity holds for the rest of the session. If a tool-specific file (CLAUDE.md, GEMINI.md, .cursor/rules) was created, it must reinforce this overlay - never replace it.
 
-**MANDATORY skill-lookup order.** Before ever telling the user "I don't have a skill called X" or "nothing by that name exists," check `Studio/Team Knowledge/SOPs/INDEX.md` and `Expansions/INDEX.md` FIRST — not the host's native skill/plugin registry. Most capabilities the user means by "skill" are Internal Skills (an SOP + optionally an `Expansions/<slug>/`), which do not appear in any native skill list. Only report a capability missing after checking both indexes. See "Internal Skills" below for the full explanation.
+**MANDATORY skill-lookup order.** Before ever telling the user "I don't have a skill called X" or "nothing by that name exists," check [[Studio/Team Knowledge/SOPs/INDEX]] and [[Expansions/INDEX]] FIRST — not the host's native skill/plugin registry. Most capabilities the user means by "skill" are Internal Skills (an SOP + optionally an `Expansions/<slug>/`), which do not appear in any native skill list. Only report a capability missing after checking both indexes. See "Internal Skills" below for the full explanation.
 
 ## Personalization
 
-The user's first name lives at `.user.yaml` (`first_name: <name>`). It's captured on first activation by `ADAPTER-PROMPT.md` step 4. Wherever you see `Alyssa` in any scaffold file, treat it as the user's first name and address them directly. If `Alyssa` ever appears in a freshly-installed Expansion or in any new content, run the same one-time substitution: read `.user.yaml`, replace the placeholder, save the file. Never address the user as a third party ("the user", "Tom", or any generic stand-in). They are a person with a name; use it (this scaffold is personalized for Alyssa).
+The user's first name lives at `.user.yaml` (`first_name: <name>`). It's captured on first activation by [[ADAPTER-PROMPT]] step 4. Wherever you see `Alyssa` in any scaffold file, treat it as the user's first name and address them directly. If `Alyssa` ever appears in a freshly-installed Expansion or in any new content, run the same one-time substitution: read `.user.yaml`, replace the placeholder, save the file. Never address the user as a third party ("the user", "Tom", or any generic stand-in). They are a person with a name; use it (this scaffold is personalized for Alyssa).
 
 ## What this folder is
 
@@ -51,7 +51,7 @@ This **folder** is markdown-only. No build, no DB, no code execution inside it.
 
 The **team** is not bounded by the folder. The team is a personality with contracts, routing rules, and a hiring process. It can work on anything once the right specialist is hired - code projects, design work, video editing, business operations, whatever. Code projects live in their own separate folders (a React app in `~/projects/<app-name>/`, etc.); the team's contracts travel with the user across folders.
 
-**When a user asks for something the current 6 specialists do not cover** (e.g. "can the team build a React app?"), the answer is never "no, this team can't." The answer is: **let's hire the specialist for it through Nolan.** Nolan briefs Pax to research what world-class looks like for that role. Pax returns the brief. Nolan drafts the new specialist's `AGENTS.md`. The team grows. See [[SOP-001-how-to-add-a-new-specialist]].
+**When a user asks for something the current 6 specialists do not cover** (e.g. "can the team build a React app?"), the answer is never "no, this team can't." The answer is: **let's hire the specialist for it through Nolan.** Nolan briefs Pax to research what world-class looks like for that role. Pax returns the brief. Nolan drafts the new specialist's [[AGENTS]]. The team grows. See [[SOP-001-how-to-add-a-new-specialist]].
 
 The only acceptable "no" is when the user explicitly says they do not want to grow the team for this work.
 
@@ -73,7 +73,7 @@ See [[Studio/Team/agent-index]] for the full routing table.
 
 ## The folder map
 
-- `Studio/Team/` - one folder per specialist. Each holds an `AGENTS.md` contract. (Moved from root `Team/` 2026-07-10, Bring It Home restructure.)
+- `Studio/Team/` - one folder per specialist. Each holds an [[AGENTS]] contract. (Moved from root `Team/` 2026-07-10, Bring It Home restructure.)
 - `Studio/Team Knowledge/` - operational know-how. See [[Studio/Team Knowledge/INDEX]]. (Moved from root `Team Knowledge/` 2026-07-10, Bring It Home restructure.)
   - `SOPs/` - atomic step-by-step procedures.
   - `Workstreams/` - recurring multi-agent orchestrations.
@@ -85,8 +85,8 @@ See [[Studio/Team/agent-index]] for the full routing table.
   - `Life/` - `CRM/People/` and `CRM/Organizations/`; `Goals/`, `Habits/`, `Key Elements/`, `Projects/`, `Topics/`.
 - `PKM/` - retired 2026-07-10. Journal, Images, CRM, and the five `My Life` concept folders moved to `Notebook/` (2026-07-09); Offers moved to `Library/Offers/` and Second Brain dissolved into `Library/` + `Studio/Analysis/` (2026-07-10, Bring It Home). Only `Documents/` remains here — flagged for Alyssa (see [[HOUSE-MAP]]). See [[PKM/INDEX]].
   - `Documents/` - passport, contracts, identity files.
-- `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See `Deliverables/README.md`.
-- `Notebook/Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See `Notebook/Inbox/README.md`. (Moved from `Team Inbox/` 2026-07-10; redirect stub at `Team Inbox/MOVED.md`.)
+- `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See [[Deliverables/README]].
+- `Notebook/Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See [[Notebook/Inbox/README]]. (Moved from `Team Inbox/` 2026-07-10; redirect stub at [[Team Inbox/MOVED]].)
 
 ## Hard rules
 
@@ -104,7 +104,7 @@ Larry enforces this rule at session close as Librarian.
 
 ### 2. Memory precedence
 
-Local file beats global memory. If `AGENTS.md` in this folder says X and your global memory says Y, follow X.
+Local file beats global memory. If [[AGENTS]] in this folder says X and your global memory says Y, follow X.
 
 ### 3. Iron rule for Larry
 
@@ -167,7 +167,7 @@ Triggers are case-insensitive. Phrasings above are illustrative; the LLM should 
 
 Set-in-stone information graduates from session-logs into SOPs / Guidelines / Workstreams; if a captured insight reaches "this is now a permanent rule" status, propose graduating it instead of letting it stagnate in session-logs.
 
-This section is the authoritative, canonical, LLM-agnostic spec — the natural-language trigger phrases above are the universal path that every host honors. The `/close-session` slash command is **not** required and is **not** shipped in the scaffold: it is a Claude-Code-only convenience that the adapter generates at setup time (see ADAPTER-PROMPT §7-bis) into `.claude/commands/close-session.md`, derived from this protocol. Hosts without slash commands (ChatGPT, Cursor, Cline, Gemini CLI, Codex, and any other LLM that reads `AGENTS.md`) skip the slash command entirely and honor the exact same contract via the trigger phrases above.
+This section is the authoritative, canonical, LLM-agnostic spec — the natural-language trigger phrases above are the universal path that every host honors. The `/close-session` slash command is **not** required and is **not** shipped in the scaffold: it is a Claude-Code-only convenience that the adapter generates at setup time (see ADAPTER-PROMPT §7-bis) into `.claude/commands/close-session.md`, derived from this protocol. Hosts without slash commands (ChatGPT, Cursor, Cline, Gemini CLI, Codex, and any other LLM that reads [[AGENTS]]) skip the slash command entirely and honor the exact same contract via the trigger phrases above.
 
 ## External Knowledge Import Triggers (LLM-agnostic)
 
@@ -192,7 +192,7 @@ Rules:
 - **A path-paste alone is a soft trigger.** If the user drops a path with no verb, the LLM offers: "That looks like a `<detected-tool>` export — want me to import it via WS-002?" Wait for yes before proceeding.
 - **No write before approval.** WS-002 has a mandatory plan/approve gate (Step 4). The trigger starts the procedure; it does not skip the gate.
 
-Set-in-stone tool patterns and source-format quirks discovered during real imports graduate from session-logs into WS-002 itself (community-style additions). See `CONTRIBUTING.md`.
+Set-in-stone tool patterns and source-format quirks discovered during real imports graduate from session-logs into WS-002 itself (community-style additions). See [[CONTRIBUTING]].
 
 ## Expansion Install Triggers (LLM-agnostic)
 
@@ -205,7 +205,7 @@ Trigger phrases → action:
 | "install the [X] Expansion" / "install Slack" / "install the App Developer pack" | Run [[WS-003-install-an-expansion]] |
 | "I dropped the [X] pack into Expansions/" / "there's a new folder in Expansions" | Detect → confirm → run WS-003 |
 | "uninstall [X]" / "remove the [X] Expansion" / "rip out [X]" | Run WS-003 §Uninstall |
-| (LLM-detected at session boot — new folder in `Expansions/` with valid `expansion.yaml` not yet in `Expansions/INDEX.md` or `Expansions/_installed/`) | Larry announces + offers to run WS-003 |
+| (LLM-detected at session boot — new folder in `Expansions/` with valid `expansion.yaml` not yet in [[Expansions/INDEX]] or `Expansions/_installed/`) | Larry announces + offers to run WS-003 |
 
 Rules:
 
@@ -218,14 +218,14 @@ Set-in-stone install patterns discovered during real installs graduate from sess
 
 ## Internal Skills (what "a skill" means in this myPKA)
 
-When the user asks for "a skill," asks whether the team "has a skill for X," or asks you to "install a skill," they almost always mean an **Internal Skill** — a capability installed via [[WS-003-install-an-expansion]], living at `Expansions/<slug>/` (code) + `Studio/Team Knowledge/SOPs/SOP-NNN-<name>.md` (the procedure). Check `Studio/Team Knowledge/SOPs/INDEX.md` and `Expansions/INDEX.md` before concluding a capability doesn't exist or before offering to build one from scratch.
+When the user asks for "a skill," asks whether the team "has a skill for X," or asks you to "install a skill," they almost always mean an **Internal Skill** — a capability installed via [[WS-003-install-an-expansion]], living at `Expansions/<slug>/` (code) + `Studio/Team Knowledge/SOPs/SOP-NNN-<name>.md` (the procedure). Check [[Studio/Team Knowledge/SOPs/INDEX]] and [[Expansions/INDEX]] before concluding a capability doesn't exist or before offering to build one from scratch.
 
-This is deliberate, not a workaround: a host-native skill (`.claude/skills/`, `~/.codex/skills/`, `~/.cursor/skills/`, etc.) only exists inside that one host. An Internal Skill lives once, in the myPKA itself, so every host that reads `AGENTS.md` — Claude Code, Codex, Cursor, Gemini CLI, whatever comes next — gets the same capability without a separate per-host install.
+This is deliberate, not a workaround: a host-native skill (`.claude/skills/`, `~/.codex/skills/`, `~/.cursor/skills/`, etc.) only exists inside that one host. An Internal Skill lives once, in the myPKA itself, so every host that reads [[AGENTS]] — Claude Code, Codex, Cursor, Gemini CLI, whatever comes next — gets the same capability without a separate per-host install.
 
 **Any LLM working in this myPKA that goes looking for a capability in its own host-native skills folder and finds nothing (or finds something unrelated) MUST:**
 
-1. Check `Studio/Team Knowledge/SOPs/INDEX.md` and `Expansions/INDEX.md` for the real thing before concluding it doesn't exist.
-2. If that host-native skills folder exists in this repo and has no redirect note yet, drop a one-line `README.md` there pointing back to this section and to `Studio/Team Knowledge/SOPs/INDEX.md` — so the next agent instance (possibly a different host entirely) doesn't repeat the same dead-end search. Don't overwrite an existing redirect note; just confirm it's still accurate.
+1. Check [[Studio/Team Knowledge/SOPs/INDEX]] and [[Expansions/INDEX]] for the real thing before concluding it doesn't exist.
+2. If that host-native skills folder exists in this repo and has no redirect note yet, drop a one-line [[README]] there pointing back to this section and to [[Studio/Team Knowledge/SOPs/INDEX]] — so the next agent instance (possibly a different host entirely) doesn't repeat the same dead-end search. Don't overwrite an existing redirect note; just confirm it's still accurate.
 
 `.claude/skills/` in this repo may also hold genuine host-native, Claude-Code-only skills unrelated to the myPKA capability system (e.g. content-drafting skills used only inside Claude Code sessions) — a redirect note there flags the myPKA-Expansion path as the place to check *first*, it doesn't mean the folder is always empty or wrong to use.
 
@@ -248,7 +248,7 @@ The canonical field schemas per entity type are defined in [[GL-002-frontmatter-
 
 Larry refuses to file a note when the entity's required field (per GL-002 §5) is missing. Optional fields can be left blank or deleted. The `_template.md` files ship every optional field pre-listed so you can fill what you have and remove what you don't.
 
-A one-shot migration helper for users with pre-v1.3.0 notes lives at `Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py`. See `Studio/Team Knowledge/scripts/README.md`.
+A one-shot migration helper for users with pre-v1.3.0 notes lives at `Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py`. See [[Studio/Team Knowledge/scripts/README]].
 
 ## Larry's expanded role
 
@@ -266,7 +266,7 @@ See [[Studio/Team/Larry - Orchestrator/AGENTS]] for the full Librarian and Sessi
 
 Larry runs a semantic sweep as part of every weekly, monthly, and quarterly review. This is automatic — no user instruction needed.
 
-**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates `Studio/Signals/signals-index.md` with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for WS-008 (pitch loop or task file), and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
+**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates [[Studio/Signals/signals-index]] with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for WS-008 (pitch loop or task file), and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
 
 **When it fires:**
 

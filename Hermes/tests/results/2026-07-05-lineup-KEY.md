@@ -10,7 +10,7 @@ Maps each judge file / lineup to the candidate item (the fake), its architecture
 
 ---
 
-## Judge File 1 (`2026-07-05-lineup-judge1.md`)
+## Judge File 1 ([[Hermes/tests/results/2026-07-05-lineup-judge1]])
 
 | Lineup | Fake item | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Real decks used in this file (6 distinct, no repeats): Jan 15, Jan 20, Mar 3, Fe
 
 ---
 
-## Judge File 2 (`2026-07-05-lineup-judge2.md`)
+## Judge File 2 ([[Hermes/tests/results/2026-07-05-lineup-judge2]])
 
 | Lineup | Fake item | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Real decks used in this file (6 distinct, no repeats): Jan 20, Jan 29, Mar 3, Fe
 
 ---
 
-## Judge File 3 (`2026-07-05-lineup-judge3.md`)
+## Judge File 3 ([[Hermes/tests/results/2026-07-05-lineup-judge3]])
 
 | Lineup | Fake item | Candidate | Architecture / Seed | Real deck 1 | Real deck 2 |
 |---|---|---|---|---|---|

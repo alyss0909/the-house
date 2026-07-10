@@ -21,7 +21,7 @@ Nothing from this intake is live-installed as a raw Claude skill. The active `.c
 
 ## Start Here
 
-1. Read `manifest.md` first.
+1. Read [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]] first.
 2. Use the cloned repos in `repos/` as the source material.
 3. Put all derived assessment into `extracted/`.
 4. Do not edit the cloned repo folders directly.
@@ -46,8 +46,8 @@ Hook and viral-content work:
 
 - `repos/blacktwist__social-media-skills/skills/hook-writer-sms/SKILL.md`
 - `repos/aaaronmiller__create-viral-content/SKILL.md`
-- `repos/aaaronmiller__create-viral-content/references/title-formulas.md`
-- `repos/aaaronmiller__create-viral-content/references/refinement-protocol.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/refinement-protocol]]
 - `repos/shixinzhang__tiktok-viral-hooks/by-pattern/en/`
 
 Caption/carousel/social workflow:
@@ -68,19 +68,19 @@ Marketing/copy strategy:
 Anti-AI and quality gate:
 
 - `repos/hardikpandya__stop-slop/SKILL.md`
-- `repos/hardikpandya__stop-slop/references/phrases.md`
-- `repos/hardikpandya__stop-slop/references/structures.md`
-- `repos/aaaronmiller__create-viral-content/references/ai-tells.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/phrases]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/structures]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/ai-tells]]
 
 Mean Alyssa / adversarial review:
 
 - `repos/wan-huiyan__agent-review-panel/README.md`
-- `repos/wan-huiyan__agent-review-panel/docs/research-foundations.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations]]
 - `repos/wan-huiyan__agent-review-panel/docs/review-examples.md`
 
 Blotato:
 
-- `blotato-official/source-note.md` captures Alyssa's original Keep-note provenance and the `automation` connection.
+- [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/source-note]] captures Alyssa's original Keep-note provenance and the `automation` connection.
 - `blotato-official/` has official public docs and skill descriptions.
 - `blotato-skills/` has all seven exact extracted `SKILL.md` files from the official docs.
 - No official public GitHub repo or zip source pack was found; Blotato distributes these as copy-paste `SKILL.md` blocks in the docs.
@@ -88,10 +88,10 @@ Blotato:
 
 ## Content OS Integration Order
 
-1. Build `extracted/social-skill-coverage-map.md`: map each repo skill to a Content OS station.
-2. Build `extracted/hook-patterns-map.md`: compare Blotato `viral-hooks`, Blacktwist hooks, create-viral-content formulas, and TikTok hook patterns.
-3. Build `extracted/anti-slop-crosswalk.md`: merge external AI-tell categories with Alyssa's existing `Hermes/ANTI-AI.md` as a support lint layer only.
-4. Build `extracted/mean-alyssa-review-panel-map.md`: adapt review-panel mechanics into blind scoring, decoy calibration, and tournament review.
+1. Build [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/social-skill-coverage-map]]: map each repo skill to a Content OS station.
+2. Build [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]: compare Blotato `viral-hooks`, Blacktwist hooks, create-viral-content formulas, and TikTok hook patterns.
+3. Build [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]: merge external AI-tell categories with Alyssa's existing [[Hermes/ANTI-AI]] as a support lint layer only.
+4. Build [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]: adapt review-panel mechanics into blind scoring, decoy calibration, and tournament review.
 5. Only after those four maps exist, update Content OS station files or create our own project skills.
 
 ## Source Boundary

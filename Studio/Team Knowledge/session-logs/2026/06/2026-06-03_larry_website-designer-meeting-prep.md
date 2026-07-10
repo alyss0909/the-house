@@ -27,13 +27,13 @@ Alyssa had a meeting coming up with her (new) website designer and needed a quic
 
 ## Insights
 
-- The Feb 2026 note (`2026-02-15-i-wanted-my-brand-vision-to-be-thought-out-and-applied-to-a.md`) is the single most important document for understanding what Alyssa actually wants from a website redesign: the *feeling* of Back of House translated to grand scale, not just logo + colors applied.
+- The Feb 2026 note ([[Notebook/Journal/2026/02/2026-02-15-i-wanted-my-brand-vision-to-be-thought-out-and-applied-to-a]]) is the single most important document for understanding what Alyssa actually wants from a website redesign: the *feeling* of Back of House translated to grand scale, not just logo + colors applied.
 - The live homepage and about page copy are strong and complete — they're a design input, not a to-do.
-- The rebrand project file (`PKM/My Life/Projects/rebrand.md`) is essentially empty — all the real context lives in Journal notes and brand-world.
+- The rebrand project file ([[Notebook/Life/Projects/rebrand]]) is essentially empty — all the real context lives in Journal notes and brand-world.
 
 ## Realignments
 
-- The Gillian design inspo note (`2026-03-11-gillian-design-inspo.md` — Rosewood Hotels) is *client work* for Gillian Flynn, not Alyssa's own site inspo. It appeared in the rebrand search but has no relevance to Alyssa's website.
+- The Gillian design inspo note ([[Notebook/Journal/2026/03/2026-03-11-gillian-design-inspo]] — Rosewood Hotels) is *client work* for Gillian Flynn, not Alyssa's own site inspo. It appeared in the rebrand search but has no relevance to Alyssa's website.
 
 ## Open threads
 

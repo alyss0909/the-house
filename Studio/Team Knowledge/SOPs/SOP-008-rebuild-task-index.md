@@ -2,7 +2,7 @@
 
 - **Owner:** any agent (called automatically by every other task-touching SOP)
 - **Triggered by:** end of [[SOP-004-create-task]], [[SOP-005-claim-task]], [[SOP-006-close-task]]; or session boot if `INDEX.md` is stale
-- **Output:** rewritten `Studio/Team Knowledge/tasks/INDEX.md`
+- **Output:** rewritten [[Studio/Team Knowledge/tasks/INDEX]]
 - **References:** all task SOPs
 
 ## Purpose
@@ -141,7 +141,7 @@ bash <path-to>/rebuild-task-index.sh
 
 Or, if running by hand inside an LLM session, the SOP body is the spec the LLM follows:
 
-> Re-render `Studio/Team Knowledge/tasks/INDEX.md` from current state of `Studio/Team Knowledge/tasks/`. Walk all `tsk-*.md` files under `open/`, `in-progress/`, `done/<YYYY>/<MM>/`, `cancelled/<YYYY>/<MM>/`. Parse each frontmatter. For each in `in-progress/` with `blocked_reason` not null, flag as BLOCKED. Render per the structure in this SOP. Write atomically.
+> Re-render [[Studio/Team Knowledge/tasks/INDEX]] from current state of `Studio/Team Knowledge/tasks/`. Walk all `tsk-*.md` files under `open/`, `in-progress/`, `done/<YYYY>/<MM>/`, `cancelled/<YYYY>/<MM>/`. Parse each frontmatter. For each in `in-progress/` with `blocked_reason` not null, flag as BLOCKED. Render per the structure in this SOP. Write atomically.
 
 ## Common mistakes
 

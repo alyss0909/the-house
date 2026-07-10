@@ -23,7 +23,7 @@ Alyssa came in wanting to make the BOH Program Index smarter — wikilink any as
 - **Larry** reordered assets throughout the quick-scan to a consistent convention: Video → Transcript → Slides → Workbook → DFY/Sheet (slides belong with the video content, not after the workbook).
 - **Larry** removed the `## What's still needed` section from `INDEX.md` — stale project tracking has no place in a content file; anything genuinely outstanding goes to a task.
 - **Larry** updated the Asset Summary table: slides count 8→10, workbooks marked imported ✅, sales page row now wikilinks to the existing file instead of showing a todo.
-- **Larry** (incorrectly) removed `## To Do` sections from `3.1 Bread and Butter Content Slides.md` and `3.2 Slow Pinterest Slides.md` — Alyssa pushed back, sections restored in full.
+- **Larry** (incorrectly) removed `## To Do` sections from [[Library/Programs/back-of-house/3. Traffic Pantry/slides/3.1 Bread and Butter Content Slides]] and [[Library/Programs/back-of-house/3. Traffic Pantry/slides/3.2 Slow Pinterest Slides]] — Alyssa pushed back, sections restored in full.
 
 ## Decisions made
 

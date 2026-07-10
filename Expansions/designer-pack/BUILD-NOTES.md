@@ -41,13 +41,13 @@ An `agent_pack` Expansion that extracts the three creative specialists — Iris,
 
 ## Decisions made
 
-**1. Template = App Developer Pack, not Slack Pack.** The App Developer Pack is the proven `agent_pack` reference. The Slack Pack is a `runtime` and ships `runtime/`, `scripts/`, `.env.example`, `INSTALL.md`. An `agent_pack` ships none of those — no code, no env vars, no installers. This pack's file tree mirrors the App Developer Pack's `agent_pack` shape exactly: `expansion.yaml`, `README.md`, `ADAPT-EXPANSION.md`, `BUILD-NOTES.md`, `LICENSE`, `agents/`, `sops/`.
+**1. Template = App Developer Pack, not Slack Pack.** The App Developer Pack is the proven `agent_pack` reference. The Slack Pack is a `runtime` and ships `runtime/`, `scripts/`, `.env.example`, `INSTALL.md`. An `agent_pack` ships none of those — no code, no env vars, no installers. This pack's file tree mirrors the App Developer Pack's `agent_pack` shape exactly: `expansion.yaml`, [[README]], `ADAPT-EXPANSION.md`, `BUILD-NOTES.md`, `LICENSE`, `agents/`, `sops/`.
 
 **2. No INSTALL.md, no .env.example, no .gitignore, no scripts/.** The App Developer Pack's own BUILD-NOTES states it explicitly: "no INSTALL.md needed — agent_pack has no runtime setup." There is no external setup (no OAuth app to create, no tokens to generate), so an INSTALL.md would be empty ceremony. No `.env*` because there are zero env vars. No `scripts/` because there is nothing to install or launch. WS-003 + Nolan do the merge. Following the proven template, not inventing structure.
 
 **3. LICENSE included.** The App Developer Pack folder did not ship a standalone `LICENSE` file (its `expansion.yaml` declares `license: proprietary`). The brief named `LICENSE` explicitly, and the Slack Pack — also a tier-2 myICOR Expansion — ships one. A standalone `LICENSE` is the right call for any pack heading to the AI Library: it states the myICOR AI Library Software License terms and the GDPR data-controller position in the user's hands. Adapted the Slack Pack's license text to an `agent_pack` (removed the runtime/listener language; kept the no-credentials and data-controller clauses, scoped to creative deliverables and any future Mack-wired image-gen service).
 
-**4. Byte-faithful agent files, with one packaging-only transform.** Per extraction best practice (verified via Perplexity): the first extracted version is byte-faithful to the bundled originals. The three `AGENTS.md` files are copied verbatim from `Team/<name>/AGENTS.md` in the base scaffold, with exactly one mechanical transform: the numbered design-SOP wikilinks (`SOP-007`/`SOP-008`/`SOP-009`/`SOP-010`) were de-numbered to descriptive form (`SOP-build-an-infographic`, etc.). This matches the App Developer Pack convention — packs ship SOPs un-numbered and the installer (Nolan) assigns the next free `SOP-NNN-` slot, then rewrites the cross-references. `SOP-001` (add-a-new-specialist) is a base-scaffold SOP and keeps its number. No persona text, routing, philosophy, or critical-rule changed.
+**4. Byte-faithful agent files, with one packaging-only transform.** Per extraction best practice (verified via Perplexity): the first extracted version is byte-faithful to the bundled originals. The three [[AGENTS]] files are copied verbatim from `Team/<name>/AGENTS.md` in the base scaffold, with exactly one mechanical transform: the numbered design-SOP wikilinks (`SOP-007`/`SOP-008`/`SOP-009`/`SOP-010`) were de-numbered to descriptive form (`SOP-build-an-infographic`, etc.). This matches the App Developer Pack convention — packs ship SOPs un-numbered and the installer (Nolan) assigns the next free `SOP-NNN-` slot, then rewrites the cross-references. `SOP-001` (add-a-new-specialist) is a base-scaffold SOP and keeps its number. No persona text, routing, philosophy, or critical-rule changed.
 
 **5. Four SOPs, copied from the canonical scaffold SOPs.** `SOP-007/008/009/010` from `Team Knowledge/SOPs/` were copied into `sops/` and de-numbered (filename + H1 title + body cross-references). The H1 titles went from `# SOP-007 - Build an Infographic` to `# SOP: Build an Infographic`, matching the App Developer Pack's SOP title style. SOP body content is otherwise byte-faithful. Iris owns two SOPs (author + audit); Charta and Pixel own one each. That mirrors how the base scaffold assigns them today.
 
@@ -71,7 +71,7 @@ An `agent_pack` Expansion that extracts the three creative specialists — Iris,
 ## Files shipped (all under `Expansions/designer-pack/`)
 
 - `expansion.yaml`
-- `README.md`
+- [[README]]
 - `ADAPT-EXPANSION.md`
 - `BUILD-NOTES.md` (this file)
 - `LICENSE`
@@ -81,13 +81,13 @@ An `agent_pack` Expansion that extracts the three creative specialists — Iris,
 - `agents/Charta - Infographic Designer/journal/_template.md`
 - `agents/Pixel - Visual Specialist/AGENTS.md`
 - `agents/Pixel - Visual Specialist/journal/_template.md`
-- `sops/SOP-author-a-design-system.md`
-- `sops/SOP-audit-content-for-design-system-compliance.md`
-- `sops/SOP-build-an-infographic.md`
-- `sops/SOP-generate-a-styled-image.md`
+- [[Expansions/designer-pack/sops/SOP-author-a-design-system]]
+- [[Expansions/designer-pack/sops/SOP-audit-content-for-design-system-compliance]]
+- [[Expansions/designer-pack/sops/SOP-build-an-infographic]]
+- [[Expansions/designer-pack/sops/SOP-generate-a-styled-image]]
 - `guidelines/GL-003-design-system.md` *(added v1.1.0)*
 
-Total: 16 files (15 at v1.0.0 + `guidelines/GL-003-design-system.md` at v1.1.0). Trinity complete: `README.md` + `ADAPT-EXPANSION.md` (no INSTALL.md — `agent_pack` has no runtime or external setup).
+Total: 16 files (15 at v1.0.0 + `guidelines/GL-003-design-system.md` at v1.1.0). Trinity complete: [[README]] + `ADAPT-EXPANSION.md` (no INSTALL.md — `agent_pack` has no runtime or external setup).
 
 ## Status
 

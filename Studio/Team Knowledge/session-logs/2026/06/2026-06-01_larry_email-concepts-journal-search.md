@@ -25,7 +25,7 @@ _(no structural decisions this session — pure research/lookup)_
 ## Insights
 
 - **"For the dreamers" (2024-12-26) is the PKA seed for the Claude hot take email.** The note — *"your unique perspective is / don't be an accomplice to killing your own artistry / don't sell another junk AI garbage"* — is the embryo of the non-homogenized POV argument Alyssa is now developing. Tagged `brand-words` + `copy`.
-- **The journal already has slow marketing copy.** `2025-07-29-social-copy.md` contains *"stop creating disposable posts and start building evergreen marketing that compounds"* and *"stop feeding the algorithm"* — ready to pull verbatim.
+- **The journal already has slow marketing copy.** [[Notebook/Journal/2025/07/2025-07-29-social-copy]] contains *"stop creating disposable posts and start building evergreen marketing that compounds"* and *"stop feeding the algorithm"* — ready to pull verbatim.
 - **Four email concepts have no journal grounding yet:** Digital gardening / commonplace books, Age of the personal archive, "easier to find vs consistent," and the Gary Vee document-vs-create reframe are all new. If Alyssa wants them grounded, they need a quick capture now before they drift.
 
 ## Realignments
@@ -40,8 +40,8 @@ _(no structural decisions this session — pure research/lookup)_
 
 ## Next steps
 
-- If writing the Claude hot take email: start with `2024-12-26-for-the-dreamers.md` as the seed and read the Substack article first
-- If writing the slow marketing / algorithm email: pull copy directly from `2025-07-29-social-copy.md` and `2025-10-06-the-social-media-back-up-plan.md`
+- If writing the Claude hot take email: start with [[Notebook/Journal/2024/12/2024-12-26-for-the-dreamers]] as the seed and read the Substack article first
+- If writing the slow marketing / algorithm email: pull copy directly from [[Notebook/Journal/2025/07/2025-07-29-social-copy]] and [[Notebook/Journal/2025/10/2025-10-06-the-social-media-back-up-plan]]
 
 ## Cross-links
 

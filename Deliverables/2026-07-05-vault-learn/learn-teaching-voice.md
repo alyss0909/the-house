@@ -8,7 +8,7 @@ sources: PKM/Second Brain/examples/** · PKM/Second Brain/analysis/** · PKM/Sec
 
 # How Alyssa Teaches and Sells in Email — Operating Reference
 
-> **Scope note:** Micro-style mechanics (punctuation, em-dash ban, trailing dots, caps density, vowel-stretching, banned vocabulary) live in `Hermes/STYLE.md` and `Hermes/ANTI-AI.md` — run those as the final pass on every draft. This file covers what those files do NOT: her *pedagogy* — the teaching moves, the problem-solving arc, the email architectures, and above all the rule for what she gives away free vs. holds for the paid thing. All quotes below are verbatim from the vault.
+> **Scope note:** Micro-style mechanics (punctuation, em-dash ban, trailing dots, caps density, vowel-stretching, banned vocabulary) live in [[Hermes/STYLE]] and [[Hermes/ANTI-AI]] — run those as the final pass on every draft. This file covers what those files do NOT: her *pedagogy* — the teaching moves, the problem-solving arc, the email architectures, and above all the rule for what she gives away free vs. holds for the paid thing. All quotes below are verbatim from the vault.
 
 ---
 
@@ -28,7 +28,7 @@ Verbatim examples from three different emails:
 
 > "So, a few years ago I **mapped out an entire automated offer funnel on a napkin** during a red eye flight to LA... Buuuut somewhere between wheels down and room service, it disappeared. 🫠 **Gone.**" — *when-delta-stole-my-business-idea* (lost napkin → ideas need a system, not memory)
 
-**When/why she deploys it:** It buys attention before the reader knows they're being taught, and it makes the eventual diagnosis feel *discovered* rather than pitched. Hard constraints from `analysis/simmer-opening-forensics.md`: the scene must pass ≥2 of {conflict, loss/stakes, absurdity, emotional charge}; the pivot to business must land by ~35% of body; the metaphor must yield ≥2 distinct business insights and be rich enough to joke about ("(Okay I swear I'm done with the bath metaphors)"). A static object of desire (a thing she merely wants) is auto-rejected — wanting is not conflict.
+**When/why she deploys it:** It buys attention before the reader knows they're being taught, and it makes the eventual diagnosis feel *discovered* rather than pitched. Hard constraints from [[Studio/Analysis/simmer-opening-forensics]]: the scene must pass ≥2 of {conflict, loss/stakes, absurdity, emotional charge}; the pivot to business must land by ~35% of body; the metaphor must yield ≥2 distinct business insights and be rich enough to joke about ("(Okay I swear I'm done with the bath metaphors)"). A static object of desire (a thing she merely wants) is auto-rejected — wanting is not conflict.
 
 ### Move 2: The restaurant/kitchen metaphor as *naming system*, not decoration
 
@@ -167,7 +167,7 @@ The arc is always the same five stations: **reader pain → named problem → he
 4. **Tiny win (fully executable, free):** "**🕵️‍♀️ DAY ONE — Find Cold Subscribers**... **✍️ DAY TWO — Re-Engagement Campaign**... **✂️ DAY THREE — Prune the List**" plus seven re-engagement email types WITH writing prompts, plus "[_To make it easier, I'll let you have one of my automation templates 🫶._]" and a free Notion plan.
 5. **Gap toward the offer:** Only after the full gift: "👀 Did something about me just handing you my automation make marketing feel more doable? **I do this for all email sequences and newsletters within Back of House**... _I've got room for 2 more people to get feedback... Reply AUTOMATION and I'll send the link_." The offer is the *scaled, personalized* version of the thing the reader just experienced once for free.
 
-**The generalized arc rule:** the offer must arrive as *the obvious way to keep having the experience the email just gave you* — never as a subject change. Per `analysis/soft-sunday.md`: "The product is the action you take after you're convinced — not the reason for the email."
+**The generalized arc rule:** the offer must arrive as *the obvious way to keep having the experience the email just gave you* — never as a subject change. Per [[Studio/Analysis/soft-sunday]]: "The product is the action you take after you're convinced — not the reason for the email."
 
 ---
 
@@ -179,7 +179,7 @@ Two distinct templates. Do not blend their slot logic.
 
 | Slot | Mechanics | Verbatim example |
 |---|---|---|
-| **Subject line** | Job-based (see `analysis/subject-line.md`): for action, sharper not softer — anti-advice, I-FIXED, deliverable nouns, odd dollar amounts. ≤40 chars. | `🙅‍♀️ DON'T "grow your list" do this instead…` (5.42% CTR, #1 of 351) · `The silent killer of GOOD work. (pls avoid!⚠️)` |
+| **Subject line** | Job-based (see [[Studio/Analysis/subject-line]]): for action, sharper not softer — anti-advice, I-FIXED, deliverable nouns, odd dollar amounts. ≤40 chars. | `🙅‍♀️ DON'T "grow your list" do this instead…` (5.42% CTR, #1 of 351) · `The silent killer of GOOD work. (pls avoid!⚠️)` |
 | **Preview text** | Second subject line doing a *different* job — urgency or register-extension, never summary. | "a call to arms for the creative w high standards" — *silent-killer* |
 | **Pre.S / open** | Either a Pre.S. that front-loads the deal for skimmers, or a market observation/provocation. Never "Today I want to..." | "**Pre.S.** _We're installing a Back of House System for 10 entrepreneurs... get your buns to this page & use code ORDERUP to **save $500** before friday_" — *boh-sales-email* |
 | **Story / belief shift** | The reader's current diagnosis dismantled; contrarian reversal with receipts. | "**And after we get comfortable, they sometimes reluctantly admit ….** **'I just wanna go viral'** ... **but I know they mean it.**" then "fast, viral spikes ALMOST NEVER turn into real engagement growth (they tend to reverse right after the spike 🤡)" — *slowly-viral-webinar-invite* |
@@ -205,7 +205,7 @@ Two distinct templates. Do not blend their slot logic.
 | **PS** | Carries the offer one more time with a new proof point; the metaphor gets its exit joke here. | "**PS.** The algorithm can't remember your best post from last week. My Pinterest funnel still brings in leads from 2021. [Reply 'shampoo']..." |
 | **Footer** | The "BTW If your business feels too loud rn" three-offer menu + brand block. | "🥖 _**Plan Your Month Softly: Soft Ceo Sessions**_ 🥖 ... ☁️ _**Steal my Notion Planner**_ ☁️ ... 🛎️ _**Automate your Business' Back of House**_ 🛎️" |
 
-**Soft Sunday variant** (the multi-section newsletter) adds the fixed section furniture — Pep Talk (🫶...🫶), House Report (WHAT'S IN/WHAT'S OUT), Nerding Out On, Bake Break, Time Luxuries, Creep My List, and the non-negotiable Check In ritual: mood binary → anchor word ("This week I'm going with: **🤎 Restore 🤎**") → "_'my week would be a success if the only thing I did was ________________.'_" → "Wishing you a cozy, soft Sunday 🤎". Full slot law is in `analysis/soft-sunday.md`; don't re-derive it.
+**Soft Sunday variant** (the multi-section newsletter) adds the fixed section furniture — Pep Talk (🫶...🫶), House Report (WHAT'S IN/WHAT'S OUT), Nerding Out On, Bake Break, Time Luxuries, Creep My List, and the non-negotiable Check In ritual: mood binary → anchor word ("This week I'm going with: **🤎 Restore 🤎**") → "_'my week would be a success if the only thing I did was ________________.'_" → "Wishing you a cozy, soft Sunday 🤎". Full slot law is in [[Studio/Analysis/soft-sunday]]; don't re-derive it.
 
 **The core structural difference:** in a sales email the CTA is the point of the email and appears multiple times; in a Simmer/Soft Sunday the CTA is what you do *after* you got the point, appears once or twice, late. Formula from the course itself: "Story → Point → Value Drop → (optional) Right Time Offer... Not every simmer email needs an offer — most should just end on value." (*2.3 Weekly Simmer*)
 
@@ -230,7 +230,7 @@ A snippet is HELD FOR PAID when it is:
 2. **The named sub-mechanics that make the system repeatable** — she'll say the rules exist and how many there are, but not what they are: "I have **3 rules** I follow when planning an email-ready offer suite, we'd cross check those" (*boh-sales-email* — the three rules themselves are Phase 1 content).
 3. **Her eyes** — reviews, feedback, custom application: "Submit your emails, offers, and strategy for **direct feedback from me**" / "_I've got room for 2 more people to get feedback on their sequence before Friday._"
 4. **The automation/tooling that removes the labor** — the Pin Planner, the bots, "The PIN Keymaster... **You show up once. It keeps showing up for you**."
-5. **Raw implementation detail that would bore or overwhelm in email anyway** — "I wouldn't dare put real math in this email" (*i-failed-formula-for-growth*, linking a spreadsheet instead). Framework depth in the email; implementation depth in the linked asset or product. Per `analysis/soft-sunday.md`: "the Soft Sunday teaches the concept and gives the structure; the lead magnet, product, or linked resource contains the implementation."
+5. **Raw implementation detail that would bore or overwhelm in email anyway** — "I wouldn't dare put real math in this email" (*i-failed-formula-for-growth*, linking a spreadsheet instead). Framework depth in the email; implementation depth in the linked asset or product. Per [[Studio/Analysis/soft-sunday]]: "the Soft Sunday teaches the concept and gives the structure; the lead magnet, product, or linked resource contains the implementation."
 
 ### The doctrine behind it, in her own words
 
@@ -258,7 +258,7 @@ A snippet is HELD FOR PAID when it is:
 
 ## 5. Do-not list
 
-Anti-patterns conspicuously ABSENT from her real work, each with the verbatim counter-example of what she does instead. (Vocabulary and punctuation bans live in `Hermes/ANTI-AI.md` — these are the *teaching/selling shape* bans.)
+Anti-patterns conspicuously ABSENT from her real work, each with the verbatim counter-example of what she does instead. (Vocabulary and punctuation bans live in [[Hermes/ANTI-AI]] — these are the *teaching/selling shape* bans.)
 
 **1. Topic-first openings ("Today I want to talk about email list health...")**
 Never appears. Every email opens mid-scene or mid-confession.
@@ -314,4 +314,4 @@ Her structures are lopsided on purpose — one step gets a soapbox, one gets a j
 
 ---
 
-*Built 2026-07-05 from full reads of: `examples/sales-emails/` (all 5 + INDEX), `examples/simmers/` (all 3 + INDEX), `examples/soft-sundays/` (i-fixed, your-list-called, why-i-burned + INDEX), `analysis/boh-teaching-index-phases-0-2.md`, `analysis/boh-teaching-index-phases-3-5.md`, `analysis/email-microstyle-forensics.md`, `analysis/simmer-opening-forensics.md`, `analysis/soft-sunday.md`, `analysis/subject-line.md`, `analysis/voice-profile.md`, `analysis/writing-style.md`, `analysis/copy-task-routing.md`, BOH transcripts 1.2 Your Signature Dish / 1.4 Double Yes Freebie / 4.1 The Lazy Launch, `Hermes/STYLE.md`, `Hermes/ANTI-AI.md`.*
+*Built 2026-07-05 from full reads of: `examples/sales-emails/` (all 5 + INDEX), `examples/simmers/` (all 3 + INDEX), `examples/soft-sundays/` (i-fixed, your-list-called, why-i-burned + INDEX), [[Studio/Analysis/boh-teaching-index-phases-0-2]], [[Studio/Analysis/boh-teaching-index-phases-3-5]], [[Studio/Analysis/email-microstyle-forensics]], [[Studio/Analysis/simmer-opening-forensics]], [[Studio/Analysis/soft-sunday]], [[Studio/Analysis/subject-line]], [[Studio/Analysis/voice-profile]], [[Studio/Analysis/writing-style]], [[Studio/Analysis/copy-task-routing]], BOH transcripts 1.2 Your Signature Dish / 1.4 Double Yes Freebie / 4.1 The Lazy Launch, [[Hermes/STYLE]], [[Hermes/ANTI-AI]].*

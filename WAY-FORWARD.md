@@ -16,7 +16,7 @@ What this repo gives you, plainly:
 
 - A six-person AI team (Larry, Penn, Pax, Nolan, Mack, Silas) that runs in any LLM you already use.
 - A working file structure for **My Life** (Goals, Habits, Topics, Projects, Key Elements) plus `Documents/`, `CRM/`, `Images/`, `Journal/`.
-- The agent contracts (`AGENTS.md` per specialist), the routing index, and a starter set of SOPs and Workstreams.
+- The agent contracts ([[AGENTS]] per specialist), the routing index, and a starter set of SOPs and Workstreams.
 - A 34-minute walkthrough video where Dr. Thomas Rödl builds the system from scratch.
 - Plain markdown end to end. Yours forever, on your disk, no SaaS in the loop.
 

@@ -16,11 +16,11 @@ Alyssa came in with a pile of Team Inbox notes that needed reformatting, merging
 
 ## What we did
 
-- **Larry** reformatted `2024-09-26-websites I like.md` into grouped sections (Sales Pages, Vibes, Specific Elements, Brand Inspo, Design Inspo Accounts).
+- **Larry** reformatted [[Notebook/Inbox/2024-09-26-websites I like]] into grouped sections (Sales Pages, Vibes, Specific Elements, Brand Inspo, Design Inspo Accounts).
 - **Larry** reformatted `2025-07-16-Service pros consider hiring.md` into grouped sections (VAs, Web Design, Copywriters, Social & Content, Pinterest, Design, Tools).
 - **Larry** merged `2026-03-25-sales page inspo.md` into websites I like, deleted source.
 - **Larry** reformatted `2026-04-28-Stock Image Inspo.md`; merged `2026-04-28-httpskaboompics...-trunc.md` into it, deleted source.
-- **Larry** merged `2026-04-28-Hook Vault.md` into `2026-04-30-Hooks.md` as a new "Hook Templates" section, deleted source.
+- **Larry** merged `2026-04-28-Hook Vault.md` into [[Notebook/Journal/2026/04/2026-04-30-hooks]] as a new "Hook Templates" section, deleted source.
 - **Larry** merged 3 scattered GitHub/tool files into `2026-05-28-GITHUBS im into.md` (with AI & Writing, Obsidian, Tools sections), deleted 2 source files.
 - **Larry** merged 12 Claude-related files into new `2026-04-27-Claude Notes.md` with 5 sections: Setup & Integrations, Wishlist, Content Skills / Wiring, Prompts & Techniques, IG Saves & Articles. Excluded `LARRY.md` and `2026-05-13-7 pillar prompt framework AI.md` per Alyssa's direction.
 - **Larry** added `2026-05-14-sheet ai.md` (geekinthesheets.app) to GitHubs file under Tools, deleted source.

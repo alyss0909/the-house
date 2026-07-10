@@ -75,14 +75,14 @@ One batch session = the Test Kitchen pitches a full month (12-13 slots), Mean Al
 ## Build order
 
 **Phase 1 - Foundation lock (needs your input, below).**
-**Phase 2 - Build the stations** as skills + agents: `.claude/agents/mean-alyssa.md`, the test-kitchen skill (persona'd pitch fan-out), the maitre-d' rubric skill, the sous-chef teach step (wired to the product index), the pass/packaging skill. Hermes exists.
+**Phase 2 - Build the stations** as skills + agents: [[Hermes/MEAN-ALYSSA]], the test-kitchen skill (persona'd pitch fan-out), the maitre-d' rubric skill, the sous-chef teach step (wired to the product index), the pass/packaging skill. Hermes exists.
 
-External pressure-tested repo intake is now live at `Deliverables/2026-07-05-social-skills-repo-intake/`. Before building station files, the Content OS team reads `CONTENT-OS-HANDOFF.md` and mines the exact Tier 1 clones into the four `extracted/` maps:
+External pressure-tested repo intake is now live at `Deliverables/2026-07-05-social-skills-repo-intake/`. Before building station files, the Content OS team reads [[Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]] and mines the exact Tier 1 clones into the four `extracted/` maps:
 
-- `social-skill-coverage-map.md`
-- `hook-patterns-map.md`
-- `anti-slop-crosswalk.md`
-- `mean-alyssa-review-panel-map.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/social-skill-coverage-map]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
 
 Priority sources: Blacktwist social-media skills, Corey Haines marketing skills, Stop Slop, Agent Review Panel, Create Viral Content, TikTok Viral Hooks, plus all seven extracted Blotato `SKILL.md` vendor/reference files. External repos and vendor skills make the stations smarter; they do not become Alyssa source, do not get activated raw, and do not write final Hermes copy.
 

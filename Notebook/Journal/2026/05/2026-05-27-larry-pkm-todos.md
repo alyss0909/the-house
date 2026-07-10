@@ -14,7 +14,7 @@ Notes on how to deepen the myPKA over time.
 - Understanding my writing style, offer suite, all that
 - Next steps for building agents and workstreams
 - My daily routine using PKA
-- Add a `me.md` file (personal intro for the vault)
+- Add a [[Library/me]] file (personal intro for the vault)
 - Add a Vault Map — how to move through the vault
 - Add a Skills Map — how to do specific things (e.g. "how do I log a journal entry")
 

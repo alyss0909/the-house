@@ -17,8 +17,8 @@ Alyssa asked "when I say use the ponytail skill would everyone know what to do?"
 ## What we did
 
 - Larry wrapped the already-integrated GL-008 doctrine as `Expansions/ponytail/` (expansion_type `agent_pack`, zero code footprint — it's a knowledge pack, not a connector/runtime).
-- Auto-numbered the discoverability SOP into `Team Knowledge/SOPs/SOP-032-apply-ponytail-ladder.md`, default-owned by Larry, reusable by any agent. The SOP is a thin pointer to GL-008 (SSOT preserved — doctrine text lives in exactly one place).
-- Updated `Team Knowledge/SOPs/INDEX.md` (SOP-032 row, next-number bumped to SOP-033) and `Expansions/INDEX.md` (new row, 6 expansions).
+- Auto-numbered the discoverability SOP into [[Studio/Team Knowledge/SOPs/SOP-032-apply-ponytail-ladder]], default-owned by Larry, reusable by any agent. The SOP is a thin pointer to GL-008 (SSOT preserved — doctrine text lives in exactly one place).
+- Updated `Team Knowledge/SOPs/INDEX.md` (SOP-032 row, next-number bumped to SOP-033) and [[Expansions/INDEX]] (new row, 6 expansions).
 - Archived the manifest to `Expansions/_installed/ponytail-1.0.0/.manifest.yaml`.
 - Did NOT re-copy GL-008 or duplicate its content — the Expansion's `adds_guidelines` is empty on purpose, with a comment explaining why (the guideline already existed pre-Expansion; only the missing SOP/trigger layer was added).
 

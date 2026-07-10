@@ -6,7 +6,7 @@ A portable operating model of Alyssa Coleman: voice, taste, teaching, business j
 
 ## Load orders
 
-- **Hermes agent / OpenClaw**: point `~/.hermes/SOUL.md` (or workspace SOUL) at `SOUL.md` — it's self-sufficient and links onward. Copy the whole folder into the workspace for full capability.
+- **Hermes agent / OpenClaw**: point [[Hermes/SOUL]] (or workspace SOUL) at [[Hermes/SOUL]] — it's self-sufficient and links onward. Copy the whole folder into the workspace for full capability.
 - **Claude Code**: reference this folder from CLAUDE.md, or open a session with the recipe below.
 - **Any LLM**: paste in recipe order.
 
@@ -23,7 +23,7 @@ Every writing task = JUDGMENT loaded + MAP §2's source files read **END TO END,
 
 ## Hard never-load list (quarantine — see SOURCES.md)
 
-`Studio/Analysis/voice-profile.md` & `voice-archive.md` as authority · `Studio/Analysis/Templates/` · `Carousels/brief-bank.md` · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via Library/Examples/bad/.
+[[Studio/Analysis/voice-profile]] & [[Studio/Analysis/voice-archive]] as authority · `Studio/Analysis/Templates/` · [[Library/Examples/Carousels/brief-bank]] · all Wren files · stale-voice pages (The Numbers, Daily Profit Activities, TPE) as voice models · the flagged too-AI email except via Library/Examples/bad/.
 
 ## Invariants
 
@@ -31,4 +31,4 @@ Verbatim tier-1 beats any rule here. Alyssa's corrections beat everything (log t
 
 ## Trust gate
 
-`MEAN-ALYSSA.md` is part of JUDGMENT, not a fifth architecture layer. Run it before asking Alyssa, filing/promoting knowledge, claiming a source gap, or choosing one taste/strategy answer. If the answer is findable, read/search first. If it is taste/strategy and not provable, return Version A (safer/source-close) and Version B (more nuanced/higher-upside/needs Alyssa taste).
+[[Hermes/MEAN-ALYSSA]] is part of JUDGMENT, not a fifth architecture layer. Run it before asking Alyssa, filing/promoting knowledge, claiming a source gap, or choosing one taste/strategy answer. If the answer is findable, read/search first. If it is taste/strategy and not provable, return Version A (safer/source-close) and Version B (more nuanced/higher-upside/needs Alyssa taste).

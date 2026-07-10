@@ -21,7 +21,7 @@ These formats share the same speaker and many surface-level patterns, but their 
 
 ## When this surfaced
 
-`workshop-webinar-analysis.md` was initially built for two teaching webinars (Out of Office, Slowly Viral). When the Slow Marketing Plan Class arrived as a third webinar, it was a pitch-class — and it broke the synthesis. The "For Wren" section, the emotional arc map, and the pitch bridge patterns all needed separate treatment.
+[[Studio/Analysis/workshop-webinar-analysis]] was initially built for two teaching webinars (Out of Office, Slowly Viral). When the Slow Marketing Plan Class arrived as a third webinar, it was a pitch-class — and it broke the synthesis. The "For Wren" section, the emotional arc map, and the pitch bridge patterns all needed separate treatment.
 
 ## How to apply
 

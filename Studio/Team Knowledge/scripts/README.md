@@ -25,7 +25,7 @@ text:
 ```
 
 v1.3.0 makes **YAML frontmatter** the canonical source of truth (per
-`Guidelines/GL-002-frontmatter-conventions.md` and the entity templates in
+[[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]] and the entity templates in
 `Templates/`). The Properties tab in mypka-interface v0.3.4+ parses
 frontmatter; the SQLite converter (SOP-002) extracts structured columns
 from frontmatter. Inline body fields parse to **nothing** — silent data
@@ -52,7 +52,7 @@ PKM/Documents/
 It **skips**:
 
 - files that already have YAML frontmatter (no double-write)
-- `INDEX.md`, `README.md`, `_template.md` files
+- `INDEX.md`, [[README]], `_template.md` files
 - folders outside the eight entity folders above (e.g. `PKM/Journal/`,
   `PKM/Images/`, anything under `Studio/Team Knowledge/`)
 
@@ -102,7 +102,7 @@ or pass an absolute path from anywhere.
 Once you've run it on your myPKA and you're satisfied with the result, you
 can safely delete `Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py`
 and this README. They serve no day-to-day purpose; the canonical authority
-for frontmatter shape going forward is `Guidelines/GL-002-frontmatter-conventions.md`
+for frontmatter shape going forward is [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]]
 and `Templates/`.
 
 If you'd rather keep them around in case you ingest legacy notes later,

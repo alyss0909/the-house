@@ -33,7 +33,7 @@ The two files in `Goals/` are skeletons. The real goals live in Key Elements, Pr
 
 ## 3. Bugs and debt found (fix list, prioritized)
 
-1. **The lineup test can't run as written.** `Hermes/TASTE.md` + README reference `examples/good/` and `examples/bad/` — neither folder exists. Fix: create them from her designated gold standards (master-plan ask #6) or re-point at the real example folders.
+1. **The lineup test can't run as written.** [[Hermes/TASTE]] + README reference `examples/good/` and `examples/bad/` — neither folder exists. Fix: create them from her designated gold standards (master-plan ask #6) or re-point at the real example folders.
 2. **PITCH.md re-types every price/chat word BUSINESS.md owns.** One Notion change = silent desync. Fix: strip PITCH.md to wikilinks.
 3. **BOH launch sequence assigned to a deprecated agent** (Wren). Reassign to Hermes.
 4. **`[[operations]]` / `[[work]]` Key Elements don't exist** but every Offer file's "Part of" line points at them. Her call: create `operations.md` or re-point.

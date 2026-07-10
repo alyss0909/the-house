@@ -19,14 +19,14 @@ Session opened on the live W29 Email-week pitch sheet and spiraled (productively
 ## What we did (specialist-attributed)
 
 - **Larry** — resolved the two open W29 items: tightened concept #4 (empty-template→filled-email visual) and **killed #6** on funnel-fit (The 5 Minute Newsletter doesn't turn 1 idea into 5; that's A Year of Emails, off this Wednesday's ladder). Pulled the killed concept off the numbered slate per Alyssa's "no killed ideas on the dash" rule; renumbered.
-- **Larry** — diagnosed the "chosen concept doesn't turn green" dashboard bug (the ✓-Choose handler never writes `✓` back to the concept line; CSS + render already exist). Wrote a design brief (`Deliverables/2026-07-07-concepts-green-turn-design-brief.md`). Discovered the built pipeline is **Concept → Arc → Hook**, not Concept → Hook.
+- **Larry** — diagnosed the "chosen concept doesn't turn green" dashboard bug (the ✓-Choose handler never writes `✓` back to the concept line; CSS + render already exist). Wrote a design brief ([[Deliverables/2026-07-07-concepts-green-turn-design-brief]]). Discovered the built pipeline is **Concept → Arc → Hook**, not Concept → Hook.
 - **Hermes** — built the first W29 teaching-arc skeletons. **Rejected by Alyssa as hollow** ("this person doesn't know what substance is").
 - **Nolan** — built **Cassius**, the Substance specialist (GL-011 + contract + shim). Cassius's worked example was **also rejected** (a coach's math-persuasion slide; used the banned word "quiet"; wrong persuasion model).
-- **Larry** — deep-read pass at Alyssa's order: SOUL/STYLE/TASTE/ANTI-AI/FABLE, then the **top-9 forensics** (`carousel-slide-by-slide.md`, `carousel-hook-forensics.md`), the learning log, the master plan, and the 20-rule craft audit. Reframed the whole problem: specialists were hollow because the **craft (skills + forensics) was never wired into them** and Larry had tunnel-visioned on her work instead of real IG craft.
-- **Pax** — deep online research for the strategist hire (`Deliverables/2026-07-07-social-media-strategist-hire-research.md`): the persona is a buyer-psych editor who hides the sell in teaching; surfaced the **saves→sends** signal shift.
+- **Larry** — deep-read pass at Alyssa's order: SOUL/STYLE/TASTE/ANTI-AI/FABLE, then the **top-9 forensics** ([[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Analysis/carousel-hook-forensics]]), the learning log, the master plan, and the 20-rule craft audit. Reframed the whole problem: specialists were hollow because the **craft (skills + forensics) was never wired into them** and Larry had tunnel-visioned on her work instead of real IG craft.
+- **Pax** — deep online research for the strategist hire ([[Deliverables/2026-07-07-social-media-strategist-hire-research]]): the persona is a buyer-psych editor who hides the sell in teaching; surfaced the **saves→sends** signal shift.
 - **Mack** — attempted the Apify scrape of 3 new indie accounts; **GAPed cleanly** (Apify not reachable from a subagent seat; refused to fabricate).
 - **Nolan** — built **Suki**, Head of Content / Social Media Strategist (slug `suki`): contract, `.claude/agents/suki.md` shim, **GL-012 charter**, agent-index + Guidelines INDEX + WS-011 reconciled.
-- **Larry** — wrote Suki's full onboarding **HANDOFF.md**; added 3 exemplar accounts to `trusted-sources.md`; logged 4 memories.
+- **Larry** — wrote Suki's full onboarding **HANDOFF.md**; added 3 exemplar accounts to [[Studio/Content/trusted-sources]]; logged 4 memories.
 
 ## Decisions made
 
@@ -70,6 +70,6 @@ Hired **Suki** as Social Media Strategist / Head of Content after research from 
 ## Librarian pass
 
 - Suki + Cassius artifacts (contracts, shims, GL-011/GL-012, WS-011, agent-index, Guidelines INDEX) reconciled by Nolan at build time — verified, no orphans.
-- `HANDOFF.md` is onboarding context (not a host-pointer) — cross-linked to GL-012 so doctrine has one home; no SSOT violation.
+- [[Studio/Team/Suki - Social Media Strategist/HANDOFF]] is onboarding context (not a host-pointer) — cross-linked to GL-012 so doctrine has one home; no SSOT violation.
 - Journal gate: durable insights were graduated into GL-011, GL-012, the taste-ledger, and memory rather than duplicate per-agent journal entries (minimize-backlog doctrine).
 - Weekly-review nudge: not triggered (Tuesday = ISO-week day 2).

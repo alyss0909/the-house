@@ -16,7 +16,7 @@ last_updated: 2026-07-04
 |---|---|---|
 | [`sales-pages/`](sales-pages/INDEX.md) | Sales page copy — BOH + other products | building — 20 files |
 | [`sales-emails/`](sales-emails/INDEX.md) | Sales emails from all products | building — 5 examples |
-| [`about-page.md`](about-page.md) · [`home-page.md`](home-page.md) · [`meta-copy.md`](meta-copy.md) | About page, home page, and meta/SEO copy — all live | ✅ complete |
+| [`about-page.md`](about-page.md) · [`home-page.md`](home-page.md) · [[[Library/Examples/meta-copy]]](meta-copy.md) | About page, home page, and meta/SEO copy — all live | ✅ complete |
 | [`soft-sundays/`](soft-sundays/INDEX.md) | 5 best Soft Sunday emails (full text) | 🔶 8 examples — 2026-06-05 |
 | [`simmers/`](simmers/INDEX.md) | 5 best Simmer emails (full text) | 🔶 3 examples — 2026-06-05 |
 | [`Carousels/`](Carousels/INDEX.md) | 9 top-performing carousels Jan–Mar 2026 — original slide images + index | ✅ 2026-06-03 |

@@ -29,10 +29,10 @@ Alyssa ruled Version B on [[Deliverables/2026-07-10-ready-queue-audit]]: dissolv
 
 ## Rewires (live wiring only; dated artifacts untouched)
 
-WS-006 (refs + Phase 3 + Phase 4/5 mentions — Phase 0 left to the inbox-split agent), WS-008 (7 spots), WS-009 (3), WS-010 (3), WS-004 (1), SOP-013 (4), GL-009 `task` row (tasks/ is now the ONE home per GL-013 Rule 3), AGENTS.md (5), Hermes/SOURCES.md quarantine path, Developing Ideas `_template.md`, `signals-index.md` (2 stale dispatch rows), `middle-ground-entrepreneur.md` (brief status closed). Queue sources everywhere are now `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]].
+WS-006 (refs + Phase 3 + Phase 4/5 mentions — Phase 0 left to the inbox-split agent), WS-008 (7 spots), WS-009 (3), WS-010 (3), WS-004 (1), SOP-013 (4), GL-009 `task` row (tasks/ is now the ONE home per GL-013 Rule 3), AGENTS.md (5), Hermes/SOURCES.md quarantine path, Developing Ideas `_template.md`, [[Studio/Signals/signals-index]] (2 stale dispatch rows), [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur]] (brief status closed). Queue sources everywhere are now `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]].
 
 ## What the next agent should know
 
-- `PKM/Second Brain/INDEX.md` and `COMPASS.md` never listed the ready-queue — nothing to update there (verified by vault-wide grep).
+- [[PKM/Second Brain/INDEX]] and [[Studio/Analysis/COMPASS]] never listed the ready-queue — nothing to update there (verified by vault-wide grep).
 - **Orphan wikilinks left on purpose:** 5 Notebook journal entries (2026-06-24 ×3, 2026-06-25, 2026-06-26) carry `[[PKM/Second Brain/ready-queue|Ready Queue]]` dispatch stamps that now dangle. GL-013 Rule 1: Notebook link fixes need Alyssa's explicit request — Larry should ask her before anyone touches them.
 - Schema lesson: GL-009 giving one class two homes was the desync bug; when a class has two homes, the one with zero movement is dead — dissolve it into the one that moves.

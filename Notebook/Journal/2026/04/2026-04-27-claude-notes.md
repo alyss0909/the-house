@@ -19,7 +19,7 @@ Notes and resources for setting up and using Claude effectively.
 - `rules/` -- guardrails it actually follows
 - `skills/` -- teach it new tricks
 - `settings.json` -- the control panel
-- `CLAUDE.md` -- the project brain
+- [[CLAUDE]] -- the project brain
 
 **Kit + Claude (MCP):**
 - [CLAUDE.md for mcp-kit](https://github.com/aplaceforallmystuff/mcp-kit/blob/main/CLAUDE.md)

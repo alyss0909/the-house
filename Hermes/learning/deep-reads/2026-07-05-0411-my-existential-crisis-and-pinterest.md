@@ -12,7 +12,7 @@ The closet/layering Simmer (2026-06-04). Already partially measured in
 email), but never read for full voice extraction. This is the best specimen in
 the corpus of the **promo-variant Simmer**: story → reframe → two tactics →
 full product block with discount code. Several findings below widen or
-contradict rules currently in `craft/emails-simmer.md`.
+contradict rules currently in [[Hermes/craft/emails-simmer]].
 
 ## New patterns found
 

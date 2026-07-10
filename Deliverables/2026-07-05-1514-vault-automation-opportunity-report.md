@@ -17,7 +17,7 @@ The fix implemented today changes the automation target. Automations should not 
 
 ## What changed in the vault
 
-- Root `AGENTS.md` now defines source boundaries, the Versions Rule, and Daily Knowledge Metabolism.
+- Root [[AGENTS]] now defines source boundaries, the Versions Rule, and Daily Knowledge Metabolism.
 - Larry's contract now requires daily metabolism during close-session for active build days.
 - `SOP-011-write-session-log` now has a required `## Daily knowledge metabolism` section.
 - `WS-006-weekly-review` now has `Phase 5 - Grand Metabolism`.
@@ -25,7 +25,7 @@ The fix implemented today changes the automation target. Automations should not 
 - `SOP-013-semantic-sweep` now checks source boundaries and Mean Alyssa before creating/feeding garden, Ready Queue, or Hermes learning.
 - `WS-008-content-activation` now requires Mean Alyssa/source-boundary checks before dispatch.
 - `GL-009-source-boundaries-and-promotion` is active and indexed.
-- `Hermes/MEAN-ALYSSA.md` is the rejection-trained trust gate.
+- [[Hermes/MEAN-ALYSSA]] is the rejection-trained trust gate.
 - Silas owns source-boundary consolidation audits.
 - Mack only automates after the manual metabolism path works once.
 - Nolan audits whether contract changes reduce coordination instead of creating fake new managers.
@@ -70,11 +70,11 @@ The fix implemented today changes the automation target. Automations should not 
 
 **Problem:** The team asks Alyssa bad questions, invents gaps, or promotes generated nuance too early.
 
-**Automation:** Before a task asks Alyssa, edits source-adjacent files, or dispatches Hermes, run a checklist from `Hermes/MEAN-ALYSSA.md`.
+**Automation:** Before a task asks Alyssa, edits source-adjacent files, or dispatches Hermes, run a checklist from [[Hermes/MEAN-ALYSSA]].
 
 **Expected payoff:** Fewer trust breaks and fewer interruptions.
 
-**Implementation path:** A prompt macro or script loads `MEAN-ALYSSA.md`, `GL-009`, and relevant rejection corpus links, then returns `proceed`, `read-first`, `search-first`, `use-existing`, `archive-delete`, or `ask-Alyssa`.
+**Implementation path:** A prompt macro or script loads [[Hermes/MEAN-ALYSSA]], `GL-009`, and relevant rejection corpus links, then returns `proceed`, `read-first`, `search-first`, `use-existing`, `archive-delete`, or `ask-Alyssa`.
 
 **Owner:** Hermes + Larry.
 
@@ -134,7 +134,7 @@ The fix implemented today changes the automation target. Automations should not 
 
 **Problem:** Corrections either vanish or become bloated rules too quickly.
 
-**Automation:** Monthly scan of `Hermes/learning/inbox.md` and related corrections. Only recurring, sourced patterns graduate.
+**Automation:** Monthly scan of [[Hermes/learning/inbox]] and related corrections. Only recurring, sourced patterns graduate.
 
 **Expected payoff:** Hermes gets smarter without getting longer.
 

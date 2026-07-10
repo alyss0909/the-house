@@ -20,8 +20,8 @@ Continued from the 2026-06-01 second-brain-build session. The skeleton was ready
 
 - **Larry** processed P0 workbooks one at a time from MD exports: 0.2 Sign Off Specials, 0.3 Cozy Business Plan, 0.4 Quarterly Recap — strip broken images, strip empty answer tables, format per standard
 - **Larry** processed 1.1 Email First Ecosystem from MD export
-- **Larry** built `back-of-house/bots.md` from the Bots CSV Alyssa dropped — full roster of 11 bots across 4 departments, with descriptions in Alyssa's own words, module references, and links
-- **Larry** filed the Blog Title Generator CSV (`3.1 Blog Title Generator.md`) in P3
+- **Larry** built [[Library/Programs/back-of-house/5. Bonuses/bots]] from the Bots CSV Alyssa dropped — full roster of 11 bots across 4 departments, with descriptions in Alyssa's own words, module references, and links
+- **Larry** filed the Blog Title Generator CSV ([[Library/Programs/back-of-house/3. Traffic Pantry/3.1 Blog Title Generator]]) in P3
 - **Larry** executed a major structural refactor mid-session: renamed all 5 phase folders (`welcome` → `0. Welcome`, `phase-one-house-specials` → `1. The House Specials`, etc.), renamed all content files to `N.M Name.md` format, updated all wikilinks, INDEX tables, breadcrumbs, and the BOH master INDEX phase folders table
 - **Larry** fixed Obsidian wikilink issues: `[text](#anchor)` TOC links → `[[#Heading|Display]]` format; HTML `<a name>` bot anchors → proper heading-based anchors; bots.md encoding corruption (caused by PowerShell Set-Content BOM) → full file rewrite via Write tool
 - **Larry** launched 3 parallel subagents for the 14-docx batch: Agent 1 (P1: 5 files), Agent 2 (P2+P3: 5 files), Agent 3 (P4: 4 files) — all completed with correct format, content, and INDEX updates
@@ -51,7 +51,7 @@ Continued from the 2026-06-01 second-brain-build session. The skeleton was ready
 
 ## Realignments
 
-- **"I don't approve this file naming — it's clunky and not helpful when looking at my Obsidian graph."** → Rebuilt folder and file naming to numbered prefix format (`0. Welcome`, `1.1 Email First Ecosystem.md`) so Obsidian sidebar sorts in course order. Human-readable names so you can find a doc without knowing its module number.
+- **"I don't approve this file naming — it's clunky and not helpful when looking at my Obsidian graph."** → Rebuilt folder and file naming to numbered prefix format (`0. Welcome`, [[Library/Programs/back-of-house/1. The House Specials/1.1 Email First Ecosystem]]) so Obsidian sidebar sorts in course order. Human-readable names so you can find a doc without knowing its module number.
 - **"The 'when to use' and ALL files here... these are my TEACHINGS to students, not just rules to follow — they're things I can share or insights I can teach."** → Reframed Quick Read from "When to use" to "Surfaces in" with IP-first framing. Updated memory and format standard.
 - **"The content links do not work on my end."** → Switched Contents TOC from `[text](#anchor-slug)` to `[[#Heading Text|Display]]` Obsidian wikilink format.
 - **"Bot wikilinks don't work on my end."** → Rebuilt bot anchor approach: removed HTML `<a name>` tags (Obsidian doesn't resolve these), added clean heading `### The Messaging Maitre-d` so `[[bots#The Messaging Maitre-d]]` resolves correctly.

@@ -12,7 +12,7 @@ linked_guidelines: []
 
 ## Context
 
-Alyssa came in asking Larry to find a saved note about a Substack article she half-remembered as "you're a text file." Larry located it in `PKM/Journal/2026/04/2026-04-27-claude-notes.md` (line 105). Alyssa had web-clipped the full article and dropped it into Team Inbox as `I can be you.md`. The session became a deep build session: reading the methodology, assessing what the Second Brain already had, and running a full AI-mined voice extraction pass — without Alyssa having to do the 2-hour interview herself first.
+Alyssa came in asking Larry to find a saved note about a Substack article she half-remembered as "you're a text file." Larry located it in [[Notebook/Journal/2026/04/2026-04-27-claude-notes]] (line 105). Alyssa had web-clipped the full article and dropped it into Team Inbox as `I can be you.md`. The session became a deep build session: reading the methodology, assessing what the Second Brain already had, and running a full AI-mined voice extraction pass — without Alyssa having to do the 2-hour interview herself first.
 
 ## What we did
 
@@ -21,7 +21,7 @@ Alyssa came in asking Larry to find a saved note about a Substack article she ha
 - **Larry** assessed the gap between what the Second Brain already had (output-analysis layer: writing-style.md, sales-page-analysis.md, me.md) vs. what the Ruben method would add (input-extraction layer: beliefs, aesthetic crimes, decision rules, hard nos)
 - **Larry** dispatched a general-purpose agent to mine all Second Brain source files (7 training transcripts, 2 webinars, sales pages, about/home pages, email templates, existing analysis) and answer all 100 interview questions from evidence
 - **Agent** produced two files:
-  - `PKM/Second Brain/analysis/voice-archive.md` — 100-question archive, every answer sourced and confidence-rated (87/100 HIGH or MED)
+  - [[Studio/Analysis/voice-archive]] — 100-question archive, every answer sourced and confidence-rated (87/100 HIGH or MED)
   - `PKM/Second Brain/analysis/about_me.md` — compressed XML voice profile, ~3,000 tokens, AI-ready
 - **Larry** updated memory: `reference_second_brain_voice_layer.md` (added both new files) and `reference_voice_profile_methodology.md` (new file)
 - **Larry** created task `tsk-2026-06-03-006` with full handoff: gap questions formatted as a ready-to-paste interview prompt, next steps post-interview, instructions for making about_me.md "always on"
@@ -32,7 +32,7 @@ Alyssa came in asking Larry to find a saved note about a Substack article she ha
   **Decision:** AI mines first. Alyssa reviews the AI-generated archive, then does a targeted gap interview (~13 questions, ~30-45 min) to fill what the files couldn't answer. Smarter use of her time — the heavy lifting is done from source material.
 
 - **Question:** Where do these files live in the Second Brain?
-  **Decision:** Both in `PKM/Second Brain/analysis/` alongside writing-style.md and sales-page-analysis.md. `about_me.md` is the portable AI-ready file; `voice-archive.md` is the human-readable evidence layer.
+  **Decision:** Both in `PKM/Second Brain/analysis/` alongside writing-style.md and sales-page-analysis.md. `about_me.md` is the portable AI-ready file; [[Studio/Analysis/voice-archive]] is the human-readable evidence layer.
 
 - **Question:** What's the status of `about_me.md` — is it ready to use?
   **Decision:** Use it now for copy sessions, but treat it as a draft pending Alyssa's review. It's better than nothing and already high-signal. Mark status as "AI-mined draft — awaiting Alyssa review."
@@ -52,15 +52,15 @@ Alyssa came in asking Larry to find a saved note about a Substack article she ha
 
 ## Open threads
 
-- [ ] **tsk-2026-06-03-006** — Alyssa to review `voice-archive.md` and `about_me.md`, annotate what's wrong, then run the 13-question gap interview. Task has full handoff including copy-paste interview prompt.
+- [ ] **tsk-2026-06-03-006** — Alyssa to review [[Studio/Analysis/voice-archive]] and `about_me.md`, annotate what's wrong, then run the 13-question gap interview. Task has full handoff including copy-paste interview prompt.
 - [ ] **"Always on" setup** — After the gap interview is done and `about_me.md` is updated, load it into the project so it auto-reads every copy session. Not yet done.
 - [ ] **Test the profile** — Open a blank session with just `about_me.md` loaded, give it a copy prompt, verify it sounds like Alyssa. Pending review + gap interview completion.
-- [ ] **Future copywriter hire** — `about_me.md` + `writing-style.md` together become the onboarding doc. Pending final review.
-- [ ] **analysis/INDEX.md** — `voice-archive.md` and `about_me.md` added this session; INDEX updated during close-session librarian pass.
+- [ ] **Future copywriter hire** — `about_me.md` + [[Studio/Analysis/writing-style]] together become the onboarding doc. Pending final review.
+- [ ] **analysis/INDEX.md** — [[Studio/Analysis/voice-archive]] and `about_me.md` added this session; INDEX updated during close-session librarian pass.
 
 ## Next steps
 
-1. Alyssa reads `about_me.md` first (short), then `voice-archive.md` (full archive) — tells Larry what's wrong
+1. Alyssa reads `about_me.md` first (short), then [[Studio/Analysis/voice-archive]] (full archive) — tells Larry what's wrong
 2. Alyssa runs the 13-question gap interview (prompt is in the task file, ready to paste)
 3. Larry updates both files from her answers
 4. Load `about_me.md` as always-on context

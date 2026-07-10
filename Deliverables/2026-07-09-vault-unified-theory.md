@@ -16,7 +16,7 @@ Line up everything that has broken trust in this vault:
 | Symptom | What actually happened |
 |---|---|
 | Content calendar built 5 times in one week | Each build sprint derived its own copy because no neutral home existed for "the current truth" |
-| `Hermes/BUSINESS.md` owns business facts | Facts were consolidated *during the Hermes build*, so they stayed where they were born — inside the builder's workspace — and got declared canonical by momentum |
+| [[Hermes/BUSINESS]] owns business facts | Facts were consolidated *during the Hermes build*, so they stayed where they were born — inside the builder's workspace — and got declared canonical by momentum |
 | `Team Inbox/pitches` is a live workspace inside an inbox | The pitch project was born in the inbox and never moved out when it became permanent infrastructure |
 | Deliverables is a forever shelf | Outputs are born in Deliverables and there is no *next place* — so nothing ever leaves |
 | AI analysis sits beside Alyssa's verbatim source | Analysis was born during the Second Brain import and filed next to its subject, not by its trust level |

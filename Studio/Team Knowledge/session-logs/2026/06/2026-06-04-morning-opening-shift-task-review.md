@@ -35,7 +35,7 @@ Alyssa opened the session asking for an opening shift rundown: "what's on my lis
 ## Open threads
 
 - [ ] **Voice profile review + gap interview** (tsk-2026-06-03-006) — due TODAY. Alyssa needs to read `about_me.md`, note corrections, and run the 13-question gap interview in a fresh Claude session using Wispr Flow. Report back to Larry after for archive + recompile.
-- [ ] **Review Pax automation report** (tsk-2026-06-04-001) — due June 6. File is at `Deliverables/2026-06-04-claude-routines-automation-fit-report.md`. Three routines to approve/park/kill: Weekly Second Brain Digest, Weekly Content Kitchen, Weekly Vault & Business Drift Check.
+- [ ] **Review Pax automation report** (tsk-2026-06-04-001) — due June 6. File is at [[Deliverables/2026-06-04-claude-routines-automation-fit-report]]. Three routines to approve/park/kill: Weekly Second Brain Digest, Weekly Content Kitchen, Weekly Vault & Business Drift Check.
 - [ ] **Camila recurring-work brainstorm** (tsk-2026-06-03-007) — Larry-owned but blocked on Alyssa providing Camila's role objectives. A 5-min input from Alyssa unblocks this entirely.
 - [ ] **Rush Order build** (tsk-2026-06-03-001) — copy is done; product shell (sales page, OTO placement, checkout, onboarding flow) not yet built. Next session: pick a path.
 - [ ] **IDX platform research** (tsk-2026-06-03-002) — shortlist for Jillian's Editor in Residence embed; Andrew ready to trial when list is ready.
@@ -47,7 +47,7 @@ Alyssa opened the session asking for an opening shift rundown: "what's on my lis
 
 ## Next steps
 
-- Next session: open by checking whether the voice profile gap interview is done (it was due today). If yes, Larry pulls the answers, updates `voice-archive.md`, and recompiles `about_me.md`. If not, hold off on any copy work that depends on it.
+- Next session: open by checking whether the voice profile gap interview is done (it was due today). If yes, Larry pulls the answers, updates [[Studio/Analysis/voice-archive]], and recompiles `about_me.md`. If not, hold off on any copy work that depends on it.
 - Automation report decision is the second thing to knock out — short review, three choices.
 - Camila brainstorm can happen quickly once Alyssa gives 2-3 sentences on her role objectives for Camila.
 

@@ -22,7 +22,7 @@ Source cluster (self-trust theme, 2019→2026, `PKM/Journal/`):
 
 ## Phrase-level diff against real Jan 22 ("Wasting Time Is Part of My Process.")
 
-Per repair instruction: structure (I-litany, permission-slip spine, terracotta-cup-style cover, BOH logo pattern-interrupt, no-CTA close) is sanctioned as a repeatable mechanic. Phrases below were checked line by line against the real Jan 22 slide text (`carousel-slide-by-slide.md` slides 1-9) and confirmed as NOT reused:
+Per repair instruction: structure (I-litany, permission-slip spine, terracotta-cup-style cover, BOH logo pattern-interrupt, no-CTA close) is sanctioned as a repeatable mechanic. Phrases below were checked line by line against the real Jan 22 slide text ([[Studio/Analysis/carousel-slide-by-slide]] slides 1-9) and confirmed as NOT reused:
 
 | Real Jan 22 line | This draft's equivalent-position line | Verdict |
 |---|---|---|

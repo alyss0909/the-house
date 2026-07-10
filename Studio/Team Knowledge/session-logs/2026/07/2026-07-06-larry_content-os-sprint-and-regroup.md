@@ -8,8 +8,8 @@ Alyssa ordered: graduate the adjudication-sitting rulings + Round-1 root causes 
 
 ## Artifacts
 
-- Diagnosis + scope-locked next steps: `Deliverables/2026-07-06-regroup-handoff.md` (contains the paste-in prompt for the next session)
-- Learnings: `Deliverables/2026-07-06-content-os-learnings.md`
+- Diagnosis + scope-locked next steps: [[Deliverables/2026-07-06-regroup-handoff]] (contains the paste-in prompt for the next session)
+- Learnings: [[Deliverables/2026-07-06-content-os-learnings]]
 - Sprint archived DO-NOT-SHIP: `Deliverables/_archive/sprint-1/` (salvage: "The Flavor Profile" post, "Why I Stopped Treating Pinterest Like Instagram" hook); pitches file stays live
 - Round 2 + sprint lineups: `Hermes/tests/results/` (r2 files, 2026-07-06-sprint2-lineups/)
 - Extraction maps: `Deliverables/2026-07-05-social-skills-repo-intake/extracted/` (4 files + protocol amendment)
@@ -17,7 +17,7 @@ Alyssa ordered: graduate the adjudication-sitting rulings + Round-1 root causes 
 
 ## Next session (scope-locked)
 
-ONE Weekly Pitch Sheet at `Team Inbox/pitches/2026-W28-pitch.md` — outline only (concepts + sources + 2 hooks/slot + FTG interview block), after building the offer essence map. Vault file, weekly cadence, her inline reacts. NO copy until she approves concepts. One owner per creative piece, no relays.
+ONE Weekly Pitch Sheet at [[Studio/Content/2026-W28-pitch]] — outline only (concepts + sources + 2 hooks/slot + FTG interview block), after building the offer essence map. Vault file, weekly cadence, her inline reacts. NO copy until she approves concepts. One owner per creative piece, no relays.
 
 ## Open for Alyssa (parked, non-blocking)
 

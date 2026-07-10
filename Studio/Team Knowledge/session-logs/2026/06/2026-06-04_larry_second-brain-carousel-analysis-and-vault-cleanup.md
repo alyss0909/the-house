@@ -31,27 +31,27 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 
 **Larry (synthesis + Second Brain build):**
 - Created `analysis/carousel-analysis.md` — performance data table, archetype→metric mapping, 7 pattern observations, voice patterns, design patterns
-- Created `frameworks/carousel-framework.md` — 6 archetypes with full arcs, 7 hook formulas with writing rules, 3-layer copy system, design rules, series architecture
-- Created `templates/carousel-brief.md` — pre-production checklist (5 decisions before writing) + 10 fully scoped ready-to-write carousel briefs
+- Created [[Studio/Analysis/Frameworks/carousel-framework]] — 6 archetypes with full arcs, 7 hook formulas with writing rules, 3-layer copy system, design rules, series architecture
+- Created [[Studio/Analysis/Templates/carousel-brief]] — pre-production checklist (5 decisions before writing) + 10 fully scoped ready-to-write carousel briefs
 - Created `examples/Carousels/INDEX.md` — image folders mapped with archetype + top metric for each
 - Deleted root-level `[Framework] Carousel Playbook.md` (orphaned, replaced by the 3 properly-filed documents)
 - Updated 4 INDEX files: `analysis/INDEX.md`, `frameworks/INDEX.md`, `templates/INDEX.md`, `examples/INDEX.md`
-- Renamed `analysis/about_me.md` → `analysis/about-me.md` → `analysis/voice-profile.md` (two-pass rename for clarity)
-- Updated all 6 reference locations: `analysis/INDEX.md`, `analysis/voice-archive.md`, `analysis/copy-task-routing.md`, `memory/reference_voice_profile_methodology.md`, `memory/reference_second_brain_voice_layer.md`, `memory/MEMORY.md`
+- Renamed `analysis/about_me.md` → `analysis/about-me.md` → [[Studio/Analysis/voice-profile]] (two-pass rename for clarity)
+- Updated all 6 reference locations: `analysis/INDEX.md`, [[Studio/Analysis/voice-archive]], [[Studio/Analysis/copy-task-routing]], `memory/reference_voice_profile_methodology.md`, `memory/reference_second_brain_voice_layer.md`, `memory/MEMORY.md`
 - Fixed `analysis/subject-line-analysis.md` — renumbered patterns from 1, 1B, 2…6, 6B, 6C, 7, 8, 9 → clean sequential 1–12; removed 3 double `---` separators; updated reference table and version note
-- Added "Vault cleanliness — agent duty" section to `Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`
+- Added "Vault cleanliness — agent duty" section to [[Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions]]
 - Added `feedback_fix_dont_flag.md` to memory and updated `MEMORY.md` index
-- Rewrote `PKM/Second Brain/INDEX.md` entirely — "START HERE" entry point to copy-task-routing.md, corrected workflow order, "when to open it" folder table, quick-reference task-to-files table, key files table
-- Updated `analysis/copy-task-routing.md` — added full carousel routing with archetype→metric map and pre-production checklist note; split "social media copy" entry into separate carousel + IG caption routes; updated subject line entry to point to `subject-line-analysis.md` as primary read
-- Updated `BUILD-PLAN.md` — reflected true current state (BOH fully imported, carousels done, me.md exists, all analysis files built, email examples still missing)
+- Rewrote [[PKM/Second Brain/INDEX]] entirely — "START HERE" entry point to copy-task-routing.md, corrected workflow order, "when to open it" folder table, quick-reference task-to-files table, key files table
+- Updated [[Studio/Analysis/copy-task-routing]] — added full carousel routing with archetype→metric map and pre-production checklist note; split "social media copy" entry into separate carousel + IG caption routes; updated subject line entry to point to `subject-line-analysis.md` as primary read
+- Updated [[Studio/Analysis/BUILD-PLAN]] — reflected true current state (BOH fully imported, carousels done, me.md exists, all analysis files built, email examples still missing)
 
 ---
 
 ## Decisions made
 
-- **`about-me.md` → `voice-profile.md`:** The file is Alyssa's AI-ready voice profile (XML `<about_me>` format). Renaming to `voice-profile.md` removes the false association with her about PAGE and makes its purpose immediately clear. All references updated.
+- **`about-me.md` → [[Studio/Analysis/voice-profile]]:** The file is Alyssa's AI-ready voice profile (XML `<about_me>` format). Renaming to [[Studio/Analysis/voice-profile]] removes the false association with her about PAGE and makes its purpose immediately clear. All references updated.
 
-- **Carousel work split into 3 files, not 1:** `carousel-analysis.md` (what we found) + `carousel-framework.md` (rules to follow) + `carousel-brief.md` (fill in the blank). One monolithic playbook dumped at the root was the wrong shape — three focused files in their correct folders is navigable and purpose-clear.
+- **Carousel work split into 3 files, not 1:** `carousel-analysis.md` (what we found) + [[Studio/Analysis/Frameworks/carousel-framework]] (rules to follow) + [[Studio/Analysis/Templates/carousel-brief]] (fill in the blank). One monolithic playbook dumped at the root was the wrong shape — three focused files in their correct folders is navigable and purpose-clear.
 
 - **"Fix don't flag" is now a codified team rule:** Any fixable vault issue (naming, broken links, misplaced files) gets fixed immediately, not flagged. Graduated to GL-001 and memory. No agent should surface a fixable problem to Alyssa as an action item.
 
@@ -85,7 +85,7 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 
 ## Open threads
 
-- [ ] **Alyssa to review `analysis/voice-profile.md`** — AI-mined draft, awaiting her annotation pass and 100-question interview to fill LOW/MED confidence gaps
+- [ ] **Alyssa to review [[Studio/Analysis/voice-profile]]** — AI-mined draft, awaiting her annotation pass and 100-question interview to fill LOW/MED confidence gaps
 - [ ] **5 Simmer emails needed** — the highest-priority Second Brain gap; once filed, enables building the Simmer template (most important email template for Wren)
 - [ ] **5 Soft Sunday emails needed** — second-priority email gap
 - [ ] **Notion vaults** — Mack to set up API connection to import hook vault, RTO vault, PS vault, segmentation vault, sequence prompts into `frameworks/`
@@ -99,7 +99,7 @@ Alyssa came in wanting a deep, nuanced analysis of 9 top-performing Instagram ca
 1. Drop 5 Simmer emails into `examples/simmers/` — Larry reads them → builds `analysis/simmer-analysis.md` → builds `templates/email-simmer.md`
 2. Drop 5 Soft Sunday emails into `examples/soft-sundays/` — same process
 3. Have Mack start Notion API connection for frameworks/ vaults
-4. Run `analysis/workshop-webinar-analysis.md` — transcripts are ready, just needs a session
+4. Run [[Studio/Analysis/workshop-webinar-analysis]] — transcripts are ready, just needs a session
 
 ---
 

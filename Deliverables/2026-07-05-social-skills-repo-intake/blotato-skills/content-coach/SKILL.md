@@ -25,7 +25,7 @@ If they give you a specific topic AND a platform, skip to `post-writer` directly
 
 ### Step 1: Check for an existing brand brief
 
-Look for `brand-brief.md` in the current directory.
+Look for [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory.
 
 - **If found**: Read it. Skim what's there. Skip to Step 3.
 - **If missing**: Run Step 2 first.
@@ -40,11 +40,11 @@ Don't announce "I'm running the brand-brief skill." Just start asking. Walk thro
 4. Tell me one recent story, win, or thing that happened in your business.
 5. What's your vibe â€” fun and casual, professional, raw and honest, witty?
 
-Save answers to `brand-brief.md` in the current directory. Format follows the `brand-brief` skill's template.
+Save answers to [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory. Format follows the `brand-brief` skill's template.
 
 ### Step 3: Brainstorm 5 ideas (optimized for virality)
 
-Read `brand-brief.md`, including the **Strong Opinion / Wedge** section â€” that's the highest-virality input. Generate **5 specific post ideas** tied to their business and audience. Not generic ("share a tip"). Specific.
+Read [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]], including the **Strong Opinion / Wedge** section â€” that's the highest-virality input. Generate **5 specific post ideas** tied to their business and audience. Not generic ("share a tip"). Specific.
 
 Lean toward these high-virality angles. Pick a mix â€” at least one polarizing, at least one with a number:
 
@@ -64,7 +64,7 @@ Show the 5 as a numbered list. Each idea: 1 sentence describing it + 1 sentence 
 
 Once they pick an idea, ask: "Which platform are we writing for? (Instagram, Facebook, Twitter/X, LinkedIn, TikTok, Threads)"
 
-**If they don't know which to pick**, recommend based on what their customer (from `brand-brief.md`) is most likely on:
+**If they don't know which to pick**, recommend based on what their customer (from [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]]) is most likely on:
 - B2C, visual product, women 25-55 â†’ Instagram
 - B2C, broad audience, family/community â†’ Facebook
 - B2B, professionals, services â†’ LinkedIn

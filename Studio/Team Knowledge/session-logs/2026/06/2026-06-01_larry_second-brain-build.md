@@ -20,7 +20,7 @@ Alyssa came in wanting to build a Second Brain: a structured personal library of
 
 - **Larry** read open task `tsk-2026-06-01-002-second-brain` and planning note `2026-06-01-second-brain-assets` as starting context
 - **Larry** built a premature first-pass structure (7 files) before north star was confirmed — all deleted after Alyssa realigned
-- **Pax** ran deep research on Obsidian + LLM second brains; brief saved to `Deliverables/2026-06-01-second-brain-research.md`. Key finding: 3-level map structure confirmed, Notion API method confirmed, NotebookLM Chrome extension medium confidence
+- **Pax** ran deep research on Obsidian + LLM second brains; brief saved to [[Deliverables/2026-06-01-second-brain-research]]. Key finding: 3-level map structure confirmed, Notion API method confirmed, NotebookLM Chrome extension medium confidence
 - **Larry** confirmed north star with Alyssa before rebuilding
 - **Larry** built `PKM/Second Brain/` skeleton: INDEX, BUILD-PLAN, programs/, examples/, analysis/, templates/, frameworks/ — each with their own INDEX.md
 - **Larry** built full BOH program index from the course CSV Alyssa provided: master INDEX with quick-scan course map, 5 phase subfolders (welcome/, phase-one/ through phase-four/), all asset slots named and ready

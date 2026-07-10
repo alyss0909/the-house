@@ -7,10 +7,10 @@ Date: 2026-07-05
 
 - `wan-huiyan__agent-review-panel | 8174d40212cc743fdeaf28928ecf3bd4b63d517f | README.md`
 - `wan-huiyan__agent-review-panel | 8174d40212cc743fdeaf28928ecf3bd4b63d517f | skills/agent-review-panel/SKILL.md`
-- `wan-huiyan__agent-review-panel | 8174d40212cc743fdeaf28928ecf3bd4b63d517f | skills/agent-review-panel/references/signals-and-checklists.md`
-- `wan-huiyan__agent-review-panel | 8174d40212cc743fdeaf28928ecf3bd4b63d517f | docs/research-foundations.md`
-- `Hermes/MEAN-ALYSSA.md`
-- `Hermes/tests/results/2026-07-05-tournament-verdict-round1.md`
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/skills/agent-review-panel/references/signals-and-checklists]]
+- [[Deliverables/2026-07-05-social-skills-repo-intake/repos/wan-huiyan__agent-review-panel/docs/research-foundations]]
+- [[Hermes/MEAN-ALYSSA]]
+- [[Hermes/tests/results/2026-07-05-tournament-verdict-round1]]
 
 Note on scope: `docs/review-examples.md` does not exist in this repo at this commit (checked, not found under `docs/` or anywhere in the tree). The README's worked example (`docs/reviews/2026-05-14-readme/`) and the SKILL.md "monksIQ China brand-report bake-off" worked example serve the same purpose and are cited below instead.
 
@@ -99,7 +99,7 @@ Applied to us: our "sure / lean / coin-flip" labels are a start but aren't load-
 
 Numbered, runnable procedure for future tournament rounds. Each step is one paragraph.
 
-1. **Candidate gate.** Before any candidate deck enters a lineup, it passes the existing Mean Alyssa preflight (source-trust, question-quality, taste checks from `Hermes/MEAN-ALYSSA.md`) plus the three Round 1 root-cause rules encoded in craft files: per-slide texture floor (~1 un-inventable detail per value slide), headline-shape ban (no reframe-shaped headers, with the real-source carve-out), and metaphor-layering cadence (one extended-stretch moment max per deck). A candidate that fails this gate is not lineup-ready — fix it or drop it, don't send it in weak.
+1. **Candidate gate.** Before any candidate deck enters a lineup, it passes the existing Mean Alyssa preflight (source-trust, question-quality, taste checks from [[Hermes/MEAN-ALYSSA]]) plus the three Round 1 root-cause rules encoded in craft files: per-slide texture floor (~1 un-inventable detail per value slide), headline-shape ban (no reframe-shaped headers, with the real-source carve-out), and metaphor-layering cadence (one extended-stretch moment max per deck). A candidate that fails this gate is not lineup-ready — fix it or drop it, don't send it in weak.
 
 2. **Judge calibration (run before every round, not once).** Assemble the judge pool for this round and give each judge 3-5 control lineups that are 100% real Alyssa decks, unknown to the judge. A judge advances only if they correctly clear these controls — at most one non-"sure" false positive, zero "sure"-confidence false positives. A judge who fails is not used for that round's real verdicts; their misfires get logged as calibration data and folded back into the ANTI-AI/STYLE carve-out rules if they reveal a real pattern being over-penalized.
 

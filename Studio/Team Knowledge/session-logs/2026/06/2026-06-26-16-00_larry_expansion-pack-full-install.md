@@ -24,7 +24,7 @@ Session continued from a prior context-limit cutoff. The previous session had in
 - **Larry** ran a full PowerShell substitution pass to update all intra-pack SOP wikilinks to their assigned numbers in all 6 AGENTS.md files and all 7 SOP files that had cross-references.
 - **Larry** renamed the incoming App Pack "Vera - QA Specialist" to "Val - QA Specialist" throughout — folder name, AGENTS.md (all "Vera" references), SOP-018, SOP-020. The existing Vera (Strategic Thinking Partner) is untouched.
 - **Larry** created 6 new `.claude/agents/` shims: iris.md, charta.md, pixel.md, felix.md, vex.md, val.md.
-- **Larry** updated `Team/agent-index.md` (6 new rows), `Team Knowledge/SOPs/INDEX.md` (17 new rows, next SOP now SOP-031), `Team Knowledge/Guidelines/INDEX.md` (GL-003 row added), `Expansions/INDEX.md` (4 new rows).
+- **Larry** updated [[Studio/Team/agent-index]] (6 new rows), `Team Knowledge/SOPs/INDEX.md` (17 new rows, next SOP now SOP-031), `Team Knowledge/Guidelines/INDEX.md` (GL-003 row added), [[Expansions/INDEX]] (4 new rows).
 - **Larry** archived all 4 packs to `Expansions/_installed/` with `.manifest.yaml` copies.
 - **Larry** created `tsk-2026-06-26-001` (Converter Pack runtime install) and `tsk-2026-06-26-002` (Slack token wiring) for the two connector packs that still need runtime setup.
 

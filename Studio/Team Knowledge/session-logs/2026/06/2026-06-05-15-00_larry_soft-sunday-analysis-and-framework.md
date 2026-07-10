@@ -20,7 +20,7 @@ Larry ran the pre-read pass (all 6 emails + existing writing-style.md + me.md) b
 
 ## What we did
 
-**Wren** wrote `PKM/Second Brain/analysis/soft-sunday.md` — 10-section voice and pattern analysis:
+**Wren** wrote [[Studio/Analysis/soft-sunday]] — 10-section voice and pattern analysis:
 - Section 1: What Soft Sundays reveal about her general voice that sales copy doesn't
 - Section 2: What's unique to Soft Sundays vs. her other copy formats (personal life details, self-deprecating oversharing, anchor word ritual, the pep talk framing)
 - Section 3: Emoji use — surgical rules (the bracket pattern, the 🤎 as SS signature, density by section, wrong-use flags)
@@ -33,7 +33,7 @@ Larry ran the pre-read pass (all 6 emails + existing writing-style.md + me.md) b
 - Section 10: CTA architecture — how sales appear without feeling commercial, reply CTA mechanic, sales email vs. SS CTA table
 - Quick calibration checklist: 10 yes/no questions before sending any draft
 
-**Pax** wrote `PKM/Second Brain/frameworks/soft-sunday-framework.md` — structural decision map:
+**Pax** wrote [[Studio/Analysis/Frameworks/soft-sunday-framework]] — structural decision map:
 - Full section anatomy table (10 named sections, verbatim taglines, frequency, position, mandatory/optional)
 - Story-to-content bridge: 4-move structure mapped across all 6 emails, signal phrases documented
 - The Check In ritual documented verbatim — exact wording, exact emoji, unchanging
@@ -43,19 +43,19 @@ Larry ran the pre-read pass (all 6 emails + existing writing-style.md + me.md) b
 - The hard line between Soft Sunday and Simmer: "If you removed every link and every offer and you could still send it — it's a Soft Sunday."
 
 **Silas** updated three routing/index files:
-- `analysis/INDEX.md` — new row for `soft-sunday.md` added
-- `analysis/copy-task-routing.md` — full 5-step routing path for Soft Sunday emails added, voice-flag warning included, Simmer vs. SS distinction noted
-- `PKM/Second Brain/INDEX.md` — email row split into separate Simmer / Soft Sunday / Other rows, Soft Sunday marked complete
+- `analysis/INDEX.md` — new row for [[Studio/Analysis/soft-sunday]] added
+- [[Studio/Analysis/copy-task-routing]] — full 5-step routing path for Soft Sunday emails added, voice-flag warning included, Simmer vs. SS distinction noted
+- [[PKM/Second Brain/INDEX]] — email row split into separate Simmer / Soft Sunday / Other rows, Soft Sunday marked complete
 
 **Larry** (Librarian, this session):
-- `PKM/Second Brain/frameworks/INDEX.md` — missing row for `soft-sunday-framework.md` added (Silas did not update this; caught in Librarian pass)
+- `PKM/Second Brain/frameworks/INDEX.md` — missing row for [[Studio/Analysis/Frameworks/soft-sunday-framework]] added (Silas did not update this; caught in Librarian pass)
 - All other files verified as properly linked
 
 ---
 
 ## Decisions made
 
-- **Soft Sunday analysis gets its own file, separate from writing-style.md.** The newsletter voice is distinct enough from sales/web copy that mixing them into writing-style.md would dilute both. `soft-sunday.md` is the dedicated calibration layer for this format.
+- **Soft Sunday analysis gets its own file, separate from writing-style.md.** The newsletter voice is distinct enough from sales/web copy that mixing them into writing-style.md would dilute both. [[Studio/Analysis/soft-sunday]] is the dedicated calibration layer for this format.
 - **The `me-i-need-ideas` voice flag is now documented in the analysis.** The specific failure mode is named: `[Label] + [short generic description]` with no texture = AI-adjacent flatness. This is now in Section 9 (DO NOT EVERs) with the citation.
 - **"this is your sign" flag.** The phrase appears in `your-list-called-theyre-hungry` (a real Soft Sunday) but is also on the established Don'ts list from voice notes. The analysis notes both. Alyssa to decide: hard rule or evolved-past preference? If hard, may want to note the exception in the archived email.
 - **`frameworks/INDEX.md` was missed by Silas and caught by Larry during Librarian pass.** Added the row. Structural miss is now corrected.

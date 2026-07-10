@@ -33,8 +33,8 @@ v1.1 folds them in — with one judgement call going the other way.
 
 | Capability | New SOP | New `lib/` wrapper | Tools |
 |---|---|---|---|
-| Scanned PDF → searchable text/PDF (OCR) | `SOP-ocr-scanned-pdf.md` | `lib/ocr-pdf.sh` | OCRmyPDF + Tesseract + Ghostscript |
-| Inspect / strip file metadata (EXIF/GPS/XMP) | `SOP-inspect-strip-metadata.md` | `lib/strip-metadata.sh` | ExifTool |
+| Scanned PDF → searchable text/PDF (OCR) | [[Expansions/converter-pack/sops/SOP-ocr-scanned-pdf]] | `lib/ocr-pdf.sh` | OCRmyPDF + Tesseract + Ghostscript |
+| Inspect / strip file metadata (EXIF/GPS/XMP) | [[Expansions/converter-pack/sops/SOP-inspect-strip-metadata]] | `lib/strip-metadata.sh` | ExifTool |
 
 - Manifest → **v1.1.0**: 5 SOPs → **7**; 4 env vars → **5** (added
   `CONVERTER_OCR_LANG`, non-sensitive). `expansion_type` stays `connector`
@@ -56,7 +56,7 @@ OCR pulls in **Ghostscript, which is AGPL-3.0**. v1.0 was deliberately
 AGPL-free. v1.1 therefore ships the user-facing AGPL disclosure per handoff
 §2.2:
 
-- `README.md` — new "Open-source tools & licenses" section states plainly
+- [[README]] — new "Open-source tools & licenses" section states plainly
   that Ghostscript is AGPL-3.0, is used only as a local CLI subprocess
   OCRmyPDF spawns, is never bundled/modified/network-exposed, and that the
   AGPL does not reach this pack or the user's files.

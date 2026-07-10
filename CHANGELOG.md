@@ -13,11 +13,11 @@ All notable changes to the myPKA scaffold are tracked here. Versions follow semv
 
 ## [2.1.0] - 2026-05-19
 
-**Slash commands become adapter-generated.** The `/close-session` command is no longer pre-baked into the scaffold as a Claude-only file. The adapter now generates it at setup time from the canonical close-session protocol in `AGENTS.md`, so the scaffold ships host-neutral and every host gets the right thing: Claude Code gets the slash command, hosts without slash commands skip it and rely on the natural-language triggers. Additive, non-breaking — Claude Code users get the command regenerated idempotently on next activation. (COU-272)
+**Slash commands become adapter-generated.** The `/close-session` command is no longer pre-baked into the scaffold as a Claude-only file. The adapter now generates it at setup time from the canonical close-session protocol in [[AGENTS]], so the scaffold ships host-neutral and every host gets the right thing: Claude Code gets the slash command, hosts without slash commands skip it and rely on the natural-language triggers. Additive, non-breaking — Claude Code users get the command regenerated idempotently on next activation. (COU-272)
 
 ### Added
 
-- **ADAPTER-PROMPT §7-bis "Bind host-native slash commands."** New idempotent setup step: if the host supports native slash commands (Claude Code → `.claude/commands/close-session.md`), the adapter generates `close-session.md` from the canonical close-session protocol in `AGENTS.md`. Hosts without slash commands (Codex CLI, Gemini CLI, Cursor, chat-only) skip generation and the tool-specific pointer file notes the natural-language triggers instead. Skip-if-exists — never overwrites a user-customized command file.
+- **ADAPTER-PROMPT §7-bis "Bind host-native slash commands."** New idempotent setup step: if the host supports native slash commands (Claude Code → `.claude/commands/close-session.md`), the adapter generates `close-session.md` from the canonical close-session protocol in [[AGENTS]]. Hosts without slash commands (Codex CLI, Gemini CLI, Cursor, chat-only) skip generation and the tool-specific pointer file notes the natural-language triggers instead. Skip-if-exists — never overwrites a user-customized command file.
 - **`SLASH COMMANDS BOUND:` report-back field** in ADAPTER-PROMPT — the adapter now reports whether the close-session command was written, skipped (already exists), or not applicable for the host.
 
 ### Removed
@@ -26,7 +26,7 @@ All notable changes to the myPKA scaffold are tracked here. Versions follow semv
 
 ### Changed
 
-- `AGENTS.md` (root) — close-session trigger row gains the member-facing phrases "close this session", "wrap", "log this session". The slash-command-optionality line is tightened: `/close-session` is explicitly a Claude-Code-only convenience generated at setup (ADAPTER-PROMPT §7-bis), not required and not shipped; the natural-language triggers are the canonical universal path.
+- [[AGENTS]] (root) — close-session trigger row gains the member-facing phrases "close this session", "wrap", "log this session". The slash-command-optionality line is tightened: `/close-session` is explicitly a Claude-Code-only convenience generated at setup (ADAPTER-PROMPT §7-bis), not required and not shipped; the natural-language triggers are the canonical universal path.
 - `validation-script.sh` — `.scaffold-version` check widened from the `2.0.x` line to the full `2.x` line; v2.1.0 introduces no structural changes the script must enforce.
 
 ### Version files
@@ -48,11 +48,11 @@ All notable changes to the myPKA scaffold are tracked here. Versions follow semv
 
 ### Changed
 
-- `Team/agent-index.md` — routing table down to six rows; "nine specialists" → "six specialists"; Mack's row drops the Pixel-handoff parenthetical.
+- [[Studio/Team/agent-index]] — routing table down to six rows; "nine specialists" → "six specialists"; Mack's row drops the Pixel-handoff parenthetical.
 - `Team/Larry - Orchestrator/AGENTS.md` — routing cheatsheet drops the four design rows; "What Larry does not do" drops the two design/GL-003 lines.
-- `AGENTS.md` (root) — "The team (9 specialists)" → "The team (6 specialists)"; team table down to six rows; "the current 9 specialists" → "6".
-- `README.md` — "nine"/"9" roster references → "six"/"6" (×5 including version badge); three creative team-card blocks removed; added a Designer Pack pointer note.
-- `WAY-FORWARD.md` — roster lines and the "When … specialists isn't enough" section updated to six; capability list drops infographic layout, image stylization, and design-system authoring (now pack capabilities).
+- [[AGENTS]] (root) — "The team (9 specialists)" → "The team (6 specialists)"; team table down to six rows; "the current 9 specialists" → "6".
+- [[README]] — "nine"/"9" roster references → "six"/"6" (×5 including version badge); three creative team-card blocks removed; added a Designer Pack pointer note.
+- [[WAY-FORWARD]] — roster lines and the "When … specialists isn't enough" section updated to six; capability list drops infographic layout, image stylization, and design-system authoring (now pack capabilities).
 - `Team Knowledge/SOPs/INDEX.md` — four design-SOP rows removed; Reserved line extended to "SOP-003 onward".
 - `Team Knowledge/Guidelines/INDEX.md` — `GL-003` row removed; replaced with a Reserved note pointing at the Designer Pack.
 - `validation-script.sh` — structural version check moved from the `1.10.x` line to the `2.0.x` line.
@@ -76,14 +76,14 @@ Restores the seeded sample content the myICOR myPKA course walks through. v1.10.
 - **Per-subfolder `INDEX.md`** for each of the five `My Life` subsections (`Topics/`, `Habits/`, `Goals/`, `Projects/`, `Key Elements/`). The course (lesson "Habits — The Rhythms the Team Supports") references these directly.
 - **`PKM/CRM/` samples** — `People/dr-schmidt.md` and `Organizations/dr-schmidt-clinic.md`, the SSOT demo pair the course walks through.
 - **`PKM/Documents/passport.md`** — seeded document-stub sample.
-- **`PKM/Journal/2026/05/2026-05-04-first-day.md`** — seeded journal entry, the one referenced in the Dr. Schmidt demo.
+- **[[Notebook/Journal/2026/05/2026-05-04-first-day]]** — seeded journal entry, the one referenced in the Dr. Schmidt demo.
 - **`PKM/Images/2026/05/`** — two seeded sample images (`2026-05-04-dr-schmidt-business-card.png`, `2026-05-04-sample-screenshot.png`), embedded by the CRM and Journal samples.
 - **Course-sample banner** — each seeded file opens with an Obsidian `[!example]` callout marking it as a worked sample to adapt or replace, so it is never mistaken for the learner's own content.
 
 ### Changed
 
-- `PKM/My Life/INDEX.md`, `PKM/My Life/README.md` — replaced the "ships empty" / "Dean is seeding…" placeholder copy with the actual seeded-sample listing.
-- `PKM/Documents/INDEX.md`, `PKM/CRM/INDEX.md`, `PKM/Journal/INDEX.md`, `PKM/Images/INDEX.md` — "Active files" sections now list the seeded samples.
+- [[PKM/My Life/INDEX]], [[PKM/My Life/README]] — replaced the "ships empty" / "Dean is seeding…" placeholder copy with the actual seeded-sample listing.
+- [[PKM/Documents/INDEX]], `PKM/CRM/INDEX.md`, `PKM/Journal/INDEX.md`, `PKM/Images/INDEX.md` — "Active files" sections now list the seeded samples.
 
 ### Trust registry
 
@@ -132,17 +132,17 @@ Adds task management, per-agent journals, and an LLM-readable migration changelo
 - `Team/<Name> - <Role>/journal/` — per-agent durable insight notes. One folder per shipped specialist (Larry, Nolan, Pax, Penn, Mack, Silas, Charta, Pixel, Iris). The agent commits an entry when they learn something cross-session: a lesson, a decision rule, an anti-pattern. Journal entries are topical, not chronological.
 - `Team/<Name> - <Role>/journal/_template.md` — starter file for journal entries. Locked frontmatter (`agent_id`, `type`, `topic`, `tags`, `linked_session_logs`, `linked_tasks`, `related_journal_entries`, `status`).
 - `.scaffold-version` — plain-text file at the repo root containing `1.10.0`. Single source of truth for which migrations apply.
-- `CHANGELOG-MIGRATION.md` — machine-actionable upgrade spec. Per-version sections with numbered, idempotent recipes any LLM can follow to upgrade an older myPKA folder. Includes a validation script that exits 0 on a structurally valid migration.
+- [[CHANGELOG-MIGRATION]] — machine-actionable upgrade spec. Per-version sections with numbered, idempotent recipes any LLM can follow to upgrade an older myPKA folder. Includes a validation script that exits 0 on a structurally valid migration.
 - `validation-script.sh` — bash script at the repo root that verifies a folder is v1.10.0-compliant. Exits 0 on success, 1 on failure.
 - New SOPs in `Team Knowledge/SOPs/`:
-  - `SOP-004-create-task.md` — confronts all six cross-reference arrays at creation.
-  - `SOP-005-claim-task.md` — atomic claim via `git mv`. Loser retries on a re-list.
-  - `SOP-006-close-task.md` — moves to `done/` with outcome filled in. Surfaces open sub-tasks for explicit decision.
-  - `SOP-007-list-open-tasks.md` — folder walk that Larry runs at session boot.
-  - `SOP-008-rebuild-task-index.md` — awk-based, sub-500ms target on 1,000 tasks.
-  - `SOP-009-write-journal-entry.md` — trigger test, body shape, supersession rules.
-  - `SOP-010-read-own-journal.md` — what each agent runs before starting work on a task.
-  - `SOP-011-write-session-log.md` — extended to reference any tasks created or touched.
+  - [[Studio/Team Knowledge/SOPs/SOP-004-create-task]] — confronts all six cross-reference arrays at creation.
+  - [[Studio/Team Knowledge/SOPs/SOP-005-claim-task]] — atomic claim via `git mv`. Loser retries on a re-list.
+  - [[Studio/Team Knowledge/SOPs/SOP-006-close-task]] — moves to `done/` with outcome filled in. Surfaces open sub-tasks for explicit decision.
+  - [[Studio/Team Knowledge/SOPs/SOP-007-list-open-tasks]] — folder walk that Larry runs at session boot.
+  - [[Studio/Team Knowledge/SOPs/SOP-008-rebuild-task-index]] — awk-based, sub-500ms target on 1,000 tasks.
+  - [[Studio/Team Knowledge/SOPs/SOP-009-write-journal-entry]] — trigger test, body shape, supersession rules.
+  - [[Studio/Team Knowledge/SOPs/SOP-010-read-own-journal]] — what each agent runs before starting work on a task.
+  - [[Studio/Team Knowledge/SOPs/SOP-011-write-session-log]] — extended to reference any tasks created or touched.
 
 ### Changed
 
@@ -156,23 +156,23 @@ Adds task management, per-agent journals, and an LLM-readable migration changelo
 - There is no `blocked/` folder. Blocked tasks stay in `in-progress/` with `blocked_reason:` and `blocked_by:` set in frontmatter, so they surface in the assignee's normal queue scan rather than hiding in a folder no one greps.
 - Wikilinks use basenames only, never paths. Files can move across folders without breaking links. Same convention as the rest of the scaffold.
 - A SQLite mirror for tasks is sketched but deliberately not shipped in v1.10.0. Markdown stays canonical. The existing `SOP-002-convert-mypka-to-sqlite` is the right surface to extend when that need lands.
-- Backwards-compatible: v1.9.x Expansions and SOPs continue to work unchanged. The boot routine and per-agent `AGENTS.md` files are unchanged in v1.10.0; the task-walk and journal-read behaviors are codified in the new SOPs and surface naturally as the team discovers them.
+- Backwards-compatible: v1.9.x Expansions and SOPs continue to work unchanged. The boot routine and per-agent [[AGENTS]] files are unchanged in v1.10.0; the task-walk and journal-read behaviors are codified in the new SOPs and surface naturally as the team discovers them.
 
 ## [1.9.0] - 2026-05-09
 
 **Host subagent binding ships out of the box.** First activation now generates host-specific subagent shims so the eight deputies (Penn, Pax, Nolan, Mack, Silas, Charta, Pixel, Iris) can dispatch in parallel via the host's agent runtime — not role-played in a single context. Larry is excluded (he's the main-session identity, not a dispatched subagent).
 
-The contract: **two layers, never three.** The wiki contract at `Team/<Name>/AGENTS.md` is canonical and host-agnostic. The host shim (`.claude/agents/<slug>.md` for Claude Code; `.codex/agents/<slug>.md` for Codex if supported; per-spec for Gemini) is a thin pointer that the host runtime reads to dispatch the specialist. We do NOT add a third layer (e.g. a `CLAUDE.md` inside each `Team/<Name>/`) — that violates SSOT.
+The contract: **two layers, never three.** The wiki contract at `Team/<Name>/AGENTS.md` is canonical and host-agnostic. The host shim (`.claude/agents/<slug>.md` for Claude Code; `.codex/agents/<slug>.md` for Codex if supported; per-spec for Gemini) is a thin pointer that the host runtime reads to dispatch the specialist. We do NOT add a third layer (e.g. a [[CLAUDE]] inside each `Team/<Name>/`) — that violates SSOT.
 
 ### Added
 
 - `.claude/agents/{charta,iris,mack,nolan,pax,penn,pixel,silas}.md` — Claude Code subagent shims for the eight deputies. YAML frontmatter (`name`, `description`, `tools`) + body that points back to the wiki contract via path. ~30-60 lines each. Larry is intentionally excluded.
-- `ADAPTER-PROMPT.md` Step 7 (new) — host-agnostic procedure to walk `Team/`, derive each slug, and generate host-specific shims on first init. Per-host matrix: Claude Code → `.claude/agents/`, Codex CLI → `.codex/agents/` (when supported), Gemini CLI → per spec, Cursor / chat-only → noted limitation. **Idempotent** — re-running Step 7 skips any pre-existing shims (never overwrites user customizations). Report-back template adds `HOST SUBAGENT BINDING` field listing written + skipped.
+- [[ADAPTER-PROMPT]] Step 7 (new) — host-agnostic procedure to walk `Team/`, derive each slug, and generate host-specific shims on first init. Per-host matrix: Claude Code → `.claude/agents/`, Codex CLI → `.codex/agents/` (when supported), Gemini CLI → per spec, Cursor / chat-only → noted limitation. **Idempotent** — re-running Step 7 skips any pre-existing shims (never overwrites user customizations). Report-back template adds `HOST SUBAGENT BINDING` field listing written + skipped.
 
 ### Changed
 
-- `Team/Nolan - HR/AGENTS.md` — every hire now ships two artifacts: the wiki contract AND the host shim(s) for every host the user has activated. Detection by pointer-file presence (`CLAUDE.md`, `AGENTS.md.codex`, `GEMINI.md`, `.cursor/rules/main.md`).
-- `Team Knowledge/SOPs/SOP-001-how-to-add-a-new-specialist.md` §5 — host-agnostic principle plus host-specific shim path matrix. Two artifacts always go together.
+- `Team/Nolan - HR/AGENTS.md` — every hire now ships two artifacts: the wiki contract AND the host shim(s) for every host the user has activated. Detection by pointer-file presence ([[CLAUDE]], `AGENTS.md.codex`, `GEMINI.md`, `.cursor/rules/main.md`).
+- [[Studio/Team Knowledge/SOPs/SOP-001-how-to-add-a-new-specialist]] §5 — host-agnostic principle plus host-specific shim path matrix. Two artifacts always go together.
 - `VERSION` 1.8.2 → 1.9.0.
 
 ### Notes
@@ -183,16 +183,16 @@ The contract: **two layers, never three.** The wiki contract at `Team/<Name>/AGE
 
 ## [1.8.2] - 2026-05-09
 
-**Personalization placeholder + Tom-stand-in cleanup.** The scaffold's user-stand-in mentions of "Tom" are replaced with `Alyssa` placeholder tokens. `ADAPTER-PROMPT.md` now captures the user's first name on first activation and substitutes the placeholder across the scaffold, saving the value to `PKM/.user.yaml` for future reference. Authorship credits ("Tom builds the system from scratch" video walkthrough) keep the formal name "Dr. Thomas Rödl". App Developer Pack `BUILD-NOTES.md` swept the same way.
+**Personalization placeholder + Tom-stand-in cleanup.** The scaffold's user-stand-in mentions of "Tom" are replaced with `Alyssa` placeholder tokens. [[ADAPTER-PROMPT]] now captures the user's first name on first activation and substitutes the placeholder across the scaffold, saving the value to `PKM/.user.yaml` for future reference. Authorship credits ("Tom builds the system from scratch" video walkthrough) keep the formal name "Dr. Thomas Rödl". App Developer Pack `BUILD-NOTES.md` swept the same way.
 
 ### Changed
 
 - `Team/Larry - Orchestrator/AGENTS.md` — "Tom double-clicks `start.command`" → "Alyssa double-clicks `start.command`".
 - `Team Knowledge/session-logs/_template.md` — example follow-up items "Tom reviews v1" → "Alyssa reviews v1".
-- `Team Knowledge/Workstreams/WS-003-install-an-expansion.md` — "Tom-approved canonical exception" → "Pre-canonicalized exception".
-- `README.md`, `WAY-FORWARD.md` — "Tom builds the system" → "Dr. Thomas Rödl builds the system" (formal authorship credit).
-- `ADAPTER-PROMPT.md` — new step 4: detect `Alyssa` placeholders, ask user for first name, substitute across the scaffold, save to `PKM/.user.yaml`. Report-back template adds a `PERSONALIZATION` field.
-- `AGENTS.md` — new "Personalization" section codifies the substitution rule for future content (e.g., Expansions that ship with `Alyssa` tokens).
+- [[Studio/Team Knowledge/Workstreams/WS-003-install-an-expansion]] — "Tom-approved canonical exception" → "Pre-canonicalized exception".
+- [[README]], [[WAY-FORWARD]] — "Tom builds the system" → "Dr. Thomas Rödl builds the system" (formal authorship credit).
+- [[ADAPTER-PROMPT]] — new step 4: detect `Alyssa` placeholders, ask user for first name, substitute across the scaffold, save to `PKM/.user.yaml`. Report-back template adds a `PERSONALIZATION` field.
+- [[AGENTS]] — new "Personalization" section codifies the substitution rule for future content (e.g., Expansions that ship with `Alyssa` tokens).
 - App Developer Pack 1.0.1 `BUILD-NOTES.md` — swept "Tom" stand-ins to "the user" / "the maintainer".
 - `VERSION` 1.8.1 → 1.8.2.
 
@@ -207,7 +207,7 @@ The contract: **two layers, never three.** The wiki contract at `Team/<Name>/AGE
 
 ### Highlights
 
-- **Plain markdown.** Every note is a `.md` file. Works in Claude Code, Codex CLI, Gemini CLI, Cursor, ChatGPT, Obsidian + chat plugin, or any LLM that reads `AGENTS.md`.
+- **Plain markdown.** Every note is a `.md` file. Works in Claude Code, Codex CLI, Gemini CLI, Cursor, ChatGPT, Obsidian + chat plugin, or any LLM that reads [[AGENTS]].
 - **Session-log triggers (LLM-agnostic).** Natural-language phrases like `close session`, `keep this in mind`, `let's realign` route the team's auto-memory across any LLM — not Claude-only.
 - **External knowledge import.** [[WS-002-import-external-knowledge-base]] lets the team pull from Heptabase, Notion, Obsidian, Roam, Logseq, Mem, Capacities, Apple Notes, Evernote, Tana via MCP, or any SQLite-backed PKM tool.
 - **Expansions architecture.** Day-1 packs (App Developer Pack, Slack Expansion) ship via the AI Library at [myicor.com](https://myicor.com). [[WS-003-install-an-expansion]] codifies the multi-agent install flow.

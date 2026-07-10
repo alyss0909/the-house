@@ -31,7 +31,7 @@ directly.
   rules with quoted evidence, then write a full study to
   `Hermes/learning/deep-reads/` and fold only genuinely new insights into
   STYLE.md / ANTI-AI.md / the matching craft file — contradictions go to
-  `Hermes/learning/inbox.md` for Alyssa to adjudicate, never auto-overwritten.
+  [[Hermes/learning/inbox]] for Alyssa to adjudicate, never auto-overwritten.
 - Larry created `hermes-deep-voice-study` (cron `0 4,5 5-7 7 *` — 4am and 5am,
   Jul 5–7) and `hermes-deep-voice-study-645` (cron `45 6 5-7 7 *` — 6:45am,
   Jul 5–7) as two coordinated scheduled tasks sharing the same INDEX-tracked
@@ -49,7 +49,7 @@ directly.
   expression.
 - **Question:** Should contradictions between new document evidence and
   existing Hermes brain rules be auto-corrected?
-  **Decision:** No — contradictions get logged to `Hermes/learning/inbox.md`
+  **Decision:** No — contradictions get logged to [[Hermes/learning/inbox]]
   for Alyssa to adjudicate; the scheduled task never overwrites an existing
   brain rule on its own authority.
 
@@ -79,14 +79,14 @@ directly.
 - [ ] After 2026-07-07, both scheduled tasks should be disabled or deleted —
       the cron window is scoped to Jul 5–7 but would technically re-arm next
       July if left enabled.
-- [ ] Watch `Hermes/learning/inbox.md` for any contradiction flags the deep-read
+- [ ] Watch [[Hermes/learning/inbox]] for any contradiction flags the deep-read
       runs surface between document evidence and existing brain rules.
 
 ## Next steps
 
 - Let the 9 scheduled runs (3/day × 3 days) execute and produce deep-read
   files under `Hermes/learning/deep-reads/`.
-- Review the accumulated `Hermes/STYLE.md` / `ANTI-AI.md` / craft-file
+- Review the accumulated [[Hermes/STYLE]] / [[Hermes/ANTI-AI]] / craft-file
   additions after Jul 7 and decide what graduates to permanent brain rules.
 
 ## Cross-links

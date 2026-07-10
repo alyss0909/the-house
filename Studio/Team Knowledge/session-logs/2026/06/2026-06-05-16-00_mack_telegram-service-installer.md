@@ -29,7 +29,7 @@ Built `Team Knowledge/Automations/telegram-service-install.ps1` — a one-run Po
 ## Files touched
 
 - Created: `Team Knowledge/Automations/telegram-service-install.ps1`
-- Updated: `Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md` (update entry + timestamp)
+- Updated: [[Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation]] (update entry + timestamp)
 - Log file will be created at runtime: `Team Knowledge/scripts/telegram-capture.log`
 
 ## What remains

@@ -194,7 +194,7 @@ Every inbox triage: Larry logs 3 data points per item
 
 **What needs to be built:**
 
-`PKM/Signals/taste-log.md` — Larry's running log of approval patterns. Simple format:
+[[Studio/Analysis/taste-log]] — Larry's running log of approval patterns. Simple format:
 
 ```markdown
 ## [date] session
@@ -209,7 +209,7 @@ Every inbox triage: Larry logs 3 data points per item
 
 After 4 weeks, Larry reads across all sessions and writes:
 
-`PKM/Signals/yes-pattern.md` — a standing brief for all specialists. The filter every proposal goes through before it reaches Alyssa.
+[[Studio/Analysis/yes-pattern]] — a standing brief for all specialists. The filter every proposal goes through before it reaches Alyssa.
 
 ---
 
@@ -298,25 +298,25 @@ Alyssa reads this once a month and reacts. Her reactions update the system's mod
 | File | Owner | Purpose |
 |---|---|---|
 | `Team/Wren - Brand Voice Partner/memory.md` | Wren + Larry | Calibration log — reads at start of every Wren task |
-| `PKM/Signals/taste-log.md` | Larry | Approval pattern tracking |
-| `PKM/Signals/yes-pattern.md` | Larry | Standing filter brief for all specialists |
+| [[Studio/Analysis/taste-log]] | Larry | Approval pattern tracking |
+| [[Studio/Analysis/yes-pattern]] | Larry | Standing filter brief for all specialists |
 | `PKM/Developing Ideas/INDEX.md` | Larry | The idea garden index |
 | `PKM/Developing Ideas/_template.md` | Larry | Template for developing idea notes |
 | `PKM/Second Brain/ready-queue.md` | Larry | Content activation queue |
 | `Team Knowledge/SOPs/SOP-031-voice-calibration.md` | Larry | Post-Wren-task calibration procedure |
-| `Team Knowledge/Workstreams/WS-008-content-activation.md` | Larry + Penn + Wren | Inspo → assignment pipeline |
+| [[Studio/Team Knowledge/Workstreams/WS-008-content-activation]] | Larry + Penn + Wren | Inspo → assignment pipeline |
 | `Team Knowledge/Workstreams/WS-009-intelligence-update.md` | Larry | Monthly meta-loop |
 
 ### Updated files
 
 | File | What changes |
 |---|---|
-| `Team Knowledge/SOPs/SOP-013-semantic-sweep.md` | Add: content-type tagging (Step 2.5), Second Brain cross-reference (Step 4.5), `developing` status, team dispatch step (Step 5.5), Developing Idea note creation |
-| `Team Knowledge/Workstreams/WS-004-inbox-processing.md` | Add: "team brief" column to approval table in Step 2; add Ready Queue update to Step 3 |
-| `Team Knowledge/Workstreams/WS-006-weekly-review.md` | Full redesign: replace 9-step report with 4-phase Brew + Thread + Queue + Hand-Off structure |
-| `PKM/Signals/signals-index.md` | Seed with first real entries from 90-day sweep |
+| [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep]] | Add: content-type tagging (Step 2.5), Second Brain cross-reference (Step 4.5), `developing` status, team dispatch step (Step 5.5), Developing Idea note creation |
+| [[Studio/Team Knowledge/Workstreams/WS-004-inbox-processing]] | Add: "team brief" column to approval table in Step 2; add Ready Queue update to Step 3 |
+| [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review]] | Full redesign: replace 9-step report with 4-phase Brew + Thread + Queue + Hand-Off structure |
+| [[Studio/Signals/signals-index]] | Seed with first real entries from 90-day sweep |
 | `Team/Wren - Brand Voice Partner/AGENTS.md` | Add: mandatory memory.md read at start of every task; add calibration step to close-task protocol |
-| `AGENTS.md` | Add WS-008 and WS-009 trigger language; add taste-log update to session close triggers |
+| [[AGENTS]] | Add WS-008 and WS-009 trigger language; add taste-log update to session close triggers |
 
 ---
 
@@ -381,7 +381,7 @@ Each loop produces an artifact that feeds every other loop:
 
 - **Pattern loop** produces `thesis drafts` → Alyssa's reactions are the most authentic voice material in the system → reactions feed Voice loop → Wren uses thesis language in copy → copy that uses thesis language resonates stronger with audience → audience responses feed back as signals → Pattern loop gets validated faster
 
-- **Taste loop** produces `yes-pattern.md` → team stops generating things Alyssa ignores → Alyssa's attention is fully on things that matter → she engages more deeply → deeper engagement = richer reactions = better calibration = faster Voice loop = stronger Pattern loop
+- **Taste loop** produces [[Studio/Analysis/yes-pattern]] → team stops generating things Alyssa ignores → Alyssa's attention is fully on things that matter → she engages more deeply → deeper engagement = richer reactions = better calibration = faster Voice loop = stronger Pattern loop
 
 - **Content Activation loop** produces `Second Brain examples` → every piece of real output filed back in enriches the source material → richer source material = better Wren output = faster Voice loop calibration = more authentic examples = even richer source material
 

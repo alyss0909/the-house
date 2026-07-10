@@ -8,7 +8,7 @@ status: complete
 
 # Architecture C — three carousels
 
-Load protocol completed in full this session: FABLE.md, MAP.md, SOUL.md, STYLE.md, TASTE.md, ANTI-AI.md, BUSINESS.md, `craft/captions-carousels.md`, `analysis/carousel-hook-forensics.md`, `analysis/carousel-flow-and-weird-hooks.md`, `examples/Carousels/captions.md`, full slide-by-slide breakdowns for Jan 15 / Jan 22 / Feb 24, and both source seeds read end to end (`2026-01-31-how-i-stopped-trying-to-sell-spinach...md`, `2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out.md`). Structural input is binding per the brief: `2026-07-05-tournament-stage1-briefs.md`. I did not redesign any deck — where a cell fought the copy, I wrote the best compliant version and logged the friction below rather than moving slides.
+Load protocol completed in full this session: FABLE.md, MAP.md, SOUL.md, STYLE.md, TASTE.md, ANTI-AI.md, BUSINESS.md, [[Hermes/craft/captions-carousels]], [[Studio/Analysis/carousel-hook-forensics]], [[Studio/Analysis/carousel-flow-and-weird-hooks]], `examples/Carousels/captions.md`, full slide-by-slide breakdowns for Jan 15 / Jan 22 / Feb 24, and both source seeds read end to end (`2026-01-31-how-i-stopped-trying-to-sell-spinach...md`, [[Notebook/Journal/2026/03/2026-03-06-i-cant-wait-to-see-why-this-didnt-work-out]]). Structural input is binding per the brief: [[Hermes/tests/results/2026-07-05-tournament-stage1-briefs]]. I did not redesign any deck — where a cell fought the copy, I wrote the best compliant version and logged the friction below rather than moving slides.
 
 ---
 

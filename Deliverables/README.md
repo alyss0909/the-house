@@ -21,4 +21,4 @@ When a specialist produces something substantial - a research brief, a draft doc
 - Daily journal entries -> `Notebook/Journal/`
 - Reference material the team needs forever (SOPs, Workstreams, Guidelines) -> `Team Knowledge/`
 
-Naming convention: see `Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`.
+Naming convention: see [[Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions]].

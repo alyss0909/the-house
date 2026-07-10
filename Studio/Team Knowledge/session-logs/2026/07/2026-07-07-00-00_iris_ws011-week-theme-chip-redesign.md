@@ -11,7 +11,7 @@ linked_guidelines: [GL-003-design-system]
 # WS-011 dashboard — week-theme chip redesign (pending Alyssa review)
 
 ## What I did
-Redesigned the left-gutter week-rotation chips on the `05 Approved.md` calendar.
+Redesigned the left-gutter week-rotation chips on the [[Studio/Content/dashboard/05 Approved]] calendar.
 CSS-only change in `.obsidian/snippets/dashboard.css` (`.db-cal-week-pill` block,
 scoped under `.dashboard`). No markup change, no render-logic change — the
 existing `.db-cal-week-tag` + `.db-cal-week-theme` spans and the `.sage/.peach/

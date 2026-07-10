@@ -30,7 +30,7 @@ Applies to:
 - Deliverables when they are time-bound: `Deliverables/YYYY-MM-DD-<slug>.md`
 
 Examples:
-- `2026-05-04-first-day.md`
+- [[Notebook/Journal/2026/05/2026-05-04-first-day]]
 - `2026-05-04-business-card-dr-schmidt.png`
 - `2026-05-04-pricing-research-kickoff.md`
 - `2026-05-04-14-30_larry_scaffold-review.md` ← session log with time + agent + topic

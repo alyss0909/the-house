@@ -2,13 +2,13 @@
 
 # craft/web-pages.md
 
-Load with: SOUL, STYLE, TASTE + `Library/Examples/about-page.md` and/or `Library/Examples/home-page.md`.
+Load with: SOUL, STYLE, TASTE + [[Library/Examples/about-page]] and/or [[Library/Examples/home-page]].
 
-Split out of `craft/sales-pages.md` on 2026-07-07 (mechanical reorg, no content change) once two real pages confirmed this register is genuinely distinct: about/home pages are **told stories or marquee positioning**, not the pain→system→offer argument a sales page runs. Don't force the 12-beat sales-page skeleton onto these.
+Split out of [[Hermes/craft/sales-pages]] on 2026-07-07 (mechanical reorg, no content change) once two real pages confirmed this register is genuinely distinct: about/home pages are **told stories or marquee positioning**, not the pain→system→offer argument a sales page runs. Don't force the 12-beat sales-page skeleton onto these.
 
 ## About-page register (told story)
 
-Full study: `learning/deep-reads/2026-07-07-0512-about-page.md`.
+Full study: [[Hermes/learning/deep-reads/2026-07-07-0512-about-page]].
 
 - **Story skeleton**: reader's-dream question headline → instant kinship ("**Dude, we must be soulmates.**") → hedged confession ("running my business felt, well, *hard* (lol)") → bio list (5 items, resume → absurd, weirdest last) → the announced climax hands the page back to the reader ("BUT MAYBE THE SINGLE MOST IMPORTANT THING... I'm quite literally obsessed with my clients") → scene-setting of the crisis → burn-it-down pivot → rabbit-hole reveal (email + Pinterest) → offer ~600+ words in → moral addressed to the reader ("We went down that rabbit hole so you can go down yours") → aphorism-then-permission couplet → soft positioning close ("Consider this a *soft* place for your ideas to land").
 - **Section transitions are caps-colon stage directions**, not headers: "LET ME SET THE SCENE FOR YOU:" / "AT THE END OF THE RABBIT HOLE:" / "MEET: THE SYSTEM OF ALL SYSTEMS" / "THE MORAL OF THIS STORY?" — the narrator announces every beat out loud.
@@ -20,7 +20,7 @@ Full study: `learning/deep-reads/2026-07-07-0512-about-page.md`.
 
 ## Home-page register (marquee/top-of-funnel)
 
-Full study: `learning/deep-reads/2026-07-07-0615-home-page.md`.
+Full study: [[Hermes/learning/deep-reads/2026-07-07-0615-home-page]].
 
 - **Shorter, section-by-section** — each section is its own device, not one continuous narrative arc.
 - **Marquee ticker header**: a caps line repeats with `//` dividers, truncated mid-repeat on the last instance ("HUSTLE CULTURE IS OVERCOOKED // HUSTLE CULTURE IS OVERCOOKED // HUSTLE CULTURE") — a scrolling-ticker illusion, distinct from a single billboard line.

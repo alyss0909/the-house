@@ -18,9 +18,9 @@ Alyssa corrected the automation analysis: the goal was not another report or ano
 
 ## What I shipped
 
-- Patched root `AGENTS.md`, Larry AGENTS, SOP-011, SOP-013, WS-006, WS-007, WS-008, WS-009, GL-009, Hermes MAP/README/FABLE/MEAN-ALYSSA, and Silas/Mack/Nolan contracts.
+- Patched root [[AGENTS]], Larry AGENTS, SOP-011, SOP-013, WS-006, WS-007, WS-008, WS-009, GL-009, Hermes MAP/README/FABLE/MEAN-ALYSSA, and Silas/Mack/Nolan contracts.
 - Kept deleted `WS-011-daily-knowledge-metabolism.md` deleted because it duplicated existing architecture.
-- Wrote `Deliverables/2026-07-05-1514-vault-automation-opportunity-report.md` with automation opportunities updated for the new source-trust metabolism model.
+- Wrote [[Deliverables/2026-07-05-1514-vault-automation-opportunity-report]] with automation opportunities updated for the new source-trust metabolism model.
 
 ## Daily knowledge metabolism
 

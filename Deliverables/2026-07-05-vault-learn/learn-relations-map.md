@@ -19,7 +19,7 @@ Machine-usable graph linking every content slot to everything an LLM needs to fi
 
 **Precedence rule applied throughout:** where the planning grid (Alyssa-confirmed, 2026-07-04) and calendar-spec (post-mined, 2026-07-05) disagree on Monday/Wednesday anchoring, **the planning grid wins** — it is direct input, calendar-spec is inference from a limited post sample. Calendar-spec's Friday = For The Girls rule is corroborated by both sources and is treated as locked.
 
-All product names, prices, and chat words below are copied verbatim from `Hermes/BUSINESS.md`. Where BUSINESS.md marks a chat word `manual`, this map writes **"manual selection needed"** — never a placeholder. No Sunset/Geriatric/idea-stage product (Rush Order, Art of Selling, Content That Converts, Lazy Girl's Guide, Lazy Launch Checklist, Plan Your Month/Year, Profit Systems, Big Four, To Do List Detox, Funnel Templates, Pitch Perfect, Steal My Calendar/Content Workflow/Launch Calendar, Productivity Style Quiz, Winter Arc) appears anywhere in this map.
+All product names, prices, and chat words below are copied verbatim from [[Hermes/BUSINESS]]. Where BUSINESS.md marks a chat word `manual`, this map writes **"manual selection needed"** — never a placeholder. No Sunset/Geriatric/idea-stage product (Rush Order, Art of Selling, Content That Converts, Lazy Girl's Guide, Lazy Launch Checklist, Plan Your Month/Year, Profit Systems, Big Four, To Do List Detox, Funnel Templates, Pitch Perfect, Steal My Calendar/Content Workflow/Launch Calendar, Productivity Style Quiz, Winter Arc) appears anywhere in this map.
 
 ---
 
@@ -267,4 +267,4 @@ underlayer(Pinterest_7x10x4x5) -> teaches(Fresh means new unique combo of image+
 
 ---
 
-*Compiled by Larry / Content OS team, 2026-07-05. All product names, prices, and chat words verbatim from `Hermes/BUSINESS.md` (Notion snapshot 2026-07-05) — re-verify against Notion Products DB before any live CTA. Sunset/Geriatric/idea-stage products excluded per rule. No files outside this Deliverables folder were modified; all sources read-only.*
+*Compiled by Larry / Content OS team, 2026-07-05. All product names, prices, and chat words verbatim from [[Hermes/BUSINESS]] (Notion snapshot 2026-07-05) — re-verify against Notion Products DB before any live CTA. Sunset/Geriatric/idea-stage products excluded per rule. No files outside this Deliverables folder were modified; all sources read-only.*

@@ -35,7 +35,7 @@ Source: none — written for this test. Design: the median-competent AI marketin
 
 ## Item 02 — REAL (carousel, Jan 29 "Why Smart Founders Are Going Low Maintenance in 2026")
 
-Source: `analysis/carousel-slide-by-slide.md` (Jan 29 breakdown) + `examples/Carousels/captions.md` (Jan 29 caption). Transcribed faithfully; slide plan condensed, her verbatim lines and props preserved. NOT one of the top-3 famous (chosen to avoid fame giving it away).
+Source: [[Studio/Analysis/carousel-slide-by-slide]] (Jan 29 breakdown) + `examples/Carousels/captions.md` (Jan 29 caption). Transcribed faithfully; slide plan condensed, her verbatim lines and props preserved. NOT one of the top-3 famous (chosen to avoid fame giving it away).
 
 **Why it should PUBLISH:** paradox headlines stacked ("Lazy CEOs with High Standards," "SEO Becomes a Girl's Girl," "Lean Into Your Pinterest Addiction" = shame-to-strategy reframes done as her interior device, legal), the verbatim audience-mirror credibility anchor, absurdist-precise before/after search example, "kind of a big deal" understatement-after-weight, handwritten-whisper CTA seed. Details that couldn't be invented. This is her real winner.
 
@@ -57,7 +57,7 @@ Source: none — written for this test. Design: a clean, plausible email-topic c
 
 ## Item 04 — REAL (email, simmer "my existential crisis & pinterest.")
 
-Source: `examples/simmers/my-existential-crisis-and-pinterest.md`, opening transcribed verbatim. NOT why-i-burned-down (too famous); NOT the flagged me-i-need-ideas.
+Source: [[Library/Examples/simmers/my-existential-crisis-and-pinterest]], opening transcribed verbatim. NOT why-i-burned-down (too famous); NOT the flagged me-i-need-ideas.
 
 **Why it should PUBLISH:** "whats up," stretched vowels ("waaaant"), ".." trails, "🙃/🫠/💅/🤎" in her real density, the Steve-Jobs-vs-thrift-store self-contradiction, "these little uniforms," seasonal-Alyssa specificity, run-on confessional rhythm. Note: this email later contains a banned-shape hit ("you don't need new jeans, you just need the right layering") logged as an open flag — but it lives inside her running metaphor, which is the documented "reads as hers" condition. The OPENING (what's shown) is clean and unmistakably her.
 
@@ -65,7 +65,7 @@ Source: `examples/simmers/my-existential-crisis-and-pinterest.md`, opening trans
 
 ## Item 05 — REAL-REJECT (carousel, "Why I Delete Subscribers On Purpose")
 
-Source: the rejected cover documented in `analysis/carousel-flow-and-weird-hooks.md`. Her verdict: *"'on purpose' is a little too ai — you could say something more weird or unexpected like 'delete your leads, quick' or one i actually posted, titled 'the tiny list effect'."* I expanded it into a competent, plausible slide plan — exactly what an eager agent would build around the rejected cover. The slide plan is deliberately solid so the KILL has to come from the hook, not from obvious badness.
+Source: the rejected cover documented in [[Studio/Analysis/carousel-flow-and-weird-hooks]]. Her verdict: *"'on purpose' is a little too ai — you could say something more weird or unexpected like 'delete your leads, quick' or one i actually posted, titled 'the tiny list effect'."* I expanded it into a competent, plausible slide plan — exactly what an eager agent would build around the rejected cover. The slide plan is deliberately solid so the KILL has to come from the hook, not from obvious badness.
 
 **What should trip the gate (this is a crown-jewel item):**
 - The cover is a **recycled winning skeleton wearing new nouns**: "Why I Delete Subscribers On Purpose" is "Why I burned down a perfectly good business (on purpose)" with the nouns swapped. `(on purpose)` is her single most-studied subject's contradiction device — reusing it reads as generated-from-a-formula, i.e. AI (RULE 1: no documented-winner reuse; the imitation tell in ANTI-AI).
@@ -89,7 +89,7 @@ Source: none — written for this test. Design: the documented over-correction f
 
 ## Item 07 — REAL (carousel, Feb 10 "How To Get All Your Clients From Pinterest This Year")
 
-Source: `analysis/carousel-slide-by-slide.md` (Feb 10 breakdown) + `examples/Carousels/captions.md` (Feb 10 caption). Transcribed faithfully; her verbatim step names, food-metaphor system, props, and asides preserved. Documented but NOT top-3 famous.
+Source: [[Studio/Analysis/carousel-slide-by-slide]] (Feb 10 breakdown) + `examples/Carousels/captions.md` (Feb 10 caption). Transcribed faithfully; her verbatim step names, food-metaphor system, props, and asides preserved. Documented but NOT top-3 famous.
 
 **Why it should PUBLISH:** the restaurant-metaphor step names you must decode ("The Key Ingredient" / "Serve Your Bread & Butter" / "Take Reservations" / "Fresh Batches Same Recipe"), "I stg it's that simple," "*actually* worth grabbing," "(and selling)" held for timing, "simmer in the background," the "where the locals eat" caption. Structural humor, coined concepts, obsessive prop consistency. Textbook her.
 
@@ -97,7 +97,7 @@ Source: `analysis/carousel-slide-by-slide.md` (Feb 10 breakdown) + `examples/Car
 
 ## Item 08 — REAL-NEGATIVE (email, "Me: I need ideas. Also me: forgets 87 I already had")
 
-Source: `examples/soft-sundays/me-i-need-ideas-i-already-had.md`, opening transcribed verbatim. This is a **real published piece Alyssa herself flagged as feeling too AI** (frontmatter voice_note + inline ⚠️ flag in source). The gate SHOULD catch it — that's the whole point of including a real-but-rejected piece.
+Source: [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]], opening transcribed verbatim. This is a **real published piece Alyssa herself flagged as feeling too AI** (frontmatter voice_note + inline ⚠️ flag in source). The gate SHOULD catch it — that's the whole point of including a real-but-rejected piece.
 
 **What should trip the gate (even though it's genuinely hers):**
 - "The Marketing experts call it: 🤓 re-commerce 🤓" — the concept-label transition ("The experts call it: X") that TASTE and ANTI-AI both name explicitly as the AI tell / missing-named-pivot. She pivots by discovery, not by announcing a label.
@@ -122,7 +122,7 @@ Source: none — written for this test. Design: the "5 tips for…" listicle wea
 
 ## Item 10 — REAL (email, Soft Sunday "If Lorelai had an online biz")
 
-Source: `examples/soft-sundays/if-lorelai-had-an-online-biz.md`, opening (masthead + Pep Talk open) transcribed verbatim. NOT why-i-burned-down; NOT the flagged file.
+Source: [[Library/Examples/soft-sundays/if-lorelai-had-an-online-biz]], opening (masthead + Pep Talk open) transcribed verbatim. NOT why-i-burned-down; NOT the flagged file.
 
 **Why it should PUBLISH:** the fixed Soft Sunday masthead, "girlmore girls" (her real affectionate misspelling), the September crossroads split (lock-in vs curl-up), ".." trails, "(contrary to popular belief)" aside, "a few so far they feel embarrassing to even mention 😅." Warm, run-on, self-interrupting, specific. Her real newsletter voice.
 
@@ -130,7 +130,7 @@ Source: `examples/soft-sundays/if-lorelai-had-an-online-biz.md`, opening (masthe
 
 ## Item 11 — REAL-REJECT (carousel, "Your List Isn't Cold. It's Just Full.")
 
-Source: the rejected hook documented in `analysis/carousel-hook-forensics.md`. Her verdict: *"literally not even a social media hook."* Full expansion "email things, pt. 1 → Your List Isn't Cold. It's Just Full." I built a competent slide plan around it (again: the plausible thing an eager agent would produce) so the KILL must come from the cover.
+Source: the rejected hook documented in [[Studio/Analysis/carousel-hook-forensics]]. Her verdict: *"literally not even a social media hook."* Full expansion "email things, pt. 1 → Your List Isn't Cold. It's Just Full." I built a competent slide plan around it (again: the plausible thing an eager agent would produce) so the KILL must come from the cover.
 
 **What should trip the gate (crown-jewel item):**
 - The cover is an **"It's not X, it's Y" reframe** ("Isn't Cold. It's Just Full.") — a shape ANTI-AI bans in ALL forms including hooks and headers, and which the forensics prove Alyssa NEVER uses on a cover (only on interior implication slides, after stakes are built). It's an interior implication line cosplaying as a cover.

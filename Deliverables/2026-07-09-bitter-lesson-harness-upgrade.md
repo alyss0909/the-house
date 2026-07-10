@@ -51,7 +51,7 @@ It's the *choreography* — the how — that rots. Durable layers get written ti
 ### Tier 1 — Load-bearing brittleness
 
 **V1. Pipeline contract is a regex parser pretending to be a protocol.**
-`dashboard/PIPELINE-CONTRACT.md` demands EXACT section headers, `✓` prefixes, `[approved]` suffixes, verbatim title string-pairing. `dashboard/advance-watch.mjs` is 367 lines of hand-written parsing to detect what a model reading the sheet sees instantly. The contract documents its own failure: 2026-07-09, a maker wrote "substance arcs" instead of "slide skeletons" and the dash went blank. The approval *semantics* (concept approved → build arc) are durable; the string *format* is not.
+[[Studio/Content/dashboard/PIPELINE-CONTRACT]] demands EXACT section headers, `✓` prefixes, `[approved]` suffixes, verbatim title string-pairing. `dashboard/advance-watch.mjs` is 367 lines of hand-written parsing to detect what a model reading the sheet sees instantly. The contract documents its own failure: 2026-07-09, a maker wrote "substance arcs" instead of "slide skeletons" and the dash went blank. The approval *semantics* (concept approved → build arc) are durable; the string *format* is not.
 
 **V2. Maker prompts frozen inside JavaScript.**
 `arcPrompt()` / `draftPrompt()` in advance-watch.mjs duplicate the makers' contracts verbatim — an SSOT violation and a Bitter Lesson violation. When Cass/Hermes improve, the JS copy silently doesn't. Cycle-specific business facts ("Pinterest is the chat word this cycle") are hard-coded in permanent process files (loop.md, the contract).
@@ -87,7 +87,7 @@ Organizing principle: **separate durable layers (goals, facts, taste, state, gat
 1. Recast PIPELINE-CONTRACT.md as **semantic, not syntactic**: newest pitch sheet = state machine; each post at one of four stages; Alyssa's mark advances it. Block formats become *recommended* rendering shape, not validity conditions.
 2. Replace advance-watch.mjs's parser role with a **model read**: /loop step 1 = read the sheet, list pending advances. Format drift becomes impossible to break on; the model normalizes drift instead of failing. Keep a thin mechanical detector only if Obsidian dash rendering truly requires exact headers.
 3. **Delete `arcPrompt`/`draftPrompt` from the JS.** /loop dispatches Cass and Hermes pointing at their own agent files + the sheet. One home per contract.
-4. Move cycle-specific facts (live chat word, banned CTAs) to `Hermes/BUSINESS.md` only; process files say "check BUSINESS.md."
+4. Move cycle-specific facts (live chat word, banned CTAs) to [[Hermes/BUSINESS]] only; process files say "check BUSINESS.md."
 
 ### Phase 2 — GL-007 rewrite (~half session)
 Replace with ~30 lines of principles: load what the task needs, nothing speculative; prefer entry points; **full originals override thrift for voice work** (resolves the Hermes contradiction); any specific number (file caps, message counts, line ceilings) is a benchmark to re-measure on model upgrade, not a law. Fix the stale voice-profile.md load order per the 2026-07-05 ruling.

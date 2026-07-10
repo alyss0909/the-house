@@ -42,9 +42,9 @@ Larry built the Semantic Recurrence Layer without running it past Alyssa first. 
 
 ## What to review
 
-1. **SOP-013** — `Team Knowledge/SOPs/SOP-013-semantic-sweep.md` — read the 6-step process and confirm it matches how you'd want a sweep to work
-2. **Signals Index** — `PKM/Signals/signals-index.md` — this is the seeded list of signal themes. The main question: are these the right things to track? Add, remove, rename as needed.
-3. **GL-002 Signal schema** — `Team Knowledge/Guidelines/GL-002-frontmatter-conventions.md` — a Signal entity type was added. Confirm the fields make sense.
+1. **SOP-013** — [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep]] — read the 6-step process and confirm it matches how you'd want a sweep to work
+2. **Signals Index** — [[Studio/Signals/signals-index]] — this is the seeded list of signal themes. The main question: are these the right things to track? Add, remove, rename as needed.
+3. **GL-002 Signal schema** — [[Studio/Team Knowledge/Guidelines/GL-002-frontmatter-conventions]] — a Signal entity type was added. Confirm the fields make sense.
 4. **AGENTS.md sweep trigger** — confirms sweeps fire during weekly/monthly/quarterly reviews. Confirm this is the cadence you want or adjust.
 
 ## Context

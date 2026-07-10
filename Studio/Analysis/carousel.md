@@ -12,7 +12,7 @@ source: 9 carousels analyzed from Library/Examples/Carousels/ — Jan–Mar 2026
 
 ---
 
-## Why This Exists Alongside `carousel-slide-by-slide.md`
+## Why This Exists Alongside [[Studio/Analysis/carousel-slide-by-slide]]
 
 These files have different jobs:
 

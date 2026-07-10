@@ -7,7 +7,7 @@ run: hermes-deep-voice-study (scheduled, run 6)
 
 # Deep read — the carousel caption corpus
 
-First caption-format study. Note on method: `craft/captions-carousels.md` already cites this file as a source, so this pass hunted specifically for what the earlier mining MISSED — caption-register micro-mechanics rather than deck structure. Thirteen captions read in full; every pattern below is quoted.
+First caption-format study. Note on method: [[Hermes/craft/captions-carousels]] already cites this file as a source, so this pass hunted specifically for what the earlier mining MISSED — caption-register micro-mechanics rather than deck structure. Thirteen captions read in full; every pattern below is quoted.
 
 ## New patterns found
 

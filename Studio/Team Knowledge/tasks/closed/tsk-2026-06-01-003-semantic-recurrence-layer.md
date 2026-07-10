@@ -67,8 +67,8 @@ When approved and executed it creates: SOP-004, Signals Index, GL-002 Signal sch
 ## Outcome
 
 Executed 2026-06-05 by Larry. Created:
-- `Team Knowledge/SOPs/SOP-013-semantic-sweep.md` — full 6-step sweep procedure
-- `PKM/Signals/signals-index.md` — living signal tracker (seeded, awaiting first sweep)
+- [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep]] — full 6-step sweep procedure
+- [[Studio/Signals/signals-index]] — living signal tracker (seeded, awaiting first sweep)
 - GL-002 extended with Signal entity schema
 - AGENTS.md updated with sweep behavior block — runs automatically on weekly/monthly/quarterly review triggers
 Note: plan referred to this as "SOP-004" but that slot was already taken by create-task. Assigned SOP-013 instead (next available number).

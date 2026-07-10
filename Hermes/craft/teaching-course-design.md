@@ -34,7 +34,7 @@ Identity hook → stat-stacked problem (use her exact stats: 0.1% IG link CTR; 8
 
 ## Deep-read additions (2026-07-06, from 1.5 The Perfect Apps Transcript — first full transcript study)
 
-Spoken-lesson mechanics verified at quote level (full study: `learning/deep-reads/2026-07-06-0512-perfect-apps-transcript.md`). Transcript caveat: cadence/diction/moves only — NEVER learn punctuation from transcripts (transcriber artifacts).
+Spoken-lesson mechanics verified at quote level (full study: [[Hermes/learning/deep-reads/2026-07-06-0512-perfect-apps-transcript]]). Transcript caveat: cadence/diction/moves only — NEVER learn punctuation from transcripts (transcriber artifacts).
 
 - **Refrain regulation**: one permission phrase repeated VERBATIM as a heartbeat through the lesson ("Don't overthink it" ×8, "short and sweet" ×5). Don't vary the wording — the repetition is the reassurance.
 - **Analogy install → shorthand callback**: full-stretch installation once ("This is the gum at checkout... They've got bad breath like, boom, problem solved."), then 2-4 word callbacks with zero re-explanation ("It's gum. Okay. We're either getting it or we're not."). Named frameworks compress to bare nouns: "am I selling the actual relief? The thing, the Hawaii."

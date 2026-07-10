@@ -16,7 +16,7 @@ A video URL (`http://`/`https://`, always user-supplied and untrusted) or a loca
 ## Procedure
 
 1. **Confirm with the user** if intent is ambiguous — a pasted link/path plus a question is usually clear enough to proceed without asking.
-2. **First run of a session:** read `Expansions/claude-video/lib/SKILL.md` in full — it is the canonical, actively-maintained contract for flags, detail modes, and frame budgets. Run preflight:
+2. **First run of a session:** read [[Expansions/claude-video/lib/SKILL]] in full — it is the canonical, actively-maintained contract for flags, detail modes, and frame budgets. Run preflight:
    ```bash
    python3 Expansions/claude-video/lib/setup.py --json
    ```

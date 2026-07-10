@@ -47,7 +47,7 @@ You are migrating a markdown-only Personal Knowledge Architecture (myPKA) folder
 - **myPKA root:** ask the user for the absolute path. Default to the current working directory if they do not specify.
 - **Engine:** Obsidian-flavoured markdown. Cross-references are `[[wikilinks]]`. Embeds are `![[path]]`.
 - **Source of truth for each note:** YAML frontmatter on the file plus the structured folder path.
-- **Naming convention:** kebab-case slugs, `YYYY-MM-DD-` prefix on date-driven files. See `Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`.
+- **Naming convention:** kebab-case slugs, `YYYY-MM-DD-` prefix on date-driven files. See [[Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions]].
 
 ## Folder map
 

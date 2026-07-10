@@ -12,7 +12,7 @@ You are Larry, in the vault at `C:\Users\accol\OneDrive\Desktop\the-house`. Read
 
 ## State when this was written
 
-**Done:** Team + Team Knowledge live at `Studio/Team/` + `Studio/Team Knowledge/`. Second Brain dissolved — verbatim work at `Library/Examples/` + `Library/Programs/`, team analysis at `Studio/Analysis/`. All 26 offers merged into `Library/Offers/<offer>/MAP.md`. `me.md` promoted to `Library/me.md` (`promoted_by: alyssa`, 2026-07-10). `PKM/Documents/annapuchin.css` (a stray, unexplained file) deleted at Alyssa's direction. A new real signal was filed: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]]. Three scheduled tasks that had gone stale from the restructure (`hermes-deep-voice-study`, `hermes-deep-voice-study-645`, `monthly-trend-scout-scrape` — the last one was pointing at a completely different, retired folder, `mypka-scaffold-latest (2)`) were repointed and fixed same-session. Git is LOCAL only — never push. Latest tag: `library-live` (plus the earlier checkpoint tags — see the session log's rollback list).
+**Done:** Team + Team Knowledge live at `Studio/Team/` + `Studio/Team Knowledge/`. Second Brain dissolved — verbatim work at `Library/Examples/` + `Library/Programs/`, team analysis at `Studio/Analysis/`. All 26 offers merged into `Library/Offers/<offer>/MAP.md`. [[Library/me]] promoted to [[Library/me]] (`promoted_by: alyssa`, 2026-07-10). `PKM/Documents/annapuchin.css` (a stray, unexplained file) deleted at Alyssa's direction. A new real signal was filed: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]]. Three scheduled tasks that had gone stale from the restructure (`hermes-deep-voice-study`, `hermes-deep-voice-study-645`, `monthly-trend-scout-scrape` — the last one was pointing at a completely different, retired folder, `mypka-scaffold-latest (2)`) were repointed and fixed same-session. Git is LOCAL only — never push. Latest tag: `library-live` (plus the earlier checkpoint tags — see the session log's rollback list).
 
 **Not done — this handoff's job.** Four of these are things Alyssa flagged directly this session (verbatim, lightly cleaned up):
 
@@ -30,12 +30,12 @@ Plus items already flagged at the end of the Bring It Home session that are stil
 | Zone | What it actually is | Trust tier |
 |---|---|---|
 | `Hermes/` | Judgment layer — SOUL/STYLE/TASTE/ANTI-AI + `craft/*.md`. The only voice AUTHORITY per the 2026-07-05 Fable ruling. | Studio — opinion, but the highest-trust opinion in the house |
-| `Studio/Analysis/` | The team's AI-mined study of her real work — voice-profile.md, writing-style.md, carousel-slide-by-slide.md, etc. `Hermes/SOURCES.md` already demotes most of it to tier-2 ("navigate with, never voice-train on") and explicitly says its frontmatter claims of primacy are void, superseded by Hermes/JUDGMENT. | Studio — opinion, explicitly subordinate to Hermes |
+| `Studio/Analysis/` | The team's AI-mined study of her real work — voice-profile.md, writing-style.md, carousel-slide-by-slide.md, etc. [[Hermes/SOURCES]] already demotes most of it to tier-2 ("navigate with, never voice-train on") and explicitly says its frontmatter claims of primacy are void, superseded by Hermes/JUDGMENT. | Studio — opinion, explicitly subordinate to Hermes |
 | `Studio/Content/` | The pitch/dashboard desk — Suki-led, where Angus/Reeve/Cass/Hermes actually produce weekly content. | Studio — working material |
 
-**What's already resolved (don't re-litigate):** `Hermes/SOURCES.md`'s voice-authority ruling already says JUDGMENT (Hermes/) beats Studio/Analysis on any conflict. That's settled.
+**What's already resolved (don't re-litigate):** [[Hermes/SOURCES]]'s voice-authority ruling already says JUDGMENT (Hermes/) beats Studio/Analysis on any conflict. That's settled.
 
-**What's genuinely still open:** whether `Studio/Analysis/` itself should shrink. Its own SOURCES.md tier-2 listing already flags `voice-profile.md`, `voice-archive.md`, and `writing-style.md` as "AI-mined/Wren-era, unreviewed by Alyssa" — if Hermes's JUDGMENT layer has fully superseded them in practice, they may be pure redundancy sitting in the vault rather than active-use analysis, which is exactly the kind of drift GL-013 exists to catch. This needs Alyssa's read: does she still want Studio/Analysis's voice files maintained/updated, or are they legacy scaffolding Hermes has outgrown and Studio/Analysis should be pruned down to what's still load-bearing (subject-line.md's real-broadcast stats, the carousel forensics, the frameworks — things that aren't voice-authority claims)? A clean way to start: walk `Studio/Analysis/COMPASS.md`'s routing table with her file by file and ask "does Hermes actually use this, or does Hermes only use its own craft/ files now?"
+**What's genuinely still open:** whether `Studio/Analysis/` itself should shrink. Its own SOURCES.md tier-2 listing already flags [[Studio/Analysis/voice-profile]], [[Studio/Analysis/voice-archive]], and [[Studio/Analysis/writing-style]] as "AI-mined/Wren-era, unreviewed by Alyssa" — if Hermes's JUDGMENT layer has fully superseded them in practice, they may be pure redundancy sitting in the vault rather than active-use analysis, which is exactly the kind of drift GL-013 exists to catch. This needs Alyssa's read: does she still want Studio/Analysis's voice files maintained/updated, or are they legacy scaffolding Hermes has outgrown and Studio/Analysis should be pruned down to what's still load-bearing (subject-line.md's real-broadcast stats, the carousel forensics, the frameworks — things that aren't voice-authority claims)? A clean way to start: walk [[Studio/Analysis/COMPASS]]'s routing table with her file by file and ask "does Hermes actually use this, or does Hermes only use its own craft/ files now?"
 
 **Recommended shape for the session:** together with Alyssa, not solo — this is a taste/architecture call, not a mechanical one.
 
@@ -44,14 +44,14 @@ Plus items already flagged at the end of the Bring It Home session that are stil
 Right now a single offer's facts are genuinely split three ways:
 
 1. `Library/Offers/<offer>/MAP.md` — positioning, copy, funnel context. Frontmatter has a `price_point` field too.
-2. `Hermes/BUSINESS.md` — declared canonical for price/status/link/chat word, but it's explicitly a **dated snapshot**, not a live source.
-3. **Notion Products DB** (collection `2f4c8b43-e565-8149-a25f-000b38310c24`) — the actual live truth per `Hermes/SOURCES.md`'s "Live externals" section.
+2. [[Hermes/BUSINESS]] — declared canonical for price/status/link/chat word, but it's explicitly a **dated snapshot**, not a live source.
+3. **Notion Products DB** (collection `2f4c8b43-e565-8149-a25f-000b38310c24`) — the actual live truth per [[Hermes/SOURCES]]'s "Live externals" section.
 
-This mostly works today because everything correctly *defers* to BUSINESS.md rather than duplicating — Larry verified this during the retrieval gauntlet (Q1, Q9) and it held up clean. But it's fragile: `Library/Offers/back-of-house/MAP.md` still carries `price_point: 3000` in its own frontmatter *in addition to* deferring in prose — that's a live duplicate-fact risk (GL-013 Rule 3) sitting in every one of the 26 offer files' frontmatter, not just prose. Worth deciding with Alyssa:
+This mostly works today because everything correctly *defers* to BUSINESS.md rather than duplicating — Larry verified this during the retrieval gauntlet (Q1, Q9) and it held up clean. But it's fragile: [[Library/Offers/back-of-house/MAP]] still carries `price_point: 3000` in its own frontmatter *in addition to* deferring in prose — that's a live duplicate-fact risk (GL-013 Rule 3) sitting in every one of the 26 offer files' frontmatter, not just prose. Worth deciding with Alyssa:
 
 - Should offer-file frontmatter drop `price_point`/`status`/`sales_page_url` entirely and defer 100% to BUSINESS.md (cleanest, but frontmatter loses queryability)?
 - Or should BUSINESS.md stop being a manual snapshot and instead genuinely sync from Notion (a Mack automation task, not a content decision)?
-- Chat-word conflicts already flagged and unresolved in `Hermes/MAP.md` §7 ("Known broken / waiting on Alyssa"): PIN vs Pinterest (W2), price conflicts on Quarter in a Day ($2,000 vs $111) and CEO Year ($79 vs $27-47). These are real, dated, waiting-on-her items independent of this session's restructure — worth bundling into the same conversation.
+- Chat-word conflicts already flagged and unresolved in [[Hermes/MAP]] §7 ("Known broken / waiting on Alyssa"): PIN vs Pinterest (W2), price conflicts on Quarter in a Day ($2,000 vs $111) and CEO Year ($79 vs $27-47). These are real, dated, waiting-on-her items independent of this session's restructure — worth bundling into the same conversation.
 
 **Recommended shape for the session:** together with Alyssa for the "which system wins" architecture call; the actual Notion-sync automation (if she wants it) is then a solo Mack task.
 
@@ -66,7 +66,7 @@ Full current landscape, Claude scheduled tasks (`mcp__scheduled-tasks__list_sche
 | Task | Status this session | Notes |
 |---|---|---|
 | `hermes-deep-voice-study` + `-645` | **Fixed this session** | Two bugs, both fixed: (1) dead `PKM/Second Brain/` paths post-restructure, repointed to `Library/Examples/`, `Library/Programs/`; (2) the cron was scoped to `5-7 7 *` (day 5-7, July only) — a one-week pilot window that was never lifted to a recurring schedule, so both tasks were stuck not firing again until July 2027. Fixed to run daily (`0 4,5 * * *` and `45 6 * * *`); confirmed `nextRunAt` is now 2026-07-11. |
-| `monthly-trend-scout-scrape` | **Fixed this session** | Was pointing at a completely different, retired folder (`mypka-scaffold-latest (2)`) — not this vault at all. Repointed to `the-house` + `Studio/Content/trusted-sources.md` + `Studio/Content/swipe/`. |
+| `monthly-trend-scout-scrape` | **Fixed this session** | Was pointing at a completely different, retired folder (`mypka-scaffold-latest (2)`) — not this vault at all. Repointed to `the-house` + [[Studio/Content/trusted-sources]] + `Studio/Content/swipe/`. |
 | `instagram-saves-health-check`, `instagram-saves-ideation` | Untouched, already correct | Reference `C:\Users\accol\instagram-saves-engine\` (outside the vault) and Notion DBs directly — no vault-path dependency to break. |
 | `house-keeping-weekly`, `house-keeping-monthly-deep` | Fixed in the Bring It Home session | Repointed to `Studio/Team Knowledge/SOPs/SOP-039...` and `HOUSE-MAP`. |
 
@@ -90,8 +90,8 @@ Windows Task Scheduler (`Get-ScheduledTask`):
 ## Recommended order, next session
 
 1. Quick confirms with Alyssa (5 min): "delete the stale Windows task?" (probably yes).
-2. Products/offers architecture call (Open loop 2) — bundle in the known chat-word/price conflicts from `Hermes/MAP.md` §7 so it's one conversation, not three.
-3. Hermes/Content-desk/Analysis overlap audit (Open loop 1) — walk `Studio/Analysis/COMPASS.md` together, decide what's load-bearing vs. legacy.
+2. Products/offers architecture call (Open loop 2) — bundle in the known chat-word/price conflicts from [[Hermes/MAP]] §7 so it's one conversation, not three.
+3. Hermes/Content-desk/Analysis overlap audit (Open loop 1) — walk [[Studio/Analysis/COMPASS]] together, decide what's load-bearing vs. legacy.
 4. Journal cleanup + inbox-zero (Open loop 3, same as the already-flagged item) — together, entry by entry or batch by batch, on her terms.
 5. Notebook/Todos design — whenever she wants to think through it.
 
@@ -99,7 +99,7 @@ None of these block each other. Take them in whatever order she's in the mood fo
 
 ## Guardrails (same as the last handoff, still true)
 
-- Never edit her words. Never promote into Library yourself — flag promotion candidates, she decides (as with `me.md` this session).
+- Never edit her words. Never promote into Library yourself — flag promotion candidates, she decides (as with [[Library/me]] this session).
 - Notebook is read-only except her explicit ask, batch by batch.
 - Every move: git mv, sweep live refs, verify by grep + running the actual scripts, THEN commit + tag. If verification fails, roll back — never leave the vault half-moved.
 - If a concurrent session might be active (check `git log -1` for a commit you didn't make), stop and ask before touching shared files — this happened once already this project and cost nothing to pause for.

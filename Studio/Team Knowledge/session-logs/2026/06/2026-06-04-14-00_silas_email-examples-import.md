@@ -17,10 +17,10 @@ Filed 3 Kit/ConvertKit email exports from Team Inbox into the Second Brain examp
 ## Files created
 
 - `PKM/Second Brain/examples/soft-sundays/INDEX.md`
-- `PKM/Second Brain/examples/soft-sundays/i-fixed-your-email-list.md`
-- `PKM/Second Brain/examples/soft-sundays/your-list-called-theyre-hungry.md`
+- [[Library/Examples/soft-sundays/i-fixed-your-email-list]]
+- [[Library/Examples/soft-sundays/your-list-called-theyre-hungry]]
 - `PKM/Second Brain/examples/sales-emails/INDEX.md`
-- `PKM/Second Brain/examples/sales-emails/boh-sales-email-pinterest-plan.md`
+- [[Library/Examples/sales-emails/boh-sales-email-pinterest-plan]]
 
 ## Files updated
 
@@ -53,4 +53,4 @@ Filed 3 Kit/ConvertKit email exports from Team Inbox into the Second Brain examp
 
 ## Orphan wikilinks
 
-None. The INDEX files link to `analysis/writing-style.md` and `analysis/subject-line.md` — these are pre-existing files already referenced in the Carousel INDEX. If those files do not yet exist at `PKM/Second Brain/analysis/`, those wikilinks will be orphaned until the analysis folder is built out.
+None. The INDEX files link to [[Studio/Analysis/writing-style]] and [[Studio/Analysis/subject-line]] — these are pre-existing files already referenced in the Carousel INDEX. If those files do not yet exist at `PKM/Second Brain/analysis/`, those wikilinks will be orphaned until the analysis folder is built out.

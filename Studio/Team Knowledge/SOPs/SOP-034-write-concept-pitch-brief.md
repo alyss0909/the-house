@@ -3,7 +3,7 @@
 - **Default owner:** Angus, Concept Specialist / Suki-directed. Reusable by any agent. *(Hired 2026-07-08 per Gate-3 authorization; runs under Suki's direction, per [[HIRING-PLAN-v2]].)*
 - **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
 - **Triggered by:** WS-011 Step 3; "pitch concepts", "concept slate". Runs after SOP-038's slot-offer lock.
-- **References:** [[SOP-038-suki-weekly-strategy-brief]], `Hermes/FUNNEL.md`, `Hermes/MAP.md` §3, `Studio/Content/taste-ledger.md`, [[GL-007-token-discipline]].
+- **References:** [[SOP-038-suki-weekly-strategy-brief]], [[Hermes/FUNNEL]], [[Hermes/MAP]] §3, [[Studio/Content/taste-ledger]], [[GL-007-token-discipline]].
 
 ## Procedure
 Generate 10+ concept candidates internally → run [[SOP-037-run-mean-alyssa-content-gate]] → show survivors to Alyssa as **plain-language concepts**. Goal: **3 Mean-Alyssa-surviving concepts per M/W/F slot** before Alyssa chooses.
@@ -29,7 +29,7 @@ A single post teaches **ONE self-contained slice** a carousel can actually deliv
 
 ## Dashboard render contract (MANDATORY — the sheet must parse in the Content Command Center)
 
-The pitch sheet is read by the dashboard's concept parser (`Studio/Content/dashboard/01 Concepts.md`). Write it in EXACTLY this shape or the concepts render blank:
+The pitch sheet is read by the dashboard's concept parser ([[Studio/Content/dashboard/01 Concepts]]). Write it in EXACTLY this shape or the concepts render blank:
 
 - **NO YAML frontmatter.** The parser stops at the first `---` line — a leading `---` block blanks the whole panel. Put theme/week/status as plain lines under the `# Weekly Pitch Sheet — Www` title, and attribution as a plain `*Prepared by...*` line.
 - **Day headers, exact case:** `## Monday — Category (offer)`, `## Wednesday — ...`, `## Friday — ...`. Capitalized as shown — `## MONDAY` will NOT match.
@@ -37,4 +37,4 @@ The pitch sheet is read by the dashboard's concept parser (`Studio/Content/dashb
 - **No `---` between day blocks** (a stray `---` mid-sheet stops parsing). Use a single `---` only before the footer.
 - **Killed/parked concepts go in a footer** after that single `---` (in `### ` sections) — off the numbered slate, so they never render on the dash.
 
-Model the format on the last clean sheet (e.g. `2026-W30-pitch.md`). *Latent hardening item for Felix: the parser should skip frontmatter + match day names case-insensitively so a maker slip degrades gracefully instead of blanking.*
+Model the format on the last clean sheet (e.g. [[Studio/Content/2026-W30-pitch]]). *Latent hardening item for Felix: the parser should skip frontmatter + match day names case-insensitively so a maker slip degrades gracefully instead of blanking.*

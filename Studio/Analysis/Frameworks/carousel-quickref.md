@@ -22,7 +22,7 @@ description: Token-efficient carousel reference for agents. Load this + voice-pr
 5. Get approval on the brief before writing copy
 
 **To execute copy from a completed brief:**
-Treat the brief as the full spec. Write directly from it. Do not re-read the full framework. Voice rules are in `voice-profile.md` — apply them silently.
+Treat the brief as the full spec. Write directly from it. Do not re-read the full framework. Voice rules are in [[Studio/Analysis/voice-profile]] — apply them silently.
 
 ---
 

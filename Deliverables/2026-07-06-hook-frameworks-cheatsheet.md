@@ -7,9 +7,9 @@ status: standing Test Kitchen input
 
 # Hook Frameworks Cheat Sheet
 
-Built from the 2026-07-06 reader-first hook rebuild of `Deliverables/2026-07-06-sprint-pitches.md`, in response to Alyssa's live feedback on the v1 hook menus: *"theyre not social-media-y enough they need to be about the person reading them... mean alyssa would be snorin'."*
+Built from the 2026-07-06 reader-first hook rebuild of [[Deliverables/2026-07-06-sprint-pitches]], in response to Alyssa's live feedback on the v1 hook menus: *"theyre not social-media-y enough they need to be about the person reading them... mean alyssa would be snorin'."*
 
-The finding underneath every framework below: her existing 7-formula system (`Hermes/craft/captions-carousels.md`) already covers every hook SHAPE the external repos reinvent. What v1 got wrong wasn't shape, it was subject — the hooks were about the concept being taught, not about the reader's own stakes. Every framework here is one of her 7 formulas re-aimed at the reader, or a new mechanic this batch surfaced, filtered through her cover rules (≤7 words, payoff mandatory, no reframe, no second-person on covers by default, period-or-nothing).
+The finding underneath every framework below: her existing 7-formula system ([[Hermes/craft/captions-carousels]]) already covers every hook SHAPE the external repos reinvent. What v1 got wrong wasn't shape, it was subject — the hooks were about the concept being taught, not about the reader's own stakes. Every framework here is one of her 7 formulas re-aimed at the reader, or a new mechanic this batch surfaced, filtered through her cover rules (≤7 words, payoff mandatory, no reframe, no second-person on covers by default, period-or-nothing).
 
 ---
 
@@ -19,7 +19,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "Smart Founders Storyboard Their Emails." (Pitch 1)
 
-**Source:** `Hermes/craft/captions-carousels.md` formula #6 (Audience Identity — "The Pinterest Marketing Plan for Beginners") + Blacktwist `skills/hook-writer-sms/SKILL.md` "Best patterns: Audience Identity" + Blotato `viral-hooks/SKILL.md` Audience Callout category (#57-63).
+**Source:** [[Hermes/craft/captions-carousels]] formula #6 (Audience Identity — "The Pinterest Marketing Plan for Beginners") + Blacktwist `skills/hook-writer-sms/SKILL.md` "Best patterns: Audience Identity" + Blotato `viral-hooks/SKILL.md` Audience Callout category (#57-63).
 
 ---
 
@@ -29,7 +29,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "Eight Places Your One Video Never Went." (Pitch 4)
 
-**Source:** `Hermes/craft/captions-carousels.md` formula #4 (Trend Alarm, 3-punch — "Organic Marketing Is Dying," 491 follows, her best follow-rate) + Deliverables hook-patterns-map.md item (c) note on negative-superlative/threat-payoff evidence, shape stripped of the banned countdown-listicle form.
+**Source:** [[Hermes/craft/captions-carousels]] formula #4 (Trend Alarm, 3-punch — "Organic Marketing Is Dying," 491 follows, her best follow-rate) + Deliverables hook-patterns-map.md item (c) note on negative-superlative/threat-payoff evidence, shape stripped of the banned countdown-listicle form.
 
 ---
 
@@ -39,7 +39,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "My List Has Forgotten Me Twice." (Pitch 1) / "Giving A Shit Is Her Whole System." (Pitch 5, displaced variant)
 
-**Source:** `Hermes/craft/captions-carousels.md` formula #3 (Personal Testimony — consequence-kicker, never concession) + Blacktwist SKILL.md Confession pattern + Blotato Confession/Vulnerable category (#96-100).
+**Source:** [[Hermes/craft/captions-carousels]] formula #3 (Personal Testimony — consequence-kicker, never concession) + Blacktwist SKILL.md Confession pattern + Blotato Confession/Vulnerable category (#96-100).
 
 ---
 
@@ -49,7 +49,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "5,781 People Opened Mine." (Pitch 2) — reuses her own real Jan 15 number, repositioned as a dare via "Mine" rather than a credibility flex.
 
-**Source:** Blotato `viral-hooks/SKILL.md` Receipt category (#1-9, "highest ceiling") + her own anti-round-number rule (`captions-carousels.md` "Never" section: "5,781 saves, not nearly 6k") + hook-patterns-map.md item (b)8, odd/small-number evidence.
+**Source:** Blotato `viral-hooks/SKILL.md` Receipt category (#1-9, "highest ceiling") + her own anti-round-number rule ([[Hermes/craft/captions-carousels]] "Never" section: "5,781 saves, not nearly 6k") + hook-patterns-map.md item (b)8, odd/small-number evidence.
 
 ---
 
@@ -57,9 +57,9 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Definition:** New mechanic this batch — naming ONE hyper-specific real person/obsession/detail as the whole cover, so the reader either IS that person or immediately thinks of someone weirder in her own world. Works through recognition-before-comprehension, the same mechanism Step 0 identified in the 01-20 reach-lift finding, but applied to identity rather than trend-report framing.
 
-**Alyssa-compatible example:** "The Bilirubin Person Has A Business Now." (Pitch 5) — drawn directly from `PKM/Signals/signals-index.md`'s named niche-obsessive descriptions.
+**Alyssa-compatible example:** "The Bilirubin Person Has A Business Now." (Pitch 5) — drawn directly from [[Studio/Signals/signals-index]]'s named niche-obsessive descriptions.
 
-**Source:** Built from her own corpus device (portrait-gallery / named niche-obsessive signal), not an external repo category — closest external cousin is Blotato's Audience Callout, but this framework is more specific than any callout template in the four source libraries; flagged in `hook-patterns-map.md` (a)7 as a genuinely distinctive mechanic in her corpus.
+**Source:** Built from her own corpus device (portrait-gallery / named niche-obsessive signal), not an external repo category — closest external cousin is Blotato's Audience Callout, but this framework is more specific than any callout template in the four source libraries; flagged in [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] (a)7 as a genuinely distinctive mechanic in her corpus.
 
 ---
 
@@ -69,7 +69,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "she asked for a logo. she needed a witness." (Pitch 6)
 
-**Source:** `Hermes/craft/captions-carousels.md` formula #1 (Paradox — "Wasting Time Is Part of My Process.") + create-viral-content `references/title-formulas.md` "Before/After Compression" category, filtered to remove the reframe shape her corpus bans.
+**Source:** [[Hermes/craft/captions-carousels]] formula #1 (Paradox — "Wasting Time Is Part of My Process.") + create-viral-content [[Deliverables/2026-07-05-social-skills-repo-intake/repos/aaaronmiller__create-viral-content/references/title-formulas]] "Before/After Compression" category, filtered to remove the reframe shape her corpus bans.
 
 ---
 
@@ -79,7 +79,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Alyssa-compatible example:** "Your List Went Cold On You." (Pitch 2, rule-bend option)
 
-**Source:** Blacktwist `skills/hook-writer-sms/SKILL.md` Empathy pattern ("If you're struggling to stay consistent with content, this is for you") — explicitly banned on covers by her Rule 4 (`captions-carousels.md`), included here ONLY as the visible bend option per the task's explicit instruction to surface rather than silently omit the "you" tension.
+**Source:** Blacktwist `skills/hook-writer-sms/SKILL.md` Empathy pattern ("If you're struggling to stay consistent with content, this is for you") — explicitly banned on covers by her Rule 4 ([[Hermes/craft/captions-carousels]]), included here ONLY as the visible bend option per the task's explicit instruction to surface rather than silently omit the "you" tension.
 
 ---
 
@@ -89,7 +89,7 @@ The finding underneath every framework below: her existing 7-formula system (`He
 
 **Example:** "5,781 People Opened" passes on data-curiosity alone; "Nobody Reads Your" passes on alarm alone.
 
-**Source:** Blotato `viral-hooks/SKILL.md` Step 4 + Blacktwist SKILL.md "Quick self-check" + `Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map.md` item (b)1 — already a standing checklist line, reapplied here to every reader-first candidate.
+**Source:** Blotato `viral-hooks/SKILL.md` Step 4 + Blacktwist SKILL.md "Quick self-check" + [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]] item (b)1 — already a standing checklist line, reapplied here to every reader-first candidate.
 
 ---
 

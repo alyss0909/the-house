@@ -12,9 +12,9 @@ Alyssa activated Suki (Head of Content) for a fresh-eyes audit of the whole Cont
 
 ## What we did
 - **Suki** — ran a full read-only audit of the Content OS. Key findings: the ladder is drawn for 5 makers but only 2 exist (idea/hook/trend are Hermes-in-a-hat); the sends/shares shift was documented but wired nowhere; the craft "skills" (20-rule craft book, hook forensics, Blotato) sit unloaded by any maker; Mean Alyssa carries no per-rung ammo; a banned word ("quiet") was enshrined in the GL-011 arc exemplar; W29 was stalled (concepts approved, all 12 hooks rejected).
-- **Suki** — built **PLAYBOOK.md v1** (`Team/Suki - Social Media Strategist/PLAYBOOK.md`): north star, hook rules, arc rules, comment-CTA last slide, swipe-file-through-filter, the For The Girls format rule, keep/kill list. Grounded in Alyssa's 12 ranked winners first, real craft second, filtered hard.
+- **Suki** — built **PLAYBOOK.md v1** ([[Studio/Team/Suki - Social Media Strategist/PLAYBOOK]]): north star, hook rules, arc rules, comment-CTA last slide, swipe-file-through-filter, the For The Girls format rule, keep/kill list. Grounded in Alyssa's 12 ranked winners first, real craft second, filtered hard.
 - **Hermes (writer)** — generated fresh W29 hooks for all 3 approved concepts (Mon/Wed/Fri) onto the pitch sheet to unstick the week; logged the rejection pattern. Flagged Wednesday keyword blank + Friday format unlocked.
-- **Suki** — scoped the offer-atlas project and built **HIRING-PLAN.md** (`Team/Suki - Social Media Strategist/HIRING-PLAN.md`): per-role domain / success / trainer / sources / raise criteria.
+- **Suki** — scoped the offer-atlas project and built **HIRING-PLAN.md** ([[Studio/Team/Suki - Social Media Strategist/HIRING-PLAN]]): per-role domain / success / trainer / sources / raise criteria.
 - **Larry** — committed the playbook, hiring plan, and two continuation handoffs; saved 5 memories (Suki-is-interface, comments north star, economical subagents, offer-suite atlas, updated).
 
 ## Decisions made
@@ -37,8 +37,8 @@ Alyssa activated Suki (Head of Content) for a fresh-eyes audit of the whole Cont
 - "i wanna review it IN DETAIL before we ship" (hiring plan) — hiring is gated on Alyssa's detailed review; nothing researched/hired yet.
 
 ## Open threads
-- [ ] **Hiring plan** — Alyssa to review in detail + decide: approve 2 hires+order? re-test vs rebuild the substance person? confirm gate+scrape are no-hire? → [[2026-07-08_larry_suki-activation-playbook-and-hiring-plan]] handoff: `Team/Suki - Social Media Strategist/handoffs/HANDOFF-1-hiring-plan-review.md`
-- [x] **Offer suite + calendar** — guided discovery completed enough to reconcile the map. Alyssa caught that `Hermes/OFFER-ATLAS.md` would duplicate existing maps, so Larry updated `Hermes/MAP.md` section 3 instead and corrected the handoff. Closed via [[tsk-2026-07-08-001-reconcile-content-selling-logic-into-existing-maps]].
+- [ ] **Hiring plan** — Alyssa to review in detail + decide: approve 2 hires+order? re-test vs rebuild the substance person? confirm gate+scrape are no-hire? → [[2026-07-08_larry_suki-activation-playbook-and-hiring-plan]] handoff: [[Studio/Team/Suki - Social Media Strategist/handoffs/HANDOFF-1-hiring-plan-review]]
+- [x] **Offer suite + calendar** — guided discovery completed enough to reconcile the map. Alyssa caught that `Hermes/OFFER-ATLAS.md` would duplicate existing maps, so Larry updated [[Hermes/MAP]] section 3 instead and corrected the handoff. Closed via [[tsk-2026-07-08-001-reconcile-content-selling-logic-into-existing-maps]].
 - [ ] **W29 live week** — Alyssa to pick Monday + Wednesday hooks (fresh options on the pitch sheet); Wednesday now sells 5-Min Newsletter; Friday hooks need redo off the new For The Girls rule.
 - [ ] **GL-011 banned word** ("quiet" on line 81 of the arc exemplar) — still needs fixing (route to Nolan); flagged in the audit, not yet actioned.
 - [ ] **Substance person re-test** on the unstuck W29 arc under the new playbook.

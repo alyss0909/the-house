@@ -19,32 +19,32 @@ Alyssa returned to the Second Brain project after a full status review. The vaul
 ## What we did
 
 - **Larry** — ran full Second Brain status review: assessed all phases, voice layer, analysis docs, templates, frameworks, open gaps. Answered questions on phase welcome video strategy, transcript deletion, and Double Yes overlap.
-- **Pax** (subagent) — built `PKM/Second Brain/analysis/workshop-webinar-analysis.md` from scratch: individual analysis of Out of Office Webinar + Slowly Viral Class, cross-webinar synthesis, and Wren routing guide.
-- **Silas** (subagent) — ran full BOH INDEX audit against filesystem. Returned structured gap report: 7 of 24 transcripts existed, 18/19 workbooks existed, all 8 slide sets existed, 4 Notion dashboards with 0 local mirrors, `bots.md` more complete than INDEX Bot Roster (2 bots missing from INDEX).
+- **Pax** (subagent) — built [[Studio/Analysis/workshop-webinar-analysis]] from scratch: individual analysis of Out of Office Webinar + Slowly Viral Class, cross-webinar synthesis, and Wren routing guide.
+- **Silas** (subagent) — ran full BOH INDEX audit against filesystem. Returned structured gap report: 7 of 24 transcripts existed, 18/19 workbooks existed, all 8 slide sets existed, 4 Notion dashboards with 0 local mirrors, [[Library/Programs/back-of-house/5. Bonuses/bots]] more complete than INDEX Bot Roster (2 bots missing from INDEX).
 - **Larry** — BOH INDEX fixes: added Notion shortlinks as clickable URLs for all 4 dashboards, added Brand Bellhop + Postmaster to Bot Roster, added 1.2 Sales Pages slides entry, marked 4.2 Simple Socials as skipped.
 - **Larry** — filed 21 transcripts across all BOH phases (see list below). Created `transcripts/` subfolders where missing (Phase 0, Phase 1). Updated INDEX with ✅ wikilinks after each batch.
-- **Larry** — filed `Slow Marketing Plan Class.md` in `programs/back-of-house/webinars/`.
-- **Pax** (subagent) — updated `workshop-webinar-analysis.md` to add Section 3 (Slow Marketing Plan Class individual analysis), expanded Cross-Webinar Synthesis to cover all three, updated "For Wren" routing section with pitch-class distinctions.
-- **Larry** — updated `BUILD-PLAN.md` and `tsk-2026-06-01-002-second-brain` to reflect session progress.
+- **Larry** — filed [[Library/Programs/back-of-house/webinars/Slow Marketing Plan Class]] in `programs/back-of-house/webinars/`.
+- **Pax** (subagent) — updated [[Studio/Analysis/workshop-webinar-analysis]] to add Section 3 (Slow Marketing Plan Class individual analysis), expanded Cross-Webinar Synthesis to cover all three, updated "For Wren" routing section with pitch-class distinctions.
+- **Larry** — updated [[Studio/Analysis/BUILD-PLAN]] and `tsk-2026-06-01-002-second-brain` to reflect session progress.
 - **Larry** — Librarian: flagged orphan `[Framework] Carousel Playbook.md` at Second Brain root (deletion blocked by auto-mode — see Open Threads).
 
 ### Transcripts filed this session
 
 | File | Module |
 |---|---|
-| `0.0 Welcome to BOH Transcript.md` | 0.0 |
-| `0.1 The Prep Work Transcript.md` | 0.1 |
-| `0.2 Sign Off Specials Transcript.md` | 0.2 |
-| `0.3 Cozy Biz Plan Transcript.md` | 0.3 |
-| `1.1 Welcome to Phase One Transcript.md` | 1.1 intro |
-| `1.1 Email First Business Model Transcript.md` | 1.1 Email First Offer Suite (15m) |
-| `1.2 Your Signature Dish Transcript.md` | 1.2 |
-| `1.4 The Double Yes Freebie Transcript.md` | 1.4 (Double Yes Method 40m) |
-| `2.0 Welcome to Phase Two Transcript.md` | 2.0 |
-| `2.1 Warm Plates - Sequence Writing Transcript.md` | 2.1 (supplementary) |
-| `3.0 Welcome to Phase Three Transcript.md` | 3.0 |
-| `3.1 Bread and Butter Transcript.md` | 3.1 |
-| `4.0 Welcome to Phase Four Transcript.md` | 4.0 |
+| [[Library/Programs/back-of-house/0. Welcome/transcripts/0.0 Welcome to BOH Transcript]] | 0.0 |
+| [[Library/Programs/back-of-house/0. Welcome/transcripts/0.1 The Prep Work Transcript]] | 0.1 |
+| [[Library/Programs/back-of-house/0. Welcome/transcripts/0.2 Sign Off Specials Transcript]] | 0.2 |
+| [[Library/Programs/back-of-house/0. Welcome/transcripts/0.3 Cozy Biz Plan Transcript]] | 0.3 |
+| [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Welcome to Phase One Transcript]] | 1.1 intro |
+| [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.1 Email First Business Model Transcript]] | 1.1 Email First Offer Suite (15m) |
+| [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.2 Your Signature Dish Transcript]] | 1.2 |
+| [[Library/Programs/back-of-house/1. The House Specials/transcripts/1.4 The Double Yes Freebie Transcript]] | 1.4 (Double Yes Method 40m) |
+| [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.0 Welcome to Phase Two Transcript]] | 2.0 |
+| [[Library/Programs/back-of-house/2. The Warm Plate Method/transcripts/2.1 Warm Plates - Sequence Writing Transcript]] | 2.1 (supplementary) |
+| [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.0 Welcome to Phase Three Transcript]] | 3.0 |
+| [[Library/Programs/back-of-house/3. Traffic Pantry/transcripts/3.1 Bread and Butter Transcript]] | 3.1 |
+| [[Library/Programs/back-of-house/4. Soft Sales System/transcripts/4.0 Welcome to Phase Four Transcript]] | 4.0 |
 | `Congrats Transcript.md` | Wrap Up |
 
 Previously existing (not touched): 2.1 Warm Welcome Sequence, 2.2 Not Grandad's Email, 2.3 The Simmer, 3.2 The Keywords, 3.3 The Batch, 3.3 The Rotation, 4.1 The Lazy Launch.
@@ -83,7 +83,7 @@ Previously existing (not touched): 2.1 Warm Welcome Sequence, 2.2 Not Grandad's 
 - [ ] **1.1 Signature Method transcript** (20m Notion method video) — still needed. High value for Wren when writing BOH teaching copy.
 - [ ] **1.5 The Perfect Apps transcript** (45m tripwire module) — still needed. High priority — covers tripwire framework in depth.
 - [ ] **Carousel copy extraction** — carousel example folders contain images but no .md copy text. Wren can't read the actual copy. Decide: extract slide copy to .md, or accept that the analysis + framework is enough?
-- [ ] **Voice profile review** — `voice-profile.md` and `voice-archive.md` are AI drafts. Alyssa's own 100-question interview pass is still pending.
+- [ ] **Voice profile review** — [[Studio/Analysis/voice-profile]] and [[Studio/Analysis/voice-archive]] are AI drafts. Alyssa's own 100-question interview pass is still pending.
 - [ ] **Simmer emails (5) + Soft Sunday emails (5)** — still the highest-value unlock. Once filed: enables Simmer analysis, Simmer template, Soft Sunday template.
 - [ ] **Notion vaults** — Mack to set up Notion API. 9 frameworks pending: hook vault, RTO vault, PS vault, segmentation vault, sequence prompts, YOE email concepts, editorial calendar, Pinterest blog concepts, promo planner reframe.
 - [ ] **Phase 1 audit** — Alyssa flagged confusion around what's in Phase 1 (Signature Method vs. Signature Dish vs. Email First Model). Reserved for next session with fresh context.

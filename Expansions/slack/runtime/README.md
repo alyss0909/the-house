@@ -17,7 +17,7 @@ Node.js Socket Mode listener for the myPKA Slack Expansion.
 3. Subscribes to `message.im` (DMs) and `app_mention` events.
 4. On inbound: writes a markdown file with frontmatter to `<mypka>/Team Inbox/slack-incoming/<ts>-<channel>.md`. Idempotent (filename uniqueness dedups Slack replays).
 5. Polls `<mypka>/Team Inbox/slack-outgoing/` every 5 seconds. For each `.md` file, reads the frontmatter (`channel_id`, `thread_ts`), POSTs via `chat.postMessage` with `unfurl_links: false` and `unfurl_media: false` (always — never overridable). Moves sent files to `.sent/`. Writes `.error` siblings on permanent failures.
-6. Logs a heartbeat line every 60 seconds (used by `SOP-slack-listener-health.md`).
+6. Logs a heartbeat line every 60 seconds (used by [[Expansions/slack/sops/SOP-slack-listener-health]]).
 
 ## Hard rules in code
 

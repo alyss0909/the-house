@@ -29,7 +29,7 @@ Larry/Mack created a fast MVP helper in `Team Knowledge/scripts/`:
 
 - `telegram-capture-mvp.py`
 - `telegram-capture.env.example`
-- `telegram-capture-README.md`
+- [[Studio/Team Knowledge/scripts/telegram-capture-README]]
 - `.gitignore` entries in `Team Knowledge/scripts/` for:
   - `telegram-capture.env`
   - `.telegram-capture-state.json`

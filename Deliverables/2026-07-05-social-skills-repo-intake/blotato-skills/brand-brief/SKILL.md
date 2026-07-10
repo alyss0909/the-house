@@ -13,14 +13,14 @@ This skill is the **foundation**. It runs once on day one and gets updated maybe
 ## When to Activate
 
 - User says "set up my brand," "save my business info," "update my brand brief," "I want my posts to sound like my business."
-- Another skill (like `content-coach` or `post-writer`) needs context but `brand-brief.md` doesn't exist yet.
+- Another skill (like `content-coach` or `post-writer`) needs context but [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] doesn't exist yet.
 - User wants to refresh an outdated brief.
 
 ## Workflow
 
 ### Step 1: Check for existing brief
 
-Look for `brand-brief.md` in the current directory.
+Look for [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory.
 
 - **If exists**: Read it. Ask "Want to update what's there, or start fresh?"
 - **If new**: Skip to Step 2.
@@ -63,7 +63,7 @@ Or have them describe it in 5 words.
 
 ### Step 3: Write the brief to a file
 
-Save to `brand-brief.md` in the current directory:
+Save to [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] in the current directory:
 
 ```markdown
 # Brand Brief
@@ -116,7 +116,7 @@ If they're happy, you're done. Any future skill can now read this file.
 
 ## Why This File Matters
 
-Every other skill in this set reads `brand-brief.md` first. Without it:
+Every other skill in this set reads [[Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/brand-brief]] first. Without it:
 - `post-writer` produces generic posts that could be for any business
 - `content-coach` ideates without context, suggesting irrelevant topics
 - `post-grader` can't check if the voice matches because there's no defined voice

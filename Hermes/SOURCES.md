@@ -9,8 +9,8 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 - `Library/Examples/` — sales-pages/ (17+, incl. boh-sales-page.md, 661 lines), sales-emails/, simmers/, soft-sundays/ (EXCEPT me-i-need-ideas-i-already-had.md), Carousels/ (captions.md + slide folders), about-page.md, home-page.md, meta-copy.md.
 - `Library/Programs/back-of-house/` — 24 transcripts (her actual speech; highest voice signal), workbooks, slides, scriptbook.md (707 lines of her template voice), bots.md, webinars/ (3 full pitch transcripts). Enter via BOH-COMPASS.md.
 - `Library/Offers/` — 27 offer files, positioning in her words.
-- `Notebook/Journal/` — 544 entries 2020-2026; raw unperformed thinking. June 2026 cluster is densest; `2026/06/2026-06-06-boh-launch-email-inspo.md` is the single highest-signal file in the vault (raw voice memo). Saved-inspiration entries are taste-only, not voice. (Moved from `PKM/Journal/` 2026-07-09.)
-- `Library/me.md` — facts layer. Promoted by Alyssa 2026-07-10 (`promoted_by: alyssa`).
+- `Notebook/Journal/` — 544 entries 2020-2026; raw unperformed thinking. June 2026 cluster is densest; [[Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo]] is the single highest-signal file in the vault (raw voice memo). Saved-inspiration entries are taste-only, not voice. (Moved from `PKM/Journal/` 2026-07-09.)
+- [[Library/me]] — facts layer. Promoted by Alyssa 2026-07-10 (`promoted_by: alyssa`).
 
 ## Tier 2 — Interpretation (navigate with, never voice-train on)
 
@@ -21,13 +21,13 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 ## Tier 3 — Corrections (facts that outrank rules)
 
 - `Studio/Team Knowledge/session-logs/` → "Realignments" sections: her verbatim corrections. ~95 logs.
-- `Library/Examples/soft-sundays/me-i-need-ideas-i-already-had.md` — the flagged "too AI" email (negative example only).
+- [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]] — the flagged "too AI" email (negative example only).
 - Kit broadcast stats (subjects = tier-1 words; bodies unverified).
 
 ## Quarantine — never treat as her voice
 
-- `Studio/Analysis/Templates/` (10 files), `Archive/ready-queue-retired-2026-07-10.md` (the former ready-queue, dissolved 2026-07-10).
-- `Library/Examples/Carousels/brief-bank.md` — Alyssa: contents "literally 100% wrong" (2026-07-04).
+- `Studio/Analysis/Templates/` (10 files), [[Archive/ready-queue-retired-2026-07-10]] (the former ready-queue, dissolved 2026-07-10).
+- [[Library/Examples/Carousels/brief-bank]] — Alyssa: contents "literally 100% wrong" (2026-07-04).
 - voice-profile.md / voice-archive.md as *authority* (see tier 2).
 - All Wren operating files (`.claude/agents/wren.md`, `Studio/Team/Wren - Brand Voice Partner/`) — the analysis-first protocol this brain replaces.
 - Older stale-voice sales copy for imitation: The Numbers, Daily Profit Activities, TPE pages ("#bossbehaviour" era).

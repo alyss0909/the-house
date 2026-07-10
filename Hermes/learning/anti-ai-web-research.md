@@ -6,7 +6,7 @@ Compiled 2026-07-05 by Pax. Sources: 3 GitHub anti-slop skill repos (raw file co
 
 ## (A) MASTER BANNED-LIST
 
-Deduped across: `hardikpandya/stop-slop` (5.9k stars, raw `references/phrases.md` + `structures.md`), `Byk3y/no-slop` (raw `banned-vocabulary.md`, derived from Wikipedia:Signs of AI Writing), Wikipedia:Signs of AI Writing itself, and academic stylometry papers. Items appearing in 2+ independent sources are unmarked; single-source items flagged `[1-src]`.
+Deduped across: `hardikpandya/stop-slop` (5.9k stars, raw [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/phrases]] + [[Deliverables/2026-07-05-social-skills-repo-intake/repos/hardikpandya__stop-slop/references/structures]]), `Byk3y/no-slop` (raw `banned-vocabulary.md`, derived from Wikipedia:Signs of AI Writing), Wikipedia:Signs of AI Writing itself, and academic stylometry papers. Items appearing in 2+ independent sources are unmarked; single-source items flagged `[1-src]`.
 
 ### A1. Banned words (with plain replacements)
 

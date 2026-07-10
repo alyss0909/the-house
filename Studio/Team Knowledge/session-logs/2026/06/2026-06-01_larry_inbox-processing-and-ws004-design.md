@@ -34,10 +34,10 @@ Long working session. Alyssa came in to process recent Keep imports and noticed 
 - Confirmed: 32 journal entries interlinking was already done (stale open thread)
 - Confirmed: github-resources stub already cleaned up (stale open thread)
 - Confirmed: unembedded images — Alyssa handled
-- Archived `2026-05-27-alyssa-review-pass.md` — Alyssa confirmed review was done
+- Archived [[Deliverables/_archive/2026-05-27-alyssa-review-pass]] — Alyssa confirmed review was done
 
 **Idea garden session open threads:**
-- **Larry** found `2026-06-01_larry_idea-garden-and-semantic-recurrence-layer.md` with 4 open threads
+- **Larry** found [[Studio/Team Knowledge/session-logs/2026/06/2026-06-01_larry_idea-garden-and-semantic-recurrence-layer]] with 4 open threads
 - Surfaced: Semantic Recurrence Layer plan, homepage/workspace view, date-in-filename migration, Obsidian Properties panel fix
 
 **Task creation:**

@@ -6,7 +6,7 @@ Everything Alyssa does and says is training signal. The loop keeps the brain sha
 
 ## 1. Capture (every session, zero friction)
 
-Append one line per signal to `learning/inbox.md`, dated, verbatim where possible:
+Append one line per signal to [[Hermes/learning/inbox]], dated, verbatim where possible:
 - Any correction ("that's not me," "too AI," a rewrite she makes to your draft — capture her version next to yours).
 - Any approval ("yes exactly," a draft shipped unchanged — capture what worked).
 - Any new Alyssa-original artifact (new email, carousel, sales page, transcript, journal riff) → log the vault path; nominate standout passages for `Library/Examples/good/`.
@@ -24,7 +24,7 @@ Fold inbox into the core files **within their existing token ceilings**:
 
 ## 3. Clear
 
-Move processed inbox lines to `learning/log.md` with the date of the distillation pass and a one-line note of what changed where. The inbox returns to empty. `learning/log.md` is the only file allowed to grow — it's the audit trail, never loaded for writing tasks.
+Move processed inbox lines to [[Hermes/learning/log]] with the date of the distillation pass and a one-line note of what changed where. The inbox returns to empty. [[Hermes/learning/log]] is the only file allowed to grow — it's the audit trail, never loaded for writing tasks.
 
 ## 4. Re-ground (quarterly or when drift is suspected)
 
