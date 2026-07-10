@@ -72,7 +72,7 @@ fi
 # ----------------------------------------------------------------------------
 
 for sub in open in-progress done cancelled; do
-  DIR="$ROOT/Team Knowledge/tasks/$sub"
+  DIR="$ROOT/Studio/Team Knowledge/tasks/$sub"
   if [ -d "$DIR" ]; then
     pass "tasks/$sub/ exists"
   else
@@ -81,7 +81,7 @@ for sub in open in-progress done cancelled; do
 done
 
 # Catch the common mistake of creating a blocked/ folder. Blocked tasks live in in-progress/ with blocked_reason set.
-if [ -d "$ROOT/Team Knowledge/tasks/blocked" ]; then
+if [ -d "$ROOT/Studio/Team Knowledge/tasks/blocked" ]; then
   warn "tasks/blocked/ exists but should not — blocked tasks live in in-progress/ with blocked_reason set in frontmatter"
 fi
 
@@ -90,7 +90,7 @@ fi
 # ----------------------------------------------------------------------------
 
 for f in "_template.md" "INDEX.md"; do
-  PATH_F="$ROOT/Team Knowledge/tasks/$f"
+  PATH_F="$ROOT/Studio/Team Knowledge/tasks/$f"
   if [ -f "$PATH_F" ]; then
     pass "tasks/$f exists"
   else
@@ -102,8 +102,8 @@ done
 # 4. Per-agent journal folders + templates
 # ----------------------------------------------------------------------------
 
-if [ ! -d "$ROOT/Team" ]; then
-  fail "Team/ directory missing at $ROOT/Team"
+if [ ! -d "$ROOT/Studio/Team" ]; then
+  fail "Team/ directory missing at $ROOT/Studio/Team"
 else
   AGENTS_FOUND=0
   while IFS= read -r AGENTS_FILE; do
@@ -120,7 +120,7 @@ else
         warn "no _template.md in '$AGENT_NAME' journal/"
       fi
     fi
-  done < <(find "$ROOT/Team" -mindepth 2 -maxdepth 2 -name "AGENTS.md" -type f 2>/dev/null)
+  done < <(find "$ROOT/Studio/Team" -mindepth 2 -maxdepth 2 -name "AGENTS.md" -type f 2>/dev/null)
 
   if [ "$AGENTS_FOUND" -eq 0 ]; then
     warn "no agent AGENTS.md files found under Team/ — folder may be empty or non-standard"
@@ -145,10 +145,10 @@ REQUIRED_SOPS=(
 )
 
 for sop in "${REQUIRED_SOPS[@]}"; do
-  if [ -f "$ROOT/Team Knowledge/SOPs/$sop" ]; then
+  if [ -f "$ROOT/Studio/Team Knowledge/SOPs/$sop" ]; then
     pass "SOP exists: $sop"
   else
-    fail "SOP missing: Team Knowledge/SOPs/$sop"
+    fail "SOP missing: Studio/Team Knowledge/SOPs/$sop"
   fi
 done
 
@@ -156,7 +156,7 @@ done
 # 6. No tsk-*.md files outside the tasks/ tree (catch accidental spillage)
 # ----------------------------------------------------------------------------
 
-STRAY=$(find "$ROOT" -name "tsk-*.md" -type f 2>/dev/null | grep -v "/Team Knowledge/tasks/" || true)
+STRAY=$(find "$ROOT" -name "tsk-*.md" -type f 2>/dev/null | grep -v "/Studio/Team Knowledge/tasks/" || true)
 if [ -n "$STRAY" ]; then
   fail "stray tsk-*.md files outside tasks/ tree:"
   echo "$STRAY" | sed 's/^/      /' >&2
@@ -169,7 +169,7 @@ fi
 # ----------------------------------------------------------------------------
 
 # Look for [[tasks/... or [[Team Knowledge/tasks/... patterns in any markdown file under root
-PATHLINKS=$(grep -rE '\[\[(Team Knowledge/)?tasks/' "$ROOT" --include='*.md' 2>/dev/null || true)
+PATHLINKS=$(grep -rE '\[\[((Studio/)?Team Knowledge/)?tasks/' "$ROOT" --include='*.md' 2>/dev/null || true)
 if [ -n "$PATHLINKS" ]; then
   warn "path-based wikilinks to tasks/ found (should be basename-only — see SOP-008-rebuild-task-index):"
   echo "$PATHLINKS" | head -10 | sed 's/^/      /' >&2
@@ -184,7 +184,7 @@ fi
 # 8. Frontmatter sanity: each task file has id+title+assignee+priority+status
 # ----------------------------------------------------------------------------
 
-TASK_FILES=$(find "$ROOT/Team Knowledge/tasks" -name "tsk-*.md" -type f 2>/dev/null || true)
+TASK_FILES=$(find "$ROOT/Studio/Team Knowledge/tasks" -name "tsk-*.md" -type f 2>/dev/null || true)
 TASKS_CHECKED=0
 TASKS_BAD=0
 

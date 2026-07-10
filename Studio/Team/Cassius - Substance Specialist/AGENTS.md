@@ -93,7 +93,7 @@ Note: / Parked: [only if needed — flags for Alyssa in plain words]
 - Taste law: `Studio/Content/taste-ledger.md`
 - Naming: [[GL-001-file-naming-conventions]]
 - Source boundaries: [[GL-009-source-boundaries-and-promotion]]
-- Hands off to: [[Team/Hermes - Alyssa Clone Writer/AGENTS]] (Rung 4 — the write)
+- Hands off to: [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]] (Rung 4 — the write)
 
 ## Return format to Larry
 

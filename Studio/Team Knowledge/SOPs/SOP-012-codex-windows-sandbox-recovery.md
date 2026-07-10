@@ -110,7 +110,7 @@ After repair, run:
 ```powershell
 Get-Location | Select-Object -ExpandProperty Path
 $PSVersionTable.PSVersion.ToString()
-if (Test-Path -LiteralPath 'Team Knowledge/tasks/INDEX.md') { 'VAULT_READ_OK' } else { 'VAULT_READ_MISSING_TASK_INDEX' }
+if (Test-Path -LiteralPath 'Studio/Team Knowledge/tasks/INDEX.md') { 'VAULT_READ_OK' } else { 'VAULT_READ_MISSING_TASK_INDEX' }
 ```
 
 Then test `node_repl` with:
@@ -133,7 +133,7 @@ If the failure affected meeting capture or Closing Shift, verify the current spl
 
 - Vault root is `C:\Users\accol\OneDrive\Desktop\the-house`.
 - Meetily raw source is `D:\Alyssa\Music\meetily-recordings`.
-- Daily Meeting Clean script is `Team Knowledge/Automations/meetily-inbox-prep.ps1`.
+- Daily Meeting Clean script is `Studio/Team Knowledge/Automations/meetily-inbox-prep.ps1`.
 - Meeting pointer destination is `Notebook/Inbox/Meeting Captures/`.
 
 Daily Meeting Clean should:

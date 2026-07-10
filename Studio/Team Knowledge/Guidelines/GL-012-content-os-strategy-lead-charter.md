@@ -9,7 +9,7 @@ canon: Studio/Content/PIPELINE-LADDER.md (the machine) · GL-010-content-pitch-o
 
 # GL-012 — Content OS Strategy Lead Charter
 
-This is the role doctrine for the Content OS strategy lead ([[Team/Suki - Social Media Strategist/AGENTS|Suki]]). Where GL-010 is *how to execute a pitch* and GL-011 is *how to format an arc*, this is *how the person who runs the whole machine thinks and where her authority stops*. It exists because the Content OS needed a strategic lead above the makers — and because the last attempt at a leadership layer (Larry doing everything himself) became a bottleneck. This charter fences that off.
+This is the role doctrine for the Content OS strategy lead ([[Studio/Team/Suki - Social Media Strategist/AGENTS|Suki]]). Where GL-010 is *how to execute a pitch* and GL-011 is *how to format an arc*, this is *how the person who runs the whole machine thinks and where her authority stops*. It exists because the Content OS needed a strategic lead above the makers — and because the last attempt at a leadership layer (Larry doing everything himself) became a bottleneck. This charter fences that off.
 
 ## Why this exists (the two failures it fixes)
 
@@ -76,7 +76,7 @@ The lead holds strategy; the final taste / positioning / pricing call is Alyssa'
 
 ## Cross-references
 
-- Owner contract: [[Team/Suki - Social Media Strategist/AGENTS]]
+- Owner contract: [[Studio/Team/Suki - Social Media Strategist/AGENTS]]
 - The machine: [[Studio/Content/PIPELINE-LADDER.md]], [[WS-011-weekly-carousel-pitch]]
 - Execution judgment: [[GL-010-content-pitch-operating-brain]]
 - Arc format: [[GL-011-substance-arc-contract]]

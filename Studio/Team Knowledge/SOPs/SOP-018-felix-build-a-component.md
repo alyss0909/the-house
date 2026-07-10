@@ -24,7 +24,7 @@ If the request is "fix this component" or "this UI is broken," that's frontend t
 Before writing a single line of code:
 
 1. **Confirm the spec.** What does the component do, what are its inputs, what are its states (loading / empty / error / success / disabled)? If any of these are ambiguous, ask the user before proceeding. Building the wrong thing fast is slower than asking once.
-2. **Read your team's design system** at `Team Knowledge/Guidelines/GL-003-design-system.md` if it exists. Note the relevant tokens (color, typography, spacing, radius, animation), primitive components already in your stack, and any banned patterns.
+2. **Read your team's design system** at `Studio/Team Knowledge/Guidelines/GL-003-design-system.md` if it exists. Note the relevant tokens (color, typography, spacing, radius, animation), primitive components already in your stack, and any banned patterns.
 3. **Inspect the existing codebase.** Glob for similar components. Read the closest existing match. Match the project's conventions — file structure, naming, import style, prop interface style. Don't introduce a new pattern; match the prevailing one.
 
 ### 2. Decide where it lives
@@ -107,7 +107,7 @@ If anything looks wrong, fix it now. Val's gate is faster when you've already cl
 
 ### 9. Write the session-log entry
 
-At `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_felix_<component-slug>.md`. Capture what you built, which design tokens you used or extended, any pattern decisions worth preserving, and any follow-ups (e.g., "needs a Storybook story," "tablet breakpoint feels tight, may need a redesign pass").
+At `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_felix_<component-slug>.md`. Capture what you built, which design tokens you used or extended, any pattern decisions worth preserving, and any follow-ups (e.g., "needs a Storybook story," "tablet breakpoint feels tight, may need a redesign pass").
 
 ### 10. Hand off to Val
 

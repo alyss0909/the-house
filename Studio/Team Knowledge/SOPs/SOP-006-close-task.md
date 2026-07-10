@@ -24,7 +24,7 @@ Both terminal. Once a task is in `done/` or `cancelled/`, do not move it back. I
 
 2. **Check sub-tasks.**
    ```bash
-   grep -rl "parent: <id>" "Team Knowledge/tasks/open" "Team Knowledge/tasks/in-progress"
+   grep -rl "parent: <id>" "Studio/Team Knowledge/tasks/open" "Studio/Team Knowledge/tasks/in-progress"
    ```
    If any sub-tasks are still open or in-progress: surface them. Decide explicitly whether to (a) close them too, (b) leave them as standalone follow-ups, or (c) hold this parent open until they settle. Document the decision in the parent's `## Outcome`.
 
@@ -34,13 +34,13 @@ Both terminal. Once a task is in `done/` or `cancelled/`, do not move it back. I
    ```bash
    YEAR=$(date -u +%Y)
    MONTH=$(date -u +%m)
-   DEST="Team Knowledge/tasks/done/${YEAR}/${MONTH}"
+   DEST="Studio/Team Knowledge/tasks/done/${YEAR}/${MONTH}"
    mkdir -p "$DEST"
    ```
 
 2. **Move the file.** Source is `in-progress/`:
    ```bash
-   git mv "Team Knowledge/tasks/in-progress/<id>-<slug>.md" "$DEST/<id>-<slug>.md"
+   git mv "Studio/Team Knowledge/tasks/in-progress/<id>-<slug>.md" "$DEST/<id>-<slug>.md"
    ```
 
 3. **Update frontmatter:** `status: done`, bump `updated`. Clear `blocked_reason` and `blocked_by` if they were set.
@@ -82,13 +82,13 @@ Requirements changed. Duplicate of another task. Permanent blocker. User decided
    ```bash
    YEAR=$(date -u +%Y)
    MONTH=$(date -u +%m)
-   DEST="Team Knowledge/tasks/cancelled/${YEAR}/${MONTH}"
+   DEST="Studio/Team Knowledge/tasks/cancelled/${YEAR}/${MONTH}"
    mkdir -p "$DEST"
    ```
 
 2. **Move the file.** Source can be `open/` or `in-progress/`:
    ```bash
-   git mv "Team Knowledge/tasks/<source>/<id>-<slug>.md" "$DEST/<id>-<slug>.md"
+   git mv "Studio/Team Knowledge/tasks/<source>/<id>-<slug>.md" "$DEST/<id>-<slug>.md"
    ```
 
 3. **Update frontmatter:** `status: cancelled`, bump `updated`. Clear `blocked_reason` and `blocked_by`.
@@ -121,9 +121,9 @@ You shipped most of the work but a piece slipped to a follow-up. Two options:
 Mack closes the mux-webhook task:
 
 ```bash
-mkdir -p "Team Knowledge/tasks/done/2026/05"
-git mv "Team Knowledge/tasks/in-progress/tsk-2026-05-09-001-mux-webhook-401.md" \
-       "Team Knowledge/tasks/done/2026/05/tsk-2026-05-09-001-mux-webhook-401.md"
+mkdir -p "Studio/Team Knowledge/tasks/done/2026/05"
+git mv "Studio/Team Knowledge/tasks/in-progress/tsk-2026-05-09-001-mux-webhook-401.md" \
+       "Studio/Team Knowledge/tasks/done/2026/05/tsk-2026-05-09-001-mux-webhook-401.md"
 ```
 
 Frontmatter: `status: done`, `updated: 2026-05-10T17:42:00Z`.

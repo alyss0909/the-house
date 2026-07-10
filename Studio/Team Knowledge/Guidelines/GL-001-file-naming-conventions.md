@@ -26,7 +26,7 @@ Applies to:
 
 - Journal entries: `Notebook/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`
 - Images: `Notebook/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`
-- Session logs: `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<optional-HH-MM>_<agent-slug>_<topic-slug>.md`
+- Session logs: `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<optional-HH-MM>_<agent-slug>_<topic-slug>.md`
 - Deliverables when they are time-bound: `Deliverables/YYYY-MM-DD-<slug>.md`
 
 Examples:
@@ -46,11 +46,11 @@ Examples:
 
 ### 4. Folder naming for specialist contracts
 
-Pattern: `Team/<Name> - <Role>/AGENTS.md` with a literal space-hyphen-space between name and role.
+Pattern: `Studio/Team/<Name> - <Role>/AGENTS.md` with a literal space-hyphen-space between name and role.
 
 Examples:
-- `Team/Larry - Orchestrator/`
-- `Team/Penn - Journal Writer/`
+- `Studio/Team/Larry - Orchestrator/`
+- `Studio/Team/Penn - Journal Writer/`
 
 Do not use kebab-case for these folder names. Specialist folder names are display names, read by humans first.
 

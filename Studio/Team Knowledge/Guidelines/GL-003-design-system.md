@@ -1,6 +1,6 @@
 # GL-003 - Design System
 
-> **This Guideline is the single source of truth for the vault's visual system.** Every creative agent (Charta, Pixel, Felix, and any future visual specialist) reads it at the start of every relevant task. Iris is the default author; the values are Alyssa's. Populated 2026-07-07 from the confirmed oat/linen Card Layout system (full origin: `Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system.md`).
+> **This Guideline is the single source of truth for the vault's visual system.** Every creative agent (Charta, Pixel, Felix, and any future visual specialist) reads it at the start of every relevant task. Iris is the default author; the values are Alyssa's. Populated 2026-07-07 from the confirmed oat/linen Card Layout system (full origin: `Studio/Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system.md`).
 
 > **Edits are Iris-only.** Alyssa proposes; Iris authors. Charta and Pixel only ever read this file. The live implementation of these tokens is `.obsidian/snippets/dashboard.css` (as `--db-*` custom properties) — this Guideline is the human-readable SSOT; the CSS must not drift from it.
 
@@ -311,7 +311,7 @@ When something becomes approved / locked / chosen, the element itself changes st
 ## References
 
 - Live implementation: `.obsidian/snippets/dashboard.css` (`--db-*` tokens) — must stay in sync with §2–§5.
-- Origin doc: `Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system.md`
+- Origin doc: `Studio/Team/Iris - Design System Architect/journal/2026-06-13-obsidian-vault-design-system.md`
 - Chip hierarchy / ship-button / approval-state rules (§5, added 2026-07-07): source is the live `.db-cal-type`, `.db-cal-week-pill`, `.db-ship-btn`, and `.db-card-locked` rules in `dashboard.css`, confirmed through ~8 rounds of direct Alyssa feedback on the dashboard calendar.
 - [[SOP-author-a-design-system]] · [[SOP-audit-content-for-design-system-compliance]]
-- [[Team/Iris - Design System Architect/AGENTS]] — Iris's contract; author of this Guideline.
+- [[Studio/Team/Iris - Design System Architect/AGENTS]] — Iris's contract; author of this Guideline.

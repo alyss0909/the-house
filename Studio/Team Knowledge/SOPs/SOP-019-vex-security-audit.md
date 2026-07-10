@@ -27,7 +27,7 @@ Before auditing anything else, confirm credentials aren't already leaking. A lea
 
 1. **Search the codebase for hardcoded secrets.** Grep for patterns: `service_role`, `sk-`, `Bearer `, `api_key`, `apikey`, `secret`, `password`, `client_secret`, common provider prefixes (e.g., `AIza`, `xoxp-`, `xoxb-`, `ghp_`, `pk_live_`, `sk_live_`).
 2. **Check committed `.env` files.** If `.env` is in git history, that's CRITICAL — the secret is public, even if the file is now `.gitignore`d.
-3. **Check the your myPKA.** Search `PKM/` and `Team Knowledge/` for anything that looks like a credential. Your myPKA is markdown content, not a secret store. If credentials are in there, that's CRITICAL.
+3. **Check the your myPKA.** Search `PKM/` and `Studio/Team Knowledge/` for anything that looks like a credential. Your myPKA is markdown content, not a secret store. If credentials are in there, that's CRITICAL.
 4. **Check client-side bundles.** If the project ships a frontend, confirm the service-role / admin / write-scoped key is **not** exposed to the browser. Browser-visible keys must be scoped to public/anon roles only.
 5. **Check secret-manager hygiene.** Where do secrets actually live? `.env` outside the repo, OS keychain, the platform's secret manager? If the answer is "I email them around," that's a finding.
 
@@ -121,7 +121,7 @@ A security audit is done when **all** of these are true:
 - [ ] All four phases completed (credential, authorization, integration, data-handling).
 - [ ] Every finding has proof-of-exploit, severity, fix recommendation, and a verification step.
 - [ ] Report is at `Deliverables/YYYY-MM-DD-<slug>-security-audit.md`.
-- [ ] Session-log entry written at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_vex_<slug>.md` capturing methodology and what to investigate next.
+- [ ] Session-log entry written at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_vex_<slug>.md` capturing methodology and what to investigate next.
 - [ ] No fixes applied without explicit user approval. Vex audits and recommends; the implementing specialist applies after approval.
 - [ ] If any CRITICAL findings exist, they are surfaced to the user immediately, not buried at the bottom of the report.
 

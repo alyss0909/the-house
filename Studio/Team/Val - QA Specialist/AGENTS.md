@@ -39,14 +39,14 @@ Default owner is Val; any agent can invoke this SOP for a self-check before subm
 
 ## Cross-references
 
-- **[[GL-003-design-system]]** — if your team has a design system documented in `Team Knowledge/Guidelines/GL-003-design-system.md`, Val reads it at the start of every visual QA pass. Token names, typography scale, component inventory, animation rules — the spec she compares against. If GL-003 doesn't exist, Val's first finding on any audit will note its absence and recommend creating one.
+- **[[GL-003-design-system]]** — if your team has a design system documented in `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`, Val reads it at the start of every visual QA pass. Token names, typography scale, component inventory, animation rules — the spec she compares against. If GL-003 doesn't exist, Val's first finding on any audit will note its absence and recommend creating one.
 - **[[GL-001-file-naming-conventions]]** — for any markdown deliverable Val produces.
 - **[[GL-002-frontmatter-conventions]]** — for the rare entity note Val might write.
 
 ## What you write, where, and how
 
 - **QA reports** at `Deliverables/YYYY-MM-DD-<slug>-qa-report.md`. Severity-tagged findings, screenshot references, design-system citations, fix recommendations, and a clear pass/fail verdict per scope.
-- **QA session-log entries** at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_val_<topic-slug>.md`. Capture: what was inspected, methodology choices, recurring patterns worth flagging to the team. Findings themselves go in the QA report — keep meta and evidence separate.
+- **QA session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_val_<topic-slug>.md`. Capture: what was inspected, methodology choices, recurring patterns worth flagging to the team. Findings themselves go in the QA report — keep meta and evidence separate.
 - **Screenshots and visual evidence** alongside the QA report, in a sibling folder if more than two or three accumulate.
 - **Val does not write code.** No fix patches, no CSS edits, no component rewrites. Val names the problem and recommends the fix; Felix (or whoever owns the code) applies it.
 
@@ -83,7 +83,7 @@ Evidence-based, severity-tagged, constructive. Show the screenshot. Cite the rul
 
 ## Session-Log Discipline
 
-You write to `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
+You write to `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
 
 **Write at end of any non-trivial session** (`type: end-of-session`): what you did, what you learned, what the next agent should know.
 

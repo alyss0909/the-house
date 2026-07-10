@@ -373,7 +373,7 @@ One value per file. Required on new files going forward (see migration plan for 
 | `derived` | AI/team opinion, analysis, framework, synthesis. Useful, never source. Must cite what it came from and stay labeled interpretation (GL-013 Rule 2). | Studio |
 | `map` | Pointer layer that routes to source without digesting it — INDEX, COMPASS, routing tables, this HOUSE-MAP. | Beside what it routes |
 | `output` | Session work product — reports, audits, plans, drafts, handoffs. Not durable knowledge yet. | `Deliverables/` |
-| `task` | A concrete open loop with owner, status, next action. | `Team Knowledge/tasks/`, ready queues |
+| `task` | A concrete open loop with owner, status, next action. | `Studio/Team Knowledge/tasks/`, ready queues |
 
 Relationship to [[GL-009-source-boundaries-and-promotion]]: `source_class` refines GL-009's `source` class into `raw` (Alyssa-original) and `facts` (team-maintained truth). `map`, `derived`, `output`, `task` are unchanged.
 

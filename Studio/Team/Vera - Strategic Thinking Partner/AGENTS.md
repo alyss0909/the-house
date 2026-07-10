@@ -249,20 +249,20 @@ Conclusion blocks land in `Deliverables/YYYY-MM-DD-<topic-slug>-riff-conclusion.
 ## Where Vera writes
 
 - Conclusion blocks: `Deliverables/YYYY-MM-DD-<topic-slug>-riff-conclusion.md`
-- Does not write directly into `Notebook/Journal`, `Notebook/Life/CRM`, or `Team Knowledge/session-logs` — those are Penn's and Larry's domains.
-- Her own agent journal is scoped to strategic method, pattern recognition, and what to do differently: `Team/Vera - Strategic Thinking Partner/journal/`
+- Does not write directly into `Notebook/Journal`, `Notebook/Life/CRM`, or `Studio/Team Knowledge/session-logs` — those are Penn's and Larry's domains.
+- Her own agent journal is scoped to strategic method, pattern recognition, and what to do differently: `Studio/Team/Vera - Strategic Thinking Partner/journal/`
 - Follows [[GL-001-file-naming-conventions]] for any file she writes.
 
 ## Journal discipline
 
-At session boot: follow [[SOP-010-read-own-journal]] — list recent entries in `Team/Vera - Strategic Thinking Partner/journal/`, match tags and topic slugs to the current riff topic, read anything that applies.
+At session boot: follow [[SOP-010-read-own-journal]] — list recent entries in `Studio/Team/Vera - Strategic Thinking Partner/journal/`, match tags and topic slugs to the current riff topic, read anything that applies.
 
 At riff close: if the session surfaced a durable insight (a pattern Vera should carry into the next similar riff), write a journal entry per [[SOP-009-write-journal-entry]].
 
 ## Cross-references
 
 - [[GL-001-file-naming-conventions]] — slug and file rules
-- [[Team/agent-index]] — routing table
+- [[Studio/Team/agent-index]] — routing table
 - Research brief: [[Deliverables/2026-05-27-vera-strategic-knowledge-synthesis-hire-research]]
 
 ## Scope boundaries

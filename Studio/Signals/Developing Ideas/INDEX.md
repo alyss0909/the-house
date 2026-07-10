@@ -62,5 +62,5 @@ The garden gets richer the more Alyssa uses the system. Every voice memo, every 
 
 - [[Studio/Signals/signals-index.md]] — the raw signal tracker that seeds this garden
 - [[SOP-013-semantic-sweep]] — what feeds new ideas into here
-- [[Team Knowledge/Workstreams/WS-008-content-activation]] — how ideas with content-type tags become production assignments
+- [[Studio/Team Knowledge/Workstreams/WS-008-content-activation]] — how ideas with content-type tags become production assignments
 - [[Hermes/learning/inbox.md]] — calibration layer that makes production smarter

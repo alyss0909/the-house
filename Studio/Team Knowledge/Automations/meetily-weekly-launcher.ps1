@@ -645,7 +645,7 @@ FIRST-TIME TASK SCHEDULER REGISTRATION  (weekly trigger)
 Already registered as "Meetily Weekly Launcher" (Mon 8:00 AM). This block is
 kept for reference / re-registration. Run ONCE in an elevated PowerShell.
 
-$scriptPath = 'C:\Users\accol\OneDrive\Desktop\the-house\Team Knowledge\Automations\meetily-weekly-launcher.ps1'
+$scriptPath = 'C:\Users\accol\OneDrive\Desktop\the-house\Studio\Team Knowledge\Automations\meetily-weekly-launcher.ps1'
 
 $action = New-ScheduledTaskAction `
     -Execute "powershell.exe" `

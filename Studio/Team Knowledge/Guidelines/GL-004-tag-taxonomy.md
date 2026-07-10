@@ -79,7 +79,7 @@ Before adding a new tag:
 | tag | lane | use when | do not use when | anchor | replacement/notes |
 |---|---|---|---|---|---|
 | `ai` | approved | AI tools, AI workflows, prompt/eval/memory systems, or AI-assisted work. | The note only mentions a generic tool in passing. | [[ai-tools]] | Replaces `ai-reference`, `llm-guide`, and many generic `prompts` uses. |
-| `automation` | approved | Automation workflows, automation setup, or recurring system automation. | General productivity or operations without an automation component. | [[Team Knowledge/Automations/]] | Kept for automation retrieval outside Second Brain structural imports. |
+| `automation` | approved | Automation workflows, automation setup, or recurring system automation. | General productivity or operations without an automation component. | [[Studio/Team Knowledge/Automations/]] | Kept for automation retrieval outside Second Brain structural imports. |
 | `back-of-house` | approved | The note is about the BOH offer/entity itself, not merely stored under Second Brain BOH content. | Second Brain files already in the Back of House folder. | [[back-of-house]] | `boh` is retired. |
 | `blog` | approved | Blog ideas, blog inspiration, or blog as a content channel. | Generic writing or email ideas. | [[blog-and-pin]] | Kept as a channel tag. |
 | `business` | approved | Broad business-domain entity notes where useful for cross-cutting retrieval. | If `key_element: business` already gives sufficient structure and no tag search is needed. | [[business]] | Used heavily in My Life/Offers. |
@@ -93,7 +93,7 @@ Before adding a new tag:
 | `email-first-offer-suite` | approved | The Email First Offer Suite concept/method. | Separate generic email or offer notes. | [[1.1 Email First Ecosystem]] | `email-first` and `offer-suite` merge here. |
 | `email-hooks` | approved | Email hook patterns, CTA/hook logic, or email attention mechanics. | Generic hooks outside email unless explicitly useful. | [[2.2 Not Your Grandads Email Marketing Transcript]] | Replaces `hooks` and `ctas` in BOH email context. |
 | `freebie` | approved | Freebie offers, freebie frameworks, opt-in incentives, or lead capture assets. | Generic offer notes with no freebie/opt-in angle. | [[1.4 The Freebie Framework]] | Replaces `lead-magnet` and `opt-in`. |
-| `hiring` | approved | Hiring, contractor, assistant, candidate, or team-capacity notes. | Stable CRM facts where role fields are enough. | [[Team/agent-index]] | Used for Samir/Camila context. |
+| `hiring` | approved | Hiring, contractor, assistant, candidate, or team-capacity notes. | Stable CRM facts where role fields are enough. | [[Studio/Team/agent-index]] | Used for Samir/Camila context. |
 | `hot-lead-loop` | approved | The Hot Lead Loop in BOH/Soft Sales. | Generic lead nurturing. | [[4.1 Soft Sales Back of House Slides]] | Proprietary method tag. |
 | `kit` | approved | Kit/ConvertKit platform setup, examples, or tactics. | Generic email content unrelated to Kit. | [[1.6 The Finishing Touches]] | Keep as tool/platform tag. |
 | `mini-promo` | approved | Mini promo mechanics or 72-hour promo concepts. | Full launch/promo cycles where `promo` is enough. | [[4.1 Soft Sales Back of House Slides]] | Proprietary/tactical tag. |

@@ -38,7 +38,7 @@ If the request needs the imported data to be mapped into your myPKA's eight enti
 When Larry dispatches you to work a task, follow [[SOP-010-read-own-journal]] before starting:
 
 1. Open the task file. Read the `linked_journal_entries` array in frontmatter — those are the priors the task creator pre-loaded for you.
-2. For each basename listed, read the entry under `Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
+2. For each basename listed, read the entry under `Studio/Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
 3. Append a `## Updates` line to the task naming the priors you carried in: `- <date> <time> (<your-name>) — priors loaded: [[entry-1]], [[entry-2]]`. Auditable.
 
 When you **create** a task during your work, follow [[SOP-004-create-task]] — populate all six `linked_*` arrays (SOPs, Workstreams, Guidelines, My Life, session logs, journal entries). Empty arrays are valid; skipping the walk is not.
@@ -89,7 +89,7 @@ If the connection shape is ambiguous (the user doesn't know what their tool expo
 ## What you write, where, and how
 
 - **Source code, scripts, configs** for any automation work the user explicitly wants in your myPKA: under `PKM/Documents/<slug>.md` (with the script as a fenced code block) for short scripts, or in a separate folder the user designates for larger projects. **Your myPKA itself stays markdown-only — Mack does not introduce build steps inside this folder.** Code projects live in their own folders outside your myPKA.
-- **Connection session-log entries** at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_mack_<topic-slug>.md`. Capture: which API/MCP/tool, auth method, where the fetched bytes landed, any quirks in the source format. Silas reads this when running the import.
+- **Connection session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_mack_<topic-slug>.md`. Capture: which API/MCP/tool, auth method, where the fetched bytes landed, any quirks in the source format. Silas reads this when running the import.
 - **MCP server registrations** stay in the user's tool-specific config (`.mcp.json`, `.cursor/mcp.json`, etc.) — outside your myPKA. Mack documents the registration in a session-log entry so the team has a record.
 - **Credentials** never in your myPKA. Always in `.env` files outside your myPKA, or in the user's OS keychain/secret store.
 
@@ -143,7 +143,7 @@ Operational, precise, code-first. Show the command. Show the curl. Show the `.en
 
 ## Session-Log Discipline
 
-You write to `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
+You write to `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
 
 **Write at end of any non-trivial session** (`type: end-of-session`): what you did, what you learned, what the next agent should know.
 
@@ -186,7 +186,7 @@ On uninstall, Mack runs symmetric teardown: stop the runtime (`launchctl unload`
 - [[SOP-002-convert-mypka-to-sqlite]] — Silas's SOP. Invoked when the source is a SQLite-backed PKM tool, or when the user upgrades your myPKA.
 - [[GL-001-file-naming-conventions]] — slug, date, filename rules.
 - [[GL-002-frontmatter-conventions]] — entity frontmatter schema. Silas owns audits.
-- [[Team Knowledge/Templates/INDEX]] — the eight entity templates Silas writes through during imports.
+- [[Studio/Team Knowledge/Templates/INDEX]] — the eight entity templates Silas writes through during imports.
 - `Expansions/docs/expansion-spec.md` — locked Expansion manifest schema (v1.7.0).
 - [[AGENTS]] — the root team file.
 - [[agent-index]] — the full team roster.

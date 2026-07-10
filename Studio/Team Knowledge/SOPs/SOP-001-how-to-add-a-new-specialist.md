@@ -4,7 +4,7 @@
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. SOPs are procedures any agent can invoke when they need them. Nolan is the default executor for hiring, but any specialist running the procedure (e.g. when bootstrap mode re-engages and Nolan isn't available) follows the same steps.
 - **Co-owner for research step:** Pax
 - **Triggered by:** user request to hire, or Larry detecting a gap
-- **References:** [[GL-001-file-naming-conventions]], [[Team/agent-index]]
+- **References:** [[GL-001-file-naming-conventions]], [[Studio/Team/agent-index]]
 
 ## Pre-hired team
 
@@ -38,11 +38,11 @@ Using Pax's brief, pick:
 
 - **Name:** short, distinct, single word. From Pax's candidates or a variant. Avoid collisions with existing names.
 - **Role:** one short phrase. Example: "Frontend Developer" or "Email Marketer."
-- **Folder:** `Team/<Name> - <Role>/` (space, hyphen, space). Matches the pattern of the six pre-hired specialists.
+- **Folder:** `Studio/Team/<Name> - <Role>/` (space, hyphen, space). Matches the pattern of the six pre-hired specialists.
 
 ### 4. Draft the AGENTS.md (Nolan)
 
-Create `Team/<Name> - <Role>/AGENTS.md`. Translate Pax's research brief into a contract with these sections:
+Create `Studio/Team/<Name> - <Role>/AGENTS.md`. Translate Pax's research brief into a contract with these sections:
 
 - **Identity** - name, role, who they report to, operating principle (drawn from Pax's "what world-class does day to day").
 - **When Larry routes to them** - the cue patterns.
@@ -87,7 +87,7 @@ You are **<Name>, <Role> of myPKA**. <One-line operating principle.>
 
 ## On every invocation, in order
 
-1. Read `Team/<Name> - <Role>/AGENTS.md` — your full operating contract.
+1. Read `Studio/Team/<Name> - <Role>/AGENTS.md` — your full operating contract.
 2. Read `AGENTS.md` at the folder root for the identity overlay and hard rules.
 3. Read <relevant SOPs / Workstreams / Guidelines> when the task involves them.
 
@@ -108,7 +108,7 @@ Fresh context every invocation. Larry must hand you <list of inputs the role nee
 
 Rules (host-agnostic):
 
-- **Never paste the wiki contract into the shim.** The shim references the contract via path. Three layers (`Team/<Name>/AGENTS.md` + a per-folder host-pointer file + project-root host shim) violates SSOT. Two layers is the contract: wiki canonical, shim host-specific.
+- **Never paste the wiki contract into the shim.** The shim references the contract via path. Three layers (`Studio/Team/<Name>/AGENTS.md` + a per-folder host-pointer file + project-root host shim) violates SSOT. Two layers is the contract: wiki canonical, shim host-specific.
 - **The shim's `tools:` (or host equivalent) is minimal.** Penn doesn't need `Bash`. Pax mostly needs `WebFetch` / `WebSearch`. Trim to what the role actually uses.
 - **The shim's `description:` (or host equivalent) reads as routing instruction for Larry.** Lead with the role, then "Use proactively when…", then the owned SOP/Workstream.
 - **The shim's body is short.** ~30-50 lines. The contract carries the depth.
@@ -118,11 +118,11 @@ Use any existing shim (`.claude/agents/silas.md`, `.claude/agents/penn.md`, etc.
 
 ### 6. Add the row to agent-index (Nolan)
 
-Edit [[Team/agent-index]]. Add a row with the specialist's name, role, folder link, and the user input patterns that should route to them.
+Edit [[Studio/Team/agent-index]]. Add a row with the specialist's name, role, folder link, and the user input patterns that should route to them.
 
 ### 7. Update relevant Workstreams (Nolan)
 
-If the new specialist takes part in a recurring orchestration, edit the matching Workstream in `Team Knowledge/Workstreams/` to mention them via `[[wikilinks]]`. Do not duplicate the AGENTS.md content into the Workstream.
+If the new specialist takes part in a recurring orchestration, edit the matching Workstream in `Studio/Team Knowledge/Workstreams/` to mention them via `[[wikilinks]]`. Do not duplicate the AGENTS.md content into the Workstream.
 
 ### 8. Confirm with the user (Nolan -> Larry -> user)
 
@@ -130,7 +130,7 @@ Show the user the draft AGENTS.md, the draft `.claude/agents/<slug>.md` shim, an
 
 ### 9. Log the hire (Larry)
 
-Larry writes a line in the next session log: "Hired <Name> as <Role> after research from Pax. Brief at `[[<research-deliverable-slug>]]`. Contract at `[[Team/<Name> - <Role>/AGENTS]]`. Shim at `.claude/agents/<slug>.md`." This becomes part of the team's persistent memory.
+Larry writes a line in the next session log: "Hired <Name> as <Role> after research from Pax. Brief at `[[<research-deliverable-slug>]]`. Contract at `[[Studio/Team/<Name> - <Role>/AGENTS]]`. Shim at `.claude/agents/<slug>.md`." This becomes part of the team's persistent memory.
 
 ## Common mistakes to avoid
 
@@ -139,8 +139,8 @@ Larry writes a line in the next session log: "Hired <Name> as <Role> after resea
 - **Shipping the wiki contract without the matching host subagent shim(s).** The two artifacts go together for every activated host (Claude Code, Codex CLI, Gemini CLI). Without the shim, Larry can only role-play the new specialist — not dispatch them as a parallel subagent in that host.
 - **Treating this as a Claude-only setup.** The principle is host-agnostic. Only the shim path and frontmatter convention is host-specific.
 - **Pasting the wiki contract into the host shim.** The shim references the contract via path. Don't duplicate.
-- **Creating a per-host pointer file (`CLAUDE.md`, `GEMINI.md`, `AGENTS.md.codex`) inside `Team/<Name>/`.** Three layers violates SSOT. Two layers is the rule: wiki contract (host-agnostic) + shim (host-specific, project-root location).
+- **Creating a per-host pointer file (`CLAUDE.md`, `GEMINI.md`, `AGENTS.md.codex`) inside `Studio/Team/<Name>/`.** Three layers violates SSOT. Two layers is the rule: wiki contract (host-agnostic) + shim (host-specific, project-root location).
 - Duplicating naming rules inside the new AGENTS.md. Link to [[GL-001-file-naming-conventions]] instead.
 - Naming the folder with a different separator than other specialists. Always: space, hyphen, space.
-- Forgetting to add the row to [[Team/agent-index]]. Larry's routing will skip an unlisted specialist.
+- Forgetting to add the row to [[Studio/Team/agent-index]]. Larry's routing will skip an unlisted specialist.
 - Writing the AGENTS.md in the user's voice instead of as a contract. The file is for the LLM, not the reader.

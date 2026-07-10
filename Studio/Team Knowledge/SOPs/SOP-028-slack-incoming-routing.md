@@ -35,7 +35,7 @@ Open the inbound file. Read frontmatter and body. The body is the user's message
 
 ### 2. Decide routing
 
-Use Larry's standard routing cheatsheet (see `Team/Larry - Orchestrator/AGENTS.md` § Routing cheatsheet). Determine which specialist owns the response:
+Use Larry's standard routing cheatsheet (see `Studio/Team/Larry - Orchestrator/AGENTS.md` § Routing cheatsheet). Determine which specialist owns the response:
 
 - "capture this", "I just thought…" → Penn
 - Research / "what does X mean" → Pax
@@ -80,7 +80,7 @@ Move the inbound file from `Team Inbox/slack-incoming/<filename>.md` to `Team In
 
 ### 7. Session-log entry (light)
 
-If this was a non-trivial conversation (research, decision, multi-turn), add a brief mid-session-insight or end-of-session entry in `Team Knowledge/session-logs/YYYY/MM/`. For trivial chat (acknowledgements, scheduling), skip.
+If this was a non-trivial conversation (research, decision, multi-turn), add a brief mid-session-insight or end-of-session entry in `Studio/Team Knowledge/session-logs/YYYY/MM/`. For trivial chat (acknowledgements, scheduling), skip.
 
 ## Hard rules
 

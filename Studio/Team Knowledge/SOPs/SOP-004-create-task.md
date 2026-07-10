@@ -2,7 +2,7 @@
 
 - **Owner:** any agent
 - **Triggered by:** an agent or the user identifying a unit of work that won't finish this turn and should be picked up later
-- **Output:** a new file in `Team Knowledge/tasks/open/`
+- **Output:** a new file in `Studio/Team Knowledge/tasks/open/`
 - **References:** [[SOP-008-rebuild-task-index]], [[SOP-005-claim-task]], [[GL-001-file-naming-conventions]]
 
 ## Purpose
@@ -38,8 +38,8 @@ If those three are true, create a task. Otherwise just do it now.
 
 ```bash
 grep -ril "<keyword from title>" \
-  "Team Knowledge/tasks/open" \
-  "Team Knowledge/tasks/in-progress"
+  "Studio/Team Knowledge/tasks/open" \
+  "Studio/Team Knowledge/tasks/in-progress"
 ```
 
 If a task already exists, append an update line to its `## Updates` section instead of creating a duplicate. Done.
@@ -48,7 +48,7 @@ If a task already exists, append an update line to its `## Updates` section inst
 
 ```bash
 TODAY=$(date -u +%Y-%m-%d)
-NEXT=$(find "Team Knowledge/tasks" -name "tsk-${TODAY}-*.md" 2>/dev/null | wc -l | awk '{printf "%03d", $1+1}')
+NEXT=$(find "Studio/Team Knowledge/tasks" -name "tsk-${TODAY}-*.md" 2>/dev/null | wc -l | awk '{printf "%03d", $1+1}')
 ID="tsk-${TODAY}-${NEXT}"
 ```
 
@@ -67,9 +67,9 @@ Before writing the file, walk through the six reference types and decide what ap
 
 | Reference type | Ask yourself |
 |---|---|
-| `linked_sops` | Is there an existing procedure in `Team Knowledge/SOPs/` that governs this kind of work? List the basenames. |
-| `linked_workstreams` | Is there an active arc in `Team Knowledge/Workstreams/` that this fits inside? |
-| `linked_guidelines` | Are there standards in `Team Knowledge/Guidelines/` that constrain how this should be done? |
+| `linked_sops` | Is there an existing procedure in `Studio/Team Knowledge/SOPs/` that governs this kind of work? List the basenames. |
+| `linked_workstreams` | Is there an active arc in `Studio/Team Knowledge/Workstreams/` that this fits inside? |
+| `linked_guidelines` | Are there standards in `Studio/Team Knowledge/Guidelines/` that constrain how this should be done? |
 | `linked_my_life` | Is there a Topic / Habit / Goal / Project / Key Element in `PKM/My Life/` that gives Tom's context for why this is happening? |
 | `linked_session_logs` | Which session(s) birthed or touched this? At minimum, the session you're in right now. |
 | `linked_journal_entries` | Has the assignee (or anyone) written a journal entry that's relevant prior learning? Especially if the assignee is going to read this cold later. |
@@ -77,17 +77,17 @@ Before writing the file, walk through the six reference types and decide what ap
 For each, list basenames. Use grep when uncertain:
 
 ```bash
-ls "Team Knowledge/SOPs/" | grep -i <keyword>
-ls "Team Knowledge/Workstreams/"
-ls "Team Knowledge/Guidelines/"
+ls "Studio/Team Knowledge/SOPs/" | grep -i <keyword>
+ls "Studio/Team Knowledge/Workstreams/"
+ls "Studio/Team Knowledge/Guidelines/"
 find "PKM/My Life" -name "*.md" | grep -i <keyword>
-find "Team Knowledge/session-logs" -name "*.md" | tail -5
+find "Studio/Team Knowledge/session-logs" -name "*.md" | tail -5
 find "Team" -path "*/journal/*.md" | grep -i <keyword>
 ```
 
 ### 5. Write the file
 
-Copy `Team Knowledge/tasks/_template.md` to `Team Knowledge/tasks/open/${FILENAME}`. Fill in:
+Copy `Studio/Team Knowledge/tasks/_template.md` to `Studio/Team Knowledge/tasks/open/${FILENAME}`. Fill in:
 
 - All identity, ownership, status, time, provenance fields
 - All six `linked_*` arrays (use `[]` if genuinely none — but only after walking step 4)
@@ -140,7 +140,7 @@ Step 4 — Larry walks the cross-references:
 - `linked_session_logs` — `[2026-05-09-22-30_larry_video-launch-coordination]` (the session it surfaced in).
 - `linked_journal_entries` — `[]` (Mack hasn't written a webhook journal entry yet — this task may birth one).
 
-File written to `Team Knowledge/tasks/open/tsk-2026-05-09-001-mux-webhook-401.md`:
+File written to `Studio/Team Knowledge/tasks/open/tsk-2026-05-09-001-mux-webhook-401.md`:
 
 ```markdown
 ---

@@ -1,7 +1,7 @@
 Looking for a skill? Most capabilities in this myPKA are **Internal Skills**, not native Claude Code skills — they don't live here.
 
 Check first:
-- `Team Knowledge/SOPs/INDEX.md` — the procedure/how-to-use for every installed capability
+- `Studio/Team Knowledge/SOPs/INDEX.md` — the procedure/how-to-use for every installed capability
 - `Expansions/INDEX.md` — what's installed, source, version
 
 See the "Internal Skills" section of the root `AGENTS.md` for why (short version: one install works across every host — Claude Code, Codex, Cursor, Gemini CLI — instead of a separate native-skill install per tool).

@@ -4,7 +4,7 @@
 - **Default owner:** Pixel
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. Charta can invoke this SOP when a layout draft needs a stylized finish. Penn can invoke it to turn a captured idea into a hero image. Any specialist who needs to produce a styled visual (thumbnail, social image, hero illustration, quote card, multi-reference composite) follows this procedure.
 - **Triggered by:** "make me a thumbnail", "stylize this", "create a hero image", "design a quote card", "use these references and generate X", "make this look photographic / illustrated / painted", "the image-gen isn't available in my LLM, can we still do this".
-- **References:** [[GL-003-design-system]], [[GL-001-file-naming-conventions]], [[Team/Pixel - Visual Specialist/AGENTS]], [[Team/Mack - Automation Specialist/AGENTS]] (for the connection-half handoff), [[SOP-016-build-an-infographic]] (when stylizing on top of a Charta layout).
+- **References:** [[GL-003-design-system]], [[GL-001-file-naming-conventions]], [[Studio/Team/Pixel - Visual Specialist/AGENTS]], [[Studio/Team/Mack - Automation Specialist/AGENTS]] (for the connection-half handoff), [[SOP-016-build-an-infographic]] (when stylizing on top of a Charta layout).
 
 ## Purpose
 
@@ -152,7 +152,7 @@ Filename per [[GL-001-file-naming-conventions]]: kebab-case, no spaces, with dat
 
 ### Step 10 — Session-log entry
 
-Write `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
+Write `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
 
 - Subject and intent
 - Which path (A/B/C) was used; if B, which generator Mack wired up

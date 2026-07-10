@@ -17,8 +17,8 @@ zone: Studio
 | **Voice** (Hermes) | Judgment, craft, voice rules, learning. Points at source; owns no facts. | `Hermes/` |
 | **Signals** | AI-detected patterns and theses from the journal | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (MOVED 2026-07-09, Pilot A) |
 | **Analysis** | Studies of Alyssa's work — voice, hooks, frameworks, templates | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
-| **Team** | Contracts, SOPs, workstreams, guidelines, tasks, session logs | `Team/` + `Team Knowledge/` |
-| **Automations** | Scripts, bots, watchers, imports | `Team Knowledge/Automations/` + `Team Knowledge/scripts/` |
+| **Team** | Contracts, SOPs, workstreams, guidelines, tasks, session logs | `Studio/Team/` + `Studio/Team Knowledge/` — **MOVED 2026-07-10** from root `Team/` + `Team Knowledge/` |
+| **Automations** | Scripts, bots, watchers, imports | `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` — **MOVED 2026-07-10** |
 
 ## When to come here
 

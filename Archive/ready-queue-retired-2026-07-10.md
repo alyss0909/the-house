@@ -156,8 +156,8 @@ Develop the hook "you get what you get and you don't get upset" into a full emai
 - **4.** (numbering gap — item deleted before this audit; nothing to disposition)
 - **5. Silas Task: Wikilink Audit** → CLOSED as done — verified completed in [[Deliverables/2026-07-10-ready-queue-audit]] (37 links confirmed on disk across all 7 garden notes).
 - **6. Launch Carousel — Recreate** → DELETED — stale; carousel design now happens inside the Content OS production rungs.
-- **7. Launch Visual Palette** → TASK — converted to [[Team Knowledge/tasks/open/tsk-2026-07-10-004-launch-visual-palette]] (assignee alyssa; her intent needs re-briefing).
+- **7. Launch Visual Palette** → TASK — converted to [[Studio/Team Knowledge/tasks/open/tsk-2026-07-10-004-launch-visual-palette]] (assignee alyssa; her intent needs re-briefing).
 - **8. Hook: "You Get What You Get"** → IDEA BANK — appended to [[Studio/Content/idea-bank.md]] with source link, per Alyssa ("it's ready to move").
 - **Completed table above** → stays here as historical record.
 
-Live wiring (WS-004, WS-006, WS-008, WS-009, WS-010, SOP-013, GL-009, AGENTS.md, Hermes/SOURCES.md, signals-index, garden template) repointed to `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] the same day.
+Live wiring (WS-004, WS-006, WS-008, WS-009, WS-010, SOP-013, GL-009, AGENTS.md, Hermes/SOURCES.md, signals-index, garden template) repointed to `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] the same day.

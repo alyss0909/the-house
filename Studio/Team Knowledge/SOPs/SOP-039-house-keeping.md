@@ -26,7 +26,7 @@ Run each check. Fix mechanical hits immediately (fix-don't-flag). Log one line p
 
 **6. Studio desk hygiene.** No loose files at `Studio/` root — everything inside a desk. New work sits in a dated project folder at its desk, never a new top-level folder (the birthplace rule).
 
-**7. Task truth.** Skim `Team Knowledge/tasks/open/` — any task whose work is visibly done (deliverable exists, feature live) gets its status updated. Stale statuses are how trust died last time.
+**7. Task truth.** Skim `Studio/Team Knowledge/tasks/open/` — any task whose work is visibly done (deliverable exists, feature live) gets its status updated. Stale statuses are how trust died last time.
 
 **8. Capture pulse.** Confirm the automations left fresh footprints this week: newest file timestamp in the Telegram write target, and the scheduled tasks still enabled (`Get-ScheduledTask` on the known names). A silently-dead automation loses days of capture.
 

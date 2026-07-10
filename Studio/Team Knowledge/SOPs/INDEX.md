@@ -11,14 +11,14 @@ Filename pattern: `SOP-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] f
 | SOP-001 | [[SOP-001-how-to-add-a-new-specialist]] | Nolan | Step-by-step procedure to draft and onboard a new team specialist. References [[GL-001-file-naming-conventions]]. |
 | SOP-002 | [[SOP-002-convert-mypka-to-sqlite]] | Silas (run by the user via paste-into-LLM prompt) | Generate a SQLite mirror of your myPKA on demand. Markdown stays canonical; SQLite is a derived performance layer. Body is a paste-into-LLM prompt. |
 | SOP-003 | [[SOP-003-keep-notes-to-journal]] | Penn (filing), Larry (triage + image cleanup) | Convert Google Keep exports from Notebook/Inbox into properly formatted PKM journal entries. Covers frontmatter stripping, image sweep, routing, and KeepSidian log cleanup. |
-| SOP-004 | [[SOP-004-create-task]] | Any agent | Create a new task file in `Team Knowledge/tasks/open/` with all six linked arrays populated. |
+| SOP-004 | [[SOP-004-create-task]] | Any agent | Create a new task file in `Studio/Team Knowledge/tasks/open/` with all six linked arrays populated. |
 | SOP-005 | [[SOP-005-claim-task]] | Any agent | Claim an existing open task — add the claiming agent and timestamp, move to in-progress state. |
 | SOP-006 | [[SOP-006-close-task]] | Any agent | Close a completed task — write the Outcome, optionally write a journal entry, move file to `closed/`. |
-| SOP-007 | [[SOP-007-list-open-tasks]] | Any agent | List all open tasks in `Team Knowledge/tasks/open/` with summary status. |
-| SOP-008 | [[SOP-008-rebuild-task-index]] | Larry | Regenerate `Team Knowledge/tasks/INDEX.md` from the open and closed task files. |
-| SOP-009 | [[SOP-009-write-journal-entry]] | Penn | Write a durable journal entry under `Team/<agent>/journal/` capturing a learning or insight. |
+| SOP-007 | [[SOP-007-list-open-tasks]] | Any agent | List all open tasks in `Studio/Team Knowledge/tasks/open/` with summary status. |
+| SOP-008 | [[SOP-008-rebuild-task-index]] | Larry | Regenerate `Studio/Team Knowledge/tasks/INDEX.md` from the open and closed task files. |
+| SOP-009 | [[SOP-009-write-journal-entry]] | Penn | Write a durable journal entry under `Studio/Team/<agent>/journal/` capturing a learning or insight. |
 | SOP-010 | [[SOP-010-read-own-journal]] | Any agent | Read an agent's own journal entries before starting a task, to carry forward prior learnings. |
-| SOP-011 | [[SOP-011-write-session-log]] | Larry | Write an end-of-session log entry under `Team Knowledge/session-logs/YYYY/MM/`. |
+| SOP-011 | [[SOP-011-write-session-log]] | Larry | Write an end-of-session log entry under `Studio/Team Knowledge/session-logs/YYYY/MM/`. |
 | SOP-012 | [[SOP-012-codex-windows-sandbox-recovery]] | Mack (runtime/automation), Larry (triage + session continuity) | Restore Codex Desktop local command execution on Windows after sandbox setup refresh failures, corrupted deny-read ACL state, or broken node_repl startup. |
 | SOP-013 | [[SOP-013-semantic-sweep]] | Larry | Periodic semantic sweep of journal entries — clusters recurring themes, updates Signals Index, flags Goal alignment/gaps/tensions. Runs automatically during weekly, monthly, and quarterly reviews. |
 | SOP-014 | [[SOP-014-author-a-design-system]] | Iris | Guided session to populate GL-003 — identity, color palette, typography, spacing scale, imagery style, voice samples. Installed with Designer Pack v1.1.1. |

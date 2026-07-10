@@ -16,7 +16,7 @@ Pick the template for the entity you are creating. Copy it to the right folder u
 Example, from your myPKA root:
 
 ```bash
-cp "Team Knowledge/Templates/person.md" "Notebook/Life/CRM/People/jane-doe.md"
+cp "Studio/Team Knowledge/Templates/person.md" "Notebook/Life/CRM/People/jane-doe.md"
 ```
 
 Then open the new file and edit. The Properties tab in mypka-interface will populate as soon as you save the file with frontmatter that has values.

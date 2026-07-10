@@ -25,5 +25,5 @@ Give every agent a single, discoverable entry point for "use the ponytail skill"
 
 | Symptom | Cause | Resolution |
 |---|---|---|
-| "I don't know what ponytail means" | Fresh agent instance never read this SOP or GL-008 | Check `Team Knowledge/SOPs/INDEX.md` per the Internal Skills rule in root `AGENTS.md` before assuming a capability doesn't exist. |
+| "I don't know what ponytail means" | Fresh agent instance never read this SOP or GL-008 | Check `Studio/Team Knowledge/SOPs/INDEX.md` per the Internal Skills rule in root `AGENTS.md` before assuming a capability doesn't exist. |
 | Ladder applied but validation/security got cut too | Guardrail section skipped | Re-read GL-008 §"NOT lazy about" — lazy applies to complexity, never to correctness or safety. |

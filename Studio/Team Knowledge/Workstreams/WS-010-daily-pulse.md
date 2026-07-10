@@ -19,7 +19,7 @@ The goal is to keep her connected to her developing ideas without requiring a si
 
 1. **Thesis draft awaiting Alyssa's reaction** — if any developing idea has `thesis-ready` status and the thesis draft hasn't been edited by Alyssa in 7+ days, this is the #1 thing to surface. One quote from the draft, the garden note link, and "what do you think?"
 
-2. **Top open content task** — check `Team Knowledge/tasks/open/`; if a specialist is waiting on anything before they can start, surface it. "Hermes is ready to start [X]. He just needs [Y]." Make the ask specific and answerable in one sentence.
+2. **Top open content task** — check `Studio/Team Knowledge/tasks/open/`; if a specialist is waiting on anything before they can start, surface it. "Hermes is ready to start [X]. He just needs [Y]." Make the ask specific and answerable in one sentence.
 
 3. **Signal that jumped this week** — if a signal crossed a threshold in the latest sweep (new recurrence, new thesis draft, new connection discovered), surface it. "I noticed something in your entries this week — [signal] came up again. It's now at [count]. Here's the pattern."
 
@@ -72,6 +72,6 @@ The daily pulse IS the system being proactive. It's 150 Alyssas looking at what 
 ## Cross-references
 
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — primary source for what to pulse
-- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — secondary sources (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
+- `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — secondary sources (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Studio/Signals/signals-index.md]] — signal jump detection
-- [[Team Knowledge/Workstreams/WS-006-weekly-review.md]] — weekly review synthesizes what the daily pulses revealed
+- [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review.md]] — weekly review synthesizes what the daily pulses revealed

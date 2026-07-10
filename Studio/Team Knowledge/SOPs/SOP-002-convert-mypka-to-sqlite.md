@@ -3,7 +3,7 @@
 - **Default owner:** Silas (the user runs the procedure with any code-capable LLM as the executor; Silas owns the pre-flight audit and the migration report)
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. SOPs are procedures any agent can invoke when they need them.
 - **Triggered by:** the user decides their markdown myPKA has outgrown plain files and wants a SQLite mirror for structured queries, analytics, or LLM-side performance.
-- **References:** [[GL-001-file-naming-conventions]], [[Team Knowledge/INDEX]]
+- **References:** [[GL-001-file-naming-conventions]], [[Studio/Team Knowledge/INDEX]]
 
 ## Purpose
 
@@ -32,7 +32,7 @@ If none of these apply, stay on markdown. SQLite is overhead you do not need yet
 
 1. `mypka_to_sqlite.py` at your myPKA root - the migration script. (Filename retained for backward compatibility with prior versions; the script targets your myPKA folder.)
 2. `mypka.db` next to it - the generated database.
-3. A migration report at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-mypka-to-sqlite.md` with row counts, parsing failures, and unresolved wikilinks.
+3. A migration report at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-mypka-to-sqlite.md` with row counts, parsing failures, and unresolved wikilinks.
 
 The reverse direction (SQLite -> markdown) is reserved for a future SOP. For now, treat the markdown myPKA as canonical and the SQLite as a snapshot you can regenerate.
 
@@ -47,7 +47,7 @@ You are migrating a markdown-only Personal Knowledge Architecture (myPKA) folder
 - **myPKA root:** ask the user for the absolute path. Default to the current working directory if they do not specify.
 - **Engine:** Obsidian-flavoured markdown. Cross-references are `[[wikilinks]]`. Embeds are `![[path]]`.
 - **Source of truth for each note:** YAML frontmatter on the file plus the structured folder path.
-- **Naming convention:** kebab-case slugs, `YYYY-MM-DD-` prefix on date-driven files. See `Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`.
+- **Naming convention:** kebab-case slugs, `YYYY-MM-DD-` prefix on date-driven files. See `Studio/Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`.
 
 ## Folder map
 
@@ -201,7 +201,7 @@ Deliver three things:
 
 1. The script itself (`mypka_to_sqlite.py`), saved at your myPKA root.
 2. The generated `mypka.db` next to it.
-3. A migration report at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-mypka-to-sqlite.md` with:
+3. A migration report at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-mypka-to-sqlite.md` with:
    - Row counts per table.
    - Any files that failed to parse (path + reason).
    - Any wikilinks that did not resolve to an existing slug.

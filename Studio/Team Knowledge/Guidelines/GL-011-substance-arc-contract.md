@@ -94,7 +94,7 @@ Both open rates are real-range: 45% is squarely inside her 40–57% engaged band
 
 ## Cross-references
 
-- Owner contract: [[Team/Cassius - Substance Specialist/AGENTS]]
+- Owner contract: [[Studio/Team/Cassius - Substance Specialist/AGENTS]]
 - Surrounding judgment: [[GL-010-content-pitch-operating-brain]]
 - Process: [[WS-011-weekly-carousel-pitch]] (Step 3)
 - Taste law (the ruling): `Studio/Content/taste-ledger.md`

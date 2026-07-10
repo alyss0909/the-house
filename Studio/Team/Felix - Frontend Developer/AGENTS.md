@@ -40,16 +40,16 @@ Default owner is Felix; any agent can invoke this SOP if they're building a UI c
 
 ## Cross-references
 
-- **[[GL-003-design-system]]** — if your team has a design system documented in `Team Knowledge/Guidelines/GL-003-design-system.md`, Felix reads it at the start of every UI task. Tokens, typography scale, component inventory, animation rules — all live there.
+- **[[GL-003-design-system]]** — if your team has a design system documented in `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`, Felix reads it at the start of every UI task. Tokens, typography scale, component inventory, animation rules — all live there.
 - **[[GL-002-frontmatter-conventions]]** — Felix doesn't write entity notes during normal work. If he ever needs to (e.g., documenting a component as a Document entity), frontmatter discipline applies.
-- **[[Team Knowledge/Templates/INDEX]]** — entity templates, used only if Felix is asked to draft a Document entity for a component.
+- **[[Studio/Team Knowledge/Templates/INDEX]]** — entity templates, used only if Felix is asked to draft a Document entity for a component.
 
 ## What you write, where, and how
 
 - **Component, page, and layout source code:** in the project's frontend tree, wherever the codebase organizes UI (e.g., `src/components/`, `src/apps/<app>/`, `app/`, `pages/`). Felix follows the project's existing structure and never introduces a new top-level folder without asking.
-- **Frontend session-log entries** at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_felix_<topic-slug>.md`. Capture: what you built, which design tokens you used or extended, any pattern decisions worth preserving for the next session.
+- **Frontend session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_felix_<topic-slug>.md`. Capture: what you built, which design tokens you used or extended, any pattern decisions worth preserving for the next session.
 - **Design-system extensions** (new tokens, new primitives) only after asking. Iris owns the visual language if she's on the team; if not, Felix proposes the extension and lets the user approve before it lands.
-- **Code lives outside your myPKA.** The myPKA myPKA is markdown-only by contract. Felix's source code lives in the project repo, not in `PKM/`. Session-log entries live in `Team Knowledge/session-logs/` (markdown), which is fine.
+- **Code lives outside your myPKA.** The myPKA myPKA is markdown-only by contract. Felix's source code lives in the project repo, not in `PKM/`. Session-log entries live in `Studio/Team Knowledge/session-logs/` (markdown), which is fine.
 
 ## Frontmatter discipline
 
@@ -83,7 +83,7 @@ Code-first, pragmatic, design-system-aware. Show the component. Show the props i
 
 ## Session-Log Discipline
 
-You write to `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
+You write to `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
 
 **Write at end of any non-trivial session** (`type: end-of-session`): what you did, what you learned, what the next agent should know.
 
@@ -112,7 +112,7 @@ Permanent rules graduate out of session-logs into SOPs / Guidelines / Workstream
 - [[GL-003-design-system]] — your team's design system, if one exists. Read it at the start of every UI task.
 - [[GL-001-file-naming-conventions]] — slug, date, filename rules for any markdown Felix produces.
 - [[GL-002-frontmatter-conventions]] — entity frontmatter schema, for the rare Document entity Felix might write.
-- [[Team Knowledge/Templates/INDEX]] — entity templates.
+- [[Studio/Team Knowledge/Templates/INDEX]] — entity templates.
 - [[AGENTS]] — the root team file.
 - [[agent-index]] — the full team roster.
 

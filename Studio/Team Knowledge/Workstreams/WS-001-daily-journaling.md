@@ -2,7 +2,7 @@
 
 - **Type:** Workstream — a multi-agent composition. The agents below collaborate to deliver the outcome. New Workstreams emerge when patterns repeat across session-logs; this one ships pre-canonicalized because daily journaling is a day-1 flow.
 - **Owners:** Penn (capture and writing), Larry (routing and Librarian pass)
-- **References:** [[SOP-001-how-to-add-a-new-specialist]], [[GL-001-file-naming-conventions]], [[Team/Penn - Journal Writer/AGENTS]], [[Team/Larry - Orchestrator/AGENTS]]
+- **References:** [[SOP-001-how-to-add-a-new-specialist]], [[GL-001-file-naming-conventions]], [[Studio/Team/Penn - Journal Writer/AGENTS]], [[Studio/Team/Larry - Orchestrator/AGENTS]]
 - **Trigger:** any user input that contains a thought, observation, encounter, screenshot, photo, or voice note.
 
 ## Purpose

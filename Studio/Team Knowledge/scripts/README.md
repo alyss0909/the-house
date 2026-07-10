@@ -54,7 +54,7 @@ It **skips**:
 - files that already have YAML frontmatter (no double-write)
 - `INDEX.md`, `README.md`, `_template.md` files
 - folders outside the eight entity folders above (e.g. `PKM/Journal/`,
-  `PKM/Images/`, anything under `Team Knowledge/`)
+  `PKM/Images/`, anything under `Studio/Team Knowledge/`)
 
 ### How to run it
 
@@ -63,21 +63,21 @@ touch your files until you pass `--apply`.
 
 ```bash
 # 1. Preview what would change (safe; reads only)
-python3 "Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" .
+python3 "Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" .
 
 # 2. Apply the rewrites (originals are saved as `<file>.bak`)
-python3 "Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . --apply
+python3 "Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . --apply
 
 # 3. (optional) Limit to one entity folder
-python3 "Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . \
+python3 "Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . \
     --only "PKM/CRM/People"
 
 # 4. (optional) Quieter preview (summary only, no diffs)
-python3 "Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . --quiet
+python3 "Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py" . --quiet
 ```
 
 The first positional argument is your **myPKA root** — the folder that
-contains `PKM/`, `Team Knowledge/`, etc. Run from your myPKA and pass `.`,
+contains `PKM/`, `Studio/Team Knowledge/`, etc. Run from your myPKA and pass `.`,
 or pass an absolute path from anywhere.
 
 ### Requirements
@@ -100,7 +100,7 @@ or pass an absolute path from anywhere.
 ### When to delete this script
 
 Once you've run it on your myPKA and you're satisfied with the result, you
-can safely delete `Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py`
+can safely delete `Studio/Team Knowledge/scripts/migrate-inline-fields-to-frontmatter.py`
 and this README. They serve no day-to-day purpose; the canonical authority
 for frontmatter shape going forward is `Guidelines/GL-002-frontmatter-conventions.md`
 and `Templates/`.
@@ -141,13 +141,13 @@ checkmarks, or emoji. For example, the broken codepoint run
 Dry-run first:
 
 ```bash
-python3 "Team Knowledge/scripts/repair-mojibake.py" .
+python3 "Studio/Team Knowledge/scripts/repair-mojibake.py" .
 ```
 
 Apply the repair:
 
 ```bash
-python3 "Team Knowledge/scripts/repair-mojibake.py" . --apply
+python3 "Studio/Team Knowledge/scripts/repair-mojibake.py" . --apply
 ```
 
 ### Prevention rule

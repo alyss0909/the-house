@@ -123,7 +123,7 @@ Keep it short. Not a transcript. Not a summary essay.
 ## Cross-references
 
 - [[GL-001-file-naming-conventions]] — slug and file rules
-- [[Team/agent-index]] — routing table
+- [[Studio/Team/agent-index]] — routing table
 - [[Deliverables/2026-05-27-remi-pkm-thinking-partner-hire-research]] — Pax's hire research brief
 
 

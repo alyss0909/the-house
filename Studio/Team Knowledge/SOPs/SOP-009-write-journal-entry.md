@@ -2,7 +2,7 @@
 
 - **Owner:** any specialist agent (each agent owns their own `journal/`)
 - **Triggered by:** an insight that will apply to future sessions, not just this one
-- **Output:** a new file in `Team/<Name> - <Role>/journal/`
+- **Output:** a new file in `Studio/Team/<Name> - <Role>/journal/`
 - **References:** [[SOP-010-read-own-journal]], [[SOP-011-write-session-log]]
 
 ## Purpose
@@ -20,12 +20,12 @@ A topical, durable note. First-person. Opinionated. Examples:
 
 ## What a journal entry is NOT
 
-- A session log (chronological, ephemeral, lives in `Team Knowledge/session-logs/`).
-- A task (work to do, lives in `Team Knowledge/tasks/`).
-- A Guideline (team-wide reference; lives in `Team Knowledge/Guidelines/`).
+- A session log (chronological, ephemeral, lives in `Studio/Team Knowledge/session-logs/`).
+- A task (work to do, lives in `Studio/Team Knowledge/tasks/`).
+- A Guideline (team-wide reference; lives in `Studio/Team Knowledge/Guidelines/`).
 - A daily diary. Don't write one a day for the sake of it.
 
-If the insight applies team-wide and is permanent, it belongs in `Team Knowledge/Guidelines/` as a `GL-xxx.md`. Journals are agent-scoped. Guidelines are team-scoped.
+If the insight applies team-wide and is permanent, it belongs in `Studio/Team Knowledge/Guidelines/` as a `GL-xxx.md`. Journals are agent-scoped. Guidelines are team-scoped.
 
 ## When to write
 
@@ -119,7 +119,7 @@ Tags should be functionally distinct, not synonyms. `tauri` and `tauri-v2` is fi
 
 Knox, after shipping v0.4.2:
 
-File: `Team/Knox - Cross-Platform Native Developer/journal/2026-05-09-tauri-appimage-vs-deb.md`
+File: `Studio/Team/Knox - Cross-Platform Native Developer/journal/2026-05-09-tauri-appimage-vs-deb.md`
 
 ```markdown
 ---

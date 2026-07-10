@@ -4,7 +4,7 @@
 - **Default owner:** Iris
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. Any specialist can run this procedure when the user asks to set up or extend their visual identity. In practice Iris runs it, but if the team grows and another design-flavored agent gets hired, they can invoke this SOP without re-deriving the procedure.
 - **Triggered by:** "set up my design system", "let's pin my brand", "what colors / fonts / spacing should I use", "I want to add a new accent / type role / token", first creative request when [[GL-003-design-system]] is empty.
-- **References:** [[GL-003-design-system]] (the artifact this SOP populates), [[GL-001-file-naming-conventions]], [[Team/Iris - Design System Architect/AGENTS]], [[SOP-015-audit-content-for-design-system-compliance]] (the companion audit skill).
+- **References:** [[GL-003-design-system]] (the artifact this SOP populates), [[GL-001-file-naming-conventions]], [[Studio/Team/Iris - Design System Architect/AGENTS]], [[SOP-015-audit-content-for-design-system-compliance]] (the companion audit skill).
 
 ## Purpose
 
@@ -36,7 +36,7 @@ If the user explicitly chooses to skip GL-003 setup ("let's just hack it togethe
 
 ### Step 1 — Open or create GL-003
 
-Path: `Team Knowledge/Guidelines/GL-003-design-system.md`. The file ships as an empty template.
+Path: `Studio/Team Knowledge/Guidelines/GL-003-design-system.md`. The file ships as an empty template.
 
 Read it through with the user. Confirm which sections are still empty vs. already populated. The session focuses on the empty (or to-be-changed) sections.
 
@@ -122,7 +122,7 @@ Tell the user (and Larry):
 
 ### Step 10 — Session-log entry
 
-Write `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
+Write `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
 
 - Which sections were populated this session
 - The user's specific choices and the reasoning they gave

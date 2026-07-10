@@ -17,13 +17,13 @@ Default: the current calendar month.
 
 Override: `--month YYYY-MM`
 
-Output destination: `Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md`
+Output destination: `Studio/Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md`
 
 If the destination file already exists, ask Alyssa whether to overwrite or append.
 
 ## Step 1 - Collect weekly wraps
 
-Glob all `.md` files in `Team Knowledge/Weekly Reviews/YYYY/` whose `week:` frontmatter falls within the target month. A week that straddles two months (e.g. W22 = May 25 – May 31) is included in the month that holds the majority of its days.
+Glob all `.md` files in `Studio/Team Knowledge/Weekly Reviews/YYYY/` whose `week:` frontmatter falls within the target month. A week that straddles two months (e.g. W22 = May 25 – May 31) is included in the month that holds the majority of its days.
 
 Note the count of weekly wraps found — this goes into `weekly_wrap_count`.
 
@@ -60,7 +60,7 @@ Any insight that appears in ≥2 weekly wraps, or that has clearly become standa
 
 ## Step 5 - Write the monthly wrap
 
-Write to `Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` following the template at [[Team Knowledge/Monthly Reviews/_template.md]].
+Write to `Studio/Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` following the template at [[Studio/Team Knowledge/Monthly Reviews/_template.md]].
 
 Set frontmatter: `month`, `weeks_covered` (list of WNN slugs), `weekly_wrap_count`.
 

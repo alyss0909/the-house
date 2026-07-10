@@ -12,7 +12,7 @@ This command is a Claude Code convenience wrapper. The canonical protocol lives 
 
 1. **Sweep open items.** Larry reviews everything worked on this session. Identify any unresolved threads, open tasks, or pending decisions. List them in the session log under "Open threads."
 
-2. **Write the session log.** Larry writes a new file at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<slug>.md` following the schema in `Team Knowledge/session-logs/_template.md`. The slug is derived from the session's main theme (kebab-case). If the `YYYY/` or `YYYY/MM/` folder does not exist, Larry creates it first. The log must include:
+2. **Write the session log.** Larry writes a new file at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<slug>.md` following the schema in `Studio/Team Knowledge/session-logs/_template.md`. The slug is derived from the session's main theme (kebab-case). If the `YYYY/` or `YYYY/MM/` folder does not exist, Larry creates it first. The log must include:
    - Context (what the session was about)
    - What we did (bulleted, specialist-attributed)
    - Decisions made
@@ -32,6 +32,6 @@ This command is a Claude Code convenience wrapper. The canonical protocol lives 
 
 5. **Graduate insights (optional).** If any insight captured during the session has reached "this is now a permanent rule" status, propose graduating it from the session log into an SOP, Guideline, or Workstream. Ask the user before writing.
 
-6. **Weekly review nudge.** Check whether a weekly wrap exists for the current ISO week at `Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`. If no wrap exists and today is ≥5 days into the current ISO week (Thursday, Friday, Saturday, or Sunday), append one line to the sign-off: `Weekly review pending for week WNN — run /weekly-review to wrap the week.`
+6. **Weekly review nudge.** Check whether a weekly wrap exists for the current ISO week at `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`. If no wrap exists and today is ≥5 days into the current ISO week (Thursday, Friday, Saturday, or Sunday), append one line to the sign-off: `Weekly review pending for week WNN — run /weekly-review to wrap the week.`
 
 7. **Sign off.** Confirm the session log path, list any structural fixes made, and name any open threads the next session should pick up first.

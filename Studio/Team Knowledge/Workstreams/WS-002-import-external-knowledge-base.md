@@ -3,7 +3,7 @@
 - **Status:** Active (since v1.4.0)
 - **Type:** Workstream — a multi-agent composition. The agents below collaborate to deliver the outcome. New Workstreams emerge when patterns repeat across session-logs; this one ships pre-canonicalized because the import flow needs the connection-half (Mack) and the content-shape (Silas) split working out of the box.
 - **Owners:** **Silas (pre-hired)** is the primary executor — runs §2 onward (clarifying questions, inventory, plan, entity creation, wikilink normalization, session-log entry). **Mack (pre-hired)** runs the §1 connection layer when the source is reachable only via OAuth/API/MCP — fetches the bytes, lands them at a path, hands off to Silas. **Pax** for unfamiliar source formats that need research before the import plan is drafted.
-- **References:** [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[SOP-002-convert-mypka-to-sqlite]], [[WS-001-daily-journaling]], [[Team Knowledge/Templates/INDEX]]
+- **References:** [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[SOP-002-convert-mypka-to-sqlite]], [[WS-001-daily-journaling]], [[Studio/Team Knowledge/Templates/INDEX]]
 - **Triggered by:** any user phrasing that signals "bring my old notes from another tool into this myPKA." Trigger phrase contract is defined in the root `AGENTS.md` under **External Knowledge Import Triggers (LLM-agnostic)**. This Workstream is the canonical procedure those triggers run.
 
 ## Purpose
@@ -112,7 +112,7 @@ User approves → proceed to Step 5. User asks for changes → loop back to Step
 
 For each entity discovered, the LLM:
 
-1. Loads the matching template from `Team Knowledge/Templates/<type>.md`.
+1. Loads the matching template from `Studio/Team Knowledge/Templates/<type>.md`.
 2. Populates frontmatter per [[GL-002-frontmatter-conventions]]. Source-side fields the schema doesn't accept go either to the body under a `## Notes from import` section or are dropped per the user's frontmatter answer in Step 2.
 3. Generates the slug per [[GL-001-file-naming-conventions]] (kebab-case, ASCII, no special chars).
 4. Writes to the destination per the mapping table in §6. Auto-creates `YYYY/MM/` folders as needed (same rule as [[WS-001-daily-journaling]]).
@@ -132,7 +132,7 @@ Idempotency: this step must be safe to re-run. The LLM tracks which notes it has
 
 ### Step 7 — Import session-log entry
 
-Write a session-log entry of type `proactive` under `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent>_external-knowledge-import.md`. The body must capture, at minimum:
+Write a session-log entry of type `proactive` under `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent>_external-knowledge-import.md`. The body must capture, at minimum:
 
 - **Source:** tool name, path / endpoint / MCP server, size summary.
 - **Decisions:** the user's answers to all eight clarifying questions.
@@ -154,14 +154,14 @@ This is the canonical map. Every concrete source format collapses into this set 
 | Source concept | myPKA destination | Notes |
 |---|---|---|
 | daily note / journal entry / diary | `Notebook/Journal/YYYY/MM/YYYY-MM-DD.md` (or `YYYY-MM-DD-<slug>.md` if the source has a per-day theme) | Apply the daily-note frontmatter shape used by [[WS-001-daily-journaling]]. If multiple entries exist for the same date, append as new sections in chronological order. |
-| person / contact / human | `Notebook/Life/CRM/People/<slug>.md` | Use `Team Knowledge/Templates/person.md`. Required fields per [[GL-002-frontmatter-conventions]] §5. |
-| company / institution / venue | `Notebook/Life/CRM/Organizations/<slug>.md` | Use `Team Knowledge/Templates/organization.md`. Cross-link to People who work there. |
-| project / time-bound effort with a finish line | `Notebook/Life/Projects/<slug>.md` | Use `Team Knowledge/Templates/project.md`. |
-| goal / objective / OKR / aspiration with a horizon | `Notebook/Life/Goals/<slug>.md` | Use `Team Knowledge/Templates/goal.md`. Goals link upward to a Key Element. |
-| habit / routine / rhythm with a cadence | `Notebook/Life/Habits/<slug>.md` | Use `Team Knowledge/Templates/habit.md`. |
-| topic / area / category / interest | `Notebook/Life/Topics/<slug>.md` | Use `Team Knowledge/Templates/topic.md`. Stable categories of attention, not projects. |
-| MOC / index / hub / area-of-life / dimension | `Notebook/Life/Key Elements/<slug>.md` | Use `Team Knowledge/Templates/key-element.md`. Key Elements are dimensions (Health, Family, Career), not goals. |
-| reference document / file-record / passport / contract / certificate | `PKM/Documents/<slug>.md` | Use `Team Knowledge/Templates/document.md`. |
+| person / contact / human | `Notebook/Life/CRM/People/<slug>.md` | Use `Studio/Team Knowledge/Templates/person.md`. Required fields per [[GL-002-frontmatter-conventions]] §5. |
+| company / institution / venue | `Notebook/Life/CRM/Organizations/<slug>.md` | Use `Studio/Team Knowledge/Templates/organization.md`. Cross-link to People who work there. |
+| project / time-bound effort with a finish line | `Notebook/Life/Projects/<slug>.md` | Use `Studio/Team Knowledge/Templates/project.md`. |
+| goal / objective / OKR / aspiration with a horizon | `Notebook/Life/Goals/<slug>.md` | Use `Studio/Team Knowledge/Templates/goal.md`. Goals link upward to a Key Element. |
+| habit / routine / rhythm with a cadence | `Notebook/Life/Habits/<slug>.md` | Use `Studio/Team Knowledge/Templates/habit.md`. |
+| topic / area / category / interest | `Notebook/Life/Topics/<slug>.md` | Use `Studio/Team Knowledge/Templates/topic.md`. Stable categories of attention, not projects. |
+| MOC / index / hub / area-of-life / dimension | `Notebook/Life/Key Elements/<slug>.md` | Use `Studio/Team Knowledge/Templates/key-element.md`. Key Elements are dimensions (Health, Family, Career), not goals. |
+| reference document / file-record / passport / contract / certificate | `PKM/Documents/<slug>.md` | Use `Studio/Team Knowledge/Templates/document.md`. |
 | arbitrary note that doesn't fit the seven concept types above | `PKM/Documents/<slug>.md` | Same destination as references — Document is the catch-all for "this is content, but it isn't a Person/Org/Project/Goal/Habit/Topic/Key Element". Flag to the user during planning. |
 | backlinks / wikilinks (`[[Title]]`, `((uid))`, `@mention`) | normalize to `[[<kebab-case-slug>]]` form | Slug rules per [[GL-001-file-naming-conventions]]. Roam-style block refs (`((uid))`) lose their granularity — they become a link to the parent page note. The LLM warns the user about this lossy step. |
 | tags (`#tag`, `tag::value`, `tags: [...]`) | YAML `tags: [...]` array | Per [[GL-002-frontmatter-conventions]]. Hierarchical tags (`#parent/child`) flatten unless the user picked the "tags-to-Topics" option in Step 2. |
@@ -188,7 +188,7 @@ Default if the user is unsure: **B**. Markdown stays accessible. SOP-002 can alw
 ## Edge cases / known gotchas
 
 - **Duplicate detection.** When the source has the same person/org listed multiple times under different titles ("Jane Doe" and "Jane M. Doe"), the LLM uses content-hash + email/phone match where available to flag duplicates during the plan step (§4). It never auto-merges. The user picks the canonical record.
-- **Encoding.** UTF-8 is expected. If the source is UTF-16 or Latin-1 (common with old Apple Notes / Evernote dumps), the LLM transcodes on read, never on write. Vault writes are always UTF-8 + LF. After any batch write, run `Team Knowledge/scripts/repair-mojibake.py` in dry-run mode; if it reports files, apply the repair and rerun the scan before final handoff.
+- **Encoding.** UTF-8 is expected. If the source is UTF-16 or Latin-1 (common with old Apple Notes / Evernote dumps), the LLM transcodes on read, never on write. Vault writes are always UTF-8 + LF. After any batch write, run `Studio/Team Knowledge/scripts/repair-mojibake.py` in dry-run mode; if it reports files, apply the repair and rerun the scan before final handoff.
 - **Enormous attachments.** Files over ~25 MB are flagged in the plan, not auto-copied. The user picks: copy anyway, leave-by-reference, or skip with a body note pointing at the original location.
 - **Password-protected blocks.** Notion's "locked" pages, encrypted Heptabase cards, password-protected Apple Notes — the LLM cannot read these. They get a body note: "Password-protected in source; not imported. Source path: `<path>`." and an entry in the session-log's "didn't import" section.
 - **Partial failures.** If a write fails mid-batch (disk full, permission denied, OS interrupt), the LLM stops, reports the last-good file, and writes a partial-import session-log. Re-running the Workstream is idempotent — already-written files are detected by slug and skipped per the user's conflict policy.
@@ -206,7 +206,7 @@ The Workstream is complete when **all** of these are true:
 3. Slugs match [[GL-001-file-naming-conventions]] (kebab-case, ASCII, no collisions in the same folder).
 4. Wikilink rewrite pass produced zero broken links **except** the explicitly-logged orphans list. Orphans are surfaced to the user, not silently created as stubs.
 5. Every relevant `INDEX.md` lists the new entries.
-6. The import session-log exists at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent>_external-knowledge-import.md` and contains all eight sections from Step 7.
+6. The import session-log exists at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent>_external-knowledge-import.md` and contains all eight sections from Step 7.
 7. Larry's Librarian pass at session close (per [[WS-001-daily-journaling]] §5) finds no new SSOT violations.
 
 ## Trigger phrases

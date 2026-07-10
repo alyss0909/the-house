@@ -32,8 +32,8 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
 | Studio/Analysis | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |
 | Studio/Voice (Hermes station) | `Hermes/` |
-| Studio/Team | `Team/` + `Team Knowledge/` |
-| Studio/Automations | `Team Knowledge/Automations/` + `Team Knowledge/scripts/` |
+| Studio/Team | **MOVED 2026-07-10** → `Studio/Team/` + `Studio/Team Knowledge/` (Bring It Home restructure) |
+| Studio/Automations | **MOVED 2026-07-10** → `Studio/Team Knowledge/Automations/` + `Studio/Team Knowledge/scripts/` |
 | Library/Offers | `PKM/My Life/Offers/` (facts) + `PKM/Second Brain/programs/` (curriculum) + related sales pages/emails in `examples/` |
 | Library/Second Brain | `PKM/Second Brain/examples/` |
 | Archive | `Deliverables/_archive/` (consolidation pending), `Archive/Team Inbox/_archive/`, `Archive/Team Inbox/_Processed/`, `Archive/Team Inbox/_KeepSidianLogs/` |

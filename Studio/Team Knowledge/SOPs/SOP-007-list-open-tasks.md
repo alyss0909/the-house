@@ -11,7 +11,7 @@ This is the resumption-at-scale SOP. At session start, we need to answer: "What'
 
 ## Two ways to do this
 
-- **§A Fast:** read `Team Knowledge/tasks/INDEX.md`. The index is auto-rebuilt by every task-touching SOP, so it's almost always fresh.
+- **§A Fast:** read `Studio/Team Knowledge/tasks/INDEX.md`. The index is auto-rebuilt by every task-touching SOP, so it's almost always fresh.
 - **§B Authoritative:** walk the folders directly with grep. Use this when you don't trust the index, or when you need a filter the index doesn't render.
 
 Default to §A. Fall back to §B when needed.
@@ -19,7 +19,7 @@ Default to §A. Fall back to §B when needed.
 ## §A — Read the index
 
 ```bash
-cat "Team Knowledge/tasks/INDEX.md"
+cat "Studio/Team Knowledge/tasks/INDEX.md"
 ```
 
 Sections: Summary, Open (by priority), In progress (with blocked callouts), By assignee, Recently closed.
@@ -27,8 +27,8 @@ Sections: Summary, Open (by priority), In progress (with blocked callouts), By a
 If the index `_Last rebuilt:_` timestamp is older than the newest file in `tasks/`, run [[SOP-008-rebuild-task-index]] first.
 
 ```bash
-INDEX_MTIME=$(stat -f %m "Team Knowledge/tasks/INDEX.md" 2>/dev/null || stat -c %Y "Team Knowledge/tasks/INDEX.md")
-NEWEST=$(find "Team Knowledge/tasks" -name "tsk-*.md" -type f -exec stat -f %m {} \; 2>/dev/null | sort -n | tail -1)
+INDEX_MTIME=$(stat -f %m "Studio/Team Knowledge/tasks/INDEX.md" 2>/dev/null || stat -c %Y "Studio/Team Knowledge/tasks/INDEX.md")
+NEWEST=$(find "Studio/Team Knowledge/tasks" -name "tsk-*.md" -type f -exec stat -f %m {} \; 2>/dev/null | sort -n | tail -1)
 [ "$NEWEST" -gt "$INDEX_MTIME" ] && echo "stale, rebuild first"
 ```
 
@@ -39,7 +39,7 @@ NEWEST=$(find "Team Knowledge/tasks" -name "tsk-*.md" -type f -exec stat -f %m {
 ### List all open tasks (any assignee)
 
 ```bash
-for f in "Team Knowledge/tasks/open"/tsk-*.md; do
+for f in "Studio/Team Knowledge/tasks/open"/tsk-*.md; do
   [ -f "$f" ] || continue
   awk '/^---$/{c++; next} c==1 && /^(id|title|assignee|priority): /' "$f"
   echo "---"
@@ -51,14 +51,14 @@ done
 ```bash
 ME=mack
 grep -rlE "^assignee: ${ME}\b" \
-  "Team Knowledge/tasks/open" \
-  "Team Knowledge/tasks/in-progress"
+  "Studio/Team Knowledge/tasks/open" \
+  "Studio/Team Knowledge/tasks/in-progress"
 ```
 
 ### List blocked tasks (in-progress only — that's where they live)
 
 ```bash
-grep -rlE "^blocked_reason: [^n]" "Team Knowledge/tasks/in-progress"
+grep -rlE "^blocked_reason: [^n]" "Studio/Team Knowledge/tasks/in-progress"
 ```
 
 (The pattern `[^n]` excludes `null`. A blocked task has a non-null `blocked_reason`.)
@@ -67,22 +67,22 @@ grep -rlE "^blocked_reason: [^n]" "Team Knowledge/tasks/in-progress"
 
 ```bash
 grep -rlE "^priority: 1\b" \
-  "Team Knowledge/tasks/open" \
-  "Team Knowledge/tasks/in-progress"
+  "Studio/Team Knowledge/tasks/open" \
+  "Studio/Team Knowledge/tasks/in-progress"
 ```
 
 ### List tasks created in this session
 
 ```bash
 SESSION=2026-05-09-22-30_larry_video-launch-coordination
-grep -rlE "^linked_session_logs:.*${SESSION}" "Team Knowledge/tasks"
+grep -rlE "^linked_session_logs:.*${SESSION}" "Studio/Team Knowledge/tasks"
 ```
 
 ## Larry's session-boot routine
 
 At the start of every session, Larry runs:
 
-1. `cat "Team Knowledge/tasks/INDEX.md"` — get the lay of the land.
+1. `cat "Studio/Team Knowledge/tasks/INDEX.md"` — get the lay of the land.
 2. Filter mentally to "Open priority 1" and "In-progress with assignee likely active" — surface those to Tom first.
 3. Check the "BLOCKED" callouts — any of them now unblockable given today's context?
 4. If any open tasks have been sitting >7 days, or any in-progress tasks have been blocked >3 days without movement, surface them for triage.
@@ -100,8 +100,8 @@ Each specialist activated for work runs:
 ```bash
 ME=<my-agent-name>
 grep -rlE "^assignee: ${ME}\b" \
-  "Team Knowledge/tasks/in-progress" \
-  "Team Knowledge/tasks/open"
+  "Studio/Team Knowledge/tasks/in-progress" \
+  "Studio/Team Knowledge/tasks/open"
 ```
 
 …to find every task they own. Read the highest-priority in-progress one first (that's where you left off). Then open tasks.

@@ -23,7 +23,7 @@ Open the task you're about to claim. Read the `linked_journal_entries` array in 
 This is the highest-value step. Skip it and you ignore curated priors.
 
 ```bash
-TASK="Team Knowledge/tasks/in-progress/<id>-<slug>.md"
+TASK="Studio/Team Knowledge/tasks/in-progress/<id>-<slug>.md"
 awk '/^linked_journal_entries:/' "$TASK"
 ```
 

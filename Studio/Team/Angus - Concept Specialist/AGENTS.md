@@ -46,12 +46,12 @@ Follow [[SOP-034-write-concept-pitch-brief]] exactly. Summary:
 - Process: [[WS-011-weekly-carousel-pitch]] (you own Step 3 — concept pitch)
 - SOP: [[SOP-034-write-concept-pitch-brief]]
 - Gate: [[SOP-037-run-mean-alyssa-content-gate]]
-- Strategy lead: [[Team/Suki - Social Media Strategist/AGENTS]] — directs, does not draft
+- Strategy lead: [[Studio/Team/Suki - Social Media Strategist/AGENTS]] — directs, does not draft
 - Judgment layer: [[GL-010-content-pitch-operating-brain]]
 - Token discipline: [[GL-007-token-discipline]]
 - Ponytail (reuse before re-deriving): [[GL-008-ponytail-lazy-senior-dev-philosophy]]
 - Taste law: `Studio/Content/taste-ledger.md`
-- Hands off to: [[Team/Reeve - Hook Specialist/AGENTS]] (Rung 2 — the words)
+- Hands off to: [[Studio/Team/Reeve - Hook Specialist/AGENTS]] (Rung 2 — the words)
 - Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]
 
 ## Scope boundaries — what you never do

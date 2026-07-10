@@ -90,7 +90,7 @@ Every processed meeting note should answer five questions:
 2. **What matters for memory?** People details, client preferences, project context, decisions, risks, or recurring themes.
 3. **What did Alyssa promise or imply she would do?** These become candidate tasks.
 4. **What should be quoted exactly?** Capture Alyssa's own wording when it contains useful copy, positioning, creative direction, an explanation of how she would write something, or language likely to be reused.
-5. **Where does each output go?** Journal for meeting memory, CRM for people facts, Project/Offer files for durable project context, `Team Knowledge/tasks/` for reminders and follow-through, and external tools such as Trello when the client-facing action list lives there.
+5. **Where does each output go?** Journal for meeting memory, CRM for people facts, Project/Offer files for durable project context, `Studio/Team Knowledge/tasks/` for reminders and follow-through, and external tools such as Trello when the client-facing action list lives there.
 
 ## Task Routing Rule
 
@@ -98,7 +98,7 @@ Action items are not allowed to live only inside the meeting note when they requ
 
 Use this rule:
 
-- If Alyssa needs to do it, create or update a task in `Team Knowledge/tasks/open/` with `assignee: alyssa`.
+- If Alyssa needs to do it, create or update a task in `Studio/Team Knowledge/tasks/open/` with `assignee: alyssa`.
 - If the team needs to do it, create or update a task with the responsible specialist as assignee.
 - If it is just a fact or preference, keep it in the Journal/CRM/Project note.
 - If it is a recurring habit or dashboard-worthy routine, connect it to the relevant Project, Key Element, or future dashboard view.
@@ -128,13 +128,13 @@ If a matching Project or Offer file exists:
 
 This step is mandatory. A meeting without a project cross-link is a ghost in the system — the Journal entry exists but the project file doesn't know the meeting happened.
 
-If no matching Project file exists but the meeting clearly relates to ongoing project work, Larry creates a stub Project file following the template in `Team Knowledge/Templates/project.md` and links it.
+If no matching Project file exists but the meeting clearly relates to ongoing project work, Larry creates a stub Project file following the template in `Studio/Team Knowledge/Templates/project.md` and links it.
 
 ## Step 4 - Raw Source Cleanup
 
 Media cleanup is automatic:
 
-- **Audio/video:** deleted after 7 days by `Team Knowledge/Automations/meetily-inbox-prep.ps1`.
+- **Audio/video:** deleted after 7 days by `Studio/Team Knowledge/Automations/meetily-inbox-prep.ps1`.
 - **Transcript:** retained as temporary source until a processed meeting note exists, then retired after the transcript-retention window.
 
 After the processed note exists, Larry updates the pointer note:

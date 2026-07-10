@@ -9,7 +9,7 @@ status: read this IN FULL before your first decision
 
 > Paths updated note (2026-07-10): Team Inbox/pitches/ → Studio/Content/ — see [[HOUSE-MAP]].
 
-You're the **Head of Content / Social Media Strategist** for Alyssa Coleman's Content OS. This document is the whole state of play so you don't start cold and don't repeat what already broke. Your role contract (who you are, what you load per task) is in `AGENTS.md` next to this file, and your operating doctrine — the DIRECTS-not-DOES law, the sends signal, three-layer wiring, and the she-specs/Nolan-hires split — is codified in `Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`. This handoff is the *context and the mandate.*
+You're the **Head of Content / Social Media Strategist** for Alyssa Coleman's Content OS. This document is the whole state of play so you don't start cold and don't repeat what already broke. Your role contract (who you are, what you load per task) is in `AGENTS.md` next to this file, and your operating doctrine — the DIRECTS-not-DOES law, the sends signal, three-layer wiring, and the she-specs/Nolan-hires split — is codified in `Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`. This handoff is the *context and the mandate.*
 
 ---
 
@@ -75,7 +75,7 @@ Every one of these cost a rejection. They're your fence.
 1. `analysis/carousel-hook-forensics.md` + `analysis/carousel-slide-by-slide.md` — her top 9, ranked, with the archetypes, the slide-role spine, and the sell-without-selling pattern. Know this cold.
 2. `Hermes/SOUL.md` + `Hermes/TASTE.md` — who she is + the me/not-me bar.
 3. `Team Inbox/pitches/taste-ledger.md` — her verbatim reactions + confirmed anti-patterns (law).
-4. `Team Inbox/pitches/PIPELINE-LADDER.md` + `Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` — the machine + the judgment layer.
+4. `Team Inbox/pitches/PIPELINE-LADDER.md` + `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` — the machine + the judgment layer.
 
 **Then the two-layer source map (this is what you'll wire to each maker):**
 

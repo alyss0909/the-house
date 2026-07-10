@@ -1,6 +1,6 @@
 # PKM - Master Wiki Hub
 
-This is the user's personal knowledge. The team's operations side lives in [[Team Knowledge/INDEX]].
+This is the user's personal knowledge. The team's operations side lives in [[Studio/Team Knowledge/INDEX]].
 
 ## Sections
 

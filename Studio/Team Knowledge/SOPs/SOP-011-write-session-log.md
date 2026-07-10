@@ -2,7 +2,7 @@
 
 - **Owner:** Larry (default), any specialist agent (when running independently)
 - **Triggered by:** end of a working session, mid-session checkpoint, end-of-day
-- **Output:** a new file in `Team Knowledge/session-logs/<YYYY>/<MM>/`
+- **Output:** a new file in `Studio/Team Knowledge/session-logs/<YYYY>/<MM>/`
 - **References:** [[SOP-009-write-journal-entry]] (for cross-session insights), [[SOP-004-create-task]] (for queued follow-up work)
 
 ## Purpose
@@ -17,8 +17,8 @@ A chronological record of one working session. Append-only by design (write once
 
 ## What a session log is NOT
 
-- A journal entry (topical, durable; lives in `Team/<Name> - <Role>/journal/`).
-- A task (work to do; lives in `Team Knowledge/tasks/`).
+- A journal entry (topical, durable; lives in `Studio/Team/<Name> - <Role>/journal/`).
+- A task (work to do; lives in `Studio/Team Knowledge/tasks/`).
 - A blow-by-blow transcript. The session log is curated — what mattered, not every step.
 
 ## When to write
@@ -30,7 +30,7 @@ A chronological record of one working session. Append-only by design (write once
 ## Filename convention
 
 ```
-Team Knowledge/session-logs/<YYYY>/<MM>/YYYY-MM-DD-HH-MM_<agent>_<short-title-slug>.md
+Studio/Team Knowledge/session-logs/<YYYY>/<MM>/YYYY-MM-DD-HH-MM_<agent>_<short-title-slug>.md
 ```
 
 - `YYYY-MM-DD-HH-MM` is the session END timestamp (UTC), not start.
@@ -101,7 +101,7 @@ The legacy v1.x session-logs only have `linked_sops`, `linked_workstreams`, `lin
 {Tone, gotchas, "if you see X, don't do Y." Personal-voice gold.}
 ```
 
-The Knox v0.4.2 entry (`Team Knowledge/session-logs/2026/05/2026-05-09-17-30_knox_v0.4.2-tauri-linux-deb-pivot.md`) is the canonical example of this shape done well.
+The Knox v0.4.2 entry (`Studio/Team Knowledge/session-logs/2026/05/2026-05-09-17-30_knox_v0.4.2-tauri-linux-deb-pivot.md`) is the canonical example of this shape done well.
 
 ## Cross-references (the two-way wiring)
 
@@ -151,7 +151,7 @@ Any yes: fix it now, before the log is written. Note the fix in the metabolism s
 
 Mack closes the mux-webhook task at 18:00 UTC. He writes:
 
-File: `Team Knowledge/session-logs/2026/05/2026-05-10-18-00_mack_mux-webhook-recovery.md`
+File: `Studio/Team Knowledge/session-logs/2026/05/2026-05-10-18-00_mack_mux-webhook-recovery.md`
 
 ```markdown
 ---

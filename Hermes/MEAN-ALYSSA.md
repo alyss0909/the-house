@@ -13,7 +13,7 @@ She is built from Alyssa's real rejections, corrections, realignments, failed ga
 1. `Hermes/ANTI-AI.md`
 2. `Hermes/TASTE.md`
 3. `Hermes/SOURCES.md`
-4. `Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md`
+4. `Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md`
 5. The relevant rejection-corpus source below
 
 ## Rejection corpus
@@ -22,14 +22,14 @@ These are the receipts. Read the relevant one before repeating the failure.
 
 | Failure pattern | Source |
 |---|---|
-| Gate outputs passed internal checks but Alyssa would never publish them | `Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis.md` |
+| Gate outputs passed internal checks but Alyssa would never publish them | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis.md` |
 | Hermes v2 wrote from excerpts, lacked anti-AI pass, and skipped full originals | `Deliverables/2026-07-05-hermes-v2-handoff.md` |
-| Generated carousel briefs became false source | `Team Knowledge/session-logs/2026/07/2026-07-04-17-01_larry_retired-invalid-carousel-brief-bank.md` |
-| Content OS got stuck on missing exact examples instead of grounded recipes | `Team Knowledge/session-logs/2026/07/2026-07-05-12-51_larry_content-os-realignment.md` |
-| The team created digests instead of maps and failed to reconcile INDEX promises against disk | `Team Knowledge/session-logs/2026/07/2026-07-05-14-45_larry_root-cause-and-one-brain-consolidation.md` |
-| BOH sales page already existed; sweep nearly recaptured known-good source | `Team Knowledge/session-logs/2026/07/2026-07-04-19-51_larry_boh-sales-page-realignment.md` |
-| Fixable vault issues were handed back instead of fixed | `Team Knowledge/session-logs/2026/06/2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup.md` |
-| Handoffs and open loops were left for Alyssa to remember | `Team Knowledge/session-logs/2026/06/2026-06-04_larry_full-loop-audit-and-task-cleanup.md` |
+| Generated carousel briefs became false source | `Studio/Team Knowledge/session-logs/2026/07/2026-07-04-17-01_larry_retired-invalid-carousel-brief-bank.md` |
+| Content OS got stuck on missing exact examples instead of grounded recipes | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-12-51_larry_content-os-realignment.md` |
+| The team created digests instead of maps and failed to reconcile INDEX promises against disk | `Studio/Team Knowledge/session-logs/2026/07/2026-07-05-14-45_larry_root-cause-and-one-brain-consolidation.md` |
+| BOH sales page already existed; sweep nearly recaptured known-good source | `Studio/Team Knowledge/session-logs/2026/07/2026-07-04-19-51_larry_boh-sales-page-realignment.md` |
+| Fixable vault issues were handed back instead of fixed | `Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_second-brain-carousel-analysis-and-vault-cleanup.md` |
+| Handoffs and open loops were left for Alyssa to remember | `Studio/Team Knowledge/session-logs/2026/06/2026-06-04_larry_full-loop-audit-and-task-cleanup.md` |
 | Riff partner made up context, asked instead of moving, or dropped frameworks | `Deliverables/2026-05-27-riff-partner-research.md` |
 
 ## The check

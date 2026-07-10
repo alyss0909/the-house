@@ -6,7 +6,7 @@ user_invocable: true
 
 # Weekly Review
 
-Runs [[Team Knowledge/Workstreams/WS-006-weekly-review]]. The canonical procedure lives there — this file is the Claude Code slash-command entry point.
+Runs [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review]]. The canonical procedure lives there — this file is the Claude Code slash-command entry point.
 
 ## Arguments
 
@@ -25,7 +25,7 @@ Examples:
 
 1. **Determine date range** from arguments or default to current ISO week (Monday 00:00 – Sunday 23:59).
 
-2. **Collect session logs.** Glob `Team Knowledge/session-logs/YYYY/MM/` across all months that overlap the range. Collect all `.md` files whose filename date prefix falls within the range.
+2. **Collect session logs.** Glob `Studio/Team Knowledge/session-logs/YYYY/MM/` across all months that overlap the range. Collect all `.md` files whose filename date prefix falls within the range.
 
 3. **Collect deliverables.** Glob `Deliverables/` for files dated within the range.
 
@@ -39,9 +39,9 @@ Examples:
 
 6. **Determine ISO week number** for the target range. Use the Monday date to derive `YYYY-WNN` (e.g. June 2 2026 → 2026-W23).
 
-7. **Check for existing wrap.** If `Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md` already exists, confirm with Alyssa before overwriting.
+7. **Check for existing wrap.** If `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md` already exists, confirm with Alyssa before overwriting.
 
-8. **Write the weekly wrap** to `Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md` following [[Team Knowledge/Weekly Reviews/_template.md]].
+8. **Write the weekly wrap** to `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md` following [[Studio/Team Knowledge/Weekly Reviews/_template.md]].
    - Set frontmatter: `week`, `date_range`, `session_count`, `open_threads` (count of unchecked items)
    - Fill all sections: week at a glance, what shipped, key decisions (table), insights not yet graduated, open threads by area, next week setup
 

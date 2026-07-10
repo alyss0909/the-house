@@ -88,4 +88,4 @@ Open `analysis/copy-task-routing.md`. It has the full routing rationale, decisio
 
 ---
 
-*See [[Team Knowledge/Guidelines/GL-007-token-discipline|GL-007]] for the team-wide rules on file size limits, session hygiene, and context discipline.*
+*See [[Studio/Team Knowledge/Guidelines/GL-007-token-discipline|GL-007]] for the team-wide rules on file size limits, session hygiene, and context discipline.*

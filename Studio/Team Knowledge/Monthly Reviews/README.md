@@ -26,5 +26,5 @@ Example: `2026/2026-05-monthly-wrap.md`
 
 ## Relationship to other tiers
 
-- Sourced from **weekly reviews** (`Team Knowledge/Weekly Reviews/YYYY/`).
+- Sourced from **weekly reviews** (`Studio/Team Knowledge/Weekly Reviews/YYYY/`).
 - Workstream definition: [[WS-007-monthly-review]]

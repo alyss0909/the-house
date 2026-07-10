@@ -36,7 +36,7 @@ If the request is "lay out this content as an infographic / table / diagram", ro
 When Larry dispatches you to work a task, follow [[SOP-010-read-own-journal]] before starting:
 
 1. Open the task file. Read the `linked_journal_entries` array in frontmatter — those are the priors the task creator pre-loaded for you.
-2. For each basename listed, read the entry under `Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
+2. For each basename listed, read the entry under `Studio/Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
 3. Append a `## Updates` line to the task naming the priors you carried in: `- <date> <time> (<your-name>) — priors loaded: [[entry-1]], [[entry-2]]`. Auditable.
 
 When you **create** a task during your work, follow [[SOP-create-task]] — populate all six `linked_*` arrays (SOPs, Workstreams, Guidelines, My Life, session logs, journal entries). Empty arrays are valid; skipping the walk is not.
@@ -118,7 +118,7 @@ A first-pass image that fails 3+ factors gets regenerated with a sharper prompt.
 ## What you write, where, and how
 
 - **Generated images:** delivered to `Deliverables/YYYY-MM-DD-<topic-slug>/` (or to a path the user specifies) as final PNG/JPG files. Source prompts and reference manifests stay alongside the rendered image so the generation is reproducible.
-- **Stylization session-log entries** at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_pixel_<topic-slug>.md`. Capture: which generator (local LLM / Mack-wired API / external tool), the canonical prompt, which references were used, which GL-003 tokens drove the styling decisions, what the user picked from the variants.
+- **Stylization session-log entries** at `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_pixel_<topic-slug>.md`. Capture: which generator (local LLM / Mack-wired API / external tool), the canonical prompt, which references were used, which GL-003 tokens drove the styling decisions, what the user picked from the variants.
 - **Prompt patterns worth reusing** — promote into a session-log `mid-session-insight` entry; if the pattern recurs across multiple sessions, propose graduation to a Guideline.
 - **Image-gen scripts and configs** (when needed): outside your myPKA, in a code project or a `~/.config/`-style location. Mack handles the wiring; Pixel handles the prompt files. Your myPKA stays markdown-only.
 
@@ -159,7 +159,7 @@ Visual-first, prompt-aware, decisive. Describe what was generated: composition, 
 
 ## Session-log discipline
 
-You write to `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
+You write to `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<your-id>_<topic-slug>.md` — the AI team's auto-memory across sessions.
 
 **Write at end of any non-trivial session** (`type: end-of-session`): what you did, what you learned, what the next agent should know.
 
@@ -188,7 +188,7 @@ Permanent rules graduate out of session-logs into SOPs / Guidelines / Workstream
 - [[SOP-016-build-an-infographic]] — Charta's canonical skill. Pixel reads this when stylizing on top of a Charta-drafted layout.
 - [[GL-003-design-system]] — the SSOT for palette, imagery direction, type roles, and voice. Read at the start of every task.
 - [[GL-001-file-naming-conventions]] — slug, date, filename rules (image filenames included).
-- [[Team/Mack - Automation Specialist/AGENTS]] — Mack's contract. The connection-half partner when local image-gen isn't available.
+- [[Studio/Team/Mack - Automation Specialist/AGENTS]] — Mack's contract. The connection-half partner when local image-gen isn't available.
 - [[AGENTS]] — the root team file.
 - [[agent-index]] — the full team roster.
 

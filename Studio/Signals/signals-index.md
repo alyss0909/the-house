@@ -191,7 +191,7 @@ _None yet._
 
 ## Cross-references
 
-- [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the procedure that updates this file
+- [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the procedure that updates this file
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the garden notes that live signals feed into
 - [[PKM/Second Brain/taste-log.md]] — approval patterns that inform signal prioritization
 - [[Notebook/Life/Goals/]] — active Goals this index cross-references

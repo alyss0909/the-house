@@ -20,7 +20,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 
 ## Tier 3 — Corrections (facts that outrank rules)
 
-- `Team Knowledge/session-logs/` → "Realignments" sections: her verbatim corrections. ~95 logs.
+- `Studio/Team Knowledge/session-logs/` → "Realignments" sections: her verbatim corrections. ~95 logs.
 - `PKM/Second Brain/examples/soft-sundays/me-i-need-ideas-i-already-had.md` — the flagged "too AI" email (negative example only).
 - Kit broadcast stats (subjects = tier-1 words; bodies unverified).
 
@@ -29,7 +29,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 - `PKM/Second Brain/templates/` (10 files), `Archive/ready-queue-retired-2026-07-10.md` (the former ready-queue, dissolved 2026-07-10).
 - `PKM/Second Brain/examples/Carousels/brief-bank.md` — Alyssa: contents "literally 100% wrong" (2026-07-04).
 - voice-profile.md / voice-archive.md as *authority* (see tier 2).
-- All Wren operating files (`.claude/agents/wren.md`, `Team/Wren - Brand Voice Partner/`) — the analysis-first protocol this brain replaces.
+- All Wren operating files (`.claude/agents/wren.md`, `Studio/Team/Wren - Brand Voice Partner/`) — the analysis-first protocol this brain replaces.
 - Older stale-voice sales copy for imitation: The Numbers, Daily Profit Activities, TPE pages ("#bossbehaviour" era).
 - `Deliverables/` except the fable-5-ingestion-pack (project spec).
 

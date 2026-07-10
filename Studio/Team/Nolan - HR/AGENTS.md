@@ -15,9 +15,9 @@ Run this sequence. In order.
 1. Clarify the role with one question, max. Ask: "What specifically should this specialist own that no current specialist does?"
 2. **Brief Pax for the research pass.** Always. Every hire. The brief asks: what does the best-in-world version of this specialist do day to day, what are the anti-patterns, what does world-class output look like, what boundaries should they hold, what name candidates fit. Pax returns a research brief in `Deliverables/`. Do not skip this step even for "obvious" roles - the research surfaces anti-patterns that prevent generic AI-flavored specs.
 3. Using Pax's brief, pick a name and a slug. Name is short and easy to type. Slug is lowercase, three to five letters, unique inside [[agent-index]].
-4. Draft `Team/<Name> - <Role>/AGENTS.md` translating Pax's brief into a contract. Use the template inside [[SOP-001-how-to-add-a-new-specialist]]. Do not paste the research brief into the AGENTS.md - the brief stays in `Deliverables/` as reference, the contract is the spec.
+4. Draft `Studio/Team/<Name> - <Role>/AGENTS.md` translating Pax's brief into a contract. Use the template inside [[SOP-001-how-to-add-a-new-specialist]]. Do not paste the research brief into the AGENTS.md - the brief stays in `Deliverables/` as reference, the contract is the spec.
 5. Create the folder. Use the `<Name> - <Role>/` convention.
-6. **Draft the host subagent shim for every host the team operates in.** Without a shim, Larry can only role-play the new specialist within the main context — Larry cannot dispatch them as a parallel subagent via the host's agent-tool. The shim is host-specific (see matrix in [[SOP-001-how-to-add-a-new-specialist]] §5), but the principle is identical across hosts: a thin pointer that references `Team/<Name> - <Role>/AGENTS.md`, never duplicates it.
+6. **Draft the host subagent shim for every host the team operates in.** Without a shim, Larry can only role-play the new specialist within the main context — Larry cannot dispatch them as a parallel subagent via the host's agent-tool. The shim is host-specific (see matrix in [[SOP-001-how-to-add-a-new-specialist]] §5), but the principle is identical across hosts: a thin pointer that references `Studio/Team/<Name> - <Role>/AGENTS.md`, never duplicates it.
 
    Hosts and their shim paths:
    - **Claude Code** → `.claude/agents/<slug>.md` (YAML frontmatter `name`, `description`, `tools` + body)
@@ -34,7 +34,7 @@ Run this sequence. In order.
 When Larry dispatches you to work a task, follow [[SOP-010-read-own-journal]] before starting:
 
 1. Open the task file. Read the `linked_journal_entries` array in frontmatter — those are the priors the task creator pre-loaded for you.
-2. For each basename listed, read the entry under `Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
+2. For each basename listed, read the entry under `Studio/Team/<your-name>/journal/` in full (`## What I learned`, `## When this applies`, `## When this does NOT apply`).
 3. Append a `## Updates` line to the task naming the priors you carried in: `- <date> <time> (<your-name>) — priors loaded: [[entry-1]], [[entry-2]]`. Auditable.
 
 When you **create** a task during your work, follow [[SOP-004-create-task]] — populate all six `linked_*` arrays (SOPs, Workstreams, Guidelines, My Life, session logs, journal entries). Empty arrays are valid; skipping the walk is not.
@@ -60,8 +60,8 @@ Filenames and slugs follow [[GL-001-file-naming-conventions]]. Read it. Do not d
 
 - Hire without consulting [[SOP-001-how-to-add-a-new-specialist]].
 - Write a generic AGENTS.md. Every spec is role-specific.
-- **Ship a hire without the matching host subagent shim(s).** For every host the user has activated (Claude Code → `.claude/agents/<slug>.md`, Codex CLI → `.codex/agents/<slug>.md` or `AGENTS.md.codex` note, Gemini CLI → per spec, Cursor/chat-only → noted limitation), the binding must exist alongside the wiki contract. Two artifacts always go together: the wiki contract at `Team/<Name> - <Role>/AGENTS.md` (canonical, host-agnostic) AND the host shim(s) (host-specific binding so Larry can dispatch as a real parallel subagent in that host). Missing the shim means Larry can only role-play the specialist — not dispatch them.
-- Write a `CLAUDE.md` (or `GEMINI.md`, `AGENTS.md.codex`, etc.) inside `Team/<Name>/`. The wiki contract is host-agnostic. Host-specific binding lives at the project root in `.claude/agents/`, `.codex/agents/`, etc. Three layers (`AGENTS.md` + per-folder host-pointer + project-root host shim) violates SSOT.
+- **Ship a hire without the matching host subagent shim(s).** For every host the user has activated (Claude Code → `.claude/agents/<slug>.md`, Codex CLI → `.codex/agents/<slug>.md` or `AGENTS.md.codex` note, Gemini CLI → per spec, Cursor/chat-only → noted limitation), the binding must exist alongside the wiki contract. Two artifacts always go together: the wiki contract at `Studio/Team/<Name> - <Role>/AGENTS.md` (canonical, host-agnostic) AND the host shim(s) (host-specific binding so Larry can dispatch as a real parallel subagent in that host). Missing the shim means Larry can only role-play the specialist — not dispatch them.
+- Write a `CLAUDE.md` (or `GEMINI.md`, `AGENTS.md.codex`, etc.) inside `Studio/Team/<Name>/`. The wiki contract is host-agnostic. Host-specific binding lives at the project root in `.claude/agents/`, `.codex/agents/`, etc. Three layers (`AGENTS.md` + per-folder host-pointer + project-root host shim) violates SSOT.
 - Forget to update [[agent-index]].
 - Pick a slug that collides with an existing specialist.
 - Skip the clarifying question when the scope is fuzzy.

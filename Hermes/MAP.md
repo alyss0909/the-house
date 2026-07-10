@@ -34,7 +34,7 @@ Every writing task = JUDGMENT files (SOUL+STYLE+TASTE+ANTI-AI) + these vault loa
 | Offer/pitch copy | BUSINESS.md + the product's `PKM/My Life/Offers/` file + `analysis/audience/back-of-house-2025-survey-client-profile.md` |
 | Pitching concepts | §3 slot row + the slot's exemplar analyses (§5) + signals-index |
 | Judging (gate) | ANTI-AI + TASTE + 2 real same-format pieces from examples/ for the lineup |
-| Trust gate before asking/creating/promoting | `Hermes/MEAN-ALYSSA.md` + `Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md` + the relevant rejection-corpus source |
+| Trust gate before asking/creating/promoting | `Hermes/MEAN-ALYSSA.md` + `Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md` + the relevant rejection-corpus source |
 | Taste/strategy decision with no provable answer | `Hermes/MEAN-ALYSSA.md` + same-format examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
 | Any topic at all | grep `Notebook/Journal/` for her raw take first |
 

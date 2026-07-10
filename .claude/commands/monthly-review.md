@@ -6,7 +6,7 @@ user_invocable: true
 
 # Monthly Review
 
-Runs [[Team Knowledge/Workstreams/WS-007-monthly-review]]. The canonical procedure lives there — this file is the Claude Code slash-command entry point.
+Runs [[Studio/Team Knowledge/Workstreams/WS-007-monthly-review]]. The canonical procedure lives there — this file is the Claude Code slash-command entry point.
 
 ## Arguments
 
@@ -23,7 +23,7 @@ Examples:
 
 1. **Determine target month** from arguments or default to current calendar month.
 
-2. **Collect weekly wraps.** Glob `Team Knowledge/Weekly Reviews/YYYY/` for files whose `week:` frontmatter falls within the target month. A week straddling two months belongs to the month holding the majority of its days.
+2. **Collect weekly wraps.** Glob `Studio/Team Knowledge/Weekly Reviews/YYYY/` for files whose `week:` frontmatter falls within the target month. A week straddling two months belongs to the month holding the majority of its days.
 
 3. **Check for missing weeks.** If a week within the target month has session logs but no weekly wrap, name the gap and offer to run `/weekly-review` for that week before proceeding. Do not skip gaps silently.
 
@@ -38,9 +38,9 @@ Examples:
 
 6. **Identify graduation candidates.** Insights appearing in ≥2 weekly wraps, or confirmed as standard behavior in a session, are candidates. List them. Mark as "graduated" only if Alyssa confirmed the graduation — otherwise "pending graduation."
 
-7. **Check for existing wrap.** If `Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` already exists, confirm with Alyssa before overwriting.
+7. **Check for existing wrap.** If `Studio/Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` already exists, confirm with Alyssa before overwriting.
 
-8. **Write the monthly wrap** to `Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` following [[Team Knowledge/Monthly Reviews/_template.md]].
+8. **Write the monthly wrap** to `Studio/Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-monthly-wrap.md` following [[Studio/Team Knowledge/Monthly Reviews/_template.md]].
    - Set frontmatter: `month`, `weeks_covered`, `weekly_wrap_count`
    - Fill all sections: month at a glance, big wins, patterns across weeks, insights graduated, open threads carrying forward, goals for next month
 

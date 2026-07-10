@@ -47,7 +47,7 @@ For any garden note that received a new entry this week:
 For any signal that just crossed 6 recurrences: write Larry's thesis draft in the garden note. Write it as Larry speaking directly to Alyssa — "here's what I think you've been trying to say." Not analysis. A draft she can edit.
 
 ### Step 4 — Content activation flags
-Flag any content-ready entry for content activation (WS-008 routes it: social content → weekly pitch loop, everything else → a task file in `Team Knowledge/tasks/open/`) with:
+Flag any content-ready entry for content activation (WS-008 routes it: social content → weekly pitch loop, everything else → a task file in `Studio/Team Knowledge/tasks/open/`) with:
 - Proposed content type (email / carousel / Soft Sunday / Simmer concept / other)
 - Proposed assignee (Hermes / Pax / Charta / etc.)
 - Source entry link
@@ -92,7 +92,7 @@ Read `PKM/Second Brain/taste-log.md`. Are there new approval patterns from the m
 For every new signal: add content type tags from the set: `idea | content | teaching | voice`. These drive content activation — `content` and `teaching` signals get prioritized in WS-008.
 
 ### Step 9 — Save sweep note
-File: `Team Knowledge/Sweep Notes/YYYY-MM-deep-sweep.md`
+File: `Studio/Team Knowledge/Sweep Notes/YYYY-MM-deep-sweep.md`
 
 Include: new signals, signals promoted, thesis drafts written, Second Brain connections made, voice loop observations, taste loop observations, "What I learned about Alyssa's thinking this month" in Larry's plain voice.
 
@@ -132,6 +132,6 @@ Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule 
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the idea garden
 - [[Hermes/learning/inbox.md]] — voice loop output
 - [[PKM/Second Brain/taste-log.md]] — taste loop cross-reference
-- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — content activation outputs (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
-- [[Team Knowledge/Workstreams/WS-006-weekly-review.md]] — calls the light sweep
-- [[Team Knowledge/Workstreams/WS-009-monthly-intelligence-update.md]] — calls the deep sweep
+- `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — content activation outputs (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
+- [[Studio/Team Knowledge/Workstreams/WS-006-weekly-review.md]] — calls the light sweep
+- [[Studio/Team Knowledge/Workstreams/WS-009-monthly-intelligence-update.md]] — calls the deep sweep

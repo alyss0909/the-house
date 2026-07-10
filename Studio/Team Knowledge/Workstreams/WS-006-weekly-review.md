@@ -4,7 +4,7 @@
 - **Type:** Workstream — single trigger, full loop
 - **Owner:** Larry (orchestration, sweep, synthesis, queue)
 - **Triggered by:** `/weekly-review` / "do the weekly review" / "weekly wrap" / "close session" nudge when ≥5 days since last weekly wrap
-- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[PKM/Second Brain/taste-log.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Studio/Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[PKM/Second Brain/taste-log.md]]
 
 ---
 
@@ -87,7 +87,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Review the two queue sources — the task system and the idea bank — and confirm what moves this week. (The Ready Queue file was dissolved into these 2026-07-10 per Alyssa; history at [[Archive/ready-queue-retired-2026-07-10]].)
 
 **Steps:**
-1. Glob `Team Knowledge/tasks/open/` for open content-related tasks; open [[Studio/Content/idea-bank.md]] for parked concepts worth activating
+1. Glob `Studio/Team Knowledge/tasks/open/` for open content-related tasks; open [[Studio/Content/idea-bank.md]] for parked concepts worth activating
 2. Check status of open items: anything blocked? Anything newly ready from Phase 1?
 3. Cross-reference taste-log.md — anything to reprioritize based on approval patterns?
 4. Confirm #1 priority item for the week. Is the assignee clear? Source material all there?
@@ -103,7 +103,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Write any new briefs, record decisions, deliver the wrap.
 
 **Steps:**
-1. Write any new team briefs that surfaced in Phases 0-3 as task files in `Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (social-content briefs go to the weekly pitch loop instead)
+1. Write any new team briefs that surfaced in Phases 0-3 as task files in `Studio/Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (social-content briefs go to the weekly pitch loop instead)
 2. Update `team_brief_dispatched` and `team_brief_status` fields in relevant garden notes
 3. Confirm Hermes has clear next steps and everything he needs to start
 4. Identify ONE thing that needs Alyssa's input (if anything). Never more than one decision per weekly review. If the decision is taste/strategy and cannot be proven from source, present two versions: A safer/source-close, B more nuanced/higher-upside/needs Alyssa's taste.
@@ -133,7 +133,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 
 ## The Weekly Wrap Note
 
-**File:** `Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`
+**File:** `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`
 
 ```
 # Week of [Mon Date] — Weekly Brew

@@ -9,7 +9,7 @@ This helper turns Telegram bot messages into markdown captures in `Notebook/Inbo
 3. Run:
 
 ```powershell
-python "Team Knowledge/scripts/telegram-capture-mvp.py"
+python "Studio/Team Knowledge/scripts/telegram-capture-mvp.py"
 ```
 
 Leave the window open while you want Telegram capture running.
@@ -17,13 +17,13 @@ Leave the window open while you want Telegram capture running.
 For a quick check that the token works:
 
 ```powershell
-python "Team Knowledge/scripts/telegram-capture-mvp.py" --health-check
+python "Studio/Team Knowledge/scripts/telegram-capture-mvp.py" --health-check
 ```
 
 For a one-time capture test:
 
 ```powershell
-python "Team Knowledge/scripts/telegram-capture-mvp.py" --once
+python "Studio/Team Knowledge/scripts/telegram-capture-mvp.py" --once
 ```
 
 ## Commands

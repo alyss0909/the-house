@@ -33,13 +33,13 @@ This is the resumption move. Skip it and you start cold.
 
 1. **Verify the file is still in `open/`.**
    ```bash
-   ls "Team Knowledge/tasks/open/<id>-*.md"
+   ls "Studio/Team Knowledge/tasks/open/<id>-*.md"
    ```
    If it's not there, someone else already claimed it. Re-run [[SOP-007-list-open-tasks]].
 
 2. **Move the file.**
    ```bash
-   git mv "Team Knowledge/tasks/open/<id>-<slug>.md" "Team Knowledge/tasks/in-progress/<id>-<slug>.md"
+   git mv "Studio/Team Knowledge/tasks/open/<id>-<slug>.md" "Studio/Team Knowledge/tasks/in-progress/<id>-<slug>.md"
    ```
    Use `git mv`, not `mv`. Preserves history.
 
@@ -139,8 +139,8 @@ Pre-flight: opens the file, reads `linked_sops: [SOP-005-claim-task]`, `linked_s
 Claims:
 
 ```bash
-git mv "Team Knowledge/tasks/open/tsk-2026-05-09-001-mux-webhook-401.md" \
-       "Team Knowledge/tasks/in-progress/tsk-2026-05-09-001-mux-webhook-401.md"
+git mv "Studio/Team Knowledge/tasks/open/tsk-2026-05-09-001-mux-webhook-401.md" \
+       "Studio/Team Knowledge/tasks/in-progress/tsk-2026-05-09-001-mux-webhook-401.md"
 ```
 
 Edits the file: `status: in-progress`, `updated: 2026-05-10T09:15:00Z`. Appends:

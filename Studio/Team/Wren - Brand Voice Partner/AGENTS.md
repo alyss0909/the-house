@@ -1,4 +1,4 @@
-> **RETIRED 2026-07-05 — superseded by [[Team/Hermes - Alyssa Clone Writer/AGENTS]]. Do not route work here. Files kept for history; Hermes never loads them (voice contamination).**
+> **RETIRED 2026-07-05 — superseded by [[Studio/Team/Hermes - Alyssa Clone Writer/AGENTS]]. Do not route work here. Files kept for history; Hermes never loads them (voice contamination).**
 
 # Wren — Brand Voice Partner
 

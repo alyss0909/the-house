@@ -26,6 +26,6 @@ Week numbers follow ISO 8601 (Monday starts the week).
 
 ## Relationship to other tiers
 
-- Feeds into **monthly reviews** (`Team Knowledge/Monthly Reviews/`). The monthly review reads weekly wraps, not raw session logs.
-- Sourced from **session logs** (`Team Knowledge/session-logs/YYYY/MM/`).
+- Feeds into **monthly reviews** (`Studio/Team Knowledge/Monthly Reviews/`). The monthly review reads weekly wraps, not raw session logs.
+- Sourced from **session logs** (`Studio/Team Knowledge/session-logs/YYYY/MM/`).
 - Workstream definition: [[WS-006-weekly-review]]

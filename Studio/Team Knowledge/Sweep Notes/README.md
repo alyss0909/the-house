@@ -6,4 +6,4 @@ Monthly and quarterly deep sweep outputs live here.
 
 The weekly light sweep output goes inline into the weekly wrap note (WS-006), not here.
 
-See [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] for how these are produced.
+See [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] for how these are produced.

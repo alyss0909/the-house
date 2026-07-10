@@ -20,7 +20,7 @@ Before triage, refresh the capture sources that feed `Notebook/Inbox/`.
 Current refresh actions:
 
 - **KeepSidian:** manual-only refresh. Do not auto-launch Obsidian. Do not trigger `obsidian://` URIs. If sync state cannot be confirmed, record "KeepSidian sync not confirmed" and continue.
-- **Meetily:** **Daily Meeting Clean** is handled by `Team Knowledge/Automations/meetily-inbox-prep.ps1`. It scans `D:/Alyssa/Music/meetily-recordings` for completed meeting folders, creates missing lightweight pointer notes in `Notebook/Inbox/Meeting Captures/`, deletes audio/video after 7 days, and retires transcripts only after processed meeting memory exists.
+- **Meetily:** **Daily Meeting Clean** is handled by `Studio/Team Knowledge/Automations/meetily-inbox-prep.ps1`. It scans `D:/Alyssa/Music/meetily-recordings` for completed meeting folders, creates missing lightweight pointer notes in `Notebook/Inbox/Meeting Captures/`, deletes audio/video after 7 days, and retires transcripts only after processed meeting memory exists.
 
 Source refresh does not interpret inbox items or write final notes. Meetily media cleanup is the one mechanical exception: old audio/video deletes after the retention window because transcripts remain available as temporary source.
 
@@ -99,7 +99,7 @@ Table format:
 
 **Team brief column rules:**
 - If the item has a clear content type AND has Alyssa's kind of energy (check taste-log.md), propose a specific brief: `Hermes → [content type]` or `Pax → [research question]` or `Charta → [design type]`
-- If Alyssa approves the row AND a team brief is proposed: Larry creates the brief automatically — a task file in `Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (or the weekly pitch loop for social content) — no separate ask required
+- If Alyssa approves the row AND a team brief is proposed: Larry creates the brief automatically — a task file in `Studio/Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (or the weekly pitch loop for social content) — no separate ask required
 - If Alyssa approves the row AND overrides the team brief column: honor the override, update the queue accordingly
 - A blank `—` in the team brief column means Larry assessed it and found no immediate activation opportunity. Alyssa can override this too.
 

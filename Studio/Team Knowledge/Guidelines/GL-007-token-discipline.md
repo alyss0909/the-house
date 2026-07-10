@@ -6,7 +6,7 @@ last_updated: 2026-06-05
 tags: [token-discipline, context, performance]
 ---
 
-← [[Team Knowledge/Guidelines/INDEX|Guidelines]]
+← [[Studio/Team Knowledge/Guidelines/INDEX|Guidelines]]
 
 ---
 
@@ -26,9 +26,9 @@ Token discipline is not optional. It is a team performance standard. Every agent
 |---|---|---|
 | Second Brain (copy tasks) | `PKM/Second Brain/COMPASS.md` | ~100 lines |
 | Second Brain (full routing detail) | `analysis/copy-task-routing.md` | 545 lines (reference only) |
-| Team Knowledge | `Team Knowledge/INDEX.md` | ~45 lines |
+| Team Knowledge | `Studio/Team Knowledge/INDEX.md` | ~45 lines |
 | PKM | `PKM/INDEX.md` | per INDEX standard |
-| Guidelines | `Team Knowledge/Guidelines/INDEX.md` | ~26 lines |
+| Guidelines | `Studio/Team Knowledge/Guidelines/INDEX.md` | ~26 lines |
 
 **Do not enter `analysis/`, `examples/`, `frameworks/`, or `programs/` directly.** Route through the entry point first.
 

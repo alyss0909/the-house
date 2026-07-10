@@ -4,7 +4,7 @@
 - **Default owner:** Charta
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. Pixel can invoke this SOP when stylizing on top of a structural draft. Penn can invoke it to lay out a captured idea. Any specialist who needs to turn information into a single-image, scannable layout follows this procedure.
 - **Triggered by:** "make me an infographic", "lay this out as one image", "I need a flowchart / decision tree / swimlane / timeline / hub-and-spoke / quadrant matrix", "make a one-pager", "create a cheat sheet", "draft the layout, then we'll polish it".
-- **References:** [[GL-003-design-system]], [[GL-001-file-naming-conventions]], [[Team/Charta - Infographic Designer/AGENTS]], [[SOP-017-generate-a-styled-image]] (for the stylization handoff).
+- **References:** [[GL-003-design-system]], [[GL-001-file-naming-conventions]], [[Studio/Team/Charta - Infographic Designer/AGENTS]], [[SOP-017-generate-a-styled-image]] (for the stylization handoff).
 
 ## Purpose
 
@@ -142,7 +142,7 @@ If the deliverable was structurally complete but needs photographic, illustrated
 
 ### Step 9 — Session-log entry
 
-Write `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
+Write `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_<topic-slug>.md` with type `end-of-session`. Capture:
 
 - Brief and content shape
 - Layout chosen and why

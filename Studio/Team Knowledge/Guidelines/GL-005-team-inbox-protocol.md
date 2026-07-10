@@ -60,7 +60,7 @@ Move the processed file to `_Processed/`. Do not delete (permission restriction)
 
 - Files you already know where to file — write them directly in PKM
 - Files waiting to be deleted — move to `_Processed/`
-- Team output artifacts (research briefs, session logs, deliverables) — those go to `Deliverables/` or `Team Knowledge/session-logs/`
+- Team output artifacts (research briefs, session logs, deliverables) — those go to `Deliverables/` or `Studio/Team Knowledge/session-logs/`
 
 ---
 

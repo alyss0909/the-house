@@ -505,7 +505,7 @@ After hire/retrain:
 
 Create:
 
-- `Team/Suki - Social Media Strategist/HIRING-PLAN-v2.md`
+- `Studio/Team/Suki - Social Media Strategist/HIRING-PLAN-v2.md`
 - drafts for SOP-033 through SOP-037, or a single `Deliverables/YYYY-MM-DD-content-os-sop-draft-pack.md` if Alyssa wants to review before files become canonical.
 - revised `WS-011-weekly-carousel-pitch.md` draft or patch plan.
 - a short approval memo for Alyssa: what changed, what she is approving, what happens after yes.

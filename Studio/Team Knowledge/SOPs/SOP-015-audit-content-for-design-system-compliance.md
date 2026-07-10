@@ -4,7 +4,7 @@
 - **Default owner:** Iris
 - **Reusable by any agent.** This is a skill, not a 1:1 ownership. Charta and Pixel can self-audit before delivering. The user can request a full deliverables sweep. Any specialist who needs to verify visual consistency against [[GL-003-design-system]] can run this procedure.
 - **Triggered by:** "audit my deliverables", "are my slides on-brand", "is this consistent with my brand", "the visuals look inconsistent across decks", new GL-003 token added that needs propagation, periodic sweep.
-- **References:** [[GL-003-design-system]] (the SSOT being audited against), [[SOP-014-author-a-design-system]] (the authoring partner skill), [[Team/Iris - Design System Architect/AGENTS]].
+- **References:** [[GL-003-design-system]] (the SSOT being audited against), [[SOP-014-author-a-design-system]] (the authoring partner skill), [[Studio/Team/Iris - Design System Architect/AGENTS]].
 
 ## Purpose
 
@@ -130,7 +130,7 @@ Iris does **not** silently rewrite the user's deliverables. The audit names; the
 
 ### Step 7 — Session-log entry
 
-Write `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_audit-<topic-slug>.md` with type `end-of-session`. Capture:
+Write `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_<agent-id>_audit-<topic-slug>.md` with type `end-of-session`. Capture:
 
 - Audit scope and report path
 - Violation counts by severity

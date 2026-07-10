@@ -18,7 +18,7 @@ The monthly review used to produce a document summarizing sessions. Now it produ
 
 Follow SOP-013 (Monthly Deep Sweep mode). Scope: all journal entries and captures from the previous calendar month.
 
-Output: `Team Knowledge/Sweep Notes/YYYY-MM-deep-sweep.md`
+Output: `Studio/Team Knowledge/Sweep Notes/YYYY-MM-deep-sweep.md`
 
 ---
 
@@ -64,7 +64,7 @@ Action: Update taste-log.md with new patterns. Remove stale YES patterns that ha
 
 Questions to answer:
 1. What did the team produce this month?
-2. How many open content tasks (in `Team Knowledge/tasks/open/`) closed vs. how many stalled?
+2. How many open content tasks (in `Studio/Team Knowledge/tasks/open/`) closed vs. how many stalled?
 3. What slowed things down? (Missing source material? Unclear brief? Wrong assignee?)
 4. Are there standing instructions in WS-008 that should be updated based on this month's activation patterns?
 
@@ -85,7 +85,7 @@ Format: a 1-page brief written in plain language, as if briefing a new team memb
 
 ## Step 7 — Write the Monthly Intelligence Report
 
-File: `Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-intelligence-report.md`
+File: `Studio/Team Knowledge/Monthly Reviews/YYYY/YYYY-MM-intelligence-report.md`
 
 Structure:
 ```
@@ -119,14 +119,14 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 
 ## Cross-references
 
-- [[Team Knowledge/Workstreams/WS-007-monthly-review.md]] — session log aggregation, runs before this
-- [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — called in Step 1
+- [[Studio/Team Knowledge/Workstreams/WS-007-monthly-review.md]] — session log aggregation, runs before this
+- [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — called in Step 1
 - [[Studio/Signals/signals-index.md]] — updated in Steps 1-3
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — updated in Step 3
 - [[Hermes/learning/inbox.md]] — updated in Step 2
 - [[PKM/Second Brain/taste-log.md]] — updated in Step 4
 - [[PKM/Second Brain/yes-pattern.md]] — updated in Step 6
-- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
+- `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 
 ## Source-trust metabolism overlay
 

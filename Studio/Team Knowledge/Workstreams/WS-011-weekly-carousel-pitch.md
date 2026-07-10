@@ -11,7 +11,7 @@ approved_by: Alyssa (2026-07-06 original; 2026-07-08 Gate-2 SOP-ization of the p
 
 > **This workstream is now choreography: it CALLS the Content OS SOPs (SOP-033 → SOP-038) in order.** Each rung's judgment, pass/fail, and Mean Alyssa ammo live in its SOP — this file is the sequence and the gates. Load [[GL-010-content-pitch-operating-brain]] for the operating-brain judgment layer and [[GL-007-token-discipline]] for how to think while running it.
 
-> **Strategic lead: [[Team/Suki - Social Media Strategist/AGENTS|Suki]].** Suki sits ABOVE the makers — she directs which sources each rung reads (via SOP-038), arms Mean Alyssa (SOP-037), and tunes strategy. She does NOT execute a rung; the makers execute, Alyssa decides, Larry runs the mechanical gate. See [[GL-012-content-os-strategy-lead-charter]].
+> **Strategic lead: [[Studio/Team/Suki - Social Media Strategist/AGENTS|Suki]].** Suki sits ABOVE the makers — she directs which sources each rung reads (via SOP-038), arms Mean Alyssa (SOP-037), and tunes strategy. She does NOT execute a rung; the makers execute, Alyssa decides, Larry runs the mechanical gate. See [[GL-012-content-os-strategy-lead-charter]].
 
 Pitches Alyssa simple carousel concepts that sound like her, sell the week's offers, and follow the weekly theme grid — then walks the survivors down the ladder (hook → substance → voice) with a Mean Alyssa gate at every rung. Built from the 2026-07-06 four-rejection post-mortem and resourced in the 2026-07-08 HANDOFF-3 reset.
 

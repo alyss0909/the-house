@@ -3,7 +3,7 @@
 - **Status:** Active (since v1.7.0)
 - **Type:** Workstream — a multi-agent composition. The agents below collaborate to deliver the outcome. New Workstreams emerge when patterns repeat across session-logs; this one ships pre-canonicalized because Expansions are a day-1 install/uninstall flow that needs the multi-agent choreography (Larry → Vex → Nolan → Mack → Silas → Larry) wired correctly out of the box. **Pre-canonicalized exception**, alongside [[WS-001-daily-journaling]] and [[WS-002-import-external-knowledge-base]].
 - **Owners:** **Larry** (orchestrator, pre-flight, post-install validation, archive, announcement). **Vex** (security review — gate). **Nolan** (team merge — copies agents, SOPs, guidelines, templates into your myPKA). **Mack** (connector wiring — env vars, MCP servers, runtime announcement). **Silas** (post-merge integrity check).
-- **References:** `Expansions/docs/expansion-spec.md` (locked manifest schema), [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[SOP-001-how-to-add-a-new-specialist]] (Nolan's hire procedure — adapted here for pack-shaped hires), [[Team/agent-index]].
+- **References:** `Expansions/docs/expansion-spec.md` (locked manifest schema), [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[SOP-001-how-to-add-a-new-specialist]] (Nolan's hire procedure — adapted here for pack-shaped hires), [[Studio/Team/agent-index]].
 - **Triggered by:** any user phrasing that signals "install or uninstall an Expansion." See **Trigger contract** below. Also: Larry detects new folders in `Expansions/` on session boot and offers to run this workstream.
 
 ## Purpose
@@ -38,7 +38,7 @@ Larry reads `Expansions/<slug>/expansion.yaml` and validates against the schema 
 
 1. **Required fields present?** `name`, `slug`, `version`, `description`, `category`, `expansion_type`, `requires_scaffold_version`, `requires_agents`, `license`, `author`. Missing or malformed → `invalid` row in `INDEX.md`, install blocked, surface the error to the user.
 2. **`requires_scaffold_version` matches?** Larry compares against `VERSION`. Mismatch → `incompatible` row, install blocked.
-3. **`requires_agents` present?** Larry checks each entry against `Team/agent-index.md`. Missing pre-hire → block install with "install [X] Expansion first" or "run SOP-001 to hire [X]".
+3. **`requires_agents` present?** Larry checks each entry against `Studio/Team/agent-index.md`. Missing pre-hire → block install with "install [X] Expansion first" or "run SOP-001 to hire [X]".
 4. **Folder name = `slug`?** If not, Larry stops and asks the user to rename.
 
 If all checks pass, Larry presents the **install preview** to the user:
@@ -97,32 +97,32 @@ Nolan executes the file-level merge. Read-and-confirm each operation before writ
 For each `{ name, role, folder }` entry:
 
 1. Confirm `Expansions/<slug>/agents/<folder>/AGENTS.md` exists.
-2. Check `Team/<folder>/` does not already exist. Collision → stop, ask user (rename / skip / overwrite).
-3. Copy the entire `Expansions/<slug>/agents/<folder>/` directory to `Team/<folder>/`.
-4. Append a row to `Team/agent-index.md` for the new specialist (name, folder, role description). Format: match the existing index's row shape.
+2. Check `Studio/Team/<folder>/` does not already exist. Collision → stop, ask user (rename / skip / overwrite).
+3. Copy the entire `Expansions/<slug>/agents/<folder>/` directory to `Studio/Team/<folder>/`.
+4. Append a row to `Studio/Team/agent-index.md` for the new specialist (name, folder, role description). Format: match the existing index's row shape.
 5. Update root `AGENTS.md` "The team" table to bump the count and add the new row.
-6. Update `Team/Larry - Orchestrator/AGENTS.md` routing cheatsheet with any triggers the new agent should own (pulled from the agent's own AGENTS.md or from the Expansion's `ADAPT-EXPANSION.md` hint table).
+6. Update `Studio/Team/Larry - Orchestrator/AGENTS.md` routing cheatsheet with any triggers the new agent should own (pulled from the agent's own AGENTS.md or from the Expansion's `ADAPT-EXPANSION.md` hint table).
 
 ### 3.2 SOPs (`adds_sops`) — auto-numbered
 
 For each `{ default_owner, file }` entry:
 
-1. Read the next free `SOP-NNN` slot by scanning `Team Knowledge/SOPs/` (zero-padded, no skips per [[GL-001-file-naming-conventions]]).
-2. Copy `Expansions/<slug>/sops/<file>` (or wherever the manifest points) to `Team Knowledge/SOPs/SOP-NNN-<derived-slug>.md`. Slug derived from the source filename minus the descriptive `SOP-` prefix the author used (e.g. `SOP-slack-post-message.md` → slug `slack-post-message` → `SOP-NNN-slack-post-message.md`).
-3. Update `Team Knowledge/SOPs/INDEX.md` with a new row: number, title, default owner, one-line description.
+1. Read the next free `SOP-NNN` slot by scanning `Studio/Team Knowledge/SOPs/` (zero-padded, no skips per [[GL-001-file-naming-conventions]]).
+2. Copy `Expansions/<slug>/sops/<file>` (or wherever the manifest points) to `Studio/Team Knowledge/SOPs/SOP-NNN-<derived-slug>.md`. Slug derived from the source filename minus the descriptive `SOP-` prefix the author used (e.g. `SOP-slack-post-message.md` → slug `slack-post-message` → `SOP-NNN-slack-post-message.md`).
+3. Update `Studio/Team Knowledge/SOPs/INDEX.md` with a new row: number, title, default owner, one-line description.
 4. If the SOP body references its own filename (back-pointers, internal links), Nolan rewrites those references to the new auto-numbered name. **All internal `[[wikilinks]]` are checked.**
 
 ### 3.3 Guidelines (`adds_guidelines`)
 
-Same shape as SOPs, with `GL-NNN-` prefix. Index update at `Team Knowledge/Guidelines/INDEX.md`.
+Same shape as SOPs, with `GL-NNN-` prefix. Index update at `Studio/Team Knowledge/Guidelines/INDEX.md`.
 
 ### 3.4 Workstreams (`adds_workstreams`)
 
-Same shape as SOPs, with `WS-NNN-` prefix. Index update at `Team Knowledge/Workstreams/INDEX.md`. **Reminder:** workstreams are normally emergent; an Expansion shipping a workstream is the exception, not the rule.
+Same shape as SOPs, with `WS-NNN-` prefix. Index update at `Studio/Team Knowledge/Workstreams/INDEX.md`. **Reminder:** workstreams are normally emergent; an Expansion shipping a workstream is the exception, not the rule.
 
 ### 3.5 Templates (`adds_templates`)
 
-Copy each path under `Team Knowledge/Templates/`. If a template with the same name exists, stop and ask. Update `Team Knowledge/Templates/INDEX.md`.
+Copy each path under `Studio/Team Knowledge/Templates/`. If a template with the same name exists, stop and ask. Update `Studio/Team Knowledge/Templates/INDEX.md`.
 
 ### 3.6 Failure rollback
 
@@ -134,8 +134,8 @@ If any step in §3 fails after writes have started, Nolan rolls back: undo every
 
 Silas validates your myPKA state after Nolan's merge:
 
-1. **Frontmatter compliance.** Any new template added under `Team Knowledge/Templates/` must validate against [[GL-002-frontmatter-conventions]]. Any new agent's AGENTS.md gets a structural sanity check (has Identity, Role, etc. sections).
-2. **`agent-index.md` consistency.** Every folder under `Team/` is listed in the index, and every index row points to an existing folder.
+1. **Frontmatter compliance.** Any new template added under `Studio/Team Knowledge/Templates/` must validate against [[GL-002-frontmatter-conventions]]. Any new agent's AGENTS.md gets a structural sanity check (has Identity, Role, etc. sections).
+2. **`agent-index.md` consistency.** Every folder under `Studio/Team/` is listed in the index, and every index row points to an existing folder.
 3. **Wikilink resolution.** Every `[[wikilink]]` in the new files resolves to an existing target. Broken links → flag to Larry, do not auto-fix.
 4. **INDEX.md consistency.** SOPs, Workstreams, Guidelines, Templates indexes match the actual folder contents.
 5. **No SSOT violations introduced.** New SOPs/Guidelines/Workstreams don't duplicate existing rules. Soft warning if Silas detects overlap.
@@ -193,8 +193,8 @@ Failures → Larry surfaces them to the user. Two paths: (a) re-run the failing 
 
 ## Step 7 — Larry: archive + announce
 
-1. **Write session-log entry.** `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_larry_install-<slug>-v<version>.md`. Capture: which Expansion, version, agents added, SOPs added (with their new SOP-NNN numbers), Vex's verdict, env vars set (keys only, never values), runtime announced (yes/no), validation results, anomalies.
-2. **Archive the Expansion folder.** Move the live install marker to `Expansions/_installed/<slug>-<version>/.manifest.json` so the active `Expansions/` slot is freed (the actual files merged into `Team/` and `Team Knowledge/` are the canonical home now). The `.manifest.json` is a snapshot of `expansion.yaml` plus the install metadata (timestamp, who installed, sha256). This is what Larry reads to detect "is this Expansion installed?" on future session boots.
+1. **Write session-log entry.** `Studio/Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_larry_install-<slug>-v<version>.md`. Capture: which Expansion, version, agents added, SOPs added (with their new SOP-NNN numbers), Vex's verdict, env vars set (keys only, never values), runtime announced (yes/no), validation results, anomalies.
+2. **Archive the Expansion folder.** Move the live install marker to `Expansions/_installed/<slug>-<version>/.manifest.json` so the active `Expansions/` slot is freed (the actual files merged into `Studio/Team/` and `Studio/Team Knowledge/` are the canonical home now). The `.manifest.json` is a snapshot of `expansion.yaml` plus the install metadata (timestamp, who installed, sha256). This is what Larry reads to detect "is this Expansion installed?" on future session boots.
 3. **Update `Expansions/INDEX.md`.** Add a row for the newly installed Expansion.
 4. **Announce the new specialists / capabilities** to the user. For agent packs: introduce each new agent by name and role. For connectors: tell the user which triggers now route to the connector and the SOP they own. For runtimes: confirm how to launch.
 5. **Walk through `post_install_steps`.** Larry reads each step aloud (figuratively) and either executes it or hands it to the user.
@@ -214,7 +214,7 @@ Larry reads `Expansions/_installed/<slug>-<version>/.manifest.json`. If not foun
 ```
 Will remove:
   - N agents from Team/
-  - M SOPs from Team Knowledge/SOPs/ (with their SOP-NNN numbers)
+  - M SOPs from Studio/Team Knowledge/SOPs/ (with their SOP-NNN numbers)
   - K guidelines, L workstreams, P templates
   - Runtime: yes/no (will stop the listener)
   - launchd plist: yes/no (will unload + remove)
@@ -234,7 +234,7 @@ For runtime Expansions: `launchctl unload` the plist (macOS); kill the foregroun
 
 ### U3 — Nolan: reverse the merge
 
-For each `adds_agents` entry: remove `Team/<folder>/`, remove the row from `Team/agent-index.md`, remove the row from root `AGENTS.md` team table. Decrement the team count.
+For each `adds_agents` entry: remove `Studio/Team/<folder>/`, remove the row from `Studio/Team/agent-index.md`, remove the row from root `AGENTS.md` team table. Decrement the team count.
 
 For each `adds_sops` entry: identify the installed `SOP-NNN-<slug>.md` (via the install session-log or by slug match), remove the file, remove the index row. **Do not renumber existing SOPs** — `[[GL-001-file-naming-conventions]]` says no skips, but uninstall produces a gap. The gap is acceptable. The next install fills the next free slot, which may be the gap.
 
@@ -259,7 +259,7 @@ Write the uninstall session-log entry. Update `Expansions/INDEX.md` to remove th
 | Vex flags YELLOW, user overrides | Logged in the session-log with explicit user-consent line. Vex re-audits if the Expansion is later updated. |
 | Vex flags RED | Install blocked. No override. Larry tells the user the specific concern. |
 | `requires_agents` missing | Install blocked. Larry tells the user "install <X> Expansion first" or "run SOP-001 to hire <X>". |
-| Collision: `Team/<folder>/` already exists | Nolan stops at §3. User chooses: rename (suffix `-from-<slug>`), skip that agent, or abort install. |
+| Collision: `Studio/Team/<folder>/` already exists | Nolan stops at §3. User chooses: rename (suffix `-from-<slug>`), skip that agent, or abort install. |
 | Collision: SOP slug already taken | Nolan auto-resolves by appending `-<slug>` to the SOP slug (e.g., `SOP-NNN-post-message-slack.md`). |
 | Mid-install failure | Nolan rolls back §3 writes. Mack rolls back §5 if reached. Vault returns to pre-install state. Failure logged. |
 | Post-install validation fails | Larry surfaces; user chooses re-run or accept. |

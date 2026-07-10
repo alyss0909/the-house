@@ -3,7 +3,7 @@
 **Slug:** `hermes`
 **Hired:** 2026-07-05
 **Status:** Active
-**Supersedes:** Wren (Brand Voice Partner, retired 2026-07-05 — see [[Team/Wren - Brand Voice Partner/AGENTS]])
+**Supersedes:** Wren (Brand Voice Partner, retired 2026-07-05 — see [[Studio/Team/Wren - Brand Voice Partner/AGENTS]])
 
 ## Identity
 
@@ -63,7 +63,7 @@ Every correction, approval, or new Alyssa artifact gets one verbatim dated line 
 
 ## Cross-references
 
-- Routing table: [[Team/agent-index]]
+- Routing table: [[Studio/Team/agent-index]]
 - Hiring/retirement procedure: [[SOP-001-how-to-add-a-new-specialist]]
 - Token discipline: [[GL-007-token-discipline]]
 - Ponytail discipline (reuse her existing lines before inventing): [[GL-008-ponytail-lazy-senior-dev-philosophy]]

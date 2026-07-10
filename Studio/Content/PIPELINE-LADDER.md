@@ -29,7 +29,7 @@ maker produces options → Mean Alyssa tries to destroy them all → survivors �
 - Mean Alyssa tries to destroy each.
 - Alyssa picks one hook.
 
-**RUNG 3 — DEEP TEACHING** *(Substance specialist = [[Team/Cassius - Substance Specialist/AGENTS|Cassius]], hired 2026-07-07)* — go deeper now
+**RUNG 3 — DEEP TEACHING** *(Substance specialist = [[Studio/Team/Cassius - Substance Specialist/AGENTS|Cassius]], hired 2026-07-07)* — go deeper now
 - The real teaching: how is this genuinely helpful? Alyssa's unique way of teaching it? where's the aha / screenshot moment / persuasion? (edit #3)
 - Cassius produces the **carousel arc** per [[GL-011-substance-arc-contract]]: per-slide `[what it shows] → so that [belief shifted]`, carrying real persuasive copy that agitates the reader's pain, real numbers only, attribution header. Substance + strategy made legible — NOT final voice copy (that's Hermes at Rung 4).
 - Mean Alyssa attacks: where's the aha? generic advice? nobody screenshots this? is a number invented? is the arc actually persuasive or just an outline?

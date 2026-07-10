@@ -8,7 +8,7 @@ This is the source of truth for the `Deliverables/` folder — what goes there, 
 
 `Deliverables/` at the repository root is the only deliverables location in myPKA.
 
-`Team Knowledge/` does not have a deliverables subfolder. Session logs belong in `Team Knowledge/session-logs/`. SOPs, Workstreams, and Guidelines belong in their respective subfolders. Nothing that belongs in `Deliverables/` belongs in `Team Knowledge/`.
+`Studio/Team Knowledge/` does not have a deliverables subfolder. Session logs belong in `Studio/Team Knowledge/session-logs/`. SOPs, Workstreams, and Guidelines belong in their respective subfolders. Nothing that belongs in `Deliverables/` belongs in `Studio/Team Knowledge/`.
 
 ## What goes in Deliverables/
 
@@ -22,8 +22,8 @@ Goes here:
 - Any artifact the team produces that has a clear "done" state
 
 Does not go here:
-- Session logs → `Team Knowledge/session-logs/`
-- SOPs, Workstreams, Guidelines → `Team Knowledge/SOPs/`, `/Workstreams/`, `/Guidelines/`
+- Session logs → `Studio/Team Knowledge/session-logs/`
+- SOPs, Workstreams, Guidelines → `Studio/Team Knowledge/SOPs/`, `/Workstreams/`, `/Guidelines/`
 - Raw captures or in-progress notes → `Notebook/Inbox/`
 - Personal knowledge notes → `PKM/`
 
