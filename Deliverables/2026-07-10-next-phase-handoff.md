@@ -65,18 +65,18 @@ Full current landscape, Claude scheduled tasks (`mcp__scheduled-tasks__list_sche
 
 | Task | Status this session | Notes |
 |---|---|---|
-| `hermes-deep-voice-study` + `-645` | **Fixed this session** | Was pointing at dead `PKM/Second Brain/` paths post-restructure. Repointed to `Library/Examples/`, `Library/Programs/`. |
+| `hermes-deep-voice-study` + `-645` | **Fixed this session** | Two bugs, both fixed: (1) dead `PKM/Second Brain/` paths post-restructure, repointed to `Library/Examples/`, `Library/Programs/`; (2) the cron was scoped to `5-7 7 *` (day 5-7, July only) — a one-week pilot window that was never lifted to a recurring schedule, so both tasks were stuck not firing again until July 2027. Fixed to run daily (`0 4,5 * * *` and `45 6 * * *`); confirmed `nextRunAt` is now 2026-07-11. |
 | `monthly-trend-scout-scrape` | **Fixed this session** | Was pointing at a completely different, retired folder (`mypka-scaffold-latest (2)`) — not this vault at all. Repointed to `the-house` + `Studio/Content/trusted-sources.md` + `Studio/Content/swipe/`. |
 | `instagram-saves-health-check`, `instagram-saves-ideation` | Untouched, already correct | Reference `C:\Users\accol\instagram-saves-engine\` (outside the vault) and Notion DBs directly — no vault-path dependency to break. |
 | `house-keeping-weekly`, `house-keeping-monthly-deep` | Fixed in the Bring It Home session | Repointed to `Studio/Team Knowledge/SOPs/SOP-039...` and `HOUSE-MAP`. |
 
-Windows Task Scheduler (`Get-ScheduledTask`), found but **not yet resolved:**
+Windows Task Scheduler (`Get-ScheduledTask`):
 
 | Task | State | Notes |
 |---|---|---|
 | `TelegramCaptureBot` | Running, correct | Fixed during Bring It Home — points at `Studio/Team Knowledge/scripts/`. |
 | `Meetily Weekly Launcher` | Ready, correct | Fixed during Bring It Home — points at `Studio/Team Knowledge/Automations/`. |
-| `myPKA - Telegram Capture Bot` | **Disabled, stale** | A second, different Telegram-bot task, registered by `telegram-service-install.ps1`, pointing at `mypka-scaffold-latest (2)\Team Knowledge\scripts\` — a folder this vault declared independence from. Harmless while Disabled, but it's dead weight and a confusing duplicate of `TelegramCaptureBot`. Flagged, not removed — deleting a registered scheduled task felt like it deserved a yes rather than a solo call. |
+| `myPKA - Telegram Capture Bot` | **Disabled, stale — deletion blocked on Administrator rights** | Alyssa said kill it. Attempted via `Unregister-ScheduledTask` and `schtasks.exe /Delete` from this session's shell — both refused with Access Denied. The task was registered elevated (`RunLevel Highest`, S4U) by `telegram-service-install.ps1`, so removing it needs an elevated shell too. **Next session (or Alyssa directly): open PowerShell as Administrator and run** `Unregister-ScheduledTask -TaskName "myPKA - Telegram Capture Bot" -Confirm:$false`. Harmless sitting there in the meantime. |
 
 **Recommended shape for the session:** the two fixes above are already done; the one remaining item (the stale Disabled Windows task) is a 30-second solo cleanup once Alyssa confirms she's fine with it being removed — genuinely doesn't need a sit-down, just a yes/no.
 

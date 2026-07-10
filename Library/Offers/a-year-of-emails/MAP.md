@@ -1,4 +1,4 @@
-﻿---
+---
 name: A Year of Emails
 offer_type: low_ticket
 status: needs_edits
