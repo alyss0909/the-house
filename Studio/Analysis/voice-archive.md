@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 status: AI-mined draft — awaiting Alyssa review
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Studio/Analysis/voice-profile|voice-profile.md]] | [[Studio/Analysis/writing-style|Writing Style]] | [[Studio/Analysis/me|me.md]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Studio/Analysis/voice-profile|voice-profile.md]] | [[Studio/Analysis/writing-style|Writing Style]] | [[Library/me|me.md]]
 
 ---
 

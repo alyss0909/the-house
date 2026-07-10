@@ -7,7 +7,7 @@ source_files:
   - Studio/Analysis/subject-line.md
   - Studio/Analysis/writing-style.md
   - Studio/Analysis/copy-task-routing.md
-  - Studio/Analysis/me.md
+  - Library/me.md
   - Library/Examples/about-page.md
 tags: [subject-lines, email]
 ---

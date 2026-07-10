@@ -10,7 +10,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 - `Library/Programs/back-of-house/` — 24 transcripts (her actual speech; highest voice signal), workbooks, slides, scriptbook.md (707 lines of her template voice), bots.md, webinars/ (3 full pitch transcripts). Enter via BOH-COMPASS.md.
 - `Library/Offers/` — 27 offer files, positioning in her words.
 - `Notebook/Journal/` — 544 entries 2020-2026; raw unperformed thinking. June 2026 cluster is densest; `2026/06/2026-06-06-boh-launch-email-inspo.md` is the single highest-signal file in the vault (raw voice memo). Saved-inspiration entries are taste-only, not voice. (Moved from `PKM/Journal/` 2026-07-09.)
-- `Studio/Analysis/me.md` — facts layer.
+- `Library/me.md` — facts layer. Promoted by Alyssa 2026-07-10 (`promoted_by: alyssa`).
 
 ## Tier 2 — Interpretation (navigate with, never voice-train on)
 

@@ -3,9 +3,11 @@ name: me.md — Identity Anchor
 type: identity
 description: Who Alyssa is, what she sells, her voice in five words, and where to find real examples. The single file to read before writing anything as her. Built from real copy (about page, home page, BOH sales page, webinars).
 last_updated: 2026-06-03
+promoted_by: alyssa
+promoted_date: 2026-07-10
 ---
 
-← [[Studio/Analysis/COMPASS|Second Brain]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Library/Examples/about-page|About Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]]
+← [[Library/MAP|Library]] | [[Studio/Analysis/COMPASS|Studio/Analysis]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Library/Examples/about-page|About Page]] | [[Notebook/Life/Key Elements/Business/brand-world|Brand World]]
 
 ---
 
@@ -29,7 +31,7 @@ She teaches creative service providers to build automated email + Pinterest mark
 
 **Brand positioning:** She's not a social media strategist, a mindset coach, or a generic productivity consultant. She's specifically the person who helps you build the behind-the-scenes system that runs while you're offline. The restaurant metaphor is literal: BOH = the Back of House of your business (everything that makes the front-of-house look effortless).
 
-**Audience:** Creative service providers — copywriters, designers, coaches, therapists, nutritionists, professional organizers, "witches." Smart. Good at their work. Slightly burned out by the content hamster wheel. Desperately want permission to stop posting daily.
+**Audience:** Creative service providers — copywriters, designers, coaches, therapists, nutritionists, professional organizers, "witches." Smart. Good at their work. Slightly burned out by the content demands. Desperately want permission to stop posting daily.
 
 ---
 
@@ -50,17 +52,17 @@ See [[Studio/Analysis/writing-style|writing-style.md]] for the full breakdown of
 - Left her dream job 3 months after university to work for herself
 - Had "a series of brief stints" in: environmental policy, nutrition, yoga, waiting tables
 - Has always been an entrepreneur at heart
-- Obsessed with her clients — genuinely
+- Obsessed with her clients, genuinely
 - Crosses things off to-do lists in black pen (a checkmark could never)
 - 5848 tabs open at all times — on her computer and in her head
 - Goes down research rabbit holes for fun
 - Sends "k here's the plan" voice notes from the shower
 - Party trick: getting creatives to reveal the secret biz idea they've never told anyone
-- Has a daughter — takes her to "the far park"
+- Has a daughter; takes her to "the far park"
 - Gets lost going home from the antique market because she forgot her phone
 - Has been cutting her bangs (again)
 - Becoming a clay artist; sourcing scrap leather for journal-making
-- The Portugal origin story: came back from a small fishing village dreading work — that's when everything changed
+- The Portugal origin story: came back from a small fishing village dreading work - that's when everything changed
 
 **The brand origin in one paragraph** (from the about page, her own words):
 > "I realised too late that the cost of running my business the way I had been became too high. So I burned it all down, and did what I do best: Hyperfixated on the problem, until I was inspired again. AT THE END OF THE RABBIT HOLE: Pinterest and Email."
@@ -81,9 +83,9 @@ Anti-metaphor (what she's escaping): **feeding the machine**, **feed the content
 
 She tells the same story across every major page — edited for context. Always includes:
 
-1. Portugal trip — small fishing village, peaceful
+1. Portugal trip - small fishing village, peaceful
 2. Came back and dreaded work for the first time ever
-3. "On paper everything was fine" — business was thriving, maternity leave funded, 3-day work week
+3. "On paper everything was fine" - business was thriving, maternity leave funded, 3-day work week
 4. The real problem: she'd systematized and hired a team, then spent all her time managing them
 5. "Burned it all down" + hyperfixated
 6. Came out the other side with: just Pinterest + Email

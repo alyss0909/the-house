@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 tags: [copy]
 ---
 
-← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/about-page|About Page — Full Copy]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]] | [[Studio/Analysis/me|me.md]]
+← [[Studio/Analysis/INDEX|Analysis]] | [[Library/Examples/about-page|About Page — Full Copy]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/sales-page|Sales Page Analysis]] | [[Library/me|me.md]]
 
 ---
 
@@ -450,5 +450,5 @@ The fable ending is earned because the whole page has been a story. "THE MORAL O
 
 - [[Studio/Analysis/writing-style|Writing Style Analysis]] — full voice system, metaphor catalog, humor mechanics, sentence patterns. Read this alongside the about page analysis for any first-person writing task.
 - [[Studio/Analysis/sales-page|Sales Page Analysis]] — how the same story is structured for conversion vs. trust-building. Essential for understanding why certain things live on the sales page and not here.
-- [[Studio/Analysis/me|me.md]] — Alyssa's compressed identity document. The distilled version of what this analysis unpacks at length.
+- [[Library/me|me.md]] — Alyssa's compressed identity document. The distilled version of what this analysis unpacks at length.
 - [[Library/Examples/about-page|About Page — Full Copy]] — the primary source for this analysis. Read the real copy before using these patterns; the analysis only makes full sense against the source.

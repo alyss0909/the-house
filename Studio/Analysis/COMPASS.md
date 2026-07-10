@@ -22,7 +22,7 @@ Most tasks need `voice-profile.md` + 1–2 additional files. If you are loading 
 
 **`voice-profile.md`** — ~3,000 tokens. Contains identity, voice laws, hard refusals, phrase bank, signature tells, golden examples. This is the full calibration in one file. Load it before any copy task, every time, no exceptions.
 
-*Do not load `me.md` + `writing-style.md` in full as a substitute. `voice-profile.md` already contains the essential content of both. Load full `writing-style.md` only for Level 3 tasks.*
+*Do not load `Library/me.md` + `writing-style.md` in full as a substitute. `voice-profile.md` already contains the essential content of both. Load full `writing-style.md` only for Level 3 tasks.*
 
 ---
 
@@ -65,7 +65,7 @@ Most tasks need `voice-profile.md` + 1–2 additional files. If you are loading 
 |---|---|---|
 | `voice-profile.md` | AI-ready calibration. Full voice in ~3,000 tokens. Load first, always. | Never skip for copy tasks |
 | `writing-style.md` | 14 sections of deep patterns. Load specific sections by number. Never load in full for Level 1–2. | Captions, pins, subject lines, quick edits |
-| `me.md` | Identity anchor. Already covered by voice-profile.md. Use for quick factual lookups only. | Any copy task (use voice-profile.md instead) |
+| `Library/me.md` | Identity anchor (promoted 2026-07-10). Already covered by voice-profile.md. Use for quick factual lookups only. | Any copy task (use voice-profile.md instead) |
 | `copy-task-routing.md` | Full routing rationale — 545 lines. Load only when COMPASS doesn't answer your question or you need the full reasoning. | Normal sessions where you know the task |
 | `sales-page.md` | Section-by-section BOH sales page map. Load only for sales pages, opt-in pages, or when writing a full CTA catalog. | Emails, carousels, social copy |
 | `soft-sunday.md` | SS-specific dos/don'ts, formatting rules, CTA logic. Always load before any Soft Sunday. | Non-SS tasks |

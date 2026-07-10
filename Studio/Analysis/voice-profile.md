@@ -6,7 +6,7 @@ last_updated: 2026-06-03
 status: AI-mined draft — awaiting Alyssa review
 ---
 
-← [[Studio/Analysis/voice-archive|Voice Archive (full 100-Q evidence)]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Studio/Analysis/me|me.md]]
+← [[Studio/Analysis/voice-archive|Voice Archive (full 100-Q evidence)]] | [[Studio/Analysis/writing-style|Writing Style Analysis]] | [[Library/me|me.md]]
 
 ---
 

@@ -6,7 +6,7 @@ last_updated: 2026-07-04
 tags: [copy]
 ---
 
-← [[Studio/Analysis/COMPASS|Second Brain]] | [[Studio/Analysis/me|me.md]] | [[Studio/Analysis/INDEX|Analysis Index]] | [[Library/Examples/INDEX|Examples Index]]
+← [[Studio/Analysis/COMPASS|Second Brain]] | [[Library/me|me.md]] | [[Studio/Analysis/INDEX|Analysis Index]] | [[Library/Examples/INDEX|Examples Index]]
 
 ---
 

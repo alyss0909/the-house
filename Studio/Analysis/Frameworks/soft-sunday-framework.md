@@ -495,4 +495,4 @@ When in doubt: could you remove every link and every offer from the email and st
 
 ---
 
-*Evidence base: 7 Soft Sunday emails analyzed — "Why I burned down my business," "I FIXED your email list," "Your list called, they're hungry," "I failed (formula for growth)," "ur not new march plan," "If Lorelai had an online biz," and "Me I need ideas" (structural reference only; voice flagged as too AI). Cross-referenced with [[Studio/Analysis/me.md]] and [[Studio/Analysis/writing-style|writing-style.md]]. Single-source claims are marked with [single-source]. All section taglines verified verbatim against at least 2 examples.*
+*Evidence base: 7 Soft Sunday emails analyzed — "Why I burned down my business," "I FIXED your email list," "Your list called, they're hungry," "I failed (formula for growth)," "ur not new march plan," "If Lorelai had an online biz," and "Me I need ideas" (structural reference only; voice flagged as too AI). Cross-referenced with [[Library/me.md]] and [[Studio/Analysis/writing-style|writing-style.md]]. Single-source claims are marked with [single-source]. All section taglines verified verbatim against at least 2 examples.*
