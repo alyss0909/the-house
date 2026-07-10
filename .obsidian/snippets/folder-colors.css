@@ -89,6 +89,8 @@
 .nav-folder-title[data-path="Deliverables"],
 .nav-folder:has(> .nav-folder-title[data-path="PKM"]),
 .nav-folder-title[data-path="PKM"],
+.nav-folder:has(> .nav-folder-title[data-path="Hermes"]),
+.nav-folder-title[data-path="Hermes"],
 .nav-folder[data-path="node_modules"],
 .nav-folder[data-path="lead-magnet-system"],
 .nav-folder[data-path="website"],
