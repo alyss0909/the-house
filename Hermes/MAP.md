@@ -51,14 +51,14 @@ Sales = event-driven promo overlay (PTR→PTS→PTB per `4.1 The Lazy Launch`), 
 | W1 Mon | Bingeable Newsletters (manual) / Email List Revival Plan (List) → **The 5 Minute Newsletter** (manual) as the email ladder's paid step | 2026-01-15…pt-1 (TEMPLATE), 2026-01-20…pt-2 (LIST) | 2.3 Simmer; 1.4 Double Yes |
 | W1 Wed | The 5 Minute Newsletter (manual) + bumps: Unignorable Subject Lines (manual) → List Resuscitator (Cold) for cold-list rescue | GAP — no real post | 2.2 Not Grandads; 2.3 |
 | W1 Fri | none | GAP — nearest lane: 2026-01-22-wasting-time | — |
-| W2 Mon | Pin Planner (PIN in posts; "Pinterest" in BUSINESS — CONFLICT, hers to call) | 2026-01-29-smart-founders, 2026-02-10-get-clients | 3.1 Bread & Butter; 3.3 The Batch |
+| W2 Mon | Pin Planner (chat word PINTEREST — ruled by Alyssa 2026-07-10) | 2026-01-29-smart-founders, 2026-02-10-get-clients | 3.1 Bread & Butter; 3.3 The Batch |
 | W2 Wed | Pin Planner → BOH through the Pinterest / Slowly Viral teaching lane; standalone Slowly Viral CTA only if Products DB says live | 2026-02-06, 2026-02-19, 2026-02-24 | 3.3; Slowly Viral Class; 1.4 |
 | W2 Fri | soft PIN/freebie mention only if natural | 2026-02-14-valentines | — |
 | W3 Mon | Soft Sundays (Sunday) / The Numbers (manual) / Biz Tracker (manual, needs_edits) — teach from the real Soft Sunday source, no forced carousel | GAP — no real post | 0.3 Cozy Business Plan; 0.4 |
 | W3 Wed | → Back of House (YESCHEF) | 2026-03-03-organic-marketing-is-dying | Phase 1 arc; 4.1 Lazy Launch; 84 Combinations (2.3 slides) |
 | W3 Fri | none | 2026-03-10-guest-cheque-quote | — |
 | W4 Mon | Soft CEO Sessions (Softceo) / Quarter Prompt (Claude) — teach from the real Soft CEO Session/email source, no forced carousel | GAP — no real post | 0.3; 0.1 Inspiration Pantry |
-| W4 Wed | → 90d Clock In (Clock) / CEO Year Planner (Whimsy, price CONFLICT) / Soft CEO Monthly (Ceo) | 2026-02-01-feb-is-the-new-jan, 2026-03-01-80-days | 0.3; 0.1 |
+| W4 Wed | → 90d Clock In (Clock) / CEO Year Planner (Whimsy, $79 / CALMMYEAR → $39) / Soft CEO Monthly (Ceo) | 2026-02-01-feb-is-the-new-jan, 2026-03-01-80-days | 0.3; 0.1 |
 | W4 Fri | soft productivity/freebie mention only if natural | 2026-03-07-march-affirmations | — |
 
 Sales overlay (event-driven, never a weekly slot): **The Promo Planner in Notion** — one signature offer replated across 10 seasonal reframes (84 Combinations). Runs on its own PTR→PTS→PTB event calendar per `4.1 The Lazy Launch`, layered on top of whichever week it lands in.
@@ -92,6 +92,5 @@ All 14 carousel folders live in `Library/Examples/Carousels/` with verbatim capt
 
 - `Hermes/examples/good/` + `Hermes/examples/bad/` DO exist (curated files, capped at 12 in good/) — TASTE/SOUL/STYLE/README correctly point there. It is `Library/Examples/good|bad/` that does NOT exist — the lineup test uses the full `Library/Examples/<format>/` folders. RESOLVED 2026-07-05: Alyssa ruled NO gold-standard benchmark files, ever — top performers are information about how she writes, never templates ("the benchmarks made you a little bit too reliant on one thing"). Pitching = theme week → gather ALL her real material on the theme across every format → extract the philosophy → apply to edu/offer/FTG, flavored per product. Reason first, then source (verbatim ruling: learning/inbox.md 2026-07-05 sitting block).
 - Chat words at "manual": Bingeable Newsletters, 5 Minute Newsletter, Unignorable Subject Lines, The Numbers, Biz Tracker, Promo Planner, + 7 more (BUSINESS.md).
-- Price conflicts: Quarter in a Day $2,000 vs $111; CEO Year $79 vs $27-47.
-- PIN vs Pinterest chat-word conflict (W2).
+- RESOLVED 2026-07-10 (Alyssa's rulings): Quarter in a Day = $2,000. CEO Year = $79, coupon CALMMYEAR brings it to $39. W2 chat word = PINTEREST.
 - Library/Programs/ctc, yoe, webinar-1, webinar-2 = empty placeholders; transcripts never imported.

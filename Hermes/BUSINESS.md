@@ -31,10 +31,10 @@
 | Soft CEO Monthly | $37 | Productivity | Ceo | "a cozy planning space for big ideas, built on Notion" |
 | The Daily Profit Activities (needs edits) | $47 | Sales | manual | "44 profit activity ideas... under an hour" (stale voice-era copy) |
 | The Promo Planner | $59 | Sales/BoH | manual | signature offer → fresh seasonal promotions |
-| The CEO Year Notion Planner | $79 | Productivity | Whimsy | "one big goal, mapped into quarters, months, and weeks" |
+| The CEO Year Notion Planner | $79 (coupon CALMMYEAR → $39) | Productivity | Whimsy | "one big goal, mapped into quarters, months, and weeks" |
 | Best Year Yet | $97 | Productivity | manual | notebook dreams → reality (workshop) |
 | The 90 Minute Reset | $333 | Prod/Email/BoH | manual | "get clear, get a plan, stay accountable" (+$111 OTO) |
-| Quarter in a Day (VIP) | $2,000⚠ | Prod/Email/BoH | manual | "3 months of strategy... DONE before dinner" (⚠ price conflict, see MEMORY #8) |
+| Quarter in a Day (VIP) | $2,000 | Prod/Email/BoH | manual | "3 months of strategy... DONE before dinner" (price ruled by Alyssa 2026-07-10) |
 | **Back of House** (flagship) | $3,000 | BoH | **Yes Chef** | "The automated sales & marketing department for CEOs with better things to do." |
 | The Productive Entrepreneur | $11,000 | BoH | manual | 6-month 1:1 systematization (stale voice-era copy) |
 | Private Mentorship | $12,000 | BoH | manual | no public page — enquire directly |
