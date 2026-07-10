@@ -127,25 +127,32 @@ function renderSection(container, {id, icon, title, sub, items, btnCls, btnLabel
     const locked = state === "queued" || state === "done";
     const card = grid.createEl("div", {cls: "db-card" + (locked ? " db-card-locked" : "")});
     card.innerHTML = `
-      <div class="db-chip-row">
+      <div class="db-mail-chip-row">
         <span class="db-chip lavender">${ACCT_LABEL[it.acct] || it.acct}</span>
-        ${it.tag ? `<span class="db-chip">${it.tag}</span>` : ""}
+        ${it.tag ? `<span class="db-mail-tag">${it.tag}</span>` : ""}
         ${it.when ? `<span class="db-mail-when">${it.when}</span>` : ""}
       </div>
       <h3 style="margin-top:2px">${it.who}</h3>
       <p class="db-concept-desc">${it.subj}</p>
       <div class="db-react-row"><div class="db-btn-row" style="align-items:center">
-        <button class="db-mail-btn ${btnCls} ${locked ? "db-state-locked" : ""}">${locked ? (state === "done" ? doneLabel : queuedLabel) : btnLabel}</button>
+        <button type="button" class="db-mail-btn ${btnCls} ${locked ? "db-state-locked" : ""}">${locked ? (state === "done" ? doneLabel : queuedLabel) : btnLabel}</button>
         <a class="db-mail-open" href="${gmailSearch(it.acct, it.q)}" target="_blank" rel="noopener">Open ↗</a>
       </div></div>`;
     grid.appendChild(card);
     if (!locked) {
-      card.querySelector("button").addEventListener("click", async (e) => {
+      const btn = card.querySelector(".db-mail-btn");
+      btn.addEventListener("click", async (ev) => {
+        ev.preventDefault();
         card.classList.add("db-card-locked");
-        e.currentTarget.classList.add("db-state-locked");
-        e.currentTarget.textContent = queuedLabel;
-        await window.__mr.mrSetState(it.id, "queued");
-        await window.__mr.mrReact(`queued ${stateKind} · ${it.who}`);
+        btn.classList.add("db-state-locked");
+        btn.textContent = queuedLabel;
+        try {
+          await window.__mr.mrSetState(it.id, "queued");
+          await window.__mr.mrReact(`queued ${stateKind} · ${it.who}`);
+        } catch (err) {
+          new Notice("Mailroom couldn't save that click: " + err.message);
+          console.error("Mailroom click error", err);
+        }
       });
     }
   }

@@ -37,7 +37,7 @@ Every stat on a proof slide traces to Alyssa's real data. Never invent. Never ro
 
 - **Email open rates:** her real range is **34–57% opens** ([[Studio/Analysis/subject-line]], 351 broadcasts). A real engaged open rate is ~40–57%. A cold/ghost open rate is single digits to low teens — believable.
 - **NEVER 3%.** Her exact callout: *"nobody has a fucking 3% open rate."*
-- **Offer facts:** the real offer file in `Library/Offers/`. **IG benchmarks:** [[Deliverables/2026-07-06-instagram-craft-foundation]] (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
+- **Offer facts:** the real offer file in `Library/Offers/`. **IG benchmarks:** [[Studio/Content/craft-references/2026-07-06-instagram-craft-foundation]] (verified vs [unverified] flagged there — use the verified direction, not tool-blog fake precision).
 - If a needed number isn't in her real data: build the slide without it, or flag the gap. Never fake it.
 
 ### 4. Attribution header on every arc

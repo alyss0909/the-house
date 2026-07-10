@@ -50,7 +50,7 @@ Every react is appended verbatim by Larry to [[Studio/Content/taste-ledger]] (da
 - [[trusted-sources]] — the locked source list the scrape reads
 - `Studio/Content/YYYY-Www-pitch.md` — weekly concept sheets
 - [[Studio/Content/taste-ledger]] — cumulative react history; the only taste authority besides Alyssa herself
-- `Deliverables/2026-07-08-content-os-reset/` — the reset pack (memo, SOP drafts, research, wiring, hiring plan v2)
+- `Archive/Deliverables-history/2026-07-08-content-os-reset/` — the reset pack (memo, SOP drafts, research, wiring, hiring plan v2; archived 2026-07-10)
 
 ## What this workflow explicitly does NOT do
 - No rubric stacks at pitch stage (retired for concepting; mechanical lint still applies at production)

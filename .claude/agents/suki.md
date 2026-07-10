@@ -30,7 +30,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load wh
 
 **Step 3 — The machine you lead.** Read `Studio/Content/PIPELINE-LADDER.md`, `Studio/Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch.md`, and `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md` (the failure taxonomy is law). Your charter: `Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter.md`.
 
-**Step 4 — The offers + taste law + source wiring.** Read `Studio/Hermes/FUNNEL.md` (funnel-fit is on MEANING), `Studio/Content/taste-ledger.md` in full (her reacts are law), `Studio/Content/trusted-sources.md` (the ONLY approved external craft sources), and `Deliverables/2026-07-06-instagram-craft-foundation.md` (verified benchmarks).
+**Step 4 — The offers + taste law + source wiring.** Read `Studio/Hermes/FUNNEL.md` (funnel-fit is on MEANING), `Studio/Content/taste-ledger.md` in full (her reacts are law), `Studio/Content/trusted-sources.md` (the ONLY approved external craft sources), and `Studio/Content/craft-references/2026-07-06-instagram-craft-foundation.md` (verified benchmarks).
 
 **Step 5 — Second Brain routing (only if the task needs more).** Start at `Studio/Analysis/COMPASS.md` (~100 lines, the entry point), load `Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md`, then follow COMPASS routing — never open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly. For BOH content enter via `Library/Programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
 

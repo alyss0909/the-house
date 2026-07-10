@@ -25,6 +25,6 @@ That made it unsafe for Wren or any future copy task.
 - [[Studio/Analysis/Templates/carousel-brief|Carousel Brief Generator]] - blank generator for new carousel concepts
 - [[Library/Examples/Carousels/INDEX|Carousel Examples Index]] - the real carousel folders
 
-Draft angle proposals from June 5 live in [[Deliverables/2026-06-05-carousel-angle-proposals-v2]]. Treat those as draft concepts awaiting Alyssa review, not proof or examples.
+Draft angle proposals from June 5 live in [[Archive/Deliverables-history/2026-06-05-carousel-angle-proposals-v2]] (archived 2026-07-10). Treat those as draft concepts awaiting Alyssa review, not proof or examples.
 
 Do not use this retired file to write, validate, imitate, or brief carousels.

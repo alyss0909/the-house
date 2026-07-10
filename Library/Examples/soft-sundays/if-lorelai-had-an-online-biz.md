@@ -7,7 +7,15 @@ preview_text: "make more in q4 than you did all year"
 description: "Gilmore Girls-themed Soft Sunday covering the 4 Q4 buying windows (Back to School, Black Friday, Holiday, New Year) and how to leverage each with your same offer reframed. Launches the Seasonal Promo Planner with coupon code LUKE. Nonna tomato sauce as the Back of House metaphor."
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/the-promo-planner-in-notion/MAP|The Promo Planner in Notion]]"
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** launches the [[Library/Offers/the-promo-planner-in-notion/MAP|Seasonal Promo Planner]] (code LUKE) · nonna metaphor for [[Library/Offers/back-of-house/MAP|Back of House]] · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]]
 
 # If Lorelai had an online biz
 

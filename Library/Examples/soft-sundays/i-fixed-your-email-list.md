@@ -6,7 +6,14 @@ subject_line: I FIXED your email list (the plan inside)
 description: A full-plan Soft Sunday walking readers through why list size isn't the goal, the 3-day cold subscriber cleanup process, 7 re-engagement email types with writing prompts, and a free automation template to keep the list healthy going forward.
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/cold-subscriber-automation/MAP|Cold Subscriber Automation]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** teaches the free [[Library/Offers/cold-subscriber-automation/MAP|Cold Subscriber Automation]] template · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]]
 
 # I FIXED your email list (the plan inside)
 

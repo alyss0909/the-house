@@ -7,7 +7,14 @@ preview_text: "& a gilmore coupon"
 description: "Wardrobe existential crisis as metaphor for not reinventing your offer every season. Two seasonal layering strategies (Back to School structure bonus, Black Friday bonus stack). Seasonal Promo Planner pitch with code LUKE. Story → reframe → two tactics → product → CTA."
 last_updated: 2026-06-04
 tags: [email, simmer-emails, copy]
+related:
+  - "[[Library/Offers/the-promo-planner-in-notion/MAP|The Promo Planner in Notion]]"
+  - "[[Library/Offers/simmer-system/MAP|Simmer System]]"
+  - "[[Library/Examples/simmers/INDEX]]"
+  - "[[Studio/Voice/formats/simmers]]"
 ---
+
+> **Connected:** pitches [[Library/Offers/the-promo-planner-in-notion/MAP|the Seasonal/Promo Planner]] (code LUKE) · format is the [[Library/Offers/simmer-system/MAP|Simmer System]] mechanism · sits beside [[Library/Examples/simmers/INDEX|her other real simmers]] · voice rules for this format: [[Studio/Voice/formats/simmers|simmers guide]]
 
 # my existential crisis & pinterest.
 

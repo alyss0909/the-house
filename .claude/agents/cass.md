@@ -26,7 +26,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` — load wh
 
 **Step 3 — Second Brain navigation.** If the task needs Second Brain context beyond Steps 1-2, start at `Studio/Analysis/COMPASS.md` (~100 lines, the entry point) and follow its routing — load only what it directs. Never open Studio/Analysis/, Library/Examples/, or Library/Programs/ directly. For BOH teaching content enter via `Library/Programs/back-of-house/BOH-COMPASS.md`, never the 792-line INDEX.
 
-**Step 4 — Load the concept's teaching source + real data.** Read the exact teaching file Larry named (BOH transcript / offer file) — the substance comes from here, you do not invent teaching. Read the real data source for EVERY number: `Studio/Analysis/subject-line.md` (351 real broadcasts) for email rates, the real offer file in `Library/Offers/` for offer facts, `Deliverables/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks.
+**Step 4 — Load the concept's teaching source + real data.** Read the exact teaching file Larry named (BOH transcript / offer file) — the substance comes from here, you do not invent teaching. Read the real data source for EVERY number: `Studio/Analysis/subject-line.md` (351 real broadcasts) for email rates, the real offer file in `Library/Offers/` for offer facts, `Studio/Content/craft-references/2026-07-06-instagram-craft-foundation.md` for verified IG benchmarks.
 
 **Step 5 — Load the offer meaning + taste law.** Read `Studio/Hermes/FUNNEL.md` (the belief each offer's arc must land), `Studio/Content/taste-ledger.md` in full (anti-patterns are law; the 2026-07-07 ruling is your output spec), and `Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md`.
 

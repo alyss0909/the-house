@@ -6,7 +6,14 @@ subject_line: "[FIRST NAME GOES HERE]'s Custom Pinterest plan"
 description: A sales email promoting the Back of House program that leads with a 4-step Pinterest-to-email client-booking plan, then reveals BOH as the system that builds it for you — with coupon ORDERUP for $500 off.
 last_updated: 2026-06-04
 tags: [email, promo, copy]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Examples/sales-emails/INDEX]]"
+  - "[[Studio/Voice/formats/sales-emails]]"
+  - "[[2025-10-11-launch-notes]]"
 ---
+
+> **Connected:** promotes [[Library/Offers/back-of-house/MAP|Back of House]] · sits beside [[Library/Examples/sales-emails/INDEX|her other real sales emails]] · voice rules for this format: [[Studio/Voice/formats/sales-emails|sales-emails guide]] · grew from her riff [[2025-10-11-launch-notes|launch notes]] ("NAME's Custom Pinterest plan / strategy or gameplan")
 
 # BOH Sales Email — Pinterest + Email Plan
 

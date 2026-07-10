@@ -6,7 +6,15 @@ subject_line: "Your 2026 business plan inside"
 description: "Launch email for the Slow Marketing Plan free class (Oct 22). Pitches Pinterest + email as an antisocial-media alternative — the set-it-up-once system that generates leads for years instead of 19.4 hours. Promotes BOH early access waitlist."
 last_updated: 2026-06-04
 tags: [email, promo, copy, pinterest, slow-marketing]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Programs/back-of-house/webinars/Slow Marketing Plan Class]]"
+  - "[[Library/Examples/sales-emails/INDEX]]"
+  - "[[Studio/Voice/formats/sales-emails]]"
+  - "[[2025-10-06-the-social-media-back-up-plan]]"
 ---
+
+> **Connected:** invite for the free class taught in [[Library/Programs/back-of-house/webinars/Slow Marketing Plan Class|Slow Marketing Plan Class]] · feeds [[Library/Offers/back-of-house/MAP|Back of House]] waitlist · sits beside [[Library/Examples/sales-emails/INDEX|her other real sales emails]] · voice rules: [[Studio/Voice/formats/sales-emails|sales-emails guide]] · grew from her riff [[2025-10-06-the-social-media-back-up-plan|the social media back-up plan]] ("the slow marketing plan")
 
 # Slow Marketing Plan — Webinar Invite Email
 

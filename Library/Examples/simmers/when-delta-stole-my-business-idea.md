@@ -6,7 +6,15 @@ subject_line: "when delta stole my business idea (kinda) 😒"
 description: "Red-eye flight napkin story — mapped an entire automated funnel on a napkin, lost it somewhere between wheels down and room service, couldn't remember any of it. Pivots to building the manual she desperately wanted: 3-part cliff notes (Pinterest Traffic Kiosk, Email Reception Desk, Soft Sales Register). BOH swipe vault + live review spots CTA. Reply 'manual'."
 last_updated: 2026-06-04
 tags: [email, simmer-emails, copy]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Offers/simmer-system/MAP|Simmer System]]"
+  - "[[Library/Examples/simmers/INDEX]]"
+  - "[[Studio/Voice/formats/simmers]]"
+  - "[[2026-02-13-napkin-image]]"
 ---
+
+> **Connected:** pitches [[Library/Offers/back-of-house/MAP|Back of House]] swipe vault · format is the [[Library/Offers/simmer-system/MAP|Simmer System]] mechanism · sits beside [[Library/Examples/simmers/INDEX|her other real simmers]] · voice rules for this format: [[Studio/Voice/formats/simmers|simmers guide]] · grew from her riff [[2026-02-13-napkin-image|napkin image]]
 
 # when delta stole my business idea (kinda) 😒
 

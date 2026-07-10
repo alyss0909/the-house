@@ -9,7 +9,7 @@ description: House-level voice layer. Every agent loads this before writing or a
 
 This is a house-level layer, not a content-desk tool. It exists because Alyssa ruled on 2026-07-10 that voice is not owned by Hermes, the content-desk writer. Voice belongs to the whole house. Every specialist who writes copy or answers a question in Alyssa's voice loads this folder first, whether that specialist works on content, email, sales pages, a Notion deliverable, or a plain chat reply that speaks as her.
 
-This implements Option 2 from [[Deliverables/2026-07-10-voice-cards-on-the-table]]: examples-first. Her full real writing is the primary source. Rulebooks are demoted to an editing pass that runs after a draft already exists, not the thing you write from.
+This implements Option 2 from [[Archive/Deliverables-history/2026-07-10-voice-cards-on-the-table]]: examples-first. Her full real writing is the primary source. Rulebooks are demoted to an editing pass that runs after a draft already exists, not the thing you write from.
 
 ## The rule
 

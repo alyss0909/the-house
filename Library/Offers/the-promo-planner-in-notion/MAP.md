@@ -81,7 +81,7 @@ Source URL: <https://alyssacoleman.ca/promo-notion>
 - Sales page: [[Library/Examples/sales-pages/the-promo-planner-in-notion-sales-page|The Promo Planner in Notion Sales Page]]
 - Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/4. Soft Sales System/4.1 Promo Copy Planner|4.1 Promo Copy Planner]] · [[Library/Programs/back-of-house/4. Soft Sales System/4.1 The Lazy Launch|4.1 The Lazy Launch]] (W3 Wed slot per MAP §3/§4)
-- Real posts that pitched it: `Library/Examples/Carousels/2026-03-03-organic-marketing-is-dying`
+- Real posts that pitched it: `Library/Examples/Carousels/2026-03-03-organic-marketing-is-dying` · also pitched (code LUKE) in the simmer [[Library/Examples/simmers/my-existential-crisis-and-pinterest|my existential crisis & pinterest]] and the Soft Sundays [[Library/Examples/soft-sundays/ur-not-new-march-plan|ur (not)NEW march plan]] + [[Library/Examples/soft-sundays/if-lorelai-had-an-online-biz|If Lorelai had an online biz]]
 - Funnel neighbors: ← [[90d-clock-in]] (90d Clock In → Promo Planner 50% bump, per [[Studio/Hermes/BUSINESS]] funnel chain)
 
 

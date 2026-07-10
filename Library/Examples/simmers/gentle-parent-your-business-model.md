@@ -7,7 +7,14 @@ preview_text: "this one starts in the bath and ends in your bank account."
 description: "Daughter's bath-time resistance as metaphor for launch amnesia — every launch works but then crickets, no system to remind people, back to square one. BOH as the fix: evergreen email-first systems. New PIN Keymaster Pinterest automation agent. Reply 'SHAMPOO' CTA."
 last_updated: 2026-06-04
 tags: [email, simmer-emails, copy]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Offers/simmer-system/MAP|Simmer System]]"
+  - "[[Library/Examples/simmers/INDEX]]"
+  - "[[Studio/Voice/formats/simmers]]"
 ---
+
+> **Connected:** pitches [[Library/Offers/back-of-house/MAP|Back of House]] (evergreen system + PIN Keymaster) · format is the [[Library/Offers/simmer-system/MAP|Simmer System]] mechanism · sits beside [[Library/Examples/simmers/INDEX|her other real simmers]] · voice rules for this format: [[Studio/Voice/formats/simmers|simmers guide]]
 
 # let me gentle parent your business model.
 

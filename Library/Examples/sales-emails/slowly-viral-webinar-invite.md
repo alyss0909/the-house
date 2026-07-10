@@ -7,7 +7,16 @@ preview_text: "new workshop! (save ur seat)"
 description: "Launch email for the Slowly Viral free Pinterest class (Feb 26). Opens by reframing 'going viral' — what people really want is to stop worrying about where their next client is coming from. Pitches the class as a slow, compounding alternative to daily posting."
 last_updated: 2026-06-04
 tags: [email, promo, copy, pinterest]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Programs/back-of-house/webinars/Slowly Viral Class]]"
+  - "[[Library/Examples/sales-emails/INDEX]]"
+  - "[[Studio/Voice/formats/sales-emails]]"
+  - "[[2026-01-30-slowly-viral]]"
+  - "[[2026-01-17-the-4-email-business-plan]]"
 ---
+
+> **Connected:** invite for the free class taught in [[Library/Programs/back-of-house/webinars/Slowly Viral Class|Slowly Viral Class]] · feeds [[Library/Offers/back-of-house/MAP|Back of House]] · sits beside [[Library/Examples/sales-emails/INDEX|her other real sales emails]] · voice rules: [[Studio/Voice/formats/sales-emails|sales-emails guide]] · grew from her riffs [[2026-01-30-slowly-viral|slowly viral]] + [[2026-01-17-the-4-email-business-plan|the 4-email business plan]]
 
 # Slowly Viral — Webinar Invite Email
 

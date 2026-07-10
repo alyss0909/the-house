@@ -945,7 +945,7 @@
    .week/.reject/.idea Concepts buttons, which overflow/overlap on longer
    labels like "Ready to draft"). Same visual family, own sizing rule. ---------- */
 .dashboard .db-mail-btn {
-  font-family: "Roboto Mono", monospace; font-size: 10.5px; font-weight: 700;
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; font-weight: 400;
   text-transform: uppercase; letter-spacing: 0.04em; line-height: 1;
   border: var(--db-border); border-radius: 999px;
   padding: 7px 15px; white-space: nowrap;
@@ -958,6 +958,18 @@
 .dashboard .db-mail-btn.db-state-locked {
   cursor: default; pointer-events: none; opacity: 0.75;
   background: var(--db-oat); color: var(--db-muted); border: 1.5px solid var(--db-sage);
+}
+/* secondary tag + account chip, scoped smaller than the shared .db-chip
+   used on Concepts/Arc (kept those untouched) — matches the original
+   pretty artifact's tighter little pills. */
+.dashboard .db-mail-chip-row .db-chip,
+.dashboard .db-mail-chip-row .db-mail-tag {
+  font-size: 9.5px; padding: 2px 9px; letter-spacing: 0.03em;
+}
+.dashboard .db-mail-tag {
+  font-family: "Roboto Mono", monospace; text-transform: uppercase;
+  border: var(--db-border); border-radius: 999px;
+  background: var(--db-oat); color: var(--db-muted);
 }
 .dashboard .db-mail-open {
   font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em;

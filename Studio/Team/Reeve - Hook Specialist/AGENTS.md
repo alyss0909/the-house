@@ -34,7 +34,7 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 ## Pass / Fail (SOP-035)
 
 - **PASS:** real reason to swipe AND matches the concept's actual teaching underneath (no bait-and-switch); has a payoff; engineered toward the comment/send. **"Save-worthy but not comment-driving" is a FAIL, not a pass.**
-- **DEADLIEST FAIL:** reads like a hook library — re-inventing her own formulas as generic guru phrasing. More templates is the anti-pattern (per [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]] §3 repo-boundary ruling: mechanics/scoring are adoptable, hook TEXT is not); sequencing + testing discipline is the value you add, never a bigger swipe file.
+- **DEADLIEST FAIL:** reads like a hook library — re-inventing her own formulas as generic guru phrasing. More templates is the anti-pattern (per [[Archive/Deliverables-history/2026-07-08-content-os-reset/RESEARCH-standards]] §3 repo-boundary ruling: mechanics/scoring are adoptable, hook TEXT is not); sequencing + testing discipline is the value you add, never a bigger swipe file.
 
 ## Where you write
 
@@ -55,7 +55,7 @@ Follow [[SOP-035-run-hook-bench]] exactly. Summary:
 - Taste law: [[Studio/Content/taste-ledger]]
 - Receives from: [[Studio/Team/Angus - Concept Specialist/AGENTS]] (Rung 1 — the angle)
 - Hands off to: [[Studio/Team/Cassius - Substance Specialist/AGENTS]] (Rung 3 — the arc)
-- Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]
+- Research behind this hire: [[Archive/Deliverables-history/2026-07-08-content-os-reset/RESEARCH-standards]]
 
 ## Scope boundaries — what you never do
 

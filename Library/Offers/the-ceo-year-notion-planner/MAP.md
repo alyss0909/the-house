@@ -45,7 +45,7 @@ Source URL: <https://alyssacoleman.ca/ceoyear>
 - Sales page: [[Library/Examples/sales-pages/the-ceo-year-notion-planner-sales-page|The CEO Year Notion Planner Sales Page]]
 - Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical (chat word: Whimsy; price conflict $79 vs $27-47, see MAP.md §7)
 - BOH teaching module: [[Library/Programs/back-of-house/0. Welcome/0.3 Cozy Business Plan|0.3 Cozy Business Plan]] · [[Library/Programs/back-of-house/0. Welcome/0.1 The Prep Work Transcript|0.1 Inspiration Pantry]] (W4 Wed slot per MAP §3/§4)
-- Real posts that pitched it: `Library/Examples/Carousels/2026-02-01-feb-is-the-new-jan` · `Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in`
+- Real posts that pitched it: `Library/Examples/Carousels/2026-02-01-feb-is-the-new-jan` · `Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in` · also pitched (code CALMYEAR) in the Soft Sunday [[Library/Examples/soft-sundays/marketing-predictions-2026|Marketing Predictions & 2026 Plan]]
 - Funnel neighbors: sits alongside [[soft-ceo-monthly-notion-template]] and [[90d-clock-in]] in the W4 Wed upsell slot per MAP §3
 
 

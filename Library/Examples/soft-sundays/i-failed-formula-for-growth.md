@@ -6,7 +6,13 @@ subject_line: "I failed"
 description: Story-led Soft Sunday opening with failing stats twice in university, pivoting to 3 simple business growth formulas (profit projection, sales call conversion, lead flow) — makes numbers feel human and actionable.
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]] (teaching-only issue, no product pitch — no distinct Notebook seed found beyond the format itself)
 
 # I failed (+ formula for growth)
 

@@ -35,5 +35,5 @@ Business owners who want their list hygiene handled automatically without manual
 - Sales page: none found in `Library/Examples/sales-pages/` (no dedicated page — GAP)
 - Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.2 Not Grandads Email Marketing Slides|2.2 Not Grandads]] — closest list-hygiene/email-deliverability source per MAP §3 W1 Wed
-- Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/`
+- Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` — but the plan is taught in the Soft Sunday [[Library/Examples/soft-sundays/i-fixed-your-email-list|I FIXED your email list]]
 - Funnel neighbors: → [[email-list-revival-plan]] (bundled cold-sub cleaning automation per that offer's sales copy)

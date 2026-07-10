@@ -74,14 +74,16 @@ Alyssa clarified that internal skills in this myPKA are **SOPs**.
 
 The Blotato/social-repo material currently lives in:
 
-- [[Deliverables/2026-07-05-social-skills-repo-intake/manifest]]
-- [[Deliverables/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]]
-- `Deliverables/2026-07-05-social-skills-repo-intake/blotato-skills/`
-- `Deliverables/2026-07-05-social-skills-repo-intake/blotato-official/`
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]]
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
+(archived 2026-07-10 → `Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/`)
+
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/manifest]]
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/CONTENT-OS-HANDOFF]]
+- `Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/blotato-skills/`
+- `Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/blotato-official/`
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]]
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]]
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]]
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]]
 
 They are **not live skills yet**. They are reference packs and extracted maps. The next step is promotion into SOPs, not raw install.
 

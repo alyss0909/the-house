@@ -6,7 +6,15 @@ subject_line: "ur (not)NEW march plan inside"
 description: "Mama Bear energy Soft Sunday about not starting over every new month — building on what works instead. Covers a 3-step march plan: review what's already working (Soft CEO Session), leverage compounding assets (Slowly Viral Pinterest class), and reframe existing offers without reinventing (Seasonal Promo Planner)."
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/the-promo-planner-in-notion/MAP|The Promo Planner in Notion]]"
+  - "[[Library/Programs/back-of-house/webinars/Slowly Viral Class]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** the march plan covers [[Library/Programs/back-of-house/webinars/Slowly Viral Class|Slowly Viral Class]] + the [[Library/Offers/the-promo-planner-in-notion/MAP|Seasonal Promo Planner]] · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]]
 
 # ur (not)NEW march plan inside
 

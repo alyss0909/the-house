@@ -9,7 +9,13 @@ description: "Re-commerce themed Soft Sunday with 5 sustainability strategies fo
 voice_note: "Alyssa flagged this as feeling too AI. Use for content/strategy ideas only, not voice calibration."
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]] (flagged too-AI per its own frontmatter — filed for content-idea reference only, not a voice-calibration link)
 
 # Me I need ideas. Also me forgets 87 I already had.
 

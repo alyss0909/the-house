@@ -6,7 +6,14 @@ subject_line: Your list called, they're hungry
 description: A story-driven Soft Sunday using a fridge-clearing metaphor to frame email list revival — cold subscribers as forgotten fridge ingredients, cleanup as the path to knowing what to make next.
 last_updated: 2026-06-04
 tags: [email, newsletter, copy]
+related:
+  - "[[Library/Offers/email-list-revival-plan/MAP|Email List Revival Plan]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** pitches the [[Library/Offers/email-list-revival-plan/MAP|Email List Revival Plan]] · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]]
 
 # Your list called, they're hungry
 

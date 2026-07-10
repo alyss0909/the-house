@@ -7,7 +7,15 @@ preview_text: "(not confirmed — source was CKArchive clip)"
 description: "New Year Soft Sunday with 4 marketing predictions for 2026: (1) organic reach post-mortem — shift to evergreen, email, searchable content; (2) SEO becomes conversational — Pinterest, FAQs, long-form; (3) AI kiss of death / tiny audiences win — voice, photos, surprising POV; (4) paying for curation — one clear offer beats a confusing suite. Promotes CEO Year Notion Template (50% off, code CALMYEAR)."
 last_updated: 2026-06-04
 tags: [email, newsletter, copy, slow-marketing]
+related:
+  - "[[Library/Offers/the-ceo-year-notion-planner/MAP|The CEO Year Notion Planner]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
+  - "[[2026-06-12-email-to-carousel-repurposing]]"
 ---
+
+> **Connected:** promotes [[Library/Offers/the-ceo-year-notion-planner/MAP|The CEO Year Notion Planner]] (code CALMYEAR) · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]] · this exact send became a carousel per her own repurposing notes: [[2026-06-12-email-to-carousel-repurposing|email to carousel repurposing]] ("The Predictions Email")
 
 # Marketing Predictions & 2026 Plan
 

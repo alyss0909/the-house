@@ -7,7 +7,13 @@ preview_text: "a call to arms for the creative w high standards"
 description: "Sales email positioning BOH as the solution for creatives with high standards who are compromising their best work just to keep up. Opens with the 'people who just make things' contrast, pivots to high standards as the real issue, introduces BOH as the system that gives back creative time. 4-step CTA: Build → Automate → Grow → Sell. Reply 'Ghost your Feed'."
 last_updated: 2026-06-04
 tags: [email, promo, copy]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Examples/sales-emails/INDEX]]"
+  - "[[Studio/Voice/formats/sales-emails]]"
 ---
+
+> **Connected:** promotes [[Library/Offers/back-of-house/MAP|Back of House]] · sits beside [[Library/Examples/sales-emails/INDEX|her other real sales emails]] · voice rules for this format: [[Studio/Voice/formats/sales-emails|sales-emails guide]] (no distinct Notebook seed found for this one — grep on "silent killer", "high standards", "Build Automate Grow Sell" turned up nothing beyond the offer itself)
 
 # The silent killer of GOOD work. (pls avoid!⚠️)
 

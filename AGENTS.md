@@ -77,20 +77,36 @@ See [[Studio/Team/agent-index]] for the full routing table.
 
 ## The folder map
 
-- `Studio/Team/` - one folder per specialist. Each holds an [[AGENTS]] contract. (Moved from root `Team/` 2026-07-10, Bring It Home restructure.)
-- `Studio/Team Knowledge/` - operational know-how. See [[Studio/Team Knowledge/INDEX]]. (Moved from root `Team Knowledge/` 2026-07-10, Bring It Home restructure.)
-  - `SOPs/` - atomic step-by-step procedures.
-  - `Workstreams/` - recurring multi-agent orchestrations.
-  - `Guidelines/` - static reference info (naming, tone, defaults).
-  - `session-logs/YYYY/MM/` - append-only record of every session.
-- `Notebook/` - Alyssa's raw material (Journal, Images, Life). Moved here 2026-07-09 (Phase 2). See [[Notebook/MAP|Notebook map]].
+The house has four zones plus a machine room. See [[HOUSE-MAP]] for the full geography table; this is the working summary.
+
+- `Notebook/` - Alyssa's raw material: read-only except mechanical/connective edits she explicitly requests. See [[Notebook/MAP|Notebook map]].
   - `Journal/YYYY/MM/` - daily entries.
+  - `Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into `Notebook/Life/`. See [[Notebook/Inbox/README]].
   - `Images/YYYY/MM/` - single shared image bucket.
   - `Life/` - `CRM/People/` and `CRM/Organizations/`; `Goals/`, `Habits/`, `Key Elements/`, `Projects/`, `Topics/`.
-- `PKM/` - retired 2026-07-10. Journal, Images, CRM, and the five `My Life` concept folders moved to `Notebook/` (2026-07-09); Offers moved to `Library/Offers/` and Second Brain dissolved into `Library/` + `Studio/Analysis/` (2026-07-10, Bring It Home). Only `Documents/` remains here — flagged for Alyssa (see [[HOUSE-MAP]]). See [[PKM/INDEX]].
-  - `Documents/` - passport, contracts, identity files.
-- `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See [[Deliverables/README]].
-- `Notebook/Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See [[Notebook/Inbox/README]]. (Moved from `Team Inbox/` 2026-07-10; redirect stub at [[Team Inbox/MOVED]].)
+  - `Drafts/` - her drafts and working notes.
+  - `DESK.md` - the passing-notes surface; the one Notebook file the team may update (links only, per [[GL-013-the-house-rules]] Rule 1).
+- `Studio/` - the workshop. Everything here is working material and opinion until Alyssa promotes it. See [[Studio/MAP|Studio map]].
+  - `Studio/Team/` - one folder per specialist. Each holds an [[AGENTS]] contract.
+  - `Studio/Team Knowledge/` - operational know-how. See [[Studio/Team Knowledge/INDEX]].
+    - `SOPs/` - atomic step-by-step procedures.
+    - `Workstreams/` - recurring multi-agent orchestrations.
+    - `Guidelines/` - static reference info (naming, tone, defaults).
+    - `session-logs/YYYY/MM/` - append-only record of every session.
+  - `Studio/Voice/` - house-level voice layer (README, formats, KILL-LIST) every agent applies to every project.
+  - `Studio/Hermes/` - the Alyssa Clone Writer brain (JUDGMENT, FACTS, MAP, FABLE).
+  - `Studio/Content/` - Content OS pipeline (dashboard at `Studio/Content/dashboard/`).
+  - `Studio/Signals/` - signals index and the idea garden (`Developing Ideas/`).
+  - `Studio/Analysis/` - copy-task analysis and routing; entry point [[Studio/Analysis/COMPASS]].
+  - `Studio/Mailroom/` - Gmail sweep ledger and state.
+- `Library/` - the trusted shelf: her verbatim work plus anything explicitly promoted. Nobody writes here but Alyssa. See [[Library/MAP|Library map]].
+  - `Examples/` - sales copy, emails, pages.
+  - `Programs/` - curriculum.
+  - `Offers/<offer>/MAP.md` - one folder per offer: facts, positioning, links.
+  - `me.md` - her core facts file.
+- `Archive/` - where dead, superseded, and finished-process material drains. Larry moves things here at reconciliation.
+- `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. It is a legacy output pile, not a source — it drains into Studio, Library (via promotion), or Archive over time. See [[Deliverables/README]].
+- `PKM/` - retired. Pure redirect stubs pointing to `Notebook/`, `Library/`, or `Studio/Analysis/`. Only `Documents/` (passport, contracts, identity files) remains live here — flagged for Alyssa (see [[HOUSE-MAP]]).
 
 ## Hard rules
 
@@ -354,7 +370,7 @@ Trigger → Phase 0: WS-004 inbox clear
 
 ## Where to start
 
-- New here? Read [[Studio/Team Knowledge/INDEX]] and [[PKM/INDEX]].
+- New here? Read [[HOUSE-MAP]] and [[Studio/Team Knowledge/INDEX]].
 - Want to add a specialist? Follow [[SOP-001-how-to-add-a-new-specialist]].
 - Want to capture today's thoughts? Larry routes that to Penn through [[WS-001-daily-journaling]].
 - Need naming rules? See [[GL-001-file-naming-conventions]].

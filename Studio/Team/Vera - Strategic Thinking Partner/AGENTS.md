@@ -263,7 +263,7 @@ At riff close: if the session surfaced a durable insight (a pattern Vera should 
 
 - [[GL-001-file-naming-conventions]] — slug and file rules
 - [[Studio/Team/agent-index]] — routing table
-- Research brief: [[Deliverables/2026-05-27-vera-strategic-knowledge-synthesis-hire-research]]
+- Research brief: [[Archive/Deliverables-history/2026-05-27-vera-strategic-knowledge-synthesis-hire-research]]
 
 ## Scope boundaries
 

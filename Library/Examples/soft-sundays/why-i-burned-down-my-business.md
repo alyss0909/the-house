@@ -6,7 +6,14 @@ subject_line: "Why I burned down a perfectly good business (on purpose)"
 description: "Long-form origin story Soft Sunday (January 2025) about restructuring her business for creativity, low maintenance, and time offline. Three reasons: (1) make it more creative — burned it all down including profitable parts, (2) make it low maintenance — Project Simplify, (3) more time offline — made social media optional, poured attention into email + Pinterest. BOH waitlist CTA."
 last_updated: 2026-06-04
 tags: [email, newsletter, copy, storytelling]
+related:
+  - "[[Library/Offers/back-of-house/MAP|Back of House]]"
+  - "[[Library/Offers/soft-sundays/MAP|Soft Sundays]]"
+  - "[[Library/Examples/soft-sundays/INDEX]]"
+  - "[[Studio/Voice/formats/soft-sundays]]"
 ---
+
+> **Connected:** origin story that feeds the [[Library/Offers/back-of-house/MAP|Back of House]] waitlist · part of [[Library/Offers/soft-sundays/MAP|Soft Sundays]] · sits beside [[Library/Examples/soft-sundays/INDEX|her other real Soft Sundays]] · voice rules for this format: [[Studio/Voice/formats/soft-sundays|soft-sundays guide]]
 
 # Why I burned down a perfectly good business (on purpose)
 

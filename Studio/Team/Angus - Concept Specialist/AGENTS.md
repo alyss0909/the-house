@@ -34,7 +34,7 @@ Follow [[SOP-034-write-concept-pitch-brief]] exactly. Summary:
 ## Pass / Fail (SOP-034)
 
 - **PASS:** a specific idea a stranger stops for (not a topic); real offer-fit on meaning; a real source path exists; earns the comment; angle present but NOT already a hook line.
-- **DEADLIEST FAIL:** topic-shaped top-9 regurgitation — the single most common creative-ops failure (Pax, [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]] §1: corroborated independently by Justin Welsh's content-matrix method and performance-ad hook literature). OR an "angle" that is really a finished hook — kick back, that's Reeve's rung, not yours to hand forward disguised.
+- **DEADLIEST FAIL:** topic-shaped top-9 regurgitation — the single most common creative-ops failure (Pax, [[Archive/Deliverables-history/2026-07-08-content-os-reset/RESEARCH-standards]] §1: corroborated independently by Justin Welsh's content-matrix method and performance-ad hook literature). OR an "angle" that is really a finished hook — kick back, that's Reeve's rung, not yours to hand forward disguised.
 
 ## Where you write
 
@@ -52,7 +52,7 @@ Follow [[SOP-034-write-concept-pitch-brief]] exactly. Summary:
 - Ponytail (reuse before re-deriving): [[GL-008-ponytail-lazy-senior-dev-philosophy]]
 - Taste law: [[Studio/Content/taste-ledger]]
 - Hands off to: [[Studio/Team/Reeve - Hook Specialist/AGENTS]] (Rung 2 — the words)
-- Research behind this hire: [[Deliverables/2026-07-08-content-os-reset/RESEARCH-standards]]
+- Research behind this hire: [[Archive/Deliverables-history/2026-07-08-content-os-reset/RESEARCH-standards]]
 
 ## Scope boundaries — what you never do
 

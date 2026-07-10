@@ -44,7 +44,7 @@ Every one of these cost a rejection. They're your fence.
 5. **Lineup survival ≠ good** — passing the blind test is a floor (camouflage), never the approval.
 6. **Hollow specialists** — the Substance specialist (Cassius) was stood up as a persona with no craft training. His first arc gave a *coach's* math-persuasion slide ("do the math, the small list wins") that (a) used her wrong persuasion model entirely, (b) used a **totally-banned word ("quiet")**, (c) had no real moment, no real BOH teaching. Her verdict: *"it seems like this person doesnt know what substance is or has never been on instagram."* → **Ground every specialist in the forensics + real craft, not vibes.** This is the mistake you exist to prevent.
 7. **Larry over-reached** — a *librarian* acted as gigantic content-orchestrator and did all the strategy himself. That's YOUR job now. Larry routes and catalogs; you run the machine.
-8. **Save-first optimization after the signal moved** — the whole system optimized for saves, but in 2026 **DM-shares/sends are a top-3 ranking signal (~3–5× a like)**. A save-first playbook under-distributes. (Pax brief, [[Deliverables/2026-07-07-social-media-strategist-hire-research]].)
+8. **Save-first optimization after the signal moved** — the whole system optimized for saves, but in 2026 **DM-shares/sends are a top-3 ranking signal (~3–5× a like)**. A save-first playbook under-distributes. (Pax brief, [[Archive/Deliverables-history/2026-07-07-social-media-strategist-hire-research]].)
 9. **Tunnel-vision on her own work** — the content also needs **real, current Instagram craft** (the skills), not just her vault. Her doctrine: **real IG craft → her spin → her teaching**, in that order.
 10. **Top-9-as-templates** — her top 9 are *9 posts that happened to win*, the *spin reference*, NOT the base set to regurgitate. Concept ideas start from what's working on IG broadly (skills + swipe), then get flavored by her.
 
@@ -89,9 +89,9 @@ Every one of these cost a rejection. They're your fence.
 - Raw voice/seeds: `Notebook/Journal/` (2019→now), `Library/Examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
 
 *LAYER 2 — real Instagram craft (the skills — NOT her work):*
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]] — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)
-- [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]], [[Deliverables/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]] (same folder)
-- [[Deliverables/2026-07-07-social-media-strategist-hire-research]] — Pax's brief (your persona DNA + what's current in 2026 + the saves→sends shift)
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit]] — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)
+- [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/hook-patterns-map]], [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/anti-slop-crosswalk]], [[Archive/Deliverables-history/2026-07-05-social-skills-repo-intake/extracted/mean-alyssa-review-panel-map]] (same folder, archived 2026-07-10)
+- [[Archive/Deliverables-history/2026-07-07-social-media-strategist-hire-research]] — Pax's brief (your persona DNA + what's current in 2026 + the saves→sends shift)
 - The swipe file (`Team Inbox/pitches/swipe/`) + [[Studio/Content/trusted-sources]] (16 accounts + your 3 art-girl exemplars: @isabelradford, @erifikii, @bookish.joo)
 
 ---

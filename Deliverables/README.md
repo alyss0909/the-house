@@ -1,8 +1,8 @@
 # Deliverables
 
-Where the team puts work-in-progress and finished artifacts the user can review.
+Where the team puts work-in-progress and finished artifacts the user can review — briefly. This is never a shelf.
 
-When a specialist produces something substantial - a research brief, a draft document, a hire workup, a multi-file plan - it lands here, not in PKM. Deliverables is the team's working surface: time-stamped, often dated by folder, often created and discarded across sessions.
+New outputs still land here — a research brief, a draft document, a hire workup, a multi-file plan — the same day they're produced. But Deliverables is reconciled at every session close per [[Studio/Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion|GL-009]]: every artifact gets a fate (promoted, referenced, dispatched, archived, or deleted) before the session ends. Nothing sits here waiting to become a pile again. Drained 2026-07-10 from 1,372 files to near-zero into `Archive/Deliverables-history/` — see [[MOVED]] and [[HOUSE-MAP]].
 
 ## When to use it
 
@@ -10,10 +10,6 @@ When a specialist produces something substantial - a research brief, a draft doc
 - **Nolan** delivers a hire workup -> `Deliverables/YYYY-MM-DD-<role-slug>-hire-research.md`
 - A new specialist delivers a multi-file project -> `Deliverables/YYYY-MM-DD-<project-slug>/`
 - **Larry** collects briefs from multiple specialists for a single initiative -> one folder per initiative, named by date and slug
-
-## Filed references
-
-- [[2026-06-04-podcast-guesting-pitching-research]] - working reference for [[podcast-guesting-workflow]] and [[podcast-guesting]]
 
 ## When NOT to use it
 
