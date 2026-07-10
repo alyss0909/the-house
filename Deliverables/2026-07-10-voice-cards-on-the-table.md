@@ -7,6 +7,8 @@ last_updated: 2026-07-10
 
 # Voice cards on the table
 
+> **DECISION (Alyssa, 2026-07-10):** Go with **Option 2** — one file per format built from full real examples, rulebooks demoted to an editing pass. Plus a bigger ruling that reshapes the whole thing: **voice must not be owned by Hermes.** Hermes is a content-desk writer. Voice is a house-level layer that applies to every project and every answer any agent gives, not just content. [[Hermes/SOUL]] currently reads too content-forward (for-the-girls framing, CTA words) — proof the voice layer is trapped inside the content machinery instead of sitting above it. Next session: design where the house-level voice layer lives and how every agent loads it, then build the per-format example files. Not built yet — this is the direction, the restructure is its own session.
+
 You asked for everything laid out so you can pick one path. This is not me pre-deciding that Hermes wins because it says so in its own SOURCES.md. I read both layers in full and I am telling you honestly what each one actually is.
 
 ## The comparison table
