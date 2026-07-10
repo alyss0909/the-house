@@ -27,7 +27,7 @@ Do not use tags to repeat facts that already live in a folder path, frontmatter 
 | Lane | Meaning |
 |---|---|
 | `approved` | Normal reusable vault tag. Safe for new notes when the usage boundary fits. |
-| `journal-legacy` | Allowed in `PKM/Journal/` and old imported Journal material. Do not enforce on governed Second Brain or entity notes unless explicitly approved. |
+| `journal-legacy` | Allowed in `Notebook/Journal/` and old imported Journal material. Do not enforce on governed Second Brain or entity notes unless explicitly approved. |
 | `review` | Allowed for now, but Alyssa wants to revisit the boundary. Do not expand casually. |
 | `prohibited` | Do not use. Remove or replace when found. |
 | `retired` | Old tag that has a canonical replacement or deletion rule. |

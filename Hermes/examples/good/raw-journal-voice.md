@@ -1,6 +1,6 @@
 ---
 format: raw unperformed thinking (journal / voice memo)
-source: PKM/Journal/ — especially 2026/06/2026-06-06-boh-launch-email-inspo.md (the single highest-signal file in the vault)
+source: Notebook/Journal/ — especially 2026/06/2026-06-06-boh-launch-email-inspo.md (the single highest-signal file in the vault)
 why: the voice UNDER the copy — thinking-out-loud cascades, verdict register, the theses
 verbatim: true
 ---

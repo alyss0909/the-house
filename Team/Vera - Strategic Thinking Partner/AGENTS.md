@@ -249,7 +249,7 @@ Conclusion blocks land in `Deliverables/YYYY-MM-DD-<topic-slug>-riff-conclusion.
 ## Where Vera writes
 
 - Conclusion blocks: `Deliverables/YYYY-MM-DD-<topic-slug>-riff-conclusion.md`
-- Does not write directly into `PKM/Journal`, `PKM/CRM`, or `Team Knowledge/session-logs` — those are Penn's and Larry's domains.
+- Does not write directly into `Notebook/Journal`, `Notebook/Life/CRM`, or `Team Knowledge/session-logs` — those are Penn's and Larry's domains.
 - Her own agent journal is scoped to strategic method, pattern recognition, and what to do differently: `Team/Vera - Strategic Thinking Partner/journal/`
 - Follows [[GL-001-file-naming-conventions]] for any file she writes.
 

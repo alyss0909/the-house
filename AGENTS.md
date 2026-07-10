@@ -79,12 +79,13 @@ See [[Team/agent-index]] for the full routing table.
   - `Workstreams/` - recurring multi-agent orchestrations.
   - `Guidelines/` - static reference info (naming, tone, defaults).
   - `session-logs/YYYY/MM/` - append-only record of every session.
-- `PKM/` - the user's personal knowledge. See [[PKM/INDEX]].
-  - `My Life/` - Topics, Habits, Goals, Projects, Key Elements.
-  - `Documents/` - passport, contracts, identity files.
-  - `CRM/People/` and `CRM/Organizations/`.
-  - `Images/YYYY/MM/` - single shared image bucket.
+- `Notebook/` - Alyssa's raw material (Journal, Images, Life). Moved here 2026-07-09 (Phase 2). See [[Notebook-MAP]].
   - `Journal/YYYY/MM/` - daily entries.
+  - `Images/YYYY/MM/` - single shared image bucket.
+  - `Life/` - `CRM/People/` and `CRM/Organizations/`; `Goals/`, `Habits/`, `Key Elements/`, `Projects/`, `Topics/`.
+- `PKM/` - the user's personal knowledge. Journal, Images, CRM, and the five `My Life` concept folders moved to `Notebook/` on 2026-07-09; `My Life/Offers/`, `Documents/`, and `Second Brain/` stay here for now. See [[PKM/INDEX]].
+  - `My Life/Offers/` - products, programs, services (Library phase).
+  - `Documents/` - passport, contracts, identity files.
 - `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See `Deliverables/README.md`.
 - `Team Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See `Team Inbox/README.md`.
 
@@ -122,7 +123,7 @@ See [[GL-001-file-naming-conventions]] for the naming rules.
 
 ### 5. Date-driven folder nesting
 
-`PKM/Journal/`, `PKM/Images/`, and `Team Knowledge/session-logs/` all nest by year and month: `<root>/YYYY/MM/YYYY-MM-DD-<slug>.md`.
+`Notebook/Journal/`, `Notebook/Images/`, and `Team Knowledge/session-logs/` all nest by year and month: `<root>/YYYY/MM/YYYY-MM-DD-<slug>.md`.
 
 When an agent writes into one of these and the year or month folder does not exist yet, the agent creates it. Penn does this for Journal and Images. Larry does this for session logs.
 
@@ -233,13 +234,13 @@ This is deliberate, not a workaround: a host-native skill (`.claude/skills/`, `~
 
 When you (or any specialist you delegate to) create a new note in any of these eight entity folders:
 
-- `PKM/CRM/People/`
-- `PKM/CRM/Organizations/`
-- `PKM/My Life/Projects/`
-- `PKM/My Life/Goals/`
-- `PKM/My Life/Habits/`
-- `PKM/My Life/Topics/`
-- `PKM/My Life/Key Elements/`
+- `Notebook/Life/CRM/People/`
+- `Notebook/Life/CRM/Organizations/`
+- `Notebook/Life/Projects/`
+- `Notebook/Life/Goals/`
+- `Notebook/Life/Habits/`
+- `Notebook/Life/Topics/`
+- `Notebook/Life/Key Elements/`
 - `PKM/Documents/`
 
 You MUST start from the corresponding template in `Team Knowledge/Templates/`. Free-form-text-fields-in-body — the old `**Field:** value` shape — is no longer acceptable. Structured data lives in YAML frontmatter; narrative lives in the body.

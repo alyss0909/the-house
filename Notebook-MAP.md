@@ -15,9 +15,9 @@ zone: Notebook
 
 | What | Current path | Note |
 |---|---|---|
-| Journal | `PKM/Journal/YYYY/MM/` | ~543 raw entries. Alyssa's actual words. |
+| Journal | `Notebook/Journal/YYYY/MM/` | ~543 raw entries. Alyssa's actual words. (Moved from `PKM/Journal/` 2026-07-09.) |
 | Inbox (raw drops) | `Team Inbox/` (the loose notes, NOT `pitches/`) | Telegram, screenshots, memos land here. |
-| Life facts | `PKM/My Life/` (Goals, Habits, Key Elements, Projects, Topics) + `PKM/CRM/` | Her real life and relationships. |
+| Life facts | `Notebook/Life/` (Goals, Habits, Key Elements, Projects, Topics) + `Notebook/Life/CRM/` | Her real life and relationships. (Moved from `PKM/My Life/` + `PKM/CRM/` 2026-07-09; Offers stays at `PKM/My Life/Offers/`.) |
 | Her drafts | (to define — `Notebook/Drafts` after the move) | Half-finished work she hasn't handed over. Possession decides, not doneness. |
 | Todos | (to confirm where these live today) | |
 

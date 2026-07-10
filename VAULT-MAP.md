@@ -20,13 +20,14 @@ This vault is organized by trust, not by project. Three places, one rule each:
 
 ## Where things physically are RIGHT NOW (transition table)
 
-The Signals desk has moved (Pilot A, 2026-07-09). Everything else is still at its current path. Until a row says MOVED, use the current path:
+The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Images, Life) moved in Phase 2 (2026-07-09). Everything else is still at its current path. Until a row says MOVED, use the current path:
 
 | Conceptual home | Current physical path |
 |---|---|
-| Notebook/Journal | `PKM/Journal/` |
+| Notebook/Journal | **MOVED 2026-07-09** → `Notebook/Journal/` (redirect stub at old path) |
 | Notebook/Inbox | `Team Inbox/` (the raw drops, NOT `pitches/`) |
-| Notebook/Life | `PKM/My Life/` + `PKM/CRM/` |
+| Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `PKM/My Life/Offers/`; redirect stubs at old paths) |
+| Notebook/Images | **MOVED 2026-07-09** → `Notebook/Images/` (redirect stub at old path) |
 | Studio/Content OS | `Team Inbox/pitches/` + `dashboard/` |
 | Studio/Signals | **MOVED 2026-07-09** → `Studio/Signals/` + `Studio/Signals/Developing Ideas/` (redirect stubs left at old paths) |
 | Studio/Analysis | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/` |

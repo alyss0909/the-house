@@ -41,7 +41,7 @@ KeepSidian drops images at the vault root as `Pasted image YYYYMMDDHHMMSS.png`. 
 
 1. Run `Glob` for `*Pasted image*` at vault root.
 2. Also check `Team Inbox/media/` for files with no extension (Keep exports lose file type — use `file` command to confirm they are PNG/JPG).
-3. Move all to `PKM/Images/YYYY/MM/` with kebab-case names.
+3. Move all to `Notebook/Images/YYYY/MM/` with kebab-case names.
 4. Update `![[...]]` embeds in inbox notes to point to new paths.
 
 ### Step 2 — Penn writes each approved note
@@ -51,10 +51,10 @@ For each approved note (routing already confirmed in WS-003):
 1. Read the inbox file.
 2. Extract source URL — `GoogleKeepUrl` for Keep exports, `source:` frontmatter for web clips, or note manually.
 3. Strip all source-specific frontmatter: `GoogleKeepCreatedDate`, `GoogleKeepUpdatedDate`, `GoogleKeepUrl`, `KeepSidianLastSyncedDate`, `author`, `published`, `clippings` tag, etc.
-4. Write standalone note at `PKM/Journal/YYYY/MM/YYYY-MM-DD-slug.md`. Auto-create folders. One note per capture — never merge.
+4. Write standalone note at `Notebook/Journal/YYYY/MM/YYYY-MM-DD-slug.md`. Auto-create folders. One note per capture — never merge.
 5. Add clean frontmatter: `date:` and `tags:` only.
 6. Write body content — distilled and clean. If source is Alyssa's own writing, preserve her words exactly; clean formatting only.
-7. Add `**Related notes**` — scan `PKM/Journal/` for related entries. Link any found.
+7. Add `**Related notes**` — scan `Notebook/Journal/` for related entries. Link any found.
 8. Add `**Connections:**` line with all entity wikilinks from approved routing.
 9. Add source line as last line: `*[Original Keep note](URL)*` or `*[Source](URL)*`
 10. Do NOT delete the inbox file — Larry handles cleanup in WS-003 Step 4.

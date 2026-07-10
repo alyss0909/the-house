@@ -33,7 +33,7 @@ Larry reads every file in `Team Inbox/` and builds a routing table.
 For each item:
 
 1. **Identify source type:** Keep export with `GoogleKeepCreatedDate` frontmatter / meeting capture pointer in `Team Inbox/Meeting Captures/` / web clip / manual note / image.
-2. **Concept-level duplicate check:** search key terms across `PKM/Journal/` and running docs. Check for the same idea at any date, not just the same day.
+2. **Concept-level duplicate check:** search key terms across `Notebook/Journal/` and running docs. Check for the same idea at any date, not just the same day.
 3. **Determine output:** see Output Types below.
 4. **Propose routing:** tags, connections, related notes, and proposed action.
 
@@ -111,7 +111,7 @@ After approval:
 
 Penn, following [[SOP-003-keep-notes-to-journal]]:
 
-- Writes each new standalone note to `PKM/Journal/YYYY/MM/YYYY-MM-DD-slug.md`.
+- Writes each new standalone note to `Notebook/Journal/YYYY/MM/YYYY-MM-DD-slug.md`.
 - Strips source-specific frontmatter where present.
 - Writes clean body content. If the source is Alyssa's own writing, preserve her words exactly and clean formatting only.
 - Adds `**Related notes**` with wikilinks to related journal entries.
@@ -124,7 +124,7 @@ Larry:
 - Appends to running docs where approved, always with a wikilink back to the standalone note.
 - Creates task files where approved.
 - Routes meeting capture pointers through [[WS-005-meeting-capture-processing]].
-- Sweeps orphaned images into `PKM/Images/YYYY/MM/`.
+- Sweeps orphaned images into `Notebook/Images/YYYY/MM/`.
 
 ## Step 4 - Cleanup (Larry)
 

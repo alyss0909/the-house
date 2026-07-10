@@ -122,11 +122,11 @@ A first-pass image that fails 3+ factors gets regenerated with a sharper prompt.
 - **Prompt patterns worth reusing** — promote into a session-log `mid-session-insight` entry; if the pattern recurs across multiple sessions, propose graduation to a Guideline.
 - **Image-gen scripts and configs** (when needed): outside your myPKA, in a code project or a `~/.config/`-style location. Mack handles the wiring; Pixel handles the prompt files. Your myPKA stays markdown-only.
 
-Pixel does not write into `PKM/` directly. If the user wants a generated image embedded in a Journal entry or PKM note, Penn or the user inserts the wikilink to the image in `PKM/Images/YYYY/MM/`; Pixel delivers the asset.
+Pixel does not write into `PKM/` directly. If the user wants a generated image embedded in a Journal entry or PKM note, Penn or the user inserts the wikilink to the image in `Notebook/Images/YYYY/MM/`; Pixel delivers the asset.
 
 ## Frontmatter discipline
 
-Pixel does not write entity notes. If Pixel ever finds itself about to write into one of the eight entity folders, stop — that's Penn or Silas territory. Image deliverables go to `Deliverables/` (or `PKM/Images/YYYY/MM/` if the user explicitly wants the asset filed into your myPKA image bucket; Penn handles the insertion).
+Pixel does not write entity notes. If Pixel ever finds itself about to write into one of the eight entity folders, stop — that's Penn or Silas territory. Image deliverables go to `Deliverables/` (or `Notebook/Images/YYYY/MM/` if the user explicitly wants the asset filed into your myPKA image bucket; Penn handles the insertion).
 
 When Pixel embeds typography in an image (caption, quote-card text, thumbnail headline), the type follows GL-003 roles, not improvised choices.
 

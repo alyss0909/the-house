@@ -90,7 +90,7 @@ For tables with FK references (`journal.key_element_id`, `journal.project_id`, e
 
 Each markdown file starts with a `---`-delimited YAML block. Parse with PyYAML or equivalent. The mapping below tells you which frontmatter keys map to which columns. **If a key is absent, write `NULL`. Do not guess.**
 
-**`people` table** (sources: `PKM/CRM/People/`)
+**`people` table** (sources: `Notebook/Life/CRM/People/`)
 
 | Column | Source |
 |---|---|
@@ -102,7 +102,7 @@ Each markdown file starts with a `---`-delimited YAML block. Parse with PyYAML o
 | `company`, `role`, `last_contact` | same key |
 | `notes` | body text after the H1 |
 
-**`organizations`** (sources: `PKM/CRM/Organizations/`)
+**`organizations`** (sources: `Notebook/Life/CRM/Organizations/`)
 
 | Column | Source |
 |---|---|
@@ -115,7 +115,7 @@ Each markdown file starts with a `---`-delimited YAML block. Parse with PyYAML o
 
 For each: `slug` (filename stem), `name` (frontmatter `name` or first H1), `description` (body text), and any other frontmatter keys present. For `parent_id` references, parse the body for `Parent: [[<slug>]]` patterns and resolve in the second pass.
 
-**`journal`** (sources: `PKM/Journal/YYYY/MM/*.md`)
+**`journal`** (sources: `Notebook/Journal/YYYY/MM/*.md`)
 
 | Column | Source |
 |---|---|
@@ -179,8 +179,8 @@ UNION ALL SELECT 'content_index', COUNT(*) FROM content_index;
 Compare against the file counts on disk:
 
 ```bash
-find "$VAULT/PKM/Journal" -name '*.md' -not -name 'INDEX.md' | wc -l
-find "$VAULT/PKM/CRM/People" -name '*.md' -not -name 'INDEX.md' | wc -l
+find "$VAULT/Notebook/Journal" -name '*.md' -not -name 'INDEX.md' | wc -l
+find "$VAULT/Notebook/Life/CRM/People" -name '*.md' -not -name 'INDEX.md' | wc -l
 # ...etc per folder
 ```
 

@@ -15,7 +15,7 @@ Markdown stubs that describe and point at the user's real documents (passports, 
 
 ## What does not go here
 
-- Daily notes (those go in [[PKM/Journal/INDEX|Journal]]).
+- Daily notes (those go in [[Notebook/Journal/INDEX|Journal]]).
 - Personal projects or goals (those go in [[PKM/My Life/INDEX|My Life]]).
 - Research reports (those go in `Deliverables/`).
 
@@ -29,4 +29,4 @@ See [[GL-001-file-naming-conventions]].
 
 ## Image embeds
 
-If a document has scans, those go to `PKM/Images/YYYY/MM/` and are embedded via `![[Images/YYYY/MM/...]]` from the document stub. The image is in Images. The stub points at it. SSOT.
+If a document has scans, those go to `Notebook/Images/YYYY/MM/` and are embedded via `![[Images/YYYY/MM/...]]` from the document stub. The image is in Images. The stub points at it. SSOT.

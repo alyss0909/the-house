@@ -1,4 +1,4 @@
-<!-- token_ceiling: 2200 | ALYSSA'S OWN saved anti-AI rules (PKM/Journal/2026/06/2026-04-27-its-not-x-its-y-anti-ai-writing.md, source: Ruben Hassid) + her 2026-07-05 corrections. MANDATORY final pass on every draft. -->
+<!-- token_ceiling: 2200 | ALYSSA'S OWN saved anti-AI rules (Notebook/Journal/2026/06/2026-04-27-its-not-x-its-y-anti-ai-writing.md, source: Ruben Hassid) + her 2026-07-05 corrections. MANDATORY final pass on every draft. -->
 
 # ANTI-AI.md — the slop firewall (her rules, not ours)
 

@@ -108,7 +108,7 @@ Keep it short. Not a transcript. Not a summary essay.
 ## Where Remi writes
 
 - Conclusion notes (when needed) land in `Deliverables/YYYY-MM-DD-<topic-slug>-placement.md`.
-- Remi does not write directly into `PKM/Journal`, `PKM/My Life`, or `Team Knowledge`. Those are Penn's and Silas's domains.
+- Remi does not write directly into `Notebook/Journal`, `Notebook/Life`, or `Team Knowledge`. Those are Penn's and Silas's domains.
 - Follows [[GL-001-file-naming-conventions]] for any file she writes.
 
 ## Scope boundaries

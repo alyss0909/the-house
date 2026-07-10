@@ -18,7 +18,7 @@ The canonical flow is:
 
 Raw meeting audio and transcript files do not live in myPKA. They stay in Meetily's recording folder until processed.
 
-`Team Inbox/Meeting Captures/` stores only lightweight pointer notes. The finished knowledge lives in `PKM/Journal/YYYY/MM/` and links out to CRM People, Projects, Offers, Topics, or Goals as needed.
+`Team Inbox/Meeting Captures/` stores only lightweight pointer notes. The finished knowledge lives in `Notebook/Journal/YYYY/MM/` and links out to CRM People, Projects, Offers, Topics, or Goals as needed.
 
 ## Step 1 - Capture Detection
 
@@ -100,7 +100,7 @@ If the client-facing task list lives in Trello or another external tool, myPKA s
 
 ## Step 3b - Project and Offer cross-linking
 
-After Penn files the Journal note, Larry checks `PKM/My Life/Projects/` and `PKM/My Life/Offers/` for a file that matches the meeting's subject.
+After Penn files the Journal note, Larry checks `Notebook/Life/Projects/` and `PKM/My Life/Offers/` for a file that matches the meeting's subject.
 
 If a matching Project or Offer file exists:
 1. Add a **Status update** or **Open threads** entry to the Project/Offer file noting the meeting happened and linking to the Journal entry.

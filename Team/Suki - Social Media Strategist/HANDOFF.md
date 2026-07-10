@@ -83,7 +83,7 @@ Every one of these cost a rejection. They're your fence.
 - Teachings: `programs/back-of-house/` (5 phases/21 modules/transcripts/slides/3 webinars); `boh-teaching-index` 0-2 & 3-5; `frameworks/` (social-hooks, the-postmaster-bot)
 - Offers/funnel: `Hermes/FUNNEL.md`, `BUSINESS.md`, `PKM/My Life/Offers/` (25)
 - Audience: `analysis/audience/back-of-house-2025-survey`
-- Raw voice/seeds: `PKM/Journal/` (2019→now), `examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
+- Raw voice/seeds: `Notebook/Journal/` (2019→now), `examples/` (sales-emails, simmers, soft-sundays, sales-pages), `Signals/`, `Developing Ideas/`
 
 *LAYER 2 — real Instagram craft (the skills — NOT her work):*
 - `Deliverables/2026-07-05-social-skills-repo-intake/extracted/2026-07-06-repo-alignment-audit.md` — the distilled 20-rule craft book (hook=50% of score, first-3-words gate, "so what?" test, three-part kills, batch hook-variety, DR-copy + buyer-psych filters)

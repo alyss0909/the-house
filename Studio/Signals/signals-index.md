@@ -86,7 +86,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Last seen**: 2026-06-27
 - **Signal status**: developing
 - **Garden note**: [[Studio/Signals/Developing Ideas/boh-as-permission-not-product.md]]
-- **Latest capture**: "the people who build sustainable creative businesses aren't the ones who master marketing, they're the ones who give a shit about something specific and built a back-of-house that means they never have to stop giving a shit" — [[PKM/Journal/2026/06/2026-06-27-sustainable-creative-biz-signal.md]]
+- **Latest capture**: "the people who build sustainable creative businesses aren't the ones who master marketing, they're the ones who give a shit about something specific and built a back-of-house that means they never have to stop giving a shit" — [[Notebook/Journal/2026/06/2026-06-27-sustainable-creative-biz-signal.md]]
 
 ---
 
@@ -194,4 +194,4 @@ _None yet._
 - [[Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the procedure that updates this file
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the garden notes that live signals feed into
 - [[PKM/Second Brain/taste-log.md]] — approval patterns that inform signal prioritization
-- [[PKM/My Life/Goals/]] — active Goals this index cross-references
+- [[Notebook/Life/Goals/]] — active Goals this index cross-references

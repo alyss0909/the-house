@@ -6,9 +6,9 @@ This is the user's personal knowledge. The team's operations side lives in [[Tea
 
 - **[[PKM/My Life/INDEX|My Life]]** - the five life concepts: Topics, Habits, Goals, Projects, Key Elements.
 - **[[PKM/Documents/INDEX|Documents]]** - passports, contracts, identity files. Markdown stubs that point at where the real file lives.
-- **[[PKM/CRM/INDEX|CRM]]** - People and Organizations. Cross-linked into Journal entries via `[[wikilinks]]`.
-- **[[PKM/Images/INDEX|Images]]** - single shared image bucket. Nested by `YYYY/MM/`. Images live here, never duplicated elsewhere; entries embed via `![[Images/YYYY/MM/...]]`.
-- **[[PKM/Journal/INDEX|Journal]]** - daily entries, one file per day, nested by `YYYY/MM/`. The inbox of your myPKA.
+- **[[Notebook/Life/CRM/INDEX|CRM]]** - People and Organizations. Cross-linked into Journal entries via `[[wikilinks]]`. (Moved to `Notebook/Life/CRM/` 2026-07-09.)
+- **[[Notebook/Images/INDEX|Images]]** - single shared image bucket. Nested by `YYYY/MM/`. Images live here, never duplicated elsewhere; entries embed via `![[Images/YYYY/MM/...]]`. (Moved to `Notebook/Images/` 2026-07-09.)
+- **[[Notebook/Journal/INDEX|Journal]]** - daily entries, one file per day, nested by `YYYY/MM/`. The inbox of your myPKA. (Moved to `Notebook/Journal/` 2026-07-09.)
 
 ## How the wiki connects
 

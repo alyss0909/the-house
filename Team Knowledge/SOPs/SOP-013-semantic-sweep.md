@@ -27,7 +27,7 @@ Sweep intelligence is still bound by [[GL-009-source-boundaries-and-promotion]].
 ## Weekly Light Sweep
 
 ### Step 0 — Scope
-Confirm date range: last 7 days. Glob `PKM/Journal/YYYY/MM/` for entries in range.
+Confirm date range: last 7 days. Glob `Notebook/Journal/YYYY/MM/` for entries in range.
 
 ### Step 1 — Read and flag
 Read each entry. For each entry, check:
@@ -68,7 +68,7 @@ Full previous calendar month. Glob all journal entries for the month.
 Read all entries. Build a cluster map: group by underlying theme, not surface words. "I keep procrastinating on recording" and "hard to start video work" are the same signal. Name each cluster (3-6 words, lowercase, hyphenated). Count distinct entry appearances. Note first/last seen.
 
 ### Step 2 — Cross-reference goals
-Glob `PKM/My Life/Goals/` for active Goals. For each signal with 3+ recurrence: flag alignment (signal supports goal), gap (recurring theme with no goal), or tension (signal conflicts with goal).
+Glob `Notebook/Life/Goals/` for active Goals. For each signal with 3+ recurrence: flag alignment (signal supports goal), gap (recurring theme with no goal), or tension (signal conflicts with goal).
 
 ### Step 3 — Update signals-index.md
 - Update recurrence counts and `last_seen` for all existing signals

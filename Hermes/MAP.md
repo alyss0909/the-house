@@ -12,7 +12,7 @@ The clone does not eat summaries. It reads HER files, guided by this map. Rule o
 | `PKM/Second Brain/examples/` | Her REAL published work: sales-emails/ (6), simmers/ (4), soft-sundays/ (8), sales-pages/, Carousels/ (14 posts + captions.md) | the format's folder + §5 exemplar index |
 | `PKM/Second Brain/analysis/` | HER distillation layer (18 files): carousel-slide-by-slide, subject-line (351 broadcasts), soft-sunday, sales-page, email-microstyle-forensics, boh-teaching-index-phases-0-2 & 3-5, audience/ survey | task recipes (§2) |
 | `PKM/Second Brain/frameworks/` | 11 framework files incl. social-hooks, the-postmaster-bot | task recipes (§2) |
-| `PKM/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
+| `Notebook/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
 | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | What's recurring + theses in progress. Check before pitching: thesis-feeding content compounds | signals-index.md |
 | `PKM/My Life/Offers/` | 25 offer files (positioning, copy, funnel per product) | BUSINESS.md row → offer file of same name |
 | quarantine (never load as voice) | `analysis/voice-profile.md`, `voice-archive.md`, `writing-style.md` (its "read before writing" frontmatter is void — Fable ruling 2026-07-05, see SOURCES.md), `templates/`, `Carousels/brief-bank.md`, all Wren files, stale-voice pages | SOURCES.md |
@@ -36,7 +36,7 @@ Every writing task = JUDGMENT files (SOUL+STYLE+TASTE+ANTI-AI) + these vault loa
 | Judging (gate) | ANTI-AI + TASTE + 2 real same-format pieces from examples/ for the lineup |
 | Trust gate before asking/creating/promoting | `Hermes/MEAN-ALYSSA.md` + `Team Knowledge/Guidelines/GL-009-source-boundaries-and-promotion.md` + the relevant rejection-corpus source |
 | Taste/strategy decision with no provable answer | `Hermes/MEAN-ALYSSA.md` + same-format examples/source; return Version A (safer/source-close) and Version B (nuanced/higher-upside/needs Alyssa taste) |
-| Any topic at all | grep `PKM/Journal/` for her raw take first |
+| Any topic at all | grep `Notebook/Journal/` for her raw take first |
 
 ## 3. The calendar → slot map
 
@@ -81,11 +81,11 @@ All 14 carousel folders live in `examples/Carousels/` with verbatim captions + m
 
 ## 6. Seed bank (unmined journal moments → path; the SEED input beats slot-filling)
 
-- spinach-nutritionist stint → `Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach…`
-- cattle-horn cry (Simmer story) → `Journal/2026/03/2026-03-19-simmer-story.md`
-- "I can't wait to see why this didn't work out" (self-trust cluster, 6 linked entries 2019→2026) → `Journal/2026/03/2026-03-06-…`
-- "mom life has me working in the margins" → `Journal/2026/01/2026-01-22-…`
-- Stephen Covey line + middle-ground voice memo (launch material) → `Journal/2026/06/2026-06-06-boh-launch-email-inspo.md`
+- spinach-nutritionist stint → `Notebook/Journal/2026/01/2026-01-31-how-i-stopped-trying-to-sell-spinach…`
+- cattle-horn cry (Simmer story) → `Notebook/Journal/2026/03/2026-03-19-simmer-story.md`
+- "I can't wait to see why this didn't work out" (self-trust cluster, 6 linked entries 2019→2026) → `Notebook/Journal/2026/03/2026-03-06-…`
+- "mom life has me working in the margins" → `Notebook/Journal/2026/01/2026-01-22-…`
+- Stephen Covey line + middle-ground voice memo (launch material) → `Notebook/Journal/2026/06/2026-06-06-boh-launch-email-inspo.md`
 - auction woman → same file — RESERVED: Email 3 of BOH Summer Launch
 
 ## 7. Known broken / waiting on Alyssa

@@ -23,17 +23,17 @@ Larry checks the routing cheatsheet in his AGENTS.md. Daily journaling triggers 
 
 ### Step 2 - Penn writes the Journal entry
 
-- **Path:** `PKM/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`.
+- **Path:** `Notebook/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`.
 - **Auto-create folders:** if `YYYY/` or `YYYY/MM/` does not exist, Penn creates them.
 - **Filename:** ISO date prefix plus a kebab-case slug derived from the day's main theme. See [[GL-001-file-naming-conventions]].
 - **Format:** plain markdown. One entry per day. If the day already has an entry, Penn appends a new section to the existing file.
 
 ### Step 3 - Penn handles images
 
-- **Path:** `PKM/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`.
+- **Path:** `Notebook/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`.
 - **Auto-create folders:** same rule as Journal.
 - **Filename pattern:** see [[GL-001-file-naming-conventions]].
-- **Embed in Journal:** Penn embeds the image in the Journal entry with `![[Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>]]`. The image lives in `PKM/Images/`. The Journal entry references it. Image is never duplicated into the Journal folder.
+- **Embed in Journal:** Penn embeds the image in the Journal entry with `![[Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>]]`. The image lives in `Notebook/Images/`. The Journal entry references it. Image is never duplicated into the Journal folder.
 
 ### Step 4 - Penn cross-links to PKM
 
@@ -41,14 +41,14 @@ For each entity mentioned in the input, Penn routes by type. Use the table below
 
 | Type of mention | Destination folder | Filename pattern | Notes |
 |---|---|---|---|
-| Person | `PKM/CRM/People/` | `firstname-lastname.md` (or `title-lastname.md`) | Stub if missing. Embed any business card or photo via `![[Images/...]]`. |
-| Organization, company, venue | `PKM/CRM/Organizations/` | `<org-slug>.md` | Stub if missing. Cross-link to People who work there. |
-| Interest area or recurring subject | `PKM/My Life/Topics/` | `<topic-slug>.md` | Stub if missing. Topics are stable categories of attention, not projects. |
-| Habit, ongoing rhythm, routine | `PKM/My Life/Habits/` | `<habit-slug>.md` | Stub if missing. Habits have a cadence and a definition of done. |
-| Concrete time-bound effort | `PKM/My Life/Projects/` | `<project-slug>.md` | Stub if missing. Projects have a finish line. |
-| Outcome or aspiration with horizon | `PKM/My Life/Goals/` | `<goal-slug>.md` | Stub if missing. Goals link to the Key Element they belong to. |
-| Stable life dimension (Health, Family, Career, etc.) | `PKM/My Life/Key Elements/` | `<element-slug>.md` | Stub if missing. Key Elements are dimensions, not goals. |
-| Real-world document (passport, contract, certificate, ID) | `PKM/Documents/` | `<doc-slug>.md` | Stub if missing. Document records hold metadata: physical location, digital location, expiry, renewal trigger. The actual file (if scanned) goes under `PKM/Images/` and is embedded. |
+| Person | `Notebook/Life/CRM/People/` | `firstname-lastname.md` (or `title-lastname.md`) | Stub if missing. Embed any business card or photo via `![[Images/...]]`. |
+| Organization, company, venue | `Notebook/Life/CRM/Organizations/` | `<org-slug>.md` | Stub if missing. Cross-link to People who work there. |
+| Interest area or recurring subject | `Notebook/Life/Topics/` | `<topic-slug>.md` | Stub if missing. Topics are stable categories of attention, not projects. |
+| Habit, ongoing rhythm, routine | `Notebook/Life/Habits/` | `<habit-slug>.md` | Stub if missing. Habits have a cadence and a definition of done. |
+| Concrete time-bound effort | `Notebook/Life/Projects/` | `<project-slug>.md` | Stub if missing. Projects have a finish line. |
+| Outcome or aspiration with horizon | `Notebook/Life/Goals/` | `<goal-slug>.md` | Stub if missing. Goals link to the Key Element they belong to. |
+| Stable life dimension (Health, Family, Career, etc.) | `Notebook/Life/Key Elements/` | `<element-slug>.md` | Stub if missing. Key Elements are dimensions, not goals. |
+| Real-world document (passport, contract, certificate, ID) | `PKM/Documents/` | `<doc-slug>.md` | Stub if missing. Document records hold metadata: physical location, digital location, expiry, renewal trigger. The actual file (if scanned) goes under `Notebook/Images/` and is embedded. |
 
 For every routed entity:
 
@@ -77,7 +77,7 @@ When in doubt, create the stub. A stub costs nothing. A missing reference costs 
 At session close, Larry scans the new Journal entry, the new image (if any), and any newly created CRM or My Life stubs:
 
 - Confirms `[[wikilinks]]` resolve.
-- Confirms images sit in `PKM/Images/YYYY/MM/`, not duplicated elsewhere.
+- Confirms images sit in `Notebook/Images/YYYY/MM/`, not duplicated elsewhere.
 - Confirms each new stub is listed in its section's `INDEX.md`.
 - Flags SSOT violations to the user.
 

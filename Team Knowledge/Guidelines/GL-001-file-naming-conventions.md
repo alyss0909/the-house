@@ -24,8 +24,8 @@ Pattern: `YYYY-MM-DD-<slug>.<ext>`
 
 Applies to:
 
-- Journal entries: `PKM/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`
-- Images: `PKM/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`
+- Journal entries: `Notebook/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`
+- Images: `Notebook/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`
 - Session logs: `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<optional-HH-MM>_<agent-slug>_<topic-slug>.md`
 - Deliverables when they are time-bound: `Deliverables/YYYY-MM-DD-<slug>.md`
 
@@ -68,7 +68,7 @@ Numbers do not skip. Reuse a retired number only after the retirement is logged 
 
 ### 7. Image filename pattern
 
-`YYYY-MM-DD-<slug>.<ext>` under `PKM/Images/YYYY/MM/`.
+`YYYY-MM-DD-<slug>.<ext>` under `Notebook/Images/YYYY/MM/`.
 
 The slug should describe the image, not just say "screenshot." Good: `2026-05-04-business-card-dr-schmidt.png`. Less good: `2026-05-04-screenshot.png`.
 

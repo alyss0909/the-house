@@ -16,7 +16,7 @@ Pick the template for the entity you are creating. Copy it to the right folder u
 Example, from your myPKA root:
 
 ```bash
-cp "Team Knowledge/Templates/person.md" "PKM/CRM/People/jane-doe.md"
+cp "Team Knowledge/Templates/person.md" "Notebook/Life/CRM/People/jane-doe.md"
 ```
 
 Then open the new file and edit. The Properties tab in mypka-interface will populate as soon as you save the file with frontmatter that has values.
@@ -25,13 +25,13 @@ Then open the new file and edit. The Properties tab in mypka-interface will popu
 
 | Template | Entity | Goes under |
 |---|---|---|
-| [[Templates/person]] | Person | `PKM/CRM/People/<slug>.md` |
-| [[Templates/organization]] | Organization | `PKM/CRM/Organizations/<slug>.md` |
-| [[Templates/project]] | Project | `PKM/My Life/Projects/<slug>.md` |
-| [[Templates/goal]] | Goal | `PKM/My Life/Goals/<slug>.md` |
-| [[Templates/habit]] | Habit | `PKM/My Life/Habits/<slug>.md` |
-| [[Templates/topic]] | Topic | `PKM/My Life/Topics/<slug>.md` |
-| [[Templates/key-element]] | Key Element | `PKM/My Life/Key Elements/<slug>.md` |
+| [[Templates/person]] | Person | `Notebook/Life/CRM/People/<slug>.md` |
+| [[Templates/organization]] | Organization | `Notebook/Life/CRM/Organizations/<slug>.md` |
+| [[Templates/project]] | Project | `Notebook/Life/Projects/<slug>.md` |
+| [[Templates/goal]] | Goal | `Notebook/Life/Goals/<slug>.md` |
+| [[Templates/habit]] | Habit | `Notebook/Life/Habits/<slug>.md` |
+| [[Templates/topic]] | Topic | `Notebook/Life/Topics/<slug>.md` |
+| [[Templates/key-element]] | Key Element | `Notebook/Life/Key Elements/<slug>.md` |
 | [[Templates/document]] | Document | `PKM/Documents/<slug>.md` |
 
 ## Rules these templates follow

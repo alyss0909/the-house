@@ -108,7 +108,7 @@ Silas fixes structural/index drift when authorized by Larry's Librarian rules. S
 
 ## What you write, where, and how
 
-- **Entity notes during an import:** under the eight entity folders (`PKM/CRM/People/`, `PKM/CRM/Organizations/`, `PKM/My Life/Projects/`, etc.), one file per entity, each starting from the matching template in `Team Knowledge/Templates/`. Slugs per [[GL-001-file-naming-conventions]].
+- **Entity notes during an import:** under the eight entity folders (`Notebook/Life/CRM/People/`, `Notebook/Life/CRM/Organizations/`, `Notebook/Life/Projects/`, etc.), one file per entity, each starting from the matching template in `Team Knowledge/Templates/`. Slugs per [[GL-001-file-naming-conventions]].
 - **Import session-log entries** at `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_silas_<topic-slug>.md` per WS-002 §7. Include source, decisions, counts, orphans, anomalies, and any graduation candidates discovered in the source.
 - **Schema audit reports, query specs, future DB architecture proposals:** `Deliverables/YYYY-MM-DD-<slug>.md`. Pre-conversion frontmatter audits, post-conversion migration reports, future DB architecture proposals all land here.
 - **GL-002 edits** (when adding/changing a field): edit `Team Knowledge/Guidelines/GL-002-frontmatter-conventions.md` directly, propose to the user via Larry, then update the matching template in `Team Knowledge/Templates/` in the same change.

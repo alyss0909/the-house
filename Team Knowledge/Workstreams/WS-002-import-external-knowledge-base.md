@@ -8,7 +8,7 @@
 
 ## Purpose
 
-Take a user's existing knowledge base — exported from any PKM tool, sitting in a folder, a zip, an API, an MCP server, or a SQLite file — and land it inside this myPKA folder as a set of properly-shaped notes: correct folder, correct frontmatter per [[GL-002-frontmatter-conventions]], correct slug per [[GL-001-file-naming-conventions]], wikilinks normalized, attachments routed to `PKM/Images/YYYY/...`, and a session-log entry capturing what came in.
+Take a user's existing knowledge base — exported from any PKM tool, sitting in a folder, a zip, an API, an MCP server, or a SQLite file — and land it inside this myPKA folder as a set of properly-shaped notes: correct folder, correct frontmatter per [[GL-002-frontmatter-conventions]], correct slug per [[GL-001-file-naming-conventions]], wikilinks normalized, attachments routed to `Notebook/Images/YYYY/...`, and a session-log entry capturing what came in.
 
 The Workstream is **procedure-only**. It does not perform any import on its own. The LLM running this procedure is the executor; the user is the source-of-truth on entity intent (what counts as a person vs a one-off mention, what's a project vs a note, etc.).
 
@@ -66,7 +66,7 @@ If the signature is ambiguous, ask the user. Do not over-fit.
 Before any inventory, before any write, the LLM asks the user this set. They are not optional. Skip none. The answers shape the plan.
 
 1. **Where is the source?** Absolute path / API endpoint + token / MCP server name.
-2. **Entity intent.** Are there entities (people, organizations, projects, goals, habits, topics, key elements) inside the source you want extracted into PKM/CRM and PKM/My Life — or do you want everything filed as notes-as-notes into `PKM/Documents/`? Most users want extraction. Confirm explicitly.
+2. **Entity intent.** Are there entities (people, organizations, projects, goals, habits, topics, key elements) inside the source you want extracted into Notebook/Life/CRM and Notebook/Life — or do you want everything filed as notes-as-notes into `PKM/Documents/`? Most users want extraction. Confirm explicitly.
 3. **Existing frontmatter in the source.** Does the source already have YAML frontmatter? Three sub-questions if yes:
    - **Preserve as-is?** Keep every key the user already wrote.
    - **Normalize to GL-002?** Map known keys to the canonical schema, drop unknown keys to the body as a "## Source frontmatter (raw)" section.
@@ -74,13 +74,13 @@ Before any inventory, before any write, the LLM asks the user this set. They are
    Default if user is unsure: **normalize**. Surface the dropped keys so nothing disappears silently.
 4. **Date field mapping.** Most sources have multiple timestamp fields (`created_at`, `updated_at`, `last_edited`, etc.). Which one becomes the canonical `date:` per [[GL-002-frontmatter-conventions]]? Default: `created_at`. Offer to also store `modified` if the source has a meaningful update timestamp.
 5. **SQLite source branch.** If the source is SQLite-backed, ask: "Do you want to upgrade myPKA to SQLite first via [[SOP-002-convert-mypka-to-sqlite]], so we can move structured rows directly across — or transcribe everything to markdown into the existing folder structure?" See §5 for the full dialogue.
-6. **Conflict policy.** If a target file already exists (e.g. `PKM/CRM/People/jane-doe.md` already lives in your myPKA), what's the rule?
+6. **Conflict policy.** If a target file already exists (e.g. `Notebook/Life/CRM/People/jane-doe.md` already lives in your myPKA), what's the rule?
    - **Skip** — leave the existing file alone, log the skip.
    - **Overwrite** — replace existing content with imported content (destructive; require explicit confirm).
    - **Rename** — write the new note as `<slug>-from-<source>.md` (e.g. `jane-doe-from-heptabase.md`) and let the user reconcile manually.
    Default: **rename**. Never silently overwrite.
-7. **Attachment handling.** Two sub-questions: should images be (a) copied into `PKM/Images/YYYY/MM/` (default), or (b) referenced in place by absolute path (faster, but breaks if the source moves)? And what's the date to nest them under — the source's `created_at` for the parent note, or today?
-8. **Tag policy.** If the source has tags, two options: (a) flatten into the YAML `tags: [...]` array per [[GL-002-frontmatter-conventions]] (default), or (b) reshape recurring tags into Topic notes under `PKM/My Life/Topics/`. The second is heavier but produces more interconnected wikis.
+7. **Attachment handling.** Two sub-questions: should images be (a) copied into `Notebook/Images/YYYY/MM/` (default), or (b) referenced in place by absolute path (faster, but breaks if the source moves)? And what's the date to nest them under — the source's `created_at` for the parent note, or today?
+8. **Tag policy.** If the source has tags, two options: (a) flatten into the YAML `tags: [...]` array per [[GL-002-frontmatter-conventions]] (default), or (b) reshape recurring tags into Topic notes under `Notebook/Life/Topics/`. The second is heavier but produces more interconnected wikis.
 
 ### Step 3 — Inventory
 
@@ -126,7 +126,7 @@ After all files are on disk, walk every imported note and rewrite cross-referenc
 
 - `[[Source Title]]` → `[[<kebab-case-slug>]]` if the slug resolves to a file the LLM just created or one already in your myPKA.
 - `[[orphan-link]]` (no resolve) → leave as-is and log to the orphans list. Do not auto-create empty stubs to make it resolve; let the user decide.
-- Embeds (`![[...]]`) follow the same rule but pointed at the new `PKM/Images/YYYY/MM/` paths.
+- Embeds (`![[...]]`) follow the same rule but pointed at the new `Notebook/Images/YYYY/MM/` paths.
 
 Idempotency: this step must be safe to re-run. The LLM tracks which notes it has already normalized via a small in-memory log; it does not double-rewrite.
 
@@ -153,19 +153,19 @@ This is the canonical map. Every concrete source format collapses into this set 
 
 | Source concept | myPKA destination | Notes |
 |---|---|---|
-| daily note / journal entry / diary | `PKM/Journal/YYYY/MM/YYYY-MM-DD.md` (or `YYYY-MM-DD-<slug>.md` if the source has a per-day theme) | Apply the daily-note frontmatter shape used by [[WS-001-daily-journaling]]. If multiple entries exist for the same date, append as new sections in chronological order. |
-| person / contact / human | `PKM/CRM/People/<slug>.md` | Use `Team Knowledge/Templates/person.md`. Required fields per [[GL-002-frontmatter-conventions]] §5. |
-| company / institution / venue | `PKM/CRM/Organizations/<slug>.md` | Use `Team Knowledge/Templates/organization.md`. Cross-link to People who work there. |
-| project / time-bound effort with a finish line | `PKM/My Life/Projects/<slug>.md` | Use `Team Knowledge/Templates/project.md`. |
-| goal / objective / OKR / aspiration with a horizon | `PKM/My Life/Goals/<slug>.md` | Use `Team Knowledge/Templates/goal.md`. Goals link upward to a Key Element. |
-| habit / routine / rhythm with a cadence | `PKM/My Life/Habits/<slug>.md` | Use `Team Knowledge/Templates/habit.md`. |
-| topic / area / category / interest | `PKM/My Life/Topics/<slug>.md` | Use `Team Knowledge/Templates/topic.md`. Stable categories of attention, not projects. |
-| MOC / index / hub / area-of-life / dimension | `PKM/My Life/Key Elements/<slug>.md` | Use `Team Knowledge/Templates/key-element.md`. Key Elements are dimensions (Health, Family, Career), not goals. |
+| daily note / journal entry / diary | `Notebook/Journal/YYYY/MM/YYYY-MM-DD.md` (or `YYYY-MM-DD-<slug>.md` if the source has a per-day theme) | Apply the daily-note frontmatter shape used by [[WS-001-daily-journaling]]. If multiple entries exist for the same date, append as new sections in chronological order. |
+| person / contact / human | `Notebook/Life/CRM/People/<slug>.md` | Use `Team Knowledge/Templates/person.md`. Required fields per [[GL-002-frontmatter-conventions]] §5. |
+| company / institution / venue | `Notebook/Life/CRM/Organizations/<slug>.md` | Use `Team Knowledge/Templates/organization.md`. Cross-link to People who work there. |
+| project / time-bound effort with a finish line | `Notebook/Life/Projects/<slug>.md` | Use `Team Knowledge/Templates/project.md`. |
+| goal / objective / OKR / aspiration with a horizon | `Notebook/Life/Goals/<slug>.md` | Use `Team Knowledge/Templates/goal.md`. Goals link upward to a Key Element. |
+| habit / routine / rhythm with a cadence | `Notebook/Life/Habits/<slug>.md` | Use `Team Knowledge/Templates/habit.md`. |
+| topic / area / category / interest | `Notebook/Life/Topics/<slug>.md` | Use `Team Knowledge/Templates/topic.md`. Stable categories of attention, not projects. |
+| MOC / index / hub / area-of-life / dimension | `Notebook/Life/Key Elements/<slug>.md` | Use `Team Knowledge/Templates/key-element.md`. Key Elements are dimensions (Health, Family, Career), not goals. |
 | reference document / file-record / passport / contract / certificate | `PKM/Documents/<slug>.md` | Use `Team Knowledge/Templates/document.md`. |
 | arbitrary note that doesn't fit the seven concept types above | `PKM/Documents/<slug>.md` | Same destination as references — Document is the catch-all for "this is content, but it isn't a Person/Org/Project/Goal/Habit/Topic/Key Element". Flag to the user during planning. |
 | backlinks / wikilinks (`[[Title]]`, `((uid))`, `@mention`) | normalize to `[[<kebab-case-slug>]]` form | Slug rules per [[GL-001-file-naming-conventions]]. Roam-style block refs (`((uid))`) lose their granularity — they become a link to the parent page note. The LLM warns the user about this lossy step. |
 | tags (`#tag`, `tag::value`, `tags: [...]`) | YAML `tags: [...]` array | Per [[GL-002-frontmatter-conventions]]. Hierarchical tags (`#parent/child`) flatten unless the user picked the "tags-to-Topics" option in Step 2. |
-| attachments / images / inline files | `PKM/Images/YYYY/MM/<filename>` | Date subfolder uses the **parent note's** `created_at`, not today (per Step 2 answer). Filename preserved when sensible; collisions get a `-N` suffix. Embed via `![[Images/YYYY/MM/<filename>]]` per the [[WS-001-daily-journaling]] embed rule. |
+| attachments / images / inline files | `Notebook/Images/YYYY/MM/<filename>` | Date subfolder uses the **parent note's** `created_at`, not today (per Step 2 answer). Filename preserved when sensible; collisions get a `-N` suffix. Embed via `![[Images/YYYY/MM/<filename>]]` per the [[WS-001-daily-journaling]] embed rule. |
 
 ## §5 — Special case: SQLite source detected
 

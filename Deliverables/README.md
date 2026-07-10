@@ -17,8 +17,8 @@ When a specialist produces something substantial - a research brief, a draft doc
 
 ## When NOT to use it
 
-- Personal life facts (people, projects, goals, habits) -> `PKM/`
-- Daily journal entries -> `PKM/Journal/`
+- Personal life facts (people, projects, goals, habits) -> `Notebook/Life/`
+- Daily journal entries -> `Notebook/Journal/`
 - Reference material the team needs forever (SOPs, Workstreams, Guidelines) -> `Team Knowledge/`
 
 Naming convention: see `Team Knowledge/Guidelines/GL-001-file-naming-conventions.md`.

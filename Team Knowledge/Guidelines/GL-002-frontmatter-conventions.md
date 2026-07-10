@@ -67,8 +67,8 @@ Bad: `fullName`, `last-contact`, `Target Date`.
 Locked decision: when one entity references another, the frontmatter field stores the **slug** of the target (the filename stem), and the UI resolves the slug to the target's `name` or `title` at render time.
 
 ```yaml
-# In PKM/CRM/People/jane-doe.md
-organization: acme-corp           # points to PKM/CRM/Organizations/acme-corp.md
+# In Notebook/Life/CRM/People/jane-doe.md
+organization: acme-corp           # points to Notebook/Life/CRM/Organizations/acme-corp.md
 ```
 
 Why slug not title: the slug is stable across renames inside frontmatter, the title is the field stored on the target file and may change. Storing the slug means a target rename (with file move) only needs to update one place.
@@ -108,7 +108,7 @@ One-off `notes_jane_likes` style keys break the SQLite migration silently. Free-
 
 These are the canonical fields per entity. Field names are case-sensitive and match the SQLite column names in [[SOP-002-convert-mypka-to-sqlite]].
 
-### People - `PKM/CRM/People/<slug>.md`
+### People - `Notebook/Life/CRM/People/<slug>.md`
 
 ```yaml
 ---
@@ -135,7 +135,7 @@ Notes:
 - `relation` follows the SOP-002 convention: prefer one of `colleague`, `friend`, `family`, `client`, `other`. Free text accepted but limits queryability.
 - Body section conventions: `## How we met`, `## Topics of common interest`, `## Notes`.
 
-### Organizations - `PKM/CRM/Organizations/<slug>.md`
+### Organizations - `Notebook/Life/CRM/Organizations/<slug>.md`
 
 ```yaml
 ---
@@ -155,7 +155,7 @@ Notes:
 - `org_type` aligns with SOP-002's `organizations.type` column. The frontmatter key is `org_type` to avoid colliding with the YAML reserved-feeling word `type`.
 - Body section conventions: `## What they do`, `## How we work together`, `## Notes`.
 
-### Projects - `PKM/My Life/Projects/<slug>.md`
+### Projects - `Notebook/Life/Projects/<slug>.md`
 
 ```yaml
 ---
@@ -181,7 +181,7 @@ Notes:
 - `key_element`, `linked_goals`, `linked_people`, `linked_topics` all store slugs per rule 4.
 - Body section conventions: `## Why this matters`, `## Status update`, `## Open threads`, `## Next steps`.
 
-### Goals - `PKM/My Life/Goals/<slug>.md`
+### Goals - `Notebook/Life/Goals/<slug>.md`
 
 ```yaml
 ---
@@ -202,7 +202,7 @@ Notes:
 - A Goal is the destination; a Project is the work toward it. The relationship is `linked_projects` here, mirrored as `linked_goals` from the Project side.
 - Body section conventions: `## Why this matters`, `## Definition of done`, `## Progress notes`.
 
-### Habits - `PKM/My Life/Habits/<slug>.md`
+### Habits - `Notebook/Life/Habits/<slug>.md`
 
 ```yaml
 ---
@@ -221,7 +221,7 @@ Notes:
 - Streak tracking is a body-level concern (or an extension), not a frontmatter field. Frontmatter holds the definition, not the daily log.
 - Body section conventions: `## Why this habit`, `## What it looks like`, `## Reflection`.
 
-### Topics - `PKM/My Life/Topics/<slug>.md`
+### Topics - `Notebook/Life/Topics/<slug>.md`
 
 ```yaml
 ---
@@ -243,7 +243,7 @@ Notes:
 - `linked_projects` is the reverse of `linked_topics` on Projects — keep both in sync when adding a link.
 - Body section conventions: `## What I think about here`, `## Open questions`, `## Sources`.
 
-### Key Elements - `PKM/My Life/Key Elements/<slug>.md`
+### Key Elements - `Notebook/Life/Key Elements/<slug>.md`
 
 ```yaml
 ---
@@ -289,7 +289,7 @@ Notes:
 - `renewal_trigger` is the date you want to be reminded to act. The actual `expiry_date` may be later.
 - Body section conventions: `## Summary`, `## Key terms`, `## Notes`.
 
-### Offers - `PKM/My Life/Offers/<slug>.md`
+### Offers - `Notebook/Life/Offers/<slug>.md`
 
 ```yaml
 ---

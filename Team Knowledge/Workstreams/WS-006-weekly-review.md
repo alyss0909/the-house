@@ -36,8 +36,8 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 1. Check `Team Inbox/` for any unprocessed files (excluding `README.md`, `_KeepSidianLogs/`, `_Processed/`, `_archive/`, `media/`, `Ignore.md`)
 2. For each item: read content, determine category (signal, inspo, tool, personal, meeting capture, task)
 3. Route each item:
-   - **Signal / content idea** → file to `PKM/Journal/YYYY/MM/` + flag for sweep in Phase 1
-   - **Inspo / reference** → file to `PKM/Journal/YYYY/MM/` with appropriate tags
+   - **Signal / content idea** → file to `Notebook/Journal/YYYY/MM/` + flag for sweep in Phase 1
+   - **Inspo / reference** → file to `Notebook/Journal/YYYY/MM/` with appropriate tags
    - **Meeting capture** → file to journal, flag for WS-005 processing
    - **Personal** → file to journal
    - **Duplicate / already filed** → discard
@@ -56,7 +56,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Run SOP-013 (light sweep) across the past 7 days — including anything filed in Phase 0.
 
 **Steps:**
-1. Glob `PKM/Journal/YYYY/MM/` for entries from Mon-Sat of the current week
+1. Glob `Notebook/Journal/YYYY/MM/` for entries from Mon-Sat of the current week
 2. Read all entries — what themes appeared? What showed up more than once?
 3. Cross-reference signals-index.md — did anything bump a recurrence count?
 4. Cross-reference developing ideas — did any garden note get new entries?

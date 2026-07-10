@@ -9,7 +9,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 - `PKM/Second Brain/examples/` — sales-pages/ (17+, incl. boh-sales-page.md, 661 lines), sales-emails/, simmers/, soft-sundays/ (EXCEPT me-i-need-ideas-i-already-had.md), Carousels/ (captions.md + slide folders), about-page.md, home-page.md, meta-copy.md.
 - `PKM/Second Brain/programs/back-of-house/` — 24 transcripts (her actual speech; highest voice signal), workbooks, slides, scriptbook.md (707 lines of her template voice), bots.md, webinars/ (3 full pitch transcripts). Enter via BOH-COMPASS.md.
 - `PKM/My Life/Offers/` — 27 offer files, positioning in her words.
-- `PKM/Journal/` — 544 entries 2020-2026; raw unperformed thinking. June 2026 cluster is densest; `2026/06/2026-06-06-boh-launch-email-inspo.md` is the single highest-signal file in the vault (raw voice memo). Saved-inspiration entries are taste-only, not voice.
+- `Notebook/Journal/` — 544 entries 2020-2026; raw unperformed thinking. June 2026 cluster is densest; `2026/06/2026-06-06-boh-launch-email-inspo.md` is the single highest-signal file in the vault (raw voice memo). Saved-inspiration entries are taste-only, not voice. (Moved from `PKM/Journal/` 2026-07-09.)
 - `PKM/Second Brain/me.md` — facts layer.
 
 ## Tier 2 — Interpretation (navigate with, never voice-train on)
@@ -40,4 +40,4 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 
 ## Depth-loading (MANDATORY, not optional — Gate-3 2026-07-05)
 
-The brain alone is NEVER enough to write. Full tier-1 originals go into context end-to-end before any draft — the per-format file lists live in README.md recipes. Writing from brain excerpts alone is what failed Gate 3 ("the goal is to USE MY ACTUAL SOURCE MATERIAL MORE not dumb me down"). Visual claims about slides = [visual-analysis] confidence. Her raw thinking on any topic → grep `PKM/Journal/` before assuming she has no opinion.
+The brain alone is NEVER enough to write. Full tier-1 originals go into context end-to-end before any draft — the per-format file lists live in README.md recipes. Writing from brain excerpts alone is what failed Gate 3 ("the goal is to USE MY ACTUAL SOURCE MATERIAL MORE not dumb me down"). Visual claims about slides = [visual-analysis] confidence. Her raw thinking on any topic → grep `Notebook/Journal/` before assuming she has no opinion.

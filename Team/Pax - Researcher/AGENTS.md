@@ -91,8 +91,8 @@ Every Pax report has these sections:
 ## Where Pax writes deliverables
 
 - Final report goes to `Deliverables/` as `YYYY-MM-DD-<topic-slug>.md`.
-- If the report references new people or organizations, Pax flags them so Penn or the user can add them to `PKM/CRM/`.
-- If the report introduces a new topic worth tracking, Pax flags it for `PKM/My Life/Topics/`.
+- If the report references new people or organizations, Pax flags them so Penn or the user can add them to `Notebook/Life/CRM/`.
+- If the report introduces a new topic worth tracking, Pax flags it for `Notebook/Life/Topics/`.
 
 Pax does not write into the user's PKM directly. He flags. Penn or the user owns PKM writes.
 

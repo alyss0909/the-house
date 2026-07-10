@@ -13,7 +13,7 @@
 
 | Class | Definition | Examples | Can live where |
 |---|---|---|---|
-| `source` | Alyssa-original or externally canonical material. Her words, her products, her real business facts, real exports, real published assets. | Journal entries, voice notes, real emails, real carousels, BOH transcripts, offer pages, Notion product facts, screenshots/exports. | `PKM/Journal/`, `PKM/Second Brain/examples/`, `PKM/Second Brain/programs/`, entity folders, `Hermes/BUSINESS.md` snapshots when sourced. |
+| `source` | Alyssa-original or externally canonical material. Her words, her products, her real business facts, real exports, real published assets. | Journal entries, voice notes, real emails, real carousels, BOH transcripts, offer pages, Notion product facts, screenshots/exports. | `Notebook/Journal/`, `PKM/Second Brain/examples/`, `PKM/Second Brain/programs/`, entity folders (`Notebook/Life/`), `Hermes/BUSINESS.md` snapshots when sourced. |
 | `map` | A pointer layer that helps agents find source without digesting it. | INDEX files, COMPASS files, `Hermes/MAP.md`, routing tables, "open this when" notes. | Beside the source it routes, Team Knowledge, Hermes. |
 | `derived` | Team analysis of source. Useful but not sacred. Must cite the source it came from and stay labeled as interpretation. | Analysis files, frameworks, templates, rubrics, forensics, synthesis notes. | `PKM/Second Brain/analysis/`, `frameworks/`, `templates/`, Hermes judgment/craft files, Team Knowledge when team-wide. |
 | `output` | Work product from a session. It may be valuable, but it is not durable knowledge yet. | Reports, audits, plans, drafts, gate packages, handoffs, research briefs. | `Deliverables/` until promoted, dispatched, archived, or deleted. |

@@ -17,15 +17,15 @@ If the contract and this file disagree, the contract wins.
 ## What You Do on Every Input
 
 ### Text input
-1. Write a journal entry at `PKM/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`.
+1. Write a journal entry at `Notebook/Journal/YYYY/MM/YYYY-MM-DD-<slug>.md`.
 2. Cross-link via `[[wikilinks]]` to every person, organization, topic, project, goal, or habit mentioned.
 3. If a referenced entity does not yet have a wiki page, create a stub at the right CRM or topic path so the link resolves.
 
 ### Image input (screenshot, photo, business card)
-1. Save the file to `PKM/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`.
+1. Save the file to `Notebook/Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>`.
 2. Embed it in the journal entry using Obsidian syntax: `![[Images/YYYY/MM/YYYY-MM-DD-<slug>.<ext>]]`.
-3. If the image shows a person, create or update `PKM/CRM/People/<name>.md` and embed the image there too.
-4. If the image shows an organization or its branding, create or update `PKM/CRM/Organizations/<name>.md` and embed it.
+3. If the image shows a person, create or update `Notebook/Life/CRM/People/<name>.md` and embed the image there too.
+4. If the image shows an organization or its branding, create or update `Notebook/Life/CRM/Organizations/<name>.md` and embed it.
 
 ### Audio input
 1. Transcribe the audio. If you cannot transcribe, write `[transcript pending]` in the entry body.
@@ -45,7 +45,7 @@ When you **close** a task, follow [[SOP-006-close-task]] — write the `## Outco
 
 ## Auto-Folder Rule
 
-When you write into `PKM/Journal/`, `PKM/Images/`, or any date-nested folder, create the `YYYY/MM/` parent folders if they do not exist. Never fail because a folder is missing. Create it.
+When you write into `Notebook/Journal/`, `Notebook/Images/`, or any date-nested folder, create the `YYYY/MM/` parent folders if they do not exist. Never fail because a folder is missing. Create it.
 
 ## Wiki Convention
 
@@ -53,21 +53,21 @@ Every cross-reference uses `[[wikilinks]]`. Never paste a bare path. Never paste
 
 Image embeds use `![[Images/YYYY/MM/...]]`.
 
-You do not duplicate facts. If Dr. Schmidt already has a CRM entry at `PKM/CRM/People/Dr Schmidt.md`, today's journal entry just writes `[[Dr Schmidt]]` and moves on. You never restate biographical details that already live somewhere else.
+You do not duplicate facts. If Dr. Schmidt already has a CRM entry at `Notebook/Life/CRM/People/Dr Schmidt.md`, today's journal entry just writes `[[Dr Schmidt]]` and moves on. You never restate biographical details that already live somewhere else.
 
 ## PKM Routing Map
 
 When an input mentions an entity, you route it by type. Full table lives in [[WS-001-daily-journaling]] step 4. Quick reference:
 
-- **Person** -> `PKM/CRM/People/`
-- **Organization, company, venue** -> `PKM/CRM/Organizations/`
-- **Interest area or recurring subject** -> `PKM/My Life/Topics/`
-- **Habit, ongoing rhythm, routine** -> `PKM/My Life/Habits/`
-- **Concrete time-bound effort with a finish line** -> `PKM/My Life/Projects/`
-- **Outcome or aspiration with a horizon** -> `PKM/My Life/Goals/`
-- **Stable life dimension (Health, Family, Career, Finances, etc.)** -> `PKM/My Life/Key Elements/`
+- **Person** -> `Notebook/Life/CRM/People/`
+- **Organization, company, venue** -> `Notebook/Life/CRM/Organizations/`
+- **Interest area or recurring subject** -> `Notebook/Life/Topics/`
+- **Habit, ongoing rhythm, routine** -> `Notebook/Life/Habits/`
+- **Concrete time-bound effort with a finish line** -> `Notebook/Life/Projects/`
+- **Outcome or aspiration with a horizon** -> `Notebook/Life/Goals/`
+- **Stable life dimension (Health, Family, Career, Finances, etc.)** -> `Notebook/Life/Key Elements/`
 - **Real-world document (passport, contract, certificate)** -> `PKM/Documents/`
-- **Image (screenshot, photo, business card)** -> `PKM/Images/YYYY/MM/`, embed in Journal via `![[Images/...]]`
+- **Image (screenshot, photo, business card)** -> `Notebook/Images/YYYY/MM/`, embed in Journal via `![[Images/...]]`
 
 Stub creation rule: if the entity has a name the user will refer to again, a property worth retrieving later, or cross-cutting relevance, create a stub. When in doubt, create the stub. The full decision rule is in [[WS-001-daily-journaling]] step 4a.
 
