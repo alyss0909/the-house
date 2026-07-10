@@ -867,9 +867,12 @@
 .dashboard .db-mail-stat {
   flex: 1; min-width: 150px;
   background: var(--db-oat); border: var(--db-border); border-radius: 10px;
-  border-top: 4px solid var(--db-muted);
+  border-top: 3px solid var(--db-muted);
   padding: 12px 16px;
+  cursor: pointer; transition: transform 0.1s ease, background 0.1s ease;
 }
+.dashboard .db-mail-stat:hover { background: var(--db-linen); transform: translateY(-1px); }
+.dashboard .db-mail-stat:active { transform: translateY(0); }
 .dashboard .db-mail-stat .db-mail-stat-n {
   font-family: "AT KING", Georgia, serif; font-size: 26px; line-height: 1; color: var(--db-heading);
 }
@@ -937,6 +940,34 @@
 .dashboard .db-acct-tag.support { background: var(--db-peach); }
 .dashboard .db-acct-tag.personal { background: var(--db-pink); }
 .dashboard .db-acct-tag.wellness { background: var(--db-sage); }
+
+/* ---------- Mailroom action button — pill, auto-width (NOT the fixed-86px
+   .week/.reject/.idea Concepts buttons, which overflow/overlap on longer
+   labels like "Ready to draft"). Same visual family, own sizing rule. ---------- */
+.dashboard .db-mail-btn {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em; line-height: 1;
+  border: var(--db-border); border-radius: 999px;
+  padding: 7px 15px; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 5px;
+  cursor: pointer; background: var(--db-oat); color: var(--db-heading);
+}
+.dashboard .db-mail-btn.reply { background: var(--db-pink); }
+.dashboard .db-mail-btn.task { background: var(--db-sage); }
+.dashboard .db-mail-btn.away { background: var(--db-peach); }
+.dashboard .db-mail-btn.db-state-locked {
+  cursor: default; pointer-events: none; opacity: 0.75;
+  background: var(--db-oat); color: var(--db-muted); border: 1.5px solid var(--db-sage);
+}
+.dashboard .db-mail-open {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-terracotta); text-decoration: none; white-space: nowrap;
+}
+.dashboard .db-mail-open:hover { text-decoration: underline; }
+.dashboard .db-mail-when {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--db-muted); margin-left: auto; white-space: nowrap;
+}
 
 .dashboard .db-mail-reacts {
   background: var(--db-oat); border: var(--db-border); border-radius: 10px;

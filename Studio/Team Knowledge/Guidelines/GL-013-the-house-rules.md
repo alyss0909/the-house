@@ -40,7 +40,7 @@ Everything outside that narrow lane stays read-only. When in doubt, treat the fi
 
 ### Rule 2 — Studio work is opinion until she promotes it.
 
-Everything the team makes is opinion, no matter how good. Analyzing Alyssa's real work is encouraged — that is how the house gets smarter — but the conclusion is never the truth. It is a labeled interpretation in the Studio. It becomes trusted only when Alyssa promotes it on purpose (a move to the Library plus a stamp: `promoted_by: alyssa`, `promoted_date`). No agent promotes its own work, and no agent proposes-and-executes a promotion in one step.
+Everything the team makes is opinion, no matter how good. Analyzing Alyssa's real work is encouraged — that is how the house gets smarter — but the conclusion is never the truth. It is a labeled interpretation in the Studio. It becomes trusted only when Alyssa promotes it on purpose (a move to the Library plus a stamp: `promoted_by: alyssa`, `promoted_date`). **A promotion is not complete until the file is wired into the graph**: outbound links to its offer MAP, the Notebook seeds it grew from, its Voice format, and its shelf neighbors — plus an inbound row on the relevant MAP. A stamped orphan is a broken promotion (learned 2026-07-10: the first-ever promotion landed with zero outbound links — nobody would ever have found it from inside). No agent promotes its own work, and no agent proposes-and-executes a promotion in one step.
 
 ### Rule 3 — One home per fact. Link, don't copy.
 

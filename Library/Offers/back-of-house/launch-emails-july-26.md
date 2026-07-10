@@ -2,7 +2,14 @@
 promoted_by: alyssa
 promoted_date: 2026-07-10
 source_class: raw
+related:
+  - "[[Library/Offers/back-of-house/MAP]]"
+  - "[[2026-06-06-june-launch-email-ideas]]"
+  - "[[2026-06-06-boh-launch-email-inspo]]"
+  - "[[Studio/Voice/formats/sales-emails]]"
 ---
+
+> **Connected:** part of [[Library/Offers/back-of-house/MAP|Back of House]] · grew from her riffs [[2026-06-06-june-launch-email-ideas|june launch email ideas]] + [[2026-06-06-boh-launch-email-inspo|boh launch email inspo]] · voice rules for this format: [[Studio/Voice/formats/sales-emails|sales-emails guide]] · sits beside [[Library/Examples/sales-emails/INDEX|her other real sales emails]] · the thinking behind it: [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur|middle-ground-entrepreneur]]
 
 Launch Emails Summer '26 Launch
 
