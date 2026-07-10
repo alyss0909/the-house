@@ -68,31 +68,31 @@ Single skimmable source for every product in the Notion Products DB (collection 
 
 All 26 `Library/Offers/*/MAP.md` files carry `status`, `price_point`, and `sales_page_url` in frontmatter, duplicating what now lives in Notion above. None of the checked values CONTRADICT Notion (a few vault files simply have the field blank where Notion has a value, e.g. Pin Planner's `price_point` is blank in the vault but $0 in Notion — not a contradiction, just an unfilled freebie price). Full list of files carrying these duplicate fields:
 
-- `Library/Offers/rush-order/MAP.md` — price_point: 2999, status: idea (no Notion match, see above — do not strip until Rush Order is added to Notion)
-- `Library/Offers/back-of-house/MAP.md`
-- `Library/Offers/best-year-yet/MAP.md`
-- `Library/Offers/bingeable-newsletters/MAP.md`
-- `Library/Offers/biz-tracker/MAP.md`
-- `Library/Offers/cold-subscriber-automation/MAP.md`
-- `Library/Offers/email-list-revival-plan/MAP.md`
-- `Library/Offers/list-resuscitator/MAP.md`
-- `Library/Offers/pin-planner/MAP.md`
-- `Library/Offers/private-mentorship-w-alyssa/MAP.md`
-- `Library/Offers/quarter-in-a-day/MAP.md`
-- `Library/Offers/quarter-prompt/MAP.md`
-- `Library/Offers/simmer-system/MAP.md`
-- `Library/Offers/soft-ceo-monthly-notion-template/MAP.md`
-- `Library/Offers/soft-ceo-sessions/MAP.md`
-- `Library/Offers/soft-sundays/MAP.md`
-- `Library/Offers/the-5-minute-newsletter/MAP.md`
-- `Library/Offers/the-90-minute-reset/MAP.md`
-- `Library/Offers/the-ceo-year-notion-planner/MAP.md`
-- `Library/Offers/the-daily-profit-activities/MAP.md`
-- `Library/Offers/the-numbers/MAP.md`
-- `Library/Offers/the-productive-entrepreneur/MAP.md`
-- `Library/Offers/the-promo-planner-in-notion/MAP.md`
-- `Library/Offers/unignorable-subject-lines/MAP.md`
-- `Library/Offers/90d-clock-in/MAP.md`
-- `Library/Offers/a-year-of-emails/MAP.md`
+- [[Library/Offers/rush-order/MAP|rush-order]] — price_point: 2999, status: idea (no Notion match, see above — do not strip until Rush Order is added to Notion)
+- [[Library/Offers/back-of-house/MAP|back-of-house]]
+- [[Library/Offers/best-year-yet/MAP|best-year-yet]]
+- [[Library/Offers/bingeable-newsletters/MAP|bingeable-newsletters]]
+- [[Library/Offers/biz-tracker/MAP|biz-tracker]]
+- [[Library/Offers/cold-subscriber-automation/MAP|cold-subscriber-automation]]
+- [[Library/Offers/email-list-revival-plan/MAP|email-list-revival-plan]]
+- [[Library/Offers/list-resuscitator/MAP|list-resuscitator]]
+- [[Library/Offers/pin-planner/MAP|pin-planner]]
+- [[Library/Offers/private-mentorship-w-alyssa/MAP|private-mentorship-w-alyssa]]
+- [[Library/Offers/quarter-in-a-day/MAP|quarter-in-a-day]]
+- [[Library/Offers/quarter-prompt/MAP|quarter-prompt]]
+- [[Library/Offers/simmer-system/MAP|simmer-system]]
+- [[Library/Offers/soft-ceo-monthly-notion-template/MAP|soft-ceo-monthly-notion-template]]
+- [[Library/Offers/soft-ceo-sessions/MAP|soft-ceo-sessions]]
+- [[Library/Offers/soft-sundays/MAP|soft-sundays]]
+- [[Library/Offers/the-5-minute-newsletter/MAP|the-5-minute-newsletter]]
+- [[Library/Offers/the-90-minute-reset/MAP|the-90-minute-reset]]
+- [[Library/Offers/the-ceo-year-notion-planner/MAP|the-ceo-year-notion-planner]]
+- [[Library/Offers/the-daily-profit-activities/MAP|the-daily-profit-activities]]
+- [[Library/Offers/the-numbers/MAP|the-numbers]]
+- [[Library/Offers/the-productive-entrepreneur/MAP|the-productive-entrepreneur]]
+- [[Library/Offers/the-promo-planner-in-notion/MAP|the-promo-planner-in-notion]]
+- [[Library/Offers/unignorable-subject-lines/MAP|unignorable-subject-lines]]
+- [[Library/Offers/90d-clock-in/MAP|90d-clock-in]]
+- [[Library/Offers/a-year-of-emails/MAP|a-year-of-emails]]
 
 No edits were made to any of these 26 files — this list is for Alyssa to review before anyone strips the duplicate fact fields out of them.
