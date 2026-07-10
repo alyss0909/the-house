@@ -25,13 +25,13 @@ Account ids rotate on reconnect — always re-list via Composio, never hardcode 
 
 ## The mechanism (keyless — no server, no API keys)
 
-The interface is [MAILROOM.md](MAILROOM.md): a gorgeous Obsidian note where Alyssa **ticks a checkbox** (the click) and the saved file (the notice) is read by the **`/mailroom`** command (`.claude/commands/mailroom.md`). Larry does the Gmail action with the Composio tools already in session — exactly the Content OS file+loop pattern, no standalone server and no Anthropic billing. A checked Put-away box archives that message; a checked Needs-reply box drafts the reply into Gmail Drafts. `dashboard.html` is kept only as the shareable artifact copy.
+The interface is [MAILROOM.md](MAILROOM.md): a card-based Obsidian dashboard built on the exact `db-card`/`db-react-btn` grammar from the Content OS Command Center (`Studio/Content/dashboard/`, see `01 Concepts.md`'s Choose/Reject/Save buttons for the reference pattern). Clicking a card's button is instant — Dataview's JS runs inside Obsidian itself (not a sandboxed webview), so it locks/recolors the card immediately and writes one line to a hidden `## Mailroom state` ledger. The **`/mailroom`** command (`.claude/commands/mailroom.md`) then reads that ledger and does the real Gmail work with the Composio tools already in Larry's session — no standalone server, no API keys, no Anthropic billing (Larry drafts in-session). `dashboard.html` (an artifact-only copy, buttons non-functional there) and a checkbox-based draft are retired; the ledger+button version is the one true interface.
 
 ## The daily sweep
 
-1. `/mailroom sweep` fetches each inbox and refills the Put-away list (promotions + social = safe noise; receipts, payments, security, and real people are left out).
+1. `/mailroom sweep` fetches each inbox and writes fresh `<!--away:...-->` data lines (promotions + social = safe noise; receipts, payments, security, and real people are left out) — these render as new click-to-queue cards on next load.
 2. A message only counts as *needs reply* if the **other person** sent the last real message. If Alyssa's side sent last, it's handled and drops — but the support auto-responder ("Hang tight. We're on it!") does **not** count as a reply.
-3. Alyssa ticks boxes; `/mailroom` acts on them and logs to `## Mailroom reacts`.
+3. Alyssa clicks cards; `/mailroom` acts on every `queued` ledger entry and logs to `## Mailroom reacts`.
 
 ## Doctrine
 

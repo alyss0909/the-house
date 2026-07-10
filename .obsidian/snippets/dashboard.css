@@ -882,11 +882,14 @@
 .dashboard .db-mail-stat.away { border-top-color: var(--db-sage); }
 
 .dashboard .db-mail-section-title {
-  display: flex; align-items: baseline; gap: 10px; margin: 22px 0 10px;
+  display: flex; align-items: baseline; gap: 10px; margin: 22px 0 12px;
 }
 .dashboard .db-mail-section-title h2 { margin: 0; font-size: 19px; }
 .dashboard .db-mail-section-icon { font-size: 17px; }
-.dashboard .db-mail-sub { color: var(--db-muted); font-size: 13px; margin: -4px 0 12px; }
+.dashboard .db-mail-sub {
+  color: var(--db-muted); font-size: 12px; font-family: "Roboto Mono", monospace;
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
 
 /* ---------- each checked item is its own card with a colored left accent
    (matches the reply=pink / task=peach card grammar from the original
