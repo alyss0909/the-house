@@ -2,7 +2,7 @@
 """
 Telegram capture MVP for myPKA.
 
-Polls a Telegram bot and writes incoming messages to Team Inbox as markdown
+Polls a Telegram bot and writes incoming messages to Notebook/Inbox as markdown
 capture notes. This is intentionally simple: command hints decide the route;
 LLM classification and Notion writes can be layered on after the pipe works.
 """
@@ -23,7 +23,7 @@ from typing import Any
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 VAULT_ROOT = SCRIPT_DIR.parents[1]
-TEAM_INBOX = VAULT_ROOT / "Team Inbox"
+TEAM_INBOX = VAULT_ROOT / "Notebook" / "Inbox"
 # Secrets and runtime state live OUTSIDE the vault per security rule
 # (no credentials inside the OneDrive-synced vault). Moved 2026-07-10.
 CONFIG_DIR = Path.home() / ".config" / "telegram-capture"
@@ -182,7 +182,7 @@ def send_confirmation(token: str, message: dict[str, Any], path: Path) -> None:
     chat_id = message.get("chat", {}).get("id")
     if not chat_id:
         return
-    text = f"Saved to Team Inbox: {path.name}"
+    text = f"Saved to Notebook/Inbox: {path.name}"
     telegram_api(token, "sendMessage", {"chat_id": chat_id, "text": text})
 
 
@@ -208,7 +208,7 @@ def process_updates(token: str, offset: int | None, timeout: int) -> tuple[int |
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Poll Telegram and save captures to Team Inbox.")
+    parser = argparse.ArgumentParser(description="Poll Telegram and save captures to Notebook/Inbox.")
     parser.add_argument("--once", action="store_true", help="Poll once, save any queued messages, then exit.")
     parser.add_argument("--health-check", action="store_true", help="Check that the token can reach Telegram, then exit.")
     parser.add_argument("--timeout", type=int, default=POLL_TIMEOUT_SECONDS, help="Telegram long-poll timeout in seconds.")

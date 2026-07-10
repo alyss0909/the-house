@@ -19,13 +19,13 @@ The goal is to keep her connected to her developing ideas without requiring a si
 
 1. **Thesis draft awaiting Alyssa's reaction** — if any developing idea has `thesis-ready` status and the thesis draft hasn't been edited by Alyssa in 7+ days, this is the #1 thing to surface. One quote from the draft, the garden note link, and "what do you think?"
 
-2. **Ready Queue #1 priority** — if Hermes is waiting on anything before he can start, surface it. "Hermes is ready to start [X]. He just needs [Y]." Make the ask specific and answerable in one sentence.
+2. **Top open content task** — check `Team Knowledge/tasks/open/`; if a specialist is waiting on anything before they can start, surface it. "Hermes is ready to start [X]. He just needs [Y]." Make the ask specific and answerable in one sentence.
 
 3. **Signal that jumped this week** — if a signal crossed a threshold in the latest sweep (new recurrence, new thesis draft, new connection discovered), surface it. "I noticed something in your entries this week — [signal] came up again. It's now at [count]. Here's the pattern."
 
 4. **Developing idea cross-connection** — occasionally (1-2x a week max), surface a connection between two developing ideas that Larry noticed. "The thing you've been saying about [signal A] and the thing you've been saying about [signal B] might be the same thing said from different angles." One sentence observation, no action required.
 
-5. **Content from the Ready Queue that completed** — if Hermes produced something since the last session, open with it. "Hermes finished [X]. It's here: [link]. When you want to look at it."
+5. **A content task that completed** — if Hermes produced something since the last session, open with it. "Hermes finished [X]. It's here: [link]. When you want to look at it."
 
 ---
 
@@ -72,6 +72,6 @@ The daily pulse IS the system being proactive. It's 150 Alyssas looking at what 
 ## Cross-references
 
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — primary source for what to pulse
-- [[PKM/Second Brain/ready-queue.md]] — secondary source
+- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — secondary sources (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Studio/Signals/signals-index.md]] — signal jump detection
 - [[Team Knowledge/Workstreams/WS-006-weekly-review.md]] — weekly review synthesizes what the daily pulses revealed

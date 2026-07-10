@@ -25,7 +25,7 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Conceptual home | Current physical path |
 |---|---|
 | Notebook/Journal | **MOVED 2026-07-09** → `Notebook/Journal/` (redirect stub at old path) |
-| Notebook/Inbox | `Team Inbox/` (the raw drops, NOT `pitches/`) |
+| Notebook/Inbox | **MOVED 2026-07-10** → `Notebook/Inbox/` (the raw drops + `media/` + `Meeting Captures/`; redirect stub at `Team Inbox/MOVED.md`; `_archive/`, `_Processed/`, `_KeepSidianLogs/` backlog swept to `Archive/Team Inbox/`) |
 | Notebook/Life | **MOVED 2026-07-09** → `Notebook/Life/` (`My Life` Goals·Habits·Key Elements·Projects·Topics + `CRM`; Offers stays at `PKM/My Life/Offers/`; redirect stubs at old paths) |
 | Notebook/Images | **MOVED 2026-07-09** → `Notebook/Images/` (redirect stub at old path) |
 | Studio/Content OS | **MOVED 2026-07-10** → `Studio/Content/` (dashboard at `Studio/Content/dashboard/`; redirect stubs left at `Team Inbox/pitches/MOVED.md` and `dashboard/MOVED.md`) |
@@ -36,7 +36,7 @@ The Signals desk moved in Pilot A (2026-07-09); the Notebook zone (Journal, Imag
 | Studio/Automations | `Team Knowledge/Automations/` + `Team Knowledge/scripts/` |
 | Library/Offers | `PKM/My Life/Offers/` (facts) + `PKM/Second Brain/programs/` (curriculum) + related sales pages/emails in `examples/` |
 | Library/Second Brain | `PKM/Second Brain/examples/` |
-| Archive | `Deliverables/_archive/`, `Team Inbox/_archive/` (consolidation pending) |
+| Archive | `Deliverables/_archive/` (consolidation pending), `Archive/Team Inbox/_archive/`, `Archive/Team Inbox/_Processed/`, `Archive/Team Inbox/_KeepSidianLogs/` |
 | Machine room (not knowledge) | `.claude/`, `.obsidian/`, `scripts/`, `_system/`, `Expansions/`, `website/`, `lead-magnet-system/`, `node_modules/` |
 
 `Deliverables/` is a legacy output pile. Never treat anything in it as a current source. It drains into Studio, Library (via promotion), or Archive over time.

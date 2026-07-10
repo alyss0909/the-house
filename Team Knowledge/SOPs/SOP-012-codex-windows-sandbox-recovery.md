@@ -129,7 +129,7 @@ If the same error persists, restart Codex Desktop after the repair and rerun the
 
 ## Closing Shift automation check
 
-If the failure affected **Closing Shift: Team Inbox Processing**, verify the Codex automation has both workspaces:
+If the failure affected **Closing Shift: Notebook/Inbox Processing**, verify the Codex automation has both workspaces:
 
 - `C:\Users\accol\OneDrive\Desktop\mypka-scaffold-latest (2)`
 - `D:\Alyssa\Music\meetily-recordings`

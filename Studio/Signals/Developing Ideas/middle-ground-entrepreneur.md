@@ -10,7 +10,7 @@ second_brain_connections:
   - PKM/Second Brain/analysis/writing-style.md
   - PKM/Second Brain/programs/back-of-house/
 team_brief_dispatched: BOH summer launch email sequence
-team_brief_status: queued — Hermes, pending session start
+team_brief_status: closed 2026-07-10 — Alyssa wrote and sent the launch emails herself
 ---
 
 # The Middle Ground Entrepreneur
@@ -64,7 +64,7 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - Tone: voice memo register. Keep the swears. The run-on thinking-out-loud quality is the voice, not a bug.
 - Source material: [[2026-06-06-boh-launch-email-inspo]] — Hermes reads this in full before writing anything
 - Pre-read: [[PKM/Second Brain/analysis/writing-style.md]] + [[PKM/Second Brain/analysis/voice-profile.md]] + [[Hermes/learning/inbox.md]]
-- Status: **READY TO ASSIGN** — this is Priority 1 in the Ready Queue
+- Status: **CLOSED 2026-07-10** — Alyssa wrote and sent the launch emails herself (queue retired; see [[Archive/ready-queue-retired-2026-07-10]]). Her sent launch emails are analysis candidates later — she's open to it, not required.
 
 ## Check back
 

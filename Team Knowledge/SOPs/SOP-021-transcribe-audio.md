@@ -2,7 +2,7 @@
 
 - **Default owner:** Mack. Reusable by any agent (Penn invokes it for voice memos).
 - **Status:** Installed by the Voice & File Converter v1.0.0. Auto-numbered into `SOP-NNN-transcribe-audio.md` at install.
-- **Triggered by:** an audio or video FILE appearing in `Team Inbox/` (`.m4a`, `.mp3`, `.wav`, `.aac`, `.flac`, `.ogg`, `.mp4`, `.mov`, `.mkv`, `.webm`, ...). A bare file drop is a **soft trigger** — see Hard rules.
+- **Triggered by:** an audio or video FILE appearing in `Notebook/Inbox/` (`.m4a`, `.mp3`, `.wav`, `.aac`, `.flac`, `.ogg`, `.mp4`, `.mov`, `.mkv`, `.webm`, ...). A bare file drop is a **soft trigger** — see Hard rules.
 - **References:** `lib/transcribe-audio.sh` (the executor), [[SOP-transcribe-url]] (the URL sibling), `ADAPT-EXPANSION.md`.
 
 ## Purpose

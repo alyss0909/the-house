@@ -40,7 +40,7 @@ Body content here.
 KeepSidian drops images at the vault root as `Pasted image YYYYMMDDHHMMSS.png`. These are orphaned.
 
 1. Run `Glob` for `*Pasted image*` at vault root.
-2. Also check `Team Inbox/media/` for files with no extension (Keep exports lose file type — use `file` command to confirm they are PNG/JPG).
+2. Also check `Notebook/Inbox/media/` for files with no extension (Keep exports lose file type — use `file` command to confirm they are PNG/JPG).
 3. Move all to `Notebook/Images/YYYY/MM/` with kebab-case names.
 4. Update `![[...]]` embeds in inbox notes to point to new paths.
 

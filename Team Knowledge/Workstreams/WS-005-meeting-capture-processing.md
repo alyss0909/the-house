@@ -4,7 +4,7 @@
 - **Type:** Workstream - multi-agent composition
 - **Owners:** Larry (routing + cleanup), Mack (automation), Penn (PKM writing), Alyssa (approval gate for raw deletion)
 - **References:** [[WS-001-daily-journaling]], [[WS-004-inbox-processing]], [[GL-001-file-naming-conventions]], [[GL-002-frontmatter-conventions]], [[GL-005-team-inbox-protocol]]
-- **Triggered by:** Meetily recording completed, a meeting pointer lands in `Team Inbox/Meeting Captures/`, or Alyssa says "process this meeting".
+- **Triggered by:** Meetily recording completed, a meeting pointer lands in `Notebook/Inbox/Meeting Captures/`, or Alyssa says "process this meeting".
 
 ## Purpose
 
@@ -12,13 +12,13 @@ Turn bot-free meeting recordings into useful myPKA memory without hoarding raw a
 
 The canonical flow is:
 
-`Meetily raw folder outside vault -> pointer note in Team Inbox -> processed Journal note -> CRM/Project links -> raw source deleted or quarantined`
+`Meetily raw folder outside vault -> pointer note in Notebook/Inbox -> processed Journal note -> CRM/Project links -> raw source deleted or quarantined`
 
 ## Storage Rule
 
 Raw meeting audio and transcript files do not live in myPKA. They stay in Meetily's recording folder until processed.
 
-`Team Inbox/Meeting Captures/` stores only lightweight pointer notes. The finished knowledge lives in `Notebook/Journal/YYYY/MM/` and links out to CRM People, Projects, Offers, Topics, or Goals as needed.
+`Notebook/Inbox/Meeting Captures/` stores only lightweight pointer notes. The finished knowledge lives in `Notebook/Journal/YYYY/MM/` and links out to CRM People, Projects, Offers, Topics, or Goals as needed.
 
 ## Step 1 - Capture Detection
 
@@ -32,7 +32,7 @@ If automation is not installed yet, Alyssa can paste the raw folder path in chat
 
 ## Step 2 - Pointer Creation
 
-Mack creates a small pointer note in `Team Inbox/Meeting Captures/` with:
+Mack creates a small pointer note in `Notebook/Inbox/Meeting Captures/` with:
 
 - date
 - source app
@@ -122,7 +122,7 @@ Default recommendation: delete now after the first few successful runs; quaranti
 
 ## Step 5 - Daily Batch Integration
 
-During daily inbox processing, `Team Inbox/Meeting Captures/` is included alongside Keep notes and other inbox items.
+During daily inbox processing, `Notebook/Inbox/Meeting Captures/` is included alongside Keep notes and other inbox items.
 
 Meeting capture pointers are processed before general ideas when they contain time-sensitive action items or follow-ups.
 
@@ -132,7 +132,7 @@ Mack's automation target:
 
 1. Scan or watch the Meetily recordings folder for newly completed meeting folders.
 2. Wait until `metadata.json` says `status: completed`.
-3. Create a pointer note in `Team Inbox/Meeting Captures/`.
+3. Create a pointer note in `Notebook/Inbox/Meeting Captures/`.
 4. Optionally notify Alyssa that a meeting is ready for processing.
 5. During the daily processing flow, process all meeting pointers.
 6. After approval, delete or quarantine the raw folder.

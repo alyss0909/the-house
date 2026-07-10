@@ -10,7 +10,7 @@ Filename pattern: `SOP-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] f
 |---|---|---|---|
 | SOP-001 | [[SOP-001-how-to-add-a-new-specialist]] | Nolan | Step-by-step procedure to draft and onboard a new team specialist. References [[GL-001-file-naming-conventions]]. |
 | SOP-002 | [[SOP-002-convert-mypka-to-sqlite]] | Silas (run by the user via paste-into-LLM prompt) | Generate a SQLite mirror of your myPKA on demand. Markdown stays canonical; SQLite is a derived performance layer. Body is a paste-into-LLM prompt. |
-| SOP-003 | [[SOP-003-keep-notes-to-journal]] | Penn (filing), Larry (triage + image cleanup) | Convert Google Keep exports from Team Inbox into properly formatted PKM journal entries. Covers frontmatter stripping, image sweep, routing, and KeepSidian log cleanup. |
+| SOP-003 | [[SOP-003-keep-notes-to-journal]] | Penn (filing), Larry (triage + image cleanup) | Convert Google Keep exports from Notebook/Inbox into properly formatted PKM journal entries. Covers frontmatter stripping, image sweep, routing, and KeepSidian log cleanup. |
 | SOP-004 | [[SOP-004-create-task]] | Any agent | Create a new task file in `Team Knowledge/tasks/open/` with all six linked arrays populated. |
 | SOP-005 | [[SOP-005-claim-task]] | Any agent | Claim an existing open task — add the claiming agent and timestamp, move to in-progress state. |
 | SOP-006 | [[SOP-006-close-task]] | Any agent | Close a completed task — write the Outcome, optionally write a journal entry, move file to `closed/`. |

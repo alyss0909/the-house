@@ -27,10 +27,10 @@ The slug describes what is in the image. Avoid generic slugs like `screenshot` o
 - `2026/05/2026-05-04-dr-schmidt-business-card.png` — seeded course sample, embedded from [[dr-schmidt]].
 - `2026/05/2026-05-04-sample-screenshot.png` — seeded course sample, embedded from [[2026-05-04-first-day]].
 
-- `2026/07/2026-07-08-recent-instagram-covers-grid-01.png` - Alyssa Instagram grid covers, source image 1, embedded from [[Team Inbox/Recent Instagram Covers]].
-- `2026/07/2026-07-08-recent-instagram-covers-grid-02.png` - Alyssa Instagram grid covers, source image 2, embedded from [[Team Inbox/Recent Instagram Covers]].
-- `2026/07/2026-07-08-recent-instagram-covers-grid-03.png` - Alyssa Instagram grid covers, source image 3, embedded from [[Team Inbox/Recent Instagram Covers]].
-- `2026/07/2026-07-08-recent-instagram-covers-grid-04.png` - Alyssa Instagram grid covers, source image 4, embedded from [[Team Inbox/Recent Instagram Covers]].
+- `2026/07/2026-07-08-recent-instagram-covers-grid-01.png` - Alyssa Instagram grid covers, source image 1, embedded from [[Notebook/Inbox/Recent Instagram Covers]].
+- `2026/07/2026-07-08-recent-instagram-covers-grid-02.png` - Alyssa Instagram grid covers, source image 2, embedded from [[Notebook/Inbox/Recent Instagram Covers]].
+- `2026/07/2026-07-08-recent-instagram-covers-grid-03.png` - Alyssa Instagram grid covers, source image 3, embedded from [[Notebook/Inbox/Recent Instagram Covers]].
+- `2026/07/2026-07-08-recent-instagram-covers-grid-04.png` - Alyssa Instagram grid covers, source image 4, embedded from [[Notebook/Inbox/Recent Instagram Covers]].
 
 Penn saves further images here as you share them.
 

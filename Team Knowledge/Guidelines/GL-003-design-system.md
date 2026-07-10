@@ -32,7 +32,7 @@
 |---|---|---|---|
 | Sage | `--db-sage` | `#c1d17c` | Affirmative/approved chips; PKM folder; done-stage pill; **Concepts "☆ Save" button** (locked 2026-07-07) |
 | Peach | `--db-peach` | `#fecc86` | Team Knowledge folder; warm accent tag; **Concepts "✕ Reject" button** (locked 2026-07-07 — closest existing token to "orange"; a truer dedicated orange token is a flagged future option, not yet added) |
-| Pink | `--db-pink` | `#f39ec2` | Active tab / active nav pill (forced black text); Team Inbox folder; current-stage pill; **Concepts "✓ Choose" button** (locked 2026-07-07) |
+| Pink | `--db-pink` | `#f39ec2` | Active tab / active nav pill (forced black text); Notebook/Inbox folder; current-stage pill; **Concepts "✓ Choose" button** (locked 2026-07-07) |
 | Lavender | `--db-lavender` | `#a186bc` | Deliverables folder; lavender chip (text `#1a1a1a`) — no longer used on the Concepts action buttons as of 2026-07-07 |
 | Ivory | `--db-ivory` | `#ffeec6` | Team folder; parked/neutral pill |
 
@@ -269,7 +269,7 @@ When something becomes approved / locked / chosen, the element itself changes st
 
 - **Photography:** editorial / candid / lifestyle — warm, film-grain, analog-feeling (the swipe-file aesthetic: soft light, real hands, paper, plants).
 - **Illustration:** minimal, warm; avoid flat corporate vector.
-- **Icon style:** simple line/unicode symbols. Folder symbols in use: PKM ✦︎ · Team Knowledge ⸬ · Team Inbox ☾ · Deliverables ⊙ · Team (none).
+- **Icon style:** simple line/unicode symbols. Folder symbols in use: PKM ✦︎ · Team Knowledge ⸬ · Notebook/Inbox ☾ · Deliverables ⊙ · Team (none).
 
 ---
 

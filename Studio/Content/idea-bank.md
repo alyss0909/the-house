@@ -37,3 +37,7 @@ Pitched as a repeatable named Friday series — Mode A deadpan, one italic line 
 
 ## NOTHING IS FALLING BEHIND BUT THE PACE THEY SET FOR ME — soft defiance that turns into calm, reframing "behind" as somebody else's tempo, not a personal failure — channels the "no more" guilt-drop register (transcript #8) as an FTG declaration, not a lecture — no CTA
 - **Saved:** 2026-07-09 · **Theme:** W2 Pinterest
+
+## You Get What You Get And You Don't Get Upset
+- **Saved:** 2026-07-10 · **Theme:** Email · **Offer:** BOH
+Her hook, moved here from the retired Ready Queue at her call ("it's ready to move"). Angles she'd parked: expectation-setting before a BOH launch, a reframe on what email marketing actually delivers, or a permission-giving piece for students who feel like they're not doing enough. Source: [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]

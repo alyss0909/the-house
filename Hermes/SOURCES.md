@@ -26,7 +26,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 
 ## Quarantine — never treat as her voice
 
-- `PKM/Second Brain/templates/` (10 files), `ready-queue.md`.
+- `PKM/Second Brain/templates/` (10 files), `Archive/ready-queue-retired-2026-07-10.md` (the former ready-queue, dissolved 2026-07-10).
 - `PKM/Second Brain/examples/Carousels/brief-bank.md` — Alyssa: contents "literally 100% wrong" (2026-07-04).
 - voice-profile.md / voice-archive.md as *authority* (see tier 2).
 - All Wren operating files (`.claude/agents/wren.md`, `Team/Wren - Brand Voice Partner/`) — the analysis-first protocol this brain replaces.

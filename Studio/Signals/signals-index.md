@@ -38,7 +38,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Signal status**: thesis-ready
 - **Garden note**: [[Studio/Signals/Developing Ideas/middle-ground-entrepreneur.md]]
 - **Connected goal**: BOH summer launch
-- **Ready queue**: Item 1 — BOH Launch Email Sequence assigned to Hermes
+- **Team brief**: closed 2026-07-10 — Alyssa wrote and sent the launch emails herself (queue retired; see [[Archive/ready-queue-retired-2026-07-10]])
 
 ---
 
@@ -63,7 +63,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Last seen**: 2026-06-12
 - **Signal status**: developing
 - **Garden note**: [[Studio/Signals/Developing Ideas/email-to-content-repurposing-system.md]]
-- **Ready queue**: Item 2 — Standing Hermes instruction
+- **Team brief**: retired 2026-07-10 — the standing Email → Carousel instruction lives in WS-008 Standing Brief 1; the weekly pitch loop (WS-011) now owns this
 
 ---
 

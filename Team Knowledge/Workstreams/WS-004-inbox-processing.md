@@ -9,18 +9,18 @@
 ## Relationship to other workstreams
 
 - **WS-001** handles live in-session input. Alyssa drops something in conversation right now; Penn writes it immediately, no inbox involved.
-- **WS-004** handles batch items sitting in `Team Inbox/`: Keep exports, web clips, meeting capture pointers, manually dropped files, and future Telegram captures.
+- **WS-004** handles batch items sitting in `Notebook/Inbox/`: Keep exports, web clips, meeting capture pointers, manually dropped files, and future Telegram captures.
 - **WS-005** handles meeting capture processing specifically. WS-004 routes meeting pointers to WS-005.
 - **SOP-003** is Penn's execution procedure. WS-004 calls SOP-003 at Step 3 after Alyssa approves routing.
 
 ## Step 0 - Source Refresh (Mack + Larry)
 
-Before triage, refresh the capture sources that feed `Team Inbox/`.
+Before triage, refresh the capture sources that feed `Notebook/Inbox/`.
 
 Current refresh actions:
 
 - **KeepSidian:** manual-only refresh. Do not auto-launch Obsidian. Do not trigger `obsidian://` URIs. If sync state cannot be confirmed, record "KeepSidian sync not confirmed" and continue.
-- **Meetily:** scan `D:/Alyssa/Music/meetily-recordings` for completed meeting folders containing `metadata.json` and `transcripts.json`. For each completed folder without an existing pointer, create a lightweight pointer note in `Team Inbox/Meeting Captures/`.
+- **Meetily:** scan `D:/Alyssa/Music/meetily-recordings` for completed meeting folders containing `metadata.json` and `transcripts.json`. For each completed folder without an existing pointer, create a lightweight pointer note in `Notebook/Inbox/Meeting Captures/`.
 
 Source refresh does not process or delete anything. It only pulls new inputs into the inbox lanes so Larry can triage them.
 
@@ -28,11 +28,11 @@ Inbox processing must not fail just because KeepSidian sync was not triggered or
 
 ## Step 1 - Triage (Larry)
 
-Larry reads every file in `Team Inbox/` and builds a routing table.
+Larry reads every file in `Notebook/Inbox/` and builds a routing table.
 
 For each item:
 
-1. **Identify source type:** Keep export with `GoogleKeepCreatedDate` frontmatter / meeting capture pointer in `Team Inbox/Meeting Captures/` / web clip / manual note / image.
+1. **Identify source type:** Keep export with `GoogleKeepCreatedDate` frontmatter / meeting capture pointer in `Notebook/Inbox/Meeting Captures/` / web clip / manual note / image.
 2. **Concept-level duplicate check:** search key terms across `Notebook/Journal/` and running docs. Check for the same idea at any date, not just the same day.
 3. **Determine output:** see Output Types below.
 4. **Propose routing:** tags, connections, related notes, and proposed action.
@@ -77,7 +77,7 @@ Signals that something is `evaluate`:
 | Output | When to use |
 |---|---|
 | **New standalone note** | Default. Every capture gets its own note unless it is a pure duplicate. |
-| **Meeting capture processing** | A pointer in `Team Inbox/Meeting Captures/` references a raw Meetily folder. Run [[WS-005-meeting-capture-processing]] and create any follow-up tasks before cleanup. |
+| **Meeting capture processing** | A pointer in `Notebook/Inbox/Meeting Captures/` references a raw Meetily folder. Run [[WS-005-meeting-capture-processing]] and create any follow-up tasks before cleanup. |
 | **New standalone note + append to running doc** | Content belongs in an existing file such as a project, Key Element, or running notes file. Create the note first, then append with a wikilink back to it. |
 | **New standalone note + new task** | Capture is actionable with a finish line. Create the note, then create a task file linking to it. |
 | **Update existing note** | New content adds to a note that already exists. Append only; never overwrite unless Alyssa approves replacement. |
@@ -99,7 +99,7 @@ Table format:
 
 **Team brief column rules:**
 - If the item has a clear content type AND has Alyssa's kind of energy (check taste-log.md), propose a specific brief: `Hermes → [content type]` or `Pax → [research question]` or `Charta → [design type]`
-- If Alyssa approves the row AND a team brief is proposed: Larry creates the brief in ready-queue.md automatically — no separate ask required
+- If Alyssa approves the row AND a team brief is proposed: Larry creates the brief automatically — a task file in `Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (or the weekly pitch loop for social content) — no separate ask required
 - If Alyssa approves the row AND overrides the team brief column: honor the override, update the queue accordingly
 - A blank `—` in the team brief column means Larry assessed it and found no immediate activation opportunity. Alyssa can override this too.
 
@@ -131,7 +131,7 @@ Larry:
 After all approved items are processed:
 
 1. Delete each processed inbox file.
-2. Delete all processed `Team Inbox/_KeepSidianLogs/YYYY-MM-DD.md` files.
+2. Delete all processed `Notebook/Inbox/_KeepSidianLogs/YYYY-MM-DD.md` files.
 3. Verify inbox is clean except for `README.md`, `_archive/`, known held files, and anything Alyssa explicitly flagged.
 4. Check `media/` for leftovers.
 5. Confirm no orphaned image files remain at the vault root.
@@ -185,16 +185,16 @@ If a file exceeds readable size:
 
 This workstream is channel-agnostic. Current channels:
 
-- **KeepSidian:** Google Keep to Team Inbox via Obsidian plugin.
-- **Meetily:** bot-free meeting recordings stay outside the vault; pointer notes land in `Team Inbox/Meeting Captures/` and process through [[WS-005-meeting-capture-processing]].
+- **KeepSidian:** Google Keep to Notebook/Inbox via Obsidian plugin.
+- **Meetily:** bot-free meeting recordings stay outside the vault; pointer notes land in `Notebook/Inbox/Meeting Captures/` and process through [[WS-005-meeting-capture-processing]].
 - **Manual drop:** web clips, Notion exports, screenshots, files, and notes Alyssa drags in.
 
 Current scheduled routine:
 
-- **Closing Shift: Team Inbox Processing:** Codex automation at 4 PM local time. It runs Step 0 source refresh, then Step 1 triage, then presents the approval table. It does not bypass Alyssa's approval gate.
+- **Closing Shift: Notebook/Inbox Processing:** Codex automation at 4 PM local time. It runs Step 0 source refresh, then Step 1 triage, then presents the approval table. It does not bypass Alyssa's approval gate.
 
 Planned:
 
-- **Telegram:** once wired via Mack ([[tsk-2026-06-01-004-telegram-claude-automation]]), messages route to Team Inbox and process via this WS.
+- **Telegram:** once wired via Mack ([[tsk-2026-06-01-004-telegram-claude-automation]]), messages route to Notebook/Inbox and process via this WS.
 
 When a new channel is added, update the source-type check in Step 1 and note any channel-specific frontmatter or format differences.

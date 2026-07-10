@@ -64,11 +64,11 @@ Action: Update taste-log.md with new patterns. Remove stale YES patterns that ha
 
 Questions to answer:
 1. What did the team produce this month?
-2. How many ready-queue items completed vs. how many stalled?
+2. How many open content tasks (in `Team Knowledge/tasks/open/`) closed vs. how many stalled?
 3. What slowed things down? (Missing source material? Unclear brief? Wrong assignee?)
 4. Are there standing instructions in WS-008 that should be updated based on this month's activation patterns?
 
-Action: Update WS-008 standing instructions if needed. Update ready-queue.md (archive DONE items, review WAITING items).
+Action: Update WS-008 standing instructions if needed. Review the queue sources: close finished tasks per [[SOP-006-close-task]], review blocked ones, and prune stale entries in [[Studio/Content/idea-bank.md]].
 
 ---
 
@@ -126,7 +126,7 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 - [[Hermes/learning/inbox.md]] — updated in Step 2
 - [[PKM/Second Brain/taste-log.md]] — updated in Step 4
 - [[PKM/Second Brain/yes-pattern.md]] — updated in Step 6
-- [[PKM/Second Brain/ready-queue.md]] — updated in Step 5
+- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 
 ## Source-trust metabolism overlay
 

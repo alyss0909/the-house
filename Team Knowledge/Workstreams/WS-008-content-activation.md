@@ -3,13 +3,13 @@
 - **Status:** Active (new 2026-06-27)
 - **Type:** Workstream — Larry orchestration, Hermes + specialists execution
 - **Owner:** Larry (routing), Hermes (copy), Charta (design if needed), Pax (research if needed)
-- **Triggered by:** "activate this" / "turn this into content" / "what can we do with this?" / Larry's content activation flag from SOP-013 / ready-queue items with status READY
+- **Triggered by:** "activate this" / "turn this into content" / "what can we do with this?" / Larry's content activation flag from SOP-013 / open content tasks in `Team Knowledge/tasks/open/` that are ready to dispatch
 
 ## What this is
 
 Content Activation closes the loop between the idea garden and production. It's the answer to the gap that's been running for 3+ weeks: Alyssa approves things in WS-004, the team says "this could be a Hermes task," and then nothing happens.
 
-Content Activation isn't a new review. It's a standing pattern: when something is flagged as content-ready in SOP-013, it automatically routes here. When a ready-queue item hits READY status, this workstream moves it.
+Content Activation isn't a new review. It's a standing pattern: when something is flagged as content-ready in SOP-013, it automatically routes here. When a content task in `Team Knowledge/tasks/open/` is ready to dispatch, this workstream moves it. (The Ready Queue file was dissolved 2026-07-10 per Alyssa — the queue sources are now `Team Knowledge/tasks/open/` and [[Studio/Content/idea-bank.md]]; history at [[Archive/ready-queue-retired-2026-07-10]].)
 
 ---
 
@@ -18,7 +18,7 @@ Content Activation isn't a new review. It's a standing pattern: when something i
 Any of the following kicks off WS-008:
 
 1. **Semantic sweep flag** (SOP-013 Step 4): an entry is flagged as content-ready
-2. **Ready Queue has READY items**: at the start of any session, Larry checks the ready-queue and reports any READY items
+2. **Open content tasks ready to dispatch**: at the start of any session, Larry checks `Team Knowledge/tasks/open/` and reports any dispatch-ready content tasks
 3. **WS-006 Phase 3** surfaces a new queue item
 4. **Alyssa says**: "do something with this" / "send this to Hermes" / "make something from this"
 5. **WS-004 approval** triggers a brief: an inbox item gets approved and a content type is identified
@@ -41,7 +41,7 @@ Before dispatch, run [[Hermes/MEAN-ALYSSA]] and [[GL-009-source-boundaries-and-p
 
 ## Step 1 — Write the brief
 
-The brief lives in the ready-queue.md OR in a dedicated Deliverables file for complex assignments. For Hermes: the brief only needs source links - his mandatory brain + vault loads come from Hermes/README.md.
+The brief lives in the task file (`Team Knowledge/tasks/open/`, per [[SOP-004-create-task]]) OR in a dedicated Deliverables file for complex assignments. For Hermes: the brief only needs source links - his mandatory brain + vault loads come from Hermes/README.md.
 
 **Brief minimum viable content:**
 - Content type
@@ -74,7 +74,7 @@ When Alyssa reacts to the deliverable:
 - Approved as-is → log in taste-log.md (YES pattern)
 - Edited and approved → log specific changes verbatim in Hermes/learning/inbox.md (calibration entry)
 - Passed / redirected → log in taste-log.md (NO or REDIRECT pattern)
-- Update ready-queue.md status to DONE
+- Close the task file per [[SOP-006-close-task]] (or note the idea-bank entry as used)
 
 ---
 
@@ -86,7 +86,7 @@ The following are standing content activation briefs that don't require a trigge
 After every email that's filed to the Second Brain or drafted by Hermes, Hermes proposes 2 carousel angles in the same session (or the next WS-004 run). Format: carousel type (from framework) + opening hook + 3-line outline.
 
 **Standing Brief 2: Sweep → Queue**
-Every time SOP-013 runs and flags content-ready entries, those entries automatically get a queue item written in ready-queue.md. Larry writes the queue item. READY items either dispatch, become blocked with one precise blocker, or get demoted. They do not sit as vague "good idea" entries.
+Every time SOP-013 runs and flags content-ready entries, those entries automatically route: social content into the weekly pitch loop (WS-011), everything else as a task file in `Team Knowledge/tasks/open/` per [[SOP-004-create-task]]. Larry writes it. Dispatch-ready items either dispatch, become blocked with one precise blocker, or get demoted. They do not sit as vague "good idea" entries.
 
 ---
 
@@ -106,7 +106,7 @@ When a full theme week (or month) runs end-to-end through the pipeline in one ba
 
 ## Cross-references
 
-- [[PKM/Second Brain/ready-queue.md]] — the queue this workstream manages
+- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — the queue sources this workstream manages (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[PKM/Second Brain/taste-log.md]] — approval pattern validation
 - [[Hermes/learning/inbox.md]] — voice calibration for all Hermes tasks
 - [[Hermes/MEAN-ALYSSA.md]] — rejection-trained trust gate before asking, creating, promoting, or dispatching

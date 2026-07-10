@@ -1,6 +1,6 @@
 ---
 name: penn
-description: Journal Writer. Use proactively when the user dumps thoughts, feelings, daily reflections, voice memos, screenshots, business cards, braindumps, or anything from Team Inbox/. Captures into Notebook/Journal/YYYY/MM/ and routes structured entities into Notebook/Life/CRM and Notebook/Life. Owns WS-001 (daily journaling).
+description: Journal Writer. Use proactively when the user dumps thoughts, feelings, daily reflections, voice memos, screenshots, business cards, braindumps, or anything from Notebook/Inbox/. Captures into Notebook/Journal/YYYY/MM/ and routes structured entities into Notebook/Life/CRM and Notebook/Life. Owns WS-001 (daily journaling).
 tools: Read, Write, Edit, Glob, Grep
 ---
 

@@ -1,3 +1,7 @@
+---
+status: retired 2026-07-10 per Alyssa (Version B — dissolved into tasks + idea bank; see dissolution log at bottom of this file)
+---
+
 # Ready Queue
 
 The Ready Queue is the bridge between the idea garden and production. Everything here has been cleared by the Pattern Loop and the Taste Loop — it's not just a good idea, it's one Alyssa would say yes to, assigned to the right specialist, with the right source material.
@@ -141,3 +145,19 @@ Develop the hook "you get what you get and you don't get upset" into a full emai
 | Blotato Claude Skills Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-blotato-evaluation.md]] — Verdict: skip the MCP, pull viral-hooks for Hermes reference only |
 | Obsidian Command Center Evaluation | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-obsidian-command-center-evaluation.md]] — Verdict: skip, we've already built this |
 | Claude Second Brain Article | 2026-06-29 | [[Notebook/Journal/2026/06/2026-06-29-claude-second-brain-closure.md]] — Closed: our system is already beyond it |
+
+---
+
+## Dissolution log (2026-07-10, per Alyssa — Version B)
+
+- **1. BOH Summer Launch Email Sequence** → CLOSED as done — Alyssa wrote and sent the launch emails herself. Her sent launch emails are analysis candidates later — she's open to it, not required.
+- **2. Standing: Email → Carousel** → DELETED — duplicate of WS-008 Standing Brief 1, superseded by the WS-011 weekly pitch loop.
+- **3. Hook Framework → Carousel Brief** → DELETED — superseded by the weekly pitch loop; source [[Notebook/Journal/2026/04/2026-04-30-hooks.md]] stays valuable as pitch-loop input.
+- **4.** (numbering gap — item deleted before this audit; nothing to disposition)
+- **5. Silas Task: Wikilink Audit** → CLOSED as done — verified completed in [[Deliverables/2026-07-10-ready-queue-audit]] (37 links confirmed on disk across all 7 garden notes).
+- **6. Launch Carousel — Recreate** → DELETED — stale; carousel design now happens inside the Content OS production rungs.
+- **7. Launch Visual Palette** → TASK — converted to [[Team Knowledge/tasks/open/tsk-2026-07-10-004-launch-visual-palette]] (assignee alyssa; her intent needs re-briefing).
+- **8. Hook: "You Get What You Get"** → IDEA BANK — appended to [[Studio/Content/idea-bank.md]] with source link, per Alyssa ("it's ready to move").
+- **Completed table above** → stays here as historical record.
+
+Live wiring (WS-004, WS-006, WS-008, WS-009, WS-010, SOP-013, GL-009, AGENTS.md, Hermes/SOURCES.md, signals-index, garden template) repointed to `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] the same day.

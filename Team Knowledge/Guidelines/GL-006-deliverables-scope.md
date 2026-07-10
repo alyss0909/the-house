@@ -24,7 +24,7 @@ Goes here:
 Does not go here:
 - Session logs → `Team Knowledge/session-logs/`
 - SOPs, Workstreams, Guidelines → `Team Knowledge/SOPs/`, `/Workstreams/`, `/Guidelines/`
-- Raw captures or in-progress notes → `Team Inbox/`
+- Raw captures or in-progress notes → `Notebook/Inbox/`
 - Personal knowledge notes → `PKM/`
 
 ## Naming

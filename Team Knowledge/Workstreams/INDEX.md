@@ -16,7 +16,7 @@ Filename pattern: `WS-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] fo
 | WS-002 | [[WS-002-import-external-knowledge-base]] | Silas + Mack + Pax | How an existing knowledge base gets imported into myPKA. |
 | WS-003 | [[WS-003-install-an-expansion]] | Larry + Vex + Nolan + Mack + Silas | How an Expansion folder gets validated, reviewed, merged, wired, and announced. |
 | WS-004 | [[WS-004-inbox-processing]] | Larry + Alyssa + Penn | Unified inbox processing for Keep exports, web clips, meeting capture pointers, manual drops, and future Telegram captures. |
-| WS-005 | [[WS-005-meeting-capture-processing]] | Larry + Mack + Penn | Bot-free meeting transcript flow: Meetily raw folder stays outside the vault, a pointer lands in `Team Inbox/Meeting Captures/`, Penn writes the processed Journal note, and Larry deletes or quarantines the raw source after approval. |
+| WS-005 | [[WS-005-meeting-capture-processing]] | Larry + Mack + Penn | Bot-free meeting transcript flow: Meetily raw folder stays outside the vault, a pointer lands in `Notebook/Inbox/Meeting Captures/`, Penn writes the processed Journal note, and Larry deletes or quarantines the raw source after approval. |
 | WS-006 | [[WS-006-weekly-review]] | Larry | Aggregates all session logs and deliverables from a calendar week into a weekly wrap-up document (narrative + key decisions + insights + grouped open threads). |
 | WS-007 | [[WS-007-monthly-review]] | Larry | Synthesizes weekly wraps into a monthly wrap-up (patterns, big wins, graduated insights, carry-forward threads). Reads weekly wraps only — never raw session logs. |
 

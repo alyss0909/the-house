@@ -73,13 +73,32 @@
   opacity: 0.8;
 }
 
-/* ── HIDE MACHINE FOLDERS from the sidebar (files untouched, fully reversible) ── */
+/* ── HIDE MACHINE FOLDERS from the sidebar (files untouched, fully reversible) ──
+   data-path sometimes lives on the title element, not the folder container,
+   so target both: the container via :has(), and the title as fallback. */
+.nav-folder:has(> .nav-folder-title[data-path="node_modules"]),
+.nav-folder:has(> .nav-folder-title[data-path="lead-magnet-system"]),
+.nav-folder:has(> .nav-folder-title[data-path="website"]),
+.nav-folder:has(> .nav-folder-title[data-path="_system"]),
+.nav-folder:has(> .nav-folder-title[data-path="Expansions"]),
+.nav-folder:has(> .nav-folder-title[data-path="scripts"]),
+.nav-folder:has(> .nav-folder-title[data-path="dashboard"]),
+.nav-folder:has(> .nav-folder-title[data-path="Team Inbox"]),
+.nav-folder-title[data-path="Team Inbox"],
 .nav-folder[data-path="node_modules"],
 .nav-folder[data-path="lead-magnet-system"],
 .nav-folder[data-path="website"],
 .nav-folder[data-path="_system"],
 .nav-folder[data-path="Expansions"],
-.nav-folder[data-path="scripts"] {
+.nav-folder[data-path="scripts"],
+.nav-folder[data-path="dashboard"],
+.nav-folder-title[data-path="node_modules"],
+.nav-folder-title[data-path="lead-magnet-system"],
+.nav-folder-title[data-path="website"],
+.nav-folder-title[data-path="_system"],
+.nav-folder-title[data-path="Expansions"],
+.nav-folder-title[data-path="scripts"],
+.nav-folder-title[data-path="dashboard"] {
   display: none !important;
 }
 

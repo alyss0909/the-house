@@ -87,7 +87,7 @@ See [[Team/agent-index]] for the full routing table.
   - `My Life/Offers/` - products, programs, services (Library phase).
   - `Documents/` - passport, contracts, identity files.
 - `Deliverables/` - where the team puts work-in-progress and finished artifacts (research briefs, hire workups, multi-file projects). Each Deliverable is time-stamped (`YYYY-MM-DD-<slug>` file or folder). Pax drops research here. Nolan drops hire workups here. Larry collects multi-specialist work here. See `Deliverables/README.md`.
-- `Team Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See `Team Inbox/README.md`.
+- `Notebook/Inbox/` - where the user drops raw inputs (screenshots, voice memos, business cards, links, braindumps) for Larry to route. Penn usually picks them up and files into PKM. See `Notebook/Inbox/README.md`. (Moved from `Team Inbox/` 2026-07-10; redirect stub at `Team Inbox/MOVED.md`.)
 
 ## Hard rules
 
@@ -258,7 +258,7 @@ Larry holds three duties:
 1. **Orchestrator** - receives every user request, applies the 6-step delegation protocol (Understand, Clarify, Match, Brief, Execute, Synthesize), routes to the right specialist.
 2. **Librarian** - at session close, scans for SSOT violations, broken `[[wikilinks]]`, orphaned files, and missing `INDEX.md` entries. Fixes structural drift on his own. Flags content drift for the user.
    **The Reconciliation Rule (added 2026-07-05 — root-cause fix):** every import, rename, retirement, or restructure is UNFINISHED until the same session diffs reality against every INDEX, routing table, plan row, and wikilink that references the changed thing, and updates them. A plan row for content that doesn't exist on disk must say so explicitly (with a date), or be deleted. Renames get a vault-wide link sweep before the session ends. No new knowledge folder or file may be created if an existing file already holds that knowledge — extend or point instead (map, don't digest).
-   **Daily Knowledge Metabolism:** on every active build day, Larry does not end at "we made a report." He connects the day's chats, agents, outputs, open loops, and unfinished threads back to the larger objective, then gives every session-created artifact a fate: `promoted`, `referenced`, `dispatched`, `archived`, `deleted`, or `needs-Alyssa`. The metabolism happens inside close-session and [[SOP-011-write-session-log]], not as a new workstream. The daily question is: what changed in source maps, tasks, Hermes learning, Ready Queue, or team behavior because of today's work?
+   **Daily Knowledge Metabolism:** on every active build day, Larry does not end at "we made a report." He connects the day's chats, agents, outputs, open loops, and unfinished threads back to the larger objective, then gives every session-created artifact a fate: `promoted`, `referenced`, `dispatched`, `archived`, `deleted`, or `needs-Alyssa`. The metabolism happens inside close-session and [[SOP-011-write-session-log]], not as a new workstream. The daily question is: what changed in source maps, tasks, Hermes learning, the idea bank, or team behavior because of today's work?
 3. **Session-Log Author** - at session close, writes `Team Knowledge/session-logs/YYYY/MM/YYYY-MM-DD-<slug>.md`. The log cross-links earlier logs via `[[wikilinks]]`, captures user realignments as persistent team memory, and lists insights, decisions, and deltas vs the prior plan.
 
 See [[Team/Larry - Orchestrator/AGENTS]] for the full Librarian and Session-Log Author protocols.
@@ -267,7 +267,7 @@ See [[Team/Larry - Orchestrator/AGENTS]] for the full Librarian and Session-Log 
 
 Larry runs a semantic sweep as part of every weekly, monthly, and quarterly review. This is automatic — no user instruction needed.
 
-**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates `Studio/Signals/signals-index.md` with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for the Ready Queue, and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
+**What it does:** Reads journal entries for the review period, clusters recurring themes by meaning (not keywords), updates `Studio/Signals/signals-index.md` with counts and statuses, feeds `Studio/Signals/Developing Ideas/` with new and updated garden notes, writes thesis drafts when signal recurrence hits 6+, flags content activation opportunities for WS-008 (pitch loop or task file), and runs the voice loop check on Hermes' learning loop (`Hermes/learning/`) during the monthly sweep.
 
 **When it fires:**
 
@@ -288,7 +288,7 @@ At the start of every new session, Larry delivers one Daily Pulse: one thing fro
 
 **What Larry surfaces (in priority order):**
 1. Thesis draft awaiting Alyssa's reaction (any `thesis-ready` idea not edited in 7+ days)
-2. Ready Queue #1 item — specifically if Hermes is waiting on something
+2. Top open content task (`Team Knowledge/tasks/open/`) — specifically if a specialist is waiting on something
 3. A signal that jumped in the latest sweep
 4. A cross-connection Larry noticed between two developing ideas (max 2x per week)
 5. A Hermes deliverable that completed since the last session
@@ -312,7 +312,7 @@ The chain that fires automatically:
 Trigger → Phase 0: WS-004 inbox clear
         → Phase 1: SOP-013 light sweep (The Brew)
         → Phase 2: Garden check (The Thread)
-        → Phase 3: Ready Queue review + WS-008 dispatch (The Queue)
+        → Phase 3: Task + idea-bank review + WS-008 dispatch (The Queue)
         → Phase 4: Team briefs + weekly wrap note (The Hand-Off)
 ```
 
@@ -341,8 +341,8 @@ Trigger → Phase 0: WS-004 inbox clear
 |---|---|
 | "activate this" / "turn this into content" / "send this to Hermes" | Run WS-008 |
 | "what can we do with this?" / "make something from this" | Run WS-008 |
-| (SOP-013 flags a content-ready entry) | Larry automatically creates a Ready Queue item via WS-008 |
-| (Ready Queue has READY items at session start) | Larry surfaces them via WS-010 Daily Pulse |
+| (SOP-013 flags a content-ready entry) | Larry automatically routes it via WS-008 (pitch loop or task file) |
+| (Open content tasks are dispatch-ready at session start) | Larry surfaces them via WS-010 Daily Pulse |
 | "monthly review for [month]" | Run WS-007 for the specified month |
 
 **Monthly review reads weekly wraps only.** Never re-read raw session logs at this tier — the weekly layer already did that work.

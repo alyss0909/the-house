@@ -12,7 +12,7 @@
       - Appends all stdout/stderr output to a log file you can inspect anytime
 
     The bot script polls Telegram every ~31 seconds using long-polling and writes
-    incoming messages as markdown files into Team Inbox.
+    incoming messages as markdown files into Notebook/Inbox.
 
 .HOW TO RUN (one time only, as Administrator)
     Right-click PowerShell -> "Run as Administrator", then:
@@ -144,7 +144,7 @@ $Task = New-ScheduledTask `
     -Trigger $Trigger `
     -Settings $Settings `
     -Principal $Principal `
-    -Description "myPKA Telegram capture bot. Polls Telegram and drops messages into Team Inbox as markdown notes. Managed by myPKA automation layer."
+    -Description "myPKA Telegram capture bot. Polls Telegram and drops messages into Notebook/Inbox as markdown notes. Managed by myPKA automation layer."
 
 Register-ScheduledTask `
     -TaskName $TaskName `

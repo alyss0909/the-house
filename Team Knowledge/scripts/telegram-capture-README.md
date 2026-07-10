@@ -1,6 +1,6 @@
 # Telegram Capture MVP
 
-This helper turns Telegram bot messages into markdown captures in `Team Inbox/`.
+This helper turns Telegram bot messages into markdown captures in `Notebook/Inbox/`.
 
 ## Setup
 
@@ -40,7 +40,7 @@ https://www.instagram.com/reel/... #hook #content
 
 Useful starting tags: `#recreate`, `#repost`, `#design`, `#content`, `#hook`.
 
-Every capture lands in `Team Inbox/` first. Notion writes and LLM classification are the next layer after the MVP pipe is confirmed.
+Every capture lands in `Notebook/Inbox/` first. Notion writes and LLM classification are the next layer after the MVP pipe is confirmed.
 
 ## Security
 

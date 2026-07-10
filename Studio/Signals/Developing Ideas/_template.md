@@ -40,7 +40,7 @@ team_brief_status: null
 
 ## Team brief dispatched
 
-[Who got what assignment and when. Links to the brief in ready-queue.md or Deliverables/.]
+[Who got what assignment and when. Links to the task file in Team Knowledge/tasks/ or the brief in Deliverables/.]
 
 ## Check back
 

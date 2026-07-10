@@ -10,7 +10,7 @@ Licensed under CC BY-NC-SA 4.0 - see LICENSE
 
 The semantic sweep is how the system gets smarter. It reads across journal entries, captures, and voice memos, finds what keeps appearing, names it, and feeds the idea garden. Every sweep adds intelligence. The garden develops ideas. The ideas feed production. Production generates new voice material. New voice material calibrates Hermes. Hermes produces better drafts. Better drafts mean more Alyssa in fewer corrections. This is the intelligence flywheel.
 
-Sweep intelligence is still bound by [[GL-009-source-boundaries-and-promotion]]. A sweep may connect, count, flag, and point. It must not turn generated interpretation into Alyssa-original source. Before creating or updating garden notes, Ready Queue items, or Hermes graduation candidates, run [[Hermes/MEAN-ALYSSA]]: would Alyssa expect old source, BOH/freebie/training material, Google Drive/export, Notion, session logs, or external gold-standard proof before this claim becomes knowledge?
+Sweep intelligence is still bound by [[GL-009-source-boundaries-and-promotion]]. A sweep may connect, count, flag, and point. It must not turn generated interpretation into Alyssa-original source. Before creating or updating garden notes, content activation tasks, or Hermes graduation candidates, run [[Hermes/MEAN-ALYSSA]]: would Alyssa expect old source, BOH/freebie/training material, Google Drive/export, Notion, session logs, or external gold-standard proof before this claim becomes knowledge?
 
 ---
 
@@ -47,7 +47,7 @@ For any garden note that received a new entry this week:
 For any signal that just crossed 6 recurrences: write Larry's thesis draft in the garden note. Write it as Larry speaking directly to Alyssa — "here's what I think you've been trying to say." Not analysis. A draft she can edit.
 
 ### Step 4 — Content activation flags
-Flag any content-ready entry for the Ready Queue with:
+Flag any content-ready entry for content activation (WS-008 routes it: social content → weekly pitch loop, everything else → a task file in `Team Knowledge/tasks/open/`) with:
 - Proposed content type (email / carousel / Soft Sunday / Simmer concept / other)
 - Proposed assignee (Hermes / Pax / Charta / etc.)
 - Source entry link
@@ -117,7 +117,7 @@ Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule 
 - Write thesis drafts when recurrence threshold is crossed
 - Flag graduation candidates in the sweep note
 - Add wikilinks between entries and garden notes
-- Flag content activation opportunities in the Ready Queue
+- Flag content activation opportunities for WS-008 (pitch loop or task file)
 
 **Larry does NOT:**
 - Auto-graduate a signal — that requires Alyssa's decision
@@ -132,6 +132,6 @@ Also produces: updated `PKM/Second Brain/yes-pattern.md` + proposed Hermes rule 
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the idea garden
 - [[Hermes/learning/inbox.md]] — voice loop output
 - [[PKM/Second Brain/taste-log.md]] — taste loop cross-reference
-- [[PKM/Second Brain/ready-queue.md]] — content activation output
+- `Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — content activation outputs (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 - [[Team Knowledge/Workstreams/WS-006-weekly-review.md]] — calls the light sweep
 - [[Team Knowledge/Workstreams/WS-009-monthly-intelligence-update.md]] — calls the deep sweep

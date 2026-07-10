@@ -1,23 +1,27 @@
 # GL-005 - Team Inbox Protocol
 
-> **This Guideline governs Team Inbox structure and processing.** Every agent that reads from or writes to `Team Inbox/` reads this Guideline first.
+> **This Guideline governs the Notebook/Inbox structure and processing.** Every agent that reads from or writes to `Notebook/Inbox/` reads this Guideline first.
 
-This is the source of truth for how the Team Inbox works — what subfolders exist, who processes what, and how the inbox stays clean.
+This is the source of truth for how the inbox works — what subfolders exist, who processes what, and how the inbox stays clean.
+
+**Location note (2026-07-10):** the raw-drops inbox moved from `Team Inbox/` to `Notebook/Inbox/` as part of the Notebook assembly. A redirect stub remains at `Team Inbox/MOVED.md`. This Guideline uses the new path throughout.
 
 ## What the inbox is for
 
-`Team Inbox/` is a landing zone for raw inputs — screenshots, voice memos, article clippings, braindumps, business cards, half-formed ideas. Drop it in, say "Larry, process the inbox," and the team routes it.
+`Notebook/Inbox/` is a landing zone for raw inputs — screenshots, voice memos, article clippings, braindumps, business cards, half-formed ideas. Drop it in, say "Larry, process the inbox," and the team routes it.
 
-If you already know where something belongs, write it directly into PKM. Team Inbox is for *"I have something, not sure where, just take it."*
+If you already know where something belongs, write it directly into PKM. The inbox is for *"I have something, not sure where, just take it."*
 
 ## Subfolder structure (frozen)
 
 ```
-Team Inbox/
+Notebook/Inbox/
 ├── Meeting Captures/     ← WS-005 drops meeting notes here
 ├── _Processed/           ← Larry moves processed files here after routing
 └── _KeepSidianLogs/      ← Keepsidian plugin output; agent read-only
 ```
+
+The 2026-07-10 migration archived the backlog that had accumulated in `_Processed/` and `_KeepSidianLogs/` under Team Inbox to `Archive/Team Inbox/_Processed/` and `Archive/Team Inbox/_KeepSidianLogs/`. The subfolders themselves stay part of the frozen pattern above and continue under `Notebook/Inbox/` going forward.
 
 **This structure is frozen.** No new subfolders without a GL-005 amendment. Any agent that creates a subfolder not on this list is violating SSOT.
 
@@ -46,7 +50,7 @@ Larry clears `_Processed/` at every session close as part of Librarian duty. If 
 
 ### Timing
 
-Every file in Team Inbox root gets processed within the same session it's noticed. An unprocessed file in inbox root at session close means Larry missed it — flag and fix next session.
+Every file in Notebook/Inbox root gets processed within the same session it's noticed. An unprocessed file in inbox root at session close means Larry missed it — flag and fix next session.
 
 ### After routing
 

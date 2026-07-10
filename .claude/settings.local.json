@@ -59,7 +59,11 @@
       "Bash(find \"Team Knowledge/Guidelines\" -maxdepth 1 -name \"*.md\")",
       "Bash(find . -maxdepth 2 -iname \"*GL-*\")",
       "Bash(find scripts *)",
-      "Bash(find \"Team/Wren - Brand Voice Partner\" -maxdepth 3)"
+      "Bash(find \"Team/Wren - Brand Voice Partner\" -maxdepth 3)",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "mcp__425f2c81-a5b8-44aa-9529-0be064920830__list_calendars",
+      "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-query-data-sources",
+      "Bash(python -)"
     ]
   }
 }

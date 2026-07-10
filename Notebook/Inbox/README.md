@@ -1,4 +1,4 @@
-# Team Inbox
+# Notebook/Inbox
 
 Where you drop raw inputs for the team to process.
 
@@ -10,7 +10,7 @@ Anything you throw in here gets filed. Screenshots, voice memos, business cards,
 - **Larry** routes it to the right specialist (usually **Penn** for capture)
 - The specialist files it into PKM, CRM, Journal, or wherever it belongs
 - Cross-links via `[[wikilinks]]` get added automatically
-- The processed input gets removed from Team Inbox once filed
+- The processed input gets removed from Notebook/Inbox once filed
 
 ## What goes here
 
@@ -20,4 +20,8 @@ Anything you throw in here gets filed. Screenshots, voice memos, business cards,
 - Links to articles for **Pax** to research deeper
 - A quick `.md` braindump at end of day for **Penn** to file across PKM
 
-If you know exactly where a note belongs, write it directly in PKM. Team Inbox is for *"I have something, not sure where, just take it."*
+If you know exactly where a note belongs, write it directly in PKM. Notebook/Inbox is for *"I have something, not sure where, just take it."*
+
+---
+
+Moved from `Team Inbox/` 2026-07-10 as part of the Notebook assembly (see [[VAULT-MAP]]). Governed by [[GL-005-team-inbox-protocol]].

@@ -11,7 +11,7 @@ Filename pattern: `GL-NNN-<title>.md`.
 | GL-001 | [[GL-001-file-naming-conventions]] | Kebab-case rules, ISO date prefix on date-driven files, slug rules, image filename pattern. |
 | GL-002 | [[GL-002-frontmatter-conventions]] | YAML frontmatter field schemas for all 8 entity types, typing rules, foreign-key convention. Aligns with [[SOP-002-convert-mypka-to-sqlite]]. |
 | GL-004 | [[GL-004-tag-taxonomy]] | Tag vocabulary governance — approved tags, anchoring rules, no-abbreviation policy, Librarian audit duty. |
-| GL-005 | [[GL-005-team-inbox-protocol]] | Team Inbox structure (frozen subfolder list), processing rules, routing assignments, lifecycle. |
+| GL-005 | [[GL-005-team-inbox-protocol]] | Notebook/Inbox structure (frozen subfolder list), processing rules, routing assignments, lifecycle. |
 | GL-006 | [[GL-006-deliverables-scope]] | Deliverables/ is the one and only artifact location — what goes there, naming, archive lifecycle. |
 | GL-007 | [[GL-007-token-discipline]] | Token discipline — file size limits, session hygiene, Second Brain navigation rules, Larry startup cost, MCP overhead. Every agent follows these rules. |
 | GL-008 | [[GL-008-ponytail-lazy-senior-dev-philosophy]] | Lazy senior dev philosophy — the decision ladder for minimal code. Skip what doesn't need to exist, reuse before rebuilding, stdlib before custom. ~54% less code, 100% safe. Every agent applies this to code review, planning, and implementation. |
