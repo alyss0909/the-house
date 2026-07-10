@@ -1,0 +1,67 @@
+myICOR AI Library Software License — Voice & File Converter v1.1.0
+
+Copyright (c) 2026 Paperless Movement S.L.
+Proprietary. All rights reserved.
+
+This Expansion is published by Paperless Movement S.L. through the myICOR
+AI Library and is governed by the myICOR AI Library Software License.
+
+You are licensed to install and run this Expansion inside your personal
+myPKA folder on machines you own or control. You may not redistribute,
+sublicense, or sell this Expansion. You may not remove or alter the
+attribution, license, or copyright notices.
+
+This Expansion is provided "as is," without warranty of any kind, express
+or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and noninfringement. In no event shall the
+authors or copyright holders be liable for any claim, damages, or other
+liability arising from, out of, or in connection with the Expansion or the
+use or other dealings in the Expansion.
+
+THIRD-PARTY TOOLS — IMPORTANT
+
+This Expansion ships NO third-party binaries. Its install scripts fetch the
+following free, open-source tools at install time, from their official
+sources, into your system package manager or this Expansion folder. Each is
+licensed by its own authors under its own license; this myICOR license does
+NOT cover them:
+
+  - ffmpeg            (LGPL/GPL — https://ffmpeg.org)
+  - whisper.cpp / ggml-org whisper builds (MIT — https://github.com/ggml-org/whisper.cpp)
+  - whisper ggml model files (MIT — https://huggingface.co/ggerganov/whisper.cpp)
+  - yt-dlp            (Unlicense — https://github.com/yt-dlp/yt-dlp)
+  - pandoc            (GPL-2.0-or-later — https://pandoc.org)
+  - ImageMagick       (ImageMagick License — https://imagemagick.org)
+  - qpdf              (Apache-2.0 — https://qpdf.sourceforge.io)
+  - poppler / poppler-utils (GPL-2.0 — https://poppler.freedesktop.org)
+  - trafilatura       (Apache-2.0 — https://github.com/adbar/trafilatura)
+  - libheif           (LGPL — https://github.com/strukturag/libheif)
+  - ExifTool          (Perl Artistic / GPL-1.0-or-later — https://exiftool.org)
+  - OCRmyPDF          (MPL-2.0 — https://github.com/ocrmypdf/OCRmyPDF)
+  - Tesseract OCR     (Apache-2.0 — https://github.com/tesseract-ocr/tesseract)
+  - Ghostscript       (AGPL-3.0 — https://www.ghostscript.com)
+
+AGPL COMPONENT NOTICE — Ghostscript
+
+As of v1.1.0 this pack's optional OCR feature (making a scanned PDF
+searchable) uses OCRmyPDF, which relies on Ghostscript. Ghostscript is
+licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+The pack ships NO Ghostscript binary and NO Ghostscript source. Ghostscript
+is fetched at install time from your system package manager, and it is used
+ONLY as a separate local command-line process that OCRmyPDF spawns on your
+own machine. This pack does not modify Ghostscript, does not link or embed
+its code, and does not expose it over any network. Used this way, the AGPL
+copyleft applies to Ghostscript itself (your package manager provides its
+source and license) and does not extend to this pack or to your files.
+If you do not use the OCR feature, Ghostscript is never invoked.
+
+DATA RESPONSIBILITY
+
+All conversion runs locally on your machine. No file, recording, transcript,
+or web page is uploaded to Paperless Movement S.L. or to myICOR. You are
+solely responsible for the files you convert and for ensuring you have the
+right to download and transcribe any video or web page you supply a link to.
+You are the data controller (GDPR Art. 4(7)) for that processing.
+
+Contact: contact@myicor.com

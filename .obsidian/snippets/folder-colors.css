@@ -1,0 +1,57 @@
+/* ── FOLDER COLORS ────────────────────────────────────────────
+   Colored sidebar rows + unicode symbol prefix per folder
+   Overrides AnuPpuccin's built-in rainbow regardless of setting
+   ─────────────────────────────────────────────────────────── */
+
+/* Kill AnuPpuccin rainbow on ALL folder titles — both the container and the title element */
+.nav-folder > .nav-folder-title,
+.nav-folder-title {
+  background-color: transparent !important;
+  color: var(--text-normal) !important;
+  --icon-color: var(--text-normal) !important;
+}
+
+/* Background tints — full pastel colors, target both possible data-path locations */
+.nav-folder[data-path="PKM"] > .nav-folder-title,
+.nav-folder-title[data-path="PKM"] {
+  background: #c1d17c !important;
+  border-radius: 4px;
+}
+.nav-folder[data-path="Team Knowledge"] > .nav-folder-title,
+.nav-folder-title[data-path="Team Knowledge"] {
+  background: #fecc86 !important;
+  border-radius: 4px;
+}
+.nav-folder[data-path="Team Inbox"] > .nav-folder-title,
+.nav-folder-title[data-path="Team Inbox"] {
+  background: #f39ec2 !important;
+  border-radius: 4px;
+}
+.nav-folder[data-path="Deliverables"] > .nav-folder-title,
+.nav-folder-title[data-path="Deliverables"] {
+  background: #a186bc !important;
+  border-radius: 4px;
+}
+.nav-folder[data-path="Team"] > .nav-folder-title,
+.nav-folder-title[data-path="Team"] {
+  background: #ffeec6 !important;
+  border-radius: 4px;
+}
+
+/* Unicode symbols */
+.nav-folder[data-path="PKM"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "✦︎ ";
+  opacity: 0.8;
+}
+.nav-folder[data-path="Team Knowledge"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "⸬ ";
+  opacity: 0.8;
+}
+.nav-folder[data-path="Team Inbox"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "☾ ";
+  opacity: 0.8;
+}
+.nav-folder[data-path="Deliverables"] > .nav-folder-title .nav-folder-title-content::before {
+  content: "⊙ ";
+  opacity: 0.8;
+}

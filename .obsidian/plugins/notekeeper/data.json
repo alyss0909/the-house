@@ -1,0 +1,27 @@
+{
+  "notesFolder": "PKM/Journal",
+  "previewLines": 10,
+  "density": "comfortable",
+  "colorAsBorder": true,
+  "tagColors": {},
+  "cardColors": {
+    "PKM/Journal/2019/10/2019-10-26-setting-unrealistic-goals-is-a-form-of-self-sabatoge.md": null,
+    "PKM/Journal/2021/02/2021-02-07-all-things-i-think.md": null
+  },
+  "pinnedFiles": {},
+  "archivedFiles": {},
+  "pinnedHeader": true,
+  "showImages": false,
+  "autoCollapseSidebars": false,
+  "sortMode": "ctime-desc",
+  "walls": {
+    "wmpovgc1a9gn6": {
+      "id": "wmpovgc1a9gn6",
+      "name": "Wall",
+      "positions": {}
+    }
+  },
+  "currentWallId": "wmpovgc1a9gn6",
+  "wallBackground": "theme",
+  "wallFlat": false
+}

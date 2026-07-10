@@ -1,0 +1,77 @@
+/* ── HIDE UI ──────────────────────────────────────────────
+   Status: ACTIVE
+   Toggle any section off by wrapping it in /* ... * /
+   Reload snippets in Obsidian: Settings → Appearance → CSS Snippets → refresh icon
+   ──────────────────────────────────────────────────────── */
+
+
+/* 1. STATUS BAR (bottom-right: word count, reading-time, mode)
+   Almost always safe to hide — nothing useful lives here day-to-day */
+.status-bar {
+  display: none !important;
+}
+
+
+/* 2. SCROLLBARS — replaced with a thin subtle track
+   Content still scrolls; bar just disappears when not in use */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
+/* 4. FILE EXPLORER & SEARCH PANE HEADERS (the "Files" / "Search" label row)
+   Keeps the pane cleaner; the search input and file tree still show */
+.nav-header {
+  display: none !important;
+}
+
+
+/* 5. ROOT-LEVEL SYSTEM FILES — hidden from file explorer */
+.nav-file-title[data-path="ADAPTER-PROMPT.md"],
+.nav-file-title[data-path="AGENTS.md"],
+.nav-file-title[data-path="CHANGELOG.md"],
+.nav-file-title[data-path="CHANGELOG-MIGRATION.md"],
+.nav-file-title[data-path="CLAUDE.md"],
+.nav-file-title[data-path="CONTRIBUTING.md"],
+.nav-file-title[data-path="NOTICE.md"],
+.nav-file-title[data-path="README.md"],
+.nav-file-title[data-path="Team.md"],
+.nav-file-title[data-path="WAY-FORWARD.md"] {
+  display: none !important;
+}
+
+/* 6. ROOT-LEVEL SYSTEM FOLDERS — hidden from file explorer */
+.nav-folder[data-path="_system"],
+.nav-folder[data-path="Expansions"],
+.nav-folder[data-path="scripts"] {
+  display: none !important;
+}
+
+
+/* ── OPTIONAL — uncomment to activate ──────────────────────
+
+5. VIEW HEADER (the breadcrumb / tab title bar above each note)
+   Trade-off: you lose the file path breadcrumb and the "..." pane menu.
+   Only hide if you navigate entirely via hotkeys or the sidebar.
+
+.view-header {
+  display: none !important;
+}
+
+6. SIDEBAR TOGGLE ARROWS (the < > collapse handles on panel edges)
+   The sidebar can still be toggled with keyboard shortcut.
+
+.sidebar-toggle-button {
+  display: none !important;
+}
+
+────────────────────────────────────────────────────────── */

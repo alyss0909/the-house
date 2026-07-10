@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  myPKA Slack Expansion — launchd template
+  Copy this file to ~/Library/LaunchAgents/com.mypka.slack-listener.plist
+  and replace __VAULT_PATH__ with your actual myPKA folder path before loading.
+
+  Load:    launchctl load ~/Library/LaunchAgents/com.mypka.slack-listener.plist
+  Unload:  launchctl unload ~/Library/LaunchAgents/com.mypka.slack-listener.plist
+  Restart: launchctl kickstart -k gui/$UID/com.mypka.slack-listener
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.mypka.slack-listener</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__VAULT_PATH__/Expansions/slack/scripts/start.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__VAULT_PATH__/Expansions/slack/runtime</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/mypka-slack-listener.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/mypka-slack-listener.err</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>

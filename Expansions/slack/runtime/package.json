@@ -1,0 +1,20 @@
+{
+  "name": "mypka-slack-listener",
+  "version": "1.0.4",
+  "description": "myPKA Slack Expansion — Socket Mode listener. Inbound messages -> Team Inbox/slack-incoming/. Outbound queue -> Slack Web API (chat.postMessage with unfurl_links/media false).",
+  "private": true,
+  "license": "SEE LICENSE IN ../LICENSE",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "//deps": "Direct deps are EXACT-pinned (no caret) — the only two are the official Slack SDKs. The committed package-lock.json pins the full transitive tree; install with `npm ci` (see scripts/install.sh) so the lock is authoritative. Refresh + npm-audit the lockfile at every pack release per the release checklist.",
+  "dependencies": {
+    "@slack/socket-mode": "2.0.7",
+    "@slack/web-api": "7.15.2"
+  }
+}

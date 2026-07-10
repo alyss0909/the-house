@@ -1,0 +1,27 @@
+myICOR AI Library Software License — Slack Expansion v1.0.0
+
+Copyright (c) 2026 Paperless Movement S.L.
+Proprietary. All rights reserved.
+
+This Expansion is published by Paperless Movement S.L. through the myICOR
+AI Library and is governed by the myICOR AI Library Software License.
+
+You are licensed to install and run this Expansion inside your personal
+myPKA folder on machines you own or control. You may not redistribute,
+sublicense, or sell this Expansion. You may not remove or alter the
+attribution, license, or copyright notices.
+
+This Expansion is provided "as is," without warranty of any kind, express
+or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and noninfringement. In no event shall the
+authors or copyright holders be liable for any claim, damages, or other
+liability arising from, out of, or in connection with the Expansion or the
+use or other dealings in the Expansion.
+
+You are solely responsible for the data the Slack listener captures into
+your local myPKA and the messages it posts to Slack on your behalf. You are
+the data controller (GDPR Art. 4(7)) for that processing. Paperless
+Movement S.L. is not the data controller and does not have access to your
+tokens, your inbound messages, or your outbound replies.
+
+Contact: contact@myicor.com

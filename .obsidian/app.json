@@ -1,0 +1,21 @@
+{
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "KeepSidianLastSuccessfulSyncDate": "2026-06-08T16:20:36.007Z",
+  "userIgnoreFilters": [
+    "ADAPTER-PROMPT",
+    "CHANGELOG",
+    "CHANGELOG-MIGRATION",
+    "CLAUDE",
+    "CONTRIBUTING",
+    "NOTICE",
+    "README",
+    "WAY-FORWARD",
+    "Team",
+    "_system",
+    "Expansions",
+    "scripts",
+    "Deliverables"
+  ],
+  "propertiesInDocument": "hidden"
+}

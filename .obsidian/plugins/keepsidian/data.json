@@ -1,0 +1,53 @@
+{
+  "email": "accoleman100@gmail.com",
+  "token": "",
+  "syncTokenSecretId": "google-sync-token",
+  "saveLocation": "/Team Inbox",
+  "saveLocationMode": "custom",
+  "noteFileNamePattern": "{note.date}-{title}",
+  "oauthFlow": "desktop",
+  "oauthDebugMode": true,
+  "oauthPlaywrightUseSystemBrowser": true,
+  "subscriptionCache": {
+    "info": {
+      "metering_info": null,
+      "plan_details": null,
+      "subscription_status": "inactive",
+      "trial_or_promo": null
+    },
+    "timestamp": 1783559451416,
+    "email": "accoleman100@gmail.com"
+  },
+  "premiumFeatures": {
+    "autoSync": false,
+    "syncIntervalMinutes": 5,
+    "includeNotesTerms": [],
+    "excludeNotesTerms": [],
+    "includeColors": [],
+    "pinnedStatus": "all",
+    "archivedStatus": "active-only",
+    "updateTitle": false,
+    "suggestTags": false,
+    "maxTags": 5,
+    "tagPrefix": "",
+    "limitToExistingTags": false
+  },
+  "gdriveTokenSecretId": "google-drive-access-token",
+  "gdriveRefreshTokenSecretId": "google-drive-refresh-token",
+  "autoSyncEnabled": true,
+  "autoSyncIntervalHours": 24,
+  "lastSyncSummary": {
+    "timestamp": 1783559499997,
+    "processedNotes": 43,
+    "totalNotes": 50,
+    "success": false,
+    "status": "failed",
+    "mode": "import"
+  },
+  "lastSyncLogPath": "Team Inbox/_KeepSidianLogs/2026-07-09.md",
+  "keepSidianLastSuccessfulSyncDate": "2026-06-08T16:20:36.007Z",
+  "frontmatterPascalCaseFixApplied": true,
+  "twoWaySyncBackupAcknowledged": true,
+  "twoWaySyncEnabled": false,
+  "twoWaySyncAutoSyncEnabled": false
+}

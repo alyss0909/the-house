@@ -1,0 +1,34 @@
+/* ── PROPERTIES PANEL ─────────────────────────────────────────
+   Sidebar properties — invisible until hovered
+   Based on kristenbouchard's Rosaline modification
+   Setup: right-click tab → Open linked view → View file properties
+          then drag panel to right sidebar
+   ─────────────────────────────────────────────────────────── */
+
+/* Hide the tab header for the properties pane — calendar is in its own separate pane */
+.workspace-tab-header-container:has(.workspace-tab-header[data-type="file-properties"]) {
+  display: none;
+}
+
+/* Panel invisible by default, fades in on hover */
+.workspace-leaf-content[data-type="file-properties"] {
+  opacity: 0 !important;
+  transition: opacity 0.3s;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.workspace-leaf-content[data-type="file-properties"]:hover {
+  opacity: 0.85 !important;
+  transition: opacity 0.3s;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Clean up property label text */
+.workspace-leaf-content[data-type="file-properties"] .metadata-property-key {
+  font-size: 0.8em;
+  opacity: 0.7;
+}

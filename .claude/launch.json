@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lead-magnet-pages",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "website", "-l", "4173"],
+      "port": 4173
+    }
+  ]
+}

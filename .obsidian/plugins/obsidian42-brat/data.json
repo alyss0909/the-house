@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "rknastenka/obsidian-mini-notes",
+    "lc0rp/KeepSidian"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "rknastenka/obsidian-mini-notes",
+      "version": ""
+    },
+    {
+      "repo": "lc0rp/KeepSidian",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

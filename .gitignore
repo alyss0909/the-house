@@ -1,0 +1,19 @@
+.DS_Store
+__MACOSX/
+*.swp
+.obsidian/workspace*
+.obsidian/cache
+node_modules/
+*.env
+
+# Temp / scratch
+tmp/
+.trash/
+
+# Live automation state & logs — NEVER commit
+**/.telegram-capture-state.json
+**/*.log
+
+# Windows junk
+Thumbs.db
+desktop.ini

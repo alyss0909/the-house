@@ -1,0 +1,53 @@
+name: Voice & File Converter
+slug: converter-pack
+version: 1.1.1
+description: Turn voice memos, recordings, and video links into searchable text — and convert between everyday file formats (images↔PDF, Word↔Markdown, audio formats, web pages→readable text). Make scanned PDFs searchable with OCR, and inspect or strip private file metadata. Everything runs on your own computer.
+category: connector
+expansion_type: connector
+requires_agents: [Larry, Mack]
+license: proprietary
+author: myICOR
+homepage: https://myicor.com/library/converter-pack
+
+adds_agents: []
+
+adds_sops:
+  - { default_owner: Mack, file: sops/SOP-transcribe-audio.md }
+  - { default_owner: Mack, file: sops/SOP-transcribe-url.md }
+  - { default_owner: Mack, file: sops/SOP-webpage-to-text.md }
+  - { default_owner: Mack, file: sops/SOP-convert-images-pdf.md }
+  - { default_owner: Mack, file: sops/SOP-convert-documents.md }
+  - { default_owner: Mack, file: sops/SOP-ocr-scanned-pdf.md }
+  - { default_owner: Mack, file: sops/SOP-inspect-strip-metadata.md }
+
+adds_guidelines: []
+adds_workstreams: []
+adds_templates: []
+
+env_vars:
+  - { key: CONVERTER_WHISPER_MODEL,  description: "Whisper model used for transcription: base | small | medium | large-v3-turbo. Default small (~466 MB).", required: false, sensitive: false }
+  - { key: CONVERTER_WHISPER_LANG,   description: "Force a transcription language (ISO 639-1, e.g. en, de). Default auto (whisper auto-detects).",       required: false, sensitive: false }
+  - { key: CONVERTER_CACHE_DIR,      description: "Scratch directory for intermediate/output files before handoff. Default Expansions/converter-pack/cache.", required: false, sensitive: false }
+  - { key: CONVERTER_WHISPER_THREADS, description: "CPU threads for whisper transcription. Default: auto (whisper picks).",                                required: false, sensitive: false }
+  - { key: CONVERTER_OCR_LANG,        description: "OCR language(s) for scanned-PDF text recognition (Tesseract codes, e.g. eng, deu, eng+deu). Default eng.", required: false, sensitive: false }
+
+post_install_steps:
+  - "Run scripts/install.sh (macOS/Linux) or scripts/install.ps1 (Windows) to fetch the free, open-source converter tools. The installer needs Homebrew (macOS), apt (Linux), or winget (Windows) — if your system has none, the installer stops and tells you exactly how to get one. It never bootstraps a package manager itself."
+  - "Run scripts/fetch-models.sh (macOS/Linux) or scripts/fetch-models.ps1 (Windows) to download the speech-to-text model. Default is 'small' (~466 MB); pass 'base' (~142 MB) or 'large-v3-turbo' (~1.5 GB) to change it. The model file is SHA-verified after download."
+  - "Run scripts/doctor.sh (macOS/Linux) or scripts/doctor.ps1 (Windows) to confirm every tool and the model are present and the machine has enough headroom for the chosen model."
+  - "Optionally copy .env.example to .env to override any of the five non-sensitive tuning defaults (whisper model, transcription language, CPU threads, cache dir, OCR language). The pack works with zero configuration — .env is only for tuning."
+
+post_install_validation:
+  - { type: "file_exists", path: "Team Knowledge/SOPs/" }
+  - { type: "shell",       cmd: "bash Expansions/converter-pack/scripts/doctor.sh --quiet", expect_exit: 0 }
+
+uninstall:
+  method: rm-rf-folder
+  residual_paths:
+    - Team Knowledge/SOPs/SOP-*-transcribe-audio.md
+    - Team Knowledge/SOPs/SOP-*-transcribe-url.md
+    - Team Knowledge/SOPs/SOP-*-webpage-to-text.md
+    - Team Knowledge/SOPs/SOP-*-convert-images-pdf.md
+    - Team Knowledge/SOPs/SOP-*-convert-documents.md
+    - Team Knowledge/SOPs/SOP-*-ocr-scanned-pdf.md
+    - Team Knowledge/SOPs/SOP-*-inspect-strip-metadata.md

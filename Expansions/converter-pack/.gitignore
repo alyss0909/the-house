@@ -1,0 +1,19 @@
+# Voice & File Converter — never commit these
+# ----------------------------------------------------------------------
+
+# Local configuration (may contain machine-specific paths).
+# Exact-match only — .env.example MUST stay tracked.
+/.env
+
+# Speech-to-text model files fetched at install time (~142 MB – 1.5 GB).
+# Models are NEVER bundled or git-tracked — fetch-models.sh downloads them.
+models/
+*.bin
+
+# Scratch / intermediate / output files produced during conversion.
+# Removed on uninstall; never part of the pack.
+cache/
+
+# Per-OS noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "name": "mypka-scaffold-latest-(2)",
+  "version": "1.0.0",
+  "description": "<!-- myPKA Scaffold - © 2026 Paperless Movement S.L. Licensed under CC BY-NC-SA 4.0 - see LICENSE ICOR, Paperless Movement are registered trademarks. See NOTICE.md -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^25.3.0"
+  }
+}

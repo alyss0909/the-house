@@ -1,0 +1,38 @@
+name: Ponytail
+slug: ponytail
+version: 1.0.0
+description: Lazy senior dev decision ladder for minimal, non-overengineered code — stop at the first rung that holds, reuse before rebuilding, stdlib before custom. Knowledge pack — doctrine already lives in GL-008; this Expansion makes it a discoverable, triggerable Internal Skill instead of a Guideline nobody knows to check.
+category: guidelines
+expansion_type: agent_pack
+requires_scaffold_version: ">=1.7.0 <3.0.0"
+requires_agents: [Larry]
+license: reference (source repo license applies to upstream ladder text — see GL-008 for attribution)
+author: Dietrich Gebert (DietrichGebert/ponytail), integrated by Larry
+
+adds_agents: []
+
+adds_sops:
+  - { default_owner: Larry, file: sops/SOP-apply-ponytail-ladder.md }
+
+adds_guidelines: []
+# GL-008-ponytail-lazy-senior-dev-philosophy already exists in Team Knowledge/Guidelines/
+# (integrated 2026-07-05, prior to this Expansion wrapper). Not re-copied — this Expansion
+# only adds the missing discoverability layer (the SOP) on top of the existing doctrine.
+
+adds_workstreams: []
+adds_templates: []
+env_vars: []
+
+post_install_steps:
+  - "No setup required — this is a doctrine pack, zero code footprint. GL-008 already holds the full ladder."
+  - "Any agent that hears \"ponytail\", \"the ladder\", or \"lazy senior dev\" should resolve it via SOP-032 -> GL-008, per the Internal Skills rule in root AGENTS.md."
+
+post_install_validation:
+  - { type: "file_exists", path: "Team Knowledge/Guidelines/GL-008-ponytail-lazy-senior-dev-philosophy.md" }
+  - { type: "file_exists", path: "Team Knowledge/SOPs/" }
+
+uninstall:
+  method: rm-rf-folder
+  residual_paths:
+    - Team Knowledge/SOPs/SOP-*-apply-ponytail-ladder.md
+    - Team Knowledge/Guidelines/GL-008-ponytail-lazy-senior-dev-philosophy.md

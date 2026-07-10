@@ -1,0 +1,158 @@
+/* ── COLORS ───────────────────────────────────────────────────
+   Oat background · Warm linen sidebar · Burgundy headings
+   ─────────────────────────────────────────────────────────── */
+
+/* Override AnuPpuccin's Catppuccin Latte variables at the source */
+.theme-light {
+  --ctp-base: #fcfaf5 !important;
+  --ctp-mantle: #eee6de !important;
+  --ctp-crust: #e0d4c8 !important;
+  --ctp-surface0: #f0e8df !important;
+  --ctp-surface1: #e8ddd4 !important;
+  --ctp-surface2: #ddd0c6 !important;
+  --ctp-text: #2d1a1b !important;
+  --ctp-subtext1: #7a5c5e !important;
+  --ctp-subtext0: #a8888a !important;
+  --ctp-overlay2: #b89a9c !important;
+}
+
+body, :root {
+  --background-primary: #fcfaf5 !important;
+  --background-secondary: #eee6de !important;
+  --background-secondary-alt: #eee6de !important;
+  --background-modifier-border: #c2ad97;
+  --text-normal: #2d1a1b;
+  --text-muted: #7a5c5e;
+  --text-faint: #a8888a;
+  --color-accent: #8b4a2f !important;
+  --color-accent-hsl: 15, 62%, 36% !important;
+  --link-color: #8b4a2f;
+  --link-external-color: #7a5c5e;
+  --graph-node: #c1b5b6;
+  --graph-node-focused: #380d0f;
+  --graph-node-tag: #c1d17c;
+  --graph-node-attachment: #fecc86;
+  --graph-node-unresolved: #d4c5c6;
+  --graph-arrow: #c1b5b6;
+  --graph-line: #e0d0d0;
+}
+
+/* The frame — the linen background all cards float on */
+.workspace,
+.workspace-split {
+  background-color: #eee6de !important;
+}
+
+/* Ribbon sits directly on the frame, no box */
+.workspace-ribbon,
+.side-dock-ribbon {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Explicit outline on each card pane (theme's card border was invisible).
+   Border only — NO overflow/margin, so it can't clip or hide the tab bar. */
+.workspace-leaf {
+  border: 1.5px solid rgba(0, 0, 0, 0.35) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+/* The invisible properties pane — keep it borderless (hover-reveal panel) */
+.workspace-leaf:has(.workspace-leaf-content[data-type="file-properties"]) {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* All cards — oat (note, calendar, AND both sidebars) */
+.workspace-leaf-content,
+.cm-editor,
+.markdown-reading-view,
+.mod-left-split .workspace-leaf-content,
+.mod-left-split .nav-files-container,
+.mod-right-split .workspace-leaf-content:not([data-type="file-properties"]) {
+  background-color: #fcfaf5 !important;
+}
+
+/* Vault switcher — quiet, sits on the frame */
+.workspace-sidedock-vault-profile {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Modal / settings background — keep solid so settings are usable */
+.modal,
+.modal-container .modal,
+.modal-bg {
+  background-color: #fcfaf5 !important;
+  opacity: 1 !important;
+}
+.modal-bg {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Link hover — prevent going white or wrong color */
+a.internal-link:hover,
+.markdown-preview-view a:hover,
+.cm-hmd-internal-link:hover {
+  color: #5c2020 !important;
+  text-decoration: underline;
+}
+
+/* Keep icon colors from inheriting accent purple */
+.workspace-ribbon .side-dock-ribbon-tab,
+.workspace-ribbon .side-dock-ribbon-action,
+.nav-action-button,
+.view-action {
+  color: #7a5c5e !important;
+}
+
+/* Hover colors — row 14 */
+.clickable-icon:hover {
+  color: #c1d17c !important;
+  background-color: transparent !important;
+}
+
+/* ── HIDDEN FOLDERS — cover both possible data-path locations ── */
+.nav-folder[data-path="_system"],
+.nav-folder[data-path="Expansions"],
+.nav-folder[data-path="scripts"],
+.nav-folder:has(> .nav-folder-title[data-path="_system"]),
+.nav-folder:has(> .nav-folder-title[data-path="Expansions"]),
+.nav-folder:has(> .nav-folder-title[data-path="scripts"]),
+.nav-folder-title[data-path="_system"],
+.nav-folder-title[data-path="Expansions"],
+.nav-folder-title[data-path="scripts"] {
+  display: none !important;
+}
+
+/* Calendar month/year title → AT KING, both words solid black */
+.workspace-leaf-content[data-type="calendar"] .title,
+.workspace-leaf-content[data-type="calendar"] .nav-title,
+.workspace-leaf-content[data-type="calendar"] .title .month,
+.workspace-leaf-content[data-type="calendar"] .title .year {
+  font-family: "AT KING", serif !important;
+  letter-spacing: 0;
+  color: #1a1a1a !important;
+}
+
+/* Heading color — override AnuPpuccin class-based color */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: #1a1a1a !important;
+}
+
+/* Live preview headings */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 .cm-header,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 .cm-header,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 .cm-header,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 .cm-header,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 .cm-header,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 .cm-header {
+  color: #1a1a1a !important;
+}

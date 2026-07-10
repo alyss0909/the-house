@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Pitch Command Center — W28 Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --linen:#eee6de;
+    --oat:#fcfaf5;
+    --border:1.5px solid rgba(0,0,0,0.35);
+    --heading:#1a1a1a;
+    --body:#2d1a1b;
+    --muted:#7a5c5e;
+    --terracotta:#8b4a2f;
+    --pistachio:#c1d17c;
+    --sage:#c1d17c;
+    --peach:#fecc86;
+    --pink:#f39ec2;
+    --lavender:#a186bc;
+    --ivory:#ffeec6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--linen);
+    color:var(--body);
+    font-family:"Karla",sans-serif;
+    font-size:15px;
+    line-height:1.55;
+    padding:28px clamp(16px,3vw,48px) 40px;
+  }
+  h1,h2,h3,.serif{
+    font-family:"AT KING",Georgia,serif;
+    color:var(--heading);
+    letter-spacing:0;
+    font-weight:600;
+  }
+  .label{
+    font-family:"Roboto Mono",monospace;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+  }
+  a{color:var(--terracotta);}
+  .card{
+    background:var(--oat);
+    border:var(--border);
+    border-radius:10px;
+  }
+
+  /* ---------- header ---------- */
+  header.card{
+    padding:26px 30px 22px;
+    margin-bottom:18px;
+  }
+  .header-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;justify-content:space-between;}
+  header h1{font-size:clamp(26px,3.4vw,38px);line-height:1.1;}
+  .week-chip{
+    display:inline-block;
+    background:var(--ivory);
+    border:var(--border);
+    border-radius:999px;
+    padding:5px 16px;
+    color:var(--heading);
+  }
+  .header-sub{color:var(--muted);margin-top:6px;}
+
+  /* pipeline strip */
+  .pipeline{
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+    margin-top:20px;
+  }
+  .stage{
+    border:var(--border);
+    border-radius:999px;
+    padding:4px 14px;
+    background:var(--oat);
+    color:var(--muted);
+  }
+  .stage.done{background:var(--sage);color:var(--heading);}
+  .stage.current{background:var(--pink);color:#000;font-weight:500;}
+  .stage-arrow{color:var(--muted);font-family:"Roboto Mono",monospace;font-size:12px;}
+  .stage-num{font-family:"Roboto Mono",monospace;color:var(--muted);opacity:0.7;margin-right:5px;}
+  .stage.current .stage-num,.stage.done .stage-num{color:inherit;opacity:0.55;}
+  .tab-num{font-family:"Roboto Mono",monospace;color:var(--muted);opacity:0.7;margin-right:6px;}
+  .tab[aria-selected="true"] .tab-num{color:inherit;opacity:0.6;}
+
+  /* ---------- tabs ---------- */
+  nav.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px;}
+  .tab{
+    font-family:"Roboto Mono",monospace;
+    font-size:12px;text-transform:uppercase;letter-spacing:0.04em;
+    background:var(--oat);
+    border:var(--border);
+    border-radius:999px;
+    padding:9px 22px;
+    color:var(--heading);
+    cursor:pointer;
+  }
+  .tab:hover{background:var(--pistachio);}
+  .tab[aria-selected="true"]{background:var(--pink);color:#000;}
+  .tab:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px;}
+  .panel{display:none;}
+  .panel.active{display:block;}
+
+  /* ---------- concepts ---------- */
+  .day-group{margin-bottom:26px;}
+  .day-head{
+    display:flex;align-items:center;gap:12px;
+    margin-bottom:12px;
+  }
+  .day-chip{
+    border:var(--border);border-radius:999px;padding:5px 16px;color:var(--heading);
+    font-weight:400;display:inline-block;
+  }
+  .day-chip.mon{background:var(--sage);}
+  .day-chip.wed{background:var(--peach);}
+  .day-chip.fri{background:var(--pink);}
+  .day-note{color:var(--muted);}
+  .concept-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;
+  }
+  .concept{padding:20px 22px 18px;display:flex;flex-direction:column;gap:10px;}
+  .concept h3{font-size:19px;line-height:1.25;}
+  .who{color:var(--body);}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+  .chip{
+    font-family:"Roboto Mono",monospace;font-size:12px;letter-spacing:0.04em;text-transform:uppercase;
+    border:var(--border);border-radius:999px;padding:3px 12px;background:var(--ivory);color:var(--heading);
+  }
+  .chip.approved{background:var(--sage);}
+  .chip.passed{background:var(--oat);color:var(--muted);}
+  .chip.lavender{background:var(--lavender);color:#1a1a1a;}
+  .cta-note{color:var(--muted);font-size:12px;}
+  .react-row{
+    border-top:1px solid rgba(0,0,0,0.15);
+    padding-top:12px;margin-top:auto;
+    display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+  }
+  .react-btn{
+    border:var(--border);background:var(--oat);border-radius:8px;
+    font-size:15px;font-weight:700;line-height:1;padding:7px 12px;cursor:pointer;
+    font-family:"Karla",sans-serif;
+  }
+  .react-btn.yes{background:var(--sage);color:#1a1a1a;}
+  .react-btn.no{background:var(--oat);color:var(--terracotta);}
+  .react-btn.redo{background:var(--oat);color:var(--muted);}
+  .react-btn:hover{background:var(--pistachio);color:#1a1a1a;}
+  .react-btn:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px;}
+  .note-wrap{flex:1;min-width:170px;display:flex;flex-direction:column;gap:3px;}
+  .note-wrap input{
+    font-family:"Karla",sans-serif;font-size:14px;
+    border:var(--border);border-radius:8px;background:#fff;
+    padding:7px 10px;width:100%;color:var(--body);
+  }
+  .note-wrap input::placeholder{color:var(--muted);}
+  .note-hint{font-family:"Roboto Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);}
+  .her-words{
+    background:var(--ivory);border:1px solid rgba(0,0,0,0.2);border-radius:8px;
+    padding:8px 12px;color:var(--body);font-style:italic;font-size:14px;
+  }
+  .her-words .label{color:var(--muted);font-style:normal;display:block;margin-bottom:2px;}
+
+  /* ---------- arcs ---------- */
+  .arc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:16px;}
+  .arc{padding:22px 24px;display:flex;flex-direction:column;gap:12px;}
+  .arc h3{font-size:21px;line-height:1.25;}
+  ol.slides{padding-left:22px;display:flex;flex-direction:column;gap:5px;}
+  ol.slides li::marker{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--terracotta);}
+  .pick-banner{
+    background:var(--peach);border:var(--border);border-radius:10px;
+    padding:12px 18px;margin-bottom:14px;
+    display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;
+  }
+  .pick-banner strong{font-family:"AT KING",Georgia,serif;color:var(--heading);font-size:17px;}
+  .ab-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:26px;}
+  .pick-btn{
+    align-self:flex-start;
+    font-family:"Roboto Mono",monospace;font-size:12px;text-transform:uppercase;letter-spacing:0.04em;
+    background:var(--pink);border:var(--border);border-radius:999px;
+    padding:9px 20px;color:#000;cursor:pointer;
+  }
+  .pick-btn:hover{background:var(--pistachio);}
+  .pick-btn:focus-visible,.ship-btn:focus-visible,.parked-strip button:focus-visible,.note-wrap input:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px;}
+  .sources{color:var(--muted);font-size:13px;}
+  .provisional{
+    background:var(--ivory);border:1px solid rgba(0,0,0,0.2);border-radius:8px;
+    padding:8px 12px;color:var(--muted);font-size:13px;
+  }
+  section.block{margin-bottom:26px;}
+  .section-head{margin-bottom:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .section-head h2{font-size:23px;}
+
+  /* ---------- hooks ---------- */
+  .hook-set{margin-bottom:26px;}
+  .hook-set-title{margin-bottom:10px;}
+  .hook-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
+  .hook-card{
+    padding:18px 20px;
+    display:flex;flex-direction:column;gap:8px;text-align:left;
+  }
+  .hook-card .serif{font-size:18px;line-height:1.3;}
+  .hook-meta{color:var(--muted);font-size:13px;}
+  .hook-react{
+    display:flex;gap:8px;align-items:flex-start;margin-top:auto;
+    border-top:1px solid rgba(0,0,0,0.15);padding-top:10px;
+  }
+  .pick-btn.small{padding:7px 14px;flex:0 0 auto;}
+
+  /* ---------- drafts ---------- */
+  .draft-card{padding:24px 26px;margin-bottom:16px;}
+  .draft-cover{
+    background:var(--ivory);border:var(--border);border-radius:10px;
+    padding:34px 26px;text-align:center;margin:14px 0 18px;
+  }
+  .draft-cover .serif{font-size:26px;}
+  .draft-slides p{margin-bottom:8px;}
+  .draft-slides .slide-n{font-family:"Roboto Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:var(--terracotta);margin-right:8px;}
+  .caption-box{
+    background:#fff;border:1px solid rgba(0,0,0,0.2);border-radius:8px;
+    padding:14px 16px;margin:14px 0 18px;font-size:14px;
+  }
+  .ship-btn{
+    font-family:"AT KING",Georgia,serif;font-size:19px;color:#000;
+    background:var(--pink);border:var(--border);border-radius:10px;
+    padding:14px 44px;cursor:pointer;
+  }
+  .ship-btn:hover{background:var(--pistachio);}
+  .ship-row{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;}
+  .ship-row .note-wrap{flex:1;min-width:220px;}
+  .empty{
+    background:var(--ivory);
+    text-align:center;padding:38px 26px;color:var(--muted);
+    margin-bottom:16px;
+  }
+  .empty .serif{color:var(--muted);font-size:19px;display:block;margin-bottom:6px;}
+
+  /* ---------- parked ---------- */
+  .parked-item{padding:20px 24px;margin-bottom:14px;}
+  .parked-item .note-wrap{margin-top:12px;}
+  .parked-item h3{font-size:18px;margin-bottom:6px;}
+  .parked-item .chip{margin-bottom:10px;}
+  .parked-strip{
+    margin-top:26px;padding:14px 20px;
+    display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+    background:var(--ivory);
+  }
+  .parked-strip .label{color:var(--terracotta);}
+  .parked-strip button{
+    font-family:"Karla",sans-serif;font-size:13px;color:var(--body);
+    background:var(--oat);border:1px solid rgba(0,0,0,0.3);border-radius:999px;
+    padding:5px 14px;cursor:pointer;
+  }
+  .parked-strip button:hover{background:var(--pistachio);}
+
+  footer{
+    margin-top:30px;text-align:center;color:var(--muted);
+    font-family:"Roboto Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.04em;
+  }
+  .font-note{
+    color:var(--muted);text-align:center;margin-bottom:14px;
+    font-family:"Roboto Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.04em;
+  }
+
+  /* ---------- calendar ---------- */
+  .cal-wrap{overflow-x:auto;}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;min-width:680px;}
+  .cal-dow{color:var(--muted);text-align:center;padding:4px 0;}
+  .cal-day{min-height:92px;padding:8px;display:flex;flex-direction:column;gap:6px;}
+  .cal-day.out{background:transparent;border-color:rgba(0,0,0,0.12);}
+  .cal-num{font-family:"Roboto Mono",monospace;font-size:11px;color:var(--muted);}
+  .cal-post{
+    border:1px solid rgba(0,0,0,0.3);border-radius:6px;padding:5px 7px;
+    font-size:12px;line-height:1.3;color:var(--heading);
+    display:flex;align-items:flex-start;gap:6px;
+    position:relative;
+  }
+  .cal-post:not(.pre){cursor:pointer;}
+  .cal-post:not(.pre):hover::after,.cal-post:not(.pre):focus-visible::after{
+    content:"click to react";
+    position:absolute;left:0;top:calc(100% + 3px);z-index:2;
+    background:var(--oat);border:1px solid rgba(0,0,0,0.35);border-radius:6px;
+    padding:2px 8px;color:var(--muted);white-space:nowrap;
+    font-family:"Roboto Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.04em;
+  }
+  .cal-post:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px;}
+  .cal-post .title{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+  .cal-post.mon{background:var(--sage);}
+  .cal-post.wed{background:var(--peach);}
+  .cal-post.fri{background:var(--pink);}
+  .cal-post.pending{background:var(--ivory);color:var(--body);}
+  .cal-post.pre{background:transparent;color:var(--muted);border-style:dashed;}
+  .dot{width:6px;height:6px;border-radius:50%;flex:0 0 6px;margin-top:4px;border:1px solid rgba(0,0,0,0.35);}
+  .dot.arc{background:var(--terracotta);}
+  .dot.drafted{background:var(--lavender);}
+  .dot.shipped{background:#1a1a1a;}
+  .dot.pending{background:var(--oat);}
+  .cal-post .status-tag{
+    display:block;
+    font-family:"Roboto Mono",monospace;font-size:9px;text-transform:uppercase;letter-spacing:0.03em;
+    color:var(--muted);margin-top:2px;
+  }
+  .cal-post.needs-hook .status-tag{color:var(--terracotta);}
+  .cal-post.needs-pick .status-tag{color:var(--lavender);}
+  .cal-post.needs-arc .status-tag{color:var(--muted);}
+  .cal-post.needs-draft .status-tag{color:#8b7a2f;}
+  .cal-post.shipped-tag .status-tag{color:#1a1a1a;}
+  .cal-post .title-wrap{display:flex;flex-direction:column;}
+  .cal-legend{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:12px;color:var(--muted);font-size:13px;}
+  .cal-legend span{display:flex;align-items:center;gap:6px;}
+  .cal-head{margin-bottom:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .cal-head h2{font-size:23px;}
+
+  @media (max-width:820px){
+    .ab-grid{grid-template-columns:1fr;}
+    header.card{padding:20px;}
+    .concept-grid,.arc-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<p class="font-note">Headings render in Georgia fallback here — real vault uses AT KING.</p>
+
+<header class="card">
+  <div class="header-top">
+    <h1>Content Pitch Command Center</h1>
+    <span class="week-chip label">Week 28 · Jul 6 – Jul 10, 2026 · Theme: W2 Pinterest</span>
+  </div>
+  <p class="header-sub">Weekly carousel pipeline — your reacts go to the taste ledger verbatim.</p>
+  <div class="pipeline" role="list" aria-label="Pipeline position">
+    <span class="stage label done" role="listitem"><span class="stage-num" aria-hidden="true">01</span>CONCEPTS</span><span class="stage-arrow" aria-hidden="true">→</span>
+    <span class="stage label current" role="listitem" aria-current="step"><span class="stage-num" aria-hidden="true">02</span>ARC</span><span class="stage-arrow" aria-hidden="true">→</span>
+    <span class="stage label" role="listitem"><span class="stage-num" aria-hidden="true">03</span>HOOK</span><span class="stage-arrow" aria-hidden="true">→</span>
+    <span class="stage label" role="listitem"><span class="stage-num" aria-hidden="true">04</span>DRAFT</span><span class="stage-arrow" aria-hidden="true">→</span>
+    <span class="stage label" role="listitem"><span class="stage-num" aria-hidden="true">05</span>APPROVED</span>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Pipeline stages">
+  <button class="tab" role="tab" id="tab-concepts" aria-selected="false" tabindex="-1" aria-controls="panel-concepts"><span class="tab-num" aria-hidden="true">01</span>CONCEPTS</button>
+  <button class="tab" role="tab" id="tab-arcs" aria-selected="true" tabindex="0" aria-controls="panel-arcs"><span class="tab-num" aria-hidden="true">02</span>ARC</button>
+  <button class="tab" role="tab" id="tab-hooks" aria-selected="false" tabindex="-1" aria-controls="panel-hooks"><span class="tab-num" aria-hidden="true">03</span>HOOK</button>
+  <button class="tab" role="tab" id="tab-drafts" aria-selected="false" tabindex="-1" aria-controls="panel-drafts"><span class="tab-num" aria-hidden="true">04</span>DRAFT</button>
+  <button class="tab" role="tab" id="tab-calendar" aria-selected="false" tabindex="-1" aria-controls="panel-calendar"><span class="tab-num" aria-hidden="true">05</span>APPROVED</button>
+  <button class="tab" role="tab" id="tab-parked" aria-selected="false" tabindex="-1" aria-controls="panel-parked">PARKED</button>
+</nav>
+
+<!-- ================= CONCEPTS ================= -->
+<section class="panel" id="panel-concepts" role="tabpanel" aria-labelledby="tab-concepts" tabindex="0">
+
+  <div class="day-group">
+    <div class="day-head">
+      <h2 class="day-chip mon label">Monday · Education</h2>
+      <span class="day-note">freebie: Pin Planner</span>
+    </div>
+    <div class="concept-grid">
+
+      <article class="concept card">
+        <h3>How To Market Your Business While You're Offline</h3>
+        <p class="who">For the girl chained to daily posting — Pinterest keeps working after she closes the app.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>The 4 Posts That Could Bring You Traffic All Year</h3>
+        <p class="who">She thinks she needs endless content — she needs 4 solid pieces on a search engine.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip approved">approved → arc</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>If I Was Starting From Zero In 2026, I'd Do This First</h3>
+        <p class="who">For the beginner (or burnt-out restarter) who wants leads without building an audience first.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="day-group">
+    <div class="day-head">
+      <h2 class="day-chip wed label">Wednesday · Offer</h2>
+      <span class="day-note">Pin Planner → Slowly Viral → Back of House</span>
+      <span class="cta-note">CTA swapped per ruling (no VIRAL until live)</span>
+    </div>
+    <div class="concept-grid">
+
+      <article class="concept card">
+        <h3>How To Turn One Freebie Into Daily Leads</h3>
+        <p class="who">She already made the freebie — this shows Pinterest sending people to it every day.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>The Only 3 Pins You Need To Grow Your List With Buyers</h3>
+        <p class="who">For the girl pinning random stuff with nothing to show for it.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip approved">approved → arc</span><span class="chip lavender">Wed option A</span></div>
+        <div class="her-words"><span class="label">her words · taste ledger</span>"the answer post and the search post and then the opt in post looks like very good"</div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>How To Get Found On Pinterest Without Posting Every Day</h3>
+        <p class="who">Search visibility for coaches and service pros who hate the content hamster wheel.</p>
+        <div class="chip-row"><span class="chip">comment Pinterest → Pin Planner</span><span class="chip approved">approved → arc</span><span class="chip lavender">Wed option B</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>The Marketing System That Runs While You're At The Lake</h3>
+        <p class="who">For the CEO with better things to do — set it up once, let it sell.</p>
+        <div class="chip-row"><span class="chip">comment Yes Chef → Back of House</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="day-group">
+    <div class="day-head">
+      <h2 class="day-chip fri label">Friday · For The Girls</h2>
+      <span class="day-note">no CTA — ends on the line</span>
+    </div>
+    <div class="concept-grid">
+
+      <article class="concept card">
+        <h3>You're Allowed To Build A Slower Business</h3>
+        <p class="who">Permission for the girl who dreads being loud online.</p>
+        <div class="chip-row"><span class="chip">no CTA</span><span class="chip approved">approved → arc</span></div>
+        <div class="her-words"><span class="label">her words · taste ledger</span>"this one works but change to slower" (quiet → slower)</div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>Softer Suits You</h3>
+        <p class="who">A little love note for the one who finally stopped hustling like it's 2019.</p>
+        <div class="chip-row"><span class="chip">no CTA</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="concept card">
+        <h3>For The Girl Who's Tired Of Being Everywhere</h3>
+        <p class="who">She's stretched across five platforms and misses her own brain.</p>
+        <div class="chip-row"><span class="chip">no CTA</span><span class="chip passed">unpicked</span></div>
+        <div class="react-row">
+          <button class="react-btn yes" aria-label="Approve this concept">✓</button>
+          <button class="react-btn no" aria-label="Pass on this concept">✕</button>
+          <button class="react-btn redo" aria-label="Send back for another take">↻</button>
+          <div class="note-wrap">
+            <input type="text" placeholder="add note" aria-label="Add a note for this concept">
+            <span class="note-hint">your words go to the ledger verbatim</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ARCS ================= -->
+<section class="panel active" id="panel-arcs" role="tabpanel" aria-labelledby="tab-arcs" tabindex="0">
+
+  <section class="block">
+    <div class="section-head"><span class="day-chip mon label">Monday</span><h2>The 4 Posts That Could Bring You Traffic All Year</h2></div>
+    <article class="arc card">
+      <div class="chip-row"><span class="chip approved">arc approved as teaching layer</span><span class="chip">CTA: comment Pinterest → Pin Planner</span></div>
+      <ol class="slides">
+        <li>Cover: title + hook</li>
+        <li>Introduce the concept: 4 solid pieces on a search engine can carry your whole year of traffic</li>
+        <li>Proof: pins don't expire, they accumulate; content on Pinterest keeps driving traffic for months or years</li>
+        <li>Step 1: pick your four signature topics, the four things you want to be known for</li>
+        <li>Step 2: write ONE really good piece per topic, the post that answers what your dream client is already typing in</li>
+        <li>Step 3: add a simple upgrade to each (checklist, template, prompt) so readers become subscribers</li>
+        <li>Step 4: keep pinning them fresh: new image + new title on a post you already have, so 4 posts feed months of daily pins</li>
+        <li>CTA: comment Pinterest → Pin Planner</li>
+      </ol>
+      <p class="sources">Sources: 3.1 Bread and Butter Content · 3.3 The Batch · Slowly Viral Class</p>
+      <div class="react-row">
+        <button class="react-btn yes" aria-label="Approve this arc">✓</button>
+        <button class="react-btn no" aria-label="Reject this arc">✕</button>
+        <button class="react-btn redo" aria-label="Send this arc back for revision">↻</button>
+        <div class="note-wrap">
+          <input type="text" placeholder="add arc marks" aria-label="Add arc marks for the Monday arc">
+          <span class="note-hint">your words go to the ledger verbatim · reference slide numbers in your note</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <div class="pick-banner" role="note">
+    <strong>Wednesday — pick one.</strong>
+    <span class="label">A: three-pins list-growth &nbsp;vs&nbsp; B: get-found</span>
+  </div>
+  <div class="ab-grid">
+    <article class="arc card">
+      <div class="chip-row"><span class="chip lavender">Option A</span></div>
+      <h3>The Only 3 Pins You Need To Grow Your List With Buyers</h3>
+      <ol class="slides">
+        <li>Cover: title + hook</li>
+        <li>Introduce the concept: three pins, each with one job, are all it takes to fill a list with buyers</li>
+        <li>Proof: Pinterest users walk into the store with a list, mid-buying-decision and already searching; a hundred email subscribers outperform a thousand followers</li>
+        <li>Pin 1, the search pin: built on keywords your dream client actually types (pull them straight from the Pinterest search bar)</li>
+        <li>Pin 2, the answer pin: points at your one best page, the one that makes her think "she gets exactly what I'm dealing with"</li>
+        <li>Pin 3, the opt-in pin: points at a freebie only your right-fit person would want, so it filters the list before anyone's on it</li>
+        <li>How it compounds: variations of these three = months of daily pins from things you already have</li>
+        <li>CTA: comment Pinterest → Pin Planner</li>
+      </ol>
+      <p class="sources">Sources: Slowly Viral Class · 3.1 Bread and Butter Content</p>
+      <div class="react-row">
+        <button class="react-btn yes" aria-label="Approve arc option A">✓</button>
+        <button class="react-btn no" aria-label="Reject arc option A">✕</button>
+        <button class="react-btn redo" aria-label="Send arc option A back for revision">↻</button>
+        <div class="note-wrap">
+          <input type="text" placeholder="add arc marks" aria-label="Add arc marks for Wednesday option A">
+          <span class="note-hint">your words go to the ledger verbatim · reference slide numbers in your note</span>
+        </div>
+      </div>
+      <button class="pick-btn" aria-label="Pick option A for Wednesday">Pick this one</button>
+    </article>
+    <article class="arc card">
+      <div class="chip-row"><span class="chip lavender">Option B</span></div>
+      <h3>How To Get Found On Pinterest Without Posting Every Day</h3>
+      <ol class="slides">
+        <li>Cover: title + hook</li>
+        <li>Introduce the two types of visibility: feed-based (Instagram, reach expires daily) vs index-based (Pinterest, content is stored and resurfaced)</li>
+        <li>Proof, stacked with real Pinterest stats: 38% of viral pins are over two years old; pins accumulate instead of expiring; one page can become 200 pins and ~73k visitors a year</li>
+        <li>Step 1: search your topic in the Pinterest search bar; the suggestions that pop up ARE your keywords</li>
+        <li>Step 2: put those keywords everywhere: profile, board titles, pin titles, descriptions (naturally, don't stuff)</li>
+        <li>Step 3: keep making new images: a fresh pin is a new image + new title on the same link, Pinterest reads it as brand new</li>
+        <li>CTA: comment Pinterest → Pin Planner</li>
+      </ol>
+      <p class="sources">Sources: Slowly Viral Class · 3.3 The Batch</p>
+      <div class="react-row">
+        <button class="react-btn yes" aria-label="Approve arc option B">✓</button>
+        <button class="react-btn no" aria-label="Reject arc option B">✕</button>
+        <button class="react-btn redo" aria-label="Send arc option B back for revision">↻</button>
+        <div class="note-wrap">
+          <input type="text" placeholder="add arc marks" aria-label="Add arc marks for Wednesday option B">
+          <span class="note-hint">your words go to the ledger verbatim · reference slide numbers in your note</span>
+        </div>
+      </div>
+      <button class="pick-btn" aria-label="Pick option B for Wednesday">Pick this one</button>
+    </article>
+  </div>
+
+  <section class="block">
+    <div class="section-head"><span class="day-chip fri label">Friday</span><h2>You're Allowed To Build A Slower Business</h2></div>
+    <article class="arc card">
+      <div class="chip-row"><span class="chip approved">arc approved as teaching layer</span><span class="chip">no CTA</span></div>
+      <p class="provisional">Provisional — portrait, not a teaching post. Slide count and second person assumed until the FTG interview (see Parked) is answered.</p>
+      <ol class="slides">
+        <li>Cover: title, soft treatment</li>
+        <li>Open the portrait: she has her best ideas in the shower and on long walks</li>
+        <li>She's a pen-and-paper person in an everything-app world</li>
+        <li>Recognition beat: marketing that feels like dishes, done yesterday and already back</li>
+        <li>She didn't start this business to feed an algorithm every morning</li>
+        <li>The turn: slow is still moving. quiet is still working</li>
+        <li>Close on the title as permission: you're allowed to build a slower business</li>
+        <li>No CTA, ends on the line</li>
+      </ol>
+      <p class="sources">Sources: Slowly Viral Class "Who This Is For" + "What Slowly Viral Actually Gives You"</p>
+      <div class="react-row">
+        <button class="react-btn yes" aria-label="Approve this arc">✓</button>
+        <button class="react-btn no" aria-label="Reject this arc">✕</button>
+        <button class="react-btn redo" aria-label="Send this arc back for revision">↻</button>
+        <div class="note-wrap">
+          <input type="text" placeholder="add arc marks" aria-label="Add arc marks for the Friday arc">
+          <span class="note-hint">your words go to the ledger verbatim · reference slide numbers in your note</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</section>
+
+<!-- ================= HOOKS ================= -->
+<section class="panel" id="panel-hooks" role="tabpanel" aria-labelledby="tab-hooks" tabindex="0">
+
+  <div class="hook-set">
+    <div class="section-head hook-set-title"><span class="day-chip mon label">Monday</span><h2>The 4 Posts That Could Bring You Traffic All Year</h2></div>
+    <div class="hook-grid">
+      <article class="hook-card card"><span class="serif">The 4 Posts That Could Bring You Traffic All Year</span><span class="hook-meta">the title as pitched</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Monday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">You Only Need 4 Posts (Seriously)</span><span class="hook-meta">shorter, cheekier</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Monday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">What If 4 Posts Did Your Marketing All Year?</span><span class="hook-meta">question form</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Monday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+    </div>
+  </div>
+
+  <div class="hook-set">
+    <div class="section-head hook-set-title"><span class="day-chip wed label">Wed · A</span><h2>The Only 3 Pins You Need To Grow Your List With Buyers</h2></div>
+    <div class="hook-grid">
+      <article class="hook-card card"><span class="serif">The Only 3 Pins You Need To Grow Your List With Buyers</span><span class="hook-meta">the title as pitched</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option A">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">3 Pins, Daily Subscribers</span><span class="hook-meta">tight promise</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option A">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">Your List Is Small Because Your Pins Have No Job</span><span class="hook-meta">loss-aversion angle</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option A">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+    </div>
+  </div>
+
+  <div class="hook-set">
+    <div class="section-head hook-set-title"><span class="day-chip wed label">Wed · B</span><h2>How To Get Found On Pinterest Without Posting Every Day</h2></div>
+    <div class="hook-grid">
+      <article class="hook-card card"><span class="serif">How To Get Found On Pinterest Without Posting Every Day</span><span class="hook-meta">the title as pitched</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option B">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">Get Found In Search While You're Offline</span><span class="hook-meta">offline promise</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option B">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">Your Content Deserves A Longer Shelf Life</span><span class="hook-meta">soft reframe of expiry</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Wednesday option B">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+    </div>
+  </div>
+
+  <div class="hook-set">
+    <div class="section-head hook-set-title"><span class="day-chip fri label">Friday</span><h2>You're Allowed To Build A Slower Business</h2></div>
+    <div class="hook-grid">
+      <article class="hook-card card"><span class="serif">You're Allowed To Build A Slower Business</span><span class="hook-meta">the title as edited</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Friday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">you're allowed to go slower.</span><span class="hook-meta">lowercase, quiet-cover register</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Friday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+      <article class="hook-card card"><span class="serif">For The Girl Building Something Slower</span><span class="hook-meta">FTG address form</span><div class="hook-react"><button class="pick-btn small" aria-label="Pick this hook for Friday">Pick</button><div class="note-wrap"><input type="text" placeholder="why (optional)" aria-label="Why this hook, in your words"><span class="note-hint">your words go to the ledger verbatim</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DRAFTS ================= -->
+<section class="panel" id="panel-drafts" role="tabpanel" aria-labelledby="tab-drafts" tabindex="0">
+
+  <article class="draft-card card">
+    <div class="section-head"><span class="day-chip mon label">Monday</span><h2>The 4 Posts That Could Bring You Traffic All Year</h2><span class="chip lavender">sample draft — layout preview</span></div>
+    <div class="draft-cover"><span class="serif">The 4 Posts That Could Bring You Traffic All Year</span></div>
+    <div class="draft-slides">
+      <p><span class="slide-n">Slide 2</span>Introduce the concept: 4 solid pieces on a search engine can carry your whole year of traffic. <em>(persuasion writer adds the belief break here)</em></p>
+      <p><span class="slide-n">Slide 3</span>Proof: pins don't expire, they accumulate — content keeps driving traffic for months or years.</p>
+      <p><span class="slide-n">Slides 4–7</span>The four steps, one per slide, per the approved arc.</p>
+      <p><span class="slide-n">Slide 8</span>CTA: comment Pinterest → Pin Planner.</p>
+    </div>
+    <p class="label" style="color:var(--muted);margin-bottom:4px;">Caption</p>
+    <div class="caption-box">Awaiting the persuasion writer — full deck copy and caption land here after arc approval. This card is a layout preview, not real copy.</div>
+    <div class="ship-row">
+      <button class="ship-btn" aria-label="Approve and ship the Monday post">Ship it</button>
+      <div class="note-wrap">
+        <input type="text" placeholder="add redlines" aria-label="Add redlines before shipping">
+        <span class="note-hint">redlines before shipping — verbatim to the writer context</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="empty card" role="status">
+    <span class="serif">Wednesday — awaiting your A-vs-B pick</span>
+    The persuasion draft starts once you choose an arc on the Arcs tab.
+  </article>
+
+  <article class="empty card" role="status">
+    <span class="serif">Friday — awaiting arc approval</span>
+    Provisional until the FTG interview is answered. The draft will follow your format answers.
+  </article>
+</section>
+
+<!-- ================= CALENDAR ================= -->
+<section class="panel" id="panel-calendar" role="tabpanel" aria-labelledby="tab-calendar" tabindex="0">
+  <div class="cal-head"><h2>July 2026</h2><span class="day-note">bird's-eye view of approved content</span></div>
+  <div class="cal-wrap">
+    <div class="cal-grid" role="region" aria-label="July 2026 content calendar">
+      <div class="cal-dow label">Mon</div><div class="cal-dow label">Tue</div><div class="cal-dow label">Wed</div><div class="cal-dow label">Thu</div><div class="cal-dow label">Fri</div><div class="cal-dow label">Sat</div><div class="cal-dow label">Sun</div>
+
+      <div class="cal-day card out" aria-hidden="true"></div>
+      <div class="cal-day card out" aria-hidden="true"></div>
+      <div class="cal-day card"><span class="cal-num">1</span><span class="cal-post pre"><span class="dot pending" aria-hidden="true"></span><span class="title">pre-dashboard</span></span></div>
+      <div class="cal-day card"><span class="cal-num">2</span></div>
+      <div class="cal-day card"><span class="cal-num">3</span><span class="cal-post pre"><span class="dot pending" aria-hidden="true"></span><span class="title">pre-dashboard</span></span></div>
+      <div class="cal-day card"><span class="cal-num">4</span></div>
+      <div class="cal-day card"><span class="cal-num">5</span></div>
+
+      <div class="cal-day card"><span class="cal-num">6</span><span class="cal-post mon needs-hook" tabindex="0" role="button" aria-label="The 4 Posts That Could Bring You Traffic All Year — arc approved, needs hook, click to react" title="The 4 Posts That Could Bring You Traffic All Year — arc approved"><span class="dot arc" aria-hidden="true"></span><span class="title-wrap"><span class="title">The 4 Posts That Could Bring You Traffic All Year</span><span class="status-tag">needs hook</span></span></span></div>
+      <div class="cal-day card"><span class="cal-num">7</span></div>
+      <div class="cal-day card"><span class="cal-num">8</span><span class="cal-post pending needs-pick" tabindex="0" role="button" aria-label="Wednesday A or B — pick pending, needs pick, click to react" title="Wednesday A or B — pick pending"><span class="dot pending" aria-hidden="true"></span><span class="title-wrap"><span class="title">A or B — pick pending</span><span class="status-tag">needs pick</span></span></span></div>
+      <div class="cal-day card"><span class="cal-num">9</span></div>
+      <div class="cal-day card"><span class="cal-num">10</span><span class="cal-post fri needs-hook" tabindex="0" role="button" aria-label="You're Allowed To Build A Slower Business — arc approved, provisional, needs hook, click to react" title="You're Allowed To Build A Slower Business — arc approved, provisional"><span class="dot arc" aria-hidden="true"></span><span class="title-wrap"><span class="title">You're Allowed To Build A Slower Business</span><span class="status-tag">needs hook</span></span></span></div>
+      <div class="cal-day card"><span class="cal-num">11</span></div>
+      <div class="cal-day card"><span class="cal-num">12</span></div>
+
+      <div class="cal-day card"><span class="cal-num">13</span></div>
+      <div class="cal-day card"><span class="cal-num">14</span></div>
+      <div class="cal-day card"><span class="cal-num">15</span></div>
+      <div class="cal-day card"><span class="cal-num">16</span></div>
+      <div class="cal-day card"><span class="cal-num">17</span></div>
+      <div class="cal-day card"><span class="cal-num">18</span></div>
+      <div class="cal-day card"><span class="cal-num">19</span></div>
+
+      <div class="cal-day card"><span class="cal-num">20</span></div>
+      <div class="cal-day card"><span class="cal-num">21</span></div>
+      <div class="cal-day card"><span class="cal-num">22</span></div>
+      <div class="cal-day card"><span class="cal-num">23</span></div>
+      <div class="cal-day card"><span class="cal-num">24</span></div>
+      <div class="cal-day card"><span class="cal-num">25</span></div>
+      <div class="cal-day card"><span class="cal-num">26</span></div>
+
+      <div class="cal-day card"><span class="cal-num">27</span></div>
+      <div class="cal-day card"><span class="cal-num">28</span></div>
+      <div class="cal-day card"><span class="cal-num">29</span></div>
+      <div class="cal-day card"><span class="cal-num">30</span></div>
+      <div class="cal-day card"><span class="cal-num">31</span></div>
+      <div class="cal-day card out" aria-hidden="true"></div>
+      <div class="cal-day card out" aria-hidden="true"></div>
+    </div>
+  </div>
+  <div class="cal-legend" aria-label="Calendar legend">
+    <span><span class="dot arc" aria-hidden="true"></span>arc approved</span>
+    <span><span class="dot drafted" aria-hidden="true"></span>drafted</span>
+    <span><span class="dot shipped" aria-hidden="true"></span>shipped</span>
+    <span><span class="dot pending" aria-hidden="true"></span>pending / pick needed</span>
+  </div>
+</section>
+
+<!-- ================= PARKED ================= -->
+<section class="panel" id="panel-parked" role="tabpanel" aria-labelledby="tab-parked" tabindex="0">
+
+  <article class="parked-item card">
+    <h3>FTG interview — six quick questions, still unanswered</h3>
+    <span class="chip">blocks nothing, shapes Friday</span>
+    <ol class="slides">
+      <li>Name 2 or 3 For The Girls posts (yours or anyone's) that ARE the vibe for this slot.</li>
+      <li>What should the reader FEEL at the last slide — seen, forgiven, hyped, homesick for herself?</li>
+      <li>How long should these run — how many slides, roughly?</li>
+      <li>First person ("I"), second person ("you"), or fragments with no pronoun at all?</li>
+      <li>Which topics are FTG-legal, and which are never allowed in this slot?</li>
+      <li>Confirm or edit your seed spec: "get them to remember the analog version of themself and be obsessed with their own mind / style — short sentences that could be highlighted text in their fave book."</li>
+    </ol>
+    <div class="note-wrap">
+      <input type="text" placeholder="your answer" aria-label="Answer the FTG interview questions">
+      <span class="note-hint">your words go to the ledger verbatim</span>
+    </div>
+  </article>
+
+  <article class="parked-item card">
+    <h3>"Why I Stopped Treating Pinterest Like Instagram" — your call</h3>
+    <span class="chip">re-skin risk</span>
+    <p>The hook you liked. Every concept we could build under it reads too close to your published Feb 24 "Why I Swapped Instagram For Pinterest," so it's parked instead of pitched. Retire it, or tell us the new story it should carry and we'll build that.</p>
+    <div class="note-wrap">
+      <input type="text" placeholder="your answer" aria-label="Answer: retire this hook or give it a new story">
+      <span class="note-hint">your words go to the ledger verbatim</span>
+    </div>
+  </article>
+
+  <article class="parked-item card">
+    <h3>Cross-post phrase reuse — needs your call</h3>
+    <span class="chip">rule pending</span>
+    <p>Can the same line appear on Instagram, Pinterest, and email in the same window, or does each platform get its own wording? One sentence from you sets the rule.</p>
+    <div class="note-wrap">
+      <input type="text" placeholder="your answer" aria-label="Answer: cross-post phrase reuse rule">
+      <span class="note-hint">your words go to the ledger verbatim</span>
+    </div>
+  </article>
+</section>
+
+<!-- persistent parked strip -->
+<aside class="card parked-strip" aria-label="Parked items — quick access">
+  <span class="label">Parked for you</span>
+  <button data-goto="tab-parked">FTG interview (6 questions)</button>
+  <button data-goto="tab-parked">"Stopped Treating Pinterest Like Instagram" — retire or new story?</button>
+  <button data-goto="tab-parked">Cross-post phrase reuse rule</button>
+</aside>
+
+<footer>Mockup — buttons will fire Claude headless when built into Obsidian.</footer>
+
+<script>
+  const tabs = Array.from(document.querySelectorAll('.tab'));
+  function activate(tab, focus){
+    tabs.forEach(t=>{
+      const sel = t===tab;
+      t.setAttribute('aria-selected', sel);
+      t.setAttribute('tabindex', sel ? '0' : '-1');
+      document.getElementById(t.getAttribute('aria-controls')).classList.toggle('active', sel);
+    });
+    if(focus) tab.focus();
+  }
+  tabs.forEach((t,i)=>{
+    t.addEventListener('click',()=>activate(t));
+    t.addEventListener('keydown',e=>{
+      let next = null;
+      if(e.key==='ArrowRight') next = tabs[(i+1)%tabs.length];
+      if(e.key==='ArrowLeft') next = tabs[(i-1+tabs.length)%tabs.length];
+      if(e.key==='Home') next = tabs[0];
+      if(e.key==='End') next = tabs[tabs.length-1];
+      if(next){ e.preventDefault(); activate(next, true); }
+    });
+  });
+  document.querySelectorAll('.parked-strip button').forEach(b=>{
+    b.addEventListener('click',()=>activate(document.getElementById(b.dataset.goto)));
+  });
+</script>
+</body>
+</html>

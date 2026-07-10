@@ -1,0 +1,65 @@
+name: Slack Expansion
+slug: slack
+version: 1.0.5
+description: Use Slack as a chat surface for Larry. Inbound DMs and @-mentions land in Team Inbox; replies post back in-thread.
+category: connector
+expansion_type: runtime
+requires_agents: [Larry, Mack]
+license: proprietary
+author: myICOR
+homepage: https://myicor.com/library/slack
+
+adds_agents: []
+
+adds_sops:
+  - { default_owner: Larry, file: sops/SOP-slack-incoming-routing.md }
+  - { default_owner: Mack,  file: sops/SOP-slack-post-message.md }
+  - { default_owner: Mack,  file: sops/SOP-slack-listener-health.md }
+
+adds_guidelines: []
+adds_workstreams: []
+adds_templates: []
+
+env_vars:
+  - { key: SLACK_BOT_TOKEN,         description: "Slack bot token (xoxb-...) — created at api.slack.com/apps after install",           required: true,  sensitive: true }
+  - { key: SLACK_APP_TOKEN,         description: "Slack app-level token (xapp-...) — Socket Mode connection auth",                      required: true,  sensitive: true }
+  - { key: SLACK_DEFAULT_CHANNEL,   description: "Default channel ID (Cxxxxxxxxxx) for outbound posts when no thread context exists",   required: false, sensitive: false }
+  - { key: SLACK_NOTIFY_OS,         description: "Surface OS notifications on inbound (true|false). Default false (opt-in).",           required: false, sensitive: false }
+  - { key: SLACK_AUTORESPONDER_MIN, description: "Minutes of Larry-inactivity before the autoresponder fires in-thread. Default 30.",   required: false, sensitive: false }
+  - { key: SLACK_IGNORE_CHANNELS,   description: "Comma-separated channel IDs the listener should ignore (optional).",                  required: false, sensitive: false }
+
+post_install_steps:
+  - "Verify the downloaded pack BEFORE extracting: compute SHA-256 of the pack zip and confirm it matches the pack hash published with this pack in the myICOR library."
+  - "Create a Slack app at https://api.slack.com/apps. Use the manifest in INSTALL.md as the starting point — it includes Socket Mode + the v1.0 bot scopes (chat:write, app_mentions:read, im:history, im:read, im:write)."
+  - "Enable Socket Mode and generate an app-level token (xapp-...) with the connections:write scope."
+  - "Install the app to your workspace and copy the bot token (xoxb-...) plus the app-level token (xapp-...) into Expansions/slack/.env (chmod 600)."
+  - "Optionally set SLACK_DEFAULT_CHANNEL to the channel ID where Larry posts when no thread context exists."
+  - "Run scripts/install.sh to install Node dependencies (one-time). It uses `npm ci --omit=dev --ignore-scripts` against the shipped, myICOR-audited package-lock.json, then clears the macOS quarantine flag last."
+  - "Double-click scripts/start.command (macOS), or run scripts/start.sh (Linux) / scripts/start.bat (Windows) to launch the listener."
+  - "Optional autostart on macOS: copy scripts/launchd-plist.template into ~/Library/LaunchAgents/com.mypka.slack-listener.plist (with the path placeholders filled in) and run `launchctl load ~/Library/LaunchAgents/com.mypka.slack-listener.plist`."
+
+post_install_validation:
+  - { type: "shell",       cmd: "test -s Expansions/slack/.env",                               expect_exit: 0 }
+  - { type: "file_exists", path: "Team Inbox/slack-incoming/" }
+  - { type: "file_exists", path: "Team Inbox/slack-outgoing/" }
+
+runtime:
+  start:
+    command: ./scripts/start.command
+    sh: ./scripts/start.sh
+    bat: ./scripts/start.bat
+  launchd_plist: ./scripts/launchd-plist.template
+  port: null
+  interactive: false
+
+uninstall:
+  method: rm-rf-folder
+  residual_paths:
+    - ~/Library/LaunchAgents/com.mypka.slack-listener.plist
+    - Team Knowledge/SOPs/SOP-slack-incoming-routing.md
+    - Team Knowledge/SOPs/SOP-slack-post-message.md
+    - Team Knowledge/SOPs/SOP-slack-listener-health.md
+    - Team Inbox/slack-incoming/
+    - Team Inbox/slack-outgoing/
+    - /tmp/mypka-slack-listener.log
+    - /tmp/mypka-slack-listener.err

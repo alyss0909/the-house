@@ -1,0 +1,38 @@
+/* ── HEADING FONT ─────────────────────────────────────────────
+   AT KING for H4–H6 (H1–H3 set via AnuPpuccin Style Settings)
+   Letter-spacing -0.05em on all heading levels
+   ─────────────────────────────────────────────────────────── */
+
+/* Reading view — letter-spacing all levels */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  letter-spacing: 0;
+}
+
+/* Reading view — AT KING for H4–H6 */
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-family: "AT KING", serif;
+}
+
+/* Live preview — letter-spacing all levels */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 {
+  letter-spacing: 0;
+}
+
+/* Live preview — AT KING for H4–H6 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 {
+  font-family: "AT KING", serif;
+}

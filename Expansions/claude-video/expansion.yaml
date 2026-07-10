@@ -1,0 +1,39 @@
+name: Claude Video
+slug: claude-video
+version: 0.2.0
+description: Watch any video (URL or local file) — pulls captions or Whisper transcript, extracts scene-aware frames with ffmpeg via yt-dlp, and hands them to the agent so it can answer questions grounded in what's actually on screen and said.
+category: connector
+expansion_type: connector
+requires_scaffold_version: ">=1.7.0 <3.0.0"
+requires_agents: [Larry, Mack]
+license: MIT
+author: Brad Bonanno (bradautomates)
+homepage: https://github.com/bradautomates/claude-video
+
+adds_agents: []
+
+adds_sops:
+  - { default_owner: Mack, file: sops/SOP-watch-video.md }
+
+adds_guidelines: []
+adds_workstreams: []
+adds_templates: []
+
+env_vars:
+  - { key: GROQ_API_KEY,   description: "Groq API key for whisper-large-v3 transcription fallback (preferred — cheaper, faster). Only needed when a video has no captions.", required: false, sensitive: true }
+  - { key: OPENAI_API_KEY, description: "OpenAI API key for whisper-1 transcription fallback (alternate). Only needed when a video has no captions and no Groq key is set.", required: false, sensitive: true }
+  - { key: WATCH_DETAIL,   description: "Default detail mode: transcript | efficient | balanced | token-burner. Default balanced.", required: false, sensitive: false }
+
+post_install_steps:
+  - "Run `python3 Expansions/claude-video/lib/setup.py --json` on the first /watch of a session — it auto-installs yt-dlp/ffmpeg (macOS via brew; Linux/Windows print exact commands) and scaffolds ~/.config/watch/.env."
+  - "Whisper key (GROQ_API_KEY preferred, or OPENAI_API_KEY) is optional — only needed for videos with no caption track. Captions cover most public videos for free."
+  - "Read Expansions/claude-video/lib/SKILL.md before the first watch of any session — it is the canonical, actively-maintained flag/detail-mode reference; the SOP is a myPKA-shaped pointer to it, not a replacement."
+
+post_install_validation:
+  - { type: "file_exists", path: "Expansions/claude-video/lib/watch.py" }
+  - { type: "file_exists", path: "Team Knowledge/SOPs/" }
+
+uninstall:
+  method: rm-rf-folder
+  residual_paths:
+    - Team Knowledge/SOPs/SOP-*-watch-video.md

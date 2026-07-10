@@ -1,0 +1,1409 @@
+{
+  "source_file": "C:\\Users\\accol\\OneDrive\\Desktop\\mypka-scaffold-latest (2)\\Team Inbox\\2025 Audience Survey_ (Responses) - Responses (1).csv",
+  "n_responses": 96,
+  "n_columns": 18,
+  "date_range": {
+    "first": "2025-09-21 11:21:13",
+    "last": "2025-11-11 16:15:27"
+  },
+  "columns": {
+    "timestamp": "Timestamp",
+    "email": "Email Address",
+    "name": "First & Last Name ",
+    "stage": "What stage of building a business are you at?",
+    "job": "What is your job title or industry? (what do you refer to yourself as?)😍",
+    "magic": "If I could wave a magic wand and solve ONE problem for you when it comes to online business what would it be? 🪄🔮🧚‍♀️",
+    "time_spent": "What are you spending the MOST time on in your business rn? ⏳",
+    "wish": "What do you WISH you were doing instead (work-related or otherwise)? 💫",
+    "laptop": "🌞 What’s the first thing that runs through your head when you open your laptop in the morning? (no wrong answers)",
+    "holding": "What do you think is holding you back most in your business right now? 😅",
+    "social": "🌶️ Vibe-check: How do you feel about these: [📱 Social Media]",
+    "email_mkt": "🌶️ Vibe-check: How do you feel about these: [💌 Email Marketing]",
+    "pinterest": "🌶️ Vibe-check: How do you feel about these: [📌 Pinterest]",
+    "content": "If I were to create more content, trainings, workbooks, and courses, what would you want me to cover?  Check all that apply.",
+    "showme": "🥹 Finish this sentence: “I just want someone to show me how to…” ",
+    "advice": "What business advice have you heard online that you DON'T want to take? 🙅‍♀️",
+    "purchased": "Have you purchased products, courses, or services from me before? If not, what is the reason you haven't? (no judgement, just curious 😇)",
+    "worth": "What would make a course feel undeniably worth it to you, like a total no-brainer?  (Nothing is off the table - tell me your wildest dreams for business support 🔮🪄)"
+  },
+  "stage_counts": [
+    {
+      "item": "I’ve been in the game for a while but need more clients 💵",
+      "count": 50,
+      "pct_responses": 52.1
+    },
+    {
+      "item": "I’m just getting started 👶",
+      "count": 28,
+      "pct_responses": 29.2
+    },
+    {
+      "item": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "count": 15,
+      "pct_responses": 15.6
+    },
+    {
+      "item": "I’m booked out and need to scale with systems 📈",
+      "count": 3,
+      "pct_responses": 3.1
+    }
+  ],
+  "content_wants": [
+    {
+      "item": "Creating passive income from existing offers ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Growing an Email List ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "More Automated Sales from Email ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "More Clients ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "More Leads from Pinterest ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Replacing Social Content with Slow Marketing?",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Running a Cozy & Creative Business ??",
+      "count": 0,
+      "pct_responses": 0.0
+    }
+  ],
+  "purchase_barriers": [
+    {
+      "item": "Cost feels too high ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "I prefer done for you / more hands-on ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "I'm sick of courses & groups ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Not sure it will work for my business ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Overwhelm / too much to do ??",
+      "count": 0,
+      "pct_responses": 0.0
+    },
+    {
+      "item": "Worried I won?t follow through ??",
+      "count": 0,
+      "pct_responses": 0.0
+    }
+  ],
+  "channel_counts": [
+    {
+      "channel": "social",
+      "feeling": "🌀 Inconsistent",
+      "count": 31,
+      "pct_responses": 32.3
+    },
+    {
+      "channel": "social",
+      "feeling": "✂️ Would love to market without it",
+      "count": 19,
+      "pct_responses": 19.8
+    },
+    {
+      "channel": "social",
+      "feeling": "😩 Stressful, but I rely on it",
+      "count": 15,
+      "pct_responses": 15.6
+    },
+    {
+      "channel": "social",
+      "feeling": "🙈 Use it, results meh",
+      "count": 13,
+      "pct_responses": 13.5
+    },
+    {
+      "channel": "social",
+      "feeling": "🐌 Pressure, but can’t keep up",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "channel": "social",
+      "feeling": "✨ My fave!",
+      "count": 6,
+      "pct_responses": 6.2
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "🌀 Inconsistent",
+      "count": 45,
+      "pct_responses": 46.9
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "✨ My fave!",
+      "count": 13,
+      "pct_responses": 13.5
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "🐌 Pressure, but can’t keep up",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "🙈 Use it, results meh",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "😩 Stressful, but I rely on it",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "channel": "email_mkt",
+      "feeling": "✂️ Would love to market without it",
+      "count": 4,
+      "pct_responses": 4.2
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "🌀 Inconsistent",
+      "count": 50,
+      "pct_responses": 52.1
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "✂️ Would love to market without it",
+      "count": 16,
+      "pct_responses": 16.7
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "✨ My fave!",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "🐌 Pressure, but can’t keep up",
+      "count": 9,
+      "pct_responses": 9.4
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "🙈 Use it, results meh",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "channel": "pinterest",
+      "feeling": "😩 Stressful, but I rely on it",
+      "count": 2,
+      "pct_responses": 2.1
+    }
+  ],
+  "stage_content": [
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Creating passive income from existing offers ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Growing an Email List ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "More Automated Sales from Email ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "More Clients ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "More Leads from Pinterest ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Replacing Social Content with Slow Marketing?",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Running a Cozy & Creative Business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Creating passive income from existing offers ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Growing an Email List ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "More Automated Sales from Email ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "More Clients ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "More Leads from Pinterest ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Replacing Social Content with Slow Marketing?",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Running a Cozy & Creative Business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Creating passive income from existing offers ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Growing an Email List ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "More Automated Sales from Email ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "More Clients ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "More Leads from Pinterest ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Replacing Social Content with Slow Marketing?",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Running a Cozy & Creative Business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Creating passive income from existing offers ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Growing an Email List ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "More Automated Sales from Email ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "More Clients ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "More Leads from Pinterest ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Replacing Social Content with Slow Marketing?",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Running a Cozy & Creative Business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    }
+  ],
+  "stage_barriers": [
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Cost feels too high ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "I prefer done for you / more hands-on ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "I'm sick of courses & groups ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Not sure it will work for my business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Overwhelm / too much to do ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I want more automation, evergreen sales, and soft productivity ☁️",
+      "item": "Worried I won?t follow through ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 15
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Cost feels too high ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "I prefer done for you / more hands-on ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "I'm sick of courses & groups ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Not sure it will work for my business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Overwhelm / too much to do ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’ve been in the game for a while but need more clients 💵",
+      "item": "Worried I won?t follow through ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 50
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Cost feels too high ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "I prefer done for you / more hands-on ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "I'm sick of courses & groups ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Not sure it will work for my business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Overwhelm / too much to do ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m just getting started 👶",
+      "item": "Worried I won?t follow through ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 28
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Cost feels too high ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "I prefer done for you / more hands-on ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "I'm sick of courses & groups ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Not sure it will work for my business ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Overwhelm / too much to do ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    },
+    {
+      "stage": "I’m booked out and need to scale with systems 📈",
+      "item": "Worried I won?t follow through ??",
+      "count": 0,
+      "pct_responses": 0.0,
+      "stage_n": 3
+    }
+  ],
+  "theme_counts": [
+    {
+      "field": "advice",
+      "theme": "Social media fatigue",
+      "count": 25,
+      "pct_responses": 26.0
+    },
+    {
+      "field": "advice",
+      "theme": "Need more clients / sales",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "field": "advice",
+      "theme": "Time / capacity / overwhelm",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "advice",
+      "theme": "Content creation / messaging",
+      "count": 4,
+      "pct_responses": 4.2
+    },
+    {
+      "field": "advice",
+      "theme": "Offer clarity / productization",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "advice",
+      "theme": "Email list / email marketing",
+      "count": 2,
+      "pct_responses": 2.1
+    },
+    {
+      "field": "advice",
+      "theme": "Hands-on support / accountability",
+      "count": 2,
+      "pct_responses": 2.1
+    },
+    {
+      "field": "advice",
+      "theme": "Confidence / fear / mindset",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "holding",
+      "theme": "Time / capacity / overwhelm",
+      "count": 21,
+      "pct_responses": 21.9
+    },
+    {
+      "field": "holding",
+      "theme": "Need more clients / sales",
+      "count": 18,
+      "pct_responses": 18.8
+    },
+    {
+      "field": "holding",
+      "theme": "Clarity / step-by-step direction",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "field": "holding",
+      "theme": "Confidence / fear / mindset",
+      "count": 11,
+      "pct_responses": 11.5
+    },
+    {
+      "field": "holding",
+      "theme": "Automated / evergreen systems",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "holding",
+      "theme": "Content creation / messaging",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "holding",
+      "theme": "Social media fatigue",
+      "count": 8,
+      "pct_responses": 8.3
+    },
+    {
+      "field": "holding",
+      "theme": "Hands-on support / accountability",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "holding",
+      "theme": "Offer clarity / productization",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "holding",
+      "theme": "Email list / email marketing",
+      "count": 2,
+      "pct_responses": 2.1
+    },
+    {
+      "field": "holding",
+      "theme": "Pinterest / search traffic",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "laptop",
+      "theme": "Need more clients / sales",
+      "count": 11,
+      "pct_responses": 11.5
+    },
+    {
+      "field": "laptop",
+      "theme": "Time / capacity / overwhelm",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "laptop",
+      "theme": "Email list / email marketing",
+      "count": 8,
+      "pct_responses": 8.3
+    },
+    {
+      "field": "laptop",
+      "theme": "Content creation / messaging",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "laptop",
+      "theme": "Clarity / step-by-step direction",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "laptop",
+      "theme": "Automated / evergreen systems",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "laptop",
+      "theme": "Confidence / fear / mindset",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "laptop",
+      "theme": "Hands-on support / accountability",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "magic",
+      "theme": "Need more clients / sales",
+      "count": 32,
+      "pct_responses": 33.3
+    },
+    {
+      "field": "magic",
+      "theme": "Automated / evergreen systems",
+      "count": 17,
+      "pct_responses": 17.7
+    },
+    {
+      "field": "magic",
+      "theme": "Time / capacity / overwhelm",
+      "count": 14,
+      "pct_responses": 14.6
+    },
+    {
+      "field": "magic",
+      "theme": "Content creation / messaging",
+      "count": 12,
+      "pct_responses": 12.5
+    },
+    {
+      "field": "magic",
+      "theme": "Clarity / step-by-step direction",
+      "count": 11,
+      "pct_responses": 11.5
+    },
+    {
+      "field": "magic",
+      "theme": "Social media fatigue",
+      "count": 8,
+      "pct_responses": 8.3
+    },
+    {
+      "field": "magic",
+      "theme": "Hands-on support / accountability",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "magic",
+      "theme": "Offer clarity / productization",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "magic",
+      "theme": "Email list / email marketing",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "magic",
+      "theme": "Confidence / fear / mindset",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "magic",
+      "theme": "Pinterest / search traffic",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "showme",
+      "theme": "Need more clients / sales",
+      "count": 36,
+      "pct_responses": 37.5
+    },
+    {
+      "field": "showme",
+      "theme": "Content creation / messaging",
+      "count": 21,
+      "pct_responses": 21.9
+    },
+    {
+      "field": "showme",
+      "theme": "Automated / evergreen systems",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "showme",
+      "theme": "Time / capacity / overwhelm",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "showme",
+      "theme": "Pinterest / search traffic",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "showme",
+      "theme": "Clarity / step-by-step direction",
+      "count": 6,
+      "pct_responses": 6.2
+    },
+    {
+      "field": "showme",
+      "theme": "Email list / email marketing",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "showme",
+      "theme": "Offer clarity / productization",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "showme",
+      "theme": "Social media fatigue",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "showme",
+      "theme": "Confidence / fear / mindset",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "showme",
+      "theme": "Hands-on support / accountability",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "time_spent",
+      "theme": "Content creation / messaging",
+      "count": 29,
+      "pct_responses": 30.2
+    },
+    {
+      "field": "time_spent",
+      "theme": "Need more clients / sales",
+      "count": 23,
+      "pct_responses": 24.0
+    },
+    {
+      "field": "time_spent",
+      "theme": "Social media fatigue",
+      "count": 9,
+      "pct_responses": 9.4
+    },
+    {
+      "field": "time_spent",
+      "theme": "Automated / evergreen systems",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "time_spent",
+      "theme": "Offer clarity / productization",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "time_spent",
+      "theme": "Time / capacity / overwhelm",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "time_spent",
+      "theme": "Clarity / step-by-step direction",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "time_spent",
+      "theme": "Email list / email marketing",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "time_spent",
+      "theme": "Hands-on support / accountability",
+      "count": 3,
+      "pct_responses": 3.1
+    },
+    {
+      "field": "time_spent",
+      "theme": "Confidence / fear / mindset",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "wish",
+      "theme": "Need more clients / sales",
+      "count": 33,
+      "pct_responses": 34.4
+    },
+    {
+      "field": "wish",
+      "theme": "Time / capacity / overwhelm",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "wish",
+      "theme": "Content creation / messaging",
+      "count": 9,
+      "pct_responses": 9.4
+    },
+    {
+      "field": "wish",
+      "theme": "Offer clarity / productization",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "wish",
+      "theme": "Automated / evergreen systems",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "wish",
+      "theme": "Hands-on support / accountability",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "wish",
+      "theme": "Pinterest / search traffic",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "worth",
+      "theme": "Hands-on support / accountability",
+      "count": 25,
+      "pct_responses": 26.0
+    },
+    {
+      "field": "worth",
+      "theme": "Clarity / step-by-step direction",
+      "count": 13,
+      "pct_responses": 13.5
+    },
+    {
+      "field": "worth",
+      "theme": "Need more clients / sales",
+      "count": 10,
+      "pct_responses": 10.4
+    },
+    {
+      "field": "worth",
+      "theme": "Automated / evergreen systems",
+      "count": 9,
+      "pct_responses": 9.4
+    },
+    {
+      "field": "worth",
+      "theme": "Offer clarity / productization",
+      "count": 8,
+      "pct_responses": 8.3
+    },
+    {
+      "field": "worth",
+      "theme": "Time / capacity / overwhelm",
+      "count": 7,
+      "pct_responses": 7.3
+    },
+    {
+      "field": "worth",
+      "theme": "Content creation / messaging",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "worth",
+      "theme": "Social media fatigue",
+      "count": 5,
+      "pct_responses": 5.2
+    },
+    {
+      "field": "worth",
+      "theme": "Email list / email marketing",
+      "count": 1,
+      "pct_responses": 1.0
+    },
+    {
+      "field": "worth",
+      "theme": "Pinterest / search traffic",
+      "count": 1,
+      "pct_responses": 1.0
+    }
+  ],
+  "theme_examples": {
+    "magic|Need more clients / sales": [
+      "Leads on Autopilot (I don't have enough time to spend on my business) ",
+      "Conversion/sales growth",
+      "consistent automated sales - I want to be able to work 3 weeks a month and take a week off"
+    ],
+    "magic|Automated / evergreen systems": [
+      "Disappear tech issues to seamlessly connect creativity to all marketing channels",
+      "Setting systems and getting more clients ",
+      "I would love to sell out my high ticket offers through reliable systems vs. high energy"
+    ],
+    "magic|Email list / email marketing": [
+      "Walk away from social media forever and have everything grow bigger and better ie. email, blog, community, courses, podcast, coaching, etc",
+      "Leads & building email list ",
+      "Mapping out the set up of all things CRM (best email platforms for small startup, budget checkout options, landing page platforms etc)"
+    ],
+    "magic|Social media fatigue": [
+      "Blueprint how to attract customers 😂. Especially from Pinterest and Instagram, where my ideal customers hang out the most",
+      "Walk away from social media forever and have everything grow bigger and better ie. email, blog, community, courses, podcast, coaching, etc",
+      "Having to plan social media stuff"
+    ],
+    "magic|Pinterest / search traffic": [
+      "Blueprint how to attract customers 😂. Especially from Pinterest and Instagram, where my ideal customers hang out the most"
+    ],
+    "magic|Content creation / messaging": [
+      "Create a zingy messaging one sheet ",
+      "get my content in front of my ideal audience ",
+      "Walk away from social media forever and have everything grow bigger and better ie. email, blog, community, courses, podcast, coaching, etc"
+    ],
+    "magic|Offer clarity / productization": [
+      "I would love to sell out my high ticket offers through reliable systems vs. high energy",
+      "Clarity on what to offer",
+      "Product/Service Development "
+    ],
+    "magic|Time / capacity / overwhelm": [
+      "Leads on Autopilot (I don't have enough time to spend on my business) ",
+      "consistent automated sales - I want to be able to work 3 weeks a month and take a week off",
+      "taking the overwhelm out of a pivot"
+    ],
+    "magic|Clarity / step-by-step direction": [
+      "Blueprint how to attract customers 😂. Especially from Pinterest and Instagram, where my ideal customers hang out the most",
+      "M-F Calendar of exactly what to do",
+      "Step by Step guide"
+    ],
+    "magic|Confidence / fear / mindset": [
+      "Right now I'm stuck in the survey phase of my business (yup, and here I am trying to do one myself). I've sent out survey forms to FB group, LinkedIn group, even Reddit survey sub, but my Survey Response sheet is only collecting dust. I still a have a plan tho"
+    ],
+    "magic|Hands-on support / accountability": [
+      "a starter pack to help take action",
+      "Helping me understand how I can help people better and diversify my income stream without doing courses",
+      "I wish I had an answer to help you, but I’ve tried so many things to make money and bring clients in, it feels like nothing helps! "
+    ],
+    "time_spent|Need more clients / sales": [
+      "client deliverables ",
+      "serving clients",
+      "Finding clients"
+    ],
+    "time_spent|Automated / evergreen systems": [
+      "Email sequence setup",
+      "Content creation, I’m setting up my systems and content bank but it’s still the area I spend the most time in ",
+      "Developing the backend messaging, systems and admin tasks... I've tried hiring assistants to take over some of the admin/repeatable/tedius tasks, but it's been difficult. It's hard to find affordable assistants that have the same attention to detail, and even "
+    ],
+    "time_spent|Email list / email marketing": [
+      "Email sequence setup",
+      "I keep getting stuck on automating all the email campaigns I want to write for nurturing & promo",
+      "worring lol but really honestly trying to figurer out what I should be doing to move the needle. I am adhd and feel like I almost never accomplish anything but have a list of ideas"
+    ],
+    "time_spent|Social media fatigue": [
+      "Marketing, like IG",
+      "Social media",
+      "Social media foolishness"
+    ],
+    "time_spent|Content creation / messaging": [
+      "Content",
+      "Messaging",
+      "narrowing ideas and where to start online"
+    ],
+    "time_spent|Offer clarity / productization": [
+      "Service Delivery",
+      "Offer Creation",
+      "Building a new offer, tech, etc"
+    ],
+    "time_spent|Time / capacity / overwhelm": [
+      "Content creation, I’m setting up my systems and content bank but it’s still the area I spend the most time in ",
+      "I feel like I’ve been building the foundation of my business for six years and it still seems to take all of my time",
+      "Avoiding consistent visibility "
+    ],
+    "time_spent|Clarity / step-by-step direction": [
+      "narrowing ideas and where to start online",
+      "Executing & trying to figure out what to do next",
+      "Coming up with content strategy "
+    ],
+    "time_spent|Confidence / fear / mindset": [
+      "I keep getting stuck on automating all the email campaigns I want to write for nurturing & promo"
+    ],
+    "time_spent|Hands-on support / accountability": [
+      "Actually refining my 1:1 because starting September I discontinued some services and inserted new ones",
+      "1:1 client work ",
+      "market research for now. learning AI tools to help with setting up an online business."
+    ],
+    "wish|Need more clients / sales": [
+      "Sales and Productized Service Delivery",
+      "Having meaningful conversations that give clients clear next steps for THEM to take with their EA's",
+      "creating and connecting with current/past clients"
+    ],
+    "wish|Automated / evergreen systems": [
+      "consulting or calming my nervous system",
+      "Marketing & Systems",
+      "Just cruising along letting my systems do their work"
+    ],
+    "wish|Pinterest / search traffic": [
+      "posting on linked in and amplifying my value prop with SEO, etc "
+    ],
+    "wish|Content creation / messaging": [
+      "Zooms, writing and guest speaker events - places where I feel most myself ",
+      "Creating (content I feel inspired to create) + coaching. I love going live with my community...would love to do more live events even, but only after I grow the community more to make the time and financial investment make sense. Outside of work: time with fam",
+      "writing! and more time to start other things i want to create "
+    ],
+    "wish|Offer clarity / productization": [
+      "Sales and Productized Service Delivery",
+      "RELAXING lol a bit of more hands off time and biz wise working on other offers or lead magnets",
+      "Creating passive income streams"
+    ],
+    "wish|Time / capacity / overwhelm": [
+      "work - more time on memberhsip but it needs to grow first",
+      "Some time marketing, some time being creative",
+      "RELAXING lol a bit of more hands off time and biz wise working on other offers or lead magnets"
+    ],
+    "wish|Hands-on support / accountability": [
+      "less repetitive 1:1 work. I also need to hire a new assistant to help with executing as I'm getting burned out on some things.",
+      "More live events ",
+      "Creating (content I feel inspired to create) + coaching. I love going live with my community...would love to do more live events even, but only after I grow the community more to make the time and financial investment make sense. Outside of work: time with fam"
+    ],
+    "laptop|Need more clients / sales": [
+      "\"ugh\" LOL I don't know if there's a consistent thought, more a feeling of dread for how many private client Qs I'll have to respond to and how many of those will be repetitive rather than elevating",
+      "How can I make money",
+      "I wish i could be making money in my sleep and had a product that would make me money without beng tied to my time. I wish my mornings were greated with sales notifications and dream client inquiries. I wish i didnt have to pitch and clients will find me or be"
+    ],
+    "laptop|Automated / evergreen systems": [
+      "I wish I could just work on client projects instead of having to worry about what system to use"
+    ],
+    "laptop|Email list / email marketing": [
+      "Check email for fires to put out",
+      "I hope I got a thrivecart bot email",
+      "what does my team need, build my to-do list"
+    ],
+    "laptop|Content creation / messaging": [
+      "“Okay gotta make sure I get everything done today” usually my content is batched but I still work on writing emails or something else ",
+      "What will I create today?",
+      "Outside of posting 2 content manually daily and doing a weekly LinkedIn live, I’m not able to work in my business due to dysregulation but I’m finally starting to get through all these important personal tasks that have been weighing I me so I can focus on mak"
+    ],
+    "laptop|Time / capacity / overwhelm": [
+      "\"ugh\" LOL I don't know if there's a consistent thought, more a feeling of dread for how many private client Qs I'll have to respond to and how many of those will be repetitive rather than elevating",
+      "How to make time",
+      "if I'll have time for everything"
+    ],
+    "laptop|Clarity / step-by-step direction": [
+      "Oh boy what to do first",
+      "Where to start?",
+      "what do I need to do today? I wish I had a plan"
+    ],
+    "laptop|Confidence / fear / mindset": [
+      "feeling stuck for lost time "
+    ],
+    "laptop|Hands-on support / accountability": [
+      "Outside of posting 2 content manually daily and doing a weekly LinkedIn live, I’m not able to work in my business due to dysregulation but I’m finally starting to get through all these important personal tasks that have been weighing I me so I can focus on mak"
+    ],
+    "holding|Need more clients / sales": [
+      "content & sales",
+      "Time - I have 2 small kids. And money of course, I can't afford to spend thousands on fabric stocks. ",
+      "lack of solid boundaries with current 1:1 clients. My newest client has solid boundaries, and it's feeling so much better just a couple of weeks in. But I need to get more like her and phase out the other work that's draining me."
+    ],
+    "holding|Automated / evergreen systems": [
+      "Probably my tech hesitations",
+      "Not showing up online consistently and not having systems in place to track progress",
+      "Consistent systems"
+    ],
+    "holding|Email list / email marketing": [
+      "Inconsistency. I'm essentially invisible because I stopped showing up & nurturing my audience. I let my list go cold. I ghosted my IG/YT followers. I experienced the most growth when I was showing up consistently and serving with heart... And I don't know, par",
+      "A good system that works with email blog and pinterest"
+    ],
+    "holding|Social media fatigue": [
+      "lack of social / marketing strategy. myself!",
+      "social media - performing, noise, nonsense, following trends, not actually doing it, but stuck not doing what I want cause the voice is that you have to this other crap, you know? :)",
+      "Inconsistency. I'm essentially invisible because I stopped showing up & nurturing my audience. I let my list go cold. I ghosted my IG/YT followers. I experienced the most growth when I was showing up consistently and serving with heart... And I don't know, par"
+    ],
+    "holding|Pinterest / search traffic": [
+      "A good system that works with email blog and pinterest"
+    ],
+    "holding|Content creation / messaging": [
+      "Time to create a productized offer",
+      "content & sales",
+      "I don’t know I’ve had eight discovery calls this month and not a single one has converted into clients. I feel like I keep refining my messaging I keep working on my outreach and sales seem to get worse."
+    ],
+    "holding|Offer clarity / productization": [
+      "Time to create a productized offer",
+      "Time - I have 2 small kids. And money of course, I can't afford to spend thousands on fabric stocks. ",
+      "Fear of pricing, am I to high or should I be charging more, will my potential clients pay for this"
+    ],
+    "holding|Time / capacity / overwhelm": [
+      "Time to create a productized offer",
+      "Time - I have 2 small kids. And money of course, I can't afford to spend thousands on fabric stocks. ",
+      "Time"
+    ],
+    "holding|Clarity / step-by-step direction": [
+      "lack of direction and how to upscale",
+      "not knowing where to start",
+      "lack of social / marketing strategy. myself!"
+    ],
+    "holding|Confidence / fear / mindset": [
+      "Fear",
+      "Scared of delegating and building a team, and the responsibility. ",
+      "fear "
+    ],
+    "holding|Hands-on support / accountability": [
+      "lack of solid boundaries with current 1:1 clients. My newest client has solid boundaries, and it's feeling so much better just a couple of weeks in. But I need to get more like her and phase out the other work that's draining me.",
+      "Support. I need to hire another VA to handle more lead gen/administrative tasks that keep me further away from client generation. ",
+      "lack of qualified help"
+    ],
+    "showme|Need more clients / sales": [
+      "Store and translate all my ideas into high conversion social and email (you’re already doing that! Just want to get it all into my muscles) verrry interested in Pinterest as it’s a happier place for me than IG.",
+      "Find customers and make them repeating buyers. Grow my customer base with ease, using pinterest, newsletter and ig.",
+      "create evergreen offers that sell so that I can focus on higher level tasks"
+    ],
+    "showme|Automated / evergreen systems": [
+      "create evergreen offers that sell so that I can focus on higher level tasks",
+      "Set systems in place and get more clients ",
+      "Do more in less time and create systems to save time "
+    ],
+    "showme|Email list / email marketing": [
+      "Store and translate all my ideas into high conversion social and email (you’re already doing that! Just want to get it all into my muscles) verrry interested in Pinterest as it’s a happier place for me than IG.",
+      "Find customers and make them repeating buyers. Grow my customer base with ease, using pinterest, newsletter and ig.",
+      "generate more leads from email + Pinterest. "
+    ],
+    "showme|Social media fatigue": [
+      "Store and translate all my ideas into high conversion social and email (you’re already doing that! Just want to get it all into my muscles) verrry interested in Pinterest as it’s a happier place for me than IG.",
+      "Find customers and make them repeating buyers. Grow my customer base with ease, using pinterest, newsletter and ig.",
+      "get consistent leads without flashy social media video 3X a day"
+    ],
+    "showme|Pinterest / search traffic": [
+      "Store and translate all my ideas into high conversion social and email (you’re already doing that! Just want to get it all into my muscles) verrry interested in Pinterest as it’s a happier place for me than IG.",
+      "productize seo services",
+      "Get more traffic from Pinterest"
+    ],
+    "showme|Content creation / messaging": [
+      "Store and translate all my ideas into high conversion social and email (you’re already doing that! Just want to get it all into my muscles) verrry interested in Pinterest as it’s a happier place for me than IG.",
+      "create evergreen offers that sell so that I can focus on higher level tasks",
+      "rebuild - I have all the ideas but get in decision paralysis on where to start. Easier to work on client accounts"
+    ],
+    "showme|Offer clarity / productization": [
+      "create evergreen offers that sell so that I can focus on higher level tasks",
+      "Create offers that feel valuable regardless of someone's budget",
+      "Take my past group program and make it a low cost evergreen"
+    ],
+    "showme|Time / capacity / overwhelm": [
+      "create evergreen offers that sell so that I can focus on higher level tasks",
+      "generate consistent $25k months working 3 weeks a month (up to 30h a week those weeks) with more automated client generation and less me needing to be \"on\" at specific times",
+      "Do more in less time and create systems to save time "
+    ],
+    "showme|Clarity / step-by-step direction": [
+      "rebuild - I have all the ideas but get in decision paralysis on where to start. Easier to work on client accounts",
+      "Plan an effective content strategy ",
+      "Plan my week so I can achieve my goals"
+    ],
+    "showme|Confidence / fear / mindset": [
+      "do the business part of my business, so I can work on the content and being into the mindset that I need to create my products."
+    ],
+    "showme|Hands-on support / accountability": [
+      "help people and profit"
+    ],
+    "advice|Need more clients / sales": [
+      "hard sell",
+      "requiring sales to come from a place of urgency. which i know is so counter intuitive against sales psychology, my entire being just repels at the thought of it lol",
+      "Sales calls 🤣 I haven’t done a sales call since 2021! "
+    ],
+    "advice|Email list / email marketing": [
+      "new freebies for email list building",
+      "Start a podcast. Girl I’m already trying to figure out a million things, I can’t add a podcast to my long ass list lol "
+    ],
+    "advice|Social media fatigue": [
+      "I am tired of IG crap that talks about gaming algorithms. ",
+      "post reels every day ",
+      "That I need to be on IG or FB to succeed"
+    ],
+    "advice|Content creation / messaging": [
+      "that content needs to be hard ",
+      "just keep posting more! Create video content! Show your face more!",
+      "Hustle culture - I'm a splenic manifestor (human design) so I'm not built to hustle or work non stop - I need breaks so It's important that I create a business that nourishes me and makes money for me while I rest and when I'm on I'm on!"
+    ],
+    "advice|Offer clarity / productization": [
+      "That you shouldn’t make pricing accessible",
+      "Using storytelling in a very forced way. For example hey yesterday I spilled my coffee and it made me think about (very forced connection) so buy this offer 🙄",
+      "posting 3x a day. needing to show up on socials to make sales. too much noise on what my offer should be."
+    ],
+    "advice|Time / capacity / overwhelm": [
+      "I am tired of IG crap that talks about gaming algorithms. ",
+      "be on instagram all the time. hustle until you don’t need to anymore.",
+      "That I have to post all the time on socials to grow & put hours making trendy cinematic reels with fancy editing"
+    ],
+    "advice|Confidence / fear / mindset": [
+      "Be the best at what you do. Like nobody ever has imposter syndrome?"
+    ],
+    "advice|Hands-on support / accountability": [
+      "showing up everyday on social media will help you grow your business",
+      "All of the rules about Instagram that work but I’m not willing to live on my phone. "
+    ],
+    "worth|Need more clients / sales": [
+      "has sure fire results and gets me more clients",
+      "Leads the most easy way",
+      "Feeling like the person genuinely cares and isn’t just trying to make money off me without me actually learning, having the funds to pay for it, evidence that it can actually help me, it helps me towards my goal of financial and time independence, teaches me w"
+    ],
+    "worth|Automated / evergreen systems": [
+      "A tech day where group people bring all their tech questions. A tune up session where you go thru all workflows looking for errors and ways to optimize ",
+      "I LOVE courses, if anything I’m a sucker for really really good templates, honestly I love your resources. Maybe a community / accountability buddy system? I feel like an A+ student but I tend to do all the things at once vs. knowing how to break it up ",
+      "To help me create systems in place to run my business smoothly "
+    ],
+    "worth|Email list / email marketing": [
+      "less than $300, a mix of how to videos, audio and done for you templates, something with short lessons less than 30 minutes that can quickly teach me real things that will move the needle in my business. I don't need another \"step 1- create a freebie. step 2-e"
+    ],
+    "worth|Social media fatigue": [
+      "it's not about what it is, it's about the vibe from it so cozy, nerdy, library, fireplace vibes of a secret garden library far away from the noise of social media and the online orgy space would be fab!",
+      "I want something that's unique to me, coupled with strategy and group support. I want something that dives into ways of client generation beyond social media. Something that teaches if I meet a prospect at a networking event or through a referral how can I bui",
+      "No putting yourself out there uncomfortably on social media, no video, and getting everything organized in one place after figuring out just exactly what to do. Big goals huh :) "
+    ],
+    "worth|Pinterest / search traffic": [
+      "Social media - how to use Pinterest and set it up, content calendar walkthrough "
+    ],
+    "worth|Content creation / messaging": [
+      "Have no idea what I need to be successful seller so 🤷🏻‍♀️",
+      "To help me create systems in place to run my business smoothly ",
+      "ADHD biz hand holding. building a back end with me so i know how to consume, when, how to note take (hello endless notebooks), how to use AI to help me create content, have systems to keep track of 'all the things', see progress, stay on track with my goals. m"
+    ],
+    "worth|Offer clarity / productization": [
+      "moving from service to products ... best way not to confuse things",
+      "Offer fair value price exchange",
+      "Actually I see the value in everything you offer already!"
+    ],
+    "worth|Time / capacity / overwhelm": [
+      "I don't know that I have the brain capacity to even dream of it, let alone do it.",
+      "Feeling like the person genuinely cares and isn’t just trying to make money off me without me actually learning, having the funds to pay for it, evidence that it can actually help me, it helps me towards my goal of financial and time independence, teaches me w",
+      "If it actually helped me fit it in to my busy schedule and feel good about selling."
+    ],
+    "worth|Clarity / step-by-step direction": [
+      "A simple plug and play plan",
+      "Step by step on what to do",
+      "step by step instruction"
+    ],
+    "worth|Hands-on support / accountability": [
+      "Done For You",
+      "higher level training and support. too many courses are not for where i am at in business ",
+      "Focused transformation/outcome. Instant access so I can proceed at my own pace. Async support to get Qs answered. I've been craving community, so small accountability groups would be awesome as well. "
+    ]
+  }
+}

@@ -1,0 +1,879 @@
+/* ============================================================
+   dashboard.css — Content Command Center (WS-011)
+   Scope: EVERY selector lives under .dashboard (cssclass on the
+   dashboard/ notes only). Nothing here leaks into the rest of
+   the vault. Do not remove the .dashboard prefix from any rule.
+   Companion to Deliverables/2026-07-07-ws011-dashboard-mockup.html
+   ============================================================ */
+
+.dashboard {
+  --db-linen: #eee6de;
+  --db-oat: #fcfaf5;
+  --db-border: 1.5px solid rgba(0,0,0,0.35);
+  --db-heading: #1a1a1a;
+  --db-body: #2d1a1b;
+  --db-muted: #7a5c5e;
+  --db-terracotta: #8b4a2f;
+  --db-sage: #c1d17c;
+  --db-peach: #fecc86;
+  --db-pink: #f39ec2;
+  --db-lavender: #a186bc;
+  --db-ivory: #ffeec6;
+  font-family: "Karla", sans-serif;
+  color: var(--db-body);
+}
+
+.dashboard .markdown-preview-view,
+.dashboard.markdown-source-view { background: var(--db-linen); }
+
+/* ---------- shadow-none enforcement (locked 2026-07-07) ----------
+   Root cause found: AnuPpuccin's base theme defines a real multi-layer
+   `--input-shadow` custom property (theme.css ~L3278) that Obsidian's core
+   button styling applies to every <button> element via box-shadow. Our
+   .db-react-btn / .db-pick-btn / .db-ship-btn / .db-strip-btn elements are
+   literal <button> tags (see 01 Concepts.md / dataviewjs), so they inherit
+   that shadow even though dashboard.css itself never declares one. The
+   per-leaf card shadow (theme.css ~L4367, gated behind body.anp-card-shadows)
+   is confirmed OFF in this vault's style-settings data, so it is not the
+   .db-card source — but the button shadow is real and this override kills it.
+   Card selectors are included defensively (costs nothing) in case a future
+   theme toggle or plugin update introduces a card-level shadow later. */
+.dashboard .db-react-btn,
+.dashboard .db-pick-btn,
+.dashboard .db-ship-btn,
+.dashboard .db-strip-btn,
+.dashboard button,
+.dashboard .db-card,
+.dashboard .db-arc,
+.dashboard .db-header-card,
+.dashboard .db-links-card {
+  box-shadow: none !important;
+}
+
+/* ---------- full-width layout (scoped to dashboard notes only) ----------
+   Overrides Obsidian's "readable line length" so dashboard cards/calendar
+   fill the whole pane. Her other notes keep readable line length because
+   this only applies where the .dashboard cssclass is present.
+   Re-verified 2026-07-07 (Iris): also zero out --file-line-width itself —
+   some core Obsidian/theme rules compute width FROM that variable rather
+   than reading a plain max-width, so overriding the variable is
+   belt-and-suspenders alongside the direct max-width/width !important below. */
+.dashboard {
+  --file-line-width: none !important;
+}
+.dashboard.markdown-preview-view .markdown-preview-sizer,
+.dashboard .markdown-preview-sizer,
+.dashboard .markdown-source-view .cm-sizer,
+.dashboard .cm-sizer,
+.dashboard .markdown-preview-sizer.markdown-preview-section {
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+/* also neutralize the reading-view readable-width container if present */
+.dashboard .markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+.dashboard.is-readable-line-width .markdown-preview-sizer {
+  max-width: none !important;
+}
+
+/* ---------- nav pill bar ---------- */
+.dashboard .db-nav {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin: 0 0 18px 0;
+  padding: 10px 0;
+}
+.dashboard .db-nav a.db-pill {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+  background: var(--db-oat);
+  border: var(--db-border);
+  border-radius: 999px;
+  padding: 7px 16px;
+  color: var(--db-heading);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.dashboard .db-nav a.db-pill:hover { background: var(--db-sage); }
+.dashboard .db-nav a.db-pill.db-active { background: var(--db-pink); color: #000; }
+.dashboard .db-nav .db-pill-num { opacity: 0.6; margin-right: 2px; }
+.dashboard .db-nav a.db-pill.db-parked { background: var(--db-ivory); color: var(--db-terracotta); }
+
+/* ---------- pipeline strip (landing page) ---------- */
+.dashboard .db-pipeline {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: 10px 0 22px 0;
+}
+.dashboard .db-stage {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+  border: var(--db-border); border-radius: 999px;
+  padding: 4px 14px; background: var(--db-oat); color: var(--db-muted);
+}
+.dashboard .db-stage-num { opacity: 0.6; margin-right: 4px; }
+.dashboard .db-stage-arrow { color: var(--db-muted); font-family: "Roboto Mono", monospace; font-size: 12px; }
+.dashboard .db-stage.done { background: var(--db-sage); color: var(--db-heading); }
+.dashboard .db-stage.current { background: var(--db-pink); color: #000; font-weight: 500; }
+.dashboard .db-stage.done .db-stage-num,
+.dashboard .db-stage.current .db-stage-num { color: inherit; opacity: 0.55; }
+
+/* ---------- home header card ---------- */
+.dashboard .db-header-card {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 24px 28px 20px; margin-bottom: 18px;
+}
+.dashboard .db-header-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 14px; justify-content: space-between; }
+.dashboard .db-header-card h1 { font-family: "AT KING", Georgia, serif; font-size: clamp(24px, 3vw, 34px); line-height: 1.1; margin: 0; color: var(--db-heading); }
+.dashboard .db-week-chip {
+  display: inline-block; background: var(--db-ivory); border: var(--db-border); border-radius: 999px;
+  padding: 5px 16px; color: var(--db-heading);
+  font-family: "Roboto Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.dashboard .db-header-sub { color: var(--db-muted); margin: 6px 0 0; }
+.dashboard .db-header-card .db-pipeline { margin: 18px 0 2px; }
+
+/* ---------- home quick-links card ---------- */
+.dashboard .db-links-card {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 20px 24px; margin-bottom: 18px;
+}
+.dashboard .db-links-card h2 { font-family: "AT KING", Georgia, serif; font-size: 21px; margin: 0 0 12px; color: var(--db-heading); }
+.dashboard ul.db-links { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.dashboard ul.db-links li { margin: 0; }
+.dashboard ul.db-links a {
+  display: flex; align-items: baseline; gap: 12px; text-decoration: none;
+  padding: 9px 10px; border-radius: 8px; color: var(--db-body);
+}
+.dashboard ul.db-links a:hover { background: var(--db-linen); }
+.dashboard .db-link-num {
+  font-family: "Roboto Mono", monospace; font-size: 12px; color: var(--db-muted);
+  border: var(--db-border); border-radius: 999px; padding: 2px 9px; flex: 0 0 auto;
+}
+.dashboard .db-link-parked { background: var(--db-ivory); color: var(--db-terracotta); }
+.dashboard .db-link-label { font-family: "AT KING", Georgia, serif; font-size: 16px; color: var(--db-heading); flex: 0 0 auto; }
+.dashboard .db-link-desc { color: var(--db-muted); font-size: 13px; }
+
+/* ---------- cards ---------- */
+.dashboard .db-card {
+  background: var(--db-oat);
+  border: var(--db-border);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+}
+.dashboard .db-card h3 { font-size: 18px; margin: 0 0 6px 0; }
+.dashboard .db-who { color: var(--db-body); margin: 0 0 8px 0; }
+/* ---------- concept description (01 Concepts) — calm supporting body copy ----------
+   NEW element inside .db-card holding a 1–2 sentence plain-English post
+   description. Reads a step quieter than the AT KING <h3> title: muted body
+   color, comfortable full-sentence line-height, and breathing room above the
+   chip row that follows. Sibling in feel to .db-who but sized for a sentence,
+   not a label. (Iris, 2026-07-07) */
+.dashboard .db-concept-desc {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--db-muted);
+  margin: 0 0 12px 0;
+}
+.dashboard .db-chip-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+.dashboard .db-chip {
+  font-family: "Roboto Mono", monospace; font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase;
+  border: var(--db-border); border-radius: 999px; padding: 3px 12px; background: var(--db-ivory); color: var(--db-heading);
+}
+.dashboard .db-chip.approved { background: var(--db-sage); }
+.dashboard .db-chip.passed { background: var(--db-oat); color: var(--db-muted); }
+.dashboard .db-chip.lavender { background: var(--db-lavender); color: #1a1a1a; }
+.dashboard .db-pill-freebie {
+  background: var(--db-oat); color: var(--db-body); text-transform: none;
+  font-family: "Roboto Mono", monospace; font-size: 11px; letter-spacing: 0.02em;
+}
+.dashboard .db-pill-word {
+  background: var(--db-oat); color: var(--db-muted); text-transform: none;
+  font-family: "Roboto Mono", monospace; font-size: 11px; letter-spacing: 0.02em;
+}
+
+/* ---------- chosen = whole-card recolor (approved concept / picked A-B arc) ---------- */
+.dashboard .db-card.db-card-locked,
+.dashboard .db-arc.db-card-locked {
+  background: color-mix(in srgb, var(--db-sage) 28%, var(--db-oat));
+  border: 1.5px solid rgba(0,0,0,0.55);
+  position: relative;
+}
+/* .db-locked-tag ("APPROVED" corner label) intentionally removed per Alyssa's
+   review — the green card background is the only approved signal now. */
+
+/* ---------- react zone (phase 1: visual parity, non-functional) ---------- */
+.dashboard .db-react-row {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  margin-top: 10px; padding-top: 10px;
+  display: flex; flex-direction: column; gap: 8px; align-items: stretch;
+}
+/* ---------- Arc react row (button row -> add-notes input) spacing fix ----------
+   FIXED 2026-07-07 (Alyssa circled this in a screenshot): the Arc card's own
+   react-row markup uses a DIFFERENT class, .db-arc-react-row (see
+   dbArcReactRow in 02 Arc.md), not the generic .db-react-row above — so it
+   never inherited that class's `gap: 8px` / border-top rhythm at all. With
+   no gap rule of its own, the space between .db-btn-row (Approve/Redo) and
+   .db-note-wrap (the "add arc notes" input) fell back to plain stacked-<div>
+   default spacing, which read as loose/inconsistent next to the rest of the
+   card (compare .db-sources-strip's 8px padding-top, .db-arc-note's 6px top
+   margin — this card's established rhythm is the 6-10px band, not a bare
+   default gap). FIX: give .db-arc-react-row the exact same flex-column +
+   gap:8px + border-top/padding-top treatment as .db-react-row, so every arc
+   card (Monday/Wednesday/Friday, and both WED A/B option cards — all share
+   this one dbArcReactRow() function) gets the same tightened, consistent
+   rhythm as the rest of the card. */
+.dashboard .db-arc-react-row {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  margin-top: 10px; padding-top: 10px;
+  display: flex; flex-direction: column; gap: 8px; align-items: stretch;
+}
+/* buttons share one line; note area sits on its own line below */
+.dashboard .db-btn-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.dashboard .db-react-btn {
+  border: var(--db-border); background: var(--db-oat); border-radius: 8px;
+  font-family: "Karla", sans-serif; font-size: 15px; font-weight: 700; line-height: 1;
+  padding: 6px 11px; color: var(--db-muted); display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.dashboard .db-react-btn.yes { background: var(--db-sage); color: #1a1a1a; }
+.dashboard .db-react-btn.no { color: var(--db-terracotta); }
+.dashboard .db-react-btn.redo { color: var(--db-muted); }
+.dashboard .db-react-btn:hover { background: var(--db-pistachio, var(--db-sage)); color: #1a1a1a; }
+.dashboard .db-react-btn:focus-visible { outline: 2px solid var(--db-terracotta); outline-offset: 2px; }
+
+/* ---------- 01 Concepts action buttons — text-label pills ----------
+   These three buttons used to be icon-only circles (✓/✕/↻) styled by the
+   generic .db-react-btn + legacy .yes/.no/.redo rules above. They now carry
+   text labels ("✓ This week", "✕ Reject", "☆ Save idea"), so the compact
+   circle look reads wrong. Restyled here into cute rounded pills that feel
+   like siblings of the .db-pill nav chips: full 999px radius, uniform height,
+   comfortable label padding, mono uppercase micro-label like the rest of the
+   dashboard's pill family. Each rule re-declares background/color so it wins
+   over its legacy sibling (.week/.yes, .reject/.no, .idea/.redo): the compound
+   .week.yes overrides carry higher specificity (0-4-0 vs the base 0-3-0), so
+   they win by specificity, not source order. (Iris, 2026-07-07) */
+/* UNIFORM-SIZING FIX (Iris, 2026-07-07 — third instance of the same bug class,
+   see GL-003 §5 "Uniform sizing rule"): this shared rule had padding + min-height
+   only — no min-width/fixed-width lock — so "✓ Choose", "✕ Reject", and "☆ Save"
+   each self-sized to their own label's text width (Reject/Choose ~6 chars,
+   Save ~4 chars). Same root cause as the .db-cal-type regression: a chip-family
+   rule with no shared width token. These three sit in a free-floating flex row
+   (.db-btn-row), not a uniform grid parent, so per the locked rule they resolve
+   via a shared fixed-width token sized off the longest label ("✕ Reject" at
+   this font/padding, measured ~86px), not per-button self-sizing. */
+.dashboard {
+  --db-react-btn-w: 86px;
+}
+.dashboard .db-react-btn.week,
+.dashboard .db-react-btn.reject,
+.dashboard .db-react-btn.idea {
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.01em;
+  line-height: 1;
+  border: var(--db-border);
+  border-radius: 999px;
+  padding: 5px 8px;
+  min-height: 27px;
+  width: var(--db-react-btn-w);
+  display: inline-flex; align-items: center; justify-content: center; gap: 3px;
+  cursor: pointer;
+}
+/* Alyssa's final color picks, locked 2026-07-07 (straight token reassignment,
+   supersedes the sage/oat-terracotta/peach set above):
+   Choose = pink · Reject = peach (closest existing token to "orange" — see
+   GL-003 §5 flag re: a truer orange token) · Save = sage (green). */
+.dashboard .db-react-btn.week,
+.dashboard .db-react-btn.week.yes {
+  background: var(--db-pink); color: var(--db-heading);
+}
+.dashboard .db-react-btn.reject,
+.dashboard .db-react-btn.reject.no {
+  background: var(--db-peach); color: var(--db-heading);
+}
+.dashboard .db-react-btn.idea,
+.dashboard .db-react-btn.idea.redo {
+  background: var(--db-sage); color: var(--db-heading);
+}
+/* hover: gentle lift, keep each button's own hue readable */
+.dashboard .db-react-btn.week:hover { background: color-mix(in srgb, var(--db-pink) 82%, #fff); color: var(--db-heading); }
+.dashboard .db-react-btn.reject:hover { background: color-mix(in srgb, var(--db-peach) 82%, #fff); color: var(--db-heading); }
+.dashboard .db-react-btn.idea:hover { background: color-mix(in srgb, var(--db-sage) 82%, #fff); color: var(--db-heading); }
+
+/* ---------- persisted saved / rejected state (locked 2026-07-07) ----------
+   Closes the persistence gap: Choose already writes a ✓ to the concept's own
+   line and renders as a full green card recolor (db-card-locked). Save and
+   Reject previously had no on-card marker at all — the button always came
+   back as "☆ Save"/"✕ Reject" on reload even after Alyssa had already acted.
+   Fix mirrors the Choose pattern: a persisted [saved]/[rejected] suffix tag
+   on the concept's numbered line (dbSetConceptStateTag in 01 Concepts.md),
+   parsed at render time and reflected on the button itself via .db-state-locked.
+   Deliberately NOT the green db-card-locked recolor — green is reserved for
+   the chosen/approved state per the "one signal" rule (GL-003 §5). This is a
+   quieter "confirmed, at-rest" treatment: static fill (no hover-brighten,
+   no pointer cursor, disabled), same pill shape/size as the live button so
+   the row doesn't reflow. Save locked = lavender (a token not otherwise used
+   on these three buttons, so it reads as a distinct third state, not a dimmed
+   version of Choose/Reject/Save). Reject locked = peach outline-only (hollow,
+   not solid) so a rejected concept reads "quietly closed," not "still an
+   active reject action." */
+.dashboard .db-react-btn.db-state-locked {
+  cursor: default;
+  pointer-events: none;
+}
+.dashboard .db-react-btn.idea.db-state-locked {
+  background: var(--db-lavender);
+  color: #ffffff;
+}
+.dashboard .db-react-btn.reject.db-state-locked {
+  background: var(--db-oat);
+  color: var(--db-terracotta);
+  border: 1.5px solid var(--db-peach);
+}
+.dashboard .db-answer-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; max-width: 460px; }
+.dashboard .db-saved {
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-terracotta); opacity: 0; transition: opacity 0.15s ease; align-self: center; white-space: nowrap;
+}
+.dashboard .db-saved.show { opacity: 1; }
+.dashboard .db-pick-btn { cursor: pointer; }
+.dashboard .db-pick-btn:hover { background: var(--db-sage); }
+.dashboard .db-ship-btn { cursor: pointer; }
+.dashboard .db-ship-btn:hover { background: var(--db-sage); }
+.dashboard .db-strip-btn { cursor: pointer; }
+.dashboard .db-note-wrap { flex: 1; min-width: 160px; display: flex; flex-direction: column; gap: 3px; }
+.dashboard .db-note-wrap input {
+  font-family: "Karla", sans-serif; font-size: 13px;
+  border: var(--db-border); border-radius: 8px; background: #fff;
+  padding: 6px 9px; width: 100%; color: var(--db-body);
+}
+.dashboard .db-note-hint {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-muted);
+}
+.dashboard .db-react-note {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  margin-top: 10px; padding-top: 10px;
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--db-muted);
+}
+
+/* ---------- empty / degrade states ---------- */
+.dashboard .db-empty {
+  background: var(--db-ivory);
+  text-align: center; padding: 30px 22px; color: var(--db-muted);
+  border-radius: 10px; border: var(--db-border);
+  margin-bottom: 14px;
+}
+.dashboard .db-warn {
+  background: var(--db-peach);
+  border: var(--db-border); border-radius: 10px;
+  padding: 14px 18px; color: var(--db-heading);
+  margin-bottom: 14px; font-size: 14px;
+}
+
+/* ---------- arc blocks / A-B pick ---------- */
+.dashboard .db-block { margin-bottom: 26px; }
+/* STACKING FIX (Iris, 2026-07-07 — GL-003 §5 "Day-name + title stacking rule"):
+   was `display: flex; align-items: center` (single row) — on 03 Hook.md and
+   04 Draft.md this forced the bare day name (.db-day-name) and the post title
+   (.db-who span on Hook / <h2> on Draft) onto one cramped horizontal line with
+   uneven spacing (Alyssa flagged from a live screenshot). 02 Arc.md already
+   only ever puts the day name alone inside .db-section-head (title moved into
+   the cover card in an earlier pass), so this rule is shared by all three
+   pages but only visibly changes Hook and Draft. Root cause: one row-flex
+   rule was governing two different children-counts (1 child on Arc, 2+ on
+   Hook/Draft) with no stacking fallback for the 2+ case. Fix: column stack,
+   day name on its own line, title/chip flows on the line(s) below — never
+   forced side-by-side. */
+.dashboard .db-section-head { margin-bottom: 12px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.dashboard .db-section-head h2 { font-size: 21px; margin: 0; }
+.dashboard .db-section-head .db-who { margin: 0; }
+.dashboard .db-arc { padding: 20px 22px; }
+.dashboard .db-arc ol { padding-left: 20px; display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+.dashboard .db-arc ol li::marker { font-family: "Roboto Mono", monospace; font-size: 11px; color: var(--db-terracotta); }
+
+/* ---------- arc storyboard (skimmable slide-card sequence) ---------- */
+/* Cover-box convention (REDESIGNED 2026-07-07 — Alyssa's direct call: "i dont
+   like the yellow box" / draft's version is "ugo" [ugly], hard no on both.
+   ROOT CAUSE: this was a large solid `--db-ivory` (peach/yellow) fill callout,
+   the one place in the whole dashboard system that broke the flat,
+   bordered-oat-card grammar every other surface uses (see §2/§4 in GL-003 —
+   oat cards, dark hairline border, no heavy solid-color fills except on
+   small chips/pills). It also repeated the concept title in large serif
+   type inside the box, duplicating the H2 already sitting in the section
+   head above — two renders of the same fact on one card.
+   FIX: oat surface (`--db-oat`, matches every other card), standard
+   `--db-border` hairline outline (no fill upgrade), small muted-terracotta
+   "Cover" label only — no title text inside the box at all. The box now
+   shows cover/slide-art content only; the post title lives in exactly one
+   place (the section head's <h2>, next to the day name).
+   This is now the LOCKED, SHARED pattern for any callout/preview box on the
+   dashboard — reused as-is on both 02 Arc (multi-slide storyboard) and
+   04 Draft (single cover preview), rather than inventing a second fix for
+   the same visual problem. See GL-003 §5 "Cover / callout box convention"
+   for the full rule — any future callout box must start from this class,
+   not a new solid-fill one-off. */
+/* Compact hero treatment (REDESIGNED 2026-07-07, this pass — Alyssa's direct
+   call: "ugly," "huge," "long." The oat/hairline-border/no-solid-fill rule
+   from the prior redesign stays locked; what changes is everything about the
+   BOX SHAPE — the full-width stretchy card with heavy vertical padding and
+   centered text is replaced with a small, left-aligned, single-line-first
+   hero row. ROOT CAUSE of "empty-feeling": 18px/20px padding plus
+   text-align: center around a lone short label + one short line of serif
+   text left a lot of dead air, especially once the "Cover" label sat all by
+   itself with nothing else anchoring the box's width.
+   FIX: label + title now render on ONE inline row (`.db-sb-cover-row`),
+   left-aligned, tight gap, no forced full-height column layout. Padding cut
+   roughly in half (10px 16px vs 18px 20px). This also gives the post title
+   its one canonical render location now that the day-heading row (Arc) no
+   longer repeats it — see the day-heading fix, same pass. An optional
+   `.db-sb-cover-desc` (a genuine **Cover:** description line, when the
+   source actually has one — rare) sits as a quieter second line under the
+   hero row, same card, still compact. Draft's usage (label only, no title
+   span, no desc) still renders correctly: the row just holds the label with
+   nothing beside it, at the same tight padding — no empty-box impression
+   since there's no leftover dead vertical space to notice. */
+.dashboard .db-storyboard-cover {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 10px 16px; margin: 4px 0 14px;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.dashboard .db-sb-cover-row {
+  display: flex; align-items: baseline; gap: 10px; text-align: left;
+}
+.dashboard .db-sb-cover-label {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--db-terracotta); flex: 0 0 auto;
+}
+.dashboard .db-storyboard-cover .db-serif { font-size: 18px; line-height: 1.2; text-align: left; }
+.dashboard .db-sb-cover-desc {
+  font-family: "Karla", sans-serif; font-size: 13px; line-height: 1.4;
+  color: var(--db-muted); margin-left: 0;
+}
+.dashboard .db-storyboard-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px;
+  margin-bottom: 14px;
+}
+.dashboard .db-slide-card {
+  background: var(--db-oat); border: 1px solid rgba(0,0,0,0.25); border-radius: 8px;
+  padding: 8px 10px; display: flex; flex-direction: column; gap: 3px;
+  min-height: 92px; cursor: pointer;
+}
+.dashboard .db-slide-card:hover { border-color: var(--db-terracotta); }
+.dashboard .db-slide-card:focus-visible {
+  outline: 2px solid var(--db-terracotta); outline-offset: 1px;
+}
+/* Expanded state: this specific card drops the grid's fixed min-height and
+   spans the full grid width so growing text never collides with neighbors. */
+.dashboard .db-slide-card.db-slide-expanded {
+  min-height: 0; grid-column: 1 / -1; cursor: pointer;
+}
+.dashboard .db-slide-num {
+  font-family: "Roboto Mono", monospace; font-size: 10px; color: var(--db-terracotta);
+  background: var(--db-linen); border-radius: 999px; padding: 1px 7px; align-self: flex-start;
+}
+.dashboard .db-slide-role {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--db-muted);
+}
+.dashboard .db-slide-text {
+  font-size: 12px; line-height: 1.35; color: var(--db-body);
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+}
+/* Read-full-text fix (2026-07-07): line-clamp truncates every card by
+   design (keeps the grid tidy), but there was no way to see the rest before
+   Approve/Redo — a real usability blocker, not cosmetic. Clicking a card
+   (or Enter/Space when focused) toggles this class to lift the clamp for
+   just that card. The native `title` attribute (see dataviewjs render)
+   still covers hover as a zero-JS fallback. */
+.dashboard .db-slide-card.db-slide-expanded .db-slide-text {
+  overflow: visible; display: block; -webkit-line-clamp: unset;
+}
+.dashboard .db-slide-expand-hint {
+  font-family: "Roboto Mono", monospace; font-size: 9px; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--db-muted); align-self: flex-end; opacity: 0.7;
+}
+/* ---------- sources footer (REDESIGNED 2026-07-07) ----------
+   Alyssa flagged the raw-path sources line as a real readability problem:
+   long inline paths (e.g. `PKM/My_Life/Offers/email-list-revival-plan.md`)
+   as link text, wrapping awkwardly and reading as a wall of technical text
+   rather than a footer. ROOT CAUSE: the link text WAS the href — display
+   label and link target were the same raw string, so there was no way to
+   shorten what's shown without touching what's linked.
+   FIX (02 Arc.md dataviewjs): the displayed label is now a humanized
+   basename (filename minus extension, dashes/underscores -> spaces, each
+   word capitalized) computed at render time; the underlying `data-source`
+   attribute — which the existing click handler resolves via
+   `app.workspace.openLinkText` — still carries the full original path
+   untouched, so navigation is not broken, only what's shown. A native
+   `title` tooltip carries the full path for anyone who wants to see it.
+   Capped to 4 visible sources with a "+N more" trailing tag rather than
+   rendering every source inline, so a long source list can't blow out the
+   footer regardless of label length.
+   Styling: dropped a step below body-copy weight into the same quiet,
+   muted-Mono-footer register as `.db-who`/`.db-note-hint` elsewhere on the
+   dashboard — smaller size, muted color throughout (link color no longer
+   punches through as bright/bold terracotta on hover-only), a hairline
+   border-top separating it from the content above like a true footer strip
+   rather than another content line. */
+.dashboard .db-sources-strip {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; color: var(--db-muted);
+  border-top: 1px solid rgba(0,0,0,0.12);
+  margin: 10px 0 4px; padding-top: 8px;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 0;
+}
+.dashboard .db-sources-label {
+  text-transform: uppercase; letter-spacing: 0.04em; color: var(--db-muted);
+  margin-right: 6px;
+}
+.dashboard .db-sources-links { display: inline-flex; flex-wrap: wrap; align-items: baseline; }
+.dashboard .db-source-link {
+  color: var(--db-muted); text-decoration: underline; text-decoration-color: rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+.dashboard .db-source-link:hover { color: var(--db-terracotta); text-decoration-color: currentColor; }
+.dashboard .db-sources-sep { margin: 0 6px; color: rgba(0,0,0,0.25); }
+.dashboard .db-sources-more {
+  margin-left: 6px; color: var(--db-muted); font-style: italic;
+}
+
+/* ---------- arc annotations (Parked: / Note:) — muted supplementary callout ---------- */
+.dashboard .db-arc-note {
+  font-family: "Karla", sans-serif; font-size: 12px; color: var(--db-muted);
+  border-left: 2px solid rgba(0,0,0,0.2);
+  padding: 4px 10px; margin: 6px 0 4px;
+}
+.dashboard .db-arc-note-label {
+  font-family: "Roboto Mono", monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-lavender); margin-right: 6px;
+}
+@media (max-width: 560px) {
+  .dashboard .db-storyboard-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+}
+.dashboard .db-pick-banner {
+  background: var(--db-peach); border: var(--db-border); border-radius: 10px;
+  padding: 12px 18px; margin-bottom: 14px;
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
+}
+.dashboard .db-pick-banner strong { font-size: 16px; color: var(--db-heading); }
+.dashboard .db-label { font-family: "Roboto Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+.dashboard .db-ab-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 26px; }
+.dashboard .db-pick-btn {
+  align-self: flex-start; margin-top: 10px;
+  font-family: "Roboto Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+  background: var(--db-pink); border: var(--db-border); border-radius: 999px;
+  padding: 8px 18px; color: #000;
+}
+@media (max-width: 820px) { .dashboard .db-ab-grid { grid-template-columns: 1fr; } }
+
+/* ---------- day chips ----------
+   RETIRED for 01 Concepts (Alyssa's Option A, locked 2026-07-07): the day-of-
+   week is no longer a chip in Concepts — it's bare AT KING serif text with no
+   pill/fill/border, stacked directly above the post-type oval (.db-cal-type).
+   This ruleset is now DEAD for Concepts (see .db-day-name below) but is left
+   defined/unused rather than deleted in case a future non-Concepts surface
+   still wants the pill treatment — do not re-wire it into 01 Concepts. */
+.dashboard .db-day-chip {
+  border: var(--db-border); border-radius: 999px; padding: 4px 14px;
+  font-family: "Roboto Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+  display: inline-block; margin-bottom: 10px; color: var(--db-heading);
+}
+.dashboard .db-day-chip.mon { background: var(--db-sage); }
+.dashboard .db-day-chip.wed { background: var(--db-peach); }
+.dashboard .db-day-chip.fri { background: var(--db-pink); }
+
+/* ---------- day name (bare serif, 01 Concepts only) — Option A, locked 2026-07-07 ----------
+   Day-of-week rendered as plain AT KING text, no pill/fill/border — a THIRD
+   text treatment outside the two locked chip tiers (GL-003 §5), scoped
+   deliberately narrow to this one element so it doesn't get mistaken for a
+   general-purpose label class. Stacked directly above .db-cal-type (the
+   post-type oval) via .db-day-head's column layout below.
+   Fixed 2026-07-07 (regression pass): this rule was accidentally carrying
+   `text-transform: uppercase` copy-pasted from the retired `.db-day-chip`
+   pill treatment it replaced, plus a caption-scale 15px size left over from
+   when it sat inline next to a chip. Bare serif heading text reads as a
+   label, not a heading, at both of those settings. Sentence case now comes
+   through untouched from the dataviewjs source string (real day names,
+   e.g. "Monday"); size bumped to sit alongside `.db-section-title`'s 20px
+   heading scale rather than caption/mono scale (~12px). */
+.dashboard .db-day-name {
+  font-family: "AT KING", Georgia, serif;
+  font-size: 20px; font-weight: 600; letter-spacing: 0;
+  color: var(--db-heading);
+  display: block;
+}
+
+/* ---------- grids ---------- */
+.dashboard .db-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 10px;
+  margin-bottom: 20px;
+}
+/* Concept cards run 3-across; tighter padding lets the 3 action buttons stay on one line.
+   Scoped to .db-grid so arc/draft cards keep their roomier padding.
+   Verified in-browser: 3 cols + 1-line buttons hold down to ~720px pane width. */
+.dashboard .db-grid > .db-card { padding: 15px 13px; }
+
+/* Concepts day header: bare AT KING day name stacked directly above the
+   post-type oval (.db-cal-type) — Option A, locked 2026-07-07. Was a
+   horizontal chip+oval row; now a tight vertical stack, no pill on the day name.
+   REGRESSION FIX 2026-07-07: this used to set `width: auto`, which let each
+   day's oval self-size off its own label (EDUCATION/OFFER/FOR THE GIRLS —
+   visibly different widths, the bug Alyssa flagged). `.db-day-head` isn't a
+   fixed-width grid column like the calendar's `.db-cal-day`, so `.db-cal-type`'s
+   own `width: 100%` (which fills a parent grid cell on the calendar) would
+   stretch this oval to the full card width instead — also wrong. Correct fix:
+   consume the SAME shared `--db-cal-type-w` token the base rule now exposes,
+   so this is still one governing rule/mechanism, just applied against a
+   free-floating parent instead of a grid column. All three Concepts ovals
+   (and the calendar's) now resolve to the identical footprint by construction,
+   not by each page re-deciding a width. */
+.dashboard .db-day-head { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; margin: 8px 0 10px; }
+.dashboard .db-day-head .db-cal-type { width: var(--db-cal-type-w); padding: 3px 13px; }
+
+/* ---------- drafts ---------- */
+.dashboard .db-serif { font-family: "AT KING", Georgia, serif; color: var(--db-heading); font-size: 19px; }
+.dashboard .db-draft-card { padding: 22px 24px; }
+/* .db-draft-cover RETIRED 2026-07-07 — this was the second occurrence of the
+   solid-`--db-ivory`-fill callout box Alyssa called a hard no ("the big
+   yellow boxes are a hard no draft is ugo"). 04 Draft.md now reuses
+   `.db-storyboard-cover` (see the "arc storyboard" section above) instead of
+   this class, so both pages share one quiet, bordered, no-fill cover-box
+   treatment rather than two separate fixes for the same visual problem.
+   Left defined-but-dead here (not deleted) only in case an old cached render
+   references it; do not reintroduce a solid-fill variant under this or any
+   new class name — see GL-003 §5 "Cover / callout box convention." */
+.dashboard .db-draft-cover {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 30px 24px; text-align: center; margin: 14px 0 18px;
+}
+.dashboard .db-draft-cover .db-serif { font-size: 24px; }
+.dashboard .db-draft-slides p { margin-bottom: 8px; }
+.dashboard .db-slide-n { font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--db-terracotta); margin-right: 8px; }
+.dashboard .db-caption-box {
+  background: #fff; border: 1px solid rgba(0,0,0,0.2); border-radius: 8px;
+  padding: 13px 15px; margin: 12px 0 16px; font-size: 14px;
+}
+.dashboard .db-ship-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
+.dashboard .db-ship-row .db-note-wrap { flex: 1; min-width: 200px; }
+.dashboard .db-ship-btn {
+  font-family: "AT KING", Georgia, serif; font-size: 17px; color: #000;
+  background: var(--db-pink); border: var(--db-border); border-radius: 10px;
+  padding: 12px 36px;
+}
+
+/* ---------- calendar (05 Approved) ---------- */
+.dashboard .db-cal-grid {
+  display: grid; grid-template-columns: 118px repeat(7, 1fr); gap: 8px; min-width: 760px;
+  overflow-x: auto;
+}
+/* row cell in the left gutter — holds ONE fixed-size week chip, centered in the
+   row (NOT stretched — stretching made every chip a different height). The chip
+   itself is a uniform fixed size; this cell just centers it. */
+.dashboard .db-cal-gutter {
+  display: flex; align-items: center; justify-content: center; padding: 0 6px;
+  min-height: 88px;
+}
+.dashboard .db-cal-gutter-head { min-height: 0; padding: 0; }
+/* week-rotation chip (left gutter) — v6 2026-07-07 (Iris). Matches Alyssa's
+   reference screenshot exactly (v3's solid fill, kept, + two-size hierarchy):
+   - SOLID color fill (her folder palette), filling the whole pill — no hollow
+     oat background, no border-outline treatment (that was my misread last
+     round, scrapped entirely).
+   - Rounded PILL shape, taller radius (~14px) not a small rounded-rect.
+   - Two text sizes: small W# label on top, larger theme name below, centered.
+   - Dark, readable text on every fill (folder-chip convention) — not white,
+     not muted-grey-tag-plus-colored-text.
+   - Uniform fixed size, all four identical, comfortably fits text without
+     wrapping, centered in the row (gutter stays center/center, no stretch). */
+.dashboard .db-cal-week-pill {
+  font-family: "Roboto Mono", monospace; letter-spacing: 0.03em; text-transform: uppercase;
+  color: var(--db-terracotta);
+  border: var(--db-border);
+  border-radius: 14px;
+  box-sizing: border-box;
+  width: 100px; height: 44px;   /* fixed footprint; all four identical — unchanged */
+  padding: 4px 4px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  text-align: center; margin: 0 auto;
+}
+/* W# tag and theme name — same size, unbolded, deep terracotta (her call, 2026-07-07) */
+.dashboard .db-cal-week-tag {
+  font-size: 10.5px; font-weight: 400; letter-spacing: 0.03em; opacity: 0.85;
+}
+.dashboard .db-cal-week-theme {
+  font-size: 10.5px; font-weight: 400; letter-spacing: 0.01em; line-height: 1.2;
+  white-space: nowrap;
+}
+/* per-theme: SOLID folder-palette fill, terracotta text (matches her usual accent) */
+.dashboard .db-cal-week-pill.sage { background: var(--db-sage); }
+.dashboard .db-cal-week-pill.peach { background: var(--db-peach); }
+.dashboard .db-cal-week-pill.pink { background: var(--db-pink); }
+/* lavender is dark — terracotta is hard to read here, so white text just for this one */
+.dashboard .db-cal-week-pill.lavender { background: var(--db-lavender); color: #ffffff; }
+.dashboard .db-cal-dow {
+  color: var(--db-muted); text-align: center; padding: 4px 0 2px;
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase;
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+}
+/* recurring day-type archetype label under Mon / Wed / Fri headers — v7
+   2026-07-07 (Iris). Live-DOM-measured fix: day cell (.db-cal-day) is
+   188x88px; this chip was only 88x16px (a fifth the width, a sixth the
+   height) — that's the "small and weird" complaint. Now width: 100% so it
+   fills the day column (matches the day cell's width exactly), min-height
+   bumped to 24px for a substantial-but-not-full-cell bar, and the standard
+   vault border (var(--db-border)) added to match every other card/pill.
+   Font-size raised back up now there's more width; still single line.
+
+   REGRESSION FIX 2026-07-07 (this pass): a later, page-scoped override
+   (`.db-day-head .db-cal-type` further down) set `width: auto` for the
+   Concepts usage of this SAME class, which let each label (EDUCATION /
+   OFFER / FOR THE GIRLS) self-size to its own text width — visibly
+   different oval widths, a direct violation of GL-003 §5's locked
+   uniform-sizing rule ("chips of the same type repeating in a row/column
+   are ALL sized to match the largest, never floating at individual
+   content-based widths"). Root cause: `.db-cal-type` had two different
+   sizing mechanisms live at once (parent-fill on the calendar,
+   self-sizing on Concepts) under one shared class name, so the rule
+   silently stopped applying on the second surface.
+   Fix: `--db-cal-type-w` is now a single shared fixed-width token, set
+   once here off the longest label footprint ("FOR THE GIRLS" at this
+   font/padding, measured ~112px) so EVERY .db-cal-type instance — on the
+   calendar grid or on a free-floating Concepts header — resolves to the
+   identical width by default. The calendar's grid column still stretches
+   this via its own `width: 100%` layout (unchanged, still correct there
+   since the grid gives every column matching width); Concepts now reads
+   the same shared token instead of self-sizing. One rule, one mechanism,
+   reused — not two separate ad hoc sizings under one class name. */
+.dashboard {
+  --db-cal-type-w: 112px;
+}
+.dashboard .db-cal-type {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; font-weight: 400; letter-spacing: 0.03em; text-transform: uppercase;
+  color: var(--db-terracotta);
+  border: var(--db-border);
+  border-radius: 999px; box-sizing: border-box;
+  width: 100%; min-height: 24px; padding: 3px 6px;
+  display: flex; align-items: center; justify-content: center;
+  white-space: nowrap; line-height: 1; text-align: center;
+}
+.dashboard .db-cal-type.mon { background: var(--db-sage); }
+.dashboard .db-cal-type.wed { background: var(--db-peach); }
+.dashboard .db-cal-type.fri { background: var(--db-pink); }
+.dashboard .db-cal-day {
+  min-height: 88px; padding: 5px; display: flex; flex-direction: column; gap: 3px;
+  background: var(--db-oat); border: var(--db-border); border-radius: 8px;
+  overflow: hidden; position: relative;
+}
+.dashboard .db-cal-day.out { background: transparent; border-color: rgba(0,0,0,0.12); }
+.dashboard .db-cal-num { font-family: "Roboto Mono", monospace; font-size: 10px; color: var(--db-muted); }
+.dashboard .db-cal-post {
+  border: 1px solid rgba(0,0,0,0.3); border-radius: 6px; padding: 3px 5px;
+  font-size: 10px; line-height: 1.2; color: var(--db-heading);
+  display: flex; align-items: flex-start; gap: 4px; min-width: 0;
+  cursor: pointer; transition: filter 0.12s ease, transform 0.12s ease;
+}
+.dashboard .db-cal-post:hover { filter: brightness(0.94); transform: translateY(-1px); }
+.dashboard .db-cal-post:focus-visible { outline: 2px solid var(--db-terracotta); outline-offset: 2px; }
+.dashboard .db-cal-post-body { min-width: 0; display: flex; flex-direction: column; }
+.dashboard .db-cal-title {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%;
+}
+.dashboard .db-cal-post.mon { background: var(--db-sage); }
+.dashboard .db-cal-post.wed { background: var(--db-peach); }
+.dashboard .db-cal-post.fri { background: var(--db-pink); }
+.dashboard .db-cal-post.pending { background: var(--db-ivory); color: var(--db-body); }
+.dashboard .db-dot {
+  width: 6px; height: 6px; border-radius: 50%; flex: 0 0 6px; margin-top: 4px;
+  border: 1px solid rgba(0,0,0,0.35);
+}
+.dashboard .db-dot.arc { background: var(--db-terracotta); }
+.dashboard .db-dot.pending { background: var(--db-oat); }
+.dashboard .db-dot.shipped { background: #1a1a1a; }
+.dashboard .db-status-tag {
+  display: block; font-family: "Roboto Mono", monospace; font-size: 9px;
+  text-transform: uppercase; letter-spacing: 0.03em; color: var(--db-muted); margin-top: 2px;
+}
+
+/* ---------- parked ---------- */
+.dashboard .db-parked-item { padding: 18px 22px; }
+.dashboard .db-parked-item .db-note-wrap { margin-top: 12px; max-width: 420px; }
+.dashboard .db-her-words {
+  background: var(--db-ivory); border: 1px solid rgba(0,0,0,0.2); border-radius: 8px;
+  padding: 8px 12px; color: var(--db-body); font-style: italic; font-size: 14px; margin-top: 8px;
+}
+.dashboard .db-her-words .db-label { color: var(--db-muted); font-style: normal; display: block; margin-bottom: 2px; }
+.dashboard .db-parked-strip {
+  margin-top: 24px; padding: 14px 18px;
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  background: var(--db-ivory); border: var(--db-border); border-radius: 10px;
+}
+.dashboard .db-strip-btn {
+  font-family: "Karla", sans-serif; font-size: 13px; color: var(--db-body);
+  background: var(--db-oat); border: 1px solid rgba(0,0,0,0.3); border-radius: 999px;
+  padding: 5px 14px;
+}
+
+/* ---------- headings inside dashboard notes ---------- */
+.dashboard h1, .dashboard h2, .dashboard h3, .dashboard .db-card h3 {
+  font-family: "AT KING", Georgia, serif; color: var(--db-heading); font-weight: 600;
+}
+.dashboard .db-section-title { font-size: 20px; margin: 18px 0 10px 0; }
+
+/* ---------- sub-page title + caption (01 Concepts, and any future bare
+   sub-page: 02 Arc / 03 Hook / 04 Draft / 05 Approved) — added 2026-07-07 ----------
+   ROOT CAUSE of "doesn't feel like a dashboard": these sub-pages used bare
+   markdown `# Title` + a plain paragraph sentence directly under the nav
+   bar, with zero dashboard-specific wrapper. They only ever inherited the
+   generic `.dashboard h1, h2, h3` rule (font/color/weight only, no spacing
+   contract) and then Obsidian's default browser-native <h1>/<p> margins —
+   an unstyled accident, not a deliberate spacing decision. Compare to
+   `00 Content Command Center`, which wraps its title+subtitle in
+   `.db-header-card` (a bordered/padded oat card) with `.db-header-sub`
+   explicitly styled as a muted caption line (`color: var(--db-muted)`,
+   tight `margin: 6px 0 0`) — that page reads as "a dashboard" because the
+   intro line is a controlled caption, not a stray paragraph.
+   `.db-page-title` / `.db-page-sub` give every bare sub-page that same
+   contract without wrapping the whole page top in a bordered card (that
+   card treatment is reserved for the home page's pipeline header). Title
+   sized to match `.db-header-card h1`'s scale; subtitle styled exactly
+   like `.db-header-sub` (muted, tight above, deliberate gap below before
+   the first day-group/content row starts). */
+.dashboard .db-page-title {
+  font-family: "AT KING", Georgia, serif; font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.1; margin: 4px 0 0 !important; color: var(--db-heading); font-weight: 600;
+}
+.dashboard .db-page-sub {
+  color: var(--db-muted); font-size: 14px; margin: 6px 0 22px;
+}
+/* ---------- nav-to-title gap fix (locked 2026-07-07) ----------
+   ROOT CAUSE (found via DOM inspection of the live render): Minimal theme's
+   base vertical rhythm (`--p-spacing: 1.75rem` between top-level preview
+   blocks, plus its own generic heading margin-top rule) applies BETWEEN the
+   nav dataviewjs code-block's rendered output div and the `.db-page-title`
+   h1 that follows it as a SEPARATE top-level block in the preview sizer —
+   on top of `.db-nav`'s own `margin: 0 0 18px 0`. The two stack: the nav's
+   own bottom margin, then the theme's block-to-heading top margin, even
+   though `.db-page-title` already declared `margin-top: 4px` (that
+   declaration was losing to the theme rule without `!important`).
+   Alyssa flagged this live on 02 Arc: "large ugly gap" between the nav
+   pill row and the "02 Arc" H1. The exact same markup (nav dataviewjs
+   block immediately followed by `.db-page-title`) exists on every
+   dashboard sub-page (01/02/03/04/05) — this is a shared-markup bug, not
+   something unique to Arc's content, so the fix is global to `.dashboard`.
+   FIX: force-win `.db-page-title`'s tight top margin with `!important`,
+   and collapse the theme's default bottom spacing on the immediately
+   preceding top-level block (the nav's rendered wrapper div) so the two
+   margins can't compound. Net effect: nav bottom margin (18px, unchanged)
+   is now the ONLY gap between nav and title — matching the tight rhythm
+   used elsewhere (e.g. `.db-header-card` on Home, `.db-section-head` on
+   Arc's own day blocks). */
+.dashboard .markdown-preview-sizer > div:has(> .db-nav) {
+  margin-bottom: 0 !important;
+}

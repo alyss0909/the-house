@@ -1,0 +1,20 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#e8a8bf",
+  "showRibbon": true,
+  "showViewHeader": true,
+  "textFontFamily": "Karla",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "fonts",
+    "hide-ui",
+    "folder-colors",
+    "heading-font",
+    "properties-panel",
+    "tabs",
+    "colors",
+    "dashboard"
+  ],
+  "nativeMenus": false
+}

@@ -1,0 +1,1412 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* Add these styles to your existing styles.css file */
+
+.subscription-active {
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 14px;
+	padding: 10px 14px;
+}
+
+.keepsidian-link-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--input-height);
+	padding: 0 var(--size-4-2, 12px);
+	border-radius: var(--input-radius);
+	border: 1px solid var(--background-modifier-border);
+	background: var(--interactive-normal);
+	box-shadow: var(--input-shadow, none);
+	color: var(--text-normal);
+	text-decoration: none;
+	font-size: var(--font-ui-small);
+	font-weight: 500;
+	white-space: nowrap;
+	cursor: var(--cursor, pointer);
+	transition:
+		background 0.2s ease,
+		color 0.2s ease,
+		border-color 0.2s ease,
+		box-shadow 0.2s ease;
+}
+
+.keepsidian-link-button:hover {
+	background: var(--interactive-hover);
+	border-color: var(--background-modifier-border-hover, var(--background-modifier-border));
+	box-shadow: var(--input-shadow-hover, var(--input-shadow, none));
+	text-decoration: none;
+}
+
+.keepsidian-link-button:active {
+	background: var(--interactive-active);
+	border-color: var(--background-modifier-border-active, var(--background-modifier-border));
+	box-shadow: var(--input-shadow-active, var(--input-shadow, none));
+}
+
+.keepsidian-link-button:focus-visible {
+	outline: var(--focus-width, 2px) solid var(--color-accent);
+	outline-offset: 2px;
+}
+
+.setting-item.subscription-active .setting-item-control {
+	color: inherit;
+	font-weight: inherit;
+}
+
+.setting-item.subscription-active {
+	align-items: flex-start;
+	gap: 12px;
+}
+
+.setting-item.subscription-active .setting-item-info {
+	padding-right: 16px;
+}
+
+.premium-features-list {
+	margin: 12px 0;
+	padding-left: 24px;
+}
+
+.premium-features-list li {
+	margin: 4px 0;
+}
+
+.keepsidian-color-filter-summary {
+	margin-right: 8px;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	white-space: nowrap;
+}
+
+.keepsidian-color-filter-button {
+	margin-left: 6px;
+}
+
+.keepsidian-color-picker-modal-shell .modal {
+	max-width: 520px;
+}
+
+.keepsidian-color-picker-modal {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	min-width: 360px;
+}
+
+.keepsidian-color-picker-modal h2 {
+	margin: 0;
+	font-size: var(--h3-size);
+}
+
+.keepsidian-color-picker-description {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.keepsidian-color-picker-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.keepsidian-color-picker-swatch {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 52px;
+	padding: 0;
+	border: 0;
+	border-radius: 999px;
+	background: transparent !important;
+	box-shadow: none;
+	appearance: none;
+	-webkit-appearance: none;
+	min-width: 0;
+	cursor: var(--cursor, pointer);
+	transition:
+		transform 120ms ease,
+		filter 120ms ease;
+}
+
+.keepsidian-color-picker-swatch::before {
+	content: "";
+	position: absolute;
+	inset: 4px;
+	border-radius: 999px;
+	background: var(--keepsidian-color-swatch);
+	box-shadow:
+		inset 0 0 0 1px rgb(255 255 255 / 45%),
+		0 0 0 2px color-mix(in srgb, var(--background-modifier-border) 78%, transparent);
+	transition:
+		box-shadow 120ms ease,
+		filter 120ms ease;
+}
+
+.keepsidian-color-picker-swatch:hover {
+	transform: translateY(-1px);
+	filter: drop-shadow(0 4px 10px rgb(0 0 0 / 12%));
+}
+
+.keepsidian-color-picker-swatch:hover::before {
+	box-shadow:
+		inset 0 0 0 1px rgb(255 255 255 / 45%),
+		0 0 0 2px
+			color-mix(
+				in srgb,
+				var(--background-modifier-border-hover, var(--background-modifier-border)) 88%,
+				transparent
+			);
+}
+
+.keepsidian-color-picker-swatch.is-selected {
+	filter: none;
+}
+
+.keepsidian-color-picker-swatch.is-selected::before {
+	box-shadow:
+		inset 0 0 0 1px rgb(255 255 255 / 55%),
+		0 0 0 2px var(--color-accent, #a142f4),
+		0 0 0 5px color-mix(in srgb, var(--color-accent, #a142f4) 26%, transparent);
+}
+
+.keepsidian-color-picker-swatch.is-selected::after {
+	content: "✓";
+	position: absolute;
+	top: -7px;
+	right: -5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 999px;
+	background: var(--color-accent, #a142f4);
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	box-shadow: 0 2px 6px rgb(0 0 0 / 18%);
+}
+
+.keepsidian-color-picker-swatch:focus-visible {
+	outline: none;
+}
+
+.keepsidian-color-picker-swatch:focus-visible::before {
+	box-shadow:
+		inset 0 0 0 1px rgb(255 255 255 / 55%),
+		0 0 0 2px var(--color-accent, #a142f4),
+		0 0 0 5px color-mix(in srgb, var(--color-accent, #a142f4) 18%, transparent);
+}
+
+.keepsidian-color-picker-helper {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.keepsidian-color-picker-helper.is-warning {
+	color: var(--text-warning, var(--text-accent));
+}
+
+.keepsidian-color-picker-actions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+/* KeepSidian: Status bar progress meter */
+.keepsidian-status {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.keepsidian-hidden {
+	display: none !important;
+}
+
+.keepsidian-status .keepsidian-status-text {
+	white-space: nowrap;
+}
+
+.keepsidian-progress {
+	min-width: 64px;
+}
+
+/* KeepSidian: Progress modal styles */
+.keepsidian-modal {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	min-width: 360px;
+}
+
+.keepsidian-modal-title {
+	margin: 0 0 4px 0;
+	color: var(--text-accent);
+	font-weight: 700;
+}
+
+.keepsidian-modal-status {
+	color: var(--text-muted);
+}
+
+.keepsidian-modal-header-meta {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.keepsidian-modal-status {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.keepsidian-modal-status-actions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex: 0 0 auto;
+}
+
+.keepsidian-modal-alert {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding: 12px 14px;
+	border: 1px solid color-mix(in srgb, var(--text-error) 32%, var(--background-modifier-border));
+	border-radius: 12px;
+	background: color-mix(in srgb, var(--text-error) 10%, var(--background-secondary));
+}
+
+.keepsidian-modal-alert-title {
+	font-size: var(--font-ui-small);
+	font-weight: 700;
+	color: var(--text-error);
+}
+
+.keepsidian-modal-alert-message {
+	font-size: var(--font-ui-small);
+	line-height: 1.45;
+	color: var(--text-normal);
+}
+
+.keepsidian-modal-dismiss-prompt {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 14px 16px;
+	border: 1px solid color-mix(in srgb, var(--color-orange, #f59e0b) 24%, var(--background-modifier-border));
+	border-radius: 14px;
+	background:
+		linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--color-orange, #f59e0b) 10%, var(--background-secondary)) 0%,
+			color-mix(in srgb, var(--background-secondary) 94%, transparent) 100%
+		);
+	box-shadow: 0 10px 24px rgb(0 0 0 / 10%);
+}
+
+.keepsidian-modal-dismiss-prompt-title {
+	font-size: var(--font-ui-medium);
+	font-weight: 700;
+	color: var(--text-normal);
+}
+
+.keepsidian-modal-dismiss-prompt-message {
+	font-size: var(--font-ui-small);
+	line-height: 1.45;
+	color: var(--text-muted);
+}
+
+.keepsidian-modal-dismiss-prompt-actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+.keepsidian-modal-dismiss-prompt-actions .keepsidian-modal-action {
+	flex: 0 0 auto;
+	min-width: 124px;
+}
+
+.keepsidian-modal-dismiss-prompt-action--danger {
+	border-color: color-mix(in srgb, var(--color-red, #ef4444) 36%, var(--background-modifier-border));
+	background: color-mix(in srgb, var(--color-red, #ef4444) 10%, var(--background-secondary));
+	color: color-mix(in srgb, var(--color-red, #ef4444) 78%, white 10%);
+}
+
+.keepsidian-modal-dismiss-prompt-action--ghost {
+	background: color-mix(in srgb, var(--background-primary-alt) 72%, transparent);
+}
+
+.keepsidian-modal-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	gap: 8px;
+}
+
+.keepsidian-modal-actions--plan {
+	margin-bottom: 10px;
+}
+
+.keepsidian-modal-action {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	flex: 1 1 120px;
+	padding: 6px 12px;
+	white-space: nowrap;
+}
+
+.keepsidian-modal-action--primary {
+	order: 1;
+}
+
+.keepsidian-modal-action--open-log {
+	order: 2;
+}
+
+.keepsidian-modal-action--dropdown::after {
+	content: "▼";
+	position: absolute;
+	top: 50%;
+	right: 14px;
+	font-size: 0.7em;
+	line-height: 1;
+	transform: translateY(-50%);
+	transition:
+		color 120ms ease,
+		transform 120ms ease;
+}
+
+.keepsidian-modal-action--sync-options {
+	order: 3;
+	margin-left: auto;
+	min-width: 118px;
+	justify-content: flex-start;
+	padding-right: 48px;
+	background-image: linear-gradient(
+		to right,
+		transparent calc(100% - 40px),
+		color-mix(in srgb, var(--background-modifier-hover) 78%, transparent) calc(100% - 40px)
+	);
+}
+
+.keepsidian-modal-action--dropdown {
+	position: relative;
+	box-shadow: inset 0 0 0 1px transparent;
+	transition:
+		background-color 120ms ease,
+		color 120ms ease,
+		box-shadow 120ms ease;
+}
+
+.keepsidian-modal-action--dropdown::before {
+	content: "";
+	position: absolute;
+	top: 7px;
+	bottom: 7px;
+	right: 39px;
+	width: 1px;
+	background: color-mix(in srgb, var(--background-modifier-border) 82%, transparent);
+}
+
+.keepsidian-modal-action--dropdown.is-expanded {
+	background-color: color-mix(in srgb, var(--background-modifier-hover) 82%, var(--background-primary));
+	color: var(--text-normal);
+	box-shadow: inset 0 0 0 1px
+		color-mix(in srgb, var(--background-modifier-border-hover, var(--background-modifier-border)) 72%, transparent);
+}
+
+.keepsidian-modal-action--dropdown.is-expanded::after {
+	content: "▲";
+}
+
+.keepsidian-modal-action:disabled {
+	opacity: 0.6;
+}
+
+.keepsidian-sync-center-modes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.keepsidian-sync-center-mode-section {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.keepsidian-sync-center-mode-section--primary {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.keepsidian-sync-center-scope-section {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.keepsidian-sync-center-mode-label {
+	font-size: var(--font-ui-small);
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	color: var(--text-muted);
+	text-transform: uppercase;
+}
+
+.keepsidian-sync-center-mode-button {
+	flex: 1 1 120px;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 52px;
+	padding: 8px 12px 8px 10px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 72%, transparent);
+	background: color-mix(in srgb, var(--background-secondary) 82%, transparent);
+	box-shadow: none;
+	transition:
+		background-color 120ms ease,
+		border-color 120ms ease,
+		color 120ms ease;
+}
+
+.keepsidian-sync-center-mode-indicator {
+	position: relative;
+	width: 14px;
+	height: 14px;
+	flex: 0 0 14px;
+	border-radius: 999px;
+	border: 1.5px solid color-mix(in srgb, var(--text-muted) 70%, transparent);
+	background: transparent;
+}
+
+.keepsidian-sync-center-mode-indicator::after {
+	content: "";
+	position: absolute;
+	inset: 3px;
+	border-radius: 999px;
+	background: transparent;
+	transition: background-color 120ms ease;
+}
+
+.keepsidian-sync-center-mode-text {
+	font-size: var(--font-ui-small);
+	font-weight: 600;
+}
+
+.keepsidian-sync-center-scope-copy {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	line-height: 1.4;
+}
+
+.keepsidian-sync-center-scope-button {
+	align-items: center;
+}
+
+.keepsidian-sync-center-scope-option-body {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	justify-content: center;
+	min-height: 36px;
+}
+
+.keepsidian-sync-center-scope-option-copy {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	line-height: 1.35;
+	white-space: normal;
+}
+
+.keepsidian-sync-center-scope-input-wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-top: 4px;
+}
+
+.keepsidian-sync-center-scope-input-label {
+	font-size: var(--font-ui-small);
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-center-scope-input {
+	width: 100%;
+}
+
+.keepsidian-sync-center-scope-helper {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	line-height: 1.4;
+}
+
+.keepsidian-sync-center-scope-helper.is-warning {
+	color: var(--text-error, var(--text-warning, var(--text-accent)));
+}
+
+.keepsidian-sync-center-mode-button.is-selected {
+	background: color-mix(in srgb, var(--interactive-accent) 18%, var(--background-secondary));
+	border-color: color-mix(in srgb, var(--interactive-accent) 45%, var(--background-modifier-border));
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-center-mode-button.is-selected .keepsidian-sync-center-mode-indicator {
+	border-color: var(--interactive-accent);
+}
+
+.keepsidian-sync-center-mode-button.is-selected .keepsidian-sync-center-mode-indicator::after {
+	background: var(--interactive-accent);
+}
+
+.keepsidian-sync-center-mode-button:focus-visible {
+	outline: 2px solid color-mix(in srgb, var(--interactive-accent) 42%, transparent);
+	outline-offset: 1px;
+}
+
+.keepsidian-sync-center-download-options {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.keepsidian-sync-center-download-options-title {
+	margin: 0 0 4px 0;
+	font-size: var(--font-ui-medium);
+	font-weight: 600;
+}
+
+.keepsidian-sync-center-download-options-copy {
+	margin: 0 0 12px 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	line-height: 1.4;
+}
+
+.keepsidian-sync-center-download-options-body {
+	font-size: 0.96em;
+}
+
+.keepsidian-sync-center-download-options-body .setting-item {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.keepsidian-sync-center-download-options-body .setting-item-name {
+	font-size: 1em;
+}
+
+.keepsidian-sync-center-download-options-body .setting-item-description {
+	font-size: var(--font-ui-small);
+	line-height: 1.35;
+}
+
+.keepsidian-sync-center-review {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding-top: 4px;
+}
+
+.keepsidian-sync-center-review-summary {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 12px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 72%, transparent);
+	border-radius: 12px;
+	background: color-mix(in srgb, var(--background-secondary) 72%, transparent);
+}
+
+.keepsidian-sync-center-review-heading {
+	font-size: var(--font-ui-small);
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: var(--text-muted);
+	text-transform: uppercase;
+}
+
+.keepsidian-sync-center-review-selected {
+	font-size: var(--font-ui-small);
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-center-review-counts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.keepsidian-sync-center-review-chip {
+	padding: 4px 8px;
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--background-primary-alt) 78%, transparent);
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-center-review-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-height: 360px;
+	overflow: auto;
+	padding-right: 4px;
+}
+
+.keepsidian-sync-center-review-row {
+	display: grid;
+	grid-template-columns: 28px 1fr;
+	gap: 10px;
+	align-items: start;
+	padding: 12px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 70%, transparent);
+	border-radius: 12px;
+	background: color-mix(in srgb, var(--background-secondary) 68%, transparent);
+}
+
+.keepsidian-sync-center-review-row.is-actionable {
+	border-color: color-mix(in srgb, var(--interactive-accent) 24%, var(--background-modifier-border));
+}
+
+.keepsidian-sync-center-review-row.is-locked {
+	opacity: 0.92;
+}
+
+.keepsidian-sync-center-review-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+}
+
+.keepsidian-sync-center-review-toggle input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+}
+
+.keepsidian-sync-center-review-body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	min-width: 0;
+}
+
+.keepsidian-sync-center-review-title-line {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.keepsidian-sync-center-review-title {
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-center-review-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 8px;
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--interactive-accent) 14%, transparent);
+	font-size: var(--font-ui-smaller);
+	font-weight: 600;
+	color: var(--text-accent);
+}
+
+.keepsidian-sync-center-review-path {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+	word-break: break-word;
+}
+
+.keepsidian-sync-center-review-detail {
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	line-height: 1.4;
+}
+
+.keepsidian-modal-gate-message {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.keepsidian-modal-gate-heading {
+	margin: 0 0 10px 0;
+	font-size: var(--font-ui-medium);
+	font-weight: 600;
+}
+
+.keepsidian-modal-gate-message ul {
+	margin: 0 0 12px 0;
+	padding-left: 20px;
+}
+
+.keepsidian-modal-gate-message li + li {
+	margin-top: 6px;
+}
+
+.keepsidian-modal-gate-message button {
+	margin-top: 2px;
+}
+
+/* KeepSidian: Sync center V3 */
+.keepsidian-modal-shell--compact {
+	width: min(560px, calc(100vw - 48px));
+	max-width: 560px;
+}
+
+.keepsidian-modal-shell--plan {
+	width: min(980px, calc(100vw - 48px));
+	max-width: 980px;
+}
+
+.keepsidian-modal--compact {
+	gap: 16px;
+}
+
+.keepsidian-modal--plan {
+	gap: 18px;
+}
+
+.keepsidian-sync-stepper {
+	display: grid;
+	grid-template-columns: auto minmax(48px, 1fr) auto minmax(48px, 1fr) auto;
+	align-items: center;
+	gap: 10px;
+	padding: 6px 0 2px;
+}
+
+.keepsidian-sync-stepper-step {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+	min-width: 48px;
+}
+
+.keepsidian-sync-stepper-node {
+	width: 14px;
+	height: 14px;
+	border-radius: 999px;
+	border: 2px solid color-mix(in srgb, var(--background-modifier-border) 78%, transparent);
+	background: color-mix(in srgb, var(--background-secondary) 82%, transparent);
+	box-shadow: 0 0 0 3px color-mix(in srgb, var(--background-primary) 86%, transparent);
+}
+
+.keepsidian-sync-stepper-step.is-active .keepsidian-sync-stepper-node {
+	border-color: color-mix(in srgb, var(--interactive-accent) 68%, transparent);
+	background: var(--interactive-accent);
+}
+
+.keepsidian-sync-stepper-step.is-complete .keepsidian-sync-stepper-node {
+	border-color: color-mix(in srgb, var(--interactive-accent) 52%, transparent);
+	background: color-mix(in srgb, var(--interactive-accent) 26%, var(--background-secondary));
+}
+
+.keepsidian-sync-stepper-label {
+	font-size: var(--font-ui-smaller);
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-stepper-step.is-active .keepsidian-sync-stepper-label,
+.keepsidian-sync-stepper-step.is-complete .keepsidian-sync-stepper-label {
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-stepper-connector {
+	position: relative;
+	height: 4px;
+	border-radius: 999px;
+	overflow: hidden;
+	background: color-mix(in srgb, var(--background-modifier-border) 62%, transparent);
+}
+
+.keepsidian-sync-stepper-connector-fill {
+	height: 100%;
+	width: 0;
+	border-radius: inherit;
+	background: linear-gradient(
+		90deg,
+		color-mix(in srgb, var(--interactive-accent) 84%, white 8%),
+		color-mix(in srgb, var(--interactive-accent) 56%, white 2%)
+	);
+	transition: width 180ms ease;
+}
+
+.keepsidian-sync-stepper-connector.is-indeterminate::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	width: 34%;
+	border-radius: inherit;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		color-mix(in srgb, var(--interactive-accent) 58%, transparent),
+		transparent
+	);
+	animation: keepsidian-stepper-pulse 1.1s linear infinite;
+}
+
+@keyframes keepsidian-stepper-pulse {
+	from {
+		transform: translateX(-120%);
+	}
+
+	to {
+		transform: translateX(340%);
+	}
+}
+
+.keepsidian-sync-center-options {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	padding-top: 2px;
+}
+
+.keepsidian-sync-plan {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	padding: 18px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 72%, transparent);
+	border-radius: 18px;
+	background: linear-gradient(
+		180deg,
+		color-mix(in srgb, var(--background-secondary) 88%, transparent),
+		color-mix(in srgb, var(--background-primary) 96%, transparent)
+	);
+}
+
+.keepsidian-sync-plan-summary {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.keepsidian-sync-plan-summary-copy {
+	font-size: var(--font-ui-small);
+	line-height: 1.45;
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-plan-counts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.keepsidian-sync-plan-chip {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30px;
+	padding: 6px 12px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 72%, transparent);
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--background-secondary) 74%, transparent);
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	transition:
+		background-color 120ms ease,
+		border-color 120ms ease,
+		color 120ms ease,
+		transform 120ms ease;
+}
+
+.keepsidian-sync-plan-chip:hover {
+	background: color-mix(in srgb, var(--background-modifier-hover) 82%, transparent);
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-plan-chip.is-active {
+	background: color-mix(in srgb, var(--interactive-accent) 18%, var(--background-secondary));
+	border-color: color-mix(in srgb, var(--interactive-accent) 46%, var(--background-modifier-border));
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-plan-selection-summary {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px 16px;
+	padding: 12px 14px;
+	border-radius: 14px;
+	background: color-mix(in srgb, var(--background-secondary) 70%, transparent);
+}
+
+.keepsidian-sync-plan-selection-caption {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+}
+
+.keepsidian-sync-plan-select-all {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-size: var(--font-ui-small);
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-plan-select-all input[type="checkbox"] {
+	margin: 0;
+}
+
+.keepsidian-sync-plan-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-height: min(58vh, 620px);
+	overflow: auto;
+	padding-right: 6px;
+}
+
+.keepsidian-sync-plan-row {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	gap: 12px;
+	align-items: start;
+	padding: 14px 16px;
+	border: 1px solid color-mix(in srgb, var(--background-modifier-border) 74%, transparent);
+	border-radius: 16px;
+	background: color-mix(in srgb, var(--background-secondary) 78%, transparent);
+	box-shadow: 0 10px 30px color-mix(in srgb, black 7%, transparent);
+}
+
+.keepsidian-sync-plan-row.is-actionable {
+	border-color: color-mix(in srgb, var(--interactive-accent) 24%, var(--background-modifier-border));
+}
+
+.keepsidian-sync-plan-row.is-locked {
+	opacity: 0.9;
+}
+
+.keepsidian-sync-plan-row-toggle,
+.keepsidian-sync-plan-row-status {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	min-height: 22px;
+	padding-top: 2px;
+}
+
+.keepsidian-sync-plan-row-toggle input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+}
+
+.keepsidian-sync-plan-row-status {
+	font-size: var(--font-ui-small);
+	font-weight: 800;
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-plan-row.is-done .keepsidian-sync-plan-row-status,
+.keepsidian-sync-plan-row.is-instant .keepsidian-sync-plan-row-status {
+	color: var(--text-success);
+}
+
+.keepsidian-sync-plan-row.is-failed .keepsidian-sync-plan-row-status {
+	color: var(--text-error);
+}
+
+.keepsidian-sync-plan-row.is-unchecked .keepsidian-sync-plan-row-status {
+	color: var(--text-faint);
+}
+
+.keepsidian-sync-plan-row-body {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	min-width: 0;
+}
+
+.keepsidian-sync-plan-row-title-line {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.keepsidian-sync-plan-row-title {
+	font-size: var(--font-ui-medium);
+	font-weight: 700;
+	color: var(--text-normal);
+}
+
+.keepsidian-sync-plan-row-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 4px 8px;
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--background-primary-alt) 72%, transparent);
+	font-size: var(--font-ui-smaller);
+	font-weight: 700;
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-plan-row-path {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+	word-break: break-word;
+}
+
+.keepsidian-sync-plan-row-detail {
+	font-size: var(--font-ui-small);
+	line-height: 1.45;
+	color: var(--text-muted);
+}
+
+.keepsidian-sync-plan-row.is-group-create .keepsidian-sync-plan-row-badge {
+	background: color-mix(in srgb, var(--color-green) 14%, transparent);
+	color: color-mix(in srgb, var(--color-green) 68%, var(--text-normal));
+}
+
+.keepsidian-sync-plan-row.is-group-merge .keepsidian-sync-plan-row-badge {
+	background: color-mix(in srgb, var(--color-blue) 14%, transparent);
+	color: color-mix(in srgb, var(--color-blue) 64%, var(--text-normal));
+}
+
+.keepsidian-sync-plan-row.is-group-overwrite .keepsidian-sync-plan-row-badge,
+.keepsidian-sync-plan-row.is-group-upload .keepsidian-sync-plan-row-badge {
+	background: color-mix(in srgb, var(--color-orange) 16%, transparent);
+	color: color-mix(in srgb, var(--color-orange) 72%, var(--text-normal));
+}
+
+.keepsidian-sync-plan-row.is-group-conflict-copy .keepsidian-sync-plan-row-badge {
+	background: color-mix(in srgb, var(--color-red) 14%, transparent);
+	color: color-mix(in srgb, var(--color-red) 66%, var(--text-normal));
+}
+
+.keepsidian-sync-plan-row.is-group-already-up-to-date .keepsidian-sync-plan-row-badge {
+	background: color-mix(in srgb, var(--background-primary-alt) 76%, transparent);
+	color: var(--text-faint);
+}
+
+.keepsidian-modal-close {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.keepsidian-modal-inline-action {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 124px;
+	padding: 7px 16px;
+	border-radius: 999px;
+	font-weight: 600;
+	box-shadow: none;
+	transition:
+		background-color 140ms ease,
+		border-color 140ms ease,
+		color 140ms ease,
+		transform 140ms ease;
+}
+
+.keepsidian-modal-inline-action--cancel {
+	border: 1px solid color-mix(in srgb, var(--color-red, #ef4444) 42%, var(--background-modifier-border));
+	background: color-mix(in srgb, var(--color-red, #ef4444) 10%, var(--background-secondary));
+	color: color-mix(in srgb, var(--color-red, #ef4444) 82%, white 8%);
+}
+
+.keepsidian-modal-inline-action--cancel:hover:not(:disabled) {
+	background: color-mix(in srgb, var(--color-red, #ef4444) 16%, var(--background-secondary));
+	border-color: color-mix(in srgb, var(--color-red, #ef4444) 56%, var(--background-modifier-border));
+	transform: translateY(-1px);
+}
+
+.keepsidian-modal-inline-action--cancel:disabled {
+	opacity: 0.65;
+	transform: none;
+}
+
+.modal-close-button.is-disabled {
+	opacity: 0.45;
+	cursor: default;
+}
+
+@media (max-width: 720px) {
+	.keepsidian-modal-shell--compact,
+	.keepsidian-modal-shell--plan {
+		width: calc(100vw - 24px);
+		max-width: calc(100vw - 24px);
+	}
+
+	.keepsidian-sync-stepper {
+		gap: 8px;
+	}
+
+	.keepsidian-modal-header-meta {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 10px;
+	}
+
+	.keepsidian-modal-status-actions {
+		justify-content: stretch;
+	}
+
+	.keepsidian-modal-inline-action {
+		width: 100%;
+	}
+
+	.keepsidian-sync-plan {
+		padding: 14px;
+	}
+
+	.keepsidian-sync-plan-row {
+		padding: 12px 13px;
+	}
+
+	.keepsidian-sync-plan-selection-summary {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
+
+.requires-subscription {
+	opacity: 0.6;
+}
+
+.requires-subscription .setting-item-name::after {
+	content: "\1F512";
+	/* Unicode lock icon */
+	margin-left: 4px;
+}
+
+.keepsidian-support-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin: 16px 0;
+	font-size: 0.95em;
+	color: var(--text-muted);
+}
+
+.keepsidian-support-spacer {
+	flex: 1;
+}
+
+.keepsidian-support-label {
+	font-weight: 400;
+	font-size: var(--font-ui-small);
+}
+
+.keepsidian-support-version {
+	font-weight: 400;
+	color: var(--text-faint, var(--text-muted));
+}
+
+.keepsidian-support-links {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.keepsidian-support-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 6px 12px;
+	border-radius: 999px;
+	background: var(--background-modifier-hover);
+	color: var(--text-accent);
+	text-decoration: none;
+	transition:
+		background 0.2s ease,
+		color 0.2s ease;
+}
+
+.keepsidian-support-link:hover {
+	background: var(--background-modifier-active-hover, var(--background-modifier-border));
+	text-decoration: none;
+}
+
+.keepsidian-support-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.keepsidian-support-icon svg {
+	width: 1.1em;
+	height: 1.1em;
+}
+
+.keepsidian-support-text {
+	font-weight: 400;
+	font-size: var(--font-ui-small);
+}
+
+.keepsidian-token-status {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 4px;
+	margin-left: 10px;
+	color: var(--text-success, #4caf50);
+}
+
+.keepsidian-token-status__icon {
+	display: inline-flex;
+	align-items: baseline;
+	justify-content: center;
+	color: inherit;
+}
+
+.keepsidian-token-status__icon svg {
+	width: 0.8em;
+	height: 0.8em;
+}
+
+.keepsidian-token-status__text {
+	color: inherit;
+	font-size: var(--font-ui-small);
+}
+
+.keepsidian-settings-hr {
+	margin: 16px 0;
+	border: none;
+	border-top: 2px dashed var(--background-modifier-border);
+}
+
+.keepsidian-retrieve-token-wrapper {
+	display: grid;
+	grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+	gap: 16px;
+	align-items: start;
+	margin-top: 12px;
+}
+
+.keepsidian-note-path-preview {
+	margin-top: 12px;
+	padding: 12px;
+	border: 1px dashed var(--background-modifier-border);
+	border-radius: 8px;
+	background: var(--background-secondary-alt);
+}
+
+.keepsidian-note-path-preview__label {
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+.keepsidian-note-path-preview__path {
+	display: block;
+	font-size: 0.9em;
+	white-space: normal;
+	overflow-wrap: anywhere;
+}
+
+@media (max-width: 960px) {
+	.keepsidian-retrieve-token-wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+.keepsidian-retrieve-token-guide {
+	background: var(--background-modifier-hover);
+	padding: 16px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.keepsidian-retrieve-token-guide__title {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.keepsidian-retrieve-token-guide__message {
+	margin: 0;
+	color: var(--text-muted);
+	line-height: 1.4;
+}
+
+.keepsidian-retrieve-token-guide__list {
+	margin: 0;
+	padding-left: 20px;
+	color: var(--text-normal);
+	line-height: 1.35;
+}
+
+.keepsidian-retrieve-token-guide__action {
+	margin-top: 8px;
+}
+
+.keepsidian-retrieve-token-guide__status {
+	padding: 8px 10px;
+	border-radius: 6px;
+	font-size: 0.92em;
+	line-height: 1.35;
+}
+
+.keepsidian-status-info {
+	background: var(--background-secondary);
+	color: var(--text-muted);
+}
+
+.keepsidian-status-success {
+	background: var(--background-modifier-success);
+	color: var(--text-normal);
+}
+
+.keepsidian-status-warning {
+	background: var(--background-modifier-warning);
+	color: var(--text-normal);
+}
+
+.keepsidian-status-error {
+	background: var(--background-modifier-error);
+	color: var(--text-on-accent, var(--text-normal));
+}
+
+.keepsidian-retrieve-token-webview {
+	min-height: 260px;
+}

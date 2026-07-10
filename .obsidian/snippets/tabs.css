@@ -1,0 +1,83 @@
+/* ── TABS ─────────────────────────────────────────────────────
+   Hidden tab title bar (fades in on hover)
+   Rounded pill tabs with border + ALL CAPS
+   Credit: kristenbouchard (reddit.com/r/ObsidianMD/comments/1s96asw)
+   ─────────────────────────────────────────────────────────── */
+
+/* Tab Title Bar must be ENABLED in Settings → Appearance */
+
+.view-header {
+  border-bottom: 0 !important;
+}
+
+/* NOTE: do NOT hide .view-header-title-container — under AnuPpuccin card
+   layout the open-note TAB LABEL lives there, so hiding it leaves empty pills. */
+
+/* Nav buttons + view actions hidden, fade in on hover */
+.view-header-nav-buttons {
+  opacity: 0 !important;
+  transition: opacity 0.3s !important;
+}
+.view-header-nav-buttons:hover {
+  opacity: 0.8 !important;
+}
+
+.view-actions {
+  opacity: 0 !important;
+  transition: opacity 0.3s !important;
+}
+.view-actions:hover {
+  opacity: 0.8 !important;
+}
+
+/* Pill tabs — applied to ALL tabs, then reset on sidebars below */
+.workspace-tab-header {
+  border-radius: 20px !important;
+  padding-left: 10px !important;
+  border: 1.5px solid rgba(0, 0, 0, 0.35) !important;
+  background-color: #fcfaf5 !important;
+}
+
+/* Both sidebars: plain icons, no pills, no circles, no white boxes
+   (higher specificity than the rule above, so it wins) */
+.mod-left-split .workspace-tab-header,
+.mod-right-split .workspace-tab-header,
+.mod-left-split .workspace-tab-header.is-active,
+.mod-right-split .workspace-tab-header.is-active {
+  border-radius: 4px !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Sidebar tab header rows sit on the frame, not white */
+.mod-left-split .workspace-tab-header-container,
+.mod-right-split .workspace-tab-header-container {
+  background-color: transparent !important;
+}
+
+/* ALL CAPS tab titles — fixed px so it matches the sidebar size exactly */
+.workspace-tab-header-inner-title {
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+/* Minimal tab bar */
+.workspace-tab-header-container {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+
+/* Active tab — SOLID pink, no transparency (sidebars reset above win over this) */
+.workspace-tab-header.is-active {
+  background-color: #f39ec2 !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Active tab text — force dark so it reads on pink */
+.workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: #1a1a1a !important;
+}
