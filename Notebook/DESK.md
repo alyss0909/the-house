@@ -7,7 +7,7 @@ source_class: map
 
 # The desk 📬
 
-Empty desk = nothing needs you. Full background docs, if ever wanted: [[2026-07-10-inbox-triage-proposal|triage detail]] · [[2026-07-10-journal-integrity-audit|journal audit]] · [[2026-07-10-voice-metabolization-audit|voice audit]].
+Empty desk = nothing needs you. Full background docs, if ever wanted: [[2026-07-10-inbox-triage-proposal|triage detail]] · [[2026-07-10-journal-integrity-audit|journal audit]] · [[2026-07-10-voice-metabolization-audit|voice audit]]. Whole-house dashboard: [[HOME]] — pulls this "Needs a ruling" list live.
 
 ## The reorg is COMPLETE 🏠 — one keystroke left
 
@@ -17,7 +17,18 @@ Open a terminal in the-house folder and run: `git push -u origin master && git p
 
 **The numbers:** Library orphans 17 → 0 (+385 links, the graph steered its first stranger today) · Deliverables 1,372 files → 6 · inbox 50 → 4 living notes · voice: one authority, 55 rules metabolized · founding docs describe the real house.
 
-## Nothing needs a ruling right now ✨
+## Status reports
+
+- [[2026-07-12-journal-backfill-and-compounding-project-status|Journal backfill + compounding project status]] — corrected after Claude handoff: mechanical hubs exist, but the real ultracode backfill is paused until verified JSON artifacts are recovered or regenerated.
+
+## Ready for you to run
+
+- [[Studio/Mailroom/gmail-filters-paste-and-go|Gmail filters — paste-and-go]] — 5 ready copy-paste filter strings for Gmail's own filter UI, plus a never-filter checklist. Yours whenever.
+
+## Needs a ruling
+
+- **What IS your north star?** I wrongly printed the content funnel (comments → list → sales) as your north star on the HOME mockup. Full trace of how the scope error happened + the fix: [[2026-07-10-north-star-scope-error-trace|north star error trace]]. The HOME masthead holds a spot for the real one — dictate it, riff it, or leave it empty until earned.
+- **Telegram capture may be silently broken.** The bot that feeds your inbox has failed every run since 2026-07-10 with no log to diagnose from. Full detail + the rest of this week's house-keeping findings: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|W28 house check]] — say the word and I'll route it to Mack.
 
 ## Done today (for the record)
 
