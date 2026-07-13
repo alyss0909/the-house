@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-13 10:48
+generated: 2026-07-13 10:57
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -12,23 +12,19 @@ Ultracode journal backfill is NOT done. [[NOW]] now ignores generated Journal We
 Missing artifacts in this Codex workspace: `/tmp/backfill_kept.json`, `/tmp/backfill_nohome.json`, `/tmp/backfill_rejected.json`, `/tmp/recovered_proposals.json`.
 [[tsk-2026-07-11-001-journal-connection-backfill]] is open/blocked until those files are recovered or the true-orphan pass is regenerated locally.
 Desk report filed and corrected: [[2026-07-12-journal-backfill-and-compounding-project-status]].
-SOP-039 LIGHT house-check ran for 2026-W28: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]. One stale task closed (home page build). Three items need a human, not an agent, and are linked from [[Notebook/DESK|DESK]] and this file's open threads: the Telegram capture bot has failed every run since 2026-07-10, a small fact duplication sits in Studio/Hermes/MAP.md vs BUSINESS.md, and vault-root has loose backup/scratch files nobody has cleared.
+SOP-039 LIGHT house-check ran for 2026-W28: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]. One stale task closed (home page build). Alyssa said "action all 3" on the three flagged items: root-level clutter cleared and the Hermes MAP/BUSINESS fact duplication fixed, both same session. The Telegram capture bot (failing every run since 2026-07-10) is delegated to Mack and still in progress — see open threads.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-12-12-34_larry_journal-backfill-compounding-status]])
-- [ ] Recover Claude `/tmp/backfill_*.json` artifacts or regenerate the true-orphan pass locally.
-- [ ] Verify the 63 unverified proposals if artifacts are recovered.
-- [ ] Apply only verified genuine connections to non-journal target files.
-- [ ] Alyssa re-auths KeepSidian ("Retrieve token" - Google login) to fix missing credentials.
-- [ ] Decide yes/no on patching main.js to import Keep labels as frontmatter tags.
-- [ ] Verify labels actually land once a sync runs; loop until visible in Notekeeper.
-- [ ] Run W28 weekly review chain to burn down exposed wrap/check-back/task debt.
+## Open threads (from [[2026-07-13-10-48_larry_house-check-w28-and-compounding-audit]])
+- [x] Root-level clutter clear — died because: Alyssa said "action all 3"; cleared the same session (.nkbak backups, two empty scratch canvases, `_to_delete/`; `*.nkbak` added to `.gitignore` so it stops recurring).
+- [x] Hermes MAP/BUSINESS fact duplication — died because: Alyssa said "action all 3"; fixed the same session — the W4 Wed calendar row in [[Studio/Hermes/MAP]] now links to [[Studio/Hermes/BUSINESS]] instead of retyping the price/coupon. Left the dated "RESOLVED 2026-07-10" log line in section 7 alone (decision record, not a live restatement).
+- [ ] Telegram capture bot fix — died because: not yet, delegated to Mack this session, still running. Live on [[NOW]] and [[Notebook/DESK|DESK]] until it reports back.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **329/550 entries linked by non-generated sources (60%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
 - oldest never-linked: [[2020-03-28-youve-qualified-for-off-this-order]] (`Notebook/Journal/2020/03/2020-03-28-youve-qualified-for-off-this-order.md`)
 - newest never-linked: [[2026-07-01-use-for-email-and-post-inspo]] (`Notebook/Journal/2026/07/2026-07-01-use-for-email-and-post-inspo.md`)
-- most related to last session: [[2022-02-12-how-i-went-from-broke-waitress-to-and-taking-out-a-second]] (`Notebook/Journal/2022/02/2022-02-12-how-i-went-from-broke-waitress-to-and-taking-out-a-second.md`)
+- most related to last session: [[2025-09-13-moe-painting]] (`Notebook/Journal/2025/09/2025-09-13-moe-painting.md`)
 
 ## Due check-backs
 - 2026-07-04 — `Studio/Signals/Developing Ideas/boh-as-permission-not-product.md`

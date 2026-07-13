@@ -28,10 +28,10 @@ Open a terminal in the-house folder and run: `git push -u origin master && git p
 ## Needs a ruling
 
 - **What IS your north star?** I wrongly printed the content funnel (comments → list → sales) as your north star on the HOME mockup. Full trace of how the scope error happened + the fix: [[2026-07-10-north-star-scope-error-trace|north star error trace]]. The HOME masthead holds a spot for the real one — dictate it, riff it, or leave it empty until earned.
-- **Telegram capture may be silently broken.** The bot that feeds your inbox has failed every run since 2026-07-10 with no log to diagnose from. Full detail + the rest of this week's house-keeping findings: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|W28 house check]] — say the word and I'll route it to Mack.
 
 ## Done today (for the record)
 
+- W28 house check ([[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]): root clutter cleared, the Hermes price/coupon duplication fixed (linked to its one home instead of retyped), one stale task closed. Telegram capture bot fix is running with Mack now — status lands here when it's done.
 - Inbox: 50 files → 4 deliberate residents (your two living Keep lists, the sync marker, the folder README). Everything else deleted-as-duplicate, archived, or filed to your Journal with links.
 - Your [[Library/Offers/back-of-house/launch-emails-july-26|July launch email sequence]] is on the Library shelf — your first promotion — with [[2026-06-06-june-launch-email-ideas|the voice-memo riff behind it]] filed beside it in your Journal.
 - [[Notebook/Drafts/Before Monday|Before Monday]] lives in your new Drafts folder with a team task so we come back to it.
