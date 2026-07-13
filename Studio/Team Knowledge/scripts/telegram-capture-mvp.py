@@ -22,14 +22,27 @@ from typing import Any
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-VAULT_ROOT = SCRIPT_DIR.parents[1]
+# SCRIPT_DIR = <vault>/Studio/Team Knowledge/scripts -> vault root is 3 levels up.
+# NOTE: this was `.parents[1]` (2 levels up) before the 2026-07-09/10 restructure
+# moved `Team Knowledge/` one level deeper into `Studio/`. That off-by-one silently
+# resolved VAULT_ROOT to `<vault>/Studio` instead of `<vault>`, which would have
+# written every future capture to `Studio/Notebook/Inbox` (a folder that doesn't
+# exist in the real vault layout) instead of the real `Notebook/Inbox`. Fixed
+# 2026-07-13 before any capture landed in the wrong place. If this script or
+# `Team Knowledge/` moves again, update this line.
+VAULT_ROOT = SCRIPT_DIR.parents[2]
 TEAM_INBOX = VAULT_ROOT / "Notebook" / "Inbox"
 # Secrets and runtime state live OUTSIDE the vault per security rule
 # (no credentials inside the OneDrive-synced vault). Moved 2026-07-10.
 CONFIG_DIR = Path.home() / ".config" / "telegram-capture"
 ENV_FILE = CONFIG_DIR / "telegram-capture.env"
 STATE_FILE = CONFIG_DIR / ".telegram-capture-state.json"
+# Internal log, written by the script itself so there's a diagnostic trail
+# regardless of how Task Scheduler launches it (the live task has no stdout/
+# stderr redirect). Lives outside the vault next to the other runtime state.
+LOG_FILE = CONFIG_DIR / "telegram-capture.log"
 POLL_TIMEOUT_SECONDS = 30
+POLL_ERROR_BACKOFF_SECONDS = 15
 
 ROUTE_COMMANDS = {
     "/content": "notion-content-bank",
@@ -40,6 +53,19 @@ ROUTE_COMMANDS = {
     "/parenting": "obsidian-parenting",
     "/home": "obsidian-home",
 }
+
+
+def log(message: str) -> None:
+    """Print (for interactive/manual runs) and append to LOG_FILE (for
+    unattended Task Scheduler runs, which have no stdout capture)."""
+    stamped = f"{dt.datetime.now().astimezone().isoformat(timespec='seconds')} {message}"
+    print(stamped, flush=True)
+    try:
+        LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with LOG_FILE.open("a", encoding="utf-8") as handle:
+            handle.write(stamped + "\n")
+    except OSError:
+        pass  # logging must never crash the capture loop
 
 
 def load_env_file(path: Path) -> None:
@@ -202,7 +228,7 @@ def process_updates(token: str, offset: int | None, timeout: int) -> tuple[int |
         capture_path = write_capture(message)
         send_confirmation(token, message, capture_path)
         saved_count += 1
-        print(f"Saved {capture_path}", flush=True)
+        log(f"Saved {capture_path}")
 
     return offset, saved_count
 
@@ -225,19 +251,29 @@ def main() -> None:
     if args.health_check:
         me = telegram_api(token, "getMe", {})
         username = me.get("result", {}).get("username", "unknown")
-        print(f"Telegram token is valid for @{username}.", flush=True)
+        log(f"Telegram token is valid for @{username}.")
         return
 
     offset = load_offset()
     if args.once:
         offset, saved_count = process_updates(token, offset, args.timeout)
         if saved_count == 0:
-            print("No queued Telegram messages found.", flush=True)
+            log("No queued Telegram messages found.")
         return
 
-    print("Telegram capture MVP is running. Press Ctrl+C to stop.", flush=True)
+    log("Telegram capture MVP is running. Press Ctrl+C to stop.")
+    consecutive_errors = 0
     while True:
-        offset, _ = process_updates(token, offset, args.timeout)
+        try:
+            offset, _ = process_updates(token, offset, args.timeout)
+            consecutive_errors = 0
+        except KeyboardInterrupt:
+            raise
+        except Exception as exc:  # noqa: BLE001 - a poll failure must never kill the loop
+            consecutive_errors += 1
+            log(f"Poll error ({consecutive_errors} in a row): {exc!r}")
+            time.sleep(min(POLL_ERROR_BACKOFF_SECONDS * consecutive_errors, 300))
+            continue
         time.sleep(1)
 
 

@@ -20,3 +20,8 @@ desktop.ini
 
 # Editor auto-backups (Notekeeper plugin)
 *.nkbak
+
+# Python build artifacts (vault is markdown-only; scripts/ is the one exception,
+# but its compiled bytecode cache should never be tracked)
+__pycache__/
+*.pyc

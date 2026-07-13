@@ -27,7 +27,7 @@ linked_sops: [SOP-003-keep-notes-to-journal, SOP-012-codex-windows-sandbox-recov
 linked_workstreams: [WS-004-inbox-processing]
 linked_guidelines: []
 linked_my_life: [pkm, systematize-socials]
-linked_session_logs: [2026-06-02-17-20_larry_telegram-capture-mvp-handoff, 2026-06-03-22-21_larry_telegram-mvp-and-open-loop-realignment, 2026-06-04-10-58_larry_instagram-saves-telegram-processing]
+linked_session_logs: [2026-06-02-17-20_larry_telegram-capture-mvp-handoff, 2026-06-03-22-21_larry_telegram-mvp-and-open-loop-realignment, 2026-06-04-10-58_larry_instagram-saves-telegram-processing, 2026-07-13-11-05_mack_telegram-capture-bot-fix]
 linked_journal_entries: []
 
 # Tagging
@@ -85,6 +85,7 @@ Example shape: `https://www.instagram.com/reel/... #hook #content`.
 - 2026-06-03 22:21 (mack) - MVP pipe verified from existing Telegram captures in `Team Inbox/_Processed/`; current token health-check succeeds for `@ideaeaterbot`; one-time poll found no queued messages. Added `--health-check`, `--once`, and flushed status output so future tests are clear. Remaining blocker: regenerate exposed BotFather token and run one final message test.
 - 2026-06-04 14:58 (mack) - incorporated Alyssa's realignment from the Notion Instagram Saves Engine page: keep Telegram as the capture layer, use the post's processing/ideation pattern, and ask Alyssa to send social URLs with intent tags like `#recreate`, `#repost`, `#design`, `#content`, and `#hook`.
 - 2026-06-05 (mack) - service installer built at `Team Knowledge/Automations/telegram-service-install.ps1`. Registers a Windows Task Scheduler task ("myPKA - Telegram Capture Bot") that runs at startup under the `accol` account using `pythonw.exe` (no console window), restarts on failure up to 3 times then every 1 hour, and appends all output to `Team Knowledge/scripts/telegram-capture.log`. One action remaining: Alyssa runs `telegram-service-install.ps1` once as Administrator to register the task — no other tools required.
+- 2026-07-13 (mack) - priors loaded: none (task's `linked_journal_entries` is empty). The live task ended up being a different, simpler registration than the installer above (`TelegramCaptureBot`, raw `python.exe`, no log redirect, logon trigger) and it silently failed after the 2026-07-09/10 restructure. Fixed a real bug the restructure introduced (`VAULT_ROOT` path-depth miscalculation was about to send captures to a nonexistent `Studio/Notebook/Inbox` instead of the real `Notebook/Inbox` — caught before any message was actually misfiled), added internal logging and poll-loop error backoff, corrected the README's stale env-file location. Full detail: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-13-11-05_mack_telegram-capture-bot-fix]]. Bot verified running again. Did not touch `blocked_reason` (token-regeneration) — out of this session's scope; the bot has in practice been running on the same un-regenerated token for weeks, so that blocker may already be moot, but that's a call for whoever owns this task next, not decided here.
 
 ## Outcome
 

@@ -31,7 +31,7 @@ Open a terminal in the-house folder and run: `git push -u origin master && git p
 
 ## Done today (for the record)
 
-- W28 house check ([[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]): root clutter cleared, the Hermes price/coupon duplication fixed (linked to its one home instead of retyped), one stale task closed. Telegram capture bot fix is running with Mack now — status lands here when it's done.
+- W28 house check ([[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]): root clutter cleared, the Hermes price/coupon duplication fixed (linked to its one home instead of retyped), one stale task closed. Telegram capture is fixed and running again: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-13-11-05_mack_telegram-capture-bot-fix|fix log]] — the folder move had pointed new captures at a folder that doesn't exist; caught before anything was actually lost.
 - Inbox: 50 files → 4 deliberate residents (your two living Keep lists, the sync marker, the folder README). Everything else deleted-as-duplicate, archived, or filed to your Journal with links.
 - Your [[Library/Offers/back-of-house/launch-emails-july-26|July launch email sequence]] is on the Library shelf — your first promotion — with [[2026-06-06-june-launch-email-ideas|the voice-memo riff behind it]] filed beside it in your Journal.
 - [[Notebook/Drafts/Before Monday|Before Monday]] lives in your new Drafts folder with a team task so we come back to it.

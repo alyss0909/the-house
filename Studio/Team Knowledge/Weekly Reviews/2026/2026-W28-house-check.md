@@ -25,6 +25,8 @@ Run per [[Studio/Team Knowledge/SOPs/SOP-039-house-keeping|SOP-039]] LIGHT pass.
 
 **8. Capture pulse.** Found a live gap: the current `TelegramCaptureBot` scheduled task (logon-triggered, correct path under this vault) last ran 2026-07-10 12:57 PM with result code `3221225786` (failure) and has no recorded run since; no `telegram-capture.log` exists at its expected path to diagnose further. The newest genuinely-new file in `Notebook/Inbox/` predates that failure. The older, disabled `myPKA - Telegram Capture Bot` task (pointing at the pre-migration `mypka-scaffold-latest (2)` path) is correctly retired — not the problem. **Flagged for Mack** — this looks like a silently-dead capture automation, not something to fix by editing scheduled tasks unattended.
 
+**Resolved 2026-07-13 by Mack:** found and fixed a real bug the restructure introduced (a path-depth calculation was about to send new captures to a folder that doesn't exist in the real vault, `Studio/Notebook/Inbox`, instead of the real `Notebook/Inbox` — caught before any message was actually misfiled), added a script-level log file and poll-loop error handling, restarted the live task. The recorded crash itself could not be reproduced and is believed to be a one-time race during the active `git mv` that moved `Team Knowledge/` into `Studio/` that same day. Full detail: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-13-11-05_mack_telegram-capture-bot-fix]].
+
 ## Summary
 
 | # | Check | Result |
@@ -36,6 +38,6 @@ Run per [[Studio/Team Knowledge/SOPs/SOP-039-house-keeping|SOP-039]] LIGHT pass.
 | 5 | Orphans | ✅ clean |
 | 6 | Studio desk hygiene | ✅ clean (root clutter flagged, outside strict scope) |
 | 7 | Task truth | 🔧 fixed (1 status), ⚠ flagged (1 stray empty file, INDEX rebuild needed) |
-| 8 | Capture pulse | ⚠ flagged (Telegram capture bot failing since 2026-07-10) |
+| 8 | Capture pulse | 🔧 fixed 2026-07-13 (was: failing since 2026-07-10) |
 
-**Needs Alyssa or a specialist, not this pass:** the Hermes MAP/BUSINESS fact duplication (Hermes territory), the Telegram capture bot failure (route to Mack), root-level clutter cleanup, and a SOP-008 task-index rebuild.
+**Needs Alyssa or a specialist, not this pass:** the Hermes MAP/BUSINESS fact duplication (Hermes territory), root-level clutter cleanup, and a SOP-008 task-index rebuild. (Telegram capture bot fixed 2026-07-13 — see check 8.)
