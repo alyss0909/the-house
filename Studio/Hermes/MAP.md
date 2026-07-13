@@ -58,7 +58,7 @@ Sales = event-driven promo overlay (PTR→PTS→PTB per `4.1 The Lazy Launch`), 
 | W3 Wed | → Back of House (YESCHEF) | 2026-03-03-organic-marketing-is-dying | Phase 1 arc; 4.1 Lazy Launch; 84 Combinations (2.3 slides) |
 | W3 Fri | none | 2026-03-10-guest-cheque-quote | — |
 | W4 Mon | Soft CEO Sessions (Softceo) / Quarter Prompt (Claude) — teach from the real Soft CEO Session/email source, no forced carousel | GAP — no real post | 0.3; 0.1 Inspiration Pantry |
-| W4 Wed | → 90d Clock In (Clock) / CEO Year Planner (Whimsy, $79 / CALMMYEAR → $39) / Soft CEO Monthly (Ceo) | 2026-02-01-feb-is-the-new-jan, 2026-03-01-80-days | 0.3; 0.1 |
+| W4 Wed | → 90d Clock In (Clock) / CEO Year Planner (Whimsy, price+coupon: [[Studio/Hermes/BUSINESS|BUSINESS]]) / Soft CEO Monthly (Ceo) | 2026-02-01-feb-is-the-new-jan, 2026-03-01-80-days | 0.3; 0.1 |
 | W4 Fri | soft productivity/freebie mention only if natural | 2026-03-07-march-affirmations | — |
 
 Sales overlay (event-driven, never a weekly slot): **The Promo Planner in Notion** — one signature offer replated across 10 seasonal reframes (84 Combinations). Runs on its own PTR→PTS→PTB event calendar per `4.1 The Lazy Launch`, layered on top of whichever week it lands in.

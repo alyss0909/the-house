@@ -17,3 +17,6 @@ tmp/
 # Windows junk
 Thumbs.db
 desktop.ini
+
+# Editor auto-backups (Notekeeper plugin)
+*.nkbak
