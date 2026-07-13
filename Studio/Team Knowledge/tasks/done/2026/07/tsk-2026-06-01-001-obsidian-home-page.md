@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 2
 
 # Status
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -83,4 +83,4 @@ Rule of thumb: if deleting the entire `.obsidian/` folder would change the note'
 
 ## Outcome
 
-_(filled when status flips to done)_
+Closed by SOP-039 house-check 2026-W28: [[HOME]] is live at vault root — built by Felix 2026-07-10, styled by Iris same day per Alyssa's live review, sidebar nav to all six rooms, maintained by the team like DESK. Success criteria met.
