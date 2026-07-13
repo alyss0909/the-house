@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-13 10:57
+generated: 2026-07-13 11:04
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -12,13 +12,11 @@ Ultracode journal backfill is NOT done. [[NOW]] now ignores generated Journal We
 Missing artifacts in this Codex workspace: `/tmp/backfill_kept.json`, `/tmp/backfill_nohome.json`, `/tmp/backfill_rejected.json`, `/tmp/recovered_proposals.json`.
 [[tsk-2026-07-11-001-journal-connection-backfill]] is open/blocked until those files are recovered or the true-orphan pass is regenerated locally.
 Desk report filed and corrected: [[2026-07-12-journal-backfill-and-compounding-project-status]].
-SOP-039 LIGHT house-check ran for 2026-W28: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]. One stale task closed (home page build). Alyssa said "action all 3" on the three flagged items: root-level clutter cleared and the Hermes MAP/BUSINESS fact duplication fixed, both same session. The Telegram capture bot (failing every run since 2026-07-10) is delegated to Mack and still in progress — see open threads.
+SOP-039 LIGHT house-check ran for 2026-W28: [[Studio/Team Knowledge/Weekly Reviews/2026/2026-W28-house-check|report]]. One stale task closed (home page build). Alyssa said "action all 3" on the three flagged items — all three closed same session: root-level clutter cleared, the Hermes MAP/BUSINESS fact duplication fixed, and Mack found + fixed a real post-restructure bug in the Telegram capture bot (path depth was about to misfile every future capture; caught before any message was lost) and confirmed the live task is running. Note: `TelegramCaptureBot` is logon-triggered — it's alive now only because Mack started it manually this session; it will also start correctly at the next real Windows logon.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-13-10-48_larry_house-check-w28-and-compounding-audit]])
-- [x] Root-level clutter clear — died because: Alyssa said "action all 3"; cleared the same session (.nkbak backups, two empty scratch canvases, `_to_delete/`; `*.nkbak` added to `.gitignore` so it stops recurring).
-- [x] Hermes MAP/BUSINESS fact duplication — died because: Alyssa said "action all 3"; fixed the same session — the W4 Wed calendar row in [[Studio/Hermes/MAP]] now links to [[Studio/Hermes/BUSINESS]] instead of retyping the price/coupon. Left the dated "RESOLVED 2026-07-10" log line in section 7 alone (decision record, not a live restatement).
-- [ ] Telegram capture bot fix — died because: not yet, delegated to Mack this session, still running. Live on [[NOW]] and [[Notebook/DESK|DESK]] until it reports back.
+## Open threads (from [[2026-07-13-11-05_mack_telegram-capture-bot-fix]])
+- none recorded — check the latest session log directly
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **329/550 entries linked by non-generated sources (60%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.

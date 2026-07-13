@@ -39,7 +39,7 @@ Fixed same session: added a linked, one-line entry to DESK's "Needs a ruling" se
 
 - [x] Root-level clutter clear — died because: Alyssa said "action all 3"; cleared the same session (.nkbak backups, two empty scratch canvases, `_to_delete/`; `*.nkbak` added to `.gitignore` so it stops recurring).
 - [x] Hermes MAP/BUSINESS fact duplication — died because: Alyssa said "action all 3"; fixed the same session — the W4 Wed calendar row in [[Studio/Hermes/MAP]] now links to [[Studio/Hermes/BUSINESS]] instead of retyping the price/coupon. Left the dated "RESOLVED 2026-07-10" log line in section 7 alone (decision record, not a live restatement).
-- [ ] Telegram capture bot fix — died because: not yet, delegated to Mack this session, still running. Live on [[NOW]] and [[Notebook/DESK|DESK]] until it reports back.
+- [x] Telegram capture bot fix — died because: Mack found and fixed a real bug (post-restructure path depth was about to send captures to a nonexistent folder, caught before any message was lost), verified the live task is running, log file confirmed. The recorded 2026-07-10 crash itself couldn't be reproduced — believed a one-time race during that day's `git mv`, not a recurring fault. Full detail: [[Studio/Team Knowledge/session-logs/2026/07/2026-07-13-11-05_mack_telegram-capture-bot-fix]].
 
 ## Journal duty
 
