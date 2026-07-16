@@ -1,9 +1,10 @@
 ---
 date: 2026-06-24
 tags:
-  - launch
+  - promo
   - design
   - inspo
+
 ---
 # Launch Visual Palette
 
@@ -21,4 +22,4 @@ Green + Pink + Oat + Baguette
 
 *[Original Keep notes](https://keep.google.com/#NOTE/1wwo5EnNWzJGFLxdo6o_jznTBNqPQ2CUfERMmSegDKsByCZPIIzJBqz0GpeF05wRfK86w)*
 
-**Connections:** [[launch-2026]], [[brand]]
+**Connections:** 

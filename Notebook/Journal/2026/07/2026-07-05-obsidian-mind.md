@@ -1,8 +1,8 @@
 ---
 date: 2026-07-05
 tags:
-  - personal
-  - pkm
+  - second-brain
+
 ---
 # Obsidian Mind
 

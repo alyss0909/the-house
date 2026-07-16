@@ -2,8 +2,8 @@
 date: 2026-06-25
 tags:
   - design
-  - typography
   - inspo
+
 ---
 # Focal Font — Commercial Type
 
@@ -13,4 +13,4 @@ tags:
 
 *[Original Keep note](https://keep.google.com/#NOTE/1sfjEBGw0-_FtT3TeZIIIVpK-jfppl2OssTjqdZbr8zQlLYJkzDcDqDMegE7MWWI)*
 
-**Connections:** [[brand]], [[design]]
+**Connections:** 

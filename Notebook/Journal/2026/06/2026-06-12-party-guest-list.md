@@ -1,7 +1,7 @@
 ---
 date: 2026-06-12
 tags:
-  - personal
+
 ---
 # Party Guest List
 

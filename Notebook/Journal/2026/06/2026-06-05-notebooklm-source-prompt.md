@@ -1,8 +1,8 @@
 ---
 date: 2026-06-05
 tags:
-  - tools
   - ai
+
 ---
 # NotebookLM Source Prompt
 

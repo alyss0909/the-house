@@ -266,4 +266,4 @@ Then: purchased? saving up, deciding
 
 -------------------------------
 
-**Connections:** [[notion-templates]] [[a-year-of-emails]] [[pkm]] [[brand-world]]
+**Connections:** [[notion-templates]] [[a-year-of-emails-sales-page]] [[pkm]] [[brand-world]]

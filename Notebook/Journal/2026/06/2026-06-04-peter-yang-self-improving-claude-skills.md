@@ -2,7 +2,7 @@
 title: "Full Tutorial: Build Self-Improving Claude Skills in 20 Min (Eval + Memory)"
 source: "https://creatoreconomy.so/p/full-tutorial-build-self-improving-claude-skills-in-20-min"
 author:
-  - "[[Peter Yang]]"
+  - "[[peter-yang|Peter Yang]]"
 published: 2026-06-03
 created: 2026-06-04
 description: "Learn how to build a skill from scratch, set up evals so it checks its own work, and add memory so it improves over time"
@@ -167,4 +167,4 @@ Here's how you put this guide into practice. First, reflect on your past week an
 
 ---
 
-*Filed from Team Inbox on 2026-06-04. Source: [[Peter Yang]] via [[creatoreconomy-so]]. Related: [[ai-tools]], [[second-brain]].*
+*Filed from Team Inbox on 2026-06-04. Source: [[peter-yang|Peter Yang]] via [[creatoreconomy-so]]. Related: [[ai-tools]], [[second-brain]].*

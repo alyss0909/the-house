@@ -2,7 +2,7 @@
 date: 2026-06-29
 tags:
   - inspo
-  - content
+
 ---
 # Get a Villian
 

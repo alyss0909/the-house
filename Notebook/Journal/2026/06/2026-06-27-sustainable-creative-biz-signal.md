@@ -1,10 +1,9 @@
 ---
 date: 2026-06-27
 tags:
-  - signal
-  - content-idea
-  - BOH
-  - thesis
+  - idea
+  - back-of-house
+
 ---
 # Signal — The Sustainable Creative Business
 
@@ -18,4 +17,4 @@ Feeds: [[Studio/Signals/Developing Ideas/boh-as-permission-not-product|BOH as Pe
 
 *[Original Keep note](https://keep.google.com/#NOTE/1_V_0Cbrxp7m0_VaBHLwdgX5LPy_AS_DpDbN1TMGGWYhM1_Wjprh4viNlxMt7)*
 
-**Connections:** [[BOH]], [[signals]]
+**Connections:** 

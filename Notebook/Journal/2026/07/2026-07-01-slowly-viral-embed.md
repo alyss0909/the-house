@@ -2,7 +2,7 @@
 date: 2026-07-01
 tags:
   - inspo
-  - content
+
 ---
 # Slowly Viral Embed
 

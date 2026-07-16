@@ -31,4 +31,4 @@ Steal my exact template for writing a cool weekly newsletter that gets opened, g
 - [[2025-12-05-email-product-inspo|Email Product Inspo]]
 - [[2026-01-13-newsletter-template-inspo|Newsletter Template Inspo]]
 
-**Connections:** [[emails]] [[the-5-minute-newsletter]]
+**Connections:** [[emails]] [[the-5-minute-newsletter-sales-page]]

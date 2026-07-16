@@ -17,7 +17,7 @@ https://pin.it/2vKG3gOoy
 - [[2024-04-29-pinterest-rabbit-hole|Pinterest Rabbit Hole]]
 - [[2024-09-17-pinterest-accounts-that-get-the-interior-vibez|Pinterest Accounts That Get The Interior Vibez]]
 - [[2025-02-03-keywords|Keywords]]
-- [[2025-05-16-pin-design-inspo|Pin Design Inspo]]
+- [[2024-05-16-pin-design-inspo|Pin Design Inspo]]
 - [[2025-05-29-pinterest-notion-inspo|Pinterest Notion Inspo]]
 - [[2026-01-22-pinterest-offer-inspo|Pinterest Offer Inspo]]
 - [[2026-01-27-copy-for-pin-planner|Copy For Pin Planner]]

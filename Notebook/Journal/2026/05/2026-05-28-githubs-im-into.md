@@ -21,7 +21,6 @@ tags:
 
 ---
 **Related notes:**
-- 
   
 **Connections:**
 - [[business]] 

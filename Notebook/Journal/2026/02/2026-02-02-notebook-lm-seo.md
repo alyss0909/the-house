@@ -6,4 +6,4 @@ tags:
 ---
 # Notebook LM SEO
 https://www.youtube.com/watch?v=jMH5SN1pavY&list=WL&index=40
-**Connections:** [[blog-and-pin]] [[socials]]
+**Connections:**  [[socials]]

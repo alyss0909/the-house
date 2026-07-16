@@ -32,4 +32,4 @@ You've been treating your newsletter like a gourmet project when it just needs t
 - [[2026-04-27-oops-email-framework|Oops Email Framework]]
 - [[2026-05-14-headline-formulas|Headline Formulas]]
 
-**Connections:** [[emails]] [[the-5-minute-newsletter]]
+**Connections:** [[emails]] [[the-5-minute-newsletter-sales-page]]

@@ -2,7 +2,7 @@
 date: 2026-06-12
 tags:
   - obsidian
-  - vault-design
+
 ---
 # AnuPpuccin Obsidian Theme
 
@@ -17,4 +17,4 @@ The CSS file (`annapuchin.md` in Team Inbox, originally `annapuchin.css`) contai
 **Modes:** Dark + Light  
 **Key customization applied:** File properties visible only on hover, plugins + CSS snippets layered on top of base theme.
 
-**Connections:** [[obsidian]]
+**Connections:** 

@@ -2,8 +2,8 @@
 date: 2026-06-26
 tags:
   - business
-  - bookkeeping
   - thrivecart
+
 ---
 # ThriveCart Application Fees
 
@@ -13,4 +13,4 @@ Saved for bookkeeping/accounting reference.
 
 *[Original Keep note](https://keep.google.com/#NOTE/1hNoLoZH_0FbAn_rMCTFguYv6iAkr_weD85c6avE0Cj_VeN_kYHM7GIKoC6Y3huGl2cyR)*
 
-**Connections:** [[business-ops]], [[thrivecart]]
+**Connections:** 

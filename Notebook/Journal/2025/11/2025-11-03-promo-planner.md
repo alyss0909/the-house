@@ -16,4 +16,4 @@ https://docs.google.com/spreadsheets/d/1Ls33587SZNVgo0b5sFU8f14FvInND3HTZiBgYssC
 - [[2025-09-14-2026-promos|2026 Promos]]
 - [[2025-10-11-launch-notes|Launch Notes]]
 
-**Connections:** [[the-promo-planner-in-notion]] [[promos]]
+**Connections:** [[the-promo-planner-in-notion-sales-page]] [[promos]]

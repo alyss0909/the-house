@@ -2,7 +2,7 @@
 date: 2026-07-02
 tags:
   - planning
-  - cadence
+
 ---
 # Weekly Cadence Outline
 

@@ -17,4 +17,4 @@ We can also test the hook "The #1 mistake I see coaches make with their email li
 
 I have coached X of coaches and The number #1 thing they struggle with is not knowing what to say to their email list....
 
-**Connections:** [[promos]] [[a-year-of-emails]]
+**Connections:** [[promos]] [[a-year-of-emails-sales-page]]

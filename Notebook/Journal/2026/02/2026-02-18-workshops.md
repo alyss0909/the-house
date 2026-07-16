@@ -13,4 +13,4 @@ tags:
 - Quarter Plan > 90d lock in notion / quarter planner notion?
 - sign off specials workshop 11 > bot
 - cold sub cleaning 11 > list revival notion
-**Connections:** [[monthly-workshops]] [[the-promo-planner-in-notion]] [[slo-updates]]
+**Connections:** [[monthly-workshops]] [[the-promo-planner-in-notion-sales-page]] [[slo-updates]]

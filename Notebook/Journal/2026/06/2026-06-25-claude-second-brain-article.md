@@ -3,7 +3,7 @@ date: 2026-06-25
 tags:
   - ai
   - second-brain
-  - reference
+
 ---
 # Claude Second Brain Article
 
@@ -13,4 +13,4 @@ By Jess (The Limitless Jess / Beehiiv). Saved as reference for PKM/second brain 
 
 *[Original Keep note](https://keep.google.com/#NOTE/12ezY-tDgN6evXwbdL3sbDpvd8F71P6bV1WvuJtyCL4UmShTuD1iQ68gW688f0DEfwXaH)*
 
-**Connections:** [[PKM]], [[ai]]
+**Connections:** [[PKM]]

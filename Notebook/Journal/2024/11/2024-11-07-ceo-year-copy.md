@@ -12,4 +12,4 @@ Now that you’ve outlined the next 12 months of your business (you overachiever
 By the end of this planning sesh, you’ll know that every single thing you do has a bigger purpose and leads up to crushing that big goal.
 Now that you’ve mapped out the big picture for the next 12 months (look at you go! 😏), let’s break each month down into 4 weeks. If you’re hosting a webinar in February, maybe you’ll spend one week creating the slides, another writing promo content, and so on.
 By the end of this planning session, you’ll feel that every small step has a purpose—and they’re all leading you toward that big goal.
-**Connections:** [[emails]] [[the-ceo-year-notion-planner]]
+**Connections:** [[emails]] [[the-ceo-year-notion-planner-sales-page]]

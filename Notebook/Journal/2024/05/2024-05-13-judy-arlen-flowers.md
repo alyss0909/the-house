@@ -16,7 +16,7 @@ Tall Skinny Plants:
 - foxglove 
 - hollyhock 
 - delphinium (Full sun to part shade and rich, well-drained soil)
-- 
+- tall phlox (full sun)
 Plants I love (find a home)
 - climbing rose (canadian explorer john davis rose) 
 - wisteria

@@ -22,4 +22,4 @@ think
 - [[2024-09-30-yoe-inspo|Yoe Inspo]]
 - [[2026-01-28-yoe-sales-page-inspo|Yoe Sales Page Inspo]]
 
-**Connections:** [[a-year-of-emails]] [[emails]]
+**Connections:** [[a-year-of-emails-sales-page]] [[emails]]

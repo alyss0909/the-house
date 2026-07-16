@@ -34,4 +34,4 @@ Massive catalog of emotionally charged words organized by category — urgency, 
 - [[2026-05-14-headline-formulas]] — 35 headline formulas, full content fetched
 - [[2026-06-03-conversion-rate-optimization-article]] — conversions, leaky bucket, stats
 
-**Connections:** [[blog-and-pin]] [[emails]]
+**Connections:**  [[emails]]

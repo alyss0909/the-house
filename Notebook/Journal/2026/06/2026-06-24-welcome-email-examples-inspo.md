@@ -15,4 +15,4 @@ Welcome email examples for reference — saved while building out BOH onboarding
 
 *[Original Keep note](https://keep.google.com/#NOTE/1G27pc3NH8njTJDh-L8dNpHebvo_UQyDi_4ZpjaaHdD8H2wy8jeeh_bl8qy6QUgYdUOLA)*
 
-**Connections:** [[email]], [[BOH]]
+**Connections:** 

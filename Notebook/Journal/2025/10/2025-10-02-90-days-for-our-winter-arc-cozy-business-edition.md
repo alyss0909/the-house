@@ -12,4 +12,4 @@ The rules are simple:
 ❄️ Assets > ideas
 We’re lighting candles, grabbing our softest sweatpants, and actually finishing what we started 👏
 Comment Winter Arc I’ll send you my Notion dash so we can do it together 🕯️
-**Connections:** [[90d-clock-in]] [[promos]]
+**Connections:** [[90d-clock-in-sales-page]] [[promos]]

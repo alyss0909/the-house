@@ -13,4 +13,4 @@ all products https://betweenthelinescopy.com/shop
 - [[2024-02-22-yoe-results|Yoe Results]]
 - [[2024-09-30-yoe-inspo|Yoe Inspo]]
 
-**Connections:** [[a-year-of-emails]] [[promos]]
+**Connections:** [[a-year-of-emails-sales-page]] [[promos]]

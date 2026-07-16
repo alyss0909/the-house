@@ -12,4 +12,4 @@ Outstanding to-do snapshot for the Daily Profit Activities offer.
 
 **Related notes**
 
-**Connections:** [[the-daily-profit-activities]]
+**Connections:** [[the-daily-profit-activities-sales-page]]

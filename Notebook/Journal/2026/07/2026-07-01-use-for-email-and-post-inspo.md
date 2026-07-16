@@ -2,7 +2,8 @@
 date: 2026-07-01
 tags:
   - inspo
-  - emails
+  - email
+
 ---
 # Use for Email and Post Inspo
 

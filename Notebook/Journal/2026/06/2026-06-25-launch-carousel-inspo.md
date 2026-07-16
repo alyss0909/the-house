@@ -2,9 +2,10 @@
 date: 2026-06-25
 tags:
   - inspo
-  - launch
-  - instagram
+  - promo
+  - social
   - carousel
+
 ---
 # Launch Carousel Inspo — Recreate This
 
@@ -16,4 +17,4 @@ tags:
 
 *[Original Keep note](https://keep.google.com/#NOTE/1-e1xBmwBXLP8NKpI7Oi9jPw9HAjPh9ggUbrGOn06yOD6CuH_s51iY9e68D9ec9MuMIVi)*
 
-**Connections:** [[launch-2026]], [[instagram]]
+**Connections:** 

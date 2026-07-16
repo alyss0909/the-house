@@ -2,7 +2,8 @@
 date: 2026-06-06
 tags:
   - copy
-  - good-idea
+  - idea
+
 ---
 # BOH Summer Launch — Email Sequence Braindump
 

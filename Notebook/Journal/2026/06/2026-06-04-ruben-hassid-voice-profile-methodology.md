@@ -1,8 +1,8 @@
-﻿---
+---
 title: "I can be you."
 source: "https://ruben.substack.com/p/youre-just-a-text-file?triedRedirect=true"
 author:
-  - "[[Ruben Hassid]]"
+  - "[[ruben-hassid|Ruben Hassid]]"
 published: 2026-05-01
 created: 2026-06-04
 description: "On how Claude can be you:"
@@ -35,7 +35,7 @@ But you're not alone. I also fit in one file.
 
 I've been obsessed with writing since I was this little:
 
-![](https://substackcdn.com/image/fetch/$s_!tPpZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d60339f-6bb7-47f3-b67d-c1605874f369_1445x1088.png)
+![214](https://substackcdn.com/image/fetch/$s_!tPpZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d60339f-6bb7-47f3-b67d-c1605874f369_1445x1088.png)
 
 I can smell this picture. Swimming pool & South of France.
 
@@ -623,8 +623,8 @@ And if someone did send you this, thank them and subscribe for free here:
 
 ## How I use this
 
-The interview prompt in section 2 is the source for how my voice profile was built. Full interview at [[PKM/Second Brain/analysis/voice-archive.md]]. Compressed version at [[PKM/Second Brain/analysis/voice-profile.md]].
+The interview prompt in section 2 is the source for how my voice profile was built. Full interview at [[voice-archive]]. Compressed version at [[voice-profile]].
 
 ---
 
-*Filed from Team Inbox on 2026-06-04. Source: [[Ruben Hassid]] via [[ruben-substack]]. Related: [[voice-and-writing-style]], [[second-brain]].*
+*Filed from Team Inbox on 2026-06-04. Source: [[ruben-hassid|Ruben Hassid]] via [[ruben-substack]]. Related: [[voice-and-writing-style]], [[second-brain]].*

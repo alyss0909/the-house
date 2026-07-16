@@ -12,4 +12,4 @@ https://docs.google.com/spreadsheets/d/1BdcjoOlFiLHnE5Bf8tC72HqA0QiefyeBoSeSDRv6
 - [[2024-09-30-yoe-inspo|Yoe Inspo]]
 - [[2026-01-28-yoe-sales-page-inspo|Yoe Sales Page Inspo]]
 
-**Connections:** [[a-year-of-emails]]
+**Connections:** [[a-year-of-emails-sales-page]]

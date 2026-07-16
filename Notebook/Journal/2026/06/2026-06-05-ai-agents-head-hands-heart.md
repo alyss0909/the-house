@@ -2,7 +2,8 @@
 date: 2026-06-05
 tags:
   - ai
-  - good-idea
+  - idea
+
 ---
 # I Stopped Building AI Agents — Head/Hands/Heart Framework
 
