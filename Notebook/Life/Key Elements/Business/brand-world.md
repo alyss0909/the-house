@@ -45,3 +45,7 @@ status: active
 `inspo`
 - [[2026-02-28-coffee-cup-images|Coffee Cup Images]] — coffee cup image inspo for brand visuals
 - [[2026-02-13-back-of-house-video-rollout-collatoral|Back Of House Video Rollout Collatoral]] — BOH video rollout collateral reference
+
+## Journal connections
+
+- [[2026-06-29-stills-2026-design-trend-report]]: This entry saves Stills' 2026 design trend report PDF as reference for brand visual direction.

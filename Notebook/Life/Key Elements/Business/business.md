@@ -32,6 +32,7 @@ status: active
 - [[2023-10-15-if-i-was-starting-my-business-from-scratch-i-would-keep-it|If I Was Starting My Business From Scratch I Would Keep It]] — streamlined restart: 4 focuses, AI-accelerated, price for profit first
 - [[2024-02-19-niche-hard-brand-harder|Niche Hard Brand Harder]] — be specific about who it's for; brand can speak to everyone
 - [[2026-02-15-i-wanted-my-brand-vision-to-be-thought-out-and-applied-to-a|I Wanted My Brand Vision To Be Thought Out And Applied To A]] — honest rebrand reflection: BOH feeling not yet on the website
+- [[2026-07-11-daily-profit-activities-notion|Daily Profit Activities (Notion)]] — Notion tracker for daily profit activities
 
 ## Team
 
@@ -42,3 +43,11 @@ status: active
 ## Ops
 
 - [[2025-12-17-contract-google-esignature-and-notion|Contract Google Esignature And Notion]]
+
+## Journal connections
+
+- [[2023-04-14-slash-on-tc]]: This entry is the HTML trick for putting a slash through a price on ThriveCart to show a sale.
+- [[2024-03-13-wins]]: This entry saves a member's win message about getting 6 new members in a week and a half after her messaging clicked.
+- [[2024-05-04-software-alternatives]]: This entry saves Vento as a Loom alternative she was considering for her business tools.
+- [[2024-07-31-calendar]]: This entry links to a Google Doc business calendar she saved for reference.
+- [[2026-02-22-digital-marketing-reddit]]: This entry saves a Reddit digital marketing thread she bookmarked for business reference.

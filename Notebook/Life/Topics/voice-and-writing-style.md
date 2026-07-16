@@ -1,4 +1,4 @@
-﻿---
+---
 name: Voice and Writing Style
 key_element: business
 linked_projects: []
@@ -21,5 +21,7 @@ Capturing, preserving, and operationalizing a distinct writing voice for use in 
 ## Sources
 
 - [[2026-06-04-ruben-hassid-voice-profile-methodology]] â€” foundational methodology (Ruben Hassid's two-prompt system)
-- [[PKM/Second Brain/analysis/voice-profile.md]] â€” compressed voice profile
-- [[PKM/Second Brain/analysis/voice-archive.md]] â€” full interview archive
+
+## Journal connections
+
+- [[2024-12-26-for-the-dreamers]]: This entry is a brand voice copy draft written for creatives and dreamers about protecting their artistry.

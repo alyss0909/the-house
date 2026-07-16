@@ -15,3 +15,7 @@ key_element: offers
 ## Progress notes
 
 ## Related notes
+
+## Journal connections
+
+- [[2026-05-13-pre-workshop-form-inspo]]: This entry saves a Loom video showing a pre-workshop intake form approach for the monthly workshops.

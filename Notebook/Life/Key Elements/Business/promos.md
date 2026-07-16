@@ -34,3 +34,7 @@ status: active
 `inspo`
 - [[2025-10-10-guarantee|Guarantee]] — 7-day guarantee copy and dripped-access anti-refund strategy
 - [[2026-01-28-yoe-sales-page-inspo|Yoe Sales Page Inspo]] — YOE sales page reference: betweenthelinescopy newsletter planner
+
+## Journal connections
+
+- [[2025-01-02-waitlist]]: This entry saves a reference article on painkiller waitlist pages, which fits the campaign and waitlist sequence work promos covers.

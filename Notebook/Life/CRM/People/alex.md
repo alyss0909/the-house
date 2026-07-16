@@ -26,3 +26,8 @@ The world's first and only Press House created exclusively for interior designer
 - [[2025-05-29-inspo-for-alex]] — 80k email thank-you page example shared with Alex
 
 ## Notes
+
+## Journal connections
+
+- [[2026-04-27-for-alex]]: This note holds a TikTok link she saved to share with Alex.
+- [[2026-06-05-horizon-rss-for-alex]]: This entry flags a GitHub RSS reader project she thought Alex would find useful.

@@ -63,3 +63,12 @@ Four formats that always work ([[2026-03-12-repeatable-formats|Repeatable Format
 - [[2026-02-13-content-automations|Content Automations]]
 - [[2026-04-27-claude-notes|Claude Notes]]
 - [[2026-05-29-socials-find-outlier-content|Find Outlier Content]]
+
+## Journal connections
+
+- [[2026-06-05-bulk-download-pins-unpinned-app]]: This holds a bulk Pinterest pin downloading tool she saved for building a local swipe file.
+- [[2024-07-21-only-social-bot]]: This entry captures an idea for a new ManyChat bot and how to carry old automations over when building it.
+- [[2026-01-15-this-is-co-inspo]]: This entry saves This Is Co's ad, content, and email marketing offers as inspiration for systematizing socials.
+- [[2024-04-18-10x10-chall]]: a content research method for finding ten businesses in her niche and repurposing their best videos, an idea that fits the repeatable-formats work in this project.
+- [[2026-03-24-story-idea]]: a story idea pairing a 'what I'm working on' update with a poll, fitting the weekly content rhythm this project tracks.
+- [[2026-06-30-boost-these]]: This entry flags three specific Instagram posts to boost as ads, feeding the weekly non-negotiable to check in on ads and optimize SLOs.

@@ -36,3 +36,10 @@ status: active
 - [[2024-11-07-ceo-year-copy|Ceo Year Copy]] — CEO Year planner copy: quarterly into monthly email and launch goals
 - [[2025-02-01-2018|2018]] — archive of Alyssa speaking about emails at an event, 2018
 - [[2025-10-06-the-social-media-back-up-plan|The Social Media Back Up Plan]] — email + Pinterest as the social-free slow marketing alternative
+- [[2026-07-09-good-email-sales-page-design-copy|Good Email / Sales Page Design + Copy]] — scaleyourresonance.com reference for email and sales-page design and copy
+
+## Journal connections
+
+- [[2021-02-13-resubscribe-form]]: This entry saves the link to the Kit resubscribe form she uses to bring inactive email subscribers back onto her list.
+- [[2021-08-10-ah-inspiration]]: This entry is a full draft of email or caption copy about detoxing your inspiration sources down to what truly inspires you.
+- [[2025-12-15-its-what-you-wanna-be-not-what-youre-getting]]: This entry is a piece of copy about wanting to BE something rather than chase getting more, useful as email or caption material.

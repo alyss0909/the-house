@@ -32,3 +32,7 @@ status: active
 
 
 `inspo`
+
+## Journal connections
+
+- [[2022-12-12-untitled]]: This entry lists what should go in a nanny contract in Canada, saved while she was thinking through childcare for Norah.

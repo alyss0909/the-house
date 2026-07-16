@@ -23,3 +23,7 @@ Real estate agent based in Del Mar. Editor turned agent — building her brand o
 ## Related notes
 
 ## Notes
+
+## Journal connections
+
+- [[2026-03-11-gillian-design-inspo]]: This entry saves a hotel website as design inspiration for Gillian's luxury real estate brand.

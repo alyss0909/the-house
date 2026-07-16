@@ -33,3 +33,7 @@ linked_offers:
 - [[2026-02-14-slo]] — full current SLO ladder mapping all products, bumps, and upsells
 - [[2026-02-18-workshops]] — workshop-to-Notion upsell model as a new SLO pathway
 - [[2026-03-06-slo]] — SLO refinement notes: clarity call addition, email calendar, list revival placement
+
+## Journal connections
+
+- [[2025-09-10-the-sequence-to-vsll-page-that-maybe-is-actually-within]]: This entry works through a VSL page sequence idea inside ThriveCart with a countdown timer and a follow-up application video, which belongs with her other SLO funnel notes.

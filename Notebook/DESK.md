@@ -9,9 +9,9 @@ source_class: map
 
 Empty desk = nothing needs you. Full background docs, if ever wanted: [[2026-07-10-inbox-triage-proposal|triage detail]] · [[2026-07-10-journal-integrity-audit|journal audit]] · [[2026-07-10-voice-metabolization-audit|voice audit]]. Whole-house dashboard: [[HOME]] — pulls this "Needs a ruling" list live.
 
-## The reorg is COMPLETE 🏠 — one keystroke left
+## The reorg is COMPLETE 🏠
 
-Open a terminal in the-house folder and run: `git push -u origin master && git push origin --tags` (approve the one-time GitHub sign-in as alyss0909). That puts the house in two places, and everything is done.
+Pushed to GitHub (alyss0909/the-house) on 2026-07-15 — master branch plus all 20 tags. The house lives in two places now.
 
 **The proof (fresh agents, zero briefing):** retrieval gauntlet 6/6 with correct citations, navigated by maps alone — including knowing voice-profile is retired-not-trusted and citing your ruling. Stranger test: passed — found your journal via the redirect, followed the wikilinks to the existing signal, updated it instead of duplicating, and never touched your entries. Full plan + wrap: [[2026-07-10-finale-master-plan|the finale master plan]].
 
@@ -27,6 +27,7 @@ Open a terminal in the-house folder and run: `git push -u origin master && git p
 
 ## Needs a ruling
 
+- **Penn's fabrication problem — full 568-file scope, plan ready, not executed.** The `Connections:`/`Related notes` footer pattern runs through the entire Journal back to 2019, not just the last 2 months — traces to the paused historical backfill project. In the 89 most-recent files actually link-checked: 77% of links are real, 23% (26 targets) are fabricated — invented sibling entries, uncreated Person/Topic stubs, dead pre-restructure paths. Plus 5 tag violations outside GL-004 and interpretive commentary Penn wrote inline in your capture (your raw text survives underneath it in every file checked so far — a Keep re-download likely isn't needed). Root cause: WS-001 already requires stub-creation + a Larry closing audit that verifies wikilinks resolve — neither has actually been enforced. New requirement added: every entry needs at least 1 real Related note + 1 real Connection. Estimated 1–2M tokens for the full swarm sweep (Sonnet, batched, QA'd) — full findings + plan: [[2026-07-13-penn-fabrication-audit-and-fix-plan|fabrication audit + fix plan]]. Say go whenever you have budget for a dedicated pass.
 - **What IS your north star?** I wrongly printed the content funnel (comments → list → sales) as your north star on the HOME mockup. Full trace of how the scope error happened + the fix: [[2026-07-10-north-star-scope-error-trace|north star error trace]]. The HOME masthead holds a spot for the real one — dictate it, riff it, or leave it empty until earned.
 
 ## Done today (for the record)
@@ -40,6 +41,5 @@ Open a terminal in the-house folder and run: `git push -u origin master && git p
 
 ## Parked (no rush)
 
-- Git → private GitHub backup: yes or stay local-only?
 - The admin-locked duplicate Telegram task: delete from an admin Task Scheduler whenever.
 - [[Notebook/Drafts/Before Monday|Before Monday]] working session — say "let's do Before Monday" whenever.

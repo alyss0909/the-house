@@ -166,5 +166,3 @@ Here's how you put this guide into practice. First, reflect on your past week an
 **[Watch the video now](https://youtu.be/uT3EQPVIEb0)** and subscribe to my channel if you enjoyed this tutorial. Let me know if you have any questions in the comments!
 
 ---
-
-*Filed from Team Inbox on 2026-06-04. Source: [[peter-yang|Peter Yang]] via [[creatoreconomy-so]]. Related: [[ai-tools]], [[second-brain]].*

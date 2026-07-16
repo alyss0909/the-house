@@ -106,3 +106,9 @@ Flagstone
 
 
 `inspo`
+
+## Journal connections
+
+- [[2022-02-06-earls-the-cookbook]]: This entry saves a link to the Earls restaurant cookbook, a recipe reference she bookmarked for the house.
+- [[2022-07-17-coleman-photos]]: This entry links to the shared Google Drive folder holding the Coleman family photos.
+- [[2024-01-27-portugal-packing-list]]: This entry is the full family packing list for a Portugal trip with Norah and Ryan.

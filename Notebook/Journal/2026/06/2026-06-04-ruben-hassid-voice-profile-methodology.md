@@ -624,7 +624,3 @@ And if someone did send you this, thank them and subscribe for free here:
 ## How I use this
 
 The interview prompt in section 2 is the source for how my voice profile was built. Full interview at [[voice-archive]]. Compressed version at [[voice-profile]].
-
----
-
-*Filed from Team Inbox on 2026-06-04. Source: [[ruben-hassid|Ruben Hassid]] via [[ruben-substack]]. Related: [[voice-and-writing-style]], [[second-brain]].*

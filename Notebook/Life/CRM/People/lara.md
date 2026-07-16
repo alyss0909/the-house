@@ -24,3 +24,7 @@ Boston-based interiors, architectural, and lifestyle photographer. Specializes i
 ## Related notes
 
 ## Notes
+
+## Journal connections
+
+- [[2026-01-21-lara-seo]]: This entry is a note to do SEO work for Lara's photography business.

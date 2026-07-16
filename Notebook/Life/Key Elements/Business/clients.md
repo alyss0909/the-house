@@ -1,4 +1,4 @@
-﻿---
+---
 name: Clients
 description_short: Client relationships and service delivery
 parent_key_element: business
@@ -27,7 +27,6 @@ status: active
 
 **Related notes**
 `ideas`
-- [[2026-03-29-prep-for-geraldine-social-flow|Prep For Geraldine Social Flow]] — prep notes for Geraldine's social flow
 - [[2025-05-21-form|Form]] — client intake: competitors, Pinterest boards, keyword pillars
 
 

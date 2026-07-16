@@ -28,3 +28,7 @@ finish_line: Party done, June 20
 - [ ] Amazon wishlist: https://www.amazon.ca/hz/wishlist/ls/3GY0A1WZV6VY0
 
 ## Related notes
+
+## Journal connections
+
+- [[2026-06-12-party-guest-list]]: This holds the confirmed and maybe guest list for Norah's birthday party.

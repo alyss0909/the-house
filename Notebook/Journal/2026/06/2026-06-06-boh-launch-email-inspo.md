@@ -7,10 +7,6 @@ tags:
 ---
 # BOH Summer Launch — Email Sequence Braindump
 
-Voice memo captured June 6. Full launch email sequence concept for the Back of House summer launch. The positioning voice for the whole campaign. Pass to [[Wren]] when ready to draft.
-
-Core tension she's naming: the middle-ground entrepreneur. Not an AI hater. Not a futurist. The one who loves a little automation, wants a small team she pays well, and wants to spend more time going down the rabbit holes she actually cares about.
-
 # FULL VOICE NOTE
 How I'm navigating the new online landscape you I hate that I just said landscape but like okay what if email one I share something about how I am coping as an entrepreneur who lives in the middle space between absolutely hating ai and feeling overwhelmed by the world and feeling disconnected from my own creativity of my own ideas the same time loving a little automation a little the idea of finally organizing my chaotic brain and having a small team that I can pay well and outsourcing these other parts I'm navigating that and how I'm like finding the middle ground I love this idea of the middle ground the next email could be about the new something the new 4-Hour Work week for let's let's use some term that's like old school entrepreneur the new 4-Hour Work reate I'm even down to kind of unpack my thoughts on how you know I remember reading the 4-Hour Work week as a 21 year old who honestly like really didn't have much application for this I was working at a yoga studio for free in exchange for insight on email marketing I was not in the place to start you know like hiring people in Bangladesh but even then I felt weird about that landscape and I felt kind of uncomfortable with the thought of that anyway the new 4-Hour Work week is what I don't know what am I getting at point is like point that I'm trying to get out is like there's this middle ground that I think a lot of us are now preparing right now and maybe we don't exactly know where it's going to take us but for now one thing I know for sure is that I want to be spending more time in the realm of my interest I want to be more myself I want in the world of AI vanilla b******* I want to be able to go down the radicals I want to think about clipping my plants I want to think about creating this multilayered workbook I want to become obsessed with my clients funnel and getting inspiration for them and creating this world of metaphors and having fun!! 
 
@@ -82,7 +78,6 @@ If you know the exact bilirubin level that I should look for on my blood test th
   
 
 My opinion is that you have to be good at three things number one growing your audience I personally think Pinterest is the most low maintenance way to do this but she's whatever the f*** you want I've used Facebook ads have fun viral on Instagram and have close clients and my DMs I'm not above any of it too is email marketing I'm not going to give you options here that the matter is if you want to sell your services courses or consulting email is King and learning how to write f****** good emails is something Claude can't teach you contrary to popular belief number three is giving a s*** about whatever it is that you do this is the secret sauce nothing that I teach you will work if you don't have something here that I can amplify
-→ Team breakdown of this memo: [[Studio/Analysis/boh-launch-email-breakdown]]
 
 **Related notes**
 - [[2026-04-27-its-not-x-its-y-anti-ai-writing|Anti-AI Writing Rules]]

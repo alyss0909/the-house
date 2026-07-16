@@ -55,3 +55,32 @@ Active ideas pipeline. Live offers exist. Bundle of 15 templates is the most dev
 
 - [ ] Read [[2025-12-12-notion-bundle-15-templates|the bundle concept]] and decide if it becomes an offer
 - [ ] Check if any ideas here belong in the Offers folder as standalone offer files
+
+## Journal connections
+
+- [[2024-05-06-notion-inspo]]: This note saves a Notion content calendar as inspiration for a future Notion template.
+- [[2025-02-28-notion-inspo]]: This note captures a quick-capture-for-phone idea for a future Notion template.
+- [[2025-05-30-notion-plus-gpt-plus-canva]]: This note saves a reference site for combining Notion, GPT, and Canva into one workflow, an idea for the template automation pipeline.
+- [[2024-05-07-new-emails-about-notions]]: This holds a saved Gmail thread she flagged as Notion template inspo to revisit.
+- [[2025-04-25-notion-inspo]]: This holds a Notion template site and an Instagram grid preview widget she saved as design inspo for Notion templates.
+- [[2025-06-10-notion-asst]]: This holds a link to a Notion AI assistant tool she flagged as an idea to look into.
+- [[2025-09-18-notion-eos-business-os-template-camel-tech]]: This holds a link to a Notion EOS business OS template she saved as an idea.
+- [[2024-04-27-notion-inspo-2]]: This entry saves an aesthetic schedule layout as Notion template inspiration.
+- [[2024-09-19-notion-filming-notes]]: This entry holds filming notes for the Daily Profit card and the soft CEO template, both live Notion products.
+- [[2025-09-25-welcome-guide-in-notion-inspo]]: This entry saves a welcome guide layout in Notion as inspiration for a template.
+- [[2024-04-15-notion-inspo]]: This entry saves a note about Notion formulas as inspiration for building Notion templates.
+- [[2024-04-27-notion-inspo]]: This entry saves a note about repeating tasks in Notion as inspiration for building Notion templates.
+- [[2025-09-27-2025-notion-planner]]: This entry saves a YouTube short about a 2025 Notion planner as inspiration for the Notion templates pipeline.
+- [[2024-03-09-notion-product-ideas]]: saved Notion template product links and a year-planner idea to pair with BYY, kept as inspiration for the next Notion product.
+- [[2024-07-09-notion-icons]]: saved icon links and colour swatches, kept for building out Notion template visuals.
+- [[2025-02-26-notion-inspo]]: a quick note on an iPad-synced tasks app, saved as inspiration for template features.
+- [[2025-03-26-notion-focus-mode-inspo]]: a saved note about a Notion focus mode feature, kept as inspiration for template design.
+- [[2025-09-03-voice-to-notion]]: a saved voice-to-Notion tool (notis.ai), relevant to the workflow and automation ideas for Notion products.
+- [[2025-12-12-have-a-processing-flow-with-dragging-so-like-auto-tags-as]]: an idea for a drag-based processing flow with auto-tagging inside Notion, fitting the workflow and automation ideas already tracked here.
+- [[2026-01-31-notion-formulas]]: a saved Notion formulas resource, kept as reference for building template functionality.
+- [[2024-04-18-when-notion-is-inside-mpq-impliment-this-webinar-flow]]: This entry is a reminder to build a specific webinar flow, with a replay and a Notion reference pin, once Notion is folded into MPQ.
+- [[2026-01-19-notion-idea]]: This entry sketches a Notion calendar idea where clicking a day surfaces day-specific prompts like a for the girls inspo add.
+- [[2026-01-31-notion-social-media-inspo]]: This entry saves an Etsy listing for a Notion social media and business template as inspo for the Notion products pipeline.
+- [[2024-03-25-notion-seo-idea]]: This entry holds an idea to write AI blog posts and Pinterest pins for trending Notion keywords that link straight to checkout for the Notion templates.
+- [[2024-05-05-notion-inspo]]: This entry saves the teuxdeux app as visual inspiration for Notion template design.
+- [[2025-12-19-notion-inspo]]: This entry saves an iPad handwriting idea as visual inspiration for Notion template design.
