@@ -38,7 +38,7 @@ Built and wired (all live):
 
 ## Open threads
 
-- [ ] Design question that is genuinely Alyssa's taste call (not deferred work): should outward-facing funnel pages share GL-003's exact vault tokens or get a distinct storefront visual system? Surfaced from the 2026-07-11 lead-magnet session. Owner: iris to draft two versions for her to react to. Check-back: 2026-07-23.
+- [x] Storefront-vs-vault design question: died because Alyssa ruled same day (2026-07-16): public-facing pages get their own look, brand details coming from her later. Ruling landed in [[Studio/Team/TEAM-BRAIN]]. New waiting state: Iris builds the storefront token set when her brand details arrive.
 - [ ] Two July deliverables have zero consumers yet: the profit-menu plan and the voice-metabolization audit (flagged by the loss hunter, not extracted this pass). Owner: night shift.
 - [ ] Hermes deep-read cron still scoped to July 5-7 only (OS-level scheduled task, outside vault reach). Owner: mack.
 - [ ] Stale-task escalator (7d pulse candidate, 14d compress, 28d dormant) designed in the autopsy, still not built. Owner: larry.

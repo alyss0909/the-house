@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-16 11:13
+generated: 2026-07-16 13:03
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -14,13 +14,13 @@ Morning: the journal backfill merged with the Penn cleanup. Journal connections 
 
 Afternoon: the same treatment for session logs, permanently. All 149 unmined logs were strip-mined: 6 of her rulings landed verbatim in the team brain (including fix-obvious-defects-without-asking and plan-first-unless-she-says-DO-IT), 25 reusable decisions now live in the new [[PRECEDENT-INDEX]], and the close gate now requires every session to mine itself (SOP-040 steps 3a and 7). The review ladder is repaired: W28 wrap real, W24-W26 honestly stubbed, the first monthly review ever exists, the June dark gap is permanently marked (finding: automation ran that whole gap with no human follow-through). The loss hunter fixed two LIVE leaks (the Content OS dispatcher was feeding dead folder paths to the arc-builder on every run) plus the signals index, all overdue check-backs, and the host-only iCOR definitions now live in the vault as [[GL-002-icor-entity-definitions]]. The debt counters are honest now: session logs no longer count as journal connections, and unmined logs are a visible counter on this board.
 
-One genuine taste call waits for Alyssa (not deferred work, an actual her-decision): should outward-facing funnel pages use the vault's design tokens or a separate storefront look? Iris drafts two versions to react to by 2026-07-23.
+Alyssa ruled the storefront question same day: public-facing pages get their own look, separate from the vault's design system. She will send brand details later; until they arrive, nobody designs or ships public-page visuals. When they land, Iris builds the storefront token set. Ruling is in the team brain.
 
 Next session: W29 wraps at week end. The stale-task escalator from the autopsy is still the biggest unbuilt piece. Night shift picks up the ~290 remaining commentary checks and the two unconsumed July deliverables.
 <!-- HANDOFF:END -->
 
 ## Open threads (from [[2026-07-16-13-00_fable_session-log-compounding-build]])
-- [ ] Design question that is genuinely Alyssa's taste call (not deferred work): should outward-facing funnel pages share GL-003's exact vault tokens or get a distinct storefront visual system? Surfaced from the 2026-07-11 lead-magnet session. Owner: iris to draft two versions for her to react to. Check-back: 2026-07-23.
+- [x] Storefront-vs-vault design question: died because Alyssa ruled same day (2026-07-16): public-facing pages get their own look, brand details coming from her later. Ruling landed in [[Studio/Team/TEAM-BRAIN]]. New waiting state: Iris builds the storefront token set when her brand details arrive.
 - [ ] Two July deliverables have zero consumers yet: the profit-menu plan and the voice-metabolization audit (flagged by the loss hunter, not extracted this pass). Owner: night shift.
 - [ ] Hermes deep-read cron still scoped to July 5-7 only (OS-level scheduled task, outside vault reach). Owner: mack.
 - [ ] Stale-task escalator (7d pulse candidate, 14d compress, 28d dormant) designed in the autopsy, still not built. Owner: larry.
@@ -32,7 +32,7 @@ Next session: W29 wraps at week end. The stale-task escalator from the autopsy i
 Connection state: **449/567 entries linked by non-generated sources (79%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
 - oldest never-linked: [[2020-11-17-wildling]] (`Notebook/Journal/2020/11/2020-11-17-wildling.md`)
 - newest never-linked: [[2026-06-30-meta-ad-details]] (`Notebook/Journal/2026/06/2026-06-30-meta-ad-details.md`)
-- most related to last session: [[2022-11-15-before-you-go]] (`Notebook/Journal/2022/11/2022-11-15-before-you-go.md`)
+- most related to last session: [[2025-09-13-moe-painting]] (`Notebook/Journal/2025/09/2025-09-13-moe-painting.md`)
 
 ## Due check-backs
 - none due
