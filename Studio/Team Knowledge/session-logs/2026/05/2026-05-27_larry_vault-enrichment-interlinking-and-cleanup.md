@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-002-schema-extensions]
+mined: true
 ---
 
 # Vault enrichment, mega interlinking, and tag cleanup

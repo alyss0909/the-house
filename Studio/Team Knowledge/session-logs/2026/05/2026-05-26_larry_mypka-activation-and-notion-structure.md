@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: ["GL-001-file-naming-conventions", "GL-002-frontmatter-conventions"]
+mined: true
 ---
 
 # Session Log - 2026-05-26 - myPKA Activation + Notion Structure Design

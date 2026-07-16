@@ -13,7 +13,10 @@ between people, no "ok now go build the arc" relay.
 - A draft marked `[shipped]` is done — nothing runs after it.
 
 It never re-runs a stage that already has its output (idempotent), and it only ever
-touches the **newest** `Studio/Content/YYYY-Www-pitch.md`.
+touches the **current week's** `Studio/Content/YYYY-Www-pitch.md` — the sheet whose
+Mon-Fri window contains today, not simply the highest week number. (Two weeks run
+concurrently — this week live, next week prepped ahead — so "newest by filename"
+would silently pick next week's sheet; fixed 2026-07-13.)
 
 ## Which mechanism you have
 
@@ -34,7 +37,8 @@ In your Claude Code chat with Larry, say:
 
 > **/loop**
 
-That's it. Larry checks the newest pitch sheet, finds anything you've approved that
+That's it. Larry checks the current week's pitch sheet (the one whose Mon-Fri window
+contains today), finds anything you've approved that
 hasn't advanced yet, runs the right maker for each, writes the result back into the
 sheet, and logs each advance under `## Dashboard reacts`.
 

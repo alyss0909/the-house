@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-004-create-task, SOP-006-close-task, SOP-013-semantic-sweep]
 linked_workstreams: [WS-004-inbox-processing, WS-006-weekly-review, WS-008-content-activation, WS-009-monthly-intelligence-update, WS-010-daily-pulse]
 linked_guidelines: [GL-009-source-boundaries-and-promotion, GL-013-the-house-rules]
+mined: true
 ---
 
 # Silas — Ready Queue dissolution (Version B, per Alyssa)

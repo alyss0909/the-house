@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-002-notion-import]
 linked_guidelines: [GL-002-schema-extensions]
+mined: true
 ---
 
 # PKA working-style riff + Key Elements audit and restructure

@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Fix: slide-preview card text truncation blocked Approve/Redo on 02 Arc.md

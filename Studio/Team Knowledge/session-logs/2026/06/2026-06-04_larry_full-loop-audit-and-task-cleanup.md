@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Full open-loop audit across last two weeks — handoffs, tasks, deliverables, orphans swept

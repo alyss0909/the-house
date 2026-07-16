@@ -1,3 +1,6 @@
+---
+mined: true
+---
 ﻿---
 agent_id: larry
 session_id: 2026-06-04-07-38_larry_claude-routines-automation-research-wrap

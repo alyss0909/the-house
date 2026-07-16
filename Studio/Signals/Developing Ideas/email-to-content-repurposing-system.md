@@ -27,6 +27,8 @@ The entries that feed this aren't aspirational — they're documentation of what
 - [[2026-06-05-types-of-carousels]] — carousel type taxonomy; the formats are already there
 - [[2026-06-12-email-to-carousel-repurposing]] — the actual pairs: Slow Marketing Trends, Cold List, Pinterest. The pattern is: strong email topic → expand visually into slides → link back to a freebie or low-ticket offer
 - [[2026-06-05-ai-agents-head-hands-heart]] — the "hands" work is exactly this kind of repurposing; the AI should own the mechanical translation, Alyssa owns the original
+- [[2026-07-01-use-for-email-and-post-inspo]] — connected 2026-07-15. She filed one external source (bdow.com's business-email-examples) under both email and post inspo in the same breath. Small entry, but it is the instinct this signal is about: she does not sort inspiration by channel, because to her one source is already both.
+- [[2023-04-03-transcibe-your-video-content-and-plug-it-into-chat-gpt-ask]] — connected 2026-07-16. Earlier evidence (recency-weight it): the earliest explicit statement of the repurposing mechanic in the vault. "Transcribe your video content and plug it into ChatGPT. Ask it to spit out the most impactful quotes/script for your intended use" — with ready prompts for a Meta ad hook, meaningful-quote extraction, and a YouTube script. This is the 2023 version of exactly this signal: one source, mechanically translated by AI into many formats. Three years before the June 2026 pairs, she'd already named the move.
 
 ## What it's connecting to in the Second Brain
 
@@ -54,4 +56,9 @@ None yet — but this one is ready to dispatch immediately. Hermes gets a standi
 
 ## Check back
 
-2026-07-04 — if standing Hermes instruction hasn't been created by then.
+Closed 2026-07-16 — the check-back was stale. It was set for 2026-07-04 to chase whether a standing Hermes instruction existed for turning her emails into carousels. Reality answered it before the date even arrived: [[Studio/Team Knowledge/Workstreams/WS-008-content-activation.md]] Standing Brief 1 ("Email -> Carousel") does exactly what this signal asked for — after every email filed or drafted, Hermes proposes 2 carousel angles automatically. The weekly pitch loop (WS-011) now also draws on this. No new check-back needed; the immediate ask this note made is running. Options B and C ("one-email-week" BOH module, standalone WS) remain open content/teaching angles the makers can pull from whenever the lane calls for one, same as an already-graduated signal's leftover options — no direction needed from Alyssa to use them.
+
+## Journal connections
+
+- [[2024-10-30-daydreamers]]: This captures an early version of the repurposing instinct, turning one email idea into the week's meal plan and then into social content from the leftovers.
+- [[2025-07-22-add-to-sequencce]]: This entry flags two emails as having enough content in them for days of social posts, an early instance of turning one email into multiple pieces of content.

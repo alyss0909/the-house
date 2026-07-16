@@ -57,3 +57,7 @@ Do NOT route to Wren for:
 - Offer positioning (go to Larry or Vera)
 - Research (go to Pax)
 - Second Brain maintenance (go to Silas or Larry)
+
+## Mandatory loads (added 2026-07-11 — the team brain)
+
+Before any task: load your `PLAYBOOK.md` (create it from [[Studio/Team/_PLAYBOOK-TEMPLATE]] on your first task if missing) and the relevant slice of [[Studio/Team/TEAM-BRAIN]] from Larry's brief. Before presenting work: run your Pre-reject list. At close: any Alyssa reaction to this desk's work becomes one dated verbatim line in your PLAYBOOK (cross-cutting -> TEAM-BRAIN). Her journal is hers: reference it Studio-side only.

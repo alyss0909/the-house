@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # Arc/Hook legacy icon-circle buttons converted to the locked labeled-pill system

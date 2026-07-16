@@ -86,14 +86,36 @@ const POLL_MS = 10_000;
 const RUN_MODE = "detect";
 
 // ---------------------------------------------------------------------------
-// Sheet selection — newest YYYY-Www-pitch.md is the single state machine.
+// Sheet selection — the sheet whose Mon-Fri ISO week window contains today is
+// the single state machine, NOT simply the highest week number. Two weeks run
+// concurrently (this week live + next week prepped ahead), so lexically-last
+// silently points at next week's sheet as soon as it exists (caught 2026-07-13
+// — the dashboard had been showing/advancing the wrong week for days).
 // ---------------------------------------------------------------------------
+function isoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
 function newestPitchSheet() {
   const files = readdirSync(PITCHES_DIR)
     .filter((f) => /^\d{4}-W\d{2}-pitch\.md$/.test(f))
     .sort(); // lexical sort works: YYYY-Www zero-padded
   if (files.length === 0) return null;
-  return path.join(PITCHES_DIR, files[files.length - 1]);
+  const todayUTC = Date.UTC(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+  const current = files.find((f) => {
+    const m = f.match(/^(\d{4})-W(\d{2})-pitch\.md$/);
+    if (!m) return false;
+    const mondayUTC = Date.UTC(
+      isoWeekMonday(+m[1], +m[2]).getUTCFullYear(),
+      isoWeekMonday(+m[1], +m[2]).getUTCMonth(),
+      isoWeekMonday(+m[1], +m[2]).getUTCDate()
+    );
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  });
+  return path.join(PITCHES_DIR, current || files[files.length - 1]);
 }
 
 // ---------------------------------------------------------------------------
@@ -184,7 +206,11 @@ function parseStageHeadings(body, sectionHeader) {
 // ---------------------------------------------------------------------------
 // Trigger evaluation (contract §"Auto-advance triggers").
 // ---------------------------------------------------------------------------
-function evaluate(raw) {
+function evaluate(rawInput) {
+  // Normalize CRLF -> LF first: this vault's files are edited on Windows and
+  // often saved with \r\n, which leaves a trailing \r on every split("\n")
+  // line and silently breaks any regex anchored with $ (caught 2026-07-13).
+  const raw = rawInput.replace(/\r\n/g, "\n");
   const body = raw.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, ""); // drop frontmatter
 
   const concepts = parseApprovedConcepts(body);
@@ -238,10 +264,10 @@ export function arcPrompt({ sheetPath, dayKey, title }) {
     ``,
     `MANDATORY loads before you write a single slide line (GL-007 token discipline — load in order, then stop):`,
     `1. Team/Cassius - Substance Specialist/AGENTS.md and AGENTS.md (root) for your contract + hard rules.`,
-    `2. LOOK first: Read (Read tool, filename order) the real slide images of the closest exemplar for this slot from PKM/Second Brain/examples/Carousels/ (index: examples/Carousels/INDEX.md). Text about carousels is never a substitute for looking.`,
-    `3. PKM/Second Brain/analysis/carousel-slide-by-slide.md for her real arc shapes and which belief each slide moves.`,
-    `4. The concept's teaching source (BOH transcript / offer file — enter Second Brain via PKM/Second Brain/COMPASS.md, BOH via programs/back-of-house/BOH-COMPASS.md). If the source is not obvious from the concept, read what the sheet's "Prepared by" line cites for that day; if still ambiguous, STOP and flag it, do not invent teaching.`,
-    `5. Real data for EVERY number: analysis/subject-line.md (email rates), the real offer file in PKM/My Life/Offers/, Deliverables/2026-07-06-instagram-craft-foundation.md (IG benchmarks). Real engaged open rate ~40-57%; never 3%, never invented.`,
+    `2. LOOK first: Read (Read tool, filename order) the real slide images of the closest exemplar for this slot from Library/Examples/Carousels/ (index: Library/Examples/Carousels/INDEX.md). Text about carousels is never a substitute for looking.`,
+    `3. Studio/Analysis/carousel-slide-by-slide.md for her real arc shapes and which belief each slide moves.`,
+    `4. The concept's teaching source (BOH transcript / offer file — enter the team's study via Studio/Analysis/COMPASS.md, BOH via Library/Programs/back-of-house/BOH-COMPASS.md). If the source is not obvious from the concept, read what the sheet's "Prepared by" line cites for that day; if still ambiguous, STOP and flag it, do not invent teaching.`,
+    `5. Real data for EVERY number: Studio/Analysis/subject-line.md (email rates), the real offer file in Library/Offers/<offer>/MAP.md, Deliverables/2026-07-06-instagram-craft-foundation.md (IG benchmarks). Real engaged open rate ~40-57%; never 3%, never invented.`,
     `6. Hermes/FUNNEL.md (belief each offer's arc must land), Studio/Content/taste-ledger.md IN FULL (anti-patterns are law), Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain.md.`,
     ``,
     `OUTPUT — append exactly ONE arc block into the "## Approved — slide skeletons" section of the sheet, in the EXACT contract format (Studio/Content/dashboard/PIPELINE-CONTRACT.md):`,

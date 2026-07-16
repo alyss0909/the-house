@@ -6,6 +6,7 @@ type: mid-session-insight
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-001-file-naming-conventions"]
+mined: true
 ---
 
 # Carousel source import and order fix

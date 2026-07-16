@@ -6,6 +6,7 @@ type: realignment
 linked_sops: ["SOP-001-how-to-add-a-new-specialist"]
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Hiring Plan Big-Picture Realignment

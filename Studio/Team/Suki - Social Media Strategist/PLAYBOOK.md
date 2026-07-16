@@ -104,3 +104,18 @@ So the reference set = **two layers: her widened own-winners (the spin/voice flo
 **KILL:** "STOP scrolling / the secret nobody tells you / read this before you post"; "X mistakes killing your Y" listicle-fear (keep the threat, kill the countdown); blanket "cut all adverbs / no passive / short-sentences-only" (**LOCKED — these would flatten her long winding spoken voice; we protect it**); "two beats three"; pure-SEO stuffed titles; "wait for it / POV:" TikTok conventions; "comment YES if you agree" bait; generic SaaS headline formulas; hashtag strategy (dead for reach — keywords in caption replaced it).
 
 *(The old "kill the swipe libraries" line is removed — see Part 4. We keep a filtered swipe file; we just never copy from it.)*
+
+---
+
+## PART 7 — HER REAL COVER COPY PATTERNS (added 2026-07-14, from a real Composio IG pull)
+
+Full doctrine: [[Studio/Content/craft-references/2026-07-14-alyssa-own-visual-cover-systems]]. For writers/concept/hook people, in order:
+
+1. **Four headline formulas, all real:** confession ("I Literally Yelled At My Client Yesterday" — proven live via the approved toddler pitch), coined-word (strengthens Part 1's existing Coined Phenomenon shape — "Procrastavoidance," "Socks & Sandals Marketing"), stacked declarative ("There are 80 Days Until Summer"), number+noun ("80 Subject Lines").
+2. **The subhead is its own copy unit** — a tension/payoff line distinct from the headline, drafted every time, never a repeat ("AND I MIGHT NEED TO YELL AT YOU NOW TOO").
+3. **Kicker phrases are reusable copy IP** ("THE MIDNIGHT MENU"), not a layout detail — treat like a proven hook, reusable across captions and series.
+4. **FTG stays a plain first-person declaration**, no CTA — confirms Part 5.
+
+Design/visual detail (templates, photography, layout) is compressed at the bottom of the linked file, marked for design-briefing use only — not this team's job.
+
+**Open, not decided:** whether "secret/insider" framing or cover-carries-thin-caption are real levers — both flagged as untested hunches, not house rules.

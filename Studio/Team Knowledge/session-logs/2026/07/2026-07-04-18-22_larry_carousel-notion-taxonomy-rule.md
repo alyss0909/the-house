@@ -3,6 +3,7 @@ type: mid-session-insight
 agent: Larry
 date: 2026-07-04
 topic: carousel-notion-taxonomy-rule
+mined: true
 ---
 
 # Carousel Notion Taxonomy Rule

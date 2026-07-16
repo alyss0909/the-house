@@ -6,6 +6,7 @@ type: close-session
 linked_sops: [SOP-003-keep-notes-to-journal]
 linked_workstreams: [WS-001-daily-journaling, WS-004-inbox-processing]
 linked_guidelines: [GL-001-file-naming-conventions, GL-002-frontmatter-conventions]
+mined: true
 ---
 
 # Inbox processing overhaul, entity stub audit, and WS-004 design

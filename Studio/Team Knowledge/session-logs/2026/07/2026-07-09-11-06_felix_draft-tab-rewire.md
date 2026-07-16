@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-018-felix-build-a-component]
 linked_workstreams: [WS-011-carousel-workflow]
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # Draft tab (04) rewired to render real decks + [shipped] persistence

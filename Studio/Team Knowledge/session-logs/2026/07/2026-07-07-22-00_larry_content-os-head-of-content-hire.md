@@ -8,6 +8,7 @@ links:
   - "[[2026-07-06-larry_content-os-sprint-and-regroup]]"
   - "[[2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]]"
   - "[[2026-07-05-14-45_larry_root-cause-and-one-brain-consolidation]]"
+mined: true
 ---
 
 # Content OS diagnosis + Head of Content hire

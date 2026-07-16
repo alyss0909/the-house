@@ -39,11 +39,29 @@ if (navEl) {
 ```dataviewjs
 // ============ shared react-append helper (append-only, pitch sheet only) ============
 const REACT_HEADING = "## Dashboard reacts";
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentFile(files) {
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return files.find(f => {
+    const m = f.basename.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mon = dbIsoWeekMonday(+m[1], +m[2]);
+    const mondayUTC = Date.UTC(mon.getUTCFullYear(), mon.getUTCMonth(), mon.getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  }) || null;
+}
 function dbNewestPitchFile() {
   const md = app.vault.getMarkdownFiles()
     .filter(f => f.path.startsWith("Studio/Content/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
     .sort((a, b) => a.basename < b.basename ? 1 : -1);
-  return md[0] || null;
+  return dbPickCurrentFile(md) || md[0] || null;
 }
 async function dbAppendReact(stage, title, verdict, words) {
   const file = dbNewestPitchFile();
@@ -192,11 +210,32 @@ const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentPitch(pages) {
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const current = pages.find(p => {
+    const m = p.file.name.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mon = dbIsoWeekMonday(+m[1], +m[2]);
+    const mondayUTC = Date.UTC(mon.getUTCFullYear(), mon.getUTCMonth(), mon.getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  });
+  return current || pages[0] || null;
+}
+
 if (pitchPages.length === 0) {
   dv.el("div", "No pitch sheet found in Studio/Content/ yet.", {cls: "db-empty"});
 } else {
-  const latest = pitchPages[0];
-  const raw = await dv.io.load(latest.file.path);
+  const latest = dbPickCurrentPitch(pitchPages);
+  // Normalize CRLF -> LF (Windows-edited files break any $-anchored line regex).
+  const raw = (await dv.io.load(latest.file.path)).replace(/\r\n/g, "\n");
   const marker = "## Approved — slide skeletons";
   const idx = raw.indexOf(marker);
 

@@ -4,6 +4,7 @@ entry_type: close-session
 agent: larry
 created: 2026-06-02T17:20:00-04:00
 topic: telegram-capture-mvp
+mined: true
 ---
 
 # Telegram capture MVP handoff

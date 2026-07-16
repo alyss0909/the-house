@@ -3,6 +3,7 @@ type: realignment
 agent: Larry
 date: 2026-07-04
 topic: boh-sales-page-realignment
+mined: true
 ---
 
 # BOH Sales Page Realignment

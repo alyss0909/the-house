@@ -6,6 +6,7 @@ type: close-session
 linked_sops: [SOP-001-how-to-add-a-new-specialist]
 linked_workstreams: [WS-002-import-external-knowledge-base]
 linked_guidelines: []
+mined: true
 ---
 
 # About/home page deep analyses built, subject line analysis filed, Wren hired as Brand Voice Partner

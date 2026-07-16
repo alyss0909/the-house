@@ -11,6 +11,7 @@ linked_workstreams:
 linked_guidelines:
   - GL-004-tag-taxonomy
   - GL-005-team-inbox-protocol
+mined: true
 ---
 
 # Closing Shift Team Inbox Processing

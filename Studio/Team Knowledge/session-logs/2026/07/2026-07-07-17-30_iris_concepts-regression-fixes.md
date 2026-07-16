@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # Fixed three Alyssa-flagged regressions on 01 Concepts (day-name caps, oval sizing, header spacing)

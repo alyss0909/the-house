@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-16 10:48
+generated: 2026-07-16 11:13
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,39 +8,39 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-The big journal cleanup ran 2026-07-16, Fable orchestrating. Full receipt in [[2026-07-16-11-30_fable_merged-journal-backfill-and-penn-cleanup]]. Alyssa merged the stalled orphan backfill with the Penn fabrication audit and approved in-journal edits for this pass only.
+Two big passes ran 2026-07-16, Fable orchestrating, both on Alyssa's direct orders. Receipts: [[2026-07-16-11-30_fable_merged-journal-backfill-and-penn-cleanup]] and [[2026-07-16-13-00_fable_session-log-compounding-build]].
 
-Headline: journal connections went from 64% to 79%. 87 entries got real, verified homes in her projects, topics, key elements, and people files. 117 were read in full and honestly left as orphans because nothing genuine fits; they stay on the resurface rotation. All invented tags are fixed, most "fake" links turned out to be real files under slightly wrong names and now point at the right place, 25 truly fabricated links are gone, and 7 blocks of Penn commentary were removed with her own words confirmed intact every time. Rush Order finally has its topic page. Everything is committed in two stages so it can be rolled back cleanly.
+Morning: the journal backfill merged with the Penn cleanup. Journal connections went from 64% to 79% (87 verified new homes, 117 honest orphans kept on rotation, all fake tags and links fixed, Penn's commentary stripped with her words intact).
 
-New standing ruling captured in the team brain: talk to Alyssa plainly, every message, always. No internal vocabulary in anything she reads.
+Afternoon: the same treatment for session logs, permanently. All 149 unmined logs were strip-mined: 6 of her rulings landed verbatim in the team brain (including fix-obvious-defects-without-asking and plan-first-unless-she-says-DO-IT), 25 reusable decisions now live in the new [[PRECEDENT-INDEX]], and the close gate now requires every session to mine itself (SOP-040 steps 3a and 7). The review ladder is repaired: W28 wrap real, W24-W26 honestly stubbed, the first monthly review ever exists, the June dark gap is permanently marked (finding: automation ran that whole gap with no human follow-through). The loss hunter fixed two LIVE leaks (the Content OS dispatcher was feeding dead folder paths to the arc-builder on every run) plus the signals index, all overdue check-backs, and the host-only iCOR definitions now live in the vault as [[GL-002-icor-entity-definitions]]. The debt counters are honest now: session logs no longer count as journal connections, and unmined logs are a visible counter on this board.
 
-Still needs Alyssa, two yeses: (1) the debt-counter fix, same as before: session logs shouldn't count as real connections; until then true debt sits a bit above the reported 118. (2) Her idea from today: interlink session logs the way journal entries now are. Larry owes her a shaped proposal by 2026-07-23.
+One genuine taste call waits for Alyssa (not deferred work, an actual her-decision): should outward-facing funnel pages use the vault's design tokens or a separate storefront look? Iris drafts two versions to react to by 2026-07-23.
 
-Not done, next up: the ~290 already-connected entries were not commentary-checked this pass (same Penn-era footers may lurk there; night shift or a wave 2). Wrap debt is still 2 weeks behind and still the loudest number on the board. The 13 stale tasks are still untouched.
+Next session: W29 wraps at week end. The stale-task escalator from the autopsy is still the biggest unbuilt piece. Night shift picks up the ~290 remaining commentary checks and the two unconsumed July deliverables.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-16-11-30_fable_merged-journal-backfill-and-penn-cleanup]])
-- [ ] Alyssa's idea, needs a shaped proposal: interlink session logs themselves the way journal entries now are, if it genuinely strengthens the compounding loop. Owner: larry. Check-back: 2026-07-23.
-- [ ] The ~290 already-connected journal entries were not commentary-checked this pass; same fabrication-era footer pattern may exist there. Owner: night shift / wave 2.
-- [ ] Penn audit fix-plan item 5 still unwired: a mechanical wikilinks-resolve checklist at every session close that touches Notebook. Owner: larry, needs-Alyssa per approve-before-execute.
-- [ ] Debt-counter fix (stop counting session logs as meaningful inbound links) still waiting on Alyssa's yes. True debt is somewhat above the reported number. (Carried from [[2026-07-15-09-20_larry_night-shift-journal-duty-and-playbook-mining]].)
-- [ ] Wrap debt still 2 weeks (newest wrap W27, current W29). Untouched tonight. (Carried.)
-- [ ] 13 stale tasks untouched. (Carried.)
+## Open threads (from [[2026-07-16-13-00_fable_session-log-compounding-build]])
+- [ ] Design question that is genuinely Alyssa's taste call (not deferred work): should outward-facing funnel pages share GL-003's exact vault tokens or get a distinct storefront visual system? Surfaced from the 2026-07-11 lead-magnet session. Owner: iris to draft two versions for her to react to. Check-back: 2026-07-23.
+- [ ] Two July deliverables have zero consumers yet: the profit-menu plan and the voice-metabolization audit (flagged by the loss hunter, not extracted this pass). Owner: night shift.
+- [ ] Hermes deep-read cron still scoped to July 5-7 only (OS-level scheduled task, outside vault reach). Owner: mack.
+- [ ] Stale-task escalator (7d pulse candidate, 14d compress, 28d dormant) designed in the autopsy, still not built. Owner: larry.
+- [ ] The ~290 already-connected journal entries still need the commentary check. Owner: night shift / wave 2. (Carried.)
+- [ ] 13 stale tasks. The wrap debt thread from this morning: died because W28 wrap now exists; current-week W29 wraps at week end per WS-006.
+- [ ] Penn audit item 5 (mechanical wikilink-resolve close checklist) now largely covered by SOP-040 steps 3a/7 plus GL-004's audit; formal wiring into WS-001 step 5. Owner: larry.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
-Connection state: **452/567 entries linked by non-generated sources (80%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
-- oldest never-linked: [[2020-12-16-get-them-to-believe-one-thing]] (`Notebook/Journal/2020/12/2020-12-16-get-them-to-believe-one-thing.md`)
-- newest never-linked: [[2026-06-17-mb-trend-report-wedding-filmmaking-2026]] (`Notebook/Journal/2026/06/2026-06-17-mb-trend-report-wedding-filmmaking-2026.md`)
-- most related to last session: [[2025-11-27-its-a-date-bookingtypetitle-on-bookingdate]] (`Notebook/Journal/2025/11/2025-11-27-its-a-date-bookingtypetitle-on-bookingdate.md`)
+Connection state: **449/567 entries linked by non-generated sources (79%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
+- oldest never-linked: [[2020-11-17-wildling]] (`Notebook/Journal/2020/11/2020-11-17-wildling.md`)
+- newest never-linked: [[2026-06-30-meta-ad-details]] (`Notebook/Journal/2026/06/2026-06-30-meta-ad-details.md`)
+- most related to last session: [[2022-11-15-before-you-go]] (`Notebook/Journal/2022/11/2022-11-15-before-you-go.md`)
 
 ## Due check-backs
-- 2026-07-04 — `Studio/Signals/Developing Ideas/boh-as-permission-not-product.md`
-- 2026-07-04 — `Studio/Signals/Developing Ideas/email-to-content-repurposing-system.md`
-- 2026-07-06 — `Studio/Signals/Developing Ideas/people-undervalue-niche-obsessions.md`
+- none due
 
 ## Debt counters
-- Wrap debt: newest wrap is `2026-W27-weekly-wrap.md` (2 week(s) behind, current week W29)
-- Journal connection debt: 115 entries with zero non-generated inbound links
+- Wrap debt: newest wrap is `2026-W28-weekly-wrap.md` (1 week(s) behind, current week W29)
+- Journal connection debt: 118 entries with zero genuine inbound links (generated hubs and session logs do not count)
+- Unmined session logs: 0 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale open tasks (14d+): 13 — worst: 45d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 45d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 44d `Studio/Team Knowledge/tasks/open/tsk-2026-06-02-001-automate-meetily-capture-inbox.md`
 
 ## Close-session gate (SOP-040 — no session ends without)

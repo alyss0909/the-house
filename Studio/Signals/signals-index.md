@@ -48,8 +48,8 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Recurrence count**: 6
 - **First seen**: 2026-03-15
 - **Last seen**: 2026-06-06
-- **Signal status**: developing
-- **Garden note**: not yet — **Action: create at next session or merge into `boh-as-permission-not-product`**
+- **Signal status**: thesis-ready
+- **Garden note**: [[Studio/Signals/Developing Ideas/people-undervalue-niche-obsessions.md]]
 - **Connected goal**: BOH positioning + student messaging
 
 ---
@@ -70,9 +70,9 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 ### ai-team-as-mirror-not-replacement
 
 - **Description**: AI does the Hands (execution), Alyssa does the Head + Heart (strategy + soul). The system learns to reflect her so accurately it only needs correction when it's genuinely wrong. The best version forgets it exists.
-- **Recurrence count**: 5
+- **Recurrence count**: 8
 - **First seen**: 2026-04-27
-- **Last seen**: 2026-06-06
+- **Last seen**: 2026-07-05
 - **Signal status**: developing
 - **Garden note**: [[Studio/Signals/Developing Ideas/ai-team-as-mirror-not-replacement.md]]
 
@@ -162,6 +162,7 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **First seen**: 2026-04-02
 - **Last seen**: 2026-04-28
 - **Signal status**: radar
+- **Found 2026-07-16**: [[Deliverables/2026-07-11-profit-menu-plan.md]] is a fully worked execution plan for this exact idea — turning the Daily Profit Activities Notion template into "The Profit Menu" (schema, copy rewrite plan, page layout). It was never linked from any task, session log, or DESK, so nobody tending this signal would have found it. Flagging the connection here since Deliverables/ is outside Studio's editable scope for this pass; it still needs a real home (task or garden note) at the next sweep.
 
 ---
 
@@ -195,6 +196,7 @@ _None yet._
 
 | Date | Range | Method | New Signals | Notes |
 |---|---|---|---|---|
+| 2026-07-16 | Index-vs-garden-note frontmatter reconciliation (knowledge-loss follow-up audit) | Manual read (Fable) | 0 new signals | Desync fix, garden-note frontmatter is the source of truth: `people-undervalue-niche-obsessions` was showing status `developing` with no garden-note link even though the garden note exists and reads `thesis-ready` — index corrected to `thesis-ready` with the link restored. `ai-team-as-mirror-not-replacement` was showing count 5 / last seen 2026-06-06 while the garden note has count 8 / last seen 2026-07-05 (three Jul 5 IG-save captures never made it into the index) — index corrected to match. See [[Studio/Analysis/2026-07-16-knowledge-loss-followup.md]]. |
 | 2026-07-10 | 2026-06-29 (3 entries, ad hoc — not a scheduled sweep) | Manual read (Larry) | 1 new signal | `system-already-beats-external-tools` — surfaced by the Bring It Home stranger test, refiled for real after independent verification |
 | 2026-06-29 | WS-004 inbox processing | Manual read (Larry) | 1 new signal | `boh-as-permission-not-product` recurrence +1 from June 27 capture |
 | 2026-06-27 | 2026-03-01 to 2026-06-27 | Manual read (Larry) | 12 | First real sweep — index was empty before this run |

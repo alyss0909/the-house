@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-009-source-boundaries-and-promotion]
+mined: true
 ---
 
 # Vault restructure goal and Fable handoff

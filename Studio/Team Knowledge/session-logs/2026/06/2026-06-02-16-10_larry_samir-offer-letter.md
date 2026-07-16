@@ -4,6 +4,7 @@ agent: larry
 date: 2026-06-02
 topic: samir-offer-letter
 status: complete
+mined: true
 ---
 
 # 2026-06-02 - Samir Offer Letter

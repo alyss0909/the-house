@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-003-design-system"]
+mined: true
 ---
 
 # Pin Engine Blueprint: standing up the lead-magnet pipeline, then rebuilding one lead magnet four times until it was actually good

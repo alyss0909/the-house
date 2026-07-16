@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-020-val-quality-gate]
 linked_workstreams: [WS-011]
 linked_guidelines: [GL-003]
+mined: true
 ---
 
 QA gate on Iris's dashboard.css restyle (`.db-concept-desc` + three text-label react pills on 01 Concepts). Verdict: PASS, no Critical/High. Two Low notes only.

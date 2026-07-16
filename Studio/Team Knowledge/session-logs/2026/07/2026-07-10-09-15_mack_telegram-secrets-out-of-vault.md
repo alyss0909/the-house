@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-013-the-house-rules"]
+mined: true
 ---
 
 # Telegram bot secrets relocated outside the vault

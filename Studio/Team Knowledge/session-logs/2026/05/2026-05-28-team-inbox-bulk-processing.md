@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: ["WS-001-daily-journaling"]
 linked_guidelines: ["GL-001-file-naming-conventions"]
+mined: true
 ---
 
 # Team Inbox bulk processing — first pass + PKM structure decisions

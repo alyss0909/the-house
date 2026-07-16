@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Morning triage, inbox cleanup, and Bdow article enrichment

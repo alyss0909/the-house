@@ -6,6 +6,7 @@ type: mid-session-insight
 linked_sops: []
 linked_workstreams: [WS-011]
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # WS-011 dashboard — week-theme chip redesign (pending Alyssa review)

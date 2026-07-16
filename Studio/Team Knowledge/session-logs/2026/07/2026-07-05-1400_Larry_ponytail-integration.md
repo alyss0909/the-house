@@ -4,6 +4,7 @@ session_date: 2026-07-05
 agent: Larry
 topic: Ponytail lazy senior dev integration
 duration_minutes: ~15
+mined: true
 ---
 
 # Session: Ponytail Integration into myPKA

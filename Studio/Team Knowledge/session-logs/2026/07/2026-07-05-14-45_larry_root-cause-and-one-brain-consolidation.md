@@ -5,6 +5,7 @@ agent: larry
 type: realignment
 topic: Root cause of vault drift + one-brain consolidation + Wren retirement
 links: [[2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]], [[2026-07-04-18-22_larry_carousel-notion-taxonomy-rule]]
+mined: true
 ---
 
 # Root cause + one-brain consolidation

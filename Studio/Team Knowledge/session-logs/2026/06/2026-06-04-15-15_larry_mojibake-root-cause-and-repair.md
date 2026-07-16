@@ -6,6 +6,7 @@ type: mid-session-insight
 linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: []
+mined: true
 ---
 
 # Mojibake root cause and repair

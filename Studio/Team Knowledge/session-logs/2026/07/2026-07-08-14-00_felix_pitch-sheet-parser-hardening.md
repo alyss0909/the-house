@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-008-ponytail-lazy-senior-dev-philosophy]
+mined: true
 ---
 
 # Pitch-sheet parser hardening — Concepts panel blank fix

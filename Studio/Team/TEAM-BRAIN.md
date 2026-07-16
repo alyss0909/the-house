@@ -30,6 +30,11 @@ The shared half of the team's memory. Per-agent craft lives in each specialist's
 - **Emoji discipline** (AGENTS Hard Rule 7): plain-text statuses by default; emoji only in source quotes/brand assets.
 - Naming: plain words over jargon. "Scheduled tasks" not "crons"; "the house" not "the vault."
 - **Talk to her plainly, every message, always** (2026-07-16): *"i want you to talk to me plainly like this all the time... never make that mistake again."* She compared two messages: one reported internal state in internal vocabulary (filenames, bucket labels like kept/noHome/rejected, code formatting) and made her decode it; the other explained the same project as what it is, what it's for, and how it improves her life, in whole sentences. Every message any agent sends her must read like the second one. Status reports are not exempt — translate internal state into plain meaning before it reaches her.
+- **Fix obvious defects; never bounce them back to her** (2026-07-07, mined 2026-07-16): *"why wouldnt you just fix this why must you alwyas out everything back in my court?"* Second receipt 2026-07-16: *"do not puit things in my court to review or add a dated item, i want you to do that now."* Two appearances = law. A clear defect on any surface gets fixed in the session it's found; genuine taste calls and scope changes are still hers.
+- **Plan first unless she says DO IT** (2026-07-07, mined 2026-07-16): *"i aleways wanna plan unless i say DO IT like fkn ell."* Default to showing the plan before executing; the explicit words "do it" (or equivalent) flip the switch. Receipt: [[2026-07-07-22-00_larry_obsidian-vault-css-redesign]].
+- **Propose solutions, get to the root** (2026-07-05, mined 2026-07-16): *"we need to be proposing solutions now not just finding eachothers problems get to the root here."* Team output that only names problems is unfinished; bring the root cause and a proposed fix together. Receipt: [[2026-07-05-12-51_larry_content-os-realignment]].
+- **Never archive or delete without her per-file approval** (2026-05-28, mined 2026-07-16): she caught 7 files archived without sign-off during a bulk cleanup. Bulk passes list what they intend to archive and wait; this predates and reinforces the SOP-039 archive toll.
+- **"Make the call" covers content velocity, not system wiring** (2026-06, mined 2026-07-16): her just-do-it instructions apply to content decisions; new SOPs, sweep behaviors, and AGENTS.md changes still get drafted and shown first unless she explicitly orders execution (as she did 2026-07-16 for the session-log compounding build).
 
 ## Pre-apply list (do WITHOUT asking, house-wide)
 
@@ -48,6 +53,8 @@ The shared half of the team's memory. Per-agent craft lives in each specialist's
 - Re-presenting anything she already rejected (check your PLAYBOOK's rejected-list first).
 
 ## Precedent index (reuse before you rebuild)
+
+**The full index is [[PRECEDENT-INDEX]]** (Studio/Team Knowledge/, installed 2026-07-16): every reusable decision, one row each, with the deciding session log linked. Load your topic's group there before designing anything; the highlights below are only the most-used slices.
 
 **Design** (owner Iris — full tokens in her [[Studio/Team/Iris - Design System Architect/PLAYBOOK|PLAYBOOK]] and [[GL-003-design-system]]):
 oat `#fcfaf5` on linen `#eee6de`; ink `#2d1a1b`; burgundy accent `#8b4a2f`; the five brand pastels `#a186bc / #fecc86 / #f39ec2 / #c1d17c / #ffeec6` (zone colors: Notebook pink, Studio sage, Library peach); 1.5px `rgba(0,0,0,.35)` borders, 10px radius, NO shadows; AT KING serif headings, Karla body, Roboto Mono micro-labels; hex only, never color names. Shipped implementations to copy from: `colors.css`, `bases-and-canvas.css`, `dashboard.css`, `notekeeper.css` (2026-07-11 card redesign — smaller mono dates, chip rows, tag pills on pastels).

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-001-file-naming-conventions, GL-002-frontmatter-conventions]
+mined: true
 ---
 
 # Soft Sunday deep analysis — voice patterns, structure framework, and routing map

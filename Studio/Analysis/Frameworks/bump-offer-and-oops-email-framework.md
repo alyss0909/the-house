@@ -10,6 +10,13 @@ tags: [email, sales, checkout]
 
 <- [[Studio/Analysis/Frameworks/INDEX|Frameworks]] | [[Studio/Analysis/Templates/bump-offer|Bump Offer Template]] | [[Studio/Analysis/Templates/email-oops|Oops Email Template]]
 
+## Her own checkout captures (connected 2026-07-15)
+
+Journal entries where Alyssa was working the same checkout-and-recovery surface this framework covers. Older captures, so treat as input, not doctrine:
+
+- [[2021-02-19-add-did-you-forget-this-email-on-all-abandoned-cart]] — 'add "did you forget this" email on all abandoned cart :) entice them back with some kinda bonus.' Her instinct is bonus-led recovery, not discount-led, which matches the bump template's "add" framing over "save" framing.
+- [[2020-03-28-youve-qualified-for-off-this-order]] — "You've qualified for $off this order." A checkout-side discount line she captured verbatim; note the earned framing (qualified for) rather than a given discount.
+
 ---
 
 ## FORMULAS

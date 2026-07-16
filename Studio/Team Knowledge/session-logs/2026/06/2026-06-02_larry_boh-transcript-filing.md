@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-002-import-external-knowledge-base]
 linked_guidelines: []
+mined: true
 ---
 
 # BOH transcript import — 7 modules filed across P2, P3, P4

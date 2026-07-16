@@ -4,6 +4,7 @@ agent: Larry
 topic: audience-survey-and-second-brain-placement
 created: 2026-06-02 15:42
 tags: [session-log, close-session, audience-survey, second-brain, back-of-house]
+mined: true
 ---
 
 # Close Session - Audience Survey And Second Brain Placement

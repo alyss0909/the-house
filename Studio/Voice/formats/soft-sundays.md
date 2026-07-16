@@ -10,6 +10,7 @@ Her real examples, in full, live here:
 - [[Library/Examples/soft-sundays/me-i-need-ideas-i-already-had]]
 - [[Library/Examples/soft-sundays/ur-not-new-march-plan]]
 - [[Library/Examples/soft-sundays/your-list-called-theyre-hungry]]
+- [[Library/Examples/soft-sundays/3-emails-to-ctrl-c-and-money]] — real Email Prompt Vault frameworks (Phantom Ring, Right Time Offer, Two Camps); Alyssa flagged this specific issue as not good, use for the templates/format only
 
 Write toward these. Read at least two in full, including [[Library/Examples/soft-sundays/why-i-burned-down-my-business]], before drafting a new Soft Sunday.
 

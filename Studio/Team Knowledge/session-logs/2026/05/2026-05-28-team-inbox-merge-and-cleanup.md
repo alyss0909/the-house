@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-001-file-naming-conventions"]
+mined: true
 ---
 
 # Team Inbox — merge, reformat, and consolidation pass

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Voice profile extraction — Ruben Hassid methodology + AI-mined 100-question archive

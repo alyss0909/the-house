@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-006-weekly-review]
 linked_guidelines: []
+mined: true
 ---
 
 # Weekly Review Backfill — W22 + W23

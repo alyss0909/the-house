@@ -44,19 +44,41 @@ const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentPitch(pages) {
+  const nowMs = Date.now();
+  const todayUTC = Date.UTC(new Date(nowMs).getFullYear(), new Date(nowMs).getMonth(), new Date(nowMs).getDate());
+  const current = pages.find(p => {
+    const m = p.file.name.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mon = dbIsoWeekMonday(+m[1], +m[2]);
+    const mondayUTC = Date.UTC(mon.getUTCFullYear(), mon.getUTCMonth(), mon.getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  });
+  return current || pages[0] || null;
+}
+
 if (pitchPages.length === 0) {
   dv.el("h2", `${now.toLocaleString('default', { month: 'long' })} ${year}`, {});
   dv.el("div", "No pitch sheet found in Studio/Content/ yet — calendar has nothing to plot.", {cls: "db-empty"});
 } else {
-  const latest = pitchPages[0];
+  const latest = dbPickCurrentPitch(pitchPages);
   // Kick off both file reads together (pitch sheet + MAP.md) instead of
   // sequentially, so this block resolves in one round trip, not two. Reading
   // view shows the raw dataviewjs source until this async work finishes, so
   // every extra sequential await is extra time the raw block flashes on screen.
-  const [raw, mapRawSettled] = await Promise.all([
+  // Normalize CRLF -> LF (Windows-edited files break any $-anchored line regex).
+  const [rawLoaded, mapRawSettled] = await Promise.all([
     dv.io.load(latest.file.path),
     dv.io.load("Studio/Hermes/MAP.md").catch(() => null),
   ]);
+  const raw = rawLoaded.replace(/\r\n/g, "\n");
 
   // Determine day-of-week -> arc/hook/pick status from the sheet.
   // We infer status per day (Mon/Wed/Fri) from presence of arc skeletons,

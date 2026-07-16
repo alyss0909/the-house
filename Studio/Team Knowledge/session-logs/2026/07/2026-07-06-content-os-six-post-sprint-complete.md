@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Content OS 6-post sprint — pitched, gated, written, pressure-tested to 6/6 survival

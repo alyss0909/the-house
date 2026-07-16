@@ -6,6 +6,7 @@ type: proactive
 linked_sops: ["SOP-031-watch-video"]
 linked_workstreams: ["WS-003-install-an-expansion"]
 linked_guidelines: []
+mined: true
 ---
 
 # Installed Claude Video Expansion (claude-video v0.2.0) via WS-003

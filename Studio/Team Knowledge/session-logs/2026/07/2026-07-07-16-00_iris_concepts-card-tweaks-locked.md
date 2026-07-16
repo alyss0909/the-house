@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # Implemented Alyssa's three 01 Concepts card decisions (day-name treatment, button colors, shadow enforcement)

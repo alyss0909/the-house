@@ -6,6 +6,7 @@ type: close-session
 linked_sops: ["SOP-031-watch-video", "SOP-032-apply-ponytail-ladder"]
 linked_workstreams: ["WS-003-install-an-expansion"]
 linked_guidelines: ["GL-008-ponytail-lazy-senior-dev-philosophy"]
+mined: true
 ---
 
 # Internal Skills system: two installs, one discoverability fix

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: [SOP-014-author-a-design-system, SOP-015-audit-content-for-design-system-compliance, SOP-016-build-an-infographic, SOP-017-generate-a-styled-image, SOP-018-felix-build-a-component, SOP-019-vex-security-audit, SOP-020-val-quality-gate, SOP-021-transcribe-audio, SOP-022-transcribe-url, SOP-023-webpage-to-text, SOP-024-convert-images-pdf, SOP-025-convert-documents, SOP-026-ocr-scanned-pdf, SOP-027-inspect-strip-metadata, SOP-028-slack-incoming-routing, SOP-029-slack-post-message, SOP-030-slack-listener-health]
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # All 4 expansion packs installed — team grows from 8 to 14 active specialists

@@ -48,7 +48,9 @@ function dbSplitStateTag(rawTitle) {
 }
 
 // ---- concepts render loop (copied verbatim from 01 Concepts.md, dv.el calls stripped) ----
-function parseConcepts(raw) {
+function parseConcepts(rawInput) {
+  // Normalize CRLF -> LF (Windows-edited files break any $-anchored line regex).
+  const raw = rawInput.replace(/\r\n/g, "\n");
   const body = raw.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, "");
   const lines = body.split("\n");
 

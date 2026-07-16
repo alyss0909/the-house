@@ -47,8 +47,9 @@ Filename pattern: `SOP-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] f
 | SOP-037 | [[SOP-037-run-mean-alyssa-content-gate]] | Suki / Larry | The reusable Mean Alyssa kill gate — runs at every content rung (concept/hook/substance/voice) before work reaches Alyssa. Control-calibrated. |
 | SOP-038 | [[SOP-038-suki-weekly-strategy-brief]] | Suki | The market→bet translation: a team-usable one-pager (theme, slot-offer lock, stop-list, the one belief, comment keywords) + a 2-line skim for Alyssa. WS-011 Step 2. |
 | SOP-039 | [[SOP-039-house-keeping]] | Larry (any model tier) | The standing maintenance patrol for the trust-zone geography — 8 mechanical weekly checks (WS-006 Phase 5) + 6 monthly deep checks (WS-007). GL-013's immune system; written by Fable so lower models run it without judgment calls. |
+| SOP-040 | [[SOP-040-the-compounding-loop]] | Larry (every agent executes) | Every session learns from the last: NOW.md resume spine at boot, journal resurface duty (the journal is the core, Alyssa's ruling 2026-07-11), and the 6-step close gate. Regenerator: scripts/regenerate-now.py. |
 
-Next available SOP number: SOP-040
+Next available SOP number: SOP-041
 
 ## How to add a new SOP
 

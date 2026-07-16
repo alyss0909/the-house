@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-008-ponytail-lazy-senior-dev-philosophy"]
+mined: true
 ---
 
 # Hermes rebuild through five Gate 3 rounds, then Content OS genesis

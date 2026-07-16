@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [[GL-003-design-system]]
+mined: true
 ---
 
 # Fixed the solid-yellow cover box, duplicate title, mismatched day chip, and sources-line readability on 02 Arc and 04 Draft

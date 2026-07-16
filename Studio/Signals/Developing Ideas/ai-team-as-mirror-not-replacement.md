@@ -33,6 +33,7 @@ Three more captures on Jul 5 keep the pattern alive: two Instagram saves (Hermes
 - [[Notebook/Journal/2026/07/2026-07-05-hermes-and-mac-mini]] — IG save, cross-linked to this signal directly
 - [[Notebook/Journal/2026/07/2026-07-05-relations-for-agents]] — IG save, cross-linked to this signal directly
 - [[Notebook/Journal/2026/07/2026-07-05-obsidian-mind]] — bare fragment, "Obsidian mind / Obsidian second brain"
+- [[2026-05-30-meeting-prep-agent]] — connected 2026-07-16. A concrete instance of the thesis, not just the instinct: before a client meeting, an AI agent runs a quiet prep pass — reads the client notes, pulls the last call summary, scans the to-do list, surfaces exactly 3 things to push forward. Pure Hands work (recall, assembly) so the Heart (the actual conversation, the judgment) stays hers. "The agent does the recall. You show up ready." This is what the Mirror is supposed to do.
 
 ## What it's connecting to in the Second Brain
 

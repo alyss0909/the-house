@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-003-design-system"]
+mined: true
 ---
 
 # Obsidian vault aesthetic redesign — locked oat/linen card system after a long debugging saga

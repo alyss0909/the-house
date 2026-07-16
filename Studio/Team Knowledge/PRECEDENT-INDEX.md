@@ -1,0 +1,60 @@
+---
+title: Precedent Index — decisions and the sessions that made them
+date: 2026-07-16
+owner: Larry maintains; every agent reads before designing, writing, building, or deciding
+status: ACTIVE — installed 2026-07-16 on Alyssa's ruling to make session logs compound
+linked_guidelines: ["GL-014-the-compounding-architecture"]
+linked_sops: ["SOP-040-the-compounding-loop", "SOP-011-write-session-log"]
+---
+
+# Precedent Index
+
+**Why this file exists.** The 2026-07-11 autopsy proved session logs are cold storage nobody rereads: 158 logs, and the lessons inside them died unless they were converted into a file later work was forced to load. This index is that file for decisions. GL-014 law 3 already requires every brief to load "the nearest precedent from the index" — this is the index. One row per reusable decision: what was decided, in plain words, with the session log that decided it linked as the receipt.
+
+**How it is maintained.** At every session close (SOP-040 gate step 3a), the closing agent adds a row here if the session made a decision someone doing similar work later would want to find. The night shift's log-mining keeps it fed from older logs. NOW.md's "unmined session logs" counter tracks the backlog. Rows are grouped by topic; newest first inside each group. A superseded row is struck through with a pointer to the newer row, never deleted.
+
+**How to use it.** Before you design, write, build, or decide anything: scan your topic's group. If a row covers your question, load the linked log and follow the precedent (or supersede it explicitly with a new row). Re-deriving a decision that has a row here is a GL-014 violation.
+
+## Rows
+
+_(Backfill from the 147-log mining pass lands here, 2026-07-16, grouped by topic. Rows added at session close go under the matching topic heading.)_
+
+### Ops / Automation
+
+- **Build small and vault-native instead of adopting a generic automation catalog wholesale.** Pax scored all 29 routines in the Claude Routines Notion catalog against Alyssa's actual open tasks; only 5 were worth building, always re-scoped to her real workflow (a "weekly vault formatting sweep" instead of the original code-docs-drift routine, a "PKB opportunity digest" instead of a generic recall engine). The rest were skipped for weak fit or life-ops mismatch. This is the same conclusion the `system-already-beats-external-tools` signal reached independently three weeks later ([[Studio/Signals/Developing Ideas/system-already-beats-external-tools.md]]) — two separate evaluations, one verdict. Full report: [[Archive/Deliverables-history/2026-06-04-claude-routines-automation-fit-report.md]]. The task that was supposed to close this decision, [[tsk-2026-06-04-001-review-claude-routines-automation-report]], is still open 42+ days later; most of the shortlist shipped anyway inside SOP-039/SOP-040 rather than through that task, so the task itself is stale and should close by precedent, not by Alyssa re-deciding.
+- **Camila's highest-leverage lane is protecting revenue motion, not general admin.** The ops-delegation brief concluded her time should go to lead follow-up/triage, launch execution, content repurposing, Kit/email hygiene, client/student success touches, and project tracking — anything that keeps a sales, launch, or content asset from going stale — not undifferentiated admin work. This conclusion is already live in [[Notebook/Life/CRM/People/camila.md]]'s "Best-fit routing cues" section. Full report: [[Archive/Deliverables-history/2026-06-04-ops-assistant-revenue-delegation-brief.md]].
+- **A read-only system audit correctly predicted the drift the 2026-07-11 memory autopsy found six days later.** The 2026-07-05 vault-learn diagnosis ([[Archive/Deliverables-history/2026-07-05-vault-learn/learn-system-state.md]]) named, with receipts, the exact failure modes the autopsy later formalized into rules: a stale task index (last rebuilt a month prior), SSOT duplication between two files restating the same facts, a specialist (Hermes) missing from the routing table, and a monthly-review tier that had never fired. None of those specific findings were wired into a durable fix at the time — they sat in Archive until this follow-up audit surfaced them. Precedent: a same-week read-only audit is cheap and catches real drift; the miss was in the extraction step, not the diagnosis. That extraction gap is exactly what GL-014 and the archive toll (SOP-039 check 13) now exist to close.
+- **After any git mv that changes folder depth, re-check scripts that compute paths with relative parent counts (parents[N]); a depth change breaks path resolution silently instead of crashing, so nothing looks wrong until files start landing in the wrong place.** (2026-07-13) Receipt: [[2026-07-13-11-05_mack_telegram-capture-bot-fix]]. _(Mined 2026-07-16.)_
+- **Split meeting-capture automation into a mechanical daily cleanup cron (delete stale media, create pointers) and a separate judgment-driven weekly processing pass (extract memory, connect Projects/CRM) - never let a cron job try to do the judgment part unattended.** (2026-07-10) Receipt: [[2026-07-10-11-12_mack_meetily-inbox-prep-automation]]. _(Mined 2026-07-16.)_
+- **For personal-machine Windows background tasks that write to local folders and hit the network, use Task Scheduler LogonType S4U (no password required, runs with screen locked) instead of Password logon.** (2026-06-05) Receipt: [[2026-06-05-midday_larry_morning-shift-and-telegram-service]]. _(Mined 2026-07-16.)_
+- **Without delete permission, move processed inbox files into a same-folder _Processed/ subfolder each session rather than deleting; Alyssa clears it manually when ready.** (2026-06-03) Receipt: [[2026-06-03_larry_morning-triage-inbox-bdow-enrichment]]. _(Mined 2026-07-16.)_
+
+### Imports and data integrity
+
+- **When a schema gives one class of fact two legitimate homes, the home with zero real movement is the dead one; dissolve it into the home that actually moves instead of maintaining sync between both.** (2026-07-10) Receipt: [[2026-07-10-10-06_silas_ready-queue-dissolution]]. _(Mined 2026-07-16.)_
+- **Bare links captured via Telegram or Keep get fetched with WebFetch and filed as full journal entries (stats, frameworks, quotes, a how-I'd-use-this section), not left as bare URLs.** (2026-06-03) Receipt: [[2026-06-03_larry_morning-triage-inbox-bdow-enrichment]]. _(Mined 2026-07-16.)_
+- **Products/Offers needed a new first-class 'offer' entity type rather than being squeezed into Documents; CSV export beat MCP page-by-page fetch for large, low-value-per-record databases like Idea Pantry.** (2026-05-26) Receipt: [[2026-05-26_larry_notion-import-inventory-and-scope]]. _(Mined 2026-07-16.)_
+- **Structural relationship wikilinks (Part of / Related X) must be written into an imported entity's body at import time from data already known in the source, not left as a placeholder for the user to fill in later.** (2026-05-26) Receipt: [[2026-05-26_larry_notion-import-phases-0-4]]. _(Mined 2026-07-16.)_
+
+### Content OS and voice
+
+- **An 'AI does X for you' deliverable must remove real labor (research, judgment on real data) for the user, not just give them a nicer tracker to fill in the same labor themselves; ask what work stopped existing for the user when they're done.** (2026-07-09) Receipt: [[2026-07-09-21-00_larry_pin-engine-blueprint-and-lead-magnet-pipeline]]. _(Mined 2026-07-16.)_
+- **A rubric score passing is not proof of quality - the real gate is a human reading the output next to her real copy; before synthesizing new voice/style rules from scratch, exhaust her own prior saved work (anti-AI notes, bots, persona docs) first, since it usually already contains the fix.** (2026-07-05) Receipt: [[2026-07-05-23-30_larry_hermes-rebuild-and-content-os-genesis]]. _(Mined 2026-07-16.)_
+- **New carousels do not need full slide-by-slide ingestion by default; add a lightweight summary entry and reserve deep ingestion for posts that introduce a new repeatable format, outperform, or fill a known coverage gap.** (2026-07-04) Receipt: [[2026-07-04-19-02_larry_carousel-ingestion-lightweight-rule]]. _(Mined 2026-07-16.)_
+- **Generated or AI-drafted carousel briefs must never be filed under examples/ as if they were real Alyssa source material; generated concepts stay in Deliverables as drafts until she explicitly approves and labels them.** (2026-07-04) Receipt: [[2026-07-04-17-01_larry_retired-invalid-carousel-brief-bank]]. _(Mined 2026-07-16.)_
+- **Classify each recording as teaching or pitch-class before analyzing it; the two formats have different structural logic and a synthesis built assuming one breaks when applied to the other.** (2026-06-04) Receipt: [[2026-06-04_pax_webinar-corpus-analysis-methodology]]. _(Mined 2026-07-16.)_
+
+### Obsidian and UI
+
+- **Any dataviewjs section read that slices from a heading to end-of-file must stop at the next top-level heading, or a later-added sibling section gets silently absorbed as phantom content in the earlier tab.** (2026-07-09) Receipt: [[2026-07-09-11-06_felix_draft-tab-rewire]]. _(Mined 2026-07-16.)_
+- **For a floating oat-card aesthetic in the AnuPpuccin theme, use its native Card Layout style setting instead of hand-rolling .workspace-leaf CSS, which repeatedly collides with the theme's own layout engine.** (2026-07-07) Receipt: [[2026-07-07-22-00_larry_obsidian-vault-css-redesign]]. _(Mined 2026-07-16.)_
+- **Unexplained box-shadow on custom buttons in this vault traces to AnuPpuccin's core --input-shadow property applied to every native <button> element; fix by scoping box-shadow:none !important to the specific button classes rather than guessing at a card-level shadow source.** (2026-07-07) Receipt: [[2026-07-07-16-00_iris_concepts-card-tweaks-locked]]. _(Mined 2026-07-16.)_
+- **Hiding root-level or system files from Obsidian's UI requires both app.json userIgnoreFilters (for search/graph/properties) and a CSS rule on .nav-file-title/.nav-folder-title's data-path attribute (for the file explorer sidebar) - one mechanism alone is incomplete.** (2026-06-01) Receipt: [[2026-06-01_larry_obsidian-ui-hiding]]. _(Mined 2026-07-16.)_
+
+### House protocol and structure
+
+- **Session logs are cold storage: every close mines its own lessons (precedent row + `mined: true`), a visible unmined counter tracks the backlog, and logs do not count as journal connections.** (2026-07-16) Receipt: [[2026-07-16-13-00_fable_session-log-compounding-build]].
+- **Validate a structural vault restructure with genuinely isolated agents (separate worktrees, zero conversation history) run against a real retrieval gauntlet and a cold stranger-task, not by the same session that built the restructure grading its own work.** (2026-07-10) Receipt: [[2026-07-10-13-35_larry_bring-it-home-team-and-library-phase]]. _(Mined 2026-07-16.)_
+- **Duplicated UI lines, already-locked parity rules not yet applied to a sibling surface, and other obvious defects should be fixed directly and reported, never floated back to Alyssa as a question or logged as a pending item.** (2026-07-07) Receipt: [[2026-07-07-23-00_larry_dashboard-live-qa-and-home-page-mockups]]. _(Mined 2026-07-16.)_
+- **Run a name-collision and manifest preflight before copying any files from an expansion pack, and renumber SOPs sequentially across every pack installed in the same pass rather than keeping the pack's own numbering.** (2026-06-26) Receipt: [[2026-06-26-16-00_larry_expansion-pack-full-install]]. _(Mined 2026-07-16.)_
+- **Once a reference area (Second Brain, a program index) grows past roughly 300 lines, give it a lean COMPASS-style entry point under about 120 lines that routes agents to specific files, instead of loading the full reference to find anything.** (2026-06-05) Receipt: [[2026-06-05-17-00_larry_token-discipline-and-second-brain-navigation]]. _(Mined 2026-07-16.)_

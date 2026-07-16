@@ -7,6 +7,7 @@ linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: ["GL-001-file-naming-conventions", "GL-002-frontmatter-conventions"]
 prior_session: "[[2026-05-26_larry_phase5-idea-pantry-rethink]]"
+mined: true
 ---
 
 # Phase 5 Blueprint + Idea Pantry Import

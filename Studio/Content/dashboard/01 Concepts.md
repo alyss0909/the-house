@@ -44,11 +44,31 @@ if (navEl) {
 // heading at the end of the pitch sheet (created once if absent).
 const REACT_HEADING = "## Dashboard reacts";
 
+// ISO week Monday, used to find which pitch sheet's Mon-Fri window contains today —
+// "newest by filename" silently points at next week's prepped-ahead sheet once it
+// exists, since the shop now keeps two weeks live at once (current + prepped next).
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentFile(files) {
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return files.find(f => {
+    const m = f.basename.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mondayUTC = Date.UTC(dbIsoWeekMonday(+m[1], +m[2]).getUTCFullYear(), dbIsoWeekMonday(+m[1], +m[2]).getUTCMonth(), dbIsoWeekMonday(+m[1], +m[2]).getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  }) || null;
+}
 function dbNewestPitchFile() {
   const md = app.vault.getMarkdownFiles()
     .filter(f => f.path.startsWith("Studio/Content/") && /^\d{4}-W\d{2}-pitch$/.test(f.basename))
     .sort((a, b) => a.basename < b.basename ? 1 : -1);
-  return md[0] || null;
+  return dbPickCurrentFile(md) || md[0] || null;
 }
 
 async function dbAppendReact(stage, title, verdict, words) {
@@ -257,6 +277,28 @@ const pitchPages = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
+// Prefer the sheet whose Mon-Fri ISO week window contains today over the newest
+// by filename — two weeks are live at once (current + next, prepped ahead).
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentPitch(pages) {
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const current = pages.find(p => {
+    const m = p.file.name.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mon = dbIsoWeekMonday(+m[1], +m[2]);
+    const mondayUTC = Date.UTC(mon.getUTCFullYear(), mon.getUTCMonth(), mon.getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  });
+  return current || pages[0] || null;
+}
+
 function reactRow(stage, title, desc, offer, theme, stateTag) {
   const esc = (s) => String(s == null ? "" : s).replace(/"/g, "&quot;");
   const tagAttr = stateTag ? ` data-state-tag="${stateTag}"` : "";
@@ -302,8 +344,11 @@ function dbApplyRowState(row, stateTag) {
 if (pitchPages.length === 0) {
   dv.el("div", "No pitch sheet found in Studio/Content/ yet. Once one exists (named like 2026-W28-pitch.md), concepts will render here automatically.", {cls: "db-empty"});
 } else {
-  const latest = pitchPages[0];
-  const raw = await dv.io.load(latest.file.path);
+  const latest = dbPickCurrentPitch(pitchPages);
+  // Normalize CRLF -> LF: this vault's files are edited on Windows and often
+  // saved with \r\n, which leaves a trailing \r on every split("\n") line and
+  // silently breaks any regex anchored with $ (caught 2026-07-13).
+  const raw = (await dv.io.load(latest.file.path)).replace(/\r\n/g, "\n");
   // ponytail: strip a leading YAML frontmatter fence before line-parsing — an
   // off-format sheet with `---\n...\n---` at the top used to hit the footer
   // `---` stop-check on line 1 and abort before ever reaching a day header.

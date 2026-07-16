@@ -1,3 +1,6 @@
+---
+mined: true
+---
 ﻿---
 agent_id: larry
 session_id: meetily-meeting-capture-workflow

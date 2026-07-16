@@ -7,6 +7,7 @@ linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: ["GL-002-frontmatter-conventions"]
 prior_session: "[[2026-05-26_larry_notion-import-inventory-and-scope]]"
+mined: true
 ---
 
 # Notion Import — Phases 0–4 Complete

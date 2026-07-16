@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-005-meeting-capture-processing]
 linked_guidelines: [GL-013-the-house-rules]
+mined: true
 ---
 
 # Meetily iCal launcher hardening

@@ -8,6 +8,7 @@ linked_workstreams: [WS-011-weekly-carousel-pitch]
 linked_guidelines: [GL-007-token-discipline, GL-009-source-boundaries-and-promotion, GL-010-content-pitch-operating-brain, GL-012-content-os-strategy-lead-charter]
 linked_tasks: [tsk-2026-07-08-001-reconcile-content-selling-logic-into-existing-maps]
 linked_journal_entries: []
+mined: true
 ---
 
 # Offer map redundancy reconciled

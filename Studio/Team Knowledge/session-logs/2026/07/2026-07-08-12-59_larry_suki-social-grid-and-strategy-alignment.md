@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: ["WS-011-weekly-carousel-pitch"]
 linked_guidelines: ["GL-010-content-pitch-operating-brain", "GL-012-content-os-strategy-lead-charter", "GL-009-source-boundaries-and-promotion"]
+mined: true
 ---
 
 # Suki Social Grid + Strategy Alignment

@@ -37,6 +37,8 @@ From each weekly wrap, extract:
 2. **Shipped items** — `## What shipped` sections
 3. **Decisions** — `## Key decisions` tables
 4. **Insights not yet graduated** — `## Insights not yet graduated` sections
+
+**Two wrap shapes exist and both are valid** (reconciled 2026-07-16: WS-006's brew template and the older template drifted apart; wraps in both shapes are on disk, so this step reads both). When a wrap uses the brew shape, map it: narratives come from `## What brewed this week`, shipped items from `## What's moving`, decisions and ungraduated insights from `## Grand metabolism`, and open threads from `## For Alyssa` plus `## Session log summary`. A wrap with `type: skipped` frontmatter contributes only its gap note.
 5. **Open threads** — remaining unchecked `- [ ]` items (carry-forward candidates)
 
 **Before carrying any thread forward, verify vault state.** Do not trust the weekly wrap narrative alone — it was written from session logs, not from the vault. For each open thread:

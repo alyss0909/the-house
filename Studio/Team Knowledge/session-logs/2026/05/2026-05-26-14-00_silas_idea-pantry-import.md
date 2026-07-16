@@ -9,6 +9,8 @@ linked_workstreams:
 linked_guidelines:
   - GL-001-file-naming-conventions
   - GL-002-frontmatter-conventions
+mined: true
+mined_date: 2026-07-15
 ---
 
 # Silas — Idea Pantry Import Session Log

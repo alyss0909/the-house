@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-011-weekly-carousel-pitch]
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # WS-011 calendar — chip design iteration, GL-003 graduation

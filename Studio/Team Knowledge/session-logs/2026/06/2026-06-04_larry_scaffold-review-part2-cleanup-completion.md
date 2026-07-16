@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-005-meeting-capture-processing]
 linked_guidelines: [GL-004-tag-taxonomy, GL-005-team-inbox-protocol, GL-006-deliverables-scope]
+mined: true
 ---
 
 # Scaffold Review Part 2 — Cleanup Completion

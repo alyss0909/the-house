@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-001-file-naming-conventions, GL-004-tag-taxonomy]
+mined: true
 ---
 
 # Session Log — Email Examples Import

@@ -7,6 +7,7 @@
 1. Chat words are verbatim from Notion or they don't exist. Blank = write "manual selection needed" and stop — never print a plausible placeholder word in the draft.
 1b. Product NAMES are verbatim too — "The Promo Planner in Notion," never "Seasonal Promo Planner." Renaming a product in copy is inventing a product.
 2. Never pitch Sunset or Geriatric products. Idea-stage products (Rush Order) are not pitchable.
+2b. Unignorable Subject Lines has NO chat word, ever — it isn't wired for checkout/ManyChat, so it is not a comment-CTA target. This is not "manual selection needed," it's permanent. Never CTA a post directly to it, never surface a missing-word question about it in a footer, dashboard, or parked list (ruling 2026-07-09, verbatim: "theres no chat word bc theres no checkout or manychat stop using it and stop making it my problem"). It only ever appears as the order-bump inside The 5 Minute Newsletter's own checkout (see funnel chain below) — never as a standalone social CTA.
 3. For product meaning/positioning, the vault (`Library/Offers/`) is truth. For price/status/link/chat word, Notion Products DB is truth — the table below is a dated snapshot, re-verify before live use.
 4. Funnel chains documented in vault: Email List Revival Plan → List Resuscitator ($11 tripwire) · 5M Newsletter → Unignorable Subject Lines bump · 90d Clock In → Promo Planner 50% bump · Soft CEO Sessions → Soft CEO Monthly attendee tripwire · 90 Minute Reset → $111 follow-up OTO · BOH → Rush Order (undecided placement).
 
@@ -23,7 +24,7 @@
 | Soft CEO Sessions (freebie) | $0 | Productivity | Softceo | "a collective of entrepreneurs doing LESS, better" |
 | The Numbers (freebie) | $0 | BoH | manual | "know exactly how many people to grow your list by to hit your income goal" |
 | Biz Tracker (freebie, needs edits) | $0 | BoH/Prod/Sales | manual | business data tracking |
-| Unignorable Subject Lines | $9 | Email | manual | "80 subject lines in all my MOST clicked categories" |
+| Unignorable Subject Lines | $9 | Email | NO CTA (never ask) | "80 subject lines in all my MOST clicked categories" |
 | List Resuscitator | $11 | Email | Cold | "Big lists are cute, but engaged lists make money." |
 | The 5 Minute Newsletter | $19 | Email | manual | "The easiest email you'll ever send makes the most money." — funnel entry SLO |
 | 90d Clock In | $19 | Productivity | Clock | existing ideas → finished assets + "time-and-a-half paycheques" |

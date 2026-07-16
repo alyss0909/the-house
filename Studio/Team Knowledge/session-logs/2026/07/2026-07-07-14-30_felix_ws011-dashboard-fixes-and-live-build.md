@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: [WS-011-carousel-workflow]
 linked_guidelines: []
+mined: true
 ---
 
 # Felix — WS-011 dashboard: mockup fixes + Obsidian phase-1 build

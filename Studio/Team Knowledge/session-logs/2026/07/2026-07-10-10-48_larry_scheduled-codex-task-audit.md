@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-012-codex-windows-sandbox-recovery]
 linked_workstreams: [WS-004-inbox-processing, WS-005-meeting-capture-processing, WS-006-weekly-review]
 linked_guidelines: [GL-005-team-inbox-protocol, GL-013-the-house-rules]
+mined: true
 ---
 
 # Scheduled Codex task audit

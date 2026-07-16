@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: [WS-008-content-activation]
 linked_guidelines: [GL-013-the-house-rules, GL-009-source-boundaries-and-promotion]
+mined: true
 ---
 
 # Silas — Notebook link fixes + ready-queue audit

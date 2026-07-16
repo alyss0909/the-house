@@ -53,4 +53,4 @@ None yet — but Hermes should read this before starting any BOH launch copy.
 
 ## Check back
 
-2026-07-04
+2026-08-03 — pushed 30 days from the stale 2026-07-04 date (2026-07-16 review). Still genuinely developing, not overtaken: the closely related `middle-ground-entrepreneur` signal's launch-email application shipped without the system (Alyssa wrote and sent the BOH summer launch emails herself, 2026-07-10), but this note's other two applications — the sales page reframe and the teaching evolution — never happened and are still live openings. No new journal entries have fed this since 2026-06-27, so recurrence stays at 5. Hermes should still read this before any future BOH sales copy.

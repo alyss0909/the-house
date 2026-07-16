@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-005-meeting-capture-processing, WS-004-inbox-processing]
 linked_guidelines: [GL-001-file-naming-conventions, GL-002-frontmatter-conventions]
+mined: true
 ---
 
 # Meetily Auto-Launch Automation + Website Kickoff Processing

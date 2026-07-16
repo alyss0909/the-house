@@ -6,6 +6,7 @@ type: proactive
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Carousel Ingestion Lightweight Rule

@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: ["GL-001-file-naming-conventions", "GL-002-frontmatter-conventions"]
+mined: true
 ---
 
 # Offers CSV Import — Phase 3 (Products DB from Notion)

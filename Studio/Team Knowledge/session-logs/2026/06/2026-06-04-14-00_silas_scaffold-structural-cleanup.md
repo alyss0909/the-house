@@ -10,6 +10,7 @@ linked_workstreams: []
 linked_guidelines:
   - GL-001-file-naming-conventions
   - GL-002-frontmatter-conventions
+mined: true
 ---
 
 ## What I did

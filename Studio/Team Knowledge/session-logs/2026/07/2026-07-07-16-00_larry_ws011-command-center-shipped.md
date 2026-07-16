@@ -6,6 +6,7 @@ type: close-session
 linked_sops: [SOP-031-watch-video, SOP-018-felix-build-a-component, SOP-020-val-quality-gate]
 linked_workstreams: [WS-011-weekly-carousel-pitch]
 linked_guidelines: [GL-010-content-pitch-operating-brain, GL-003-design-system]
+mined: true
 ---
 
 # WS-011 Content Command Center — built live in Obsidian and shipped (phase 1)

@@ -6,6 +6,7 @@ type: mid-session-insight
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Retired invalid carousel brief bank

@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # Built the reference landing page for the new lead-magnet-system funnel automation

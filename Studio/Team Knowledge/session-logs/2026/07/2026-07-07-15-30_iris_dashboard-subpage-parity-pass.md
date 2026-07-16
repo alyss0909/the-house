@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # 02 Arc / 03 Hook / 04 Draft brought to code-parity with 01 Concepts / 05 Approved

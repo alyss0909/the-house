@@ -9,6 +9,7 @@ linked_workstreams: []
 linked_guidelines:
   - GL-001-file-naming-conventions
   - GL-002-frontmatter-conventions
+mined: true
 ---
 
 # Session Log - 2026-06-04 - Podcast Guesting Reference and Mara

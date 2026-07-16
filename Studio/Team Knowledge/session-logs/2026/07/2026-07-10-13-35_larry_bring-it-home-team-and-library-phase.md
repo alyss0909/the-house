@@ -6,6 +6,7 @@ type: close-session
 linked_sops: ["SOP-039-house-keeping", "SOP-011-write-session-log"]
 linked_workstreams: []
 linked_guidelines: ["GL-013-the-house-rules", "GL-009-source-boundaries-and-promotion"]
+mined: true
 ---
 
 # Bring It Home — Team + Library phase, executed end to end

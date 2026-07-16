@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: ["WS-001-daily-journaling"]
 linked_guidelines: []
+mined: true
 ---
 
 # Journal search for upcoming email concept material

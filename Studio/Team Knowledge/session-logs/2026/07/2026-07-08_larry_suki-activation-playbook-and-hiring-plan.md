@@ -3,6 +3,7 @@ date: 2026-07-08
 lead: larry
 specialists: [suki, hermes]
 theme: Content OS — Suki activation, playbook build, hiring plan
+mined: true
 ---
 
 # Suki Activation → Playbook → Hiring Plan

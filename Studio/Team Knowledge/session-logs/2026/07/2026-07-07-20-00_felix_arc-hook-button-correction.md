@@ -6,6 +6,7 @@ type: realignment
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Arc/Hook button correction — Alyssa's verdict-set fix (realignment)

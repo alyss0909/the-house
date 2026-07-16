@@ -9,6 +9,7 @@ linked_workstreams:
   - WS-007-monthly-review
 linked_guidelines:
   - GL-004-tag-taxonomy
+mined: true
 ---
 
 # W22/W23 Open Thread Audit + Weekly Review Process Fix

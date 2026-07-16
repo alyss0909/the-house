@@ -6,6 +6,7 @@ type: close-session
 linked_sops: [SOP-013-semantic-sweep]
 linked_workstreams: [WS-004-inbox-processing]
 linked_guidelines: [GL-004-tag-taxonomy]
+mined: true
 ---
 
 # Friday shift opening, open loops cleanup, and Telegram background service

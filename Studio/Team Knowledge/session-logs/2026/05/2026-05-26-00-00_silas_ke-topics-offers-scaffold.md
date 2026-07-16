@@ -8,6 +8,8 @@ linked_workstreams: []
 linked_guidelines:
   - GL-002-frontmatter-conventions
   - GL-001-file-naming-conventions
+mined: true
+mined_date: 2026-07-15
 ---
 
 # Session: KE + Topics + Offers scaffold build

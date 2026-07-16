@@ -21,7 +21,7 @@ Ideas don't die here. They either become something or they get explicitly dismis
 | [[middle-ground-entrepreneur]] | voice + content | thesis-ready | 8+ | 2026-06-06 |
 | [[people-undervalue-niche-obsessions]] | voice + content | thesis-ready | 6 | 2026-06-06 |
 | [[email-to-content-repurposing-system]] | teaching + content | developing | 4 | 2026-06-12 |
-| [[ai-team-as-mirror-not-replacement]] | teaching + idea | developing | 5 | 2026-06-05 |
+| [[ai-team-as-mirror-not-replacement]] | teaching + idea | developing | 8 | 2026-07-05 |
 | [[boh-as-permission-not-product]] | teaching + idea | developing | 5 | 2026-06-27 |
 | [[slow-biz-creative-freedom]] | voice + teaching | becoming | ongoing | 2026-04-30 |
 

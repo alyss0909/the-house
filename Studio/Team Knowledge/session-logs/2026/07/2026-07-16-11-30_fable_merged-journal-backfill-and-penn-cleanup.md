@@ -6,6 +6,7 @@ type: action
 linked_sops: [SOP-040-the-compounding-loop]
 linked_workstreams: [WS-001-daily-journaling]
 linked_guidelines: [GL-004-tag-taxonomy, GL-013-the-house-rules, GL-014-the-compounding-architecture]
+mined: true
 ---
 
 # Session Log - 2026-07-16 - Merged journal backfill + Penn fabrication cleanup

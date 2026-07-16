@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-001-file-naming-conventions, GL-002-frontmatter-conventions, GL-004-tags]
+mined: true
 ---
 
 # Session Log — Second Brain Email Examples Import

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: ["WS-011-carousel-workflow"]
 linked_guidelines: []
+mined: true
 ---
 
 # For The Girls — verbatim slide-copy reference + reusable writing skill captured

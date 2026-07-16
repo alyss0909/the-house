@@ -38,6 +38,29 @@ const pitchFiles = dv.pages('"Studio/Content"')
   .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
   .sort(p => p.file.name, 'desc');
 
+// Prefer the sheet whose Mon-Fri ISO week window contains today over the newest
+// by filename — two weeks are live at once (current + next, prepped ahead), so
+// "newest" silently points at next week's sheet as soon as it's created.
+function dbIsoWeekMonday(year, week) {
+  const simple = new Date(Date.UTC(year, 0, 1 + (week - 1) * 7));
+  const dow = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() + (dow <= 4 ? 1 - dow : 8 - dow));
+  return monday;
+}
+function dbPickCurrentPitch(pages) {
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const current = pages.find(p => {
+    const m = p.file.name.match(/^(\d{4})-W(\d{2})-pitch$/);
+    if (!m) return false;
+    const mon = dbIsoWeekMonday(+m[1], +m[2]);
+    const mondayUTC = Date.UTC(mon.getUTCFullYear(), mon.getUTCMonth(), mon.getUTCDate());
+    return todayUTC >= mondayUTC && todayUTC <= mondayUTC + 4 * 86400000;
+  });
+  return current || pages[0] || null;
+}
+
 const stages = [
   {num:"01", label:"CONCEPTS", file:"01 Concepts"},
   {num:"02", label:"ARC", file:"02 Arc"},
@@ -51,8 +74,9 @@ let current = 0;         // index of the CURRENT (in-progress) stage
 let latest = null;
 
 if (pitchFiles.length > 0) {
-  latest = pitchFiles[0];
-  const content = await dv.io.load(latest.file.path);
+  latest = dbPickCurrentPitch(pitchFiles);
+  // Normalize CRLF -> LF (Windows-edited files break any $-anchored line regex).
+  const content = (await dv.io.load(latest.file.path)).replace(/\r\n/g, "\n");
 
   // Week + theme from the sheet's top lines, e.g.
   //   # Weekly Pitch Sheet — W28

@@ -7,6 +7,7 @@ linked_sops: []
 linked_workstreams: ["WS-002-import-external-knowledge-base"]
 linked_guidelines: ["GL-002-frontmatter-conventions"]
 prior_session: "[[2026-05-26_larry_structure-design-and-gl002-extensions]]"
+mined: true
 ---
 
 # Session Log - 2026-05-26 - Notion Import Inventory + Scope Confirmation

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: ["SOP-001-how-to-add-a-new-specialist"]
 linked_workstreams: []
 linked_guidelines: ["GL-002-frontmatter-conventions"]
+mined: true
 ---
 
 # Content OS master plan build + root-cause consolidation

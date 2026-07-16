@@ -4,6 +4,7 @@ session_id: guidelines-review-and-tag-cleanup
 timestamp: 2026-06-04
 type: close-session
 linked_guidelines: [GL-001-file-naming-conventions, GL-002-frontmatter-conventions, GL-004-tag-taxonomy, GL-005-team-inbox-protocol, GL-006-deliverables-scope]
+mined: true
 ---
 
 # Guidelines Review and Tag Cleanup

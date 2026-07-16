@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-002-import-external-knowledge-base]
 linked_guidelines: [GL-004-tag-taxonomy]
+mined: true
 ---
 
 # Second Brain email examples fully populated — Soft Sundays, Simmers, Sales Emails

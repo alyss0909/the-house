@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-002-frontmatter-conventions, GL-004]
+mined: true
 ---
 
 ## What I did

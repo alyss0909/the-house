@@ -3,6 +3,7 @@ type: close-session
 agent: Larry
 date: 2026-07-04
 topic: sales-page-copy-recovery
+mined: true
 ---
 
 # Sales Page Copy Recovery

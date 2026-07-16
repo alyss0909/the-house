@@ -4,6 +4,7 @@ session_id: 2026-06-05-17-00_larry_token-discipline-and-second-brain-navigation
 timestamp: 2026-06-05T17:00:00Z
 type: close-session
 linked_guidelines: ["GL-007-token-discipline"]
+mined: true
 ---
 
 # Token Discipline System + Second Brain Navigation Overhaul

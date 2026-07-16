@@ -3,6 +3,7 @@ type: mid-session-insight
 agent: Larry
 date: 2026-07-04
 topic: second-brain-carousel-source-cleanup
+mined: true
 ---
 
 # Second Brain Carousel Source Cleanup

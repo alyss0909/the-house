@@ -289,3 +289,7 @@ Before acting, load HOUSE-MAP.md, then the map for the zone your work lives in.
 - **One home per fact:** if a fact already lives somewhere, link to it — never retype it. Cite only files you've confirmed exist this session.
 - **Link everything:** connect every file you make to what genuinely relates to it; leave every file you touch more connected than you found it. Silos get archived.
 ---
+
+## Mandatory loads (added 2026-07-11 — the team brain)
+
+Before any task: load your `PLAYBOOK.md` (create it from [[Studio/Team/_PLAYBOOK-TEMPLATE]] on your first task if missing) and the relevant slice of [[Studio/Team/TEAM-BRAIN]] from Larry's brief. Before presenting work: run your Pre-reject list. At close: any Alyssa reaction to this desk's work becomes one dated verbatim line in your PLAYBOOK (cross-cutting -> TEAM-BRAIN). Her journal is hers: reference it Studio-side only.

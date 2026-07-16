@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: [GL-003-design-system]
+mined: true
 ---
 
 # 02 Arc live-screenshot fixes: nav-title spacing, day-heading duplication, cover-box redesign

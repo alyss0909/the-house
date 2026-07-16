@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-039-house-keeping, SOP-040-the-compounding-loop]
 linked_workstreams: []
 linked_guidelines: [GL-013-the-house-rules, GL-014-the-compounding-architecture]
+mined: true
 ---
 
 # Session Log - 2026-07-13 - House check W28 + compounding audit

@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-002-import-external-knowledge-base]
 linked_guidelines: []
+mined: true
 ---
 
 # Web copy filed + writing style + sales page analysis built — Second Brain now has a real voice layer

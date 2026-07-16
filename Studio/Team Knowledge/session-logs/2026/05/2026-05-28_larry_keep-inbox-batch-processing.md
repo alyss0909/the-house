@@ -10,6 +10,7 @@ linked_workstreams:
 linked_guidelines:
   - GL-001-file-naming-conventions
   - GL-002-frontmatter-conventions
+mined: true
 ---
 
 # Google Keep inbox batch processing — 34 notes triaged, 32 journal entries written

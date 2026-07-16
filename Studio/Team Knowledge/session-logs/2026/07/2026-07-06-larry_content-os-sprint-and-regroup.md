@@ -1,3 +1,6 @@
+---
+mined: true
+---
 # Session log — 2026-07-06 — Larry — Content OS: graduation, Round 2, 6-post sprint, REGROUP
 
 ## What happened

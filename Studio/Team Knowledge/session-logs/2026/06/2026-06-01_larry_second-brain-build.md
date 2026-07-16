@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: [WS-002-import-external-knowledge-base]
 linked_guidelines: []
+mined: true
 ---
 
 # Second Brain — skeleton built, BOH indexed, structure aligned

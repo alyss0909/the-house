@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-013-the-house-rules"]
+mined: true
 ---
 
 # TelegramCaptureBot fixed — restructure left a path bug, not a crash

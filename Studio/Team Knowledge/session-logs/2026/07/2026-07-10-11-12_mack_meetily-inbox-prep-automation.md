@@ -6,6 +6,7 @@ type: end-of-session
 linked_sops: [SOP-012-codex-windows-sandbox-recovery]
 linked_workstreams: [WS-004-inbox-processing, WS-005-meeting-capture-processing]
 linked_guidelines: [GL-013-the-house-rules, GL-005-team-inbox-protocol]
+mined: true
 ---
 
 # Daily Meeting Clean automation

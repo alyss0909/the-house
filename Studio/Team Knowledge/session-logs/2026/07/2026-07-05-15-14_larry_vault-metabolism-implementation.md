@@ -8,6 +8,7 @@ linked_workstreams: [WS-006-weekly-review, WS-007-monthly-review, WS-008-content
 linked_guidelines: [GL-009-source-boundaries-and-promotion]
 linked_tasks: []
 linked_journal_entries: []
+mined: true
 ---
 
 # Vault metabolism contracts implemented

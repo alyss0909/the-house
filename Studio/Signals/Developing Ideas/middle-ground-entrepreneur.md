@@ -32,6 +32,16 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - [[2026-06-06-boh-launch-email-inspo]] — the full voice memo. The auction woman. "I'm not here to tell you what's next, I'm here to tell you what works."
 - [[2026-04-02-daily-profit-activities]] — the offer concept that's still circling this same energy
 
+### Earlier evidence (2021-2025) — input, not doctrine
+
+Connected 2026-07-15. These are older captures, so recency-weight them: they are proof the thesis is long-running, not a 2026 idea. The March-June 2026 entries above remain the current articulation.
+
+- [[2022-02-12-how-i-went-from-broke-waitress-to-and-taking-out-a-second]] — "The TRUE un-sensationalized entrepreneur story." Four numbered things that actually worked: one scalable offer, knowing every step of the customer journey, a solid automated foundation, and quarter/year planning "so that i wasnt being reactive / consistency / chaos." Explicitly names the alternative as time sucks: "Instagram, branding, other time sucks here / Making new courses trying new things." This is the middle-ground thesis four years before she named it.
+- [[2024-02-01-i-automated-my-business-so-i-would-stop-working-at-700-pm]] — "I automated my business so I would stop working at 7:00 p.m. and now I automate my business so I can work at 7:00 p.m." The cleanest one-line statement of the positioning anywhere in the vault: automation is not for escaping the work, it is for protecting the obsession.
+- [[2025-12-15-if-you-want-a-business-that-lasts]] — "You have to enjoy your business & Not build on a trendy foundation." The universals-not-the-next-wave half, stated plainly.
+- [[2021-06-24-alot-of-people-spend-a-lot-of-time-on-things-that-dont]] — "Alot of people spend a lot of time on things that don't matter."
+- [[2022-06-26-productivity]] — "Sounds boring, but it works." The history-girl register in five words.
+
 ## What it's connecting to in the Second Brain
 
 - [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile.md]] — the AI-mined voice profile, `raccoon in a cashmere sweater`
@@ -68,4 +78,4 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 
 ## Check back
 
-2026-07-04 — if Hermes hasn't started by then, Larry surfaces this again at session open.
+Closed 2026-07-16 — the check-back was stale. It was set for 2026-07-04 to chase whether Hermes had started the BOH summer launch sequence; reality answered it on 2026-07-10, when Alyssa wrote and sent the launch emails herself (team_brief_status: closed, above). The thing this check-back was watching for already happened, so there is nothing left to surface. The signal itself stays thesis-ready and evergreen — its articulation keeps deepening — but it no longer needs a dated chase. Her sent launch emails remain analysis candidates whenever she's ready.
