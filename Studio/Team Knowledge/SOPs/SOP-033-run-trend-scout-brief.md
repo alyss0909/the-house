@@ -1,7 +1,7 @@
 # SOP-033 — Run Trend Scout Brief
 
 - **Default owner:** Mack (wiring) / Suki (interpretation). Reusable by any agent. *Trend Scout is an automation + Suki function, not a hire — see [[HIRING-PLAN-v2]].*
-- **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
+- **Status:** RETIRED 2026-07-16 with the maker ladder (Alyssa's restructure). Carousel production now runs through the /saves-sweep and /content-run skills under [[Studio/Content/METHOD]]. Kept for history only.
 - **Triggered by:** WS-011 Step 1; "run the trend brief", "weekly trend scout". Runs **Sunday**, before SOP-038, feeding Monday's review of a future publish week.
 - **References:** [[trend-scout-monthly-routine]] (the monthly scrape it re-slices — do NOT re-scrape), [[trusted-sources]], [[GL-007-token-discipline]], [[GL-009-source-boundaries-and-promotion]] (mechanics not voice).
 

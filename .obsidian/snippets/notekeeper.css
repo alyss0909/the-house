@@ -1,0 +1,143 @@
+/* ============================================================
+   notekeeper.css — Journal "card view" refined to the vault
+   design system.  (Larry + design team, 2026-07-11, revised 2026-07-13)
+
+   HARD SCOPE: every rule is prefixed with .keep-cards-root, the
+   Notekeeper view root. Nothing here can touch a regular note,
+   a Bases view, or Canvas. Do not remove that prefix.
+
+   System: oat #fcfaf5 cards on linen, 1.5px rgba(0,0,0,.35)
+   border, 10px radius, NO shadow, AT KING serif titles, Karla
+   body, Roboto Mono uppercase micro-labels. Tag pills use the
+   five brand pastels (a186bc purple / fecc86 peach / f39ec2
+   pink / c1d17c sage / ffeec6 ivory) — same palette as
+   colored-tags and the folder colors.
+
+   Per-tag colors + the tiny date chip are set by the companion
+   customJS helper scripts/customjs/NotekeeperCards.js, which
+   stamps [data-tag-color="1..5"] (a stable hash of the tag name,
+   not a hand-maintained name list — every real tag lands on one
+   of the 5 colors, no fallback-to-one-color bug) and injects
+   .keep-card-date. The same helper hides the duplicate title H1,
+   the leftover "Original Keep note" import line, and the
+   "Connections:" hub line (still in the file, just not shown
+   here), and marks only the "Related notes" list for chip styling
+   so ordinary content bullets don't get boxed. If that helper is
+   ever off, cards just fall back to plain rendering — nothing
+   breaks.
+   ============================================================ */
+
+/* ---------- the card ---------- */
+.keep-cards-root .keep-card{
+  background:#fcfaf5 !important;
+  border:1.5px solid rgba(0,0,0,0.35) !important;
+  border-radius:10px !important;
+  box-shadow:none !important;
+}
+.keep-cards-root .keep-card:hover{
+  box-shadow:none !important;
+  border-color:#8b4a2f !important;          /* burgundy edge, no drop shadow */
+}
+.keep-cards-root .keep-card--pinned{ border-color:#8b4a2f !important; }
+
+/* ---------- tiny date chip (injected by helper) ---------- */
+.keep-cards-root .keep-card-date{
+  font-family:'Roboto Mono',ui-monospace,monospace;
+  font-size:8.5px;
+  letter-spacing:0.11em;
+  text-transform:uppercase;
+  color:#a8888a;
+  padding:11px 14px 0;
+  line-height:1;
+}
+/* if the date chip is present, tighten the title's top padding */
+.keep-cards-root .keep-card-date + .keep-card-title{ padding-top:3px !important; }
+
+/* ---------- title -> AT KING serif ---------- */
+.keep-cards-root .keep-card-title{
+  font-family:"AT KING",'Fraunces',Georgia,serif !important;
+  font-weight:600;
+  font-size:15px;
+  letter-spacing:-0.005em;
+  color:#2d1a1b;
+  padding:12px 14px 3px;
+}
+
+/* ---------- body ---------- */
+.keep-cards-root .keep-card-body{
+  font-family:'Karla',system-ui,sans-serif;
+  font-size:12.5px;
+  color:#7a5c5e;
+  line-height:1.46;
+}
+/* elements the customJS helper flags: duplicate title H1, the
+   "Original Keep note" import line, the "Connections:" hub line
+   (stays in the file, just not shown here) */
+.keep-cards-root .keep-card-body .keep-hide{ display:none !important; }
+
+/* "Related notes" label -> micro mono, same treatment any bold
+   section label gets */
+.keep-cards-root .keep-card-body strong{
+  font-family:'Roboto Mono',monospace;
+  font-weight:500;
+  font-size:8.5px;
+  letter-spacing:0.10em;
+  text-transform:uppercase;
+  color:#a8888a;
+}
+/* ordinary content lists (recipe ingredients, etc.) stay plain */
+.keep-cards-root .keep-card-body ul,
+.keep-cards-root .keep-card-body ol{
+  margin:4px 0 6px;
+  padding-left:18px;
+}
+/* only the list the helper marks as "Related notes" becomes chips */
+.keep-cards-root .keep-card-body ul.keep-related-list,
+.keep-cards-root .keep-card-body ol.keep-related-list{
+  list-style:none !important;
+  padding-left:0 !important;
+  margin:4px 0 6px !important;
+  display:flex; flex-wrap:wrap; gap:4px;
+}
+.keep-cards-root .keep-card-body .keep-related-list li{
+  font-size:9.5px; line-height:1.55;
+  color:#8b4a2f;
+  background:#fcfaf5;
+  border:1px solid #c2ad97;
+  border-radius:6px;
+  padding:1px 7px;
+  max-width:150px;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.keep-cards-root .keep-card-body .keep-related-list li a{ color:inherit !important; text-decoration:none !important; }
+.keep-cards-root .keep-card-body a{ color:#8b4a2f; }
+.keep-cards-root .keep-card-body p{ margin:0 0 6px; }
+
+/* ---------- tag pills: five brand pastels ---------- */
+/* Color is assigned by the customJS helper hashing the tag name to
+   data-tag-color="1..5" — every tag in the vault gets a stable brand
+   color, not just the handful anyone thought to name here. [data-tag]
+   is kept too, for anyone who wants to target a specific tag by name. */
+.keep-cards-root .keep-card-tag{
+  font-family:'Roboto Mono',monospace !important;
+  font-size:9.5px !important;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  border-radius:20px !important;
+  padding:2px 8px !important;
+  color:#2d1a1b !important;
+  border:1px solid rgba(0,0,0,0.16) !important;
+  background:#f39ec277 !important;          /* pink, used only if the helper hasn't run yet */
+}
+.keep-cards-root .keep-card-tag[data-tag-color="1"]{ background:#c1d17c88 !important; border-color:#aec267 !important; } /* sage */
+.keep-cards-root .keep-card-tag[data-tag-color="2"]{ background:#f39ec277 !important; border-color:#e88bb4 !important; } /* pink */
+.keep-cards-root .keep-card-tag[data-tag-color="3"]{ background:#fecc8677 !important; border-color:#f0b869 !important; } /* peach */
+.keep-cards-root .keep-card-tag[data-tag-color="4"]{ background:#a186bc66 !important; border-color:#a186bc !important; } /* purple */
+.keep-cards-root .keep-card-tag[data-tag-color="5"]{ background:#ffeec6 !important;   border-color:#f0d9a8 !important; } /* ivory */
+
+/* ---------- meta / backlinks -> smaller, mono, faint ---------- */
+.keep-cards-root .keep-card-meta{
+  font-family:'Roboto Mono',ui-monospace,monospace;
+  font-size:9px;
+  color:#a8888a;
+}

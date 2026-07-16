@@ -1,7 +1,7 @@
 # SOP-036 — Build Substance Dossier
 
 - **Default owner:** Substance Specialist (Cassius). Reusable by any agent. *Cassius re-test is gated on this SOP being reconciled with GL-011 AND Gate-2 approved — see [[HIRING-PLAN-v2]].*
-- **Status:** Active (Gate-2 approved by Alyssa 2026-07-08; reconciled with [[GL-011-substance-arc-contract]]).
+- **Status:** RETIRED 2026-07-16 with the maker ladder (Alyssa's restructure). Carousel production now runs through the /saves-sweep and /content-run skills under [[Studio/Content/METHOD]]. Kept for history only.
 - **Triggered by:** WS-011 Step 5; "build substance", "substance dossier". Runs on an approved concept + hook.
 - **References:** [[GL-011-substance-arc-contract]] (the arc contract — the deliverable format), exact Alyssa source files, BOH/module/transcript/template/offer files, [[Studio/Hermes/FUNNEL]], Alyssa carousel forensics.
 

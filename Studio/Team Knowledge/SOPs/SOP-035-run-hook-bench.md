@@ -1,7 +1,7 @@
 # SOP-035 — Run Hook Bench
 
 - **Default owner:** Reeve, Hook Specialist / Suki-directed. Reusable by any agent. *(Hired 2026-07-08 per Gate-3 authorization; runs under Suki's direction, per [[HIRING-PLAN-v2]].)*
-- **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
+- **Status:** RETIRED 2026-07-16 with the maker ladder (Alyssa's restructure). Carousel production now runs through the /saves-sweep and /content-run skills under [[Studio/Content/METHOD]]. Kept for history only.
 - **Triggered by:** WS-011 Step 4; "hook bench", "pitch hooks". Runs on an Alyssa-approved concept (+ its named angle).
 - **References:** [[Studio/Analysis/carousel-hook-forensics]], current swipe covers, [[GL-009-source-boundaries-and-promotion]] (repo mechanics as adapted process only, never voice).
 

@@ -1,0 +1,47 @@
+filters:
+  and:
+    - file.inFolder("Studio/Team Knowledge/tasks/open")
+formulas:
+  task: link(file.path, if(title, title, file.basename))
+  urgency: if(priority == 1, "now", if(priority == 2, "soon", "whenever"))
+  age_days: (now() - file.ctime).days.round(0)
+properties:
+  formula.task:
+    displayName: Task
+  assignee:
+    displayName: Who has it
+  formula.urgency:
+    displayName: Urgency
+  formula.age_days:
+    displayName: Days old
+  blocked_reason:
+    displayName: Stuck on
+views:
+  - type: table
+    name: Open tasks
+    order:
+      - formula.task
+      - assignee
+      - formula.urgency
+      - formula.age_days
+      - blocked_reason
+    sort:
+      - property: priority
+        direction: ASC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.title: 507
+  - type: cards
+    name: By person
+    groupBy:
+      property: assignee
+      direction: ASC
+    order:
+      - formula.task
+      - formula.urgency
+      - formula.age_days
+  - type: cards
+    name: View
+    order:
+      - file.name

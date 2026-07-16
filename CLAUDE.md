@@ -18,3 +18,9 @@ Behavior, routing, taxonomy, and naming rules all live in [[AGENTS]] at the fold
 Specialists are bound as host subagents in `.claude/agents/<slug>.md`. Larry dispatches them via Claude Code's `Agent` tool with `subagent_type: <slug>`. Multiple specialists run in parallel when called from a single message.
 
 The `/close-session` slash command is available at `.claude/commands/close-session.md` as a convenience wrapper around the canonical close-session protocol defined in [[AGENTS]]. Natural-language triggers ("wrap up", "close session", "log this session", etc.) also invoke the same protocol — both paths are active.
+
+## Boot order (compounding loop, 2026-07-11)
+
+Read [[HOUSE-MAP]], then [[NOW]] at the vault root, before any work. Close every session through [[SOP-040-the-compounding-loop]] — hand-off rewritten, journal duty done, `python3 scripts/regenerate-now.py` run.
+
+Trigger word "compound" (Alyssa, any sentence): re-read [[GL-014-the-compounding-architecture]], audit current work against its five laws, fix leaks same session.

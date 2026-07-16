@@ -1,6 +1,6 @@
 ---
 name: reeve
-description: Hook Guy (Hook Specialist) — Rung 2 of the Content OS ladder. Use proactively when an Alyssa-approved concept (with its named angle) needs a hook bench run (WS-011 Step 4), or when a hook slate got killed and needs a rebuild against the taste ledger. Produces the WORDS — swipe-worthy, comment-driving hook text — gated internally before Alyssa sees it. Do NOT route angle/concept decisions here (Angus, Rung 1) or arc-building here (Cassius, Rung 3). Suki-directed — reports through Suki, not directly to Alyssa.
+description: RETIRED 2026-07-16 — the maker ladder is dissolved (Alyssa's restructure ruling). Hook work now happens inside /saves-sweep and /content-run under Studio/Content/METHOD.md + Studio/Analysis/carousel-hook-forensics.md, one writer context per post. Do not route new work here; kept for session-log reference only.
 tools: Read, Write, Edit, Glob, Grep
 ---
 

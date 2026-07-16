@@ -1,6 +1,6 @@
 ---
-title: WS-011 — Weekly Viral Carousel Pitch
-status: active
+title: WS-011 — Weekly Viral Carousel Pitch (RETIRED 2026-07-16)
+status: retired — superseded by the /saves-sweep + /content-run skills under [[Studio/Content/METHOD]]. Alyssa's 2026-07-16 ruling: the rung-by-rung relay with gates at every stage never produced a post she loved; production is now one writer context per post, volume by default, her taste applied to finished work on the Notion Content Studio board. SOP-033 through SOP-038 retire with it (kept for history).
 owner: Larry (orchestration/router) / Suki (content strategy lead) / Concept Guy (Concept) · Hook Guy (Hook) · Substance Guy (Substance) · Hermes (Writer) as makers
 cadence: weekly, work-ahead buffered — Sunday insights, Monday review of a FUTURE publish week
 created: 2026-07-06

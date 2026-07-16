@@ -384,6 +384,17 @@ const taskItems = [
 <!--away:support:19f67076fda0b07a:Janeisha Cambridge (Metricool) — Join us as a Metricool Partner 🎉-->
 <!--away:wellness:19f67994b2aebb6b:Danielle LaPorte — Craving connection, but we need courage to connect-->
 */
+/* Sweep 2026-07-16 14:08 — fresh promotions+social noise, last 14 days.
+<!--away:personal:19f6bfd7e8b152a8:Maude - Love EQ — Il te regarde comme si tu étais la seule au monde 🥹❤️-->
+<!--away:personal:19f6be194c82a869:Lady Glaze — Summer tastes like berries. 🍓🫐-->
+<!--away:personal:19f6bc4d0b1f7a41:Jaime from Contracts Market — I did not train for this-->
+<!--away:personal:19f6ba5e3e6b7044:taylor, the idea haven — the email i wasn't expecting to write-->
+<!--away:personal:19f6b853411778d3:Modern Collective 🍋 — what my first vacation in 7 years taught me about my business-->
+<!--away:personal:19f6b7ab59fc01df:Laura Leap — 📚 The Leap Library is open-->
+<!--away:personal:19f6b66caf8d34ed:Danielle LaPorte — Your OG rate is still yours-->
+<!--away:business:19f6bc4cee7d007e:Jaime from Contracts Market — I did not train for this-->
+<!--away:business:19f6bc463e555ab8:Justin DeMers — our secret 🤫-->
+*/
 // Filled in by "/mailroom sweep" as <!--away:ACCT:MESSAGEID:Sender — Subject--> lines.
 const awayItems = [...text.matchAll(/<!--away:([a-z]+):([^:]+):([^>]+)-->/g)].map(m => {
   const parts = m[3].split(" — ");
@@ -646,6 +657,8 @@ wrap.querySelectorAll("[data-mr-undo]").forEach(btn => {
 <summary>mailroom internals</summary>
 
 ## Mailroom reacts
+- [2026-07-16 17:42] daily auto-sweep · nothing queued (all state lines already handled/done, 0 queued) · do-it queue: 0 rows checked in Notion Agent Tasks (Do it = true, Status != done) · 0 new noise items filed — every promotions/social message returned by the 14-day window scan across all 4 accounts (24 personal, 3 support, 12 business, 3 wellness promotions; 0 social anywhere) already has an away: line from an earlier sweep today · Step 2b: 0 new real-person threads — support primary-unread returned only the same already-carded threads (Gisele Plamondon, Julien Quintard/Routine AI, Pamela Dunn); wellness primary-unread returned only the already-carded Julia Briski thread plus the 2 known-old Wake Up To Freedom bulk sends (Sept 2025, May 2025, left untouched, same as prior sweeps); personal and business primary-unread scans returned no results
+- [2026-07-16 14:08] daily auto-sweep · nothing queued (all state lines already handled/done, 0 queued) · 9 new noise items filed (7 personal: Maude-Love EQ, Lady Glaze berries, Jaime from Contracts Market, taylor/the idea haven, Modern Collective, Laura Leap, Danielle LaPorte OG rate; 2 business: Jaime from Contracts Market dup, Justin DeMers "our secret") · support & wellness clean since this morning's sweep · Step 2b: 0 new real-person threads — support primary-unread returned only the same already-carded threads (Gisele, Julien, Pamela); wellness primary-unread returned only the 2 known-old Wake Up To Freedom bulk sends (left untouched, same as prior sweeps) and the already-carded Julia Briski thread; personal and business primary-unread scans returned no results
 - [2026-07-16 10:00] daily auto-sweep · nothing queued (all state lines already handled/done, 0 queued) · 4 new noise items filed (2 personal: Deepak Chopra newsletter, Indigo summer reads; 1 support: Metricool affiliate invite; 1 wellness: Danielle LaPorte) · business clean · Step 2b: 0 new real-person threads — Gisele, Julien, and Pamela all still unread in support primary (last message still from them, cards still valid); Julia Briski still the only wellness primary-unread real thread and already carded; 2 old Wake Up To Freedom bulk sends (Sept 2025, May 2025) in wellness left untouched, same as prior sweeps; personal and business primary-unread scans returned no results
 - [2026-07-15 14:08] daily auto-sweep · nothing queued (all state lines already handled/done, 0 queued) · 2 new noise items filed (1 personal: Lady Glaze/Shopify promo, 1 business: Justin DeMers "last call for Freedom40") · support & wellness clean since this morning's sweep · Step 2b: 0 new real-person threads — support and business primary-unread scans returned only the same threads already carded (Gisele, Julien, Pamela); personal and business primary-unread otherwise empty; wellness primary-unread returned only the 2 known-old Wake Up To Freedom bulk sends (left untouched, same as prior sweeps) and the already-carded Julia Briski thread
 - [2026-07-15 10:00] daily auto-sweep · nothing queued (all state lines already handled/done, 0 queued) · 15 new noise items filed (9 personal, 2 support, 3 business, 1 wellness) · Step 2b: 0 new real-person threads — Gisele, Julien, Pamela, Dennis, Bundles That Benefit, Natalie, Lily, and Julia Briski all still the only unread primary/needs-reply threads and already have cards; re-checked each against the "last message from other person" rule — all still last-messaged by them (Bundles That Benefit's Jul 13 reply is still an unsent Draft, doesn't count as her having replied); 2 old Wake Up To Freedom bulk sends (Sept 2025, May 2025) in wellness left untouched, same as prior sweeps. Note: Dennis sent a fresh follow-up nudge today (Jul 15) on the same bank-statements thread — card content still accurate, just a newer ping on the same ask.

@@ -6,6 +6,19 @@ created: 2026-07-06
 
 # Taste Ledger
 
+## Positive signal (what she picks, saves, and edits — added 2026-07-16, the learning layer /content-run harvests)
+
+Format: date · item · what she did (picked / edited X to Y / saved) · her words verbatim if any. Her edits are worth ten kill logs each.
+
+- 2026-07-06 — "You're Allowed To Build A Quiet Business" — edited: quiet to slower. ("this one works but change to slower")
+- 2026-07-09 — Picked from W30: "How To Get A Month Of Traffic From 4 Pins" · "If I Could Only Market My Business Once A Week..." · "THE WORK STILL GETS DONE WHEN I SLOW DOWN". Saved #10 (NOTHING IS FALLING BEHIND...).
+- 2026-07-14 — Rewrote a title herself: "this was the WORST sales email, somehow booked 2 clients" (her shape: dramatic self-report + unexplained result, no mechanism named).
+- (Her Instagram saves are positive signal too — mined daily by /saves-sweep.)
+
+## Shipped results (real numbers per shipped post — the Gate's ammo)
+
+- 2026-05-11 — toddler negotiation post: 1,621 reach / 102 likes / 18 comments / 57 saves / 15 shares (live Composio pull).
+
 ## Rulings (durable)
 
 - 2026-07-06 — Doctrine, verbatim: "LEARN INSTAGRAM AND HOW TO WRITE GREAT CAROUSELS AND HOOKS AND CAPTIONS, THEN LEARN HOW I PUT MY SPIN ON IT, THEN LEARN WHAT I TEACH THEN PUT IT TOGETHER."

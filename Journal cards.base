@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.inFolder("Notebook/Journal")
+formulas:
+  written: if(date, date, file.name)
+properties:
+  formula.written:
+    displayName: Written
+  file.tags:
+    displayName: Tags
+views:
+  - type: cards
+    name: Newest first
+    order:
+      - formula.written
+      - file.tags
+    sort:
+      - property: file.name
+        direction: DESC
+    limit: 24
+  - type: table
+    name: All entries
+    order:
+      - file.name
+      - formula.written
+      - file.tags
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: DESC

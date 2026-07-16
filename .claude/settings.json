@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-fetch",
+      "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-query-data-sources",
+      "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-search",
+      "mcp__428fbf94-896c-4855-943a-da685e3097a8__get_broadcast",
+      "mcp__428fbf94-896c-4855-943a-da685e3097a8__list_broadcasts",
+      "mcp__composio__COMPOSIO_SEARCH_TOOLS",
+      "mcp__composio__COMPOSIO_GET_TOOL_SCHEMAS",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "mcp__ccd_session_mgmt__search_session_transcripts",
+      "mcp__d16a7962-ac07-4fc4-ab65-695c779b534c__read_file_content",
+      "Bash(obsidian help *)",
+      "Bash(obsidian open *)"
+    ]
+  }
+}

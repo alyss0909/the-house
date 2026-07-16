@@ -1,0 +1,252 @@
+/* ============================================================
+   bases-and-canvas.css — Bases views + Canvas, vault design system
+   (Iris, 2026-07-11)
+
+   Scope: EVERY rule lives under one of two hard scopes:
+     .workspace-leaf-content[data-type="bases"]   (Bases files)
+     .workspace-leaf-content[data-type="canvas"]  (Canvas files)
+   plus .bases-embed for a Base embedded inside a note. Nothing
+   here can touch a regular markdown note. Do not remove a scope
+   prefix from any rule.
+
+   System: oat cards #fcfaf5 on linen #eee6de, 1.5px dark borders
+   rgba(0,0,0,0.35), 10px radius, AT KING serif headings, Karla
+   body, Roboto Mono 12px uppercase 0.04em labels, no shadows
+   anywhere (AnuPpuccin --input-shadow lands on every <button>;
+   see the locked note in dashboard.css). Hex only, never color
+   names, in anything rendered.
+
+   Selector provenance (no live DOM access this session — the
+   Obsidian CLI needs a shell, which this build session did not
+   have; verify per the checklist in the session log):
+   - CONFIRMED against this install (plugins/themes in this vault
+     ship CSS targeting them): .bases-view, .bases-table,
+     .bases-table-container, .bases-td, .bases-table-cell,
+     .bases-rendered-value, .bases-cards-line,
+     .bases-cards-property, .bases-list-property, .canvas-wrapper,
+     .canvas-node, .canvas-node-container, .canvas-node-content,
+     .canvas-node-label, .canvas-controls, .canvas-control-item,
+     .canvas-card-menu, .canvas-card-menu-button.
+   - UNVERIFIED locally (standard Bases/Canvas class names, but
+     not provable from files on disk — each is written so a miss
+     is a silent no-op): .bases-toolbar, .bases-header, .bases-tr,
+     .bases-th, .bases-cards-container, .bases-cards-item,
+     .bases-cards-group, .bases-cards-label, .canvas-group-label,
+     .canvas-edge-label.
+   ============================================================ */
+
+/* ---------- shared tokens (declared once per scope root) ---------- */
+.workspace-leaf-content[data-type="bases"],
+.workspace-leaf-content[data-type="canvas"],
+.bases-embed {
+  --bc-linen: #eee6de;      /* frame everything floats on */
+  --bc-oat: #fcfaf5;        /* card surface */
+  --bc-border: 1.5px solid rgba(0, 0, 0, 0.35); /* card hairline */
+  --bc-heading: #1a1a1a;    /* headings, card titles */
+  --bc-body: #2d1a1b;       /* body copy */
+  --bc-muted: #7a5c5e;      /* labels, secondary text */
+  --bc-terracotta: #8b4a2f; /* links, selected state */
+}
+
+/* ============================================================
+   BASES — shared frame (both views float on linen)
+   ============================================================ */
+.workspace-leaf-content[data-type="bases"] .view-content {
+  background-color: var(--bc-linen) !important;
+}
+
+/* shadow-none enforcement — same lesson as dashboard.css: the theme's
+   --input-shadow reaches every literal <button> (toolbar, view switcher,
+   filter chips), so kill it at the scope root. */
+.workspace-leaf-content[data-type="bases"] button,
+.workspace-leaf-content[data-type="bases"] .bases-view *,
+.bases-embed button {
+  box-shadow: none !important;
+}
+
+/* toolbar / header strip sits directly on the linen, quiet mono labels */
+.workspace-leaf-content[data-type="bases"] .bases-toolbar,
+.workspace-leaf-content[data-type="bases"] .bases-header {
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--bc-muted);
+}
+
+/* ---------- cards view (Journal cards, Open tasks "By person") ----------
+   Cousin of the Notekeeper card wall: rounded cream cards, airy,
+   generous padding, soft grid gaps. */
+.workspace-leaf-content[data-type="bases"] .bases-cards-container {
+  gap: 14px;
+  padding: 14px 6px 24px;
+  background-color: transparent;
+}
+.workspace-leaf-content[data-type="bases"] .bases-cards-item,
+.bases-embed .bases-cards-item {
+  background-color: var(--bc-oat) !important;
+  border: var(--bc-border) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  padding: 16px 18px !important;
+}
+.workspace-leaf-content[data-type="bases"] .bases-cards-item:hover {
+  border-color: var(--bc-terracotta);
+}
+
+/* file-name link on a card = the card's title: serif, calm, no underline */
+.workspace-leaf-content[data-type="bases"] .bases-cards-item a.internal-link {
+  font-family: "AT KING", Georgia, serif;
+  font-size: 17px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  color: var(--bc-heading);
+  text-decoration: none;
+}
+.workspace-leaf-content[data-type="bases"] .bases-cards-item a.internal-link:hover {
+  color: var(--bc-terracotta);
+}
+
+/* property lines on a card: Karla body, comfortable rhythm */
+.workspace-leaf-content[data-type="bases"] .bases-cards-line,
+.bases-embed .bases-cards-line {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--bc-body);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* per-property label (when Bases shows labels): the vault's standard
+   mono micro-label register */
+.workspace-leaf-content[data-type="bases"] .bases-cards-label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bc-muted);
+}
+/* group name row when cards are grouped (Open tasks "By person") */
+.workspace-leaf-content[data-type="bases"] .bases-cards-group {
+  font-family: "AT KING", Georgia, serif;
+  letter-spacing: 0;
+  color: var(--bc-heading);
+}
+
+/* ---------- table view (Open tasks, Journal "All entries") ----------
+   One oat card holding the whole table, floating on the linen. */
+.workspace-leaf-content[data-type="bases"] .bases-table-container,
+.bases-embed .bases-table-container {
+  background-color: var(--bc-oat);
+  border: var(--bc-border);
+  border-radius: 10px;
+}
+.workspace-leaf-content[data-type="bases"] .bases-table {
+  font-family: "Karla", sans-serif;
+}
+/* column headers: mono micro-labels, hairline underline */
+.workspace-leaf-content[data-type="bases"] .bases-th {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bc-muted);
+  background-color: var(--bc-oat);
+  border-bottom: var(--bc-border);
+}
+/* body cells: Karla, warm body color, soft row separators */
+.workspace-leaf-content[data-type="bases"] .bases-td,
+.bases-embed .bases-td {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  color: var(--bc-body);
+  background-color: var(--bc-oat);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.workspace-leaf-content[data-type="bases"] .bases-td .bases-rendered-value {
+  color: var(--bc-body);
+}
+/* row hover: linen wash, the vault's standard hover (never a new color) */
+.workspace-leaf-content[data-type="bases"] .bases-tr:hover .bases-td {
+  background-color: var(--bc-linen);
+}
+
+/* ============================================================
+   CANVAS — House.canvas (and any future canvas)
+   ============================================================ */
+/* the canvas floor is the linen frame; dots kept, just quieter */
+.workspace-leaf-content[data-type="canvas"] {
+  --canvas-background: #eee6de;          /* core var: canvas floor */
+  --canvas-dot-pattern: rgba(0, 0, 0, 0.14); /* core var: dot grid */
+  --canvas-card-label-color: #1a1a1a;    /* core var: node label text */
+}
+.workspace-leaf-content[data-type="canvas"] .canvas-wrapper {
+  background-color: var(--bc-linen); /* fallback if the var is not read */
+}
+
+/* every node is a vault card: 10px radius, 1.5px dark hairline, no shadow.
+   Group/node pastel identity stays in the FILL tint (Obsidian keeps the
+   rgba color wash); the border goes to the standard dark hairline like
+   every other card in the vault. */
+.workspace-leaf-content[data-type="canvas"] .canvas-node-container {
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-color: rgba(0, 0, 0, 0.35);
+  box-shadow: none !important;
+}
+/* selection/focus still needs a visible state with shadows gone:
+   terracotta border, same weight, no reflow */
+.workspace-leaf-content[data-type="canvas"] .canvas-node.is-focused .canvas-node-container,
+.workspace-leaf-content[data-type="canvas"] .canvas-node.is-selected .canvas-node-container {
+  border-color: var(--bc-terracotta);
+}
+
+/* text inside text nodes: a little more air, Karla body (body font is
+   already global; padding is what makes it read like her cards) */
+.workspace-leaf-content[data-type="canvas"] .canvas-node-content .markdown-preview-view {
+  padding: 10px 14px;
+}
+
+/* node title labels + group labels ("Notebook, hers alone" etc.):
+   the vault's mono micro-label register, dark and readable */
+.workspace-leaf-content[data-type="canvas"] .canvas-node-label,
+.workspace-leaf-content[data-type="canvas"] .canvas-group-label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #1a1a1a;
+}
+
+/* edge labels ("the team reads, never writes"): quiet oat pill so the
+   sentence reads on top of crossing lines */
+.workspace-leaf-content[data-type="canvas"] .canvas-edge-label {
+  font-family: "Karla", sans-serif;
+  font-size: 12px;
+  color: var(--bc-muted);
+  background-color: var(--bc-oat);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+  padding: 2px 10px;
+  box-shadow: none !important;
+}
+
+/* canvas chrome (zoom controls, bottom add-card menu): oat cards with the
+   standard hairline, shadows off */
+.workspace-leaf-content[data-type="canvas"] .canvas-controls,
+.workspace-leaf-content[data-type="canvas"] .canvas-card-menu {
+  background-color: var(--bc-oat);
+  border: var(--bc-border);
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+.workspace-leaf-content[data-type="canvas"] .canvas-control-item,
+.workspace-leaf-content[data-type="canvas"] .canvas-card-menu-button {
+  box-shadow: none !important;
+  color: var(--bc-muted);
+}
+.workspace-leaf-content[data-type="canvas"] .canvas-control-item:hover,
+.workspace-leaf-content[data-type="canvas"] .canvas-card-menu-button:hover {
+  color: #1a1a1a;
+}

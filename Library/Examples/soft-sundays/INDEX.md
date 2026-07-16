@@ -27,6 +27,7 @@ tags: [email, newsletter, copy]
 | [why-i-burned-down-my-business.md](why-i-burned-down-my-business.md) | Why I burned down a perfectly good business (on purpose) | January 2025 origin story — 3 reasons she restructured: more creativity, low maintenance (Project Simplify), more time offline; BOH waitlist CTA | Long-form storytelling; one of the most personal emails in the vault |
 | [me-i-need-ideas-i-already-had.md](me-i-need-ideas-i-already-had.md) | Me: I need ideas. Also me: forgets 87 I already had | Re-commerce concept — 5 strategies to repurpose existing work (Dust off Trophies, Second Hand Store, Low Waste Business, Hand Me Downs, Polish the Heirlooms) | ⚠️ Alyssa flagged as feeling too AI — use for content/strategy ideas only, not voice calibration |
 | [marketing-predictions-2026.md](marketing-predictions-2026.md) | Marketing Predictions & 2026 Plan | New Year issue — 4 predictions: organic reach post-mortem, conversational SEO, AI kiss of death / tiny audiences, paying for curation; promotes CEO Year Notion Template (50% off, code CALMYEAR) | Source: CKArchive clip; preview text unconfirmed |
+| [3-emails-to-ctrl-c-and-money.md](3-emails-to-ctrl-c-and-money.md) | 3 emails to ctrl+c and $$ | House Report issue — 3 real plug-and-play frameworks from the Email Prompt Vault (Phantom Ring re-engagement, Right Time Offer self-selling, Two Camps self-selling); BOH reopening CTA (reply VAULT) | ⚠️ Alyssa flagged this issue as not good (2026-07-13) — use for the templates/frameworks and section format, not voice calibration |
 
 ---
 

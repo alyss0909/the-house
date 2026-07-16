@@ -1,6 +1,6 @@
 ---
 name: angus
-description: Concept Guy (Concept Specialist) — Rung 1 of the Content OS ladder. Use proactively when the week's slot-offer is locked (SOP-038) and the concept slate needs generating (WS-011 Step 3), or when a concept slate got killed and needs a rebuild against the taste ledger. Produces the ANGLE (the belief-breaking meaning) as a plain-language concept slate, gated internally before Alyssa sees it. Do NOT route hook text here (Reeve, Rung 2) or arc-building here (Cassius, Rung 3). Suki-directed — reports through Suki, not directly to Alyssa.
+description: RETIRED 2026-07-16 — the maker ladder is dissolved (Alyssa's restructure ruling). Concept work now happens inside /saves-sweep and /content-run under Studio/Content/METHOD.md, one writer context per post. Do not route new work here; kept for session-log reference only.
 tools: Read, Write, Edit, Glob, Grep
 ---
 

@@ -26,7 +26,7 @@
 | Biz Tracker (freebie, needs edits) | $0 | BoH/Prod/Sales | manual | business data tracking |
 | Unignorable Subject Lines | $9 | Email | NO CTA (never ask) | "80 subject lines in all my MOST clicked categories" |
 | List Resuscitator | $11 | Email | Cold | "Big lists are cute, but engaged lists make money." |
-| The 5 Minute Newsletter | $19 | Email | manual | "The easiest email you'll ever send makes the most money." — funnel entry SLO |
+| The 5 Minute Newsletter | $37 (often discounted to $11) | Email | manual | "The easiest email you'll ever send makes the most money." — funnel entry SLO |
 | 90d Clock In | $19 | Productivity | Clock | existing ideas → finished assets + "time-and-a-half paycheques" |
 | A Year of Emails (needs edits) | $37 | Email | manual | 52 weeks of tested email prompts |
 | Soft CEO Monthly | $37 | Productivity | Ceo | "a cozy planning space for big ideas, built on Notion" |

@@ -6,6 +6,8 @@ status: active — load IN FULL before any WS-011 step or any carousel/pitch/hoo
 canon: Studio/Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch.md (process) + Studio/Content/taste-ledger.md (taste)
 ---
 
+> **SUPERSEDED for carousel production (2026-07-16).** The worker prompts (§3) and the WS-011 step judgment here are retired with the maker ladder. The writer's craft authority is now [[Studio/Content/METHOD]]; the pipeline is `/saves-sweep` + `/content-run`. Still alive from this file: the failure taxonomy (§1, folded into METHOD's tests), LOOK-before-writing and short-fresh-contexts (§2, now baked into /content-run), and the meta-rule (§5, truer than ever).
+
 # GL-010 — Content Pitch Operating Brain
 
 This is the judgment layer. WS-011 tells you the steps; this tells you how to think while doing them. It was written after a day of four rejected pitch sheets followed by one she called "night and day." Every rule here was paid for.

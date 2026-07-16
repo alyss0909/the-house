@@ -1,6 +1,6 @@
 ---
-title: Content OS — The Pipeline Ladder (draft, locked-in-principle 2026-07-07)
-status: WORKING SPEC — we return here immediately to spec each role
+title: Content OS — The Pipeline Ladder (RETIRED 2026-07-16)
+status: RETIRED — superseded by [[Studio/Content/METHOD]] + the /saves-sweep and /content-run skills. Alyssa's ruling 2026-07-16: the four-gate maker ladder never produced a post she loved; one writer context per post, volume over gates, her taste applied to finished work. Kept for history only.
 owner: Larry
 ---
 

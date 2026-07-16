@@ -2,7 +2,7 @@
 name: The 5 Minute Newsletter
 offer_type: low_ticket
 status: live
-price_point: 19
+price_point: 37
 sales_page_url: https://alyssacoleman.ca/5m
 theme:
   - email
@@ -18,7 +18,7 @@ tags:
 
 **"The easiest email you'll ever send makes the most money."**
 
-**Tier:** Low ticket | **Theme:** Emails | **Price:** $19
+**Tier:** Low ticket | **Theme:** Emails | **Price:** $37 regular, frequently discounted to $11 (confirmed by Alyssa 2026-07-16 — "reg 37 today 11")
 
 A fill-in-the-blanks newsletter template and framework for writing a high-converting weekly email in one sitting — structure, the bridge that connects story to offer, and what not to include.
 

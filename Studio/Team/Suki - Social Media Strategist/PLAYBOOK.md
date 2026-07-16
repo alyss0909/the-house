@@ -1,3 +1,5 @@
+> **Note (2026-07-16 restructure):** for carousel WRITING, the operative craft file is now [[Studio/Content/METHOD]] — it folds this playbook's keepers (north star, cover rules, arc rules, FTG exception, Part 7 cover grammar) into the writer's single authority. This playbook remains the strategy-layer reference (north star, lanes, swipe doctrine) and the FTG rules (Part 5) which METHOD §8 points to.
+
 # THE PLAYBOOK — v1
 
 *Our house rules for making a great carousel. Built from Alyssa's real winners first, then real Instagram craft, filtered hard, re-pointed at comments-not-shares. Internal build doc, owned by Suki (Head of Content). Committed 2026-07-08.*

@@ -1,7 +1,7 @@
 # SOP-034 — Write Concept Pitch Brief
 
 - **Default owner:** Angus, Concept Specialist / Suki-directed. Reusable by any agent. *(Hired 2026-07-08 per Gate-3 authorization; runs under Suki's direction, per [[HIRING-PLAN-v2]].)*
-- **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
+- **Status:** RETIRED 2026-07-16 with the maker ladder (Alyssa's restructure). Carousel production now runs through the /saves-sweep and /content-run skills under [[Studio/Content/METHOD]]. Kept for history only.
 - **Triggered by:** WS-011 Step 3; "pitch concepts", "concept slate". Runs after SOP-038's slot-offer lock.
 - **References:** [[SOP-038-suki-weekly-strategy-brief]], [[Studio/Hermes/FUNNEL]], [[Studio/Hermes/MAP]] §3, [[Studio/Content/taste-ledger]], [[GL-007-token-discipline]].
 

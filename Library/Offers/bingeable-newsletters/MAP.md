@@ -28,6 +28,10 @@ Email marketers and business owners who want to improve their email game by abso
 
 Full source copy: [[Library/Examples/sales-pages/bingeable-newsletters-sales-page|Bingeable Newsletters Sales Page Copy]]
 
+## Deliverable copy
+
+Full source copy: [[Library/Examples/deliverables/bingeable-newsletters-deliverable|Bingeable Newsletters Deliverable]] — the actual free teaching doc a reader gets after opting in
+
 
 ## Notes
 
@@ -40,6 +44,7 @@ Full source copy: [[Library/Examples/sales-pages/bingeable-newsletters-sales-pag
 ## Wiki
 
 - Sales page: [[Library/Examples/sales-pages/bingeable-newsletters-sales-page|Bingeable Newsletters Sales Page Copy]]
+- Deliverable: [[Library/Examples/deliverables/bingeable-newsletters-deliverable|Bingeable Newsletters Deliverable]]
 - Facts (price/status/chat word): [[Studio/Hermes/BUSINESS]] — canonical
 - BOH teaching module: [[Library/Programs/back-of-house/2. The Warm Plate Method/2.3 The Weekly Simmer Slides|2.3 The Simmer]] (Phase 2, per MAP §4)
 - Real posts that pitched it: no matching carousel found in `Library/Examples/Carousels/` (W1 Mon slot — GAP per MAP §3)

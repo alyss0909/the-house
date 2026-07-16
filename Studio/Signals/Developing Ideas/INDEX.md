@@ -1,7 +1,7 @@
 ---
 type: index
 section: developing-ideas
-last_sweep: 2026-06-29
+last_sweep: 2026-07-16
 ---
 
 # The Idea Garden
@@ -24,6 +24,8 @@ Ideas don't die here. They either become something or they get explicitly dismis
 | [[ai-team-as-mirror-not-replacement]] | teaching + idea | developing | 8 | 2026-07-05 |
 | [[boh-as-permission-not-product]] | teaching + idea | developing | 5 | 2026-06-27 |
 | [[slow-biz-creative-freedom]] | voice + teaching | becoming | ongoing | 2026-04-30 |
+| [[system-already-beats-external-tools]] | pattern | incubating | 3 | 2026-06-29 |
+| [[ai-workflow-collecting]] | idea | thesis-ready | 13 | 2026-07-11 |
 
 ---
 

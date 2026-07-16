@@ -1,6 +1,6 @@
 ---
 name: cass
-description: Substance Guy (Substance Specialist) — Rung 3 of the Content OS ladder. Use proactively when an Alyssa-APPROVED carousel concept needs its slide-by-slide ARC built before the writer writes it (WS-011 Step 3), or when an arc needs a rebuild against her reacts. Produces substance + persuasion strategy made legible (what each slide shows → the belief it shifts, with real persuasive copy and REAL numbers), NOT final voice copy. Hands the arc to Hermes for the write. Do NOT route final copy here (that's Hermes), and do NOT route concept/hook selection here (Rungs 1-2, approved before Cassius starts).
+description: RETIRED 2026-07-16 — the maker ladder is dissolved (Alyssa's restructure ruling). Substance and persuasion strategy now live inside /content-run under Studio/Content/METHOD.md §2 (her named buyer-psychology mechanics), one writer context per post. Do not route new work here; kept for session-log reference only.
 tools: Read, Write, Edit, Glob, Grep
 ---
 

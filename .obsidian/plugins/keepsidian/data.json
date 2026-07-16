@@ -5,9 +5,130 @@
   "saveLocation": "/Notebook/Inbox",
   "saveLocationMode": "custom",
   "noteFileNamePattern": "{note.date}-{title}",
+  "embedImportedImages": true,
   "oauthFlow": "desktop",
   "oauthDebugMode": true,
   "oauthPlaywrightUseSystemBrowser": true,
+  "tokenHelperPath": "C:\\Users\\accol\\.keepsidian\\token-helper\\keepsidian-token-helper.exe",
+  "tokenHelperVersion": "1.0.0",
+  "tokenHelperLastCheckedAt": 1784238650271,
+  "tokenHelperConsentAcceptedAt": 1783953454720,
+  "tokenHelperLastSeenReleaseId": 352823962,
+  "tokenHelperCheckedForPluginVersion": "2.0.17",
+  "tokenHelperCompatibleManifest": {
+    "version": "1.0.0",
+    "protocolVersions": [
+      1
+    ],
+    "pluginVersionRange": ">=2.0.15 <3.0.0",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-darwin-arm64",
+        "sha256": "a8b731b8fd8ad8e7d889b89503e4bc6a717af97db9f7a3d59413daa64734a64b",
+        "size": 175224288,
+        "fileName": "keepsidian-token-helper-darwin-arm64"
+      },
+      {
+        "platform": "darwin",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-darwin-x64",
+        "sha256": "9892e37a864c2f31465551e5bbb70d959392380264f813411da4147ee9089868",
+        "size": 177530080,
+        "fileName": "keepsidian-token-helper-darwin-x64"
+      },
+      {
+        "platform": "linux",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-linux-arm64",
+        "sha256": "77d93d44cee3d8e71c4a3128b3e18f245b625eea5e4b06718a5bc2f7655dc9ae",
+        "size": 183831680,
+        "fileName": "keepsidian-token-helper-linux-arm64"
+      },
+      {
+        "platform": "linux",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-linux-x64",
+        "sha256": "9d8d40537c5e23a9027e0a8a40f01695cdcf15c9beef607becc4cfa882da745e",
+        "size": 186780864,
+        "fileName": "keepsidian-token-helper-linux-x64"
+      },
+      {
+        "platform": "win32",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-win32-arm64.exe",
+        "sha256": "085e2ff5c56879a8fd57e153f25c80297e401627fd0e8f61f5bbc08d9ddf7caa",
+        "size": 136487936,
+        "fileName": "keepsidian-token-helper-win32-arm64.exe"
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-win32-x64.exe",
+        "sha256": "e3586bb20034c5497d7c2b078b6b376037cb3b5cbd1cc799276f5fc89c987c4c",
+        "size": 147292160,
+        "fileName": "keepsidian-token-helper-win32-x64.exe"
+      }
+    ]
+  },
+  "tokenHelperInstalledManifest": {
+    "version": "1.0.0",
+    "protocolVersions": [
+      1
+    ],
+    "pluginVersionRange": ">=2.0.15 <3.0.0",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-darwin-arm64",
+        "sha256": "a8b731b8fd8ad8e7d889b89503e4bc6a717af97db9f7a3d59413daa64734a64b",
+        "size": 175224288,
+        "fileName": "keepsidian-token-helper-darwin-arm64"
+      },
+      {
+        "platform": "darwin",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-darwin-x64",
+        "sha256": "9892e37a864c2f31465551e5bbb70d959392380264f813411da4147ee9089868",
+        "size": 177530080,
+        "fileName": "keepsidian-token-helper-darwin-x64"
+      },
+      {
+        "platform": "linux",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-linux-arm64",
+        "sha256": "77d93d44cee3d8e71c4a3128b3e18f245b625eea5e4b06718a5bc2f7655dc9ae",
+        "size": 183831680,
+        "fileName": "keepsidian-token-helper-linux-arm64"
+      },
+      {
+        "platform": "linux",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-linux-x64",
+        "sha256": "9d8d40537c5e23a9027e0a8a40f01695cdcf15c9beef607becc4cfa882da745e",
+        "size": 186780864,
+        "fileName": "keepsidian-token-helper-linux-x64"
+      },
+      {
+        "platform": "win32",
+        "arch": "arm64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-win32-arm64.exe",
+        "sha256": "085e2ff5c56879a8fd57e153f25c80297e401627fd0e8f61f5bbc08d9ddf7caa",
+        "size": 136487936,
+        "fileName": "keepsidian-token-helper-win32-arm64.exe"
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "url": "https://github.com/lc0rp/keepsidian-token-helper/releases/download/v1.0.0/keepsidian-token-helper-win32-x64.exe",
+        "sha256": "e3586bb20034c5497d7c2b078b6b376037cb3b5cbd1cc799276f5fc89c987c4c",
+        "size": 147292160,
+        "fileName": "keepsidian-token-helper-win32-x64.exe"
+      }
+    ]
+  },
   "subscriptionCache": {
     "info": {
       "metering_info": null,
@@ -15,7 +136,7 @@
       "subscription_status": "inactive",
       "trial_or_promo": null
     },
-    "timestamp": 1783690319807,
+    "timestamp": 1784238550539,
     "email": "accoleman100@gmail.com"
   },
   "premiumFeatures": {
@@ -37,14 +158,14 @@
   "autoSyncEnabled": true,
   "autoSyncIntervalHours": 24,
   "lastSyncSummary": {
-    "timestamp": 1783559499997,
+    "timestamp": 1784238619971,
     "processedNotes": 43,
-    "totalNotes": 50,
+    "totalNotes": 72,
     "success": false,
     "status": "failed",
     "mode": "import"
   },
-  "lastSyncLogPath": "Team Inbox/_KeepSidianLogs/2026-07-09.md",
+  "lastSyncLogPath": "Notebook/Inbox/_KeepSidianLogs/2026-07-16.md",
   "keepSidianLastSuccessfulSyncDate": "2026-06-08T16:20:36.007Z",
   "frontmatterPascalCaseFixApplied": true,
   "twoWaySyncBackupAcknowledged": true,

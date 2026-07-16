@@ -1,7 +1,7 @@
 # SOP-037 — Run Mean Alyssa Content Gate
 
 - **Default owner:** Suki / Larry. Reusable at every content rung (concept, hook, substance, voice).
-- **Status:** Active (Gate-2 approved by Alyssa 2026-07-08).
+- **Status:** RETIRED 2026-07-16 with the maker ladder (Alyssa's restructure). Carousel production now runs through the /saves-sweep and /content-run skills under [[Studio/Content/METHOD]]. Kept for history only.
 - **Triggered by:** every content rung in WS-011 before work reaches Alyssa; "run the gate", "mean alyssa this".
 - **References:** [[MEAN-ALYSSA]] (doctrine/calibration), [[Studio/Content/taste-ledger]], the week's trend brief, [[GL-009-source-boundaries-and-promotion]].
 

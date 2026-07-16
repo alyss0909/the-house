@@ -4,10 +4,10 @@ Licensed under CC BY-NC-SA 4.0 - see LICENSE
 -->
 
 ---
-last_sweep: 2026-06-27
-sweep_range: 2026-03-01 to 2026-06-27
-sweep_method: manual read (Larry) + pattern recognition across 90-day journal entries
-next_sweep: 2026-07-04 (weekly) + 2026-07-27 (monthly deep sweep)
+last_sweep: 2026-07-16
+sweep_range: 2026-06-27 to 2026-07-16
+sweep_method: manual read (Larry), catch-up sweep after the weekly cadence stalled; 30 journal entries read in full
+next_sweep: 2026-07-19 (weekly, aligned to the Sunday housekeeping patrol) + 2026-07-27 (monthly deep sweep)
 ---
 
 # Signals Index
@@ -104,11 +104,12 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 ### minimum-viable-rhythm
 
 - **Description**: The minimum you need to do to keep the machine running. "The monthly just works." Daily non-negotiables. The concept that less-but-consistent beats more-but-erratic. Shows up in her personal habits notes and in her business philosophy.
-- **Recurrence count**: 4
+- **Recurrence count**: 5
 - **First seen**: 2026-04-28
-- **Last seen**: 2026-05-20
+- **Last seen**: 2026-07-02
 - **Signal status**: incubating
-- **Garden note**: not yet
+- **Garden note**: not yet. One recurrence away from the thesis threshold; a garden note should be seeded if it appears again.
+- **Latest capture**: [[Notebook/Journal/2026/07/2026-07-02-weekly-cadence-outline]], a day-by-day minimum weekly rhythm (Monday inbox actions, Tuesday cowork, Wednesday workshop prep, Thursday pod pitch tracker, Friday Notion)
 
 ---
 
@@ -158,10 +159,11 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 ### boh-daily-profit-activities
 
 - **Description**: The specific actions inside BOH that drive revenue. Shows up in journal entries as concepts she's been refining. Teaching content for inside the program.
-- **Recurrence count**: 3
+- **Recurrence count**: 4
 - **First seen**: 2026-04-02
-- **Last seen**: 2026-04-28
-- **Signal status**: radar
+- **Last seen**: 2026-07-11
+- **Signal status**: incubating
+- **Latest capture**: [[Notebook/Journal/2026/07/2026-07-11-daily-profit-activities-notion]]. She published a Daily Profit Activities page to Notion and saved the link with empty "Inspo" and "Sheet" placeholders, so this is actively being built, not just mused about.
 - **Found 2026-07-16**: [[Deliverables/2026-07-11-profit-menu-plan.md]] is a fully worked execution plan for this exact idea — turning the Daily Profit Activities Notion template into "The Profit Menu" (schema, copy rewrite plan, page layout). It was never linked from any task, session log, or DESK, so nobody tending this signal would have found it. Flagging the connection here since Deliverables/ is outside Studio's editable scope for this pass; it still needs a real home (task or garden note) at the next sweep.
 
 ---
@@ -174,6 +176,30 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Last seen**: 2026-06-29
 - **Signal status**: incubating
 - **Garden note**: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools.md]]
+
+---
+
+### ai-workflow-collecting
+
+- **Description**: A four-day burst (July 8 to 11) of saving external Claude and AI workflow resources: agents guides, Claude x Notion workflows, a lead magnet funnel blueprint, a knowledge base prompt, Onlook, and more. Thirteen entries, eleven distinct resources, none evaluated yet. The intake-side twin of `system-already-beats-external-tools`, which tracks what happens when the team actually evaluates one (verdict so far: the system already does it).
+- **Recurrence count**: 13
+- **First seen**: 2026-07-08
+- **Last seen**: 2026-07-11
+- **Signal status**: thesis-ready
+- **Garden note**: [[Studio/Signals/Developing Ideas/ai-workflow-collecting.md]]
+- **Content type**: idea
+- **Note**: crossed the thesis threshold on first appearance, so the garden note and thesis draft were both written at the 2026-07-16 catch-up sweep. Waiting on Alyssa's reaction to the thesis draft.
+
+---
+
+### boosting-proven-posts-as-ads
+
+- **Description**: First paid-amplification move on record: three specific Instagram posts flagged to boost as ads, plus a same-day capture of Meta ad credit and coupon terms. If this recurs it is a new lever in the content system (organic posts as ad creative testing ground), which would connect to the content lane's comment-CTA funnel.
+- **Recurrence count**: 2
+- **First seen**: 2026-06-30
+- **Last seen**: 2026-06-30
+- **Signal status**: radar
+- **Entries**: [[Notebook/Journal/2026/06/2026-06-30-boost-these]], [[Notebook/Journal/2026/06/2026-06-30-meta-ad-details]]
 
 ---
 
@@ -196,6 +222,7 @@ _None yet._
 
 | Date | Range | Method | New Signals | Notes |
 |---|---|---|---|---|
+| 2026-07-16 | 2026-06-27 to 2026-07-16 (catch-up sweep, 30 entries) | Manual read (Larry's sweep specialist) | 2 new signals | `ai-workflow-collecting` (13 entries in 4 days, straight to thesis-ready, garden note and thesis draft written) and `boosting-proven-posts-as-ads` (radar). Bumped `minimum-viable-rhythm` to 5 (one away from thesis threshold) and `boh-daily-profit-activities` to 4 (radar to incubating; pairs with the orphaned [[Deliverables/2026-07-11-profit-menu-plan]] flagged earlier today). No content activation flags. The range is almost entirely link captures, with no content-ready stories or frameworks in her own words. |
 | 2026-07-16 | Index-vs-garden-note frontmatter reconciliation (knowledge-loss follow-up audit) | Manual read (Fable) | 0 new signals | Desync fix, garden-note frontmatter is the source of truth: `people-undervalue-niche-obsessions` was showing status `developing` with no garden-note link even though the garden note exists and reads `thesis-ready` — index corrected to `thesis-ready` with the link restored. `ai-team-as-mirror-not-replacement` was showing count 5 / last seen 2026-06-06 while the garden note has count 8 / last seen 2026-07-05 (three Jul 5 IG-save captures never made it into the index) — index corrected to match. See [[Studio/Analysis/2026-07-16-knowledge-loss-followup.md]]. |
 | 2026-07-10 | 2026-06-29 (3 entries, ad hoc — not a scheduled sweep) | Manual read (Larry) | 1 new signal | `system-already-beats-external-tools` — surfaced by the Bring It Home stranger test, refiled for real after independent verification |
 | 2026-06-29 | WS-004 inbox processing | Manual read (Larry) | 1 new signal | `boh-as-permission-not-product` recurrence +1 from June 27 capture |

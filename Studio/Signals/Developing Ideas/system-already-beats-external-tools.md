@@ -39,6 +39,10 @@ The team keeps evaluating tools built for a generic user, and generic tools lose
 
 None yet — recurrence count (3) is below the thesis-ready threshold (6+). Filed to watch, not to act on.
 
+## Related signal
+
+[[Studio/Signals/Developing Ideas/ai-workflow-collecting]], added at the 2026-07-16 catch-up sweep, is the intake side of this same pattern. Thirteen external AI workflow resources were saved between July 8 and 11, none evaluated yet. If those evaluations keep landing on "skip, we already built this," this signal's recurrence count climbs and the standing evaluation heuristic gets real. The two signals may merge.
+
 ## Check back
 
-2026-07-17 (next weekly sweep).
+2026-07-19 (next weekly sweep).

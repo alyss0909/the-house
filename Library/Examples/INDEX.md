@@ -15,6 +15,7 @@ last_updated: 2026-07-04
 | File / Folder | What it contains | Status |
 |---|---|---|
 | [`sales-pages/`](sales-pages/INDEX.md) | Sales page copy — BOH + other products | building — 20 files |
+| [`deliverables/`](deliverables/INDEX.md) | Full copy of the actual product a reader receives, not the pitch | building — 1 file |
 | [`sales-emails/`](sales-emails/INDEX.md) | Sales emails from all products | building — 5 examples |
 | [`about-page.md`](about-page.md) · [`home-page.md`](home-page.md) · [[[Library/Examples/meta-copy]]](meta-copy.md) | About page, home page, and meta/SEO copy — all live | ✅ complete |
 | [`soft-sundays/`](soft-sundays/INDEX.md) | 5 best Soft Sunday emails (full text) | 🔶 8 examples — 2026-06-05 |

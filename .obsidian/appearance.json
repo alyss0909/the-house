@@ -14,7 +14,9 @@
     "properties-panel",
     "tabs",
     "colors",
-    "dashboard"
+    "dashboard",
+    "bases-and-canvas",
+    "notekeeper"
   ],
   "nativeMenus": false
 }

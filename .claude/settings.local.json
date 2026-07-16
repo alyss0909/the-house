@@ -68,7 +68,45 @@
       "Bash(ls -la /c/Users/accol/.config/ 2>/dev/null; echo \"---meetily---\"; ls -la \"/c/Users/accol/AppData/Local/meetily/meetily.exe\" 2>/dev/null; echo \"---automations---\"; ls \"/c/Users/accol/OneDrive/Desktop/the-house/Team Knowledge/Automations/\")",
       "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-create-pages",
       "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-update-page",
-      "mcp__d16a7962-ac07-4fc4-ab65-695c779b534c__read_file_content"
+      "mcp__d16a7962-ac07-4fc4-ab65-695c779b534c__read_file_content",
+      "Bash(python3 -c \"import datetime; d=datetime.date\\(2026,7,12\\); print\\(d.isocalendar\\(\\)\\)\")",
+      "mcp__composio__COMPOSIO_GET_TOOL_SCHEMAS",
+      "Bash(date -j -f \"%Y-%m-%d\" \"2026-07-12\" +%G-W%V)",
+      "Bash(sort -t'|' -k2 -u)",
+      "Bash(grep -v \"^$\")",
+      "mcp__composio__COMPOSIO_MULTI_EXECUTE_TOOL",
+      "mcp__composio__COMPOSIO_REMOTE_BASH_TOOL",
+      "mcp__composio__COMPOSIO_SEARCH_TOOLS",
+      "Bash(find \"/c/Users/accol/.claude/projects/C--Users-accol-OneDrive-Desktop-the-house/memory\" -iname \"*instagram*\" -o -iname \"*saves*\" 2>/dev/null)",
+      "Bash(ls -la \"/c/Users/accol/instagram-saves-engine/\" 2>&1)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(\"./.venv/Scripts/python.exe\" refresh_8_images.py)"
+    ]
+  },
+  "env": {
+    "PYTHONIOENCODING": "utf-8"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python scripts/regenerate-now.py"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python scripts/hooks/bash-guard.py"
+          }
+        ]
+      }
     ]
   }
 }

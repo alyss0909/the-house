@@ -1,10 +1,12 @@
 ---
 name: loop
-description: Content OS auto-advance loop. Polls the newest weekly pitch sheet for approvals and, on each trigger, dispatches the correct maker (Cass for arcs, Hermes for drafts) via the Agent tool so approved stages advance without a human relay. Implements Studio/Content/dashboard/PIPELINE-CONTRACT.md. This is the mechanism that works here because the headless `claude -p` CLI is not installed (verified 2026-07-09).
+description: RETIRED 2026-07-16 (content desk restructure). The pitch-sheet auto-advance relay is replaced by the Content Studio board in Notion plus /content-run. If Alyssa says /loop, run /content-run instead and tell her the new name. Do NOT dispatch cass or hermes from this file; those maker routes are dissolved.
 user_invocable: true
 ---
 
-# /loop — Larry-driven pipeline auto-advance
+# /loop — RETIRED. Use /content-run.
+
+**This command is retired (2026-07-16).** The dashboard's approve-then-/loop flow is replaced: options and finished posts live on the Content Studio board in Notion (under the Inspo to Idea page), /saves-sweep fills it, /content-run produces from it. If invoked, say so in one friendly line and run `/content-run`. The historical mechanism below is kept for reference only — do not execute it.
 
 Alyssa's order: "make approval auto advance." When she approves a stage in the
 dashboard, the next maker runs automatically and writes its output back where the

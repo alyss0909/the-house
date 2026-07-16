@@ -99,6 +99,7 @@
   gap: 4px;
 }
 .dashboard .db-nav a.db-pill:hover { background: var(--db-sage); }
+.dashboard .db-nav a.db-pill:focus-visible { outline: 2px solid var(--db-terracotta); outline-offset: 2px; }
 .dashboard .db-nav a.db-pill.db-active { background: var(--db-pink); color: #000; }
 .dashboard .db-nav .db-pill-num { opacity: 0.6; margin-right: 2px; }
 .dashboard .db-nav a.db-pill.db-parked { background: var(--db-ivory); color: var(--db-terracotta); }
@@ -955,13 +956,12 @@
 .dashboard .db-mail-btn.reply { background: var(--db-pink); }
 .dashboard .db-mail-btn.task { background: var(--db-sage); }
 .dashboard .db-mail-btn.away { background: var(--db-peach); }
-.dashboard .db-mail-btn.db-state-locked {
-  cursor: default; pointer-events: none; opacity: 0.75;
-  background: var(--db-oat); color: var(--db-muted); border: 1.5px solid var(--db-sage);
-}
 /* secondary tag + account chip, scoped smaller than the shared .db-chip
    used on Concepts/Arc (kept those untouched) — matches the original
    pretty artifact's tighter little pills. */
+.dashboard .db-mail-chip-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+}
 .dashboard .db-mail-chip-row .db-chip,
 .dashboard .db-mail-chip-row .db-mail-tag {
   font-size: 9.5px; padding: 2px 9px; letter-spacing: 0.03em;
@@ -971,6 +971,11 @@
   border: var(--db-border); border-radius: 999px;
   background: var(--db-oat); color: var(--db-muted);
 }
+/* pastel-tinted per section, echoing the original mockup's pink "DECISION"
+   pill — light section-hue background + terracotta text, not flat grey. */
+.dashboard .db-mail-tag.reply { background: color-mix(in srgb, var(--db-pink) 45%, var(--db-oat)); color: var(--db-terracotta); border-color: transparent; }
+.dashboard .db-mail-tag.task { background: color-mix(in srgb, var(--db-sage) 45%, var(--db-oat)); color: var(--db-terracotta); border-color: transparent; }
+.dashboard .db-mail-tag.away { background: color-mix(in srgb, var(--db-peach) 45%, var(--db-oat)); color: var(--db-terracotta); border-color: transparent; }
 .dashboard .db-mail-open {
   font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em;
   color: var(--db-terracotta); text-decoration: none; white-space: nowrap;
@@ -978,16 +983,188 @@
 .dashboard .db-mail-open:hover { text-decoration: underline; }
 .dashboard .db-mail-when {
   font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
-  color: var(--db-muted); margin-left: auto; white-space: nowrap;
+  color: var(--db-muted); white-space: nowrap; margin-left: auto;
 }
 
-.dashboard .db-mail-reacts {
-  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
-  padding: 16px 20px; margin: 0 0 18px;
-  font-family: "Roboto Mono", monospace; font-size: 11px; color: var(--db-muted);
-  line-height: 1.7;
+/* ---------- breathing room fixes ----------
+   Mailroom cards sit in a `.db-grid`, the same wrapper Concepts uses for its
+   tight 3-across layout (`.db-grid > .db-card { padding: 15px 13px }`) —
+   that rule leaked in here and is the real cause of the cramped feel.
+   Scope a roomier override to `.db-mail-wrap` only, plus generous internal
+   rhythm between chip row / title / body / button row. ---------- */
+.dashboard .db-mail-wrap .db-grid { gap: 14px; }
+.dashboard .db-mail-wrap .db-grid > .db-card { padding: 20px 22px; }
+.dashboard .db-mail-wrap .db-mail-chip-row { margin-bottom: 12px; }
+.dashboard .db-mail-wrap h3 { margin: 0 0 8px !important; line-height: 1.3; }
+.dashboard .db-mail-wrap .db-concept-desc { margin: 0 0 16px; line-height: 1.55; }
+.dashboard .db-mail-wrap .db-react-row { margin-top: 4px; padding-top: 14px; }
+.dashboard .db-mail-wrap .db-card {
+  transition: transform 0.12s ease, border-color 0.12s ease;
 }
-.dashboard .db-mail-reacts h2 { margin: 0 0 8px; font-family: "AT KING", Georgia, serif; font-size: 18px; color: var(--db-heading); }
+.dashboard .db-mail-wrap .db-card:not(.db-card-locked):hover {
+  transform: translateY(-2px); border-color: rgba(0,0,0,0.5);
+}
+.dashboard .db-mail-section-title { margin: 28px 0 14px; }
+.dashboard .db-mail-stats { margin-bottom: 26px; }
+
+/* click-to-vanish: optimistic fade before Dataview's auto re-render lands
+   the item correctly in the review strip. */
+.dashboard .db-mail-vanishing {
+  opacity: 0 !important; transform: scale(0.97) !important; pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+/* ---------- review strip: where handled items go instead of lingering as
+   full cards — collapsed by default, one line per item, undo where it's
+   still reversible. ---------- */
+.dashboard .db-mail-strip {
+  margin: 10px 0 4px;
+}
+.dashboard .db-mail-strip summary {
+  cursor: pointer; list-style: none;
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-muted); padding: 8px 2px;
+}
+.dashboard .db-mail-strip summary::-webkit-details-marker { display: none; }
+.dashboard .db-mail-strip summary::before { content: "▸ "; }
+.dashboard .db-mail-strip[open] summary::before { content: "▾ "; }
+.dashboard .db-mail-strip-rows {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 4px 16px; margin-top: 4px;
+}
+.dashboard .db-mail-strip-row {
+  display: flex; align-items: center; gap: 10px; padding: 9px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08); transition: opacity 0.22s ease, transform 0.22s ease;
+}
+.dashboard .db-mail-strip-row:last-child { border-bottom: none; }
+.dashboard .db-mail-strip-who { font-size: 13px; color: var(--db-body); flex: 1; }
+.dashboard .db-mail-strip-status {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--db-muted);
+}
+.dashboard .db-mail-undo {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+  background: none; border: 1px solid rgba(0,0,0,0.25); border-radius: 999px;
+  padding: 3px 10px; color: var(--db-terracotta); cursor: pointer;
+}
+.dashboard .db-mail-undo:hover { background: var(--db-linen); }
+
+/* ---------- Put Away: grouped checkbox rows + bulk archive ----------
+   Denser than the card grammar on purpose — a noise pile runs 20-50+ items
+   a day and one-card-per-email doesn't scale. Checkbox list + one button
+   per account (plus one grand "archive all"), matching the earlier
+   artifact's bulk-select mechanic Alyssa preferred. ---------- */
+/* NOT --db-ivory: solid-fill callout boxes are a locked hard-no elsewhere
+   in this file ("the big yellow boxes are a hard no" — see the
+   db-draft-cover history above). Oat + hairline border, same as every
+   other card, no exception here either. */
+.dashboard .db-mail-away-note {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 10px 16px; font-size: 12.5px; color: var(--db-muted); margin-bottom: 14px; line-height: 1.5;
+}
+.dashboard .db-mail-empty {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 26px 22px; text-align: center; color: var(--db-muted); font-size: 13px;
+  display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 14px;
+}
+.dashboard .db-mail-empty p { margin: 0; }
+.dashboard .db-mail-sweep-btn { font-size: 13px; padding: 8px 22px; }
+.dashboard .db-mail-away-group {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  margin-bottom: 14px; overflow: hidden;
+}
+.dashboard .db-mail-away-head {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 12px 16px; border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.dashboard .db-mail-away-title { font-family: "AT KING", Georgia, serif; font-size: 15px; color: var(--db-heading); }
+.dashboard .db-mail-away-spacer { flex: 1; }
+.dashboard .db-mail-linklike {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  background: none; border: none; color: var(--db-terracotta); cursor: pointer; padding: 0;
+}
+.dashboard .db-mail-linklike:hover { text-decoration: underline; }
+.dashboard .db-mail-away-rows { padding: 2px 16px; }
+.dashboard .db-mail-away-row {
+  display: flex; align-items: center; gap: 12px; padding: 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.dashboard .db-mail-away-row:last-child { border-bottom: none; }
+/* button-styled checkbox — a real <input type=checkbox> gets silently
+   intercepted by Obsidian's Reading View (its own task-checkbox handling
+   grabs the click even for unrelated plugin-rendered checkboxes and blocks
+   the native toggle). A button sidesteps this; see the JS comment above
+   awaySectionHtml's row loop for the confirmed root cause. */
+.dashboard .db-mail-check {
+  width: 18px; height: 18px; border-radius: 5px; border: 1.5px solid var(--db-terracotta);
+  background: #fff; flex: 0 0 auto; cursor: pointer; padding: 0; position: relative;
+}
+.dashboard .db-mail-check.is-checked {
+  background: var(--db-terracotta); border-color: var(--db-terracotta);
+}
+.dashboard .db-mail-check.is-checked::after {
+  content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 12px; font-weight: 700; line-height: 1;
+}
+.dashboard .db-mail-away-row.unchecked { opacity: 0.4; }
+.dashboard .db-mail-away-row.unchecked .db-mail-away-rs { text-decoration: line-through; }
+.dashboard .db-mail-away-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.dashboard .db-mail-away-rs {
+  font-size: 13.5px; color: var(--db-body); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.dashboard .db-mail-away-rf { font-size: 11px; color: var(--db-muted); }
+.dashboard .db-mail-away-foot { padding: 12px 16px; }
+/* undo state: same pill family, quieter fill, still clickable (not disabled) */
+.dashboard .db-mail-btn.db-state-locked {
+  cursor: pointer; pointer-events: auto; opacity: 1;
+  background: var(--db-oat); color: var(--db-muted); border: 1.5px solid var(--db-sage);
+}
+.dashboard .db-mail-btn.db-state-locked:hover { background: var(--db-linen); }
+.dashboard .db-mail-btn.db-state-done {
+  cursor: default; pointer-events: none; opacity: 0.75;
+  background: var(--db-oat); color: var(--db-muted); border: 1.5px solid var(--db-sage);
+}
+
+/* ---------- top "Check inboxes" action — Content OS's ship-button treatment
+   (AT KING serif, larger pill, pink fill) reused for the one big top-level
+   action on this desk. ---------- */
+.dashboard .db-mail-shipbar {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 4px 0 18px;
+}
+.dashboard .db-mail-ship-btn {
+  font-family: "AT KING", Georgia, serif; font-size: 16px; color: #000;
+  background: var(--db-pink); border: var(--db-border); border-radius: 10px;
+  padding: 10px 28px; cursor: pointer;
+}
+.dashboard .db-mail-ship-btn:hover { background: color-mix(in srgb, var(--db-pink) 82%, #fff); }
+.dashboard .db-mail-ship-confirm {
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-terracotta); opacity: 0; transition: opacity 0.15s ease;
+}
+.dashboard .db-mail-ship-confirm.show { opacity: 1; }
+
+/* internal ledger (reacts log + trigger + state) — deliberately tiny and
+   collapsed, not a headline. This is bookkeeping for Larry, not something
+   Alyssa needs to look at day to day. */
+.dashboard .db-mail-ledger {
+  margin: 30px 0 10px; padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.1);
+}
+.dashboard .db-mail-ledger summary {
+  cursor: pointer; list-style: none;
+  font-family: "Roboto Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--db-muted); opacity: 0.6;
+}
+.dashboard .db-mail-ledger summary::-webkit-details-marker { display: none; }
+.dashboard .db-mail-ledger summary::before { content: "▸ "; }
+.dashboard .db-mail-ledger[open] summary::before { content: "▾ "; }
+.dashboard .db-mail-ledger h2 {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-muted); font-weight: 400; margin: 14px 0 6px; border: none;
+}
+.dashboard .db-mail-ledger ul, .dashboard .db-mail-ledger p {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; color: var(--db-muted); line-height: 1.7;
+}
 
 /* ---------- nav-to-title gap fix (locked 2026-07-07) ----------
    ROOT CAUSE (found via DOM inspection of the live render): Minimal theme's
@@ -1013,4 +1190,360 @@
    Arc's own day blocks). */
 .dashboard .markdown-preview-sizer > div:has(> .db-nav) {
   margin-bottom: 0 !important;
+}
+
+/* ============================================================
+   HOME (vault root HOME.md) — the whole-house dashboard. Reuses
+   the shared .dashboard grammar above (oat cards, hairline border,
+   AT KING headings, Roboto Mono pills, .db-nav/.db-pill for the
+   top nav, .db-stage for the content pipeline strip). New classes
+   below are scoped to .dashboard.home only, so nothing here can
+   leak into WS-011 (dashboard/ notes only carry cssclass
+   "dashboard", never "home") or the Mailroom desk. (Felix, 2026-07-10)
+   ============================================================ */
+
+.dashboard.home .db-home-header {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 22px 26px; margin-bottom: 18px;
+}
+.dashboard.home .db-home-header h1 {
+  font-family: "AT KING", Georgia, serif; font-size: clamp(24px, 3vw, 34px);
+  margin: 0; color: var(--db-heading);
+}
+.dashboard.home .db-home-header p {
+  color: var(--db-muted); margin: 6px 0 0; font-size: 14px;
+}
+
+/* ---------- stat row (4 cards, colored top border like Mailroom's stat
+   row) — one card (Needs a ruling) gets a light sage fill when it has
+   anything in it, echoing the reference dashboard's single "pops" card. ---------- */
+.dashboard.home .db-home-stats {
+  display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 24px;
+}
+.dashboard.home .db-home-stat {
+  flex: 1; min-width: 170px;
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  border-top: 3px solid var(--db-muted);
+  padding: 16px 18px;
+}
+.dashboard.home .db-home-stat .db-home-stat-n {
+  font-family: "AT KING", Georgia, serif; font-size: 32px; line-height: 1;
+  color: var(--db-heading); font-variant-numeric: tabular-nums;
+}
+.dashboard.home .db-home-stat .db-home-stat-l {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--db-muted); margin-top: 6px;
+}
+.dashboard.home .db-home-stat .db-home-stat-c {
+  font-size: 12px; color: var(--db-muted); margin-top: 4px;
+}
+.dashboard.home .db-home-stat.tasks { border-top-color: var(--db-peach); }
+.dashboard.home .db-home-stat.ruling { border-top-color: var(--db-terracotta); }
+.dashboard.home .db-home-stat.ruling.has-items {
+  background: color-mix(in srgb, var(--db-sage) 32%, var(--db-oat));
+}
+.dashboard.home .db-home-stat.mailroom { border-top-color: var(--db-pink); }
+.dashboard.home .db-home-stat.journal { border-top-color: var(--db-sage); }
+
+/* ---------- section titles (bare AT KING, matches .db-section-title scale) ---------- */
+.dashboard.home .db-home-section-title {
+  font-family: "AT KING", Georgia, serif; font-size: 19px; margin: 6px 0 12px; color: var(--db-heading);
+}
+.dashboard.home .db-home-section-sub {
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-muted); margin: -6px 0 14px; opacity: 0.85;
+}
+
+/* ---------- signals bar list (title + real recurrence count, proportional
+   fill) — a plain horizontal bar list, not a charting library. ---------- */
+.dashboard.home .db-home-bars {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 18px 20px; margin-bottom: 24px;
+}
+.dashboard.home .db-home-bar-row {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
+}
+.dashboard.home .db-home-bar-row:last-child { margin-bottom: 0; }
+.dashboard.home .db-home-bar-label {
+  flex: 0 0 230px; font-size: 13px; color: var(--db-body); text-decoration: none;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.dashboard.home .db-home-bar-label:hover { text-decoration: underline; color: var(--db-terracotta); }
+.dashboard.home .db-home-bar-track {
+  flex: 1; background: var(--db-linen); border-radius: 999px; height: 14px; overflow: hidden;
+}
+.dashboard.home .db-home-bar-fill {
+  height: 100%; background: var(--db-lavender); border-radius: 999px;
+}
+.dashboard.home .db-home-bar-n {
+  flex: 0 0 auto; font-family: "Roboto Mono", monospace; font-size: 11px; color: var(--db-muted); min-width: 20px; text-align: right;
+}
+
+/* ---------- needs-you cards (DESK rulings + mailroom queue) ---------- */
+.dashboard.home .db-home-needs {
+  display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;
+}
+.dashboard.home .db-home-need-card {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  border-left: 4px solid var(--db-terracotta);
+  padding: 14px 18px;
+}
+.dashboard.home .db-home-need-what { font-size: 14px; color: var(--db-body); margin: 0; }
+.dashboard.home .db-home-need-where {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--db-muted); margin-top: 6px;
+}
+.dashboard.home .db-home-need-where a { color: var(--db-muted); text-decoration: none; }
+.dashboard.home .db-home-need-where a:hover { color: var(--db-terracotta); text-decoration: underline; }
+
+/* ---------- content-pipeline stage pills, no arrows between them (her rule) ---------- */
+.dashboard.home .db-home-stage-row {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;
+}
+
+/* ---------- respect reduced motion across the whole dashboard file ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .dashboard * { transition: none !important; animation: none !important; }
+}
+
+/* ---------- rooms grid: six pastel cards, one per zone/desk. Only 5 pastel
+   tokens exist in the locked palette (GL-... / Iris journal), so the 6th
+   room (Signals) uses the oat card + hairline border instead of a solid
+   fill rather than inventing a 6th color. ---------- */
+.dashboard.home .db-home-rooms {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 10px;
+}
+.dashboard.home .db-home-room {
+  text-decoration: none; border-radius: 10px; border: var(--db-border);
+  padding: 20px 18px; min-height: 96px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 10px;
+  color: var(--db-heading); transition: transform 0.12s ease, filter 0.12s ease;
+}
+.dashboard.home .db-home-room:hover { filter: brightness(0.96); transform: translateY(-2px); }
+.dashboard.home .db-home-room:focus-visible,
+.dashboard.home .db-home-bar-label:focus-visible {
+  outline: 2px solid var(--db-terracotta); outline-offset: 2px;
+}
+.dashboard.home .db-home-room-glyph { font-size: 22px; }
+.dashboard.home .db-home-room-label { font-family: "AT KING", Georgia, serif; font-size: 16px; }
+.dashboard.home .db-home-room-desc { font-size: 11.5px; color: var(--db-body); opacity: 0.85; }
+.dashboard.home .db-home-room.notebook { background: var(--db-pink); }
+.dashboard.home .db-home-room.studio { background: var(--db-sage); }
+.dashboard.home .db-home-room.library { background: var(--db-peach); }
+.dashboard.home .db-home-room.mailroom { background: var(--db-ivory); }
+.dashboard.home .db-home-room.content { background: var(--db-lavender); }
+.dashboard.home .db-home-room.signals { background: var(--db-oat); }
+
+/* ============================================================
+   HOME v2 additions (Iris, 2026-07-10) — matching the approved
+   Artifact mockup ("the front desk, v4") Alyssa signed off on.
+   Visual layer only: every block below is fed by real data Felix's
+   dataviewjs already computes or that this pass adds honestly (see
+   HOME.md comments per block for the source of each number). No new
+   colors, no new fonts — reuses the locked oat/linen/AT KING/Karla/
+   Roboto Mono system and the five pastel tokens already declared
+   above (--db-pink/--db-sage/--db-peach/--db-lavender/--db-ivory).
+   ============================================================ */
+
+/* ---------- masthead: greeting + live clock, replaces the plain
+   "Home" h1 the old .db-home-header used. ---------- */
+.dashboard.home .db-home-masthead {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 20px 26px; margin-bottom: 18px;
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px;
+}
+.dashboard.home .db-home-greet {
+  font-family: "AT KING", Georgia, serif; font-size: clamp(22px, 3vw, 32px);
+  color: var(--db-heading); line-height: 1.1;
+}
+.dashboard.home .db-home-greet i { font-style: italic; }
+.dashboard.home .db-home-sub {
+  color: var(--db-muted); font-size: 13px; margin-top: 5px;
+}
+.dashboard.home .db-home-clockbox { text-align: right; }
+.dashboard.home .db-home-clock {
+  font-family: "Roboto Mono", monospace; font-size: 1.5rem; color: var(--db-heading);
+  font-variant-numeric: tabular-nums;
+}
+.dashboard.home .db-home-clock .db-home-clock-ap { color: var(--db-muted); font-size: 0.95rem; }
+.dashboard.home .db-home-datep {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--db-muted); margin-top: 2px;
+}
+
+/* ---------- front-of-house / back-of-house divider ---------- */
+.dashboard.home .db-home-divider {
+  display: flex; align-items: center; gap: 12px; margin: 6px 2px 18px;
+}
+.dashboard.home .db-home-divider-tag {
+  font-family: "Roboto Mono", monospace; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--db-muted); background: var(--db-linen); border: var(--db-border); border-radius: 6px;
+  padding: 4px 12px; flex: none;
+}
+.dashboard.home .db-home-divider-tag b { color: var(--db-heading); font-weight: 600; }
+.dashboard.home .db-home-divider-rule { flex: 1; border-top: 1.5px dashed rgba(0,0,0,0.25); }
+
+/* ---------- ( LABEL ) mono parenthetical section header, replaces
+   the bare .db-home-section-title h2 on every section below. ---------- */
+.dashboard.home .db-home-lbl {
+  font-family: "Roboto Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--db-muted); margin: 2px 0 10px;
+}
+.dashboard.home .db-home-lbl b { color: var(--db-heading); font-weight: 600; }
+
+/* ---------- two/three-up card row (launch + streak, etc.) ---------- */
+.dashboard.home .db-home-row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px;
+}
+.dashboard.home .db-home-card {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px; padding: 18px 20px;
+}
+@media (max-width: 700px) {
+  .dashboard.home .db-home-row { grid-template-columns: 1fr; }
+}
+
+/* ---------- launch countdown ---------- */
+.dashboard.home .db-home-count {
+  font-family: "AT KING", Georgia, serif; font-size: 2.4rem; line-height: 1; color: var(--db-heading);
+  margin-top: 4px;
+}
+.dashboard.home .db-home-count span { font-size: 1rem; color: var(--db-muted); }
+.dashboard.home .db-home-bar {
+  height: 12px; background: var(--db-linen); border: var(--db-border); border-radius: 99px;
+  overflow: hidden; margin-top: 10px;
+}
+.dashboard.home .db-home-bar i { display: block; height: 100%; border-radius: 99px; background: var(--db-pink); }
+.dashboard.home .db-home-barline {
+  display: flex; justify-content: space-between; align-items: baseline; margin-top: 8px;
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; color: var(--db-muted);
+}
+
+/* ---------- shipping streak heatmap ---------- */
+.dashboard.home .db-home-heat {
+  display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; margin-top: 10px;
+}
+.dashboard.home .db-home-heat i {
+  aspect-ratio: 1; border-radius: 3px; border: 1px solid rgba(0,0,0,0.25); background: var(--db-linen);
+  display: block;
+}
+.dashboard.home .db-home-heat i.l1 { background: var(--db-ivory); }
+.dashboard.home .db-home-heat i.l2 { background: var(--db-peach); }
+.dashboard.home .db-home-heat i.l3 { background: var(--db-sage); }
+.dashboard.home .db-home-heat i.today { outline: 2px solid var(--db-pink); outline-offset: 1px; }
+.dashboard.home .db-home-streakline {
+  display: flex; justify-content: space-between; align-items: baseline; margin-top: 8px; font-size: 0.83rem;
+}
+.dashboard.home .db-home-streakline .db-home-flame {
+  font-family: "AT KING", Georgia, serif; font-size: 1.2rem; color: var(--db-heading);
+}
+
+/* ---------- engines (real project status rows, no invented percentages) ---------- */
+.dashboard.home .db-home-eng {
+  padding: 10px 2px; border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+.dashboard.home .db-home-eng:last-child { border-bottom: none; }
+.dashboard.home .db-home-engtop {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+}
+.dashboard.home .db-home-eng-name { font-weight: 700; min-width: 140px; font-size: 0.93rem; color: var(--db-heading); }
+.dashboard.home .db-home-eng-next { color: var(--db-muted); font-size: 0.86rem; flex: 1; min-width: 160px; }
+.dashboard.home .db-home-state {
+  font-family: "Roboto Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+  border: var(--db-border); border-radius: 999px; padding: 3px 11px; flex: none;
+}
+.dashboard.home .db-home-state.s-motion { background: var(--db-peach); }
+.dashboard.home .db-home-state.s-bench { background: var(--db-ivory); color: #8b4a2f; }
+.dashboard.home .db-home-state.s-hum { background: var(--db-sage); }
+.dashboard.home .db-home-state.s-you { background: var(--db-pink); }
+
+/* ============================================================
+   HOME sidebar rail (Iris, 2026-07-10) — Alyssa's review of the live
+   HOME.md against her Superpowers OS reference: "i want a sidebar,"
+   reacting to that reference site's persistent left-hand icon+label
+   nav column. This grid targets .markdown-preview-sizer, which is
+   ONLY the true Reading-view container. Alyssa's daily default is
+   Live Preview (a CodeMirror-based view with a different structure,
+   .cm-content, where each dataviewjs block sits alongside plain
+   .cm-line spacer elements as direct siblings) — forcing THAT
+   container into a grid would scatter those spacer lines into the
+   layout too and was tested live and rejected as unsafe (2026-07-10).
+   So today this rule only produces a real two-column layout if she
+   explicitly switches this note to Reading view; in her normal Live
+   Preview mode the sidebar still renders correctly, just as a card
+   at the top of the page rather than a true side column. Harmless
+   to leave in either way. Scoped to .dashboard.home only — the rest
+   of the .dashboard family (Content Command Center, Mailroom, etc.)
+   still use the horizontal .db-nav pill row, untouched. ============ */
+.dashboard.home .markdown-preview-sizer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.dashboard.home .markdown-preview-sizer > div:has(.db-home-sidebar) {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  position: sticky;
+  top: 20px;
+  align-self: start;
+  margin-bottom: 0 !important;
+}
+.dashboard.home .markdown-preview-sizer > div:not(:has(.db-home-sidebar)) {
+  grid-column: 2;
+}
+@media (max-width: 820px) {
+  .dashboard.home .markdown-preview-sizer { display: block; }
+  .dashboard.home .markdown-preview-sizer > div:has(.db-home-sidebar) {
+    position: static; margin-bottom: 18px !important;
+  }
+}
+
+.dashboard.home .db-home-sidebar {
+  background: var(--db-oat); border: var(--db-border); border-radius: 10px;
+  padding: 16px 12px; display: flex; flex-direction: column; gap: 2px;
+}
+.dashboard.home .db-home-sidebar-label {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--db-muted); padding: 2px 8px 8px;
+}
+.dashboard.home .db-home-sidebar-item {
+  display: flex; align-items: center; gap: 10px; padding: 8px 8px;
+  border-radius: 8px; text-decoration: none; color: var(--db-body);
+  font-family: "Karla", sans-serif; font-size: 13.5px;
+}
+.dashboard.home .db-home-sidebar-item:hover { background: var(--db-linen); }
+.dashboard.home .db-home-sidebar-item:focus-visible { outline: 2px solid var(--db-terracotta); outline-offset: 2px; }
+.dashboard.home .db-home-sidebar-item.active { background: var(--db-pink); color: #000; }
+
+/* ---------- actions cards, real workflows not fake buttons, green like her
+   reference site's Actions tab (using the locked sage pastel, not a new
+   green token) ---------- */
+.dashboard.home .db-home-actions {
+  display: flex; flex-direction: column; gap: 10px; margin: 10px 0 24px;
+}
+.dashboard.home .db-home-action {
+  display: flex; align-items: flex-start; gap: 14px;
+  background: var(--db-sage); border: var(--db-border); border-radius: 10px;
+  padding: 14px 18px;
+}
+.dashboard.home .db-home-action[data-phrase] {
+  cursor: pointer; transition: transform 0.1s ease, filter 0.1s ease;
+}
+.dashboard.home .db-home-action[data-phrase]:hover { filter: brightness(0.96); transform: translateY(-1px); }
+.dashboard.home .db-home-action[data-phrase]:active { transform: translateY(0); filter: brightness(0.9); }
+.dashboard.home .db-home-action[data-phrase]:focus-visible { outline: 2px solid var(--db-terracotta); outline-offset: 2px; }
+.dashboard.home .db-home-action.auto { background: var(--db-ivory); cursor: default; }
+.dashboard.home .db-home-action.queued { background: var(--db-pink); }
+.dashboard.home .db-home-action.queued .db-home-action-how { color: #6b2c46; font-weight: 600; }
+.dashboard.home .db-home-action-icon { font-size: 20px; line-height: 1; margin-top: 1px; }
+.dashboard.home .db-home-action-title { font-family: "Karla", sans-serif; font-weight: 700; font-size: 14.5px; color: var(--db-heading); }
+.dashboard.home .db-home-action-desc { font-size: 13px; color: var(--db-muted); margin-top: 2px; }
+.dashboard.home .db-home-action-how {
+  font-family: "Roboto Mono", monospace; font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--db-terracotta); margin-top: 6px;
+}
+.dashboard.home .db-home-sidebar-icon { font-size: 15px; width: 18px; text-align: center; flex: 0 0 auto; }
+.dashboard.home .db-home-sidebar-text { flex: 1; }
+.dashboard.home .db-home-sidebar-pinned {
+  margin-top: 10px; padding-top: 10px; border-top: 1.5px dashed rgba(0,0,0,0.2);
 }

@@ -1,0 +1,11 @@
+{
+  "jsFiles": "",
+  "jsFolder": "scripts/customjs",
+  "startupScriptNames": [
+    "NotekeeperCards"
+  ],
+  "registeredInvocableScriptNames": [
+    "NotekeeperCards"
+  ],
+  "rerunStartupScriptsOnFileChange": false
+}
