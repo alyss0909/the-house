@@ -3,7 +3,7 @@ title: Penn Fabrication Audit + Fix Plan — Journal Connections, Tags, Commenta
 date: 2026-07-13
 owner: Larry
 source_class: output
-status: LARGELY EXECUTED 2026-07-16 — Alyssa approved (chat) and merged this with the journal orphan backfill ([[tsk-2026-07-11-001-journal-connection-backfill]]). Fix plan items 1-4 done for all 218 flagged entries (dead links repaired or removed, tags fixed per GL-004, commentary stripped with her verbatim text verified intact). Remaining: item 5 (mechanical librarian close-checklist for Penn sessions, needs wiring) and item 6 plus the ~290 already-connected entries not yet commentary-checked.
+status: FULLY EXECUTED 2026-07-16 — Alyssa approved (chat) and merged this with the journal orphan backfill ([[tsk-2026-07-11-001-journal-connection-backfill]], closed same day). Items 1-4 done across all 567 entries (218 read in full wave 1; the remaining 349 fingerprint-scanned wave 2, 18 flagged files read, 13 strips applied). Item 5 covered by [[SOP-040-the-compounding-loop]] gate steps 3a/7/7a plus GL-004's close audit. Item 6 covered by the wave-2 thin-stub scan of Notebook/Life (both thin files verified legitimate, no fabricated stubs found).
 ---
 
 # What's actually broken

@@ -1,7 +1,7 @@
 ---
 id: tsk-2026-07-11-001
 title: "Journal connection backfill - ultracode orphan pass"
-status: open
+status: done
 priority: 2
 created: 2026-07-11T00:00:00Z
 updated: 2026-07-16T00:00:00Z
@@ -48,8 +48,8 @@ Those `/tmp/*.json` artifacts are not present in this Codex workspace and are no
 ## Next actions
 
 1. DONE 2026-07-16: pass regenerated locally, 218 flagged entries read in full by 7 worker agents, proposals verified by Fable, applied, hubs and [[NOW]] regenerated.
-2. Remaining: the ~290 journal entries that already had genuine inbound links were NOT commentary-checked this pass (they were outside the worklist). The same fabrication-era footer pattern may exist there. Night-shift trickle or a wave 2 covers them.
-3. The 117 honest noHome entries stay as resurface candidates for the night shift; they are not failures.
+2. DONE 2026-07-16 (wave 2, same day): the remaining 349 entries were mechanically fingerprint-scanned; 18 flagged files read in full by one worker; 13 verified commentary strips applied, 1 proposal rejected as her own words, 3 ambiguous left untouched, zero fabricated links found, both thin entity stubs (maude, office-reno) verified legitimate. Every journal entry has now been checked.
+3. The 117 honest noHome entries stay as resurface candidates for the night shift; they are not failures. TASK CLOSED 2026-07-16.
 
 ## Outcome (2026-07-16, honest counts)
 

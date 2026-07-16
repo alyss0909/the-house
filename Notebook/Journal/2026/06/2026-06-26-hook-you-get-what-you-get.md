@@ -9,7 +9,6 @@ tags:
 
 > "you get what you get and you don't get upset"
 
-Raw hook idea captured. Strong reframe energy — plays on the kindergarten phrase, could work as an email opener around expectations, delivery, or what BOH actually gets you.
 
 ---
 

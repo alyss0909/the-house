@@ -11,7 +11,7 @@ tags:
 
 [Instagram post (slide 7)](https://www.instagram.com/p/DZ5WqNtDoem/?img_index=7)
 
-"Recreate this for launch" — saved as carousel format/design inspo for BOH summer launch.
+"Recreate this for launch"
 
 ---
 

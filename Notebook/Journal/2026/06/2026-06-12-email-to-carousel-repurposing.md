@@ -6,7 +6,6 @@ tags:
 ---
 # Email to Carousel — Repurposing Examples
 
-Alyssa's own email-to-carousel repurposing pairs. Pattern library for content planning and Back of House teaching material.
 
 Each pair shows how a broadcast email became an Instagram carousel. The pattern: take a strong topic from an email, expand it visually into slides, then link back to a freebie or low-ticket offer.
 

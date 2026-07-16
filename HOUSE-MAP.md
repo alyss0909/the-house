@@ -24,6 +24,7 @@ The migration is over. This is where the house lives, permanently:
 
 | Zone / desk | Path | What's there |
 |---|---|---|
+| Home | [[HOME]] | Whole-house dashboard, team-maintained like DESK, links into every zone |
 | Notebook/Journal | `Notebook/Journal/YYYY/MM/` | Daily entries |
 | Notebook/Inbox | `Notebook/Inbox/` | Raw drops, `media/`, `Meeting Captures/` |
 | Notebook/Life | `Notebook/Life/` | Goals, Habits, Key Elements, Projects, Topics, `CRM/` |
@@ -49,13 +50,29 @@ The migration is over. This is where the house lives, permanently:
 
 ## Read order, every job
 
-1. This file.
-2. The map for the zone your job lives in: [[Notebook/MAP|Notebook map]], [[Studio/MAP|Studio map]], or [[Library/MAP|Library map]].
-3. Your workflow's job card (for content work: [[Studio/Content/dashboard/PIPELINE-CONTRACT]] and GL-010).
-4. Your own agent contract and its mandatory loads.
-5. The actual source files — full loads, per protocol.
+1. This file, then [[NOW]].
+2. [[Studio/Team/TEAM-BRAIN]] (her standing rulings and the pre-apply/pre-reject lists) and your topic's group in [[PRECEDENT-INDEX]] (what past sessions already decided — re-deriving a decided thing is a GL-014 violation and makes Alyssa repeat herself).
+3. The map for the zone your job lives in: [[Notebook/MAP|Notebook map]], [[Studio/MAP|Studio map]], or [[Library/MAP|Library map]].
+4. Your workflow's job card (for content work: [[Studio/Content/dashboard/PIPELINE-CONTRACT]] and GL-010).
+5. Your own agent contract and its mandatory loads.
+6. The actual source files — full loads, per protocol, found via the reference routing table below.
 
 If two maps disagree, this file wins. If this file doesn't cover it, ask Larry. Do not create a new map.
+
+## Reference routing — where sources live, by job type
+
+(Added 2026-07-16 after Alyssa flagged that agents don't know when or where to reach into Library and Notebook and she keeps repeating herself. This table is the answer; not loading your row before working is a boot failure.)
+
+| When your job involves | Load these, in this order |
+|---|---|
+| An offer (pricing, positioning, what's included, links) | `Library/Offers/<offer>/MAP.md` first — one folder per offer, the facts live there. Then [[Library/me.md]] for her core facts. Never guess offer facts from memory. |
+| Writing anything in her voice (emails, captions, carousels, pages) | [[Studio/Voice/README]] + the format file + KILL-LIST last (house law); Hermes desks additionally load their SOURCES.md full-file list. Real examples of her verbatim copy: `Library/Examples/`. |
+| Her teaching content and curriculum | `Library/Programs/` — verbatim, citable, never paraphrased into new versions. |
+| A person (client, collaborator, friend, family) | `Notebook/Life/CRM/People/<name>.md` — check it exists before wikilinking a person; stubs are created per WS-001, never invented. |
+| Her projects, goals, topics, habits | `Notebook/Life/` — definitions in [[GL-002-icor-entity-definitions]]. Route ideas per those definitions, not by vibes. |
+| Her raw thinking on any theme | Her journal via the garden: `Studio/Signals/Developing Ideas/` and the Journal Web hubs point into `Notebook/Journal/`. Read entries in full; never edit them. |
+| What she already reacted to (approvals, rejections, taste) | [[Studio/Team/TEAM-BRAIN]] rulings + your desk's PLAYBOOK rejected-list + the pitch-sheet reacts for content work. |
+| Anything a past session may have decided | [[PRECEDENT-INDEX]] — your topic's group, before you design or build. |
 
 ## The connection doctrine
 

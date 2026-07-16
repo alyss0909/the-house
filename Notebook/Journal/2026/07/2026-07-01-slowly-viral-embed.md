@@ -6,7 +6,6 @@ tags:
 ---
 # Slowly Viral Embed
 
-Descript video embed snippet, likely a Slowly Viral / Pinterest teaching clip:
 
 <div style="display: flex; justify-content: center;">
   <iframe src="[https://share.descript.com/embed/ApWb6QLrZKX](https://share.descript.com/embed/ApWb6QLrZKX)"

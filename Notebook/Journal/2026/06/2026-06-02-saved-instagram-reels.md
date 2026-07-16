@@ -6,7 +6,7 @@ tags:
 ---
 # Saved Instagram Reels
 
-Two Instagram reels saved via Google Keep (synced through KeepSidian) on the morning of 2026-06-02 at 07:00. No additional context was attached at save time -- these are pending review and annotation by Alyssa.
+Two Instagram reels saved via Google Keep (synced through KeepSidian) on the morning of 2026-06-02 at 07:00.
 
 ## Saved Inspiration
 
@@ -17,7 +17,6 @@ Two Instagram reels saved via Google Keep (synced through KeepSidian) on the mor
 
 **What it is:** Step-by-step tutorial for animating your business logo using Gemini, converting to GIF, and uploading it as your Gmail profile icon. The hook: 22–75% of the market uses Gmail, and almost nobody has a moving email icon — so this stands out in inboxes and increases open rates.
 
-**Relevance:** Email marketing / Brand World. A simple differentiation tactic for Alyssa's sender presence.
 
 ---
 
@@ -28,7 +27,6 @@ Two Instagram reels saved via Google Keep (synced through KeepSidian) on the mor
 
 **What it is:** Part 3 of a series on building an AI second brain in Obsidian. Covers: LLM wiki method, better search & graph visibility, structure, background automations, cron jobs for token-intensive processing. Adds "knowledge hubs" as a personalisation layer.
 
-**Relevance:** myPKA / Second Brain building. Direct overlap with the current AI second brain work.
 
 ---
 

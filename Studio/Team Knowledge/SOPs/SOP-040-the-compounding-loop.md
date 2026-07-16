@@ -32,6 +32,7 @@ One job: make every session learn from the last, with the journal as the self-re
 5. **Hand-off.** Rewrite the block between the HANDOFF markers in NOW.md: 3-6 lines, plain words — what happened, what's live, what the next session should do first.
 6. **Playbook write.** Any Alyssa reaction this session (approval, rejection, correction, preference) -> one dated verbatim line in the acting agent's PLAYBOOK; cross-cutting -> [[Studio/Team/TEAM-BRAIN]].
 7. **No host-local memory.** (Designed in the 2026-07-11 autopsy, installed 2026-07-16.) Ask: did this session rely on or save any rule that lives only in a host's private memory and not on disk in the vault? If yes, write it into the vault now. A rule only one machine can read does not exist.
+7a. **Wrap-or-skip gate.** (Installed 2026-07-16 on Alyssa's order that wrap debt never recurs.) If NOW.md's wrap debt shows the newest wrap more than 7 days behind the current week, do not close: either run WS-006 light for the missing week(s) or write a dated `type: skipped` stub in Weekly Reviews (which WS-007 counts as a recorded gap). A missing wrap is a gate failure; a skip stub is an honest record.
 8. **Regenerate.** Run `python3 scripts/regenerate-now.py`. Confirm NOW.md's `generated:` timestamp updated.
 
 ## Manual fallback (host has no shell)

@@ -9,7 +9,7 @@ tags:
 
 [Focal Regular — Commercial Type](https://commercialtype.com/catalog/focal/focal/regular)
 
-"Receipt font" — noted as a design/typography reference, likely for launch visual direction.
+"Receipt font"
 
 *[Original Keep note](https://keep.google.com/#NOTE/1sfjEBGw0-_FtT3TeZIIIVpK-jfppl2OssTjqdZbr8zQlLYJkzDcDqDMegE7MWWI)*
 
