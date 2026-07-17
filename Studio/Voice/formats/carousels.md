@@ -56,9 +56,9 @@ The default architecture for every deck, cited in full in [[Hermes/craft/caption
 5. **Slide 8** — something big, a massive perspective shift or aha moment. A content reversal, not the visual interrupt.
 6. **Slide 9** — the CTA. The full-bleed visual world-shift marks the CTA doorway between slides 8 and 9; it is a separate device, never the last slide's content itself.
 
-Archetypes (manifesto/FTG, story/POV) may flex the middle, but a deck that skips the open-loop slide 2, the agitation, or the slide-8 aha does not ship.
+Archetypes (manifesto/FTG, story/POV) may flex what each beat sounds like, but a deck still starts from the carousel outline. FTG uses recognition, permission, principle, and soft close instead of tactical teaching and hard CTA.
 
-**For The Girls posts have their own dedicated writing skill** — load [[Hermes/craft/for-the-girls-posts]] before writing that lane. It flexes hardest: a permission-slip litany, often no CTA slide, closing on an open question rather than a comment-word ask.
+**For The Girls posts have their own style card and writing skill** — load [[Studio/Analysis/Frameworks/carousels/for-the-girls]] and [[Hermes/craft/for-the-girls-posts]] before writing that lane. Same production path, different style.
 
 ## The texture floor
 

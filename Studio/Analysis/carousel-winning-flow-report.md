@@ -118,7 +118,7 @@ The top posts mostly share one spine.
 
 The difference is the kind of argument the idea needs.
 
-The five frameworks below are the source taxonomy. Production has been simplified: normal offer/education posts use How To, Old Way / New Way, or Hot Take. For The Girls is a separate style lane. House Report stays here as a source pattern and market-pressure mode, not a default production framework.
+The five frameworks below are the source taxonomy. Production has been simplified: normal carousel writing uses How To, Old Way / New Way, Hot Take, or For The Girls. For The Girls follows the same dispatch path and carousel outline; it is a different style card, not a separate process. House Report stays here as a source pattern and market-pressure mode, not a default production framework.
 
 Framework decision rules:
 
@@ -142,10 +142,10 @@ Every strong carousel does these jobs in this order.
 
 Write the post from the spine, then choose the framework below to decide what each job should sound like.
 
-The spine is the default operating order, not a rigid outline. Frameworks can bend it:
+The spine is the default operating order. Frameworks decide how each job gets filled:
 
 - Product Plan can show the product early because the product teaches.
-- For The Girls routes out of the normal carousel spine into its own writing style because recognition is the job.
+- For The Girls fills the same spine with recognition, permission, principle, and soft close instead of tactical teaching and hard CTA.
 - Hot Take expands proof before teaching because the reader needs receipts before the rebuild.
 - House Report may spend longer on implication because the reader needs to understand what the shift means before acting.
 
@@ -316,13 +316,13 @@ Proof pattern: [[Library/Examples/Carousels/2026-03-03-organic-marketing-is-dyin
 
 ### 5. For The Girls
 
-Meaning: a dedicated writing lane for identity, permission, brand world, self-trust, "I needed someone to say this."
+Meaning: a dedicated style framework for identity, permission, brand world, self-trust, "I needed someone to say this."
 
-Required loads before writing: [[Hermes/craft/for-the-girls-posts]] for the method, then one full example from [[Library/Examples/Carousels/for-the-girls-slide-copy]] in slide order.
+Required loads before writing: [[Studio/Content/writer-kit]], [[Studio/Analysis/Frameworks/carousels/for-the-girls]], [[Hermes/craft/for-the-girls-posts]] for the method, then one full example from [[Library/Examples/Carousels/for-the-girls-slide-copy]] in slide order.
 
 Examples: [[Library/Examples/Carousels/2026-01-22-wasting-time-for-the-girls]], [[Library/Examples/Carousels/2026-02-14-valentines-for-the-girls]], [[Library/Examples/Carousels/2026-03-07-march-affirmations]], [[Library/Examples/Carousels/2026-03-10-guest-cheque-quote]]
 
-Use this when: the post is for recognition, relief, and brand trust more than teaching. This is not a normal educational carousel with the teaching removed. It has its own line style.
+Use this when: the post is for recognition, relief, and brand trust more than tactical teaching. This is not a normal educational carousel with the teaching removed. It has its own line style, inside the same carousel outline.
 
 First-half pressure: inner pressure. The reader needs permission, not a plan.
 
@@ -330,7 +330,7 @@ Best hook styles: first-person declaration, permission slip, love-letter address
 
 Forward sequence:
 
-1. Start from the FTG style skill, not the general carousel spine.
+1. Fill the carousel outline first: cover, slide 2, old way/problem, proof or validation, teaching, turn, CTA.
 2. Name the guilt, pressure, or "unproductive" thing the reader secretly resents.
 3. Reclassify it as part of the work, part of the process, or part of a better business.
 4. Write short permission lines that feel like saved screenshots, private notebook lines, or tiny verdicts.
@@ -342,7 +342,7 @@ Old belief it attacks: taking time, changing your mind, or moving slowly means y
 
 New belief it installs: the slower choice can be the higher-standard choice.
 
-FTG rule: no tactical teaching body, no hard CTA, no forced offer, and no normal carousel-hook logic. Load the FTG writing skill.
+FTG rule: same production path, different style. No tactical teaching body, no hard CTA, no forced offer, and no normal curiosity-gap hook logic. Load the FTG framework card and writing skill.
 
 CTA rule: end with a question, sign-off, brand seed, or soft invitation. Do not turn the permission into a pitch.
 

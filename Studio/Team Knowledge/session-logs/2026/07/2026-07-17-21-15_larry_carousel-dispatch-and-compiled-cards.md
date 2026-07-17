@@ -23,10 +23,11 @@ She clarified the actual goal: preserve the winning flow report and the real car
 
 - Created [[Studio/Content/carousel-dispatch]] as the production front door for carousel work.
 - Updated [[Studio/Content/MAP]] so carousel production starts at dispatch, not broad-loading METHOD, hook-forensics, slide-by-slide, and the winning flow report.
-- Rebuilt the three normal production framework cards as compiled writing packets:
+- Rebuilt the production framework cards as compiled writing packets:
   - [[Studio/Analysis/Frameworks/carousels/how-to]]
   - [[Studio/Analysis/Frameworks/carousels/old-way-new-way]]
   - [[Studio/Analysis/Frameworks/carousels/hot-take]]
+  - [[Studio/Analysis/Frameworks/carousels/for-the-girls]]
 - Each card now contains framework outline, carousel outline, pressure/proof guidance, hook options, content-role cautions, fail modes, and an Alyssa Move Library that metabolizes the real slide-by-slide examples into "how Alyssa does this move."
 - Updated [[Studio/Content/writer-kit]] so each writer produces one draft from narrow context: writer-kit, one offer brief, and one framework card.
 - Updated [[Studio/Analysis/carousel-winning-flow-report]] to position it as source manual, not default writing load.
@@ -36,8 +37,8 @@ She clarified the actual goal: preserve the winning flow report and the real car
 
 ## Decisions made
 
-- **Question:** Should a normal offer/education carousel use five frameworks?
-  **Decision:** No. Production uses only How To, Old Way / New Way, and Hot Take. For The Girls is separate. House Report stays as source/manual pattern and market-pressure mode. Durable home: [[Studio/Content/carousel-dispatch]].
+- **Question:** Should carousel production use five active frameworks?
+  **Decision:** No. Production uses How To, Old Way / New Way, Hot Take, and For The Girls. FTG follows the same dispatch path; it is a different style card, not a separate process. House Report stays as source/manual pattern and market-pressure mode. Durable home: [[Studio/Content/carousel-dispatch]].
 - **Question:** Should agents load the whole winning flow report and slide-by-slide breakdown to draft?
   **Decision:** No. The winning flow report is preserved as source manual. The cards now carry the compressed flow/report/slide-by-slide logic a writer needs at draft time. Durable home: [[Studio/Analysis/Frameworks/carousels/how-to]].
 - **Question:** Should subagents write only outlines or full drafts?
@@ -48,7 +49,7 @@ She clarified the actual goal: preserve the winning flow report and the real car
 ## Insights
 
 - The missing layer was not "more examples" or "less context"; it was compiled examples at the exact move level. A card cannot only say "show what staying costs." It has to say how Alyssa does it, which source proves it, what to write toward, and what not to write. Durable home: [[Studio/Analysis/Frameworks/carousels/old-way-new-way]].
-- The content system should not trust an agent to declare itself stuck and open the full report. The production path must force the correct decision before drafting: concept lock, framework outline, carousel outline, source receipt, then copy. Durable home: [[Studio/Content/carousel-dispatch]].
+- The content system should not trust an agent to declare itself stuck and open the full report. The production path must force the correct decision before drafting: carousel outline first, concept lock second, framework outline third, source receipt fourth, then copy. Durable home: [[Studio/Content/carousel-dispatch]].
 - Token-aware does not mean small and thin. It means narrow and high-context. The cards can be richer if they prevent broad-loading five larger docs. Durable home: [[Studio/Analysis/carousel-framework-source-loading-plan]].
 
 ## Realignments
@@ -61,9 +62,9 @@ She clarified the actual goal: preserve the winning flow report and the real car
 
 **Today's larger objective:** Stop carousel agents from degenerating by giving them a token-aware, high-context production path that preserves Alyssa's real copywriting logic.
 
-**What connected:** [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/writer-kit]], [[Studio/Content/carousel-dispatch]], the three compiled framework cards, [[Studio/Content/briefs/INDEX]], and [[Studio/Content/MAP]].
+**What connected:** [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/writer-kit]], [[Studio/Content/carousel-dispatch]], the four compiled framework cards, [[Studio/Content/briefs/INDEX]], and [[Studio/Content/MAP]].
 
-**What changed in source maps / tasks / Hermes / Ready Queue:** Content MAP and Analysis indexes now point agents to dispatch and compiled cards. TEAM-BRAIN, Larry PLAYBOOK, and PRECEDENT-INDEX now carry the rule that production starts with concept lock and two full narrow-context drafts.
+**What changed in source maps / tasks / Hermes / Ready Queue:** Content MAP and Analysis indexes now point agents to dispatch and compiled cards. TEAM-BRAIN, Larry PLAYBOOK, and PRECEDENT-INDEX now carry the rule that production starts with the carousel outline, then concept lock, then two full narrow-context drafts.
 
 **What was superseded, demoted, archived, or deleted:** No files archived or deleted. The old broad-load behavior is superseded by [[Studio/Content/carousel-dispatch]]. The winning flow report was not lost; it is now source manual.
 

@@ -25,3 +25,6 @@ desktop.ini
 # but its compiled bytecode cache should never be tracked)
 __pycache__/
 *.pyc
+
+# understand-open-source skill artifacts
+graphify-out/

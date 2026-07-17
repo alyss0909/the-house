@@ -110,6 +110,8 @@ Per Alyssa's real corpus, the following are her actual voice and are permitted w
 
 A failed post gets ONE rebuild in the same context with the failure named, then ships to her as an option anyway, marked with the gate's concern. She is the decider; the gate is a filter, not a wall.
 
-## 8. For The Girls exception
+## 8. For The Girls style
 
-Friday runs on [[Studio/Hermes/craft/for-the-girls-posts]] and PLAYBOOK Part 5, unchanged: declaration covers, first-person permission litany, no payoff hooks, no teaching, no CTA. Sections 1.1 through 1.10 of this file do not apply to FTG. Sections 0, 3 (stranger test), 5, and 7 always apply.
+Friday follows the same carousel production path as every other deck: start with the carousel outline, lock the concept, fill the framework outline, name the source receipt, then draft. The difference is style, not process. Load [[Studio/Analysis/Frameworks/carousels/for-the-girls]], [[Studio/Hermes/craft/for-the-girls-posts]], and one full example from [[Library/Examples/Carousels/for-the-girls-slide-copy]].
+
+FTG fills the spine differently: declaration covers, first-person permission, recognition instead of proof, a principle line instead of tactical teaching, and a soft close instead of a hard CTA. Do not turn it into tips, a lesson, or a product pitch.
