@@ -40,6 +40,16 @@ The interface is [MAILROOM.md](MAILROOM.md): a card-based Obsidian dashboard bui
 - **Never auto-touch:** failed/declined payments, security alerts, the bookkeeper, real humans, paid-member join requests.
 - Norah's Day (Montessori dailies) stays in the inbox unless she says otherwise.
 
+## Notion mirror (in progress — additive, Obsidian stays live)
+
+A Notion version of this desk is being built in parallel, mirroring the
+[[MAILROOM]] dashboard, so the same triage lives beside the House Control
+Room. The Obsidian dashboard and its `/mailroom` command stay the live
+interface until Alyssa switches. Draft artifacts:
+- [[notion-mailroom-BUILD-SPEC]] — the Notion database schema, seed rows, and the button/view steps (buttons and views are UI-only in Notion, added by hand).
+- [[notion-bridge/SETUP]] — the near-instant Cloudflare Worker webhook bridge (Notion button -> Gmail via Composio/Anthropic), gated on Alyssa's secrets + a Vex security pass.
+- [[mailroom-notion-command-DRAFT]] — drafted `/mailroom` repoint to read the Notion database (the durable polled fallback behind the instant bridge).
+
 ## Open builds (highest-leverage first)
 
 - **Scheduling** — the sweep is entirely manual right now (Alyssa clicks "Check inboxes" → `/mailroom` reads the trigger next time Larry checks in). No cron, no auto-refresh. Wire OS cron + API (never an app-open-dependent Claude scheduled task) to run the sweep every morning on its own.

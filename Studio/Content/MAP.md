@@ -20,15 +20,17 @@ Use [[Studio/Content/carousel-dispatch]] as the production front door.
 
 The orchestrator loads only:
 1. [[Studio/Content/carousel-dispatch]]
-2. the one offer brief in `Studio/Content/briefs/`
+2. the one offer brief, angle brief, or FTG mood brief
 3. [[Studio/Content/taste-ledger]] only when the offer or angle has a live correction there
 
 Each writer subagent loads only:
 1. [[Studio/Content/writer-kit]]
-2. the same offer brief
-3. one framework card from [[Studio/Analysis/Frameworks/carousels/how-to]], [[Studio/Analysis/Frameworks/carousels/old-way-new-way]], or [[Studio/Analysis/Frameworks/carousels/hot-take]]
+2. the same brief
+3. one framework card from [[Studio/Analysis/Frameworks/carousels/how-to]], [[Studio/Analysis/Frameworks/carousels/old-way-new-way]], [[Studio/Analysis/Frameworks/carousels/hot-take]], or [[Studio/Analysis/Frameworks/carousels/for-the-girls]]
 
 The full [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/METHOD]], and [[Studio/Analysis/carousel-hook-forensics]] are source manuals for rebuilding the cards, not default writing loads.
+
+Fable review packet for the carousel compiler: [[Studio/Content/2026-07-17-carousel-compiler-fable-handoff]].
 
 The month's rotation and lane targets live in [[Studio/Content/calendar]].
 

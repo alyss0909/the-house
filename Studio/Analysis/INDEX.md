@@ -14,7 +14,7 @@ last_updated: 2026-07-17
 
 Start at [[Studio/Content/carousel-dispatch]]. That is the production front door.
 
-Normal writer load is [[Studio/Content/writer-kit]], one offer brief, and one framework card. [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/METHOD]], and [[Studio/Analysis/carousel-hook-forensics]] are source manuals for rebuilding the cards, not default writing loads.
+Normal writer load is [[Studio/Content/writer-kit]], one offer/angle/FTG brief, and one framework card. [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/METHOD]], and [[Studio/Analysis/carousel-hook-forensics]] are source manuals for rebuilding the cards, not default writing loads.
 
 ---
 

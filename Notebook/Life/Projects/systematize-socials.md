@@ -39,7 +39,7 @@ Four formats that always work ([[2026-03-12-repeatable-formats|Repeatable Format
 ## Open threads
 
 - **Claude for AC** — set Claude up for Alyssa's content workflow (Camila's big project)
-- **Keep + IG → Claude → Notion pipeline** — saved content from Keep and IG feeds into Claude, outputs to Notion ([[2026-05-10-camila-onboarding|Camila Onboarding]])
+- **Keep + IG → Claude → Notion pipeline** — saved content from Keep and IG feeds into Claude, outputs to Notion ([[2026-05-10-camila-onboarding|Camila Onboarding]]). The Keep half now has its own scoped project: [[own-keep-capture|Own Keep Capture]].
 - **Social flow calendar** — weekly/monthly content calendar with freebies by week, Pinterest reel batching ([[2026-01-26-social-flow|Social Flow]])
 - **Content automations** — one-person content stack, full workflow doc ([[2026-02-13-content-automations|Content Automations]])
 - **Camila onboarding** — Alex's outstanding to-dos still open ([[2026-05-10-camila-onboarding|Camila Onboarding]])

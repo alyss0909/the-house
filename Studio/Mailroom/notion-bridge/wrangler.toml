@@ -1,0 +1,20 @@
+# Cloudflare Worker config for the Mailroom Notion -> Gmail bridge.
+# DRAFT / NOT DEPLOYED. See SETUP.md for the deploy + secrets steps.
+#
+# Secrets are NOT stored here. They are set with `wrangler secret put` by
+# Alyssa herself (never committed, never entered by an agent):
+#   WEBHOOK_SECRET     shared secret; must match the Notion button header
+#   NOTION_TOKEN       internal integration token (read row + set Status)
+#   COMPOSIO_API_KEY   Gmail archive + create-draft actions
+#   ANTHROPIC_API_KEY  draft copy in her voice
+
+name = "mailroom-bridge"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Free tier. No KV, no durable objects, no cron needed for the instant path.
+workers_dev = true
+
+# No plaintext vars. Everything sensitive is a secret (see above).
+[vars]
+# (intentionally empty — do not put secrets here)

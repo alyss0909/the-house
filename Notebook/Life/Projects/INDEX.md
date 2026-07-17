@@ -10,9 +10,11 @@ Bounded efforts with a finish line — a set of deliverables you cross off when 
 - [[office-reno]] — Office Reno (planning, home)
 - [[systematize-socials]] — Systematize Socials (planning, socials)
 - [[notion-templates]] — Notion Templates (active, operations)
+- [[notion-best-practices]] — Notion Best Practices (planning, operations)
 - [[norah-birthday-june-2026]] — Norah's Birthday Party (active, parenting, June 20)
 
 - [[podcast-guesting-workflow]] - Podcast Guesting Workflow (planning, visibility)
+- [[own-keep-capture]] — Own Keep Capture (planning, pkm)
 
 ## Naming
 

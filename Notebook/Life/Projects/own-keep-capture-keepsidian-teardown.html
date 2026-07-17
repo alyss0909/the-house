@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Understanding KeepSidian</title>
+<style>
+  :root {
+    --bg: #f7f4ec; --card: #fffdf7; --ink: #2c2a25; --muted: #6b665c;
+    --line: #e4ddcd; --accent: #b07a3c; --accent-soft: #f0e6d6; --code-bg: #f3eee2;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { border-bottom: 2px solid var(--line); padding-bottom: 18px; margin-bottom: 8px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 0.95rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--line);
+    border-radius: 999px; padding: 3px 11px; font-size: 0.8rem; font-weight: 600; }
+  h2 { font-size: 1.3rem; margin: 40px 0 10px; padding-top: 8px; }
+  h3 { font-size: 1.02rem; margin: 22px 0 4px; }
+  p, li { font-size: 0.98rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 20px; margin: 14px 0; }
+  code { background: var(--code-bg); padding: 1px 6px; border-radius: 5px;
+    font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.86em; }
+  pre { background: var(--code-bg); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; overflow-x: auto; }
+  pre code { background: none; padding: 0; font-size: 0.82rem; line-height: 1.5; }
+  .flow { list-style: none; padding: 0; margin: 14px 0; counter-reset: step; }
+  .flow li { position: relative; padding: 10px 0 10px 44px; border-bottom: 1px solid var(--line); }
+  .flow li:last-child { border-bottom: none; }
+  .flow li::before { counter-increment: step; content: counter(step);
+    position: absolute; left: 0; top: 10px; width: 28px; height: 28px; border-radius: 50%;
+    background: var(--accent); color: #fff; font-weight: 700; font-size: 0.85rem;
+    display: flex; align-items: center; justify-content: center; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.9rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  .filepath { color: var(--accent); font-weight: 600; }
+  .note { background: var(--accent-soft); border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 14px 0; font-size: 0.93rem; }
+  footer { margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.82rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Understanding KeepSidian</h1>
+  <div class="sub">A read of the real source of <strong>lc0rp/KeepSidian</strong>, the Obsidian plugin that syncs your Google Keep notes into your vault.</div>
+  <div class="meta">
+    <span class="chip">120 files</span>
+    <span class="chip">1382 nodes</span>
+    <span class="chip">116 communities</span>
+    <span class="chip">commit eb886a03</span>
+    <span class="chip">read 2026-07-17</span>
+  </div>
+</header>
+
+<h2>1. What this repo is</h2>
+<p>KeepSidian is an Obsidian plugin, written in TypeScript, that brings your Google Keep notes into your vault and, in newer versions, pushes vault notes back up to Keep (two-way sync). The plugin itself does very little talking to Google directly. Almost all of the real work is done by a separate KeepSidian server (a Flask service based on Keep-It-Markdown). The plugin captures a Google login token, hands it to that server, and then asks the server for your notes. Your credentials are held on your machine, sent at sync time, and not stored on the server.</p>
+
+<h2>2. Architecture at a glance</h2>
+<p>The graph clustered the codebase into a few clear areas. The important ones are the plugin shell, the sync engine, the flow orchestration layer, the server integration, and the subscription gate.</p>
+<div class="card">
+<table>
+  <tr><th>Area</th><th>What lives there</th><th>Representative files</th></tr>
+  <tr><td><strong>Plugin shell</strong></td><td>The Obsidian entry point that holds all state and wires everything together on load.</td><td><span class="filepath">src/app/main.ts</span> (KeepSidianPlugin)</td></tr>
+  <tr><td><strong>Sync engine</strong></td><td>The per-note work: fetch, convert to markdown, save into the vault, log each note.</td><td><span class="filepath">src/features/keep/sync.ts</span> (processAndSaveNote)</td></tr>
+  <tr><td><strong>Flow orchestration</strong></td><td>The named jobs the UI calls: import, push, two-way, run a prepared plan.</td><td><span class="filepath">src/app/main-sync-flows.ts</span> (runPreparedSyncPlan)</td></tr>
+  <tr><td><strong>Server integration</strong></td><td>The HTTP calls to the KeepSidian server for notes, premium notes, push, and token exchange.</td><td><span class="filepath">src/integrations/server/keepApi.ts</span>, <span class="filepath">src/integrations/google/keepTokenExchange.ts</span></td></tr>
+  <tr><td><strong>Subscription gate</strong></td><td>Checks whether your email is an active supporter, with a 24 hour cache.</td><td><span class="filepath">src/services/subscription.ts</span></td></tr>
+  <tr><td><strong>Sync Center UI</strong></td><td>The modal where you review a plan before anything changes, and watch progress.</td><td><span class="filepath">src/ui/modals/SyncProgressModal.ts</span></td></tr>
+</table>
+</div>
+<p class="sub">The graph also flagged a handful of small import cycles between <code>main.ts</code>, <code>sync.ts</code>, and <code>logging.ts</code>. They are not harmful here, but they are the natural seams if anyone wanted to break the plugin into cleaner modules.</p>
+
+<h2>3. The core abstractions</h2>
+
+<h3>KeepSidianPlugin <span class="sub">(src/app/main.ts, 56 graph edges)</span></h3>
+<p>The center of the whole plugin. It extends Obsidian's <code>Plugin</code> class and, on load, builds the subscription service, registers the ribbon and commands, sets up the status bar and settings tabs, and starts auto sync if it is enabled. It also holds the live sync state: whether a sync is running, the progress modal, and the cached supporter status. Every user action (import, push, two-way) routes through a small guard here that checks credentials and prevents two syncs at once.</p>
+<pre><code>if (this.settings.autoSyncEnabled) {
+  this.startAutoSync();
+}
+// ...
+const intervalMs = this.settings.autoSyncIntervalHours * 60 * 60 * 1000;</code></pre>
+
+<h3>The two-way gate <span class="sub">(computeTwoWayGate in main.ts)</span></h3>
+<p>This is the client-side lock on uploads and two-way sync. It builds a list of reasons the action is blocked. You must have acknowledged the backup warning, enabled two-way in settings, and, when premium is required, have an active supporter subscription.</p>
+<pre><code>if (requirePremium && subscriptionActive === false) {
+  reasons.push("To enable uploads &amp; two-way sync, please consider becoming a KeepSidian supporter.");
+}</code></pre>
+
+<h3>The server calls <span class="sub">(src/integrations/server/keepApi.ts)</span></h3>
+<p>Every real data operation is an HTTP call to the KeepSidian server, carrying your email and bearer token. There are two separate download endpoints: a standard one and a premium one. The premium call is the only place the AI features (suggested tags, suggested titles, note filtering) are requested, and they are sent to the server to run.</p>
+<pre><code>// standard:  GET  /keep/sync/v2
+// premium:   POST /keep/sync/premium/v2   { feature_flags: { suggest_tags, suggest_title, ... } }
+// push:      POST /keep/push
+// register:  POST /register        (oauth token to keep_token)</code></pre>
+
+<h3>SubscriptionService <span class="sub">(src/services/subscription.ts)</span></h3>
+<p>A small class that asks the server <code>/subscriber/info</code> whether your email is an active subscriber, and caches the answer for 24 hours. This is what the two-way gate reads. It is a client-side check, so it decides what the plugin offers you, but it does not decide what the server will actually do.</p>
+
+<h2>4. How a typical sync works, start to finish</h2>
+<ol class="flow">
+  <li><strong>Get a token once.</strong> You paste a Google <code>oauth2_4...</code> token. <code>exchangeOauthToken</code> posts it to the server's <code>/register</code>, which returns a long-lived <code>keep_token</code>. The plugin saves that token, redacting it in any logs.</li>
+  <li><strong>Open the Sync Center.</strong> The <code>SyncProgressModal</code> lets you review a plan (download, upload, or two-way) before anything changes. Credentials are checked first.</li>
+  <li><strong>Ask the server for notes.</strong> <code>fetchNotes</code> (or <code>fetchNotesWithPremiumFeatures</code> if you are a supporter) calls the server, which talks to Google Keep for you and returns notes as data.</li>
+  <li><strong>Validate and convert.</strong> The response is checked against a Zod schema, then each note runs through <code>processAndSaveNote</code>, which turns it into markdown and writes it into your vault at a safe, normalized path.</li>
+  <li><strong>Log and repeat.</strong> Each note is logged, progress is shown in the modal, and the loop pages through the rest. Two-way sync then compares and pushes changed vault notes back up through <code>/keep/push</code>.</li>
+</ol>
+
+<div class="note">
+<strong>The most useful thing this read confirmed:</strong> KeepSidian has two separate gates, not one. The supporter check inside the plugin (SubscriptionService plus computeTwoWayGate) only decides what the plugin <em>offers</em> you, which is why client-side things like the sync interval are freely adjustable. The AI features (auto-tagging, suggested titles) are a different story: they are only ever requested through the premium server endpoint and run on the server, so they cannot be unlocked from the plugin side. That matches exactly what you had noted: interval is client-side and free to change, auto-tagging is server-side and gated.
+</div>
+
+<h2>5. Where to start if you wanted to extend it</h2>
+<div class="card">
+<table>
+  <tr><th>File</th><th>Why it matters</th></tr>
+  <tr><td><span class="filepath">src/app/main.ts</span></td><td>The entry point and state holder. Any new command, setting, or gate rule starts here.</td></tr>
+  <tr><td><span class="filepath">src/features/keep/sync.ts</span></td><td>The per-note conversion and save logic. Change how a Keep note becomes a markdown file here.</td></tr>
+  <tr><td><span class="filepath">src/integrations/server/keepApi.ts</span></td><td>The full contract with the server. Every endpoint and payload shape lives here.</td></tr>
+  <tr><td><span class="filepath">src/app/main-sync-flows.ts</span></td><td>The named jobs (import, push, two-way). Wire a new kind of sync run in here.</td></tr>
+  <tr><td><span class="filepath">src/services/subscription.ts</span></td><td>The supporter check. Understand this before touching anything premium-gated.</td></tr>
+</table>
+</div>
+
+<footer>
+Generated by the <strong>understand-open-source</strong> skill: real source downloaded with opensrc, code graph built with graphify, and the flagged files read directly. Graph built from commit eb886a03 on 2026-07-17. This report is a read of the code as it was on that commit, not the project's own documentation.
+</footer>
+</div>
+</body>
+</html>
