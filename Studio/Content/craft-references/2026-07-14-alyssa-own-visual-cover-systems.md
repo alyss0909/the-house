@@ -7,6 +7,8 @@ added: 2026-07-14
 source: Composio Instagram Graph API pull (her own account only) + 8 real covers Larry downloaded and read verbatim, 2026-07-14
 ---
 
+Historical intake from the retired maker desk. Reference only, not required reading.
+
 # Alyssa's Own Cover Copy Patterns
 
 ## Who this is for

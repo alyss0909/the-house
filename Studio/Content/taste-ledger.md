@@ -1,6 +1,6 @@
 ---
 title: Carousel Taste Ledger
-purpose: Cumulative record of Alyssa's real reactions to pitched concepts/hooks. Loaded in every WS-011 step 1. Verbatim over paraphrase.
+purpose: Cumulative record of Alyssa's real reactions to pitched concepts/hooks. Loaded in full by /saves-sweep and /content-run (WS-011 retired 2026-07-16). Verbatim over paraphrase.
 created: 2026-07-06
 ---
 
@@ -14,6 +14,50 @@ Format: date · item · what she did (picked / edited X to Y / saved) · her wor
 - 2026-07-09 — Picked from W30: "How To Get A Month Of Traffic From 4 Pins" · "If I Could Only Market My Business Once A Week..." · "THE WORK STILL GETS DONE WHEN I SLOW DOWN". Saved #10 (NOTHING IS FALLING BEHIND...).
 - 2026-07-14 — Rewrote a title herself: "this was the WORST sales email, somehow booked 2 clients" (her shape: dramatic self-report + unexplained result, no mechanism named).
 - (Her Instagram saves are positive signal too — mined daily by /saves-sweep.)
+- 2026-07-17 — She supplied the 5MN cover herself ("SORRY JULIA CHILD.. / Gourmet Email Marketing is Out", BACK OF HOUSE, burnt toast) and the offer's lead argument verbatim: "YOU'VE GOT SIX BURNERS GOING WHEN ONE WILL DO / Most service providers are posting reels, carousels, stories, and 'educational content pillars' every week just to stay visible…" Banked into [[Studio/Content/briefs/the-5-minute-newsletter]] and the sales page (import was missing this opener). First live /content-run v3 built on it (Old Way / New Way). Confirms the thesis: the julia-child post she called "closest to good" was closest because it used her real line.
+
+## Ruling 2026-07-17 — the copy-paste law (verbatim)
+
+- Her verdict on the first /content-run output: "some of these had good ideas but the actual content is still nothing like mine, i have great copy that could literally be copy and pasted into the outline its creating instead its spiting out short ai slop. its clear the work on my message and copy is not compounding."
+- And on density: "when i create a carousel i blast information at ppl."
+
+**Distilled (law for every writer):**
+- **Paraphrase is the failure mode.** When her real copy exists for the topic (deliverables, sales pages, Simmers, Soft Sundays), the slide body IS her sentences, lifted and re-broken into slide grammar — not a summary of them. Write new connective tissue only where no source line exists.
+- **Density floor:** her real teaching slides run 25-65 words of body with 2-4 concrete items, real numbers, and named specifics per slide (see the Jan 15 and Jan 20 breakdowns). One thin idea per slide = AI slop. Education decks run 9-11 slides.
+- Fix applied same day: all four 2026-07-16 Ready-for-Alyssa decks rebuilt on the board with verbatim source copy at her density.
+
+## Ruling 2026-07-17 — julia v1 reacts (verbatim), three durable rules
+
+Her words on the first full v3 deck: "the belief is wrong its not that you ned the perfect subject etc its YOU'VE GOT SIX BURNERS GOING WHEN ONE WILL DO... that is a MASSIVE hole in the logic and breaks the entire carousel structure. ALSO i dont need you to talk about imagery. lastly you dont mention WHAT the 5m newsleter is (a notion planer)." Also: "this took SO MANY tokens... probably bc of the vault structure reading whole framework files."
+
+**Distilled (durable):**
+- **Never invent a belief adjacent to hers.** The spine of the deck IS her actual argument, verbatim from the brief. The writer drifted to "you need the perfect subject line/funnel" when her real belief is "six content burners when one newsletter would do." Inventing the belief breaks the whole structure. Load her belief, keep it, do not "improve" it.
+- **No imagery in decks.** Copy only. No image ideas, no art direction. (Now in [[Studio/Content/writer-kit]].)
+- **Always name what the product IS** (5 Minute Newsletter = a Notion planner). Benefit copy is not enough; say the thing.
+- **Token discipline (structural fix made):** the writer no longer loads full METHOD, full hook-forensics, or the 25k slide-by-slide file. It loads [[Studio/Content/writer-kit]] + the offer brief + the framework card only. First run was ~63k writer tokens; lean load targets a fraction.
+
+## Ruling 2026-07-17 — "it doesn't sound like me" (the orchestrator-patch lesson)
+
+Her words on the hand-patched 5MN teaching slides: "its fine but it doesnt sound like me so .. who wrote it?" Cause: the orchestrator (Larry) rewrote those slides by hand, inside a session full of audit/system work, wrapping her verbatim lines in flat connective tissue ("that is the whole first decision"). The clean-writer redo (reading only writer-kit + her brief) restored her voice immediately ("the one burner that actually feeds you," "now go get yourself a sweet treat, you earned it").
+
+**Distilled (durable):** The orchestrator NEVER writes or patches slide copy. Every draft and rewrite goes through a clean writer whose context is mostly her copy. A hand-patch in the orchestrator's heavy context flattens her voice every time. Now a hard rule in [[.claude/commands/content-run]] and [[Studio/Content/writer-kit]].
+
+## Ruling 2026-07-17 — the deck must DO the framework's steps
+
+Her words: "it just seems like its not following actual frameworks like its supposed to like it doesnt DO a framework step." She pasted the How To forward sequence (specific outcome promise, false premise, simpler operating order, teach method in 3-4 parts, memory device, make it feel easier, CTA) as the standard.
+
+**Distilled (durable):** The framework card's numbered forward sequence IS the slide plan. The writer maps each slide to a step (slide 2 = step 1, etc.) and writes each slide to DO that step's job. A deck that is merely "about" the topic but does not march through the sequence fails. The checker verifies every step appears. Also: this 5MN deck is a How To, not Old Way / New Way; the six-burners belief is How To step 2 (the false premise). Now enforced in [[Studio/Content/writer-kit]] and [[.claude/commands/content-run]] (Stage 4 slide plan + Stage 5 framework-execution check).
+
+## Ruling 2026-07-17 — the voice bug: build from her CAROUSELS, not her sales pages
+
+After four structural fixes she still said "it doesn't sound like me lol we're goin round and round here." Root cause found by reading her real Jan 20 deck: writers were built from her SALES-PAGE copy (her polished selling register) with her real carousels pulled out of the load to save tokens. Her carousel register is different: short punchy verdict/coinage headers ("Organic Reach is Officially Cooked.", "Marketing Nerd Reporting for Duty", 3 to 7 words), reporter-with-receipts bodies ("I've reviewed my notes (& industry reports)... this is what im seeing"), REAL DATA ("organic reach fell below 1%"), culture-speak, "&" connectors, phonetic spellings, "we" not "you".
+
+**Distilled (durable):** Voice comes from her real carousels, not her sales pages. Created [[Studio/Content/her-carousel-voice.md]] (compact: one real deck verbatim + the tells) and added it to the writer's load in [[.claude/commands/content-run]]. The token optimization that removed her real slides was the direct cause of the flatness. Exemplars beat rules for voice. Headers must be short verdicts/coinages, never sales-page explainer sentences. The proof beat (spine job 4) uses her real numbers (sub-1% organic reach vs her ~43% Simmer open).
+
+## Board notes 2026-07-16/17 (from Her notes column, verbatim)
+
+- "The Year Restarts In July. (For CEOs, Anyway.)" — ✅ "I like this concept"
+- "Posting More Was Never The Problem." — ✖ "Why am I talking about DMs then leading to Pinterest? I never teach 'posts' or IG things k?" **Durable: she never teaches Instagram/posting mechanics as a topic, and a concept's pain must match the CTA's product lane.**
 
 ## Shipped results (real numbers per shipped post — the Gate's ammo)
 
@@ -21,6 +65,8 @@ Format: date · item · what she did (picked / edited X to Y / saved) · her wor
 
 ## Rulings (durable)
 
+- 2026-07-16 — The volume/taste split, verbatim: "maybe volume is your asset and taste is mine yknow?" — she reacts to finished posts, several at once; never spend her attention on fragments.
+- 2026-07-16 — The value law, verbatim: "even offer posts have MAD value every post should blow someone away with something useful THEN that earns the ask." Third gate in METHOD; every option and post names what a non-buyer walks away with.
 - 2026-07-06 — Doctrine, verbatim: "LEARN INSTAGRAM AND HOW TO WRITE GREAT CAROUSELS AND HOOKS AND CAPTIONS, THEN LEARN HOW I PUT MY SPIN ON IT, THEN LEARN WHAT I TEACH THEN PUT IT TOGETHER."
 - 2026-07-06 — Her top 9 posts are "just my top 9 for reference" — never templates to regurgitate.
 - 2026-07-06 — Hooks (ruling, verbatim): "they need to induce curiosity they need to tlak TO a reader they need to hint at a result or a loss aversion." Second person legal on covers.

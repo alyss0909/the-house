@@ -1,3 +1,5 @@
+SUPERSEDED 2026-07-17. Do not load for carousel writing. Its useful content was folded into [[Studio/Analysis/carousel-winning-flow-report]]. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
+
 # Hermes v4 — Hook Weirdness & 9-Slide Flow (Forensic Follow-up)
 
 Built from Alyssa's real vault. Sources: [[Studio/Analysis/carousel-slide-by-slide]] (12 decks), [[Library/Examples/Carousels/captions]], [[Studio/Analysis/Frameworks/social-hooks]], [[Studio/Analysis/subject-line]], [[Library/Examples/soft-sundays/marketing-predictions-2026]]. [[Library/Examples/Carousels/brief-bank]] was NOT opened (quarantined).

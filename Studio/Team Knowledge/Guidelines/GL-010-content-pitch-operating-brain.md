@@ -2,7 +2,7 @@
 title: GL-010 — Content Pitch Operating Brain (WS-011 execution judgment)
 date: 2026-07-06
 author: Larry on Fable 5, written for lower models to execute from
-status: active — load IN FULL before any WS-011 step or any carousel/pitch/hook work
+status: superseded 2026-07-16 for carousel production — the writer's craft authority is [[Studio/Content/METHOD]]; kept for history only
 canon: Studio/Team Knowledge/Workstreams/WS-011-weekly-carousel-pitch.md (process) + Studio/Content/taste-ledger.md (taste)
 ---
 

@@ -2,9 +2,12 @@
 name: Carousel Brief Generator
 type: template
 last_updated: 2026-06-05
+status: superseded
 tags: [carousel]
 built-from: Studio/Analysis/Frameworks/carousel-framework.md · Studio/Analysis/carousel.md · Studio/Analysis/carousel-slide-by-slide.md
 ---
+
+SUPERSEDED 2026-07-17. Do not load for carousel writing. The live brief formula is offer plus buying belief plus framework plus content role plus hook, defined in [[Studio/Analysis/carousel-winning-flow-report]]. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
 
 # Carousel Brief Generator
 

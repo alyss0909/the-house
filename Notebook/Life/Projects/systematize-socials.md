@@ -72,3 +72,4 @@ Four formats that always work ([[2026-03-12-repeatable-formats|Repeatable Format
 - [[2024-04-18-10x10-chall]]: a content research method for finding ten businesses in her niche and repurposing their best videos, an idea that fits the repeatable-formats work in this project.
 - [[2026-03-24-story-idea]]: a story idea pairing a 'what I'm working on' update with a poll, fitting the weekly content rhythm this project tracks.
 - [[2026-06-30-boost-these]]: This entry flags three specific Instagram posts to boost as ads, feeding the weekly non-negotiable to check in on ads and optimize SLOs.
+- [[2026-07-03-fable-5-content-relay-idea]]: An early braindump for an agentic content-production relay (best-performers, weekly themes, hooks, BOH-module matching, freebie/CTA matching).

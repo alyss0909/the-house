@@ -2,10 +2,13 @@
 name: Carousel Framework
 type: framework
 last_updated: 2026-07-04
+status: superseded
 tags: [carousel]
 built-from-detail: Studio/Analysis/carousel.md · Studio/Analysis/carousel-slide-by-slide.md · Library/Examples/Carousels/
 built-from: Studio/Analysis/carousel.md · Library/Examples/Carousels/
 ---
+
+SUPERSEDED 2026-07-17. Do not load for carousel writing. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
 
 # Carousel Framework
 

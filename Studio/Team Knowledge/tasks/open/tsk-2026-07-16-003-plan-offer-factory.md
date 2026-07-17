@@ -28,7 +28,7 @@ linked_workstreams: []
 linked_guidelines: []
 linked_my_life: []
 linked_session_logs: []
-linked_journal_entries: []
+linked_journal_entries: ["2021-12-20-mini-program-inspo"]
 
 # Tagging
 tags: [offers, pipeline, tripwires, content-desk]
@@ -41,6 +41,10 @@ tags: [offers, pipeline, tripwires, content-desk]
 Alyssa loved how smooth the three-stage lead magnet pipeline felt and wants the same machinery for paid mini offers. One pipeline that covers: research and write, sales page built from her existing templates with ThriveCart checkout, delivery email plus oops email, and Kit wiring. She has many ideas and templates ready to feed it.
 
 First pilot candidate: Rush Order. The copy already exists in the vault (see [[project_rush_order]] context and the open task [[tsk-2026-06-03-001-build-rush-order]]).
+
+## What she has already designed herself
+
+- [[2021-12-20-mini-program-inspo]] — connected 2026-07-17. Her own sketch of a mini offer, shape and all: 8 weeks, 2 one-to-one calls, biweekly 90-minute group calls, pre-work, and pointedly **no weekly modules** — just emails, a group, and call reminders, with students setting their own goals. Focus: sales. Whoever plans the factory should read this before inventing a template, because it is Alyssa's answer to "what does a small paid offer look like when I build it the way I actually want to" — light delivery, high contact, no course-content treadmill. It is also a live check on the Rush Order pilot: done-with-you fits this shape, a module library does not.
 
 ## Deliverable
 

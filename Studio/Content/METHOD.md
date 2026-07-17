@@ -23,11 +23,17 @@ She is the **field reporter**, never the confessor, never the coach. The post st
 3. The problem is confirmed before the fix. She earns agreement first: the reader nods at least twice before being taught anything.
 4. She steel-mans the objection before the pivot. One honest concession, usually wrapped in a parenthetical, and the concession sets up the alternative. ("OK yes, you CAN still succeed on social, but you'll have to put your back into it.")
 5. Exactly one emotional-validation beat mid-deck. Names the reader's feeling. No product, no CTA on that beat.
-6. The offer arrives after 60 percent of the deck and is the logical next step of the teaching. If the argument and the product don't match, the post is broken at the concept, not the CTA.
+6. **The value law (Alyssa's ruling, verbatim, 2026-07-16: "even offer posts have MAD value every post should blow someone away with something useful THEN that earns the ask").** Every post, offer posts included, hands the reader something genuinely useful they could act on without ever buying: a real step, a stealable line, a template shape, a number that changes a decision. The ask is EARNED by that value, never adjacent to it. A post that only describes the product, however charmingly, fails this law. Test: name the useful thing a non-buyer walks away with; if you can't, the post isn't done.
+7. The offer arrives after 60 percent of the deck and is the logical next step of the teaching. If the argument and the product don't match, the post is broken at the concept, not the CTA.
 7. Every stat is humanized within one sentence: the number, then what it means for her reader. Numbers come from her real data or her real teaching, never invented.
 8. Question marks live only on CTA and engagement slides. The keyword CTA is framed as a gift, never a command. A soft close follows the CTA; her decks land soft.
 9. Double CTA when the deck is long: an early low-friction trigger mid-deck, the full comment trigger at the end.
 10. Product transparency sells: show the inside of the thing (mockup, real screenshot, the actual template) instead of describing it. Benefit copy only. Never what a feature is, always what the reader gets.
+
+**The copy-paste law (Alyssa's ruling, 2026-07-17: "i have great copy that could literally be copy and pasted into the outline its creating instead its spiting out short ai slop")**
+- When her real copy exists for the topic — deliverables, sales pages, Simmers, Soft Sundays, webinar scripts — the slide bodies ARE her sentences, lifted verbatim and re-broken into slide grammar. Paraphrasing an existing line of hers into a "cleaner" version is the named failure mode. Write new connective tissue only where no source line exists, and match it to the verbatim lines around it.
+- **Density floor ("when i create a carousel i blast information at ppl"):** teaching slides carry 25-65 words of body with 2-4 concrete items — real numbers, named specifics, lists of examples — per slide. Her real decks prove it (Jan 15 slide 7: 63 words; Jan 20 slide 6: three channels + a parenthetical + an exclamation). One thin idea stretched across a slide reads as AI. Education and offer decks run 9-11 slides, not 8.
+- Working test per slide: could this body have been assembled by someone who had only read a summary of her doc? If yes, go back to the source file and take the sentences themselves.
 
 **Sentence-level signature**
 11. Parentheticals carry the nuance. Bold claims in the main line, honesty and softening in the brackets. This is her single most consistent tell.
@@ -96,10 +102,11 @@ The test is direction: STUDY the artifacts to learn the invariant, then build a 
 
 Per Alyssa's real corpus, the following are her actual voice and are permitted where she uses them: contrast pairs and reframes on interior slides (never covers), em dashes as a deliberate joke or interior device (never as default punctuation), one exclamation where earned, staccato when the brevity IS the argument ("Thoughtful Decisions Age Better."), second person on CTA slides and aspirational covers. The banned list that survives: reframes on covers, question-mark covers, "unlock/elevate/game-changer" vocabulary, "it's not X, it's Y" symmetry as a habit, engagement-bait CTAs, essay-title voice, listicle-fear covers.
 
-## 7. The two gates (run once, at the end, on the finished post)
+## 7. The three gates (run once, at the end, on the finished post)
 
 1. **The lineup test:** set the draft beside two real pieces of hers (one same lane, one different). If it reads flatter, more symmetrical, or more polished than hers, it fails.
 2. **The stranger test at post level:** name the post's bit in one sentence. If you can't, or if ten other creators could have posted it, it fails.
+3. **The value test (her 2026-07-16 law):** name the useful thing a non-buyer walks away with. If you can't, the post fails — offer posts included.
 
 A failed post gets ONE rebuild in the same context with the failure named, then ships to her as an option anyway, marked with the gate's concern. She is the decider; the gate is a filter, not a wall.
 

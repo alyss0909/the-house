@@ -26,6 +26,10 @@ Introducing your new one-pan recipe for newsletters on the table quick!
 
 [Ticker bar repeated: "LOWEST MAINTENANCE, HIGHEST ROI ✺"]
 
+YOU'VE GOT SIX BURNERS GOING WHEN ONE WILL DO
+
+Most service providers are posting reels, carousels, stories, and 'educational content pillars' every week just to stay visible…
+
 One really good newsletter outperforms all of it... but only if you hit send.
 
 The Five Minute Newsletter makes writing a really good email **the easiest thing you do all week.**
@@ -34,7 +38,11 @@ What if one email did more for your business than a whole week of content?
 
 ## The method
 
+Sorry Julia Child, gourmet email marketing is out.
+
 Instead we're having: Simple ingredients, on the table quick, with connection, value, and sales strategy already baked in. **One irresistible weekly newsletter your audience will be craving like its taco tuesday**
+
+And the best part is… Once you learn this you'll never run out of email ideas again.
 
 Choose your simmer story for the week, or open the email angle database and pick one of my go-to concepts (each with type, strategic notes, a writing prompt, and example).
 

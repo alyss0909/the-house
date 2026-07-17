@@ -21,8 +21,10 @@ param(
 $ErrorActionPreference = "Stop"
 
 if (-not $VaultRoot) {
-    $teamKnowledge = Split-Path -Parent $PSScriptRoot
-    $VaultRoot = Split-Path -Parent $teamKnowledge
+    # $PSScriptRoot = <vault>\Studio\Team Knowledge\Automations
+    $teamKnowledge = Split-Path -Parent $PSScriptRoot   # <vault>\Studio\Team Knowledge
+    $studio = Split-Path -Parent $teamKnowledge         # <vault>\Studio
+    $VaultRoot = Split-Path -Parent $studio             # <vault>
 }
 
 $PointerDir = Join-Path $VaultRoot "Notebook\Inbox\Meeting Captures"

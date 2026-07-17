@@ -4,8 +4,10 @@ type: framework
 last_updated: 2026-07-04
 tags: [carousel]
 source: Claude OS Socials Resources - [Research] Carousel Frameworks.md
-status: source-import
+status: superseded
 ---
+
+SUPERSEDED 2026-07-17. Do not load for carousel writing. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
 
 # Carousel Frameworks Research
 *Compiling external frameworks to cross-reference against Alyssa's actual winning formula*

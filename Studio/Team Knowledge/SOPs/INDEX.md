@@ -47,6 +47,7 @@ Filename pattern: `SOP-NNN-<title>.md`. See [[GL-001-file-naming-conventions]] f
 | SOP-037 | [[SOP-037-run-mean-alyssa-content-gate]] | — | RETIRED 2026-07-16 as a per-stage gate. The quality check now runs ONCE, on finished posts, inside /content-run (METHOD's lineup test + stranger test). |
 | SOP-038 | [[SOP-038-suki-weekly-strategy-brief]] | — | RETIRED 2026-07-16 with WS-011. Suki is now an on-demand strategy consult, not a weekly briefer. |
 | SOP-039 | [[SOP-039-house-keeping]] | Larry (any model tier) | The standing maintenance patrol for the trust-zone geography — 8 mechanical weekly checks (WS-006 Phase 5) + 6 monthly deep checks (WS-007). GL-013's immune system; written by Fable so lower models run it without judgment calls. |
+| SOP-041 | [[SOP-041-content-production]] | Larry (any host, any model) | THE content pipeline since the 2026-07-16 rebuild: saves become options (/saves-sweep), picks become finished posts (/content-run), one writer context per post under [[Studio/Content/METHOD]]. Written so Sonnet/Codex/any host runs it exactly like Fable. Supersedes WS-011 + SOP-033–038. |
 | SOP-040 | [[SOP-040-the-compounding-loop]] | Larry (every agent executes) | Every session learns from the last: NOW.md resume spine at boot, journal resurface duty (the journal is the core, Alyssa's ruling 2026-07-11), and the 6-step close gate. Regenerator: scripts/regenerate-now.py. |
 
 Next available SOP number: SOP-041

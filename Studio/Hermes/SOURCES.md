@@ -36,7 +36,8 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 ## Live externals
 
 - **Notion Products DB** (collection 2f4c8b43-e565-8149-a25f-000b38310c24) — canonical for price/status/link/chat word. BUSINESS.md holds a dated snapshot.
-- **Kit** — broadcast performance evidence; refresh top-performer stats when updating craft/subject-lines.md.
+- **Notion Sent Emails DB** (collection 39ec8b43-e565-8008-9e00-000b8e8756a2, Email Marketing → Sent Emails) — curated catalog of her actual past newsletters (Soft Sunday / Simmer / Promo / Soft Ceo Sesh), each with Subject, verified ckarchive reader link, send Date, open rate, click rate, a Related Product relation into the Products DB, and a Note field carrying her own offer-tag shorthand. Use this before pulling live Kit data: subject-line phrasing here is real, sent, tier-1 voice; the type + Related Product filters tell you which past emails already sold a given offer, so pull those verbatim rather than re-deriving new pitch angles. Not yet exhaustive — she's adding entries over time — so absence of an offer here isn't proof none exists.
+- **Kit** — only fall back here when the Notion DB above doesn't cover what's needed; refresh top-performer stats when updating craft/subject-lines.md. Kit's own `public_url` field is unreliable (see her sheet/Notion links instead — both are verified, Kit's own predicted link often 404s).
 
 ## Depth-loading (MANDATORY, not optional — Gate-3 2026-07-05)
 

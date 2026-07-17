@@ -92,7 +92,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python scripts/regenerate-now.py"
+            "command": "python \"$CLAUDE_PROJECT_DIR/scripts/regenerate-now.py\""
           }
         ]
       }
@@ -103,7 +103,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python scripts/hooks/bash-guard.py"
+            "command": "python \"$CLAUDE_PROJECT_DIR/scripts/hooks/bash-guard.py\""
           }
         ]
       }

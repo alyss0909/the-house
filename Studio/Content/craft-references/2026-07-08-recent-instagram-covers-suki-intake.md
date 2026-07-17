@@ -6,6 +6,8 @@ status: ready-for-reacts
 source: "[[Team Inbox/Recent Instagram Covers]]"
 ---
 
+Historical intake from the retired maker desk. Reference only, not required reading.
+
 # Recent Instagram Covers - Suki Intake
 
 ## Verdict

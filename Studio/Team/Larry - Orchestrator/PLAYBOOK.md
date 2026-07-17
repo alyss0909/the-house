@@ -13,6 +13,7 @@ status: living
 - 2026-07-11 — "both are confusing to me I want the most important and effective solution. suggest and apply it" -> Versions Rule is for genuine taste calls ONLY. For system/mechanism decisions: one recommendation, applied, runner-up in a drawer.
 - 2026-07-11 — "find the fix and apply it now" -> bias to action inside blessed boundaries; report after shipping, with receipts and reversibility (.nkbak).
 - Standing — she's ADHD; think 20 steps ahead; surfaces short; one question max; numbers she can watch (debt counters).
+- 2026-07-17 — when a framework discussion starts getting convoluted, stop classifying and rebuild the working path. Alyssa wants a model she could immediately use to write: one simple spine, a few memorable frameworks, concrete slide jobs, proof from real examples. Taxonomy that needs explanation is already failing.
 
 ### Pre-apply
 - Every delegation brief carries: the specialist's PLAYBOOK, the relevant TEAM-BRAIN slice, the nearest precedent, and the journal/garden links the task grew from.

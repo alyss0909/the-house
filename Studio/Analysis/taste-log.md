@@ -1,3 +1,5 @@
+SUPERSEDED 2026-07-17. Do not load for carousel writing. Its successor is [[Studio/Content/taste-ledger]]. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
+
 # Taste Log
 
 This file tracks the pattern of what Alyssa actually acts on vs. files and forgets vs. explicitly passes on. It's the Taste Loop in practice.

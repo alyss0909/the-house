@@ -30,6 +30,7 @@ This is distinct from `boh-as-permission-not-product` (which is about how BOH ge
 - [[2026-05-14-headline-formulas]] — the audience she's writing for keeps being described as someone who gives a shit about something very specific
 - [[2026-06-06-boh-launch-email-inspo]] — the full articulation: parasites person, indigenous plants professor, bilirubin level person, the handwritten font obsessive. These are the entrepreneurs she wants in the room. "We live in a world that tells us the social media literate get the bag but I'm here to tell you I've worked with influencers and people with 300 followers and the ones who succeed are the ones who give a shit."
 - [[2026-06-27-sustainable-creative-biz-signal]] — "the people who build sustainable creative businesses... are the ones who give a shit about something specific"
+- [[2021-04-09-the-students-who-are-most-successful-in-mpq-do-this-and]] — connected 2026-07-17. Earlier evidence (recency-weight it): the first time she went looking for what separates the students who succeed, back in MPQ. The entry is a title plus one line — "the best questions get the best answers" — so it holds the question, not yet her answer. Worth keeping because the 2026 answer ("the ones who succeed are the ones who give a shit") is the reply to a question she had been asking her own student list for five years. If the actual MPQ do/don't list was ever written down, it belongs on this signal.
 
 ## What it's connecting to in the Second Brain
 

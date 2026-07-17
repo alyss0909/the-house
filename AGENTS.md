@@ -107,7 +107,7 @@ The house has four zones plus a machine room. See [[HOUSE-MAP]] for the full geo
     - `session-logs/YYYY/MM/` - append-only record of every session.
   - `Studio/Voice/` - house-level voice layer (README, formats, KILL-LIST) every agent applies to every project.
   - `Studio/Hermes/` - the Alyssa Clone Writer brain (JUDGMENT, FACTS, MAP, FABLE).
-  - `Studio/Content/` - Content OS pipeline (dashboard at `Studio/Content/dashboard/`).
+  - `Studio/Content/` - Content OS. Craft authority: `Studio/Content/METHOD.md`; production runs through the /saves-sweep and /content-run skills onto the Notion Content Studio board (the old dashboard at `Studio/Content/dashboard/` is retired, 2026-07-16).
   - `Studio/Signals/` - signals index and the idea garden (`Developing Ideas/`).
   - `Studio/Analysis/` - copy-task analysis and routing; entry point [[Studio/Analysis/COMPASS]].
   - `Studio/Mailroom/` - Gmail sweep ledger and state.

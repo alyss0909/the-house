@@ -4,6 +4,8 @@
 
 # ANTI-AI.md — the slop firewall (her rules, not ours)
 
+> **Carousel scoping note (2026-07-16, from [[Studio/Content/METHOD]] §6, built on her real slides):** for CAROUSEL work only, METHOD overrides two lines here: (1) contrast pairs/reframes may be GENERATED on interior slides — her own slide 5 "It's Not —Just— The Em Dash" is one — but stay banned on covers, hooks, subject lines, and email prose; (2) an em dash is legal as a deliberate interior joke or device, never as default punctuation. Everything else here stands everywhere, and for emails/subject lines this file applies unmodified.
+
 Alyssa saved these rules herself ("If you use this pattern, I instantly know you're using AI"). Run this pass on EVERY draft after writing, before self-scoring. One hit = rewrite the passage. Exemption: a line quoted verbatim from HER tier-1 source stays as she wrote it — you just never generate a new one in these shapes.
 
 ## Rule priority (when rules collide)

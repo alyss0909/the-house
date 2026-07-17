@@ -1,6 +1,6 @@
 ---
 title: Production run 2026-07-16 — Bingeable Newsletters + The 5 Minute Newsletter
-status: ready for Alyssa's picks (two versions per post, per METHOD volume rule)
+status: SUPERSEDED 2026-07-17 — Alyssa's verdict on this run ("short ai slop... my copy is not compounding") triggered a rebuild. The live decks on the Notion Content Studio board are now the truth: slide bodies lifted verbatim from her Bingeable deliverable + 5MN sales page, at her real density (9-11 slides, 25-65 word bodies). See METHOD.md "copy-paste law" + taste-ledger 2026-07-17 ruling. This file kept as the record of what the thin version looked like.
 written_under: "[[Studio/Content/METHOD]] — first run of the new system"
 sources_loaded_in_full: "[[Library/Examples/deliverables/bingeable-newsletters-deliverable]] (her verbatim teaching doc) · [[Library/Examples/sales-pages/the-5-minute-newsletter-sales-page]] · [[Library/Examples/sales-pages/bingeable-newsletters-sales-page]] · [[Library/Offers/bingeable-newsletters/MAP]] · [[Library/Offers/the-5-minute-newsletter/MAP]] · [[Studio/Hermes/BUSINESS]] · [[Studio/Content/taste-ledger]] · [[Studio/Analysis/carousel-hook-forensics]] · real slides viewed: 2026-01-15/slide-04, 2026-02-06/slide-05, 2026-02-24/slide-02"
 ---
@@ -182,11 +182,11 @@ HEADLINE: You Don't Need More Discipline. You Need A Recipe.
 BODY: ONE REALLY GOOD NEWSLETTER OUTPERFORMS A WHOLE WEEK OF CONTENT — **BUT ONLY IF YOU HIT SEND.** (SO INSTEAD OF "JUST WRITE CONSISTENTLY," WE FOLLOW A FRAMEWORK THAT ALREADY WORKS. QUICKLY.)
 TACTIC: concession-then-pivot; consistency reframed from character trait to structure.
 
-SLIDE 4 — Show the inside, part one
-HEADLINE: Here's The Actual Template.
-BODY: HOOK. STORY. TAKEAWAY. OFFER. EVERY SECTION **READY AND WAITING FOR YOUR WORDS.**
+SLIDE 4 — Show the inside, part one (the giveaway)
+HEADLINE: Here's The Actual Template. Steal It.
+BODY: HOOK. STORY. TAKEAWAY. OFFER. THAT'S THE WHOLE SKELETON — **WRITE ONE TODAY, RIGHT OFF THIS SLIDE, FREE.** (THE PLANNER JUST TURNS FIFTY MINUTES INTO FIVE.)
 [design slot: real screenshot of the blank template in Notion]
-TACTIC: product transparency — the reader sees exactly what she's buying.
+TACTIC: the value law — a non-buyer leaves with the working skeleton; product transparency does the rest.
 
 SLIDE 5 — Show the inside, part two
 HEADLINE: It Basically Writes Itself. (Mad Libs Style.)
@@ -255,23 +255,28 @@ HEADLINE: Ten Years Of Studying Email. Here's The TLDR.
 BODY: THE EMAILS THAT MAKE THE MOST MONEY... ARE THE ONES YOU **ACTUALLY SEND.** SIMPLE AS THAT. NOT THE CLEVEREST. NOT THE LONGEST. **THE SENT ONES.**
 TACTIC: her verbatim ten-year TLDR; reporter's credential carries it.
 
-SLIDE 4 — The two camps of email weeks
+SLIDE 4 — The giveaway (value law)
+HEADLINE: Steal This Line For Your Next Email.
+BODY: PUT ONE LINE AT THE BOTTOM OF WHATEVER YOU SEND THIS WEEK: "IF THIS HIT HOME, HERE'S HOW I CAN HELP — REPLY [ANY WORD, I'VE USED 'EAT DIRT'] AND I'LL SEND THE DETAILS." THAT'S A **RIGHT TIME OFFER.** IT FINDS WHOEVER'S READY **THIS WEEK,** NO LAUNCH REQUIRED.
+TACTIC: the value law — her real Right Time Offer move handed over verbatim, usable without buying anything.
+
+SLIDE 5 — The two camps of email weeks
 HEADLINE: Every Week Ends One Of Two Ways.
 BODY: A DRAFT THAT'S "ALMOST READY" (AGAIN). OR A SENT EMAIL THAT'S ALREADY WORKING — WARMING YOUR PEOPLE, CATCHING WHOEVER'S **READY RIGHT NOW.** ONLY ONE OF THESE IS STILL WORKING NEXT TUESDAY.
 TACTIC: Two Camps compressed to a fork; reader picks a side.
 
-SLIDE 5 — The fix
+SLIDE 6 — The fix
 HEADLINE: Make Sending The Easy Part.
 BODY: THE 5 MINUTE NEWSLETTER IS A FILL-IN-THE-BLANKS SYSTEM — HOOK, STORY, TAKEAWAY, OFFER, WITH **25+ PROMPTS AND 15 EXAMPLES** GUIDING EVERY SECTION. THE ONE-PAN MEAL OF EMAIL MARKETING: SIMPLE INGREDIENTS, ON THE TABLE QUICK, **SALES STRATEGY ALREADY BAKED IN.**
 [design slot: real screenshot of the filled template]
 TACTIC: product transparency; her one-pan positioning does the selling.
 
-SLIDE 6 — CTA
+SLIDE 7 — CTA
 HEADLINE: Comment [manual selection needed].
 BODY: AND I'LL SEND YOU THE DETAILS — REGULARLY $37, TODAY **$11.** CHEAPER THAN ONE MORE WEEK OF ALMOST-READY.
 TACTIC: discount framing + the post's own math as the closer.
 
-SLIDE 7 — Soft close
+SLIDE 8 — Soft close
 HEADLINE: Send The Email.
 BODY: (PAST YOU ALREADY KNEW THIS.)
 TACTIC: permission-slip landing; echoes her real sticky-note story register without claiming it.
@@ -288,6 +293,6 @@ regularly $37, today $11. comment [manual selection needed] for the details. xx
 ## Flags for Alyssa (nothing invented, two blanks to fill)
 
 1. **Both chat words are blank in the Notion products snapshot** (Bingeable Newsletters and The 5 Minute Newsletter). Drop the words in and all four versions are shippable.
-2. **$37/$11 discount** confirmed by you 2026-07-16; re-verify in ThriveCart at ship time per house rule.
+2. **Price conflict to settle:** you confirmed "reg 37 today 11" on 2026-07-16, but the Notion Products DB row for The 5 Minute Newsletter says $19. Notion is canonical at ship time, so one of them needs correcting before Wednesday posts.
 3. Gate pass done 2026-07-16: all four versions passed with edits, and every edit is applied above (weak hooks replaced, mirrored-symmetry lines broken up, the house word "compounds" removed from your mouth twice, the coffee bit now belongs to Wednesday only, and the words-inside-the-cup design is explicitly fenced off from the Wednesday cover).
 4. One inference flag on Monday Version A, slide 6: "which is a story about how your clients buy" is the writer's extension of your sandwich example — your doc doesn't draw that exact line. Keep or cut, your call.

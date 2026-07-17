@@ -20,6 +20,8 @@ Taxonomy used here:
 - Post type field: exact weekly post type: Education, Offer, or For The Girls.
 - **Product / offer connection:** the product, freebie, waitlist, class, or program the post points toward.
 
+Framework tags added 2026-07-17 with Alyssa's approval. Names come from [[Studio/Analysis/carousel-winning-flow-report]].
+
 # Alyssa Coleman — Top IG Hits '26
 ## Complete Carousel Copywriting Framework Analysis
 *All 9 top-performing posts, Jan–Mar 2026 · Compiled April 30, 2026*
@@ -45,6 +47,7 @@ Taxonomy used here:
 ---
 
 ## POST — Jan 15 | "2026 Slow Marketing Trends (Part One)"
+FRAMEWORK: House Report. Pressure: market. Card: [[Studio/Analysis/Frameworks/carousels/house-report]]
 **Stats:** Top post by Views for January — highest non-follower reach of the series launch
 **Post Type:** Education
 **Theme:** Email
@@ -199,6 +202,7 @@ Taxonomy used here:
 ---
 
 ## JAN 20 — "What's Actually Shifting in 2026 (And What To Do Instead)"
+FRAMEWORK: House Report with an Old Way / New Way middle. Pressure: market. Card: [[Studio/Analysis/Frameworks/carousels/house-report]]
 *9 slides (3 cover variants + 6 content slides) · 4,070 saves · 11,125 total engagement (likes + comments + shares + saves)*
 
 > **Note on slide structure:** Files 25, 26, and 27 are three cover variants for the same post — all share the same layout and branding but carry different headline text. The published cover (file 25) is treated as Slide 1 below. Files 26 and 27 are documented as Cover Variants A and B. The content carousel runs slides 2–7 (files 28–33).
@@ -332,6 +336,7 @@ The post opens with a declarative authority hook that frames the creator as a re
 ---
 
 ## JAN 22 — "Wasting Time Is Part of My Process."
+FRAMEWORK: For The Girls. Pressure: inner. Card: [[Studio/Analysis/Frameworks/carousels/for-the-girls]]
 *9 slides · 744 saves · 3,221 total engagement (likes + comments + shares + saves)*
 
 > **Note on slide structure:** File 49 is the cover. Files 50–55 are six content slides (one statement per slide). File 56 is a brand/offer slide (BOH logo full-screen + "Waitlist Opening Soon"). File 57 is the closing engagement question. Total: 9 slides including cover and close.
@@ -467,6 +472,7 @@ This carousel is a pure identity-mirror piece — no educational content, no pro
 ---
 
 ## JAN 29 — "Why Smart Founders Are Going Low Maintenance in 2026"
+FRAMEWORK: House Report. Pressure: market. Card: [[Studio/Analysis/Frameworks/carousels/house-report]]
 *8 slides · 905 saves · 1,392 total engagement (likes + comments + shares + saves + follows)*
 **Source links:** [[Library/Examples/Carousels/2026-01-29-smart-founders-going-low-maintenance|whole post folder]] · [[Library/Examples/Carousels/captions#2026-01-29 — Smart Founders Going Low Maintenance|caption + metrics]]
 **Theme:** Pinterest
@@ -576,6 +582,7 @@ The post opens with a curiosity-driven identity hook ("Smart Founders"), then im
 ---
 
 ## FEB 6 — "The Pinterest Marketing Plan for Beginners"
+FRAMEWORK: How To, Product Plan version. Pressure: inner. Card: [[Studio/Analysis/Frameworks/carousels/how-to]]
 *11 slides · 799 saves · 1,077 total engagement (likes + comments + shares + saves + follows)*
 **Source links:** [[Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners|whole post folder]] · [[Library/Examples/Carousels/captions#2026-02-06 — Pinterest Marketing for Beginners|caption + metrics]]
 **Theme:** Pinterest
@@ -717,6 +724,7 @@ Analyzed: April 30, 2026
 ---
 
 ## POST — Feb 10 | "How To Get All Your Clients From Pinterest This Year"
+FRAMEWORK: How To, Metaphor Plan version. Pressure: market. Card: [[Studio/Analysis/Frameworks/carousels/how-to]]
 
 **Post Type:** Education
 **Theme:** Pinterest
@@ -845,6 +853,7 @@ Analyzed: April 30, 2026
 ---
 
 ## POST — Feb 19 | "How To Make Pinterest Your Sugar Daddy" (cover corrects to "Sugar Mama")
+FRAMEWORK: How To, Proof-First Plan version. Pressure: market. Card: [[Studio/Analysis/Frameworks/carousels/how-to]]
 
 **Post Type:** Offer
 **Theme:** Pinterest
@@ -997,6 +1006,7 @@ Analyzed: April 30, 2026
 ---
 
 ## FEB 24, 2026 — "Why I Swapped Instagram For Pinterest (and never looked back)"
+FRAMEWORK: Old Way / New Way. Pressure: both, with inner relief. Card: [[Studio/Analysis/Frameworks/carousels/old-way-new-way]]
 *7 slides · 548 saves · 1,435 total engagement (likes + comments + shares + saves)*
 **Source links:** [[Library/Examples/Carousels/2026-02-24-swapped-instagram-for-pinterest|whole post folder]] · [[Library/Examples/Carousels/captions#2026-02-24 — Swapped Instagram for Pinterest|caption + metrics]]
 **Theme:** Pinterest
@@ -1096,6 +1106,7 @@ This carousel uses a classic Problem-Agitate-Reframe-Solution narrative arc root
 ---
 
 ## MAR 3, 2026 — "Organic Marketing Is Dying"
+FRAMEWORK: Hot Take. Pressure: market, with an inner relief beat. Card: [[Studio/Analysis/Frameworks/carousels/hot-take]]
 *10 slides · 2,745 saves · 5,859 total engagement (likes + comments + shares + saves)*
 **Source links:** [[Library/Examples/Carousels/2026-03-03-organic-marketing-is-dying|whole post folder]] · [[Library/Examples/Carousels/captions#2026-03-03 — Organic Marketing Is Dying|caption + metrics]]
 **Theme:** BoH Systems
@@ -1224,6 +1235,7 @@ This carousel is built on a fear-validation-to-solution structure with a hard-ev
 ---
 
 ## POST — Mar 1 | "There are 80 Days Until Summer"
+FRAMEWORK: How To, Clock-In Plan version. Pressure: inner. Card: [[Studio/Analysis/Frameworks/carousels/how-to]]
 **Status:** Added July 4, 2026 as a productivity-world expansion example. Metrics and caption not yet captured.
 **Post Type:** Offer
 **Theme:** Productivity
@@ -1390,16 +1402,16 @@ These posts earn high comments and saves because they mirror the audience's inne
 
 ### 2. THE HOOK FORMULA TAXONOMY
 
-| Hook Type | Example | Posts Using It |
-|-----------|---------|---------------|
-| Series Title | "2026 Slow Marketing Trends Pt 1" | Jan 15, Jan 20, Jan 29 |
-| Identity Swap | "Why I Swapped Instagram For Pinterest" | Feb 24 |
-| Contrarian Claim | "Organic Marketing Is Dying" | Mar 3 |
-| Provocative Reframe | "How I Made Pinterest My Sugar Daddy" | Feb 19 |
-| Identity Flattery | "Why Smart Founders Are Going Low Maintenance" | Jan 29 |
-| Permission Slip | "Wasting Time — For The Girls" | Jan 22 |
-| Aspirational Utility | "Pinterest Marketing Plan for Beginners" | Feb 6 |
-| Specific Promise | "How to Get All Your Clients from Pinterest" | Feb 10 |
+| Hook Type            | Example                                        | Posts Using It         |
+| -------------------- | ---------------------------------------------- | ---------------------- |
+| Series Title         | "2026 Slow Marketing Trends Pt 1"              | Jan 15, Jan 20, Jan 29 |
+| Identity Swap        | "Why I Swapped Instagram For Pinterest"        | Feb 24                 |
+| Contrarian Claim     | "Organic Marketing Is Dying"                   | Mar 3                  |
+| Provocative Reframe  | "How I Made Pinterest My Sugar Daddy"          | Feb 19                 |
+| Identity Flattery    | "Why Smart Founders Are Going Low Maintenance" | Jan 29                 |
+| Permission Slip      | "Wasting Time — For The Girls"                 | Jan 22                 |
+| Aspirational Utility | "Pinterest Marketing Plan for Beginners"       | Feb 6                  |
+| Specific Promise     | "How to Get All Your Clients from Pinterest"   | Feb 10                 |
 
 **The pattern:** Every hook either (a) names an identity the audience wants, (b) makes a claim they suspect is true but nobody's saying, or (c) promises a specific transformation.
 

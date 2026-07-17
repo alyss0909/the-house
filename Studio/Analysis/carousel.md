@@ -1,10 +1,13 @@
-﻿---
+---
 name: Carousel Analysis — Top IG Hits 2026
 type: analysis
 last_updated: 2026-07-04
+status: superseded
 tags: [carousel]
 source: 9 carousels analyzed from Library/Examples/Carousels/ — Jan–Mar 2026
 ---
+
+SUPERSEDED 2026-07-17. Do not load for carousel writing. The live authorities are [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. This file is kept as history.
 
 # Carousel Analysis — Top IG Hits 2026
 

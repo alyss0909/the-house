@@ -3,12 +3,12 @@ name: Carousel Quick Reference
 type: framework
 last_updated: 2026-07-04
 tags: [carousel, agent-reference]
-description: Token-efficient carousel reference for agents. Load this + voice-profile.md before any carousel task. Full framework and analysis docs are deep-reference only.
+description: SUPERSEDED 2026-07-17. Do not load for carousel work. The live boot list is METHOD + carousel-hook-forensics + taste-ledger (see /content-run). Kept as pre-restructure history only.
 ---
 
 # Carousel Quick Reference
 
-> Load this + [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile|voice-profile.md]] before any carousel task. Together they're ~4,500 tokens. Full docs exist if you need to go deeper — don't load them unless something unusual comes up.
+> SUPERSEDED 2026-07-17. Do not load this file or voice-profile.md (retired to Archive) for carousel work. The writer's craft authority is [[Studio/Content/METHOD]]; hooks live in [[Studio/Analysis/carousel-hook-forensics]]; reactions in [[Studio/Content/taste-ledger]].
 
 ---
 

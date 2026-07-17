@@ -3,6 +3,7 @@ date: 2026-07-16
 agent: larry
 topic: Claude usage autopsy and the Control Room build
 mined: false
+mined: true
 ---
 
 # 2026-07-16 — The usage autopsy and everything it caused
