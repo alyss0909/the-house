@@ -12,7 +12,9 @@ last_updated: 2026-07-17
 
 ## If you are writing a carousel
 
-Read [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-hook-forensics]], and [[Studio/Content/taste-ledger]]. Everything else carousel related in this folder is history or deep reference.
+Start at [[Studio/Content/carousel-dispatch]]. That is the production front door.
+
+Normal writer load is [[Studio/Content/writer-kit]], one offer brief, and one framework card. [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/METHOD]], and [[Studio/Analysis/carousel-hook-forensics]] are source manuals for rebuilding the cards, not default writing loads.
 
 ---
 
@@ -33,8 +35,8 @@ Patterns extracted from Alyssa's real work: how she writes, what makes her carou
 | [[Studio/Analysis/subject-line]] | Subject line and preview text patterns: 11 named patterns, decision framework, template banks, confirmed top performers from 351 broadcasts, preview text rules, email-type formulas, and what not to do. | ✅ v2.1, 2026-06-04 |
 | [[Studio/Analysis/carousel]] | Performance data and patterns from 9 top IG carousels Jan to Mar 2026. | Superseded 2026-07-17. History only. |
 | [[Studio/Analysis/carousel-slide-by-slide]] | Full slide-by-slide breakdown of the 9 top IG carousels: copy, visual, tactic, voice notes, and cross-post synthesis. Imported from Claude OS source file. | ✅ source import, 2026-07-04. Deep reference. |
-| [[Studio/Analysis/carousel-winning-flow-report]] | Forward-use carousel operating report: offer, buying belief, five frameworks, content role, hook, anatomy, and external-craft boundaries. Built from the real Library carousel folders. | Active, 2026-07-17. Live authority. |
-| [[Studio/Analysis/carousel-framework-source-loading-plan]] | Proposal for lightweight framework cards and source loading so carousel writers load only the relevant examples instead of the whole corpus. | Proposal, 2026-07-17 |
+| [[Studio/Analysis/carousel-winning-flow-report]] | Source manual for carousel persuasion flows: offer, buying belief, source taxonomy, content role, hook, anatomy, and external-craft boundaries. Built from the real Library carousel folders. | Active source manual, 2026-07-17. Production starts at [[Studio/Content/carousel-dispatch]]. |
+| [[Studio/Analysis/carousel-framework-source-loading-plan]] | Source-loading plan for lightweight framework cards. Partly executed: normal cards now carry compressed winning-flow and slide-by-slide move libraries. | Partly executed, 2026-07-17 |
 | [[Studio/Analysis/workshop-webinar-analysis]] | Teaching structure, voice patterns, pitch architecture, cross-webinar synthesis (Out of Office plus Slowly Viral), and LLM routing guide for the clone writer (Hermes). | ✅ 2026-06-04 |
 | [[Studio/Analysis/soft-sunday]] | Voice patterns, formatting rules (emoji, bold, CAPS), dos and DO NOT EVERS, topic framing, CTA architecture, and formatting rules specific to Soft Sunday newsletters. Built from 6 real examples. | ✅ 2026-06-05 |
 | [[Studio/Analysis/boh-teaching-index-phases-0-2]] | Module-by-module teaching index of BOH Phases 0-2: what each module teaches, named frameworks, key quotes. | ✅ (added to INDEX 2026-07-05) |

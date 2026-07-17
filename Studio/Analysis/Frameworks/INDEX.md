@@ -17,7 +17,11 @@ Extracted from real examples — ready to use now.
 | File | What it covers | Status |
 |---|---|---|
 | [[[Studio/Analysis/Frameworks/subject-line-operating-system]]](subject-line-operating-system.md) | 10-pattern subject + preview generator built from the 351-broadcast analysis; includes job routing, preview pairing, and quality gates | complete 2026-06-04 |
-| [[[Studio/Analysis/Frameworks/carousel-framework]]](carousel-framework.md) | 6 carousel archetypes, 7 hook formulas, copy rules, design system, series architecture | ✅ 2026-06-03 |
+| [[[Studio/Analysis/Frameworks/carousel-framework]]](carousel-framework.md) | Old carousel taxonomy. Kept as history/deep reference only. Production uses the compiled cards in `Studio/Analysis/Frameworks/carousels/`. | superseded 2026-07-17 |
+| [[Studio/Analysis/Frameworks/carousels/how-to]] | Compiled How To carousel packet: framework outline, carousel outline, pressure/proof, hooks, Alyssa move library, source patterns. | active 2026-07-17 |
+| [[Studio/Analysis/Frameworks/carousels/old-way-new-way]] | Compiled Old Way / New Way carousel packet: framework outline, carousel outline, pressure/proof, hooks, Alyssa move library, source patterns. | active 2026-07-17 |
+| [[Studio/Analysis/Frameworks/carousels/hot-take]] | Compiled Hot Take carousel packet: framework outline, carousel outline, pressure/proof, hooks, Alyssa move library, source patterns. | active 2026-07-17 |
+| [[Studio/Analysis/Frameworks/carousels/for-the-girls]] | FTG writing lane card. Routes to the dedicated FTG writing style and slide-copy reference. | active 2026-07-17 |
 | [[[Studio/Analysis/Frameworks/social-hooks]]](social-hooks.md) | 7 source-grounded hook formulas and 21 curated raw hooks for social copy | refreshed 2026-07-04 |
 | [[[Studio/Analysis/Frameworks/carousel-external-frameworks]]](carousel-external-frameworks.md) | Light external carousel framework note. Use as secondary context only; Alyssa's actual carousel analysis is the source of truth. | source import 2026-07-04 |
 | [[[Studio/Analysis/Frameworks/webinar-framework]]](webinar-framework.md) | Alyssa's theoretical webinar structure — The Open (10 components), The Shifts, The Close (5 components). Pair with [[Studio/Analysis/workshop-webinar-analysis]] for actual practice. | ✅ 2026-06-04 |
@@ -55,7 +59,7 @@ Pre-built angle and idea systems.
 
 **Daily email concept:** Check `hook-vault.md` for an opening hook → check `rto-vault.md` for offer timing → go to `Library/Examples/simmers/` for a real simmer to pair with → write
 
-**Daily social:** Check `hook-vault.md` → go to `Library/Programs/` or `Library/Examples/carousels/` for content to draw from → apply framework to the format needed
+**Daily social:** for carousels, start at [[Studio/Content/carousel-dispatch]]. Do not start from this index.
 
 **Sequence planning:** Start with `sequence-prompts.md` → pair with `segmentation-vault.md` → close every email with a P.S. from `ps-vault.md`
 

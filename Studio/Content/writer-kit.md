@@ -6,7 +6,7 @@ status: active — created 2026-07-17 to cut per-run tokens. Replaces loading fu
 
 # Writer kit
 
-You write ONE post. Your context is the brief (her verbatim copy), the framework card, and this kit. Do not open METHOD, hook-forensics, or the 25k slide-by-slide file unless the card tells you to; they are deep reference and cost too much to load every run.
+You write ONE post. Your context is the offer brief, one framework card, and this kit. Do not open METHOD, hook-forensics, the full winning flow report, or the 25k slide-by-slide file unless the card tells you to; they are deep reference and cost too much to load every run.
 
 ## Stance
 She is the field reporter, not the confessor or coach. The post states a finding about the world (marketing, the industry), and she happened to notice it. Not a diary, not a diagnosis of the reader.
@@ -30,15 +30,22 @@ Slide bodies ARE her sentences from the brief, lifted and re-broken into slide g
 Parentheticals carry the nuance. Selective bolds inside running text, never bullet lists. Dual register: an editorial claim plus a casual aside (gonna, wanna, babe, right?). Intensity from stretched vowels (BUUUT), not stacked punctuation. One earned exclamation, max. Leave something slightly loose. Name a mechanism once (one coinage, not three). Identity flattery over demographics.
 
 ## The framework specializes the spine
-Build the spine first (all seven jobs guaranteed). THEN the framework (House Report, Old Way / New Way, How To, Hot Take, For The Girls) decides the KIND of argument and how each spine job gets filled. The framework card gives a numbered forward sequence; map it ONTO the spine.
+Build the spine first (all seven jobs guaranteed). THEN the framework decides the kind of argument and how each spine job gets filled. Normal offer/education posts use only three framework cards: How To, Old Way / New Way, or Hot Take. For The Girls is a separate style lane. House Report is a source/manual pattern, not a default production framework.
 
-Before you write a single body, lay out the plan: for each slide, name BOTH the spine job it does AND the framework step it fills. A framework sequence can silently drop a spine job (How To has no explicit proof/validation beat); when it does, you still add that job. A deck that skips a spine job, or that merely vibes near the topic without marching the sequence, fails, and she will clock it ("it doesn't DO a framework step"). In your output, tag each slide with its spine job and framework step.
+Before you write a single body, lay out the plan: for each slide, name BOTH the spine job it does AND the framework outline step it fills. A framework outline can silently drop a spine job (How To tends to drop proof/validation); when it does, you still add that job. A deck that skips a spine job, or that merely vibes near the topic without marching the sequence, fails, and she will clock it ("it doesn't DO a framework step"). In your output, tag each slide with its spine job and framework step.
+
+## Required receipts before drafting
+
+1. **Concept lock:** this post argues, this post is not about, villain, promise, metaphor or bit, teaching, offer bridge.
+2. **Framework outline:** filled from the card, with actual beats. "Teaches the full method" is a fail.
+3. **Carousel outline:** slide by slide, with spine job and framework step.
+4. **Source receipt:** one offer line, one real carousel precedent from the card, and one Alyssa-specific texture/detail.
 
 ## The bit
 Every post has one retellable thing: a joke, a coinage, a provocation. One metaphor world, fresh, that argues with the copy. Artifact ban: never reuse an executed world (silver tray, coffee-cup words, cherry system, butter/recipe step-names, funeral-for-organic-reach).
 
 ## Hooks
-5 options, each 10 words max, each a named shape (Reporter's Finding, Industry Verdict, Permission Slip, Confession-With-Conviction, Coined Phenomenon, Audience Self-Select, Visual Joke, Withheld Cliffhanger, Unexpected Command). Payoff mandatory. Period or nothing.
+5 options, each 10 words max. Use the hook options inside the framework card first. Payoff mandatory. Period or nothing. Hook comes last; it compresses the argument after the concept and outlines are locked.
 
 ## Copy only, no imagery
 Write words. Do NOT write image ideas, art direction, or design slots. She does not want imagery described (her rule 2026-07-17).

@@ -16,6 +16,8 @@ Executed 2026-07-17. The five framework cards now exist in Studio/Analysis/Frame
 
 Goal: keep carousel-writing agents from loading the whole carousel corpus when they only need the right examples for the chosen framework.
 
+2026-07-17 update: the plan is now partly executed. Normal production starts at [[Studio/Content/carousel-dispatch]]. The framework cards are compiled packets with the relevant winning-flow logic and compressed slide-by-slide examples inside them.
+
 This plan was executed 2026-07-17. The section below is kept as the original rationale.
 
 ## The Problem

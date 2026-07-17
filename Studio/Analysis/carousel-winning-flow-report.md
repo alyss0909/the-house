@@ -35,7 +35,7 @@ built_from:
 
 Goal: give the content team simple, memorable carousel shapes backed by Alyssa's real examples, so an offer plus an idea becomes a persuasive post instead of a generic summary.
 
-Use this file forward. The examples prove the pattern. The instructions tell the next writer what each slide has to do for a new offer, content pillar, and buying belief.
+Use this file as the source manual. Normal writing runs through [[Studio/Content/carousel-dispatch]], [[Studio/Content/writer-kit]], one offer brief, and one framework card. The examples here prove the pattern; the framework cards compile the parts a writer needs at draft time.
 
 Old drafts preserved here: [[Studio/Analysis/carousel-winning-flow-report-draft-2026-07-17]], [[Studio/Analysis/carousel-winning-flow-report-draft-2026-07-17-layered]], [[Studio/Analysis/carousel-winning-flow-report-draft-2026-07-17-pressure-framework]], and [[Studio/Analysis/carousel-winning-flow-report-draft-2026-07-17-five-frameworks-pre-deep-pass]].
 
@@ -118,7 +118,7 @@ The top posts mostly share one spine.
 
 The difference is the kind of argument the idea needs.
 
-The five frameworks are writer choices, not taxonomy. They do not need to be philosophically equal. They need to help the next writer choose a strong path fast.
+The five frameworks below are the source taxonomy. Production has been simplified: normal offer/education posts use How To, Old Way / New Way, or Hot Take. For The Girls is a separate style lane. House Report stays here as a source pattern and market-pressure mode, not a default production framework.
 
 Framework decision rules:
 
@@ -238,7 +238,7 @@ Use this when: the reader needs a usable operating order. The post should make t
 
 How To always needs a version. Choose Metaphor Plan, Product Plan, Proof-First Plan, or Clock-In Plan before writing. If none of those fit, the idea probably belongs in Old Way / New Way or Hot Take instead.
 
-Choosing the version is not enough. A How To brief must fill the sequence below before a draft starts. "How To (Metaphor Plan)" is only the door. The work is the filled beat map.
+Choosing the version is not enough. A How To brief must fill the sequence below before a draft starts. "How To (Metaphor Plan)" is only the door. The work is the filled framework outline and carousel outline.
 
 First-half pressure: market pressure if the plan matters because something changed. Inner pressure if the plan matters because the old process felt too hard, precious, scattered, or confusing.
 

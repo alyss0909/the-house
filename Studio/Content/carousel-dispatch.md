@@ -73,6 +73,22 @@ House Report is no longer a default framework. Use market pressure inside one of
 
 Pick two routes. If one route is obviously wrong, do not force it; use the two strongest routes from the three.
 
+Version B cannot be only a new hook. It must differ by framework, buying belief, pressure, or content role.
+
+## Step 2.5: Source Receipt
+
+Before spawning writers, name the source packet each writer gets.
+
+```md
+Offer brief:
+Offer line the writer must preserve:
+Framework card:
+Real carousel precedent inside the card:
+Alyssa-specific texture/detail to preserve:
+```
+
+No source receipt, no draft.
+
 ## Step 3: Writer Subagents
 
 Spawn two writer subagents when Alyssa wants options.
@@ -96,10 +112,11 @@ Your assigned route:
 Return:
 1. Framework outline, filled for this exact post.
 2. Carousel outline, slide by slide.
-3. 5 hook options.
-4. Full carousel copy.
-5. Caption and CTA line.
-6. Source lines used from the offer brief.
+3. Source receipt.
+4. 5 hook options.
+5. Full carousel copy.
+6. Caption and CTA line.
+7. Source lines used from the offer brief.
 
 Do not summarize the framework. Fill it.
 Do not browse wider. The framework card is your compressed source packet.
@@ -134,6 +151,8 @@ CTA:
 ```
 
 No option is allowed to say "teaches the full method," "walks through the framework," or "shows them how" unless it immediately names the actual teaching parts.
+
+No option is allowed to drift into a second villain. If the concept lock says the villain is overbuilt email, the draft cannot also argue against the entire content calendar.
 
 ## The Rule
 

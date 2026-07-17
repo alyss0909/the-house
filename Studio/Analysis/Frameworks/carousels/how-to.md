@@ -4,60 +4,192 @@ type: framework-card
 status: active
 date: 2026-07-17
 parent: "[[Studio/Analysis/carousel-winning-flow-report]]"
+compiled_from:
+  - "[[Studio/Analysis/carousel-winning-flow-report]]"
+  - "[[Studio/Analysis/carousel-slide-by-slide]]"
+  - "[[Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest]]"
+  - "[[Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners]]"
+  - "[[Library/Examples/Carousels/2026-02-19-pinterest-sugar-mama]]"
+  - "[[Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in]]"
 ---
 
 # How To
 
-## When to choose this framework
-Choose How To when the reader needs a usable operating order. The post should make the method feel concrete enough that the offer becomes the easiest container. Use market pressure if the plan matters because something changed. Use inner pressure if the old process felt too hard, precious, scattered, or confusing.
+Use this card to write one How To carousel. Do not load the full [[Studio/Analysis/carousel-slide-by-slide]] during normal writing. This card is the compressed source packet.
 
-## Pick a version before drafting
-How To always needs a version. Pick one of these four before you write a single slide. If none fit, the idea probably belongs in Old Way / New Way or Hot Take instead.
-- Metaphor Plan: teach the steps through a named metaphor world. Load [[Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest]].
-- Product Plan: teach through the product. Every feature must become a reader outcome. Load [[Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners]].
-- Proof-First Plan: prove the weird hook or underestimated opportunity first, then teach. Proof goes right after the joke. Load [[Library/Examples/Carousels/2026-02-19-pinterest-sugar-mama]].
-- Clock-In Plan: use time, seasonality, and future-self payoff as the container. Load [[Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in]].
+## When To Use This
 
-Choosing the version is not the work. "How To (Metaphor Plan)" is only the drawer label.
+Choose How To when the reader already wants the result, but the method feels too big, random, precious, platform-dependent, or hard to repeat.
 
-Before drafting, fill this receipt:
+The job: make the method feel usable enough that the offer becomes the easiest container.
 
-1. Outcome promise: the exact result this post gives the reader.
-2. False premise or hidden opportunity: what they have been missing or making too hard.
-3. Simpler operating order: the new order in one plain sentence.
-4. Teaching parts: each part's name, job, and one concrete instruction.
-5. Memory device: metaphor, product surface, proof pattern, or seasonal container.
-6. Easier-than-expected beat: why this is lighter than the old way.
-7. CTA bridge: why the offer is the easiest container for the method.
+## Versions
 
-Fail condition: if the receipt says "teaches the full method," "walks through the framework," or "shows them how" without naming the actual parts, stop. The framework has not been applied yet.
+Pick one before writing.
 
-## Load these examples
-- Primary: the folder for your chosen version, listed above.
-- Backup, only if needed: one other version folder that is closest to your idea.
+- **Metaphor Plan:** teach the steps through a named metaphor world. Source pattern: [[Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest]]
+- **Product Plan:** teach through the product. Every feature becomes a reader outcome. Source pattern: [[Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners]]
+- **Proof-First Plan:** prove the weird hook or underestimated opportunity first, then teach the plan. Source pattern: [[Library/Examples/Carousels/2026-02-19-pinterest-sugar-mama]]
+- **Clock-In Plan:** use time, seasonality, and future-self payoff as the container. Source pattern: [[Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in]]
 
-## Read this section of the slide-by-slide analysis
-In [[Studio/Analysis/carousel-slide-by-slide]], read only the section for your version: "POST — Feb 10 | "How To Get All Your Clients From Pinterest This Year"" for Metaphor Plan, "FEB 6 — "The Pinterest Marketing Plan for Beginners"" for Product Plan, "POST — Feb 19 | "How To Make Pinterest Your Sugar Daddy" (cover corrects to "Sugar Mama")" for Proof-First Plan, "POST — Mar 1 | "There are 80 Days Until Summer"" for Clock-In Plan.
+Choosing a version is not the work. "How To (Metaphor Plan)" is only the drawer label.
 
-## Content-role cautions
-- Freebie: the final ask can be simple if the deck already taught the first useful move of the plan.
-- Product or template: reveal early only when the product itself is the teaching surface. That is the whole point of Product Plan.
-- Webinar or class: teach the usable first version, leave room for the class to carry the full method.
-- Paid offer: earn the ask with stronger belief-building first. The plan must feel real before the container is offered.
-- Waitlist: sell the world and future payoff more than immediate action. Clock-In Plan pairs well here.
-- Affinity: skip the forced CTA. A plain How To with no ask can still build trust.
+## Framework Outline
 
-## Offer and CTA cautions
-The ask packages the method. It should feel like the full system after the post gave away the usable first version. Never CTA to a product the plan did not point at.
+Fill this before drafting.
 
-## Failure modes
-- Concept named as a lesson or clever mechanism instead of a simple promise.
-- Curriculum vocabulary anywhere near the copy ("belief move," "reframe," "the formula").
-- Re-skin of a published winner: metaphor swapped, skeleton kept. A new metaphor on the Feb 10 skeleton is a re-skin, not a post.
-- Quirky-conceit cover over a direct promise. The winner was "How To Get All Your Clients From Pinterest This Year," not the clever version.
-- Framework label used as a shortcut: "How To (Metaphor Plan). Teaches the full 5-part method..." is not a beat map.
-- Framework-specific: thin steps. Each teaching slide needs a claim, a detail, and why it matters, 25 to 65 words. Label plus filler sentence is a kill.
-- Framework-specific: drafting without picking a version, which produces a generic listicle.
+1. **Outcome promise:** the exact result this post gives the reader.
+2. **False premise or hidden opportunity:** what they have been missing or making too hard.
+3. **Simpler operating order:** the new order in one plain sentence.
+4. **Teaching part 1:** name, job, concrete instruction.
+5. **Teaching part 2:** name, job, concrete instruction.
+6. **Teaching part 3:** name, job, concrete instruction.
+7. **Teaching part 4, if needed:** name, job, concrete instruction.
+8. **Memory device:** metaphor, product surface, proof pattern, or seasonal container.
+9. **Easier-than-expected turn:** why this is lighter than the old way.
+10. **CTA bridge:** why the offer is the easiest container for the method.
 
-## Visual reference (optional)
-Real slides live in Library/Examples/Carousels/, in the four version folders named above. Optional for visual planning only.
+Fail condition: if this says "teaches the full method," "walks through the framework," or "shows them how" without naming the actual parts, stop. The framework has not been applied.
+
+## Carousel Outline
+
+Map the framework onto the spine.
+
+1. **Cover hook:** specific promise, aspirational utility, or provocative metaphor.
+2. **Slide 2 open loop:** false premise, hidden opportunity, or "this is easier than you think."
+3. **Old way/problem:** what makes the result feel heavier than it has to be.
+4. **Proof or validation:** example proof, lived proof, product proof, or metaphor proof.
+5. **Teaching middle:** 3 to 4 useful parts with a claim, a detail, and why it matters.
+6. **Turn:** the reader was not missing discipline; they were missing the order/container.
+7. **CTA:** the offer packages the method.
+
+## Pressure And Proof
+
+Pressure choice:
+
+- **Inner pressure:** use when the old process feels too hard, precious, scattered, gourmet, overbuilt, or confusing.
+- **Market pressure:** use when the method matters because something changed outside the reader.
+
+Proof types:
+
+- **Example proof:** tiny scenario, before/after, "what this looks like."
+- **Product proof:** screenshot, dashboard, template, prompt, or workflow showing the method.
+- **Metaphor proof:** the metaphor makes the order memorable.
+- **Lived proof:** what Alyssa sees in her own business, inbox, clients, or workflow.
+
+## Hook Options
+
+Use one of these shapes:
+
+- Specific Promise.
+- Aspirational Utility.
+- Provocative Reframe only if the metaphor carries the method.
+
+No generic tips. No question covers. No clever cover over thin teaching.
+
+## Alyssa Move Library
+
+### Outcome Promise
+
+What this does: makes the result concrete enough to swipe for.
+
+How Alyssa does it:
+
+- Names a specific result, often with a time anchor or scope.
+- Lets the cover be direct when the method is the interesting part.
+- Avoids cleverness when the promise itself is strong.
+
+Source pattern: [[Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest]] uses a plain result promise, then lets the recipe system carry the middle.
+
+Write toward: "get the thing you want through a system that feels easier than expected."
+
+Do not write: "unlock a better approach to your content."
+
+### Hidden Opportunity Or False Premise
+
+What this does: tells the reader why the method matters before teaching it.
+
+How Alyssa does it:
+
+- Names the thing people are underusing or overcomplicating.
+- Protects the reader from feeling behind.
+- Makes the method feel like relief, not homework.
+
+Source pattern: [[Library/Examples/Carousels/2026-02-19-pinterest-sugar-mama]] turns a weird comparison into a plan by proving the opportunity before teaching.
+
+Write toward: "you were not missing ideas; you were making the container too heavy."
+
+Do not write: "most people fail because they lack a repeatable framework."
+
+### Teaching Parts
+
+What this does: gives the useful thing a non-buyer can act on.
+
+How Alyssa does it:
+
+- Each part has a name, a job, and a concrete instruction.
+- Body copy is dense: 25 to 65 words, with examples or specifics.
+- The metaphor is a memory device, not decoration.
+- One item can break the pattern so it does not feel assembled.
+
+Source pattern: [[Library/Examples/Carousels/2026-02-10-get-clients-from-pinterest]] uses step names as the swipe mechanic. The reader decodes each metaphor by reading the body.
+
+Write toward: "first, do this small concrete thing. Here is why it matters. Here is what it prevents."
+
+Do not write: "step one is clarity. step two is consistency."
+
+### Product As Proof
+
+What this does: lets the product demonstrate the method without becoming a product brochure.
+
+How Alyssa does it:
+
+- Shows the inside of the thing.
+- Turns each feature into what the reader gets.
+- Teaches the what for free, then reveals the product as the shortcut.
+
+Source pattern: [[Library/Examples/Carousels/2026-02-06-pinterest-marketing-for-beginners]] uses product views as proof while the copy stays reader-outcome focused.
+
+Write toward: "this part helps you decide what to do next without rebuilding the system."
+
+Do not write: "this dashboard includes a content calendar and prompt database."
+
+### Easier-Than-Expected Turn
+
+What this does: makes the reader feel the method is doable now.
+
+How Alyssa does it:
+
+- Shows the result follows an order.
+- Moves from "I need more effort" to "I need the right container."
+- Keeps the tone useful, not motivational.
+
+Source pattern: [[Library/Examples/Carousels/2026-03-01-80-days-until-summer-90d-clock-in]] turns a date into a focused operating window.
+
+Write toward: "you are not starting from scratch; you are putting the pieces in the right order."
+
+Do not write: "you finally have permission to simplify your strategy."
+
+## Content-Role Cautions
+
+- **Freebie:** the final ask can be simple if the deck already taught the first useful move.
+- **Product/template:** reveal early only when the product itself is the teaching surface.
+- **Webinar/class:** teach the usable first version; leave room for the class to carry the full method.
+- **Paid offer:** the plan must feel real before the container is offered.
+- **Waitlist:** sell the world and future payoff more than immediate action.
+
+## Failure Modes
+
+- Framework label used as a shortcut.
+- Thin steps: label plus filler sentence.
+- Curriculum vocabulary in public copy.
+- Re-skin of a published winner with new nouns.
+- Metaphor as decoration instead of operating order.
+- Teaching the product mechanics instead of the free method.
+
+## Deep Source Links
+
+Open only if rebuilding this card or debugging a failed draft:
+
+- [[Studio/Analysis/carousel-slide-by-slide]]
+- [[Studio/Analysis/carousel-winning-flow-report]]

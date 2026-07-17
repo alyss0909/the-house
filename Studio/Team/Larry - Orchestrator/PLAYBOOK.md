@@ -14,6 +14,7 @@ status: living
 - 2026-07-11 — "find the fix and apply it now" -> bias to action inside blessed boundaries; report after shipping, with receipts and reversibility (.nkbak).
 - Standing — she's ADHD; think 20 steps ahead; surfaces short; one question max; numbers she can watch (debt counters).
 - 2026-07-17 — when a framework discussion starts getting convoluted, stop classifying and rebuild the working path. Alyssa wants a model she could immediately use to write: one simple spine, a few memorable frameworks, concrete slide jobs, proof from real examples. Taxonomy that needs explanation is already failing.
+- 2026-07-17 — for carousel production, do not hand Alyssa one "right" version after a messy internal choice. Run [[Studio/Content/carousel-dispatch]]: lock one concept, assign two distinct routes to narrow-context writers, and put two full drafts on her desk.
 
 ### Pre-apply
 - Every delegation brief carries: the specialist's PLAYBOOK, the relevant TEAM-BRAIN slice, the nearest precedent, and the journal/garden links the task grew from.
