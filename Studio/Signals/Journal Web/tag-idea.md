@@ -1,8 +1,8 @@
 ---
-generated: 2026-07-17
+generated: 2026-07-18
 owner: scripts/journal-web.py - REGENERATED, do not hand-edit (SOP-040)
 tag: idea
-entries: 25
+entries: 27
 ---
 
 # Journal Web - #idea
@@ -10,6 +10,8 @@ entries: 25
 Every journal entry tagged `idea`, brought forward. This hub exists so no tagged entry is an orphan; deeper one-to-one links still belong in garden notes and maps.
 
 ## 2026
+- [[2026-07-03-fable-5-content-relay-idea|2026-07-03 - Fable 5 Content Relay Idea]]
+- [[2026-06-29-can-i-also-add-in-the-overwhelm|2026-06-29 - Can I Also Add In The Overwhelm]]
 - [[2026-06-27-sustainable-creative-biz-signal|2026-06-27 - Signal — The Sustainable Creative Business]]
 - [[2026-06-26-hook-you-get-what-you-get|2026-06-26 - Email Hook — "You Get What You Get"]]
 - [[2026-06-06-boh-launch-email-inspo|2026-06-06 - BOH Summer Launch — Email Sequence Braindump]]

@@ -72,7 +72,7 @@ Most tasks need [[Archive/Studio-Analysis-voice-retired-2026-07-10/voice-profile
 | [[Studio/Analysis/subject-line]] | 11 patterns from 351 broadcasts, template banks, Three Jobs decision framework. | Non-subject-line tasks |
 | [[Studio/Analysis/Frameworks/carousel-quickref]] | Compressed carousel reference for agents. Use only after source examples have already calibrated the task. | Non-carousel tasks; learning Alyssa's carousel style from scratch |
 | [[Studio/Analysis/Frameworks/social-hooks]] | 7 hook formulas + raw examples. Load when writing or selecting a hook. | Non-hook tasks |
-| [[Studio/Analysis/carousel]] | 9 top-performer post-mortems + performance data + image links. Deep reference only — load when you need the why behind a pattern. | Standard carousel execution |
+| [[Studio/Content/carousel-dispatch]] | The carousel production front door (2026-07-17): outline first, concept lock, four framework cards, narrow writer load. The old [[Studio/Analysis/carousel]] post-mortems drained to Archive/studio-analysis-drain-2026-07-17. | Standard carousel execution |
 | [[Studio/Analysis/carousel-slide-by-slide]] | Full slide-by-slide breakdown of real top carousels. Load when learning the sequence or writing from examples. | Quick carousel execution from an approved brief |
 | [[Library/Examples/Carousels/captions]] | Real captions, permalinks, and performance fields for the top carousel examples. Load before writing carousel captions or studying hooks. | Non-carousel tasks |
 | [[Studio/Analysis/workshop-webinar-analysis]] | All 3 BOH webinars analyzed. Load for webinar scripts only. | Everything else |

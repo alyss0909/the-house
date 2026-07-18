@@ -45,3 +45,5 @@ Her hook, moved here from the retired Ready Queue at her call ("it's ready to mo
 ## The Phantom Ring Email Books Clients Who Ghosted You
 - **Saved:** 2026-07-14 · **Theme:** W1 Email · **Offer:** Email List Revival Plan
 The exact 3-line follow-up that gets forgotten sales calls back on the books. *[coined-word — her own named framework from the source email]*
+
+- Resurfaced 2026-07-18: [[2020-11-17-wildling]] — a one-word identity musing ("Wildling", linked to [[becoming]]) from 2020; parked here as brand-world word material.

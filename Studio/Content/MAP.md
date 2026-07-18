@@ -16,21 +16,11 @@ This is the map of the content desk. Alyssa's saves become options, her taps bec
 
 ## Writing a carousel, read in this order
 
-Use [[Studio/Content/carousel-dispatch]] as the production front door.
-
-The orchestrator loads only:
-1. [[Studio/Content/carousel-dispatch]]
-2. the one offer brief, angle brief, or FTG mood brief
-3. [[Studio/Content/taste-ledger]] only when the offer or angle has a live correction there
-
-Each writer subagent loads only:
-1. [[Studio/Content/writer-kit]]
-2. the same brief
-3. one framework card from [[Studio/Analysis/Frameworks/carousels/how-to]], [[Studio/Analysis/Frameworks/carousels/old-way-new-way]], [[Studio/Analysis/Frameworks/carousels/hot-take]], or [[Studio/Analysis/Frameworks/carousels/for-the-girls]]
+Use [[Studio/Content/carousel-dispatch]] as the production front door. It is the ONLY owner of the orchestrator and writer load lists; follow it, do not restate it. Non-negotiable inside that load: [[Studio/Content/her-carousel-voice]] (cutting it caused the 2026-07-17 "doesn't sound like me" loop). Five framework cards live in `Studio/Analysis/Frameworks/carousels/`: house-report, how-to, old-way-new-way, hot-take, for-the-girls.
 
 The full [[Studio/Analysis/carousel-winning-flow-report]], [[Studio/Analysis/carousel-slide-by-slide]], [[Studio/Content/METHOD]], and [[Studio/Analysis/carousel-hook-forensics]] are source manuals for rebuilding the cards, not default writing loads.
 
-Fable review packet for the carousel compiler: [[Studio/Content/2026-07-17-carousel-compiler-fable-handoff]].
+Fable review packet for the carousel compiler: [[Studio/Content/2026-07-17-carousel-compiler-fable-handoff]]. The review ran same day and its fixes are live: [[Studio/Content/2026-07-17-carousel-compiler-pressure-test]].
 
 The month's rotation and lane targets live in [[Studio/Content/calendar]].
 

@@ -158,16 +158,7 @@ TASK: Write a Soft Sunday email
 
 ### Writing a carousel
 
-| | Files |
-|---|---|
-| **Read first** | [[Library/me]] · [[Studio/Analysis/carousel]] — 9 top-performer post-mortems, performance data, voice and design patterns |
-| **Read when learning from examples** | [[Studio/Analysis/carousel-slide-by-slide]] — slide-by-slide copy/design/tactic breakdowns |
-| **Read** | [[Studio/Analysis/Frameworks/carousel-framework]] — 6 archetypes, 7 hook formulas, copy rules, design system |
-| **Browse** | [[Library/Examples/Carousels/INDEX]] → open 2–3 slide images from the relevant archetype folder in `slide-01.jpg` order |
-| **Execute from** | [[Studio/Analysis/Templates/carousel-brief]] — pre-production checklist for generating a new brief |
-| **Skip** | [[Studio/Analysis/sales-page]] · full BOH program content |
-
-**Decision note — always run the pre-production checklist first.** The checklist in [[Studio/Analysis/Templates/carousel-brief]] has 5 decision sets that must be answered before a word is written: archetype, hook formula, performance goal, architecture (slide count / footer / palette / prop / CTA keyword), and copy skeleton. Skipping the checklist produces carousels that look like Alyssa but don't perform like Alyssa — the structure is what makes them work, not just the voice.
+REROUTED 2026-07-17: carousel production now starts at [[Studio/Content/carousel-dispatch]] (outline first, concept lock, one of four framework cards). The writer load is [[Studio/Content/writer-kit]] + [[Studio/Content/her-carousel-voice]] + one brief from `Studio/Content/briefs/` + one framework card. The old routing below this point (carousel post-mortems, 6-archetype framework, carousel-brief checklist) is superseded and its files drained to `Archive/studio-analysis-drain-2026-07-17/`. Do not follow it.
 
 **The archetype → metric map (from performance data):**
 - Want saves + non-follower reach? → Trend Report
@@ -512,7 +503,7 @@ The `Library/Programs/back-of-house/` folder contains workbooks, transcripts, sl
 
 ### Carousels
 
-**Status:** Built in W23 and corrected 2026-07-04. [[Studio/Analysis/carousel]] (9 top-performer post-mortems), [[Studio/Analysis/carousel-slide-by-slide]] (source slide breakdown), [[Studio/Analysis/Frameworks/carousel-framework]] (6 archetypes, 7 hook formulas), and [[Studio/Analysis/Templates/carousel-brief]] (brief generator) are all filed. Example folders and images are normalized into chronological `slide-01.jpg` order. See carousel routing in Section 2 above for full instructions.
+**Status:** Rerouted 2026-07-17. Carousel production starts at [[Studio/Content/carousel-dispatch]]; [[Studio/Analysis/carousel-slide-by-slide]] stays as deep reference. The W23-era files (carousel post-mortems, 6-archetype framework, carousel-brief generator) are superseded and drained to `Archive/studio-analysis-drain-2026-07-17/`. Example folders and images remain normalized into chronological `slide-01.jpg` order in `Library/Examples/Carousels/`.
 
 ---
 

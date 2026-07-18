@@ -34,7 +34,11 @@ fallback command).
 ## Deploy steps (run by whoever deploys; secrets by Alyssa only)
 
 1. Install the CLI once: `npm i -g wrangler`, then `wrangler login`.
-2. From this folder: `wrangler deploy`. This publishes the Worker and prints
+2. Create the KV namespace the hourly draft cap uses:
+   `wrangler kv namespace create MAILROOM_KV`, then paste the printed id into
+   `wrangler.toml` (`REPLACE_WITH_KV_NAMESPACE_ID`). The native Rate Limiting
+   binding (30/min burst cap) needs no setup — it's declared in `wrangler.toml`.
+3. From this folder: `wrangler deploy`. This publishes the Worker and prints
    its public URL, e.g. `https://mailroom-bridge.<subdomain>.workers.dev`.
    That URL is what the Notion buttons POST to (step "Wire the buttons").
 3. **Alyssa sets the four secrets herself** (an agent never types a
@@ -108,10 +112,42 @@ secret in a header, page id in the body, Worker reads the rest off the row.
 - Replace `VOICE_SYSTEM` in `worker.js` with the canonical voice block
   (Hermes) so drafts sound like Alyssa, not generic-polite.
 
-## Two gates before this goes live
+## Security posture (Vex audit, 2026-07-17 — verdict FIX FIRST, now applied)
 
-1. **Alyssa places the secrets herself** (table above). Neither Mack nor
-   Larry enters any credential.
-2. **Vex security pass** on the public endpoint: webhook auth sufficiency,
-   secret handling, abuse surface, rate limiting. No activation before Vex
-   signs off.
+Architecture sound, draft-only confirmed, auth ordering correct. Fixes now in
+`worker.js` / `wrangler.toml`:
+- **Rate limiting** — native 30/min burst binding + a KV hourly draft cap (40).
+- **Archive query** never falls back to the row title; it must be a specific,
+  narrowing query or the archive is refused (422).
+- **Row scoping** — after reading the row, the Worker asserts its parent
+  database is the Mailroom DB before acting; anything else is rejected (403).
+- **Tag guard** — normalized, broadened (money/payment/failed payment/revenue/
+  security/invoice/refund/chargeback/bank), and **fail-closed**: empty or
+  unreadable Tag also refuses.
+- **Idempotency** — reads Status first, no-ops if already `handled`.
+- **Error hygiene** — callers get a generic `{ok:false,error:"internal"}` on
+  500; upstream detail is logged server-side only.
+- **Hardening** — body-size + content-type gate; `done` short-circuits before
+  any Notion read; secret compared as SHA-256 digests (no length-timing leak).
+
+## Activation gates
+
+**GATE 1 — CLEARED (Larry, 2026-07-17).** Composio Gmail slugs verified live
+(read-only schema inspection, no actions executed). Confirmed and now wired in
+`worker.js`:
+- DRAFT = `GMAIL_LIST_THREADS` (resolve single best thread) ->
+  `GMAIL_CREATE_EMAIL_DRAFT` (thread_id + recipient_email + body, EMPTY
+  subject). Draft-only: it returns a draft_id; sending is a separate action
+  (`GMAIL_SEND_DRAFT`) the Worker never calls.
+- ARCHIVE = `GMAIL_FETCH_EMAILS` (resolve messageIds from the narrow query) ->
+  `GMAIL_BATCH_MODIFY_MESSAGES` `removeLabelIds:["INBOX"]` only. Never TRASH,
+  never delete. Refuses on zero matches or more than 10 (too broad).
+- Accounts resolved by inbox email at call time (`user_id`), never hardcoded.
+
+**GATE 2 — STILL OPEN (for Larry — do not go live).** Confirm the Notion
+integration is shared with **ONLY** the Mailroom DB — no other pages or
+databases — so `NOTION_TOKEN` can't read or write anything else.
+
+Plus the standing prerequisite: **Alyssa places all four secrets herself**
+(table above). Neither Mack nor Larry enters any credential. Nothing goes live
+until Gate 2 is closed.

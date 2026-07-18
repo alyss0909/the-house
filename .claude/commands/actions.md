@@ -1,6 +1,6 @@
 ---
 name: actions
-description: Read HOME.md's "## Actions state" ledger and run every entry marked "queued" — mailroom sweep, weekly review, monthly review, or trend scout. Same click-then-say-the-word shape as the Content dashboard's /loop and the Mailroom's own queue. Say "/actions" to run everything queued right now.
+description: Read HOME.md's "## Actions state" ledger and run every entry marked "queued" — mailroom sweep, weekly review, monthly review, or trend scout. Same click-then-say-the-word shape as the Content Studio's /content-run and the Mailroom's own queue. Say "/actions" to run everything queued right now.
 user_invocable: true
 ---
 
@@ -14,8 +14,7 @@ to the hidden `## Actions state` ledger:
 ```
 
 Saying **/actions** in chat is the trigger that reads that ledger and actually runs
-the real work, same two-step shape as approving a concept then saying "/loop" on the
-Content dashboard, or clicking a Mailroom card then saying "/mailroom".
+the real work, same two-step shape as tapping a content option then saying`r`n"/content-run" in the Content Studio, or clicking a Mailroom card then saying`r`n"/mailroom".
 
 ## One pass (default)
 

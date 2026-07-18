@@ -21,30 +21,34 @@ Choose Old Way / New Way when the reader needs permission to leave something the
 
 The job: make the old way feel too expensive to keep choosing, then give the calmer or more durable model.
 
-## Framework Outline
+## The forward sequence (this IS the slide plan; pick ONE of her two, fill it, then write)
 
-Fill this before drafting.
+**The Exit** (use when the reader needs permission to leave something responsible-feeling):
 
-1. **Old belief:** what the reader already suspects is failing.
-2. **Why it made sense:** why the old belief used to be reasonable.
-3. **Why it is breaking now:** what changed or what the reader can finally feel.
-4. **Cost of staying:** pressure, volume, exhaustion, disappearing content, bad-fit attention, or other real maintenance burden.
-5. **Validation:** the line that protects the reader from feeling stupid.
-6. **Better question:** the question that makes the old belief feel incomplete.
-7. **New model:** 2 or 3 concrete parts.
-8. **CTA bridge:** why the offer is the exit door.
+1. Name the old belief the reader already suspects is failing.
+2. Steelman why that belief used to make sense.
+3. Show why it is breaking now.
+4. Name the cost they will keep paying if they stay there: pressure, volume, exhaustion, disappearing content, bad-fit attention.
+5. Ask the better question that makes the old belief feel incomplete.
+6. Teach the calmer model in 2 or 3 parts.
+7. CTA to the offer that helps them leave the old pattern.
 
-## Carousel Outline
+**The Pivot** (use when the post can open on identity, a personal switch, a weird claim, or a specific promise):
 
-Map the framework onto the spine.
+1. Hook with identity, a personal switch, a weird claim, or a specific promise.
+2. Name the false premise or old belief.
+3. Agitate the cost of that belief.
+4. Validate the reader's experience so they do not feel blamed, and protect them from feeling stupid for choosing the old way.
+5. Make the pivot: one line that makes the better way feel obvious.
+6. Teach the better model in 2 to 4 concrete parts.
+7. CTA to the resource, product, class, or offer that helps them make the pivot.
 
-1. **Cover hook:** identity swap, old-way callout, or specific promise.
-2. **Slide 2 open loop:** old belief, personal switch, or stakes.
-3. **Old way/problem:** name the behavior, channel, or premise they have been tolerating.
-4. **Proof or validation:** why it made sense, and why it costs more now.
-5. **Teaching middle:** 2 to 3 parts of the calmer or different system.
-6. **Turn:** a better question, personal decision, or system diagnosis.
-7. **CTA:** the offer helps them leave the old pattern.
+The middle requirements are folded into the steps (validation is step 4, the pivot line is step 5). Do not restate them as a separate checklist.
+
+Old belief it attacks: the thing they have been trying is the responsible thing to keep doing.
+New belief it installs: the calmer, stranger, more specific move is actually the more strategic move.
+
+CTA rule: the ask should feel like the next step after the pivot, not a product interrupt.
 
 ## Pressure And Proof
 

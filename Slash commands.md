@@ -15,7 +15,9 @@ Everything you can say to Claude Code that starts with a slash, in plain English
 - **/close-session** wraps the session: sweeps open items, writes the session log, tidies the vault, and updates the Control Room board so nothing gets lost between sessions.
 - **/actions** runs every card you have clicked and queued on the HOME dashboard, such as the mailroom sweep, weekly review, monthly review, or trend scout.
 - **/mailroom** acts on the cards you clicked in the Mailroom: queued replies get drafted into that Gmail account's Drafts folder, and queued archives clear the message out of the inbox. "/mailroom sweep" re-scans all four inboxes and refills the cards.
-- **/loop** checks the newest weekly pitch sheet for anything you approved and sends the right specialist to do the next step, so your approvals move forward without you relaying instructions.
+- **/saves-sweep** fills the Notion Content Studio board from saved content inputs and prepares options for you to tap.
+- **/content-run** turns the Content Studio options you tapped into finished posts through the current content-production flow.
+- **/loop** is retired. If you type it out of habit, the command redirects to `/content-run`; new work should use `/content-run`.
 
 ## Reviews
 

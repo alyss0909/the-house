@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-17 17:32
+generated: 2026-07-18 10:57
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,43 +8,44 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Content engine deep-rebuild session (fable). Receipt: [[2026-07-17-23-30_fable_content-engine-rebuild-and-voice-diagnosis]].
+Carousel compiler v4 session (Fable, 2026-07-18 close). Full log: [[2026-07-18-10-55_fable_carousel-compiler-v4-pressure-test-and-reruns]].
 
-Larry follow-up handoff for Fable review is now written and linked: [[2026-07-17-21-25_larry_carousel-compiler-fable-handoff]] and [[Studio/Content/2026-07-17-carousel-compiler-fable-handoff]].
+THE STATE: four fresh decks sit Ready for Alyssa on the Content Studio board, built on the fully rebuilt v4 stack, writers formed their own arguments from brief lanes. Covers: "you've got six burners going when one will do." (5MN House Report) · "quit rewriting that email. simmer it instead." (5MN How To) · "your kid's sandwich meltdown is the email." (Bingeable How To) · "stop summoning your newsletter." (Bingeable Pivot). NEXT SESSION STARTS WITH: harvest her reacts on these four (Stage 0), verbatim, into [[Studio/Content/taste-ledger]] and the run-3 receipt in [[Studio/Content/runs/2026-07-17-run]].
 
-The arc: Alyssa diagnosed why the content team produces carousels she does not believe in, and we rebuilt the pipeline end to end. Two real decks shipped to the Content Studio board (5MN "julia child" How To, Bingeable freebie).
+What v4 is (all live): five sequence-first framework cards (House Report REINSTATED by her paste; Old Way / New Way carries her Exit + Pivot sequences, middle folded into steps); ONE pre-writing artifact (the sequence fill in [[Studio/Content/carousel-dispatch]] v2, which is now the sole owner of the writer load; her-carousel-voice non-negotiable in it); all twelve briefs rebuilt as offer intelligence briefs with argument lanes (model: [[Studio/Content/briefs/the-5-minute-newsletter]]); [[Studio/Content/briefs/for-the-girls-brief]] replaces the mood database; FTG checker lives in its card. Her rulings logged verbatim in the taste ledger: briefs-were-trash, sequences-over-paperwork, understanding-over-rules, invented-bridges-break-voice (the soufflé lesson), hooks-need-her-cover-register (title-case tidy = AI tell), chat words permanently off-limits, A Year of Emails PARKED.
 
-What got built this session:
-- Lean writer load: [[Studio/Content/writer-kit]] (rules + the Carousel Spine), one [[Studio/Content/briefs]] file per offer (VERBATIM copy banks, not my summaries), [[Studio/Content/her-carousel-voice]] (voice exemplar from her real Jan 20 deck), the five framework cards, [[Studio/Content/calendar]] (her monthly rotation). [[Studio/Analysis/carousel-slide-by-slide]] tagged with framework names (add-only). Shelf cleaned: carousel-framework / quickref / taste-log / drafts dead-stamped, [[Studio/Analysis/INDEX]] + [[Studio/Content/MAP]] rewritten.
-- /content-run v3 and /saves-sweep rebuilt: clean writer per post, mechanical checker (source-trace + spine/framework execution), julia-child delivery, run receipts. Content Ideas robo-tray retired; volume folded into saves wildcards.
-- Durable rulings in [[Studio/Content/taste-ledger]]: copy-paste law, don't-invent-belief, no imagery, name the product, teach-the-WHAT-offer-shows-HOW, execute the framework's forward sequence, spine-first, orchestrator-never-writes-slides, and voice-comes-from-her-carousels-not-sales-pages.
-- 5MN price settled $11. Chat words found: Resuscitator=Cold, Revival=List. Tasks filed: tsk-2026-07-17-001 (disable ideation cron), tsk-2026-07-17-002 (wire her sent-email bodies into briefs via the Kit API).
+If run 3 fails on voice AGAIN: the next lever is already named (session log, last open thread): load one full real deck verbatim into the writer as calibration, her compaction-vs-real-artifact instinct. Do not add rules.
 
-Where it landed (open, but Alyssa says she has figured the direction out elsewhere): the last unresolved failure is CONCEPT-LOCK. The 5MN deck mashed two arguments (six content channels vs gourmet-email-simplicity). Her ruling: lock ONE villain first, "gourmet email is out / one-pan simmer, everything in one 5-min email, is in", drop the six-content-channels angle for that post. This converges exactly with the parallel [[Studio/Content/carousel-dispatch]] front door (outline first, concept lock second). NEXT SESSION: reconcile carousel-dispatch with this session's writer-kit/briefs/voice files (they overlap), then run one post from a locked concept. Also open: the compaction-vs-real-artifact question she raised (load one real full carousel just-in-time instead of compacted summaries).
+Also done this session: 16 dead files drained from Studio/Analysis to `Archive/studio-analysis-drain-2026-07-17/` (README explains each; COMPASS and copy-task-routing rerouted); /saves-sweep boot slimmed to three files (her yes); run receipts for all three runs in [[Studio/Content/runs/2026-07-17-run]].
 
-Larry's Fable handoff clarifies the target architecture: same carousel outline path for all four writing cards, including FTG; narrow writer load; one framework card; source receipt; two full drafts; and immediate taste-ledger/card updates after Alyssa reacts. Fable's review job is to pressure-test for label escape, token bloat, FTG drift, source receipt weakness, and the smallest extra gate that would prevent bad daily drafts.
+Open beyond the reacts: register question (sentence case vs full caps, flagged on the "stop summoning" page); Promo Planner lanes may collapse to one; tsk-2026-07-17-001 (ideation cron, Mack) and tsk-2026-07-17-002 (Kit API sent-email wiring) still open; WS-006/008/009 + Hermes SOURCES still cite the retired taste-log (sweep offered, not ordered).
 
-Carried, untouched: push-on-close law (SOP-040 step 9); the two Inbox content-strategy files; stale Mailroom "Bundles That Benefit" card; KeepSidian reauth; PRECEDENT-INDEX briefing habit; Related Product batch approval; older-tab review; Soft Sunday trim decision.
+Carried, untouched: the two Inbox content-strategy files; stale Mailroom "Bundles That Benefit" card; KeepSidian reauth; PRECEDENT-INDEX briefing habit; Related Product batch approval; older-tab review; Soft Sunday trim decision.
+Parallel session same night, absorbed here: [[2026-07-18-01-30_larry_house-control-room-cleanup]] (indexes split active vs retired, Notion House Operations Board synced; Notekeeper left alone and live; /loop is history, content work starts from /saves-sweep, /content-run, [[SOP-041-content-production]], and [[Studio/Content/carousel-dispatch]]).
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-17-understand-open-source-install-and-keep-capture-project]])
-- [ ] `own-keep-capture` remains in planning. First real move when it activates: decide the raw-pull source (KeepSidian free endpoint vs thin gkeepapi script), then build the smallest slice (pull + her-language tagging + staleness watchdog).
-- [ ] [[tsk-2026-07-16-001-keepsidian-google-reauth]] still open. Capture is dead until re-auth, but Alyssa is not fixing it right now by her call.
+## Open threads (from [[2026-07-18-10-55_fable_carousel-compiler-v4-pressure-test-and-reruns]])
+- [ ] Alyssa reacts to the four run-3 decks on the Content Studio board (six burners House Report · quit rewriting How To · sandwich meltdown How To · stop summoning Pivot). Her reacts fill the run-3 receipt and the ledger.
+- [ ] Register question flagged on the "stop summoning" page: sentence case with selective bolds vs full caps. Her answer becomes a ledger rule.
+- [ ] Promo Planner brief: two lanes are close cousins; if a run shows them collapsing, drop to one lane.
+- [ ] tsk-2026-07-17-001 (disable ideation cron, Mack) and tsk-2026-07-17-002 (wire sent-email bodies via Kit API) still open.
+- [ ] Older workstream files (WS-006, WS-008, WS-009) and Hermes SOURCES.md still reference the retired taste-log; scoped sweep offered, not yet ordered.
+- [ ] Second-appearance watch: "it doesn't sound like me" has now recurred across sessions even after structural fixes; the live hypothesis (invented-bridge asymmetry + hook register) is in the ledger. If run 3 fails on voice again, the next lever is loading one full real deck verbatim into the writer (her compaction-vs-real-artifact instinct), not more rules.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
-Connection state: **459/569 entries linked by non-generated sources (81%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
-- oldest never-linked: [[2020-11-17-wildling]] (`Notebook/Journal/2020/11/2020-11-17-wildling.md`)
-- newest never-linked: [[2026-06-17-mb-trend-report-wedding-filmmaking-2026]] (`Notebook/Journal/2026/06/2026-06-17-mb-trend-report-wedding-filmmaking-2026.md`)
-- most related to last session: [[2025-09-13-moe-painting]] (`Notebook/Journal/2025/09/2025-09-13-moe-painting.md`)
+Connection state: **462/569 entries linked by non-generated sources (81%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
+- oldest never-linked: [[2020-12-31-alyssas-birth-time]] (`Notebook/Journal/2020/12/2020-12-31-alyssas-birth-time.md`)
+- newest never-linked: [[2026-03-10-genius-free-trial-incentive]] (`Notebook/Journal/2026/03/2026-03-10-genius-free-trial-incentive.md`)
+- most related to last session: [[2022-03-29-pre-bb-to-do]] (`Notebook/Journal/2022/03/2022-03-29-pre-bb-to-do.md`)
 
 ## Due check-backs
-- none due
+- 2026-07-18 — `Studio/Signals/Developing Ideas/ai-team-as-mirror-not-replacement.md`
 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (0 week(s) behind, current week W29)
-- Journal connection debt: 110 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 7 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
-- Stale open tasks (14d+): 4 — worst: 46d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 46d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 43d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
+- Journal connection debt: 107 entries with zero genuine inbound links (generated hubs and session logs do not count)
+- Unmined session logs: 8 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Stale open tasks (14d+): 4 — worst: 47d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 47d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 44d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
 
 ## Close-session gate (SOP-040 — no session ends without)
 1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).

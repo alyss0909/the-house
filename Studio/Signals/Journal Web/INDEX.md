@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-17
+generated: 2026-07-18
 owner: scripts/journal-web.py - REGENERATED, do not hand-edit (SOP-040)
 ---
 
@@ -9,8 +9,8 @@ Generated month and tag hubs. Month hubs give every journal entry a Studio-side 
 
 ## Month hubs
 
-- [[month-2026-07|2026-07]] - 23 entries
-- [[month-2026-06|2026-06]] - 46 entries
+- [[month-2026-07|2026-07]] - 24 entries
+- [[month-2026-06|2026-06]] - 47 entries
 - [[month-2026-05|2026-05]] - 16 entries
 - [[month-2026-04|2026-04]] - 19 entries
 - [[month-2026-03|2026-03]] - 22 entries
@@ -77,8 +77,8 @@ Generated month and tag hubs. Month hubs give every journal entry a Studio-side 
 ## Tag hubs
 
 - [[tag-inspo|#inspo]] - 46 entries
-- [[tag-ai|#ai]] - 29 entries
-- [[tag-idea|#idea]] - 25 entries
+- [[tag-ai|#ai]] - 30 entries
+- [[tag-idea|#idea]] - 27 entries
 - [[tag-copy|#copy]] - 13 entries
 - [[tag-second-brain|#second-brain]] - 7 entries
 - [[tag-social|#social]] - 6 entries

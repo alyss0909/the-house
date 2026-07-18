@@ -1,8 +1,8 @@
 ---
-generated: 2026-07-17
+generated: 2026-07-18
 owner: scripts/journal-web.py - REGENERATED, do not hand-edit (SOP-040)
 tag: ai
-entries: 29
+entries: 30
 ---
 
 # Journal Web - #ai
@@ -23,6 +23,7 @@ Every journal entry tagged `ai`, brought forward. This hub exists so no tagged e
 - [[2026-07-08-claude-code-agents-guide|2026-07-08 - Claude Code Agents Guide]]
 - [[2026-07-08-ai-studio-team-notion-template|2026-07-08 - AI Design Team (Notion template)]]
 - [[2026-07-08-agent-dashboard-setup|2026-07-08 - Agent Dash Set Up]]
+- [[2026-07-03-fable-5-content-relay-idea|2026-07-03 - Fable 5 Content Relay Idea]]
 - [[2026-06-25-claude-second-brain-article|2026-06-25 - Claude Second Brain Article]]
 - [[2026-06-17-blotato-claude-skills|2026-06-17 - Blotato Claude Skills]]
 - [[2026-06-06-folder-structure-resources|2026-06-06 - Folder Structure Resources]]

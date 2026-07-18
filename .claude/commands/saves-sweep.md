@@ -10,12 +10,11 @@ The saves are the purest positive taste signal in the system: posts that stopped
 
 ## Boot (light — content sessions skip house ceremony)
 
-Load, in full, ONLY:
-1. `Studio/Content/METHOD.md` (the craft authority; §3 stranger test applies to every option)
-2. `Studio/Analysis/carousel-hook-forensics.md` (the 9 hook shapes + cover gate)
-3. `Studio/Content/taste-ledger.md` (her reactions are law; check Positive signal section first)
-4. `Studio/Hermes/BUSINESS.md` (live offers, chat words; blank chat word = "manual selection needed")
-5. `Studio/Hermes/FUNNEL.md` (which offer each lane feeds)
+Load, in full, ONLY (slimmed 2026-07-17 on Alyssa's yes; METHOD and FUNNEL dropped from the daily boot):
+1. `Studio/Analysis/carousel-hook-forensics.md` (the 9 hook shapes + cover gate)
+2. `Studio/Content/taste-ledger.md` (her reactions are law; check Positive signal section first)
+3. `Studio/Hermes/BUSINESS.md` (live offers, chat words; blank chat word = "manual selection needed")
+The stranger test and value law used below are quoted inline in this file's option format; the offer map lives in `Studio/Content/briefs/INDEX.md` (open a single brief only when a pairing needs it). Open METHOD only to settle a dispute, never as boot.
 
 Do NOT run HOUSE-MAP ceremony, journal duty, or the compounding audit here; those belong to Larry at session close. Do log every Alyssa reaction you encounter, verbatim, to the taste ledger — that duty is never skipped.
 
@@ -32,7 +31,7 @@ Do NOT run HOUSE-MAP ceremony, journal duty, or the compounding audit here; thos
    - **The value:** what a non-buyer walks away with, named concretely (METHOD §1.6 — every post blows someone away with something useful, THEN the ask). FTG options are exempt; their value is the feeling.
    - **Offer:** which offer it feeds and the CTA word (verbatim from BUSINESS.md or "manual selection needed")
    - **Hooks:** 5 options, each ≤10 words, each matching a named shape from the forensics file, each passing the stranger test
-   - **Framework:** which of her five shapes this wants to be (House Report / Old Way New Way / How To + version / Hot Take / For The Girls), one line on why — this pre-seeds the /content-run brief
+   - **Framework:** which of the five production frameworks this wants to be (House Report / How To + version / Old Way New Way / Hot Take / For The Girls), one line on why — this pre-seeds the /content-run brief. House Report reinstated by Alyssa 2026-07-17.
 5. **Deliver to the Content Studio board in Notion** (database ID in the Cache section; created 2026-07-16). One row per option: Status = "Option", Lane = the lane it fits, **Offer = a RELATION to the live Products DB row** (data source `collection://2f4c8b43-e565-8149-a25f-000b38310c24` — pass the product page ID, never free text; Alyssa converted this property 2026-07-16), **Inspo (save) = relation to the source save row**, **Idea = relation to the source Content Ideas row** (whichever applies), full five-part text in the page body. No vault copy; the board is the single home for options (her picks flow back through /content-run).
 6. **Close the trays:** every save used in an option → Status "Reviewed" (→ "Used" once its post ships); every Content Ideas row promoted → Status "In progress" (→ "Done" once shipped). Nothing gets processed twice.
 7. **Report to Alyssa in one line:** how many options landed, the single best hook of the batch, and the runway (how many approved posts are waiting to be built, so she knows when a 10-minute tap session is due). Nothing else.

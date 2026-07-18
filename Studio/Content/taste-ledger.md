@@ -54,6 +54,15 @@ After four structural fixes she still said "it doesn't sound like me lol we're g
 
 **Distilled (durable):** Voice comes from her real carousels, not her sales pages. Created [[Studio/Content/her-carousel-voice.md]] (compact: one real deck verbatim + the tells) and added it to the writer's load in [[.claude/commands/content-run]]. The token optimization that removed her real slides was the direct cause of the flatness. Exemplars beat rules for voice. Headers must be short verdicts/coinages, never sales-page explainer sentences. The proof beat (spine job 4) uses her real numbers (sub-1% organic reach vs her ~43% Simmer open).
 
+## Ruling 2026-07-17 — react to the first compiler run (verbatim)
+
+Her words on the four 2026-07-17 decks (both 5MN options, both Bingeable options): "i dont wanna react to the old ones bc i dont like htey ... so far the output doesnt sound like me and the hooks are shit - tbh the previous version on 16th was getting closer." All four marked Killed on the board without individual reacts.
+
+**Distilled (durable):**
+- **Invented connective tissue reads as not-her.** The 2026-07-16 decks were closer BECAUSE they were verbatim-heavy with minimal bridging. The 07-17 decks added invented metaphor extensions (the soufflé bit, "opening night") and that is where the voice broke. Bridging sentences: as few as possible, under 10 words, never a new joke in her metaphor world unless she supplied it.
+- **Hooks need her cover register, not title-case statements.** Her real covers: "sry julia child, gourmet email marketing is out." · "the tiny list effect" · "delete your leads, quick" · "What's actually shifting in 2026 (And What To Do Instead)". Lowercase-casual is legal, weird/unexpected word choices, talks TO the reader, curiosity plus a result or loss. A grammatically tidy title-case claim is the AI tell.
+- Calibration exemplar for writers: the "sry julia child" board page (3a0c8b43e56581e5b5b5d9b943661a4f), the deck she called closest to good.
+
 ## Board notes 2026-07-16/17 (from Her notes column, verbatim)
 
 - "The Year Restarts In July. (For CEOs, Anyway.)" — ✅ "I like this concept"
@@ -63,7 +72,21 @@ After four structural fixes she still said "it doesn't sound like me lol we're g
 
 - 2026-05-11 — toddler negotiation post: 1,621 reach / 102 likes / 18 comments / 57 saves / 15 shares (live Composio pull).
 
+## Ruling 2026-07-17 — sequences over paperwork, understanding over rules (verbatim)
+
+Her words on the compiler: "i dont think the briefs are good and the agents have too much up front work to do before getting to the point." · "i want the writer to be able to follow a good copy framework and sequence" · "i really still think some of your older versions were stronger AND i think that we could fold in middle stuff like step 5 says teach 2 specific shifts the required middle doesnt need to repeat it if we can cleanly say it once" · "and the briefs are trash." Via Larry's codex report, same day: "Idk this is too rigid? I want it to understand not follow rules - come up with ideas from understanding deeply" · "Seems like the briefs themselves are shit" · "I have a for the girls file it can be used to come up with good ideas idk why there's more mood shit being proposed."
+
+**Distilled (durable):**
+- **The forward sequence IS the framework.** She pasted the three sequences she wants writers to follow (House Report market-shift, Old Way / New Way exit, and the false-premise pivot). They live at the top of the framework cards, with the "required middle" folded INTO the numbered steps, stated once, never repeated as a separate checklist.
+- **House Report is live again.** Her paste of its sequence overrides the 2026-07-17 retirement. Five frameworks: House Report, How To, Old Way / New Way, Hot Take, For The Girls.
+- **One pre-writing artifact, not four.** The writer fills the chosen card's sequence (topped with argues / villain / not-about) and writes. The seven-job spine is the checker's rubric, not writer paperwork.
+- **Briefs are offer intelligence, not quote piles.** A brief names what the thing IS, what it sells, the buying beliefs, and the separate argument lanes (so gourmet-is-out and six-burners never mash), with the verbatim bank underneath. A writer may propose a NEW lane if it proves the idea from her source lines.
+- **FTG needs no mood database.** Her existing FTG files are the source; the live mood is formed per post from current saves and trends, and only moods she picked or edited get logged.
+
 ## Rulings (durable)
+
+- 2026-07-17 — Chat words are solved and off-limits, verbatim: "forget about the chat words pls dont ask me again i solved this." Pull from the Products DB at ship time; a blank stays a silent "Before it ships" flag, never a question to her. Same family as the 2026-07-06 price ruling ("why do you need to know. just keep moving").
+- 2026-07-17 — A Year of Emails parked, verbatim: "forget about a year of emails for now." No runs, no pitches, no questions until she reopens it.
 
 - 2026-07-16 — The volume/taste split, verbatim: "maybe volume is your asset and taste is mine yknow?" — she reacts to finished posts, several at once; never spend her attention on fragments.
 - 2026-07-16 — The value law, verbatim: "even offer posts have MAD value every post should blow someone away with something useful THEN that earns the ask." Third gate in METHOD; every option and post names what a non-buyer walks away with.

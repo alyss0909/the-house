@@ -84,3 +84,5 @@ Compressed reference, useful only if Iris or Alyssa's external designer ever nee
 - Baseline: [[Archive/inbox-dead-executed/Recent Instagram Covers]], [[Studio/Content/craft-references/2026-07-08-recent-instagram-covers-suki-intake]]
 - Judgment layer: [[Studio/Team Knowledge/Guidelines/GL-010-content-pitch-operating-brain]]
 - Charter: [[Studio/Team Knowledge/Guidelines/GL-012-content-os-strategy-lead-charter]]
+
+**Related external inspo (resurfaced 2026-07-18):** [[2026-06-17-mb-trend-report-wedding-filmmaking-2026]] — the Musicbed 2026 wedding-filmmaking trend report she saved; same source PDF behind [[2026-06-24-launch-visual-palette]]. Visual-direction input only, never strategy.

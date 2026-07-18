@@ -8,6 +8,15 @@ desk: Mailroom
 
 # Notion Mailroom — build spec
 
+> **BUILT 2026-07-17 — current truth, read this first.** The database is live
+> under House Control Room. Database `ee22093d51044162800354e40cb2bad4` · data
+> source `ddf15d60-e8b8-40be-a6e9-1c99ba7452bf`. Type options `reply` / `task`
+> / `noise` (as in the seed tables below). Three views: **Needs reply**,
+> **Your tasks**, **Put away**. 24 real items seeded. worker.js
+> `MAILROOM_DB_IDS` points at this id. (A grouped single-view rebuild was tried
+> 2026-07-17 and reverted — Alyssa preferred the three-tab layout.) The button
+> hand-step (section 5) is still pending Alyssa.
+
 The Notion mirror of the Obsidian [[MAILROOM]] dashboard. Mack scoped and
 seeded it here; **Larry runs the actual Notion writes in his Composio
 session** (Mack's subagent session has no Notion access). Additive only —

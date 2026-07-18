@@ -12,9 +12,24 @@ name = "mailroom-bridge"
 main = "worker.js"
 compatibility_date = "2026-01-01"
 
-# Free tier. No KV, no durable objects, no cron needed for the instant path.
 workers_dev = true
 
 # No plaintext vars. Everything sensitive is a secret (see above).
 [vars]
 # (intentionally empty — do not put secrets here)
+
+# --- HIGH-1: rate limiting (Vex audit) ---------------------------------------
+# Native Rate Limiting binding = the burst cap. ~30 requests / 60s over a
+# single fixed "global" bucket, checked in worker.js after auth, before work.
+[[unsafe.bindings]]
+name = "RATE_LIMITER"
+type = "ratelimit"
+namespace_id = "1001"          # arbitrary unique id for this limiter
+simple = { limit = 30, period = 60 }
+
+# KV counter = the hourly DRAFT cap (each draft is an Opus call + Gmail write).
+# Create the namespace once: `wrangler kv namespace create MAILROOM_KV`, then
+# paste the printed id below before deploying.
+[[kv_namespaces]]
+binding = "MAILROOM_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"

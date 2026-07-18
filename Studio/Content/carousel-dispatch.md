@@ -1,197 +1,83 @@
 ---
 title: Carousel Dispatch
 type: production-router
-status: active
-date: 2026-07-17
+status: active — v2 2026-07-17, rebuilt on Alyssa's ruling: sequences over paperwork, one pre-writing artifact, five frameworks, understanding over rule-following
 source_manual: "[[Studio/Analysis/carousel-winning-flow-report]]"
 writer_rules: "[[Studio/Content/writer-kit]]"
 ---
 
 # Carousel Dispatch
 
-This is the front door for carousel production.
+The front door for carousel production. Its job: get the writer to a good copy sequence FAST, with her real source in hand, and put two full drafts on Alyssa's desk. Minimal paperwork; the sequence is the plan.
 
-Use this file before any writer starts. Its job is to force the carousel outline first, stop concept-sludge, choose two strong routes, and put two full carousel drafts on Alyssa's desk without making each writer load the whole house.
+## The load (this file is the ONLY owner of the writer load; other files point here)
 
-The source manual is [[Studio/Analysis/carousel-winning-flow-report]]. Do not load it during normal writing. Its best thinking has been compiled into the framework cards.
-
-## Default Load
-
-Larry/orchestrator loads:
+Orchestrator loads:
 
 1. This file.
-2. The one offer brief in `Studio/Content/briefs/`.
-3. [[Studio/Content/taste-ledger]] only if the current offer or angle has live corrections there.
+2. The one brief from `Studio/Content/briefs/` (offer brief, angle brief, or the For The Girls brief).
+3. [[Studio/Content/taste-ledger]] only if the offer or angle has live corrections there.
 
 Each writer subagent loads only:
 
 1. [[Studio/Content/writer-kit]]
-2. The same offer brief, angle brief, or FTG mood brief.
-3. One framework card:
+2. [[Studio/Content/her-carousel-voice]] — NON-NEGOTIABLE. Cutting it caused the "doesn't sound like me" loop (taste-ledger 2026-07-17). It stays unless Alyssa herself removes it.
+3. The same brief. Open the full sales page or deliverable the brief names only when the angle needs more verbatim lines than the brief holds.
+4. One framework card:
+   - [[Studio/Analysis/Frameworks/carousels/house-report]]
    - [[Studio/Analysis/Frameworks/carousels/how-to]]
    - [[Studio/Analysis/Frameworks/carousels/old-way-new-way]]
    - [[Studio/Analysis/Frameworks/carousels/hot-take]]
    - [[Studio/Analysis/Frameworks/carousels/for-the-girls]]
 
-Do not load [[Studio/Content/METHOD]], [[Studio/Analysis/carousel-hook-forensics]], or the full [[Studio/Analysis/carousel-slide-by-slide]] during a normal run. The cards carry the compressed moves. Open deep files only when rebuilding a card, not when writing a post.
+Do not load METHOD, hook-forensics, or the full slide-by-slide during a normal run. They are card-rebuilding sources, not writing loads.
 
-## Step 1: Carousel Outline
+## Step 1: The sequence fill (the ONLY pre-writing artifact)
 
-This is the bare minimum. Everybody starts here.
-
-Before concept lock, route choice, hooks, or framework cleverness, fill the universal carousel outline:
+Pick the framework card whose "when to use" line fits. Then fill one block, in plain language:
 
 ```md
-Cover hook:
-
-Slide 2 open loop:
-
-Old way / problem:
-
-Proof or validation:
-
-Teaching:
-
-Turn:
-
-CTA:
+This post argues: (her belief line, verbatim from the brief, or an argument lane from the brief)
+Villain (exactly one):
+NOT about:
+The card's forward sequence, one line per step, each teaching step naming the source line it will use:
+1.
+2.
+3.
+...
 ```
 
-This is not optional. If the writer cannot fill the carousel outline in plain language, the post is not ready for a framework.
+Rules:
 
-No route, no subagent, no draft before this exists.
+- The forward sequence on the card IS the slide plan. A deck that is merely "about" the topic but does not march the sequence fails.
+- One villain. If a second villain appears, stop and split into two posts.
+- If the brief's argument lanes fit, use one. If the source material supports a better idea, PROPOSE a new lane: point, villain, promise, the source lines that prove it, what it is not about, and why it deserves its own post. Do not draft from a new lane until the orchestrator accepts it or flags it for Alyssa. The system is allowed to think; it is not allowed to invent beliefs adjacent to hers.
+- If any step is vague, fix the fill, not the draft.
 
-## Step 2: Concept Lock
+There is no separate carousel outline, concept lock, framework outline, or source receipt anymore. This one block does all four jobs. The seven-job spine (cover hook, second hook, old way, proof or validation, teaching, turn, CTA) is the CHECKER'S rubric; writers do not paperwork it separately.
 
-After the carousel outline exists, lock the concept from the offer brief and Alyssa's stated angle.
+## Step 2: Route two full versions
+
+Pick the two strongest routes from the five frameworks. Version B must differ from Version A by framework, buying belief, pressure, or content role, never by hook alone.
+
+## Step 3: Writer subagents
+
+One writer per version, clean context, no prior work in it. Each writer gets the load above plus the filled sequence block pasted into its prompt.
+
+Each writer returns:
 
 ```md
-This post argues:
-
-This post is NOT about:
-
-Villain:
-
-Promise:
-
-Metaphor or bit:
-
-Teaching:
-
-Offer bridge:
+1. The filled sequence (updated if writing sharpened it).
+2. 5 hook options, 10 words max each.
+3. Full carousel copy, each slide tagged with its sequence step.
+4. Caption and CTA line.
+5. Source lines used, with the brief section each came from.
 ```
 
-Kill the concept if it has two villains.
+## Step 4: Deliver two complete options
 
-Example: The 5 Minute Newsletter can argue "gourmet email marketing is out, one-pan simmer is in." That villain is overbuilt email. It cannot also argue "your six-channel content calendar is too much" in the same deck. That is another post.
+Both versions land on the Content Studio board per /content-run Stage 6 (julia-child format). No option may say "teaches the method," "walks through the framework," or "shows them how" without naming the actual parts. No option may drift to a second villain.
 
-## Step 3: Route Two Full Versions
+## The rule
 
-Carousel posts use four frameworks:
-
-- **How To**: the reader wants the result and needs the method to feel doable.
-- **Old Way / New Way**: the reader is stuck in an approach that used to make sense but now costs too much.
-- **Hot Take**: the reader will not believe the claim unless the post proves it first.
-- **For The Girls**: the reader needs recognition, permission, and brand-world affinity more than a plan.
-
-House Report is no longer a default framework. Use market pressure inside one of the three normal frameworks when the argument depends on "things have changed."
-
-Pick two routes. If one route is obviously wrong, do not force it; use the two strongest routes from the four.
-
-Version B cannot be only a new hook. It must differ by framework, buying belief, pressure, or content role.
-
-## Step 4: Source Receipt
-
-Before spawning writers, name the source packet each writer gets.
-
-```md
-Offer brief:
-Offer line the writer must preserve:
-Framework card:
-Real carousel precedent inside the card:
-Alyssa-specific texture/detail to preserve:
-```
-
-No source receipt, no draft.
-
-## Step 5: Writer Subagents
-
-Spawn two writer subagents when Alyssa wants options.
-
-Each subagent gets:
-
-```md
-Write ONE full carousel version.
-
-Load only:
-- Studio/Content/writer-kit.md
-- <the offer brief>
-- <your assigned framework card>
-
-Use this locked concept:
-<paste Concept Lock>
-
-Use this carousel outline as the spine:
-<paste Carousel Outline>
-
-Your assigned route:
-<How To / Old Way New Way / Hot Take / For The Girls>
-
-Return:
-1. Carousel outline, slide by slide, filled first.
-2. Framework outline, filled for this exact post.
-3. Source receipt.
-4. 5 hook options.
-5. Full carousel copy.
-6. Caption and CTA line.
-7. Source lines used from the offer brief.
-
-Do not summarize the framework. Fill it.
-Do not browse wider. The framework card is your compressed source packet.
-```
-
-Each writer produces one full thing. Alyssa chooses between two finished drafts, not two vague directions.
-
-## Step 6: Required Output To Alyssa
-
-Deliver two complete options:
-
-```md
-## Option A
-Framework:
-Why this route:
-Carousel outline:
-Framework outline:
-Hooks:
-Full carousel:
-Caption:
-CTA:
-
-## Option B
-Framework:
-Why this route:
-Carousel outline:
-Framework outline:
-Hooks:
-Full carousel:
-Caption:
-CTA:
-```
-
-No option is allowed to say "teaches the full method," "walks through the framework," or "shows them how" unless it immediately names the actual teaching parts.
-
-No option is allowed to drift into a second villain. If the concept lock says the villain is overbuilt email, the draft cannot also argue against the entire content calendar.
-
-## The Rule
-
-The framework card tells the writer how Alyssa performs the move.
-
-If the card says "show what staying with the old move costs," the writer should see:
-
-- how Alyssa protects the reader first
-- what costs she names
-- which source posts prove the move
-- what to write toward
-- what not to write
-
-That is why the writer does not need the whole slide-by-slide file. The slide-by-slide intelligence has already been metabolized into the card.
+The framework card tells the writer how Alyssa performs each step: what to write toward, what not to write, and which real deck proves the move. The writer goes deep into one card, not wide across the house.

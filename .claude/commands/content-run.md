@@ -22,8 +22,17 @@ Run list = board rows with Status "Approved" plus any slot Alyssa names. Hard ca
 ## Stage 2 — The brief (one line, on the page, before any writing)
 
 For each post, write at the top of its board page:
-`BRIEF: offer + buying belief (from the pack header) + framework (House Report / Old Way New Way / How To + version / Hot Take / For The Girls) + content role (freebie, product, class, paid, waitlist, affinity) + hook direction`
+`BRIEF: offer + buying belief (her verbatim belief line from the brief, never a paraphrase) + framework (House Report / How To + version / Old Way New Way / Hot Take / For The Girls — five cards, House Report reinstated by Alyssa 2026-07-17) + content role (freebie, product, class, paid, waitlist, affinity) + hook direction`
 Framework choice comes from the framework card's "when to choose" test, with one variety guard: check the last run receipts in `Studio/Content/runs/`; if 3 of the last 4 built posts used the same framework, choose the second-best fit instead. A month of twelve posts should not be nine How Tos. Nobody writes until this line exists. Alyssa can veto it in five seconds.
+
+## Stage 2.5 — The sequence fill (from [[Studio/Content/carousel-dispatch]] Step 1; ONE artifact, simplified 2026-07-17 on her "too much up front work" ruling)
+
+Before any writer is dispatched, the orchestrator fills one block on the board page under the brief line: this post argues (her verbatim belief line or a brief argument lane) / villain, exactly one / NOT about / the chosen card's forward sequence in plain language, each teaching step naming its source line.
+
+Rules:
+- Inventing an adjacent belief broke the julia v1 deck; the argument comes from the brief or a proposed lane proven with her source lines (dispatch Step 1 new-lane rule).
+- Two villains means kill or split. Example: 5MN argues "gourmet email is out" OR "six burners going when one will do," never both in one deck.
+- No separate carousel outline, concept lock, framework outline, or source receipt. The fill does all four jobs; the spine is the checker's rubric.
 
 ## Stage 3 — The copy pull (mechanical, no judgment, nothing stored)
 
@@ -31,37 +40,34 @@ Read ONLY this offer's brief at `Studio/Content/briefs/<offer-slug>.md` (slug ma
 
 ## Stage 4 — The clean writer (one fresh context per post, no exceptions)
 
-Dispatch one writer subagent per post. Its reading list is EXACTLY this, nothing more (kept lean on purpose — this is the token fix, 2026-07-17):
-1. `Studio/Content/writer-kit.md` — the rules (spine, framework, signature). Do NOT load full METHOD or hook-forensics; deep reference only.
-2. `Studio/Content/her-carousel-voice.md` — her CAROUSEL register, from real slides. This is the voice target. Sales-page copy is substance; this is how it sounds on a slide. Match her short punchy headers and her reporter-with-receipts body register.
-3. The framework card (`Studio/Analysis/Frameworks/carousels/<framework>.md`).
-4. The offer's brief (`Studio/Content/briefs/<slug>.md`) plus the one sales page or deliverable it names. Substance and verbatim lines, but re-voiced to the carousel register in point 2.
-Do NOT open `carousel-slide-by-slide.md` or slide images by default; the card carries the calibration. Open them only if the card explicitly says the calibration is insufficient for this post.
-The writer FIRST produces a slide plan on the Carousel Spine (writer-kit): every deck guarantees all seven spine jobs (cover hook, second hook, old way/problem, proof or validation, teaching, turn, CTA), then maps the chosen framework's forward sequence onto them. Each slide is tagged with its spine job AND its framework step. A deck missing a spine job (usually proof/validation, which How To drops) or not marching the sequence gets rejected at the gate.
-The writer's context must be mostly her words. It produces TWO structurally different versions (different bit, different arc), each with 2 covers, 5 hooks (10-word cap, named shapes), slide bodies assembled from the pack's verbatim lines re-broken into slide grammar (25 to 65 words on teaching slides, 9 to 11 slides on education and offer decks), caption, CTA with the verbatim chat word from the Products DB or "manual selection needed."
-Per slide, the writer records its source: the pack section each body line came from. Claims without the trace do not count.
+Dispatch one writer subagent per version. The writer load is defined in [[Studio/Content/carousel-dispatch]] (the ONLY owner of the load list): writer-kit + her-carousel-voice (non-negotiable) + the brief + one framework card. Open a sales page or deliverable the brief names only when the angle needs more verbatim lines than the brief holds. Do NOT open `carousel-slide-by-slide.md` or slide images by default.
+The writer also receives, pasted into its prompt: the Stage 2 brief line and the Stage 2.5 sequence fill. The argument is not negotiable inside the writer.
+The card's forward sequence IS the slide plan; the writer tags each slide with its sequence step. The seven-job spine is verified by the checker, not written out by the writer.
+The writer's context must be mostly her words. Each writer produces ONE full version (reconciled with [[Studio/Content/carousel-dispatch]] 2026-07-17: one writer, one version, full depth). For each post, dispatch TWO writers; Version B must differ from Version A by framework, buying belief, pressure, or content role, never by hook alone. Each version carries 2 covers, 5 hooks (10-word cap, named shapes), slide bodies assembled from the brief's verbatim lines re-broken into slide grammar (25 to 65 words on teaching slides, 9 to 11 slides on education and offer decks), caption, CTA with the verbatim chat word from the Products DB or "manual selection needed."
+Per slide, the writer records its source: the brief section each body line came from. Claims without the trace do not count.
 Never batch two posts in one writer. Never write in a context that did other work first.
 
 ## Stage 5 — The checker (separate fresh context, cannot be sweet-talked)
 
-The checker never asks the writer anything. It receives the drafts, the pack, and the named sources, and runs:
+The checker never asks the writer anything. It receives the drafts, the offer brief, the concept lock, and the named sources, and runs:
 1. **Source trace:** every teaching slide body must contain at least one run of 8 or more consecutive words found verbatim in a named source. Slides that fail get flagged by name.
 2. **Density:** word count per teaching slide (25 to 65), slide count (9 to 11 for education and offer decks), hook length (10 words max, all 5 options).
 3. **Banned strings:** em dashes, arrows, "unlock," "elevate," "game-changer," "it's not X it's Y" symmetry, question-mark covers, reframe covers.
 4. **Spine + framework execution:** confirm all SEVEN spine jobs are present (cover hook, second hook, old way/problem, proof or validation, teaching, turn, CTA) AND each framework step appears. The usual miss is spine job 4 (proof/validation), which How To's sequence drops. A missing spine job or framework step is a fail, not a nitpick.
-5. **The three gates** from METHOD section 7: lineup test against two real posts, stranger test (name the bit), value test (name what a non-buyer walks away with).
-5. **Product facts:** price, chat word, link against the live Products DB row.
+5. **Concept fidelity:** the deck argues the concept lock's belief (her verbatim line from the brief, not an adjacent invention), has exactly ONE villain, and names what the product IS (a Notion planner, a template, a campaign), not just what it feels like. Drift to a second villain or an invented belief is a fail, not a nitpick.
+6. **The three gates** from METHOD section 7: lineup test against two real posts, stranger test (name the bit), value test (name what a non-buyer walks away with).
+7. **Product facts:** price, chat word, link against the live Products DB row.
 Failures get one rebuild in the same writer context with the failure named, then ship WITH the flag visible in "Before it ships." Failed versions are KEPT (paste under a toggle "earlier version, failed: [reason]" on the page) — her verdicts on failures are the eval set.
 
 ## Stage 6 — Deliver in HER format (the julia-child standard)
 
 Every version lands on the Content Studio board as its own page, Status "Ready for Alyssa," matching the format she built on the "sry julia child" page (3a0c8b43e56581e5b5b5d9b943661a4f):
-purple callout sections in this order — **The Framework** (forward sequence + beliefs, from the card) / **The Concept** (idea in one line + the value a non-buyer gets) / **Pick a cover** (2) / **Hook Options (5)** / **The slides** (each slide a headline heading, body below, divider between slides, functional image ideas in parentheses) / **Caption** / **Before it ships** (flags only: missing chat word, checker flags, anything needing her).
+purple callout sections in this order — **The Framework** (forward sequence + beliefs, from the card) / **The Concept** (idea in one line + the value a non-buyer gets) / **Pick a cover** (2) / **Hook Options (5)** / **The slides** (each slide a headline heading, body below, divider between slides — copy only, no image ideas or art direction, her rule 2026-07-17) / **Caption** / **Before it ships** (flags only: missing chat word, checker flags, anything needing her).
 Offer property = RELATION to the live Products DB row. Report to Alyssa: one line per post naming its bit, plus flags. Say "ready for your picks," never "final."
 
 ## Stage 7 — The receipt (every run, no exceptions)
 
-Write `Studio/Content/runs/YYYY-MM-DD-run.md`: which posts, which frameworks, which pillar/area each post served, exact files each writer loaded (including image files), checker results per version, flags shipped, and a blank "her reacts" section that Stage 0 of the NEXT run fills in. If quality dips, this file shows which stage cheated; if a month skews to one area or one framework, the receipts show it before Alyssa has to feel it.
+Write `Studio/Content/runs/YYYY-MM-DD-run.md`: which posts, which frameworks, which pillar/area each post served, exact files each writer loaded, checker results per version, flags shipped, and a blank "her reacts" section that Stage 0 of the NEXT run fills in. If quality dips, this file shows which stage cheated; if a month skews to one area or one framework, the receipts show it before Alyssa has to feel it.
 
 ## The orchestrator never writes slides (her ruling 2026-07-17)
 
@@ -73,5 +79,5 @@ Larry (or whatever orchestrates) NEVER writes or hand-patches slide copy, not ev
 - Never invent product facts. Products DB is canonical at ship time. (5 Minute Newsletter price is settled: $11. Do not ask her again.)
 - No re-skins of published posts (`Library/Examples/Carousels/INDEX.md` is the check), no artifact reuse (METHOD section 5).
 - Never CTA to Unignorable Subject Lines. Slowly Viral has no live CTA until she says so.
-- FTG posts run METHOD section 8 and the for-the-girls card; source trace and density checks do not apply to FTG, the stranger test does.
+- FTG posts run the for-the-girls card and its FTG checker (in the card): named felt pressure, one concrete little detail, a reclassification, one principle line, FTG line style, no tactical steps, no hard CTA, no explained business point, and the repost test ("would someone send this to say me"). Source trace and density do not apply; the stranger test does.
 - Anything Alyssa reads is written in plain complete sentences. No em dashes, no arrows, no team jargon.

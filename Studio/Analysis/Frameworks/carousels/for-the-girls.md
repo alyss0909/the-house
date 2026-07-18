@@ -183,6 +183,18 @@ Do not write: "comment WAITLIST and I'll send you the link."
 - **Waitlist:** allowed as a soft world-seed if it reads like brand, not pitch.
 - **Affinity:** this is the main job. End with recognition, a question, a sign-off, or a soft invitation.
 
+## The FTG Checker (run by /content-run Stage 5; replaces source-trace and density for FTG posts)
+
+- Names one felt pressure, guilt, or quiet resentment.
+- Uses one concrete little detail.
+- Reclassifies something "unproductive" as part of the work, process, or better business.
+- Includes one principle line that makes the post more than a mood.
+- Uses FTG line style: short, specific, intimate, lightly absurd or emotionally familiar.
+- Has no tactical steps.
+- Has no hard CTA.
+- Does not explain the business point directly.
+- The repost test: would someone send this to a friend to say "me"?
+
 ## Failure Modes
 
 - Concept named as a lesson or clever mechanism instead of a simple, felt line.
