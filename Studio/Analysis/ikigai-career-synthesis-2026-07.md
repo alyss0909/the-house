@@ -1,119 +1,118 @@
 ---
-title: Ikigai career synthesis — what to focus on and why
+title: Ikigai career synthesis — what's missing from what you're already doing
 date: 2026-07-19
 owner: Larry
-status: DRAFT — needs Alyssa's reaction
-sources: five research passes 2026-07-19 (vault sweep, session-history behavioral profile, public footprint, market landscape, funnel economics) + her direct answers this session
+status: DRAFT v2 — v1 rejected same-session ("reductive — there are already dozens of bots inside back of house"); rewritten as a diagnosis, not a pivot
+sources: five research passes 2026-07-19 (vault sweep, session-history behavioral profile, public footprint, market landscape, funnel economics) + her direct answers this session + BOH bot roster
 ---
 
-# The one direction
+# What's missing
 
-← [[Studio/MAP|Studio]] · feeds [[Notebook/Life/Projects/rebrand|Rebrand]] · grew from [[middle-ground-entrepreneur]] · [[ai-team-as-mirror-not-replacement]] · [[people-undervalue-niche-obsessions]] · [[Library/me.md]]
+← [[Studio/MAP|Studio]] · feeds [[Notebook/Life/Projects/rebrand|Rebrand]] · grew from [[middle-ground-entrepreneur]] · [[people-undervalue-niche-obsessions]] · [[Library/me.md]] · [[Library/Programs/back-of-house/5. Bonuses/bots|BOH Bot Roster]]
 
-**You are not scattered. You have been building one thing from five directions, and it already has a name you coined: Back of House. The move is not a new brand, a new niche, or a pivot. The move is: Back of House grows an AI wing, and you become the person who teaches creative service providers to run an AI-powered back of house that protects their voice instead of flattening it.**
+**Your business is named Back of House, and that is also its diagnosis. You have built a world-class back of house — the $3k flagship with 11 voice-trained bots already inside it, a $12k installation offer, an AI production house running your content and inbox, a metaphor world nobody can copy. What's missing is the front of house: the door new people walk through, the sign on the street, and the host counting covers. Nothing needs to be added to what you do. The missing thing is that almost nobody new finds out you do it.**
 
-One sentence: *you teach obsessive, niche, creative people to build businesses that run themselves — email, Pinterest, and now a small AI team — so they can stay obsessed with their actual craft instead of feeding the machine.*
+The Ikigai quadrants aren't the problem — they already intersect. You love this work, you're demonstrably great at it, the world needs it more every quarter (social reach collapsing, email compounding, anti-slop backlash institutional), and the price points that pay $30-40k/month already exist on your books. The gap isn't direction. It's flow: the machine converts, but nothing new is entering it.
 
-That is your Ikigai. Every quadrant checks out with receipts, below.
+## The evidence that the front of house is the gap
 
-## Why this is the answer (the four Ikigai quadrants, evidence-backed)
+Every research pass found the same wall from a different side:
 
-**What you love.** The session record is unambiguous. You design production systems in complete, vivid monologue form, unprompted — the Mean Alyssa gate, the maker ladder, the saves-sweep pipeline were all your designs; the team just typed them up. You run 15-session days that end at 1:30 AM when you're building the machine. You built your own voice bot (The Postmaster) before anyone asked. You do audits of your own tooling for fun. And your longest, densest, most energized messages are craft lessons — buyer psychology, carousel arcs, subject lines. You love two things above all: building the machine, and protecting the voice that goes through it.
+1. **The list is net-negative.** 1,672 in, 1,890 out over twelve months — 8,362 and shrinking. Meanwhile opens run ~40% and warm segments click 20-50%. The people who know you love you. There just aren't new ones. This is the single number under everything else.
+2. **Sales sends click under 1%** to the full list — not an attention problem (they opened), a saturation problem: the same 8k people have seen every offer. Conversion infrastructure without lead flow just re-asks the same room.
+3. **Your third-party trail stops in 2021.** Every findable podcast appearance is 2018-2021. A stranger doing diligence on a $3k program finds five-year-old validation.
+4. **The revenue-critical offers are invisible.** The $12k mentorship, Soft Sundays, and The 5-Minute Newsletter have zero public search footprint. The offer that gets you to $36k/month fastest cannot be found, priced, or applied to by a stranger.
+5. **Pirates outrank you.** Course-piracy sites are the top results for "Alyssa Coleman Back of House" — the most detailed public description of your own curriculum isn't yours.
+6. **Your site blocks AI crawlers** while buyers increasingly research through assistants. The machines that recommend programs literally cannot read your pages (they can read the pirates').
+7. **Three brand eras are live at once** — AlyssaCWellness handles, Productive Entrepreneur-era sales pages, current era — splitting the little discovery traffic that exists.
+8. **Your own traffic doctrine isn't running for you.** BOH Phase 3 is the Traffic Pantry; publicly, Pinterest sits at 4.5k with the funnel not visibly compounding. The cobbler's kids need the shoes: your medicine, taken at full dose, is the fix for #1.
 
-**What you're great at.** Direct-response copy and buyer psychology (you can articulate WHY copy works, which is rarer than writing it). Systems architecture (the house is a 14-specialist production system with quality gates, precedent law, and a compounding memory loop — you designed it in about ten weeks while running a business). Taste — fast, confident, final. And translation: the restaurant metaphor system is world-class positioning work; you make infrastructure feel like permission.
+None of these is a product gap, a positioning gap, or a voice gap. All eight are the same gap: discovery and distribution — the front of house.
 
-**What the world needs.** Social organic reach is 3-8% and falling while AI floods the feeds. Email is compounding (beehiiv paid-newsletter revenue +138% year over year). Pinterest is at all-time-high usage and behaves like search — your exact stack. Meanwhile the anti-slop backlash went institutional (YouTube's CEO named it a 2026 priority), and the "judgment and taste are the moat" consensus is everywhere. Most tellingly: Tiago Forte publicly stepped back from Building a Second Brain, saying AI obsoletes parts of it — the category king vacated the exact hill you already live on, with a production system he doesn't have. And the current "AI for creators" educators (Eliason, Lennon, Shipper, Drew) are all men selling volume-and-output to male X/LinkedIn audiences. Nobody credible is serving female-skewing creative service providers who are afraid AI will flatten their voice. That is precisely your room, and it is empty.
+## Why this gap and not another (the behavioral read)
 
-**What you can be paid for.** Proven, current demand: Nat Eliason did $200k in one week teaching non-developers to build with AI; Rob Lennon has done $1M+ as an AI trainer for content creators. Market pricing: AI workshops $500-1,200/person, system installations and audits $1,500-3,000, done-for-you AI retainers $1,500-4,500/month. Your existing $3k flagship + $12k mentorship already sit in the format the market is rewarding (high-touch beats self-paced — cohorts complete at 70-96% vs 10-20% and command 3-5x prices). What's commoditizing: evergreen how-to courses, prompt packs, generic AI content. What isn't: taught taste, voice-preservation method, working reference architectures, accountable implementation. You own all four.
+This isn't an accident and it isn't laziness — it's architecture. The session-history profile shows your energy goes to building the machine and gating quality, and it stalls on continuity-shaped work: the 45-48-day-stale tasks are all recurring, outreach-flavored, someone-else's-format chores. Audience acquisition — weekly pitching, consistent publishing, follow-up, tracking — is exactly that shape. So the business kept compounding where your energy lives (product: 27 offers, 11 bots, the house itself) and starving where it doesn't (distribution).
 
-**The proof asset nobody else has:** you run the thing you'd be teaching, in production, with receipts — a voice-clone writer rebuilt four times because "it doesn't sound like me" was intolerable, a taste ledger, adversarial quality gates, 155 logged sessions. In a market where most AI teachers are one chapter ahead of their students, you're a working kitchen.
+You already solved this problem class once. Content production used to require you to author; you rebuilt it until your only job was tapping reacts on finished decks. **Acquisition has never gotten that treatment.** There is no saves-sweep for lead flow. The fix is not "Alyssa does more outreach" — you won't, and the record proves it, and that's fine. The fix is making the front of house a system where the team runs the engine and you stay in the tap role, same as content.
 
-## The identity that makes it cohere
+## What's specifically missing (six pieces, all buildable from existing assets)
 
-Your own words, June 6 voice memo: you're the middle-ground entrepreneur — not AI maximalist, not luddite; you love a small team you can pay well AND you're allergic to vanilla AI output. You're the history girl, not the futurist: "I'm not here to tell you what's next... I'm here to tell you this is what works." Your three-things doctrine — grow the audience, email is king, give a shit about what you do — survives the AI era completely intact. AI changes none of it; it just makes the back of house bigger and the "give a shit" moat more valuable.
+1. **A lead engine with a number on it.** One lane: Pinterest → lead magnet → list, targeting 500-850 net-new subscribers/month (the volume that sustains the revenue math below). The Pin Engine project and Traffic Pantry doctrine already exist; this is self-application plus a weekly team-run cadence with a tap-report. Modest paid fill later ($6-12/webinar registrant, $8-15/lead at 2026 benchmarks) — ramped in fall, never Q1 (education CPLs swing +89% seasonally).
+2. **A scoreboard.** July's launch results exist nowhere in the vault — decisions are running without base rates. One page, team-maintained, tap-readable: net list growth, launch results, funnel conversions, revenue vs. the $30-40k target. You sell The Numbers; the house should keep yours.
+3. **A guesting engine.** The podcast-guesting-workflow project already exists and stalled — because it was your-shaped work. Make it house-shaped: team researches shows, drafts pitches in your voice through the existing pipeline, you tap send. The story bookers want in 2026 — "I run my business on an AI staff without sounding like AI, and my course has had bots since before it was cool" — is one you can tell in your sleep. This refreshes the 2021-frozen validation trail.
+4. **Front-door repairs** (one-time, delegable): public application page for the mentorship; discoverable pricing; DMCA the pirates; unblock AI crawlers on marketing pages; redirect the legacy-era pages and retire the wellness-era handles.
+5. **The last mile of content.** The house now produces decks that survive your gates; the remaining gap is cadence — reacts plus a posting mechanism so finished work actually reaches the feed on schedule. Production without publishing is inventory.
+6. **A moratorium on new doors.** Ninety days: no new offers, no new internal systems. The back of house is done enough. Consolidate the public ladder to four things — Soft Sundays + one lead magnet → 5-Minute Newsletter tripwire → BOH $3k → mentorship $12k — and let everything else become bonuses and order bumps. 27 doors reads like a garage sale; and every new door is energy diverted from the dining room.
 
-You are not anti-AI and never were. You have opinions about how creatives should use it — the Head/Hands/Heart instinct: AI does the hands, you keep the heart. That opinion IS the curriculum. The garden already named the module: "The Mirror, Not the Engine."
+## The strategy menu — four ways to $30-40k/month from the suite you already own
 
-One boundary to respect: the myPKA scaffold this vault grew from is Paperless Movement's IP (CC BY-NC-SA, registered trademarks). You cannot sell their scaffold. You don't need to — what you teach is YOUR methodology built on top: the voice-protection engine, the taste ledger, the content quality gates, the offer-aware pipeline. That layer is 100% yours, and it's the differentiated part anyway. (If anything, your ICOR membership is a channel and a credibility signal, possibly a collaboration path — not a constraint.)
+All four use only existing offers (prices from the offer maps: Mentorship $12k · Productive Entrepreneur $11k · BOH $3k · Rush Order $2,999 · Quarter in a Day $2k · 90-Minute Reset $333 · low-ticket tier $9-97). All four need the lead engine; they differ in how many leads, whose hours, and what rhythm. Alyssa picks the one she aligns with; the front-of-house build then gets specced to that choice.
 
-## Solo, collaborators, or corporation?
+### Strategy A — The Installation (private-client-led)
 
-**Solo, with your AI team and a thin ring of human collaborators. Employment is off the table** — zero appetite signals in six years of journals, "entrepreneur at heart" everywhere, and your burnout origin story was literally about managing humans. The behavioral profile shows the same thing structurally: you stall inside other people's machines (the 45-48-day-old tasks are all "Alyssa reviews X in someone else's format") and thrive when you own the architecture. Corporation: no. Collaborators: yes, exactly as you're doing — Adele for brand, a VA-shaped human for the tap-shaped work, affiliates and podcast hosts as distribution. The AI house is your staff. That's not a compromise; it's the demo.
+**Mix:** 2 × Private Mentorship ($24k) + 1 × Quarter in a Day as the downsell for near-miss applicants ($2k) + 2 BOH evergreen trickle ($6k) + low-ticket (~$1-2k) ≈ **$33-34k/mo**.
+**Requires:** ~35-50 applications → 7-10 calls → 2 closes/month (benchmark 20-30% close). ~400-600 net-new leads/month once the warm list depletes (roughly month 4+).
+**Your hours:** highest of the four — sales calls plus 1:1 delivery, but almost no content-volume pressure. **Fits:** client obsession ("obsessed with my clients' funnels"), fastest to target from the warm list, tolerates the smallest audience. **Risk:** calendar-bound income; two simultaneous installs is the ceiling without raising the price.
 
-## The money: $30-40k/month, with real numbers
+### Strategy B — The Evergreen Dining Room (course-led, machine-run)
 
-Your real prices change the math dramatically (the benchmarks assumed half your prices). Target $36k/month:
+**Mix:** 9 × BOH ($27k) + 2 Rush Order upsells ($6k) + low-ticket/order bumps ($2-3k) ≈ **$35-36k/mo**.
+**Requires:** ~600 webinar registrants/month (20/day) at the 1.5% evergreen benchmark → 800-1,200 net-new leads/month → Pinterest compounding + $5-10k/month paid fill. 3-6 months to stabilize at benchmark.
+**Your hours:** lowest of the four — fully tap-shaped once tuned; the house and the funnel do the work. **Fits:** the tap-role architecture you built; scales past $40k without your calendar. **Risk:** most patience and most ad spend; cold traffic judges the funnel, not the relationship — expect a tuning season before it holds.
 
-**The mix: 2 private mentorships ($24k) + 4 BOH sales ($12k) = $36k/month.**
+### Strategy C — The Launch Season (burst-led)
 
-What that actually requires:
-- **Mentorship leg:** at the benchmark 20-30% close rate on calls, 2 clients/month = 7-10 sales calls = roughly 35-50 applications. From a warm 8.4k list + 33k Instagram, that's achievable for several months before you need new lead flow. The AI-era positioning ("I'll install your back of house, including the AI wing") makes $12k an easier yes in 2026 than it was in 2024 — installation is exactly what the market is re-rating upward.
-- **BOH evergreen leg:** 4 sales/month at ~1.5% registrant-to-sale (evergreen webinar benchmarks) = ~270-300 webinar registrants/month, about 10/day. Sources: list, Pinterest (compounding, near-zero marginal cost, 6-12 month ramp), Instagram, plus modest paid fill at $6-12/registrant — call it $1.5-3.5k/month ad spend if organic covers half.
-- **Cross-check per subscriber:** healthy education businesses earn $0.50-1.00/subscriber/month. Your list alone at the top of that band is ~$8k/month — which is why the high-ticket layer is not optional at your list size. It's the difference between $8k and $36k.
+**Mix:** 4 BOH launches/year at ~$85-95k each (28-32 sales — right at the $10/subscriber-reached benchmark your list already supports) + 1 mentorship/quarter ($48k/yr) + Soft Sundays and low-ticket between ≈ **$32-40k/mo averaged**.
+**Requires:** 1,500-2,500 fresh leads per launch cycle (~500-850/month averaged); each launch is a 2-3 week sprint.
+**Your hours:** bursty — exactly your recorded rhythm (the May and July sprints, the June dark gap). Launch when locked in, disappear after, and the between-months are quiet by design. **Fits:** burst-collapse attention as a feature, not a bug; you've already run this play (July launch). **Risk:** feast-famine cash flow; a flopped launch is a $20k+ hole; requires recording results (scoreboard) to improve each cycle.
 
-**Starting from scratch** (you asked, even though you're not): benchmarks say $8-15 per quality email lead. A cold-start would need ~1,000-2,500 leads/month ($10-25k/month spend) to sustain course-led revenue — which is why the correct cold-start plays high-ticket-first: high-ticket tolerates $50-150 per application, so ~$5-8k/month spend can support the mentorship leg while the list compounds. You, with 8.4k warm subscribers and 33k IG, get to skip the worst 12 months of that curve. Your list is a free testing lab paid-traffic founders would kill for.
+### Strategy D — The Monthly Table (workshop/recurring-led)
 
-**Two repairs the data demands:**
-1. **The list is net-negative** (-218 over 12 months; 1,672 in, 1,890 out). Great opens (~40%), weak clicks on sales sends (sub-1%). This is a lead-flow problem, not an attention problem — they like you, there aren't enough new ones. Pinterest-to-lead-magnet is your own medicine; take it. One good lead magnet + 500-850 new leads/month sustains everything above.
-2. **Timing:** education-vertical ad costs swing +89% from summer trough to February peak. Build paid spend in late summer/fall, never ramp in Q1.
+**Mix:** monthly paid workshop at ~$97 × 100 seats ($9.7k) + Soft CEO Monthly at $37 × 300 members ($11.1k MRR) + 3 BOH ($9k) + mentorship every other month ($6k avg) + low-ticket ($1-2k) ≈ **$37k/mo at maturity**.
+**Requires:** ~400-600 net-new leads/month; the recurring base builds over 6-12 months.
+**Your hours:** one live teaching performance per month (your best mode — the webinar analysis shows it) plus tap-work; community largely house-managed. **Fits:** your existing Monthly Workshops goal (already in [[Notebook/Life/Goals/monthly-workshops|Goals]]), and the market's hardest trend (intimacy over scale: cohort/community formats complete at 70-96% and hold pricing power). **Risk:** slowest to target; churn is a real job; a monthly date with an audience is a commitment your June-style dark gaps would strain — the house would have to carry off-months.
 
-## What to do with the 27 offers (the publishing plan)
+### The common denominator and my lean
 
-The scatter is real: 27 offer folders, three brand eras live on the internet simultaneously, and your best current work (the AI house) completely invisible. Consolidation:
+Every strategy runs on the same missing front of house — they just size it differently (A/D ~500/mo, C ~850/mo, B ~1,200/mo). None works without the lead engine, the scoreboard, and the visible high-ticket door. My lean, for the drawer: **A now, B ramping underneath** — the installation lane hits the number fastest from warm assets while the evergreen engine tunes toward taking over; C and D are rhythm variants you can graft on later. But this is a genuine taste call about how you want your weeks to feel, which is why it's a menu.
 
-**Keep four things public. One ladder:**
-1. **Free:** Soft Sundays + ONE lead magnet lane (Pinterest → email-list lead magnet). Kill or vault the other opt-ins as sequence bonuses.
-2. **Low ticket:** The 5-Minute Newsletter as the tripwire/self-liquidating front end (the market pattern that's replacing call-first funnels).
-3. **Flagship:** Back of House, $3k — with a new fifth phase: the AI wing ("The Mirror, Not the Engine": your voice file, your taste ledger, your quality gates, your first AI teammate). Same promise, bigger back of house.
-4. **High ticket:** Private Mentorship, $12k, repositioned as the full installation — done-with-you back of house including the AI layer.
+## What stays exactly as it is
 
-Everything else — the Notion planners, trackers, resets, Soft CEO items — becomes program bonuses, order bumps, or archive. They're not dead; they're just not doors. A business with one door and four rooms reads focused; a business with 27 doors reads like a garage sale.
+Your positioning (middle-ground, slow marketing, the obsession is the business). Your voice. The metaphor world. The three-things doctrine. The $3k/$12k price architecture — already in the high-touch format the 2026 market rewards. The bots — already shipped, already yours, already differentiated; if anything they're under-marketed (an 11-bot AI staff inside a course, invisible to a stranger, in the year of the AI-slop backlash — that's a front-of-house story sitting in a bonuses folder). And the house itself keeps its job: production, filing, memory. Nothing about you needs to change. The restaurant just needs to open its front door.
 
-**Publish the house itself as content, not as a product.** Your content engine's best material is sitting in your session logs: "my AI writer failed four times before it sounded like me — here's the fix," "I built a mean-Alyssa gate that kills posts before I see them," "my inbox does its own filing." This is show-don't-tell marketing for both the flagship and the mentorship, it's inexhaustible, and nobody in your lane can copy it because nobody in your lane has one. The middle-ground essay (the June 6 voice memo, cleaned up) becomes the cornerstone piece the garden already asked for.
-
-**Public-footprint repairs** (from the footprint research, mostly delegable):
-- Kill/redirect the legacy pages (/tpe, /yes, /pitch, /live23) and the AlyssaCWellness-era handles — three eras live at once confuses every stranger who googles you.
-- DMCA the course pirates — they currently outrank your own sales page for "Back of House" and leak your curriculum.
-- Un-block AI crawlers on alyssacoleman.ca for the marketing pages — buyers increasingly research via LLMs, and right now the assistants literally cannot read your site (the pirates, ironically, they can read).
-- Restart the third-party trail: your podcast-guesting workflow project already exists; your validation trail stops in 2021. Pitch the middle-ground / AI-house story — it's a 2026 story bookers want.
-- Domain: keep **alyssacoleman.ca** as the home — it's established, it's you, and the research shows your equity is in your name plus "Back of House," not in any new name. If you want a product-brand domain for the flagship, pick a Back of House-family name (backofhouse-style domains, or a kitchen-metaphor name like The Prep Kitchen for the AI wing) — but check availability first and treat it as a pointer to alyssacoleman.ca, not a second identity. You do not need a rebrand; you need consolidation. Hand Adele this document as the brief.
+*(Drawer, not door: the market research found real demand for teaching AI-augmented systems to creatives — Eliason $200k/week, Lennon $1M+, Forte vacating the second-brain throne, no credible woman-audience player. If you ever want it, it's a workshop test to the warm list, not an identity. Parked unless you say otherwise.)*
 
 ## The party answer
 
-Short version (parties):
-> "I teach creative businesses to run on autopilot — email and Pinterest instead of posting every day, and lately I help them set up a small AI team too. Basically: the marketing runs itself so my clients can stay obsessed with the thing they're actually good at. I run my whole company that way — my AI staff has names."
+> "I'm a productivity strategist. My program's called Back of House — I teach creative service providers to build the marketing system that runs while they're offline, email and Pinterest instead of posting every day, so they can stay obsessed with what they're actually good at. My students get a staff of eleven little AI bots I trained on my own copy. And yes, I run my whole business that way too."
 
-Work-event version (peers/industry):
-> "I'm a productivity strategist — my program Back of House teaches service providers to replace the social-media treadmill with automated email and Pinterest systems. The last year I've been building the AI layer: I run a multi-agent system trained on my own writing, with quality gates so nothing generic ships. Now I'm teaching that — how to use AI without sounding like AI."
-
-The one-liner when someone says "oh, an AI person?":
-> "Opposite, kind of. I'm the person creatives call so AI does their busywork instead of their personality."
+Work-event version:
+> "I teach service providers to replace the social-media treadmill with automated email and Pinterest systems — my course has had a trained bot staff inside it since before that was a thing. The whole philosophy is: automate the busywork, never the personality."
 
 ## First 90 days (sequence, not a menu)
 
-1. **Now:** Hand this synthesis to Adele as the rebrand brief. Direction question answered: consolidate, don't reinvent.
-2. **Weeks 1-4:** Publish the middle-ground cornerstone essay (the voice memo is 80% written). Start the show-the-house content lane through the existing Content Studio pipeline. Fix the footprint (redirects, DMCA, crawler access) — team work, tap-approval only.
-3. **Weeks 4-8:** Pilot ONE paid workshop to the list: "Build your first AI teammate without losing your voice" at $500-750. 30-40 seats validates the AI wing with $15-30k of revenue before you build any curriculum. Your list at 40% opens will tell you the truth in one send.
-4. **Weeks 8-12:** Fold what the workshop teaches you into BOH as the fifth phase, reopen mentorship as "the installation" at $12k, and stand up the Pinterest→lead-magnet engine to fix net-negative list growth.
-5. **Ongoing guardrail:** taste-first, tool-second. The window for "teaches creatives AI systems" is 12-24 months before free content and Udemy eat the mechanics — but "teaches creatives to protect their voice while automating everything else" is durable, because it's not really about the tools. It's your three-things doctrine, and doctrine doesn't churn.
+1. **Now:** This document is the rebrand brief for Adele — consolidation, not reinvention. Domain stays alyssacoleman.ca.
+2. **Weeks 1-2:** Front-door repairs (#4) — team executes, you tap-approve. Scoreboard (#2) stands up with July launch actuals backfilled from memory in one journal line.
+3. **Weeks 2-6:** Lead engine (#1) live and reporting weekly. Content last-mile (#5) — the four Ready decks ship and cadence starts.
+4. **Weeks 4-12:** Guesting engine (#3) — first pitches out by week 5; goal: 4-6 bookings by week 12.
+5. **Throughout:** moratorium (#6). The scoreboard tells us by day 90 whether net list growth turned positive and applications started arriving — the two numbers that decide everything else.
 
-## The self-interview (your questions, answered from your own files)
+## The self-interview (answers that survive v2)
 
-1. **What do you need it to make?** $30-40k/month (your words, this session). Math above says: 2 installs + 4 BOH/month, ~300 registrants and ~40 applications a month, fixable with one lead-magnet lane.
-2. **What actually happened in recent launches?** July BOH launch ran (webinar, $1k off, last call July 10). Results were never recorded in the vault — worth one line in the journal so future planning has a base rate. Warm segments clicked 20-50%; the cold list under 1%. The engine works; the top of funnel is starved.
-3. **Hours/family?** Norah is 4; you've run 3-day weeks before and built this entire house partly at night. The design constraint is: your attention is burst-shaped, so the business must be tap-shaped — which is exactly what you built. Honor it: no offer that requires you to be the continuity layer.
-4. **Employment?** No. Six years of journals contain zero longing for a job and one entire identity built on leaving one.
-5. **Energy vs. drain?** Energy: architecting systems, teaching craft, writing in your own voice, rabbit holes. Drain: being a step in someone else's process, review-shaped chores, repeating yourself, vanilla output. The recommendation keeps you permanently on the energy side: you architect, teach, and taste; the house and the students execute.
-6. **The rebrand?** It's this. Not a new look for an undecided direction — a consolidation around the direction you've been circling since 2022 ("slow productivity and automation for the post-girlboss era" — you called it four years early).
-7. **Teach the AI stuff publicly?** Yes, but as a wing of Back of House, not as an AI-guru pivot. Your differentiation is that you'd teach it the way you built it: voice first, gates everywhere, delete anything that doesn't sound like you.
+1. **Money target:** $30-40k/month — reachable with the existing offers at existing prices; the constraint is applications and registrants, i.e., the front door.
+2. **Launch results:** never recorded; scoreboard fixes this permanently.
+3. **Hours/family:** burst-shaped attention, tap-shaped business — the front-of-house systems must run team-side like content does, or they'll join the 48-day stale pile.
+4. **Employment:** no. Six years of journals, zero appetite.
+5. **Energy vs. drain:** the missing pieces are all drain-shaped for you — which is exactly why they're missing, and why every one of them is specced above as team-run with you in the tap role.
+6. **Rebrand:** consolidation around what exists. You named the direction in 2022; the brand archaeology just needs the older eras retired.
+7. **Teach the AI stuff publicly?** You already do — the bots are curriculum. Market them louder; no new personality required.
 
-## What I'd watch (honest caveats)
+## Honest caveats
 
-- The comparables launched into 50k-130k audiences; you have 8.4k + 33k IG. Sequencing matters: validate inside the warm audience first, then widen via podcast guesting and Pinterest. Don't buy cold traffic for the AI offer until the workshop converts warm.
-- Some market numbers are single-source (67% AI-course growth, 79% AI-content share). Direction is solid; don't put the specific numbers on a sales page.
-- Tool churn is real. Teach principles and architecture (yours don't churn), demo with whatever tool is current.
-- The house's biggest recorded frustration — AI output that doesn't sound like you — is also the biggest risk of the teaching lane: your students will hit the same wall. That's not a bug in the offer; it IS the offer. Budget curriculum time for it accordingly.
+- The 500-850 net-new/month target is benchmark-derived; your own Kit source data (which subscribers came from Pinterest historically, what past launches converted) should replace it within the first month of the scoreboard existing.
+- Guesting has a lag — bookings land 4-10 weeks after pitching; don't judge it before week 12.
+- The moratorium will itch. Building new things is your energy. Point that energy at the front-of-house systems themselves — they're systems too, and nobody designs them better than you.
 
 ---
 
-*Full research briefs live in this session's log. Funnel benchmarks: WordStream/SuperAds/beehiiv/Pinterest SEC filings et al., July 2026. Behavioral profile: 155 session logs, May 26 - July 18. Public footprint: search-index reconstruction (site 403s automated fetchers). Market landscape: Eliason/Lennon/Shipper/Forte/Drew comparables.*
+*Full research briefs in this session's log. Funnel benchmarks: WordStream/SuperAds/beehiiv/Pinterest SEC filings, July 2026. Behavioral profile: 155 session logs, May 26 - July 18. Public footprint: search-index reconstruction (site 403s automated fetchers). Bot roster: BOH Phase 5 bonuses.*
