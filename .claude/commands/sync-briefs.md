@@ -38,7 +38,12 @@ and Notion needs updating.
    let a brief become the source of truth for product facts (those stay in the Products DB,
    surfaced by the `Offer` relation).
 
+6. **Vault links:** ensure every row's `Open in vault` URL is set to
+   `https://alyss0909.github.io/vault-links/?f=<URL-encoded path without .md>` (the house
+   redirector convention — never a raw `obsidian://`). Backfill any empty one.
+
 ## Guardrails
 - Frontmatter is disk-only.
 - Out-of-map pairs are never touched.
 - Product price/chat-word/status/link are canonical in the Products DB, not the brief.
+- `Open in vault` uses the vault-links redirector, never a raw `obsidian://` URI.

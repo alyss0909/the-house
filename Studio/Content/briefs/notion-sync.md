@@ -18,7 +18,20 @@ Products DB offer. This ledger records the mirror and the reconcile protocol.
 - **Data source id:** `collection://e6949e46-c40e-4ded-9de8-56a58a4f4e05`
 - **Products DB (relation target):** `collection://2f4c8b43-e565-8149-a25f-000b38310c24`
 - **Relation property:** `Offer` (two-way; shows as `Offer Brief` on the Products DB side).
-- **Other properties:** `Tier`, `Review Status`, `Chat Word`, `Source File`, `Last Synced`.
+- **Other properties:** `Tier`, `Review Status`, `Chat Word`, `Source File`, `Last Synced`, `Open in vault`.
+
+### `Open in vault` links (house convention)
+Notion cannot open `obsidian://` URIs, so the clickable jump-to-Obsidian link uses the
+vault-links redirector (see `scripts/obsidian-redirect/README.md` and the same rule in
+[[AGENTS]] for the Agent Tasks board). Format — never a raw `obsidian://`:
+
+```
+https://alyss0909.github.io/vault-links/?f=<URL-encoded path without .md>
+```
+
+For every brief that is `Studio/Content/briefs/<slug>.md` the value is
+`https://alyss0909.github.io/vault-links/?f=Studio%2FContent%2Fbriefs%2F<slug>`.
+`/sync-briefs` keeps this column populated for every row (backfill any that is empty).
 
 ## What is canonical
 
