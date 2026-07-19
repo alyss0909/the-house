@@ -72,9 +72,42 @@ All four use only existing offers (prices from the offer maps: Mentorship $12k �
 **Requires:** ~400-600 net-new leads/month; the recurring base builds over 6-12 months.
 **Your hours:** one live teaching performance per month (your best mode — the webinar analysis shows it) plus tap-work; community largely house-managed. **Fits:** your existing Monthly Workshops goal (already in [[Notebook/Life/Goals/monthly-workshops|Goals]]), and the market's hardest trend (intimacy over scale: cohort/community formats complete at 70-96% and hold pricing power). **Risk:** slowest to target; churn is a real job; a monthly date with an audience is a commitment your June-style dark gaps would strain — the house would have to carry off-months.
 
-### The common denominator and my lean
+### The common denominator
 
-Every strategy runs on the same missing front of house — they just size it differently (A/D ~500/mo, C ~850/mo, B ~1,200/mo). None works without the lead engine, the scoreboard, and the visible high-ticket door. My lean, for the drawer: **A now, B ramping underneath** — the installation lane hits the number fastest from warm assets while the evergreen engine tunes toward taking over; C and D are rhythm variants you can graft on later. But this is a genuine taste call about how you want your weeks to feel, which is why it's a menu.
+Every strategy runs on the same missing front of house — they just size it differently (A/D ~500/mo, C ~850/mo, B ~1,200/mo). None works without the lead engine, the scoreboard, and the visible high-ticket door.
+
+## CHOSEN 2026-07-19: B with a D layer (her pick, with her real numbers)
+
+Her corrections, same session: mentorship is $2k/month per client (2 active = $4k/mo recurring, not $12k upfront); BOH mostly joins on ~$200/month installment plans; she wants a self-liquidating ad funnel and a monthly paid invite layer into BOH.
+
+**The reframe that matters: with installment plans, BOH is an MRR ladder, not a cash-per-sale engine.** A join is ~$200/mo of stacking recurring revenue. The business model is: how many active payers are on the ladder, how fast do new ones join, how fast do old ones roll off. That suits B+D perfectly — it compounds monthly instead of spiking per launch.
+
+### The steady-state target (~$36-38k/mo)
+
+| Layer | Math | Monthly |
+|---|---|---|
+| BOH installment base | ~120-125 active payers × $200 | $24-25k |
+| Monthly paid workshop (the D layer) | ~100 seats × $67 avg | $6.7k |
+| Mentorship (capped, as-is) | 2-3 clients × $2k | $4-6k |
+| SLO funnel net + low-ticket + order bumps | breakeven-to-plus | $1-2k |
+
+### The four machines
+
+**1. The self-liquidating ad funnel (SLO).** Ad → The 5-Minute Newsletter ($37) → Unignorable Subject Lines ($9) order bump → The 90-Minute Reset ($333) upsell. Goal is not profit — it's buyers at ~$0 net cost (benchmark: $30-60 cost per $37-buyer; bumps/upsell push AOV to ~$55-90, which liquidates). Start $2k/mo spend → ~40-60 new BUYERS/mo (buyers ascend 5-15x better than leads). Ramp in fall, never Q1. Every buyer lands in the workshop invite sequence.
+
+**2. The Monthly Table (the D layer).** One paid workshop a month, $47-97 (start $67), themed from the BOH curriculum's greatest hits, one real win in 90 minutes, ending in a BOH invitation with the workshop fee credited against enrollment. Paid attendees show up (60-80% vs ~40% free) and convert to flagship at 5-15%. 100 seats/mo target: first months fill from the warm list (3.3k openers), then SLO buyers + Pinterest carry it. This is also her Monthly Workshops goal, live at last — one teaching performance a month, her best mode, everything else house-run.
+
+**3. The ladder itself.** ~10-12 new BOH joins/mo sustains a 120-125 active base at a ~12-month term (125 ÷ 12 ≈ 10.4 replacement rate). Sources: workshop conversions (8-12/mo at benchmark) + SLO/evergreen ascension (2-4/mo). Two levers that accelerate cash: a pay-in-full option ($3k) at even 20-30% of joins pulls revenue forward; failed-payment recovery (installment default runs 10-15% industry-wide — a dunning email sequence is free money and she literally sells list-revival copy).\n\n**4. The scoreboard, rebuilt around the ladder.** The number that runs this business is ACTIVE PAYERS, tracked weekly: joins, completions, failed payments recovered, net base. Plus workshop seats and SLO cost-per-buyer. (Current active-payer count and installment term aren't in the vault — first scoreboard job is pulling them from ThriveCart.)
+
+### The ramp (honest version)
+
+Starting from ~$4k/mo known recurring (mentorship) plus the existing installment base (size unknown): at ~10-15 net new payers/mo the ladder adds ~$2-3k of stacked MRR each month, plus $6.7k workshop revenue from month 1-2. That puts the crossover to $30k+ around month 6-9 depending on the existing base and PIF mix — not month 1. The bridge months are funded by workshop revenue + mentorship + PIF joins. This is the one real cost of choosing B+D over A: slower to target, but every month is higher than the last, and none of it depends on her calendar.
+
+### What she was asked to supply / confirm
+
+1. Current active BOH installment payers and the installment term (12 vs 15 payments) — sets the true starting line.
+2. Workshop price instinct ($47 / $67 / $97) and the first month's topic.
+3. Which SLO front-end product if not The 5-Minute Newsletter.
 
 ## What stays exactly as it is
 
