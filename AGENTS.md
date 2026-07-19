@@ -152,6 +152,8 @@ Every cross-reference uses `[[wikilinks]]`.
 
 See [[GL-001-file-naming-conventions]] for the naming rules.
 
+**LAW — Obsidian links in Notion use the vault-link redirector (Alyssa 2026-07-18).** Any time a vault file is linked from Notion (or any surface that cannot open `obsidian://` — a database property, a page body, a synced card), the link MUST use the vault-links redirector, never a raw `obsidian://` URI (Notion silently fails to open those). Format: `https://alyss0909.github.io/vault-links/?f=<URL-encoded path without .md>` (add `&v=<vault>` for a non-default vault). The redirector is the permanent goal — a clickable jump into Obsidian; its URL shape is the current mechanism, documented in `scripts/obsidian-redirect/README.md`. This holds everywhere: the House Operations Board, the Agent Tasks board, the Offer Briefs DB, and every future Notion surface. Constitutional form: [[GL-013-the-house-rules]] Rule 6.
+
 ### 5. Date-driven folder nesting
 
 `Notebook/Journal/`, `Notebook/Images/`, and `Studio/Team Knowledge/session-logs/` all nest by year and month: `<root>/YYYY/MM/YYYY-MM-DD-<slug>.md`.

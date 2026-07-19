@@ -23,7 +23,7 @@ The house is organized by **trust, not by birthplace**. For a long time knowledg
 
 An agent can never again be confused about whether it is reading her mind, the team's opinion, or the trusted shelf, because the path says so.
 
-## The five rules
+## The rules
 
 ### Rule 1 — Notebook is hers. Agents read it, never write it.
 
@@ -56,6 +56,10 @@ Never reference a file you have not confirmed on disk this session. A citation t
 
 Alyssa chose Obsidian so ideas connect, collide, and compound. Siloing is the failure that broke this vault. So: every file you create connects to what genuinely relates to it — the notes it grew from, the source it studied, the map that should point back to it. When you touch an old file, leave it more connected than you found it. A file with no real connections is a silo; question whether it should exist. (There is no required number of links — connect what truly relates, never pad to a count.)
 
+### Rule 6 — Obsidian links in Notion use the vault-link redirector.
+
+Any Obsidian vault link surfaced in Notion — or on any surface that cannot open an `obsidian://` URI (a database property, a page body, a synced card) — MUST use the vault-links redirector, never a raw `obsidian://` link. Notion silently fails to open `obsidian://`, so a raw one is a dead link that sends Alyssa searching — the exact friction this rule exists to kill (Alyssa's law, 2026-07-18). The durable goal: every vault reference Alyssa sees outside Obsidian is one click from opening in Obsidian. The current mechanism (a dated default, escape hatch = whatever makes the jump reliable): `https://alyss0909.github.io/vault-links/?f=<URL-encoded path without .md>`, `&v=<vault>` for a non-default vault, documented in `scripts/obsidian-redirect/README.md`. Applies house-wide: the House Operations Board, the Agent Tasks board, the Offer Briefs DB, and every future Notion surface. Operative form for daily loads: [[AGENTS]] §4 Wiki convention.
+
 ## The durable-vs-method test (write every rule this way)
 
 From the Bitter Lesson: human-encoded *process* rots as models improve; human-encoded *goals, facts, taste, and gates* appreciate. So before writing any rule, SOP, contract, or map, ask which kind it is:
@@ -65,7 +69,7 @@ From the Bitter Lesson: human-encoded *process* rots as models improve; human-en
 - **Never write a parser where a reader will do.** Exact-string contracts between two models are last-resort, machine-to-machine only.
 - **Model-tuned numbers are benchmarks, not laws.** Re-measure them on every model upgrade.
 
-The five rules above are all goals and gates — the durable kind. Everything method-shaped in this house carries a date and an escape hatch.
+The rules above are all goals and gates — the durable kind (Rule 6 pairs a durable goal with a dated mechanism, per this very test). Everything method-shaped in this house carries a date and an escape hatch.
 
 ## Enforcement (light, at the seams)
 
