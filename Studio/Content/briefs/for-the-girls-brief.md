@@ -13,7 +13,7 @@ The brief-slot load for FTG posts. It points at her real FTG sources and tells t
 - Method: [[Studio/Hermes/craft/for-the-girls-posts]] — her actual For The Girls file.
 - Verbatim evidence: [[Library/Examples/Carousels/for-the-girls-slide-copy]].
 - Style and checker: [[Studio/Analysis/Frameworks/carousels/for-the-girls]] (the framework card).
-- Real decks: [[Library/Examples/Carousels/2026-01-22-wasting-time-for-the-girls]], and [[Library/Examples/Carousels/2026-02-14-valentines-for-the-girls]] for love-letter or seasonal shapes.
+- Real decks (transcribed, not separate files): "Wasting Time Is Part of My Process" (Jan 22) and "Love Letters for the Creative CEO's Soul" (Feb 14, love-letter/seasonal shape) — both inside [[Library/Examples/Carousels/for-the-girls-slide-copy]].
 
 ## Her law (verbatim, taste ledger 2026-07-09)
 

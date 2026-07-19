@@ -1,4 +1,7 @@
 {
+  "env": {
+    "PYTHONIOENCODING": "utf-8"
+  },
   "permissions": {
     "allow": [
       "mcp__4a77a2f1-669d-431a-a05c-4ab48c6a05bc__notion-fetch",
@@ -80,11 +83,10 @@
       "Bash(find \"/c/Users/accol/.claude/projects/C--Users-accol-OneDrive-Desktop-the-house/memory\" -iname \"*instagram*\" -o -iname \"*saves*\" 2>/dev/null)",
       "Bash(ls -la \"/c/Users/accol/instagram-saves-engine/\" 2>&1)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
-      "Bash(\"./.venv/Scripts/python.exe\" refresh_8_images.py)"
+      "Bash(\"./.venv/Scripts/python.exe\" refresh_8_images.py)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'House check 2026-W29 \\(SOP-039 weekly\\) *)"
     ]
-  },
-  "env": {
-    "PYTHONIOENCODING": "utf-8"
   },
   "hooks": {
     "SessionStart": [

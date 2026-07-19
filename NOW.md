@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-18 10:57
+generated: 2026-07-19 19:54
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -40,12 +40,14 @@ Connection state: **462/569 entries linked by non-generated sources (81%)** — 
 
 ## Due check-backs
 - 2026-07-18 — `Studio/Signals/Developing Ideas/ai-team-as-mirror-not-replacement.md`
+- 2026-07-19 — `Studio/Signals/Developing Ideas/ai-workflow-collecting.md`
+- 2026-07-19 — `Studio/Signals/Developing Ideas/system-already-beats-external-tools.md`
 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (0 week(s) behind, current week W29)
 - Journal connection debt: 107 entries with zero genuine inbound links (generated hubs and session logs do not count)
 - Unmined session logs: 8 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
-- Stale open tasks (14d+): 4 — worst: 47d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 47d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 44d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
+- Stale open tasks (14d+): 4 — worst: 48d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 48d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 45d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
 
 ## Close-session gate (SOP-040 — no session ends without)
 1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).

@@ -4,10 +4,10 @@ Licensed under CC BY-NC-SA 4.0 - see LICENSE
 -->
 
 ---
-last_sweep: 2026-07-16
-sweep_range: 2026-06-27 to 2026-07-16
-sweep_method: manual read (Larry), catch-up sweep after the weekly cadence stalled; 30 journal entries read in full
-next_sweep: 2026-07-19 (weekly, aligned to the Sunday housekeeping patrol) + 2026-07-27 (monthly deep sweep)
+last_sweep: 2026-07-19
+sweep_range: 2026-07-16 to 2026-07-19
+sweep_method: automated weekly light sweep (SOP-013, run inside SOP-039 house-keeping); zero journal entries in range
+next_sweep: 2026-07-26 (weekly, aligned to the Sunday housekeeping patrol) + 2026-07-27 (monthly deep sweep)
 ---
 
 # Signals Index
@@ -222,6 +222,7 @@ _None yet._
 
 | Date | Range | Method | New Signals | Notes |
 |---|---|---|---|---|
+| 2026-07-19 | 2026-07-16 to 2026-07-19 (weekly light sweep) | Automated (SOP-039 house-keeping run) | 0 new signals | No journal entries exist in this range — newest dated entry in `Notebook/Journal/2026/07/` is 2026-07-12-branding-skill-reel.md. The week's work (carousel compiler v4, content-desk rebuild, Notion mailroom bridge) happened in Studio, not the journal, so nothing to read/bump. Recurrence counts and statuses unchanged from the 2026-07-16 catch-up sweep. |
 | 2026-07-16 | 2026-06-27 to 2026-07-16 (catch-up sweep, 30 entries) | Manual read (Larry's sweep specialist) | 2 new signals | `ai-workflow-collecting` (13 entries in 4 days, straight to thesis-ready, garden note and thesis draft written) and `boosting-proven-posts-as-ads` (radar). Bumped `minimum-viable-rhythm` to 5 (one away from thesis threshold) and `boh-daily-profit-activities` to 4 (radar to incubating; pairs with the orphaned [[Deliverables/2026-07-11-profit-menu-plan]] flagged earlier today). No content activation flags. The range is almost entirely link captures, with no content-ready stories or frameworks in her own words. |
 | 2026-07-16 | Index-vs-garden-note frontmatter reconciliation (knowledge-loss follow-up audit) | Manual read (Fable) | 0 new signals | Desync fix, garden-note frontmatter is the source of truth: `people-undervalue-niche-obsessions` was showing status `developing` with no garden-note link even though the garden note exists and reads `thesis-ready` — index corrected to `thesis-ready` with the link restored. `ai-team-as-mirror-not-replacement` was showing count 5 / last seen 2026-06-06 while the garden note has count 8 / last seen 2026-07-05 (three Jul 5 IG-save captures never made it into the index) — index corrected to match. See [[Studio/Analysis/2026-07-16-knowledge-loss-followup.md]]. |
 | 2026-07-10 | 2026-06-29 (3 entries, ad hoc — not a scheduled sweep) | Manual read (Larry) | 1 new signal | `system-already-beats-external-tools` — surfaced by the Bring It Home stranger test, refiled for real after independent verification |

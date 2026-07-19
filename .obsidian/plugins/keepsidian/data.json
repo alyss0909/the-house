@@ -136,7 +136,7 @@
       "subscription_status": "inactive",
       "trial_or_promo": null
     },
-    "timestamp": 1784325118083,
+    "timestamp": 1784497915799,
     "email": "accoleman100@gmail.com"
   },
   "premiumFeatures": {
@@ -158,14 +158,14 @@
   "autoSyncEnabled": true,
   "autoSyncIntervalHours": 24,
   "lastSyncSummary": {
-    "timestamp": 1784325158123,
+    "timestamp": 1784497948882,
     "processedNotes": 3,
-    "totalNotes": 77,
+    "totalNotes": 83,
     "success": false,
     "status": "failed",
     "mode": "import"
   },
-  "lastSyncLogPath": "Notebook/Inbox/_KeepSidianLogs/2026-07-17.md",
+  "lastSyncLogPath": "Notebook/Inbox/_KeepSidianLogs/2026-07-19.md",
   "keepSidianLastSuccessfulSyncDate": "2026-06-08T16:20:36.007Z",
   "frontmatterPascalCaseFixApplied": true,
   "twoWaySyncBackupAcknowledged": true,
