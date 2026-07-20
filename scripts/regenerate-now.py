@@ -11,10 +11,23 @@ hand-off prose between the HANDOFF markers is preserved verbatim.
 
 No dependencies beyond the standard library. Works on Windows/macOS/Linux.
 """
-import os, re, sys, datetime, collections
+import os, re, sys, datetime, collections, importlib.util
 
 # ---------- locate vault root (this file lives in <root>/scripts/) ----------
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+# ---------- stale-task escalator (optional; folds into Debt counters) ----------
+# escalate-stale-tasks.py tiers open tasks 7d/14d/28d so stale work gets louder.
+# Guarded: if the module is absent or errors, we fall back to the legacy 14d line.
+ESC = None
+_esc_path = os.path.join(HERE, "escalate-stale-tasks.py")
+if os.path.exists(_esc_path):
+    try:
+        _spec = importlib.util.spec_from_file_location("escalate_stale_tasks", _esc_path)
+        ESC = importlib.util.module_from_spec(_spec)
+        _spec.loader.exec_module(ESC)
+    except Exception:
+        ESC = None
 ROOT = os.path.dirname(HERE)
 if not os.path.exists(os.path.join(ROOT, "AGENTS.md")):
     # fallback: walk up until AGENTS.md found
@@ -199,8 +212,11 @@ L.append("## Debt counters")
 L.append(f"- Wrap debt: newest wrap is `{newest_wrap}` ({wrap_debt_weeks} week(s) behind, current week W{cur_week:02d})")
 L.append(f"- Journal connection debt: {len(unlinked)} entries with zero genuine inbound links (generated hubs and session logs do not count)")
 L.append(f"- Unmined session logs: {len(unmined)} not yet strip-mined into playbooks/TEAM-BRAIN/precedent index")
-L.append(f"- Stale open tasks (14d+): {len(stale)}" +
-         (" — worst: " + ", ".join(f"{a}d `{r}`" for a, r in stale[:3]) if stale else ""))
+if ESC:
+    L.extend(ESC.escalation_lines(ROOT, TODAY))
+else:
+    L.append(f"- Stale open tasks (14d+): {len(stale)}" +
+             (" — worst: " + ", ".join(f"{a}d `{r}`" for a, r in stale[:3]) if stale else ""))
 L.append("")
 L.append("## Close-session gate (SOP-040 — no session ends without)")
 L.append("1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).")

@@ -104,7 +104,7 @@ Per Alyssa's real corpus, the following are her actual voice and are permitted w
 
 ## 7. The three gates (run once, at the end, on the finished post)
 
-1. **The lineup test:** set the draft beside two real pieces of hers (one same lane, one different). If it reads flatter, more symmetrical, or more polished than hers, it fails.
+1. **The lineup test:** set the draft beside two real pieces of hers (one same lane, one different). If it reads flatter, more symmetrical, or more polished than hers, it fails. Name the flat lines, do not just judge them: the lines that read flatter than hers — connective tissue with no verbatim source of hers behind it, above all — get tagged as dead-line candidates so the human voice-edit seat (`/content-run` Stage 5.5) spends her 15-30 minutes rewriting them, not hunting for them. Even a writer saturated with her exemplars reads flatter than she does; a human rewrite of the dead lines is the fix, not another rule.
 2. **The stranger test at post level:** name the post's bit in one sentence. If you can't, or if ten other creators could have posted it, it fails.
 3. **The value test (her 2026-07-16 law):** name the useful thing a non-buyer walks away with. If you can't, the post fails — offer posts included.
 
