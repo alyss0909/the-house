@@ -72,6 +72,17 @@ CTA:
 > "It's time to stop overthinking your newsletter, and start sending"
 > "let me just hold your hand & do it with ya then!" (the deliverable's own bridge into The 5 Minute Newsletter; deck CTAs the freebie only)
 
+## Her sent-email lines (pulled verbatim from Kit, real open rates as proof)
+Her sent emails are her purest voice. Related Emails linked to Bingeable in the Products DB, bodies + true open rate pulled live from Kit on 2026-07-20 (task tsk-2026-07-17-002). Quote her exactly. Related sends unique to Bingeable: "socks & sandal marketing" (2026-04-12, Kit id 23653281) · "I'm Leaving" (2026-04-19, id 23706319). Bingeable also shares the four 5MN promo sends (see [[Studio/Content/briefs/the-5-minute-newsletter]]).
+
+> "when you know how to write a bingeable newsletter… you don't just have "a list" of subscribers you have people who read everything you send, who get how you think, and who are already halfway to buying before you even make an offer." — *socks & sandal marketing*, 44% open
+> "and that's why I love newsletters so much — because they let you work with what's *actually* happening instead of trying to engineer something *perfect*." — *socks & sandal marketing*, 44% open
+> "it's low maintenance but it pulls more weight than almost anything else I do." — *socks & sandal marketing*, 44% open
+> "my repeatable structure that turns your messy thoughts into bingeable emails (fast)." — *I'm Leaving*, 47% open (the strongest-opening send of the set)
+> "It's always the highest converting, lowest maintenance thing in my business." — *I'm Leaving*, 47% open
+> "Set a timer for 5 minutes and make a list of the last 3 stories you voice noted your best friend about… Is your voicenote irrelevant to your niche? No problem. Kinda weird? Even better, write em down!" — *I'm Leaving*, 47% open
+> Her live framework prompts (teach one free on the slides): "a f t e r t a s t e — After someone reads your email how will they feel?" · "d o g g y b a g — What's the one thing you want them to leave with after every email?" · "s e t t h e t o n e — What will your writing style be?" — *socks & sandal marketing*, 44% open
+
 ## Boundaries
 - Freebie: no hard sell anywhere; the value is the teaching.
 - Never stack the paid 5MN ask in the deck (the deliverable does that bridge itself, after opt-in).
