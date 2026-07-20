@@ -80,6 +80,18 @@ CTA:
 > "Ready to Bring your Community Back to Life?"
 > "reactivate your community"
 
+## Her sent-email lines (pulled verbatim from Kit, real open rates as proof)
+Her sent emails are her purest voice. The Related Email linked to List Resuscitator in the Products DB is "Your list called, they're hungry" (Simmer, 2026-03-22, Kit id 23358828), body + true open rate pulled live from Kit on 2026-07-20 (task tsk-2026-07-17-002). 44% open. Quote her exactly.
+
+> "I cried into my fridge this week." — *Your list called, they're hungry*, 44% open
+> "Don't run to the metaphorical leads store." — *Your list called, they're hungry*, 44% open
+> "In reality your email fridge is probably FULL of people who forgot about how much they loved you and ppl who almost bought (and still want to) but haven't seen your emails lately … bc they're in spam babe 🥀" — *Your list called, they're hungry*, 44% open
+> "You've probably got your next buyer already HOT, but unengaged." — *Your list called, they're hungry*, 44% open
+> "Once you clear it out, you can ACTUALLY see what you're working with, aaand my favourite part: YOU KNOW WHAT TO MAKE!" — *Your list called, they're hungry*, 44% open
+> "There's nothing more powerful than an engaged list who straight up tells you what they need to hear, and what they want to buy!" — *Your list called, they're hungry*, 44% open
+
+Correction (2026-07-20): the proof line in `sources` / above, "telling you what to do [list inside]", is actually her **5MN** promo send (Kit id 24393854, 43% open, related to The 5 Minute Newsletter in the Products DB), not a Resuscitator send. It reads like a list line but its offer is the 5MN planner. Keep using it as hook-shape fuel if you like, but the verbatim Resuscitator proof above is "Your list called, they're hungry."
+
 ## Boundaries
 - Never teach Instagram or posting mechanics as the topic; the pain is an email-list pain.
 - Never shame the reader for the cold list — "life gets busy" is the framing.
