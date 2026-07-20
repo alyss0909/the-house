@@ -33,6 +33,7 @@ Three more captures on Jul 5 keep the pattern alive: two Instagram saves (Hermes
 - [[Notebook/Journal/2026/07/2026-07-05-hermes-and-mac-mini]] — IG save, cross-linked to this signal directly
 - [[Notebook/Journal/2026/07/2026-07-05-relations-for-agents]] — IG save, cross-linked to this signal directly
 - [[Notebook/Journal/2026/07/2026-07-05-obsidian-mind]] — bare fragment, "Obsidian mind / Obsidian second brain"
+- [[2021-04-05-personal-assistant]] — connected 2026-07-20. Earlier evidence (recency-weight it): the pre-AI version of exactly this thesis. Five years before the Head/Hands/Heart framing, she wrote out what she wanted a Hands-layer to take off her plate — email management for all products and support, calendar and meetings, bookkeeping, listing marketplace items, even laundry and sorting the kids' clothes. It's a list of pure Hands work, and the instinct is identical to 2026: delegate the mechanical execution so the Heart stays hers. The only thing that changed is that the assistant became AI.
 - [[2026-05-30-meeting-prep-agent]] — connected 2026-07-16. A concrete instance of the thesis, not just the instinct: before a client meeting, an AI agent runs a quiet prep pass — reads the client notes, pulls the last call summary, scans the to-do list, surfaces exactly 3 things to push forward. Pure Hands work (recall, assembly) so the Heart (the actual conversation, the judgment) stays hers. "The agent does the recall. You show up ready." This is what the Mirror is supposed to do.
 
 ## What it's connecting to in the Second Brain
@@ -58,4 +59,4 @@ None yet.
 
 ## Check back
 
-2026-07-18
+2026-08-18 — rescheduled 2026-07-20 (night shift) from the due 2026-07-18 date. Still genuinely developing, not overtaken: recurrence has sat at 8 since 2026-07-05 with no new feeding entries, and the direction call this note needs (teaching module "The Mirror, Not the Engine" vs. standalone offer/workshop vs. leave internal) is Alyssa's to make — it is not a decision the loop can fabricate. Parked pending her reaction to the thesis above. Its twin [[ai-workflow-collecting]] keeps feeding the same instinct from the intake side, so watch whether the two want to merge before either graduates.

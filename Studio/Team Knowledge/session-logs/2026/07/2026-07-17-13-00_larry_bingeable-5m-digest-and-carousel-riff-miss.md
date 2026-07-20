@@ -6,6 +6,8 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
+mined_date: 2026-07-20
 ---
 
 # Bingeable/5M copy digest landed; carousel middle-slide riffing failed twice before correcting

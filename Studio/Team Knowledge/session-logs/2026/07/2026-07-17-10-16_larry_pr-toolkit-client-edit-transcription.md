@@ -6,6 +6,8 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
+mined_date: 2026-07-20
 ---
 
 # Client PR toolkit copy-edit transcription

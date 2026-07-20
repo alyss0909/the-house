@@ -6,6 +6,8 @@ type: end-of-session
 linked_sops: []
 linked_workstreams: [WS-005-meeting-capture-processing]
 linked_guidelines: []
+mined: true
+mined_date: 2026-07-20
 ---
 
 # Daily Meeting Clean repair

@@ -31,6 +31,7 @@ The clearest version of it: the June 6 voice memo. But it's been building since 
 - [[2026-06-05-ai-agents-head-hands-heart]] — the Head/Hands/Heart framework; AI does the hands, humans do the head and heart
 - [[2026-06-06-boh-launch-email-inspo]] — the full voice memo. The auction woman. "I'm not here to tell you what's next, I'm here to tell you what works."
 - [[2026-04-02-daily-profit-activities]] — the offer concept that's still circling this same energy
+- [[2026-06-29-can-i-also-add-in-the-overwhelm]] — connected 2026-07-20. The emotional register of the positioning in three lines: the overwhelm, the so-many-things-to-do, and "the stable grounding feeling." The felt version of "the business in your head and the one eating your weekends aren't the same one" — copy fuel for the calm-vs-chaos contrast this thesis sells.
 
 ### Earlier evidence (2021-2025) — input, not doctrine
 
@@ -41,6 +42,8 @@ Connected 2026-07-15. These are older captures, so recency-weight them: they are
 - [[2025-12-15-if-you-want-a-business-that-lasts]] — "You have to enjoy your business & Not build on a trendy foundation." The universals-not-the-next-wave half, stated plainly.
 - [[2021-06-24-alot-of-people-spend-a-lot-of-time-on-things-that-dont]] — "Alot of people spend a lot of time on things that don't matter."
 - [[2022-06-26-productivity]] — "Sounds boring, but it works." The history-girl register in five words.
+- [[2024-02-13-if-youre-a-burnt-out-service-provider-who-wants-to-go-from]] — connected 2026-07-20. Recency-weight it, but this is the positioning written as audience-facing hook copy, three years early: "burnt out service provider who wants to go from referrals to an automated, scalable system... save 10h per week," "10k months while working 4 days a week even as a solopreneur." The exact promise of the middle-ground thesis — automate the foundation so you get your time and your obsession back — in the words she'd actually sell it in.
+- [[2025-10-17-dfy-project-plans-and-workflows]] — connected 2026-07-20. Recency-weight it, but this is the automated-foundation half of the positioning as a concrete asset: a Project Plan Library of done-for-you workflows "like having your own operations manager hiding inside Notion," every repeatable task labeled by department, time, and energy. The quiet, solid system that lets the middle-ground entrepreneur finish the work without living inside it.
 
 ## What it's connecting to in the Second Brain
 
