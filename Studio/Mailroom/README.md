@@ -40,15 +40,54 @@ The interface is [MAILROOM.md](MAILROOM.md): a card-based Obsidian dashboard bui
 - **Never auto-touch:** failed/declined payments, security alerts, the bookkeeper, real humans, paid-member join requests.
 - Norah's Day (Montessori dailies) stays in the inbox unless she says otherwise.
 
-## Notion mirror (in progress — additive, Obsidian stays live)
+## Two surfaces today — one decision for Alyssa (status 2026-07-20, Mack)
 
-A Notion version of this desk is being built in parallel, mirroring the
-[[MAILROOM]] dashboard, so the same triage lives beside the House Control
-Room. The Obsidian dashboard and its `/mailroom` command stay the live
-interface until Alyssa switches. Draft artifacts:
-- [[notion-mailroom-BUILD-SPEC]] — the Notion database schema, seed rows, and the button/view steps (buttons and views are UI-only in Notion, added by hand).
-- [[notion-bridge/SETUP]] — the near-instant Cloudflare Worker webhook bridge (Notion button -> Gmail via Composio/Anthropic), gated on Alyssa's secrets + a Vex security pass.
-- [[mailroom-notion-command-DRAFT]] — drafted `/mailroom` repoint to read the Notion database (the durable polled fallback behind the instant bridge).
+The Mailroom currently lives on **two parallel surfaces**, and the task
+"consolidate onto one surface" cannot be finished by an agent alone — the last
+mile is hand-work only Alyssa can do in the Notion UI, plus her explicit call
+on which surface she actually wants to live in. Nothing is broken: **surface 1
+is fully live and working today.**
+
+**Surface 1 — Obsidian (LIVE, the one true interface right now).**
+[[MAILROOM]] dataviewjs dashboard + the `## Mailroom state` ledger, driven by
+the live `/mailroom` command (`.claude/commands/mailroom.md`). This is what
+works today. Untouched by this task.
+
+**Surface 2 — Notion (BUILT 2026-07-17, but INERT).** The Notion Mailroom DB
+sits beside the House Control Room (db `ee22093d51044162800354e40cb2bad4`, data
+source `ddf15d60-e8b8-40be-a6e9-1c99ba7452bf`), 24 items seeded, 3 views made.
+It cannot yet function as an interface because its **button properties were
+never added** (section 5 of the build spec — buttons don't exist in the Notion
+API, so only Alyssa can add them by hand). Without buttons nothing in Notion
+can ever reach `Status = queued`, so the runner would have nothing to act on.
+
+**The rewrite that has sat unactivated since Jul 17.**
+[[mailroom-notion-command-DRAFT]] — the proposed repoint of `/mailroom` to read
+the Notion DB instead of the Obsidian ledger. Deliberately **not activated**:
+every doc gates the switch on Alyssa's explicit "go," and swapping the live
+command now would break the Mailroom (it would read a Notion board whose buttons
+don't exist yet, while abandoning the Obsidian ledger where the real state
+lives). Mack left the live command untouched.
+
+### Alyssa's choice (this is a taste/workflow call, not something the team can decide)
+
+- **Version A — stay on Obsidian.** Keep surface 1 as the single surface. Park
+  or archive the Notion build. Zero risk, zero further work; you lose the
+  "triage lives beside the Control Room in Notion" benefit.
+- **Version B — migrate to Notion.** Then, in order: (1) *you* add the 3 button
+  properties in the Notion UI per [[notion-mailroom-BUILD-SPEC]] §5 and confirm
+  the 3 views; (2) Larry swaps in [[mailroom-notion-command-DRAFT]] as the live
+  `/mailroom`; (3) only after you confirm you're actually using the Notion board
+  does the Obsidian `## Mailroom state` ledger get retired. The near-instant
+  webhook bridge ([[notion-bridge/SETUP]]) is an optional add-on on top of B and
+  is still gated on **Gate 2** (Larry confirms the Notion integration is shared
+  with only the Mailroom DB) plus **the 4 secrets you place yourself** — no
+  agent ever types a credential.
+
+Until you pick, surface 1 (Obsidian) stays the live interface. Supporting docs:
+- [[notion-mailroom-BUILD-SPEC]] — the Notion DB schema, seed rows, and the button/view hand-steps.
+- [[notion-bridge/SETUP]] — the Cloudflare Worker webhook bridge (bridge is Version B's optional fast path; gated on your secrets + Gate 2).
+- [[mailroom-notion-command-DRAFT]] — the unactivated `/mailroom` repoint (durable polled fallback behind the bridge).
 
 ## Open builds (highest-leverage first)
 
