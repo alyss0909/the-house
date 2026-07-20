@@ -70,6 +70,8 @@ Her words on the four 2026-07-17 decks (both 5MN options, both Bingeable options
 
 ## Shipped results (real numbers per shipped post — the Gate's ammo)
 
+> **Moved 2026-07-20 (Mack).** Real performance now lives in its own refreshable surface: [[Studio/Content/outcomes-ledger]]. This ledger records what she THINKS (picks, edits, vetoes); the outcomes ledger records what shipped content actually DID (Kit open/click live; Instagram saves + sales stubbed until reachable). Email outcomes are wired and mechanical; see the outcomes ledger's refresh protocol. The one carousel datapoint below is mirrored there.
+
 - 2026-05-11 — toddler negotiation post: 1,621 reach / 102 likes / 18 comments / 57 saves / 15 shares (live Composio pull).
 
 ## Ruling 2026-07-17 — sequences over paperwork, understanding over rules (verbatim)

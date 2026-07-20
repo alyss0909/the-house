@@ -13,6 +13,7 @@ Rebuilt 2026-07-17 on Alyssa's go, after the research-backed diagnosis: models i
 Read the Content Studio board (IDs in /saves-sweep Cache). Before anything else:
 - Every option whose status she changed (approved, killed, edited) since the last run: log verbatim in `Studio/Content/taste-ledger.md`. Approvals and edits go under Positive signal AS BEFORE-AND-AFTER PAIRS (her edit is the lesson, capture both versions). Kills go under Reacts with her words.
 - Any shipped post with numbers available (Composio Instagram connection): append reach, saves, comments, shares to Shipped results.
+- **Outcome writeback (added 2026-07-20, Mack).** Refresh the outcomes ledger so the loop learns from real performance, not only her opinions: pull completed broadcasts via the Kit MCP (`get_stats_for_a_list_of_broadcasts`, status=completed), save the array to `scripts/data/kit-broadcasts-sample.json`, tag any new send's offer in `scripts/data/outcome-map.json`, then run `python3 scripts/content-outcomes.py`. This only SURFACES over/under vs baseline in [[Studio/Content/outcomes-ledger]]; it does not change any weight or rule. The learning logic (how an under-performing mechanic changes future posts) is a separate design decision — see `Deliverables/2026-07-20_mack_outcome-writeback-design.md`, awaiting Alyssa.
 - **Taste compounding law: a failure becomes an example, not a rule, whenever possible.** If a lesson can be shown by pointing at a real before-and-after or a real slide, do that instead of adding a rule line. METHOD has a hard size cap of one page of rules per section; adding a rule means merging or removing one.
 
 ## Stage 1 — Build the run list
@@ -77,7 +78,7 @@ Offer property = RELATION to the live Products DB row. Report to Alyssa: one lin
 
 ## Stage 7 — The receipt (every run, no exceptions)
 
-Write `Studio/Content/runs/YYYY-MM-DD-run.md`: which posts, which frameworks, which pillar/area each post served, exact files each writer loaded, checker results per version, flags shipped, the Stage 5.5 outcome per version (how many dead lines were flagged, how many she rewrote, or "skipped"), and a blank "her reacts" section that Stage 0 of the NEXT run fills in. If quality dips, this file shows which stage cheated; if a month skews to one area or one framework, the receipts show it before Alyssa has to feel it.
+Write `Studio/Content/runs/YYYY-MM-DD-run.md`: which posts, which frameworks, which pillar/area each post served, exact files each writer loaded, checker results per version, flags shipped, the Stage 5.5 outcome per version (how many dead lines were flagged, how many she rewrote, or "skipped"), and a blank "her reacts" section that Stage 0 of the NEXT run fills in. Also record, per shipped item, its **outcome handle** so the next run's Stage 0 outcome writeback knows what to look up: for an email, the Kit broadcast id and/or exact subject line; for a carousel, its Instagram permalink or board page. A shipped item with no handle cannot be measured. Real numbers land in [[Studio/Content/outcomes-ledger]], not here. If quality dips, this file shows which stage cheated; if a month skews to one area or one framework, the receipts show it before Alyssa has to feel it.
 
 ## The orchestrator never writes slides (her ruling 2026-07-17)
 
