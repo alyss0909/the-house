@@ -75,6 +75,18 @@ CTA:
 > "makes writing a really good email the easiest thing you do all week."
 > "turning "i need to email my list" into a bingeable newsletter people read, reply to, and buy from. on the table quicker than mom's spaghetti."
 
+## Her sent-email lines (pulled verbatim from Kit, real open rates as proof)
+Her sent emails are her purest voice. These are the Related Emails linked to 5MN in the Products DB, bodies + true open rate pulled live from Kit on 2026-07-20 (task tsk-2026-07-17-002). Quote her exactly; the open rate is the receipt that the line landed. Related sends: "claude is acting weird" (2026-06-08, Kit id 24394857) · "ipad-kid-ification of your sales" (2026-06-11, id 24394007) · "telling you what to do [list inside]" (2026-06-03, id 24393854) · "try this DIRTY marketing plan?" (2026-05-24, id 24113491).
+
+> "The emails that make the most money.. are the ones you ACTUALLY SEND! Simple as that." — *claude is acting weird*, 45% open
+> "This low maintenance newsletter home base in notion makes writing a weekly newsletter (that sells) the easiest thing you do all week." — *claude is acting weird*, 45% open
+> "Here's how i designed it (as an ADHD girlie who could overcomplicate a grilled cheese): Step one: You fill in the blanks (mad libs style) and the planner generates the rest. Step two: Copy into flodesk, kit (or whatever email you use), and send" — *claude is acting weird*, 45% open
+> "Are you becoming the cocomelon of your industry?" … "the goal isn't to keep our audience BUSY… it's to help them feel understood, to help them understand your philosophy, to trust your thinking, and feel grounded enough to make a real decision." — *ipad-kid-ification of your sales*, 43% open
+> "I started wondering if this is the real reason that ONE good email can actually do more than five little pieces of content ever could." — *ipad-kid-ification of your sales*, 43% open
+> "YOU just get to trade "100 viral hooks" for a great opening line in your email." — *ipad-kid-ification of your sales*, 43% open
+> ""Can you just tell me what to do"" … "Regardless, im here today to just tell ya what to do." — *telling you what to do [list inside]*, 43% open
+> "I kiiiiiinda wrote this email by accident (& in 5 minutes)" — *try this DIRTY marketing plan?*, 43% open (her own proof of the five-minute claim)
+
 ## Boundaries
 - Never teach Instagram or posting; the pain must be an email pain.
 - Never stack the Bingeable freebie ask in the same deck.

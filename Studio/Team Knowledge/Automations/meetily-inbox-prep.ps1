@@ -72,9 +72,27 @@ function Get-PointerFiles {
 
 function Find-PointerForRawPath {
     param([string]$RawPath)
+    # Idempotency guard: a folder is "already processed" iff an existing pointer
+    # records its raw path in the authoritative `raw_source_path` frontmatter field.
+    #
+    # This MUST be an exact, literal comparison. Two earlier defects both caused
+    # duplicate pointers ("one capture looks like three"):
+    #   1. `-like "*$RawPath*"` treated the raw path as a wildcard PATTERN, so any
+    #      path containing PowerShell wildcard metacharacters ([ ] ? *) silently
+    #      failed to match -> New-PointerNote's auto-increment then wrote a fresh
+    #      `-2`, `-3`... pointer on every re-run.
+    #   2. Scanning the whole file body meant a prefix path (`...\rec-1`) could
+    #      false-match a different folder's pointer (`...\rec-12`).
+    # Matching the exact field value with an ordinal, case-insensitive compare
+    # (Windows paths are case-insensitive) fixes both.
+    $target = $RawPath.TrimEnd('\', '/')
     foreach ($file in (Get-PointerFiles)) {
-        $text = Get-Content -Raw -LiteralPath $file.FullName
-        if ($text -like "*$RawPath*") { return $file }
+        $stored = Get-PointerField -Path $file.FullName -Field "raw_source_path"
+        if (-not $stored) { continue }
+        $stored = $stored.TrimEnd('\', '/')
+        if ([string]::Equals($stored, $target, [System.StringComparison]::OrdinalIgnoreCase)) {
+            return $file
+        }
     }
     return $null
 }
@@ -154,6 +172,11 @@ function New-PointerNote {
     $path = Join-Path $PointerDir $fileName
     $n = 2
     while (Test-Path -LiteralPath $path) {
+        # Reached only when a same-date, same-title pointer file already exists.
+        # This is expected for genuinely distinct meetings, but if it fires for a
+        # folder that should have been matched by Find-PointerForRawPath, it means
+        # the idempotency guard missed - surface it instead of silently duplicating.
+        Write-Log "Name collision for $fileName (raw: $RawPath) - incrementing. If this repeats for the same folder, the dedup guard regressed." "WARN"
         $fileName = "$date-$slug-$n-pointer.md"
         $path = Join-Path $PointerDir $fileName
         $n++

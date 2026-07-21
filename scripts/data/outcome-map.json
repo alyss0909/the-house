@@ -1,0 +1,7 @@
+{
+  "_note": "broadcast_id (string) -> {offer, lane, mechanic}. This is the LEARNING key: it says which offer/argument-lane/persuasion-mechanic a send belongs to, so outcomes roll up per mechanic. Source of truth for offer mapping is the Notion Products DB 'Related Emails' relation (see tsk-2026-07-17-002). Only add a row when you are confident. Untagged sends still get a baseline tag; they just don't roll up to a mechanic.",
+  "24479453": {"offer": "soft-sundays", "mechanic": "the Simmer (weekly nurture)"},
+  "24479228": {"offer": "soft-sundays", "mechanic": "the Simmer (weekly nurture)"},
+  "24478806": {"offer": "soft-sundays", "mechanic": "the Simmer (weekly nurture)"},
+  "24477529": {"offer": "soft-sundays", "mechanic": "the Simmer (weekly nurture)"}
+}

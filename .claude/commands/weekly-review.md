@@ -51,6 +51,8 @@ Examples:
    - Any insights that appear ready to graduate (name them)
    - If any open thread has been unchecked for 2+ weeks, flag it specifically
 
+10. **Back up (auto-push — Alyssa-approved 2026-07-20).** After the wrap is written and confirmed, stage the wrap plus any regenerated files, commit with a plain one-line message (e.g. `weekly wrap YYYY-WNN`), and `git push -u origin <current-branch>` following the repo git conventions (retry up to 4× with exponential backoff on network error; never force-push). This is what lets the **Sunday patrol** run unattended and still land its output on GitHub without a human triggering the push. **Scope of this grant:** the weekly/monthly reviews and the Sunday patrol only — this is not blanket permission for every command to push.
+
 ## Notes
 
 - This command is the manual path. After 2-3 validated runs, promote to a Sunday 8pm cron job via `/schedule`.

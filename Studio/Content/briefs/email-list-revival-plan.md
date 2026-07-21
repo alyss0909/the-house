@@ -73,6 +73,18 @@ CTA:
 > "Reheat!"
 > "**So, this is your sign to do an email list revival before q1 ends**" (seasonal — adapt the season, keep the "this is your sign" shape)
 
+## Her sent-email lines (pulled verbatim from Kit, real open rates as proof)
+Her sent emails are her purest voice. Related Emails linked to Email List Revival in the Products DB: "🪄 I FIXED your email list (the plan inside)" (Soft Sunday, 2025-10-12, Kit id 20942960) and "Your list called, they're hungry" (2026-03-22, id 23358828 — shared with Resuscitator). Bodies + true open rates pulled live from Kit on 2026-07-20 (task tsk-2026-07-17-002). The "I FIXED your email list" send opened at **52% — the strongest of any email-lane offer's related sends**, so its lines carry the most proof.
+
+> "you deserve more than just a big email list. You deserve a community." — *I FIXED your email list*, 52% open
+> "there's a sneaky chunk of subs who haven't opened an email in months and it's nagging at the back of your mind and you're wondering wtf you should do about it. Is it you? Is it them?" — *I FIXED your email list*, 52% open
+> "What's OUT: List Envy. What's IN: Re-engagement Rituals." (her House Report framing, verbatim from the send) — *I FIXED your email list*, 52% open
+> "having a list full of cold subscribers is like throwing money into a black hole; save the cash and buy yourself that new pretty canva template." — *I FIXED your email list*, 52% open
+> "It feels good to say you've got a 10,000-subscriber list. But if 3,000 of those people haven't opened an email since your last rebrand? Not great for your ego, or your wallet." — *I FIXED your email list*, 52% open
+> "Hack: After you've done a good (fall) cleaning, you can automate it so that it happens regularly without you even needing to see. Trust me, looking makes it more painful." — *I FIXED your email list*, 52% open
+> Her 5 re-engagement email types, named with real subject lines: The "We Miss You" Email · The Personality Email ("Have I done something wrong? 😢" / "are we in a fight") · The Feedback Email · Get Personal · The Break Up Email ("Is this the end? 😢") — *I FIXED your email list*, 52% open
+> "Don't run to the metaphorical leads store." / "You've probably got your next buyer already HOT, but unengaged." — *Your list called, they're hungry*, 44% open
+
 ## Boundaries
 - Never teach Instagram or posting mechanics as the topic; the pain is an email-list pain.
 - Never shame the reader for the cold list.
