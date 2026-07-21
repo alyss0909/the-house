@@ -25,6 +25,10 @@ Built as verbatim banks from her real sales pages:
 - [[Studio/Content/briefs/soft-ceo]] — ONE brief for both variants: Sessions (freebie, chat word "Softceo") + Monthly Notion Template ($37, chat word "Ceo")
 - [[Studio/Content/briefs/90d-clock-in]] — low ticket, $19, chat word pull from Products DB
 
+## Notion mirror (read + edit surface)
+
+These briefs are mirrored into a Notion database — **[Offer Briefs](https://app.notion.com/p/0f1d3f1292f5417a9b5815f248101a48)**, under the House Control Room page — so Alyssa can read and edit them in one place, each related to its Products DB offer. Notion is the review surface; these markdown files stay canonical for meaning. Reconcile edits both ways with `/sync-briefs`. Full mapping + protocol: [[Studio/Content/briefs/notion-sync]].
+
 Deeper voice source to fold in per offer: her related SENT EMAILS (linked by relation in the Products DB, real bodies at Kit/ckarchive). Pull bodies + true open rates via the Kit API — WIRED for the email-lane offers 2026-07-20 (task tsk-2026-07-17-002); see the refresh note at the top of this file. Not yet folded into the non-email offers (Pin Planner, Back of House, Soft Sundays, Promo Planner, Soft CEO, 90d Clock In) — same mechanical path applies when wanted.
 
 Not built yet: none — all live offers now have a brief (built 2026-07-17; beliefs still flagged for her react on first /content-run use).
