@@ -2,15 +2,15 @@
 
 _Auto-generated. Do not edit by hand. Run `python3 scripts/rebuild-task-index.py` to regenerate._
 
-_Last rebuilt: 2026-07-20T16:56:47Z_
+_Last rebuilt: 2026-07-21T15:23:34Z_
 
 ## Summary
-- Open: 27
+- Open: 26
 - In progress: 0 (0 blocked)
-- Done (this month): 11
+- Done (this month): 12
 - Cancelled (this month): 2
 
-## Open (27)
+## Open (26)
 
 ### Priority 1 - urgent
 - [[tsk-2026-07-20-101-deep-content-work]] - Do the deep content work: buyer beliefs, her copy flows, pillar POVs - assignee: suki - created 2026-07-20
@@ -31,7 +31,6 @@ _Last rebuilt: 2026-07-20T16:56:47Z_
 
 ### Priority 3 - medium
 - [[tsk-2026-07-17-002-wire-sent-emails-into-briefs]] - Wire her sent-email bodies into the offer briefs via the Kit API - assignee: mack - created 2026-07-17
-- [[tsk-2026-07-20-001-profit-menu-finish-build]] - Finish The Profit Menu build (Daily Profit Activities -> menu) - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-107-saves-sweep-boot-slim]] - Slim the /saves-sweep daily boot - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-109-external-voice-benchmarks]] - Run the external voice benchmarks - assignee: pax - created 2026-07-20
 - [[tsk-2026-07-20-112-sent-emails-followups]] - Finish the sent-emails curation follow-ups - assignee: larry - created 2026-07-20
@@ -53,13 +52,14 @@ _(none)_
 
 ## By assignee
 - alyssa: 4 open, 0 in-progress (0 blocked)
-- larry: 9 open, 0 in-progress (0 blocked)
+- larry: 8 open, 0 in-progress (0 blocked)
 - mack: 7 open, 0 in-progress (0 blocked)
 - pax: 1 open, 0 in-progress (0 blocked)
 - penn: 1 open, 0 in-progress (0 blocked)
 - suki: 5 open, 0 in-progress (0 blocked)
 
 ## Recently closed (this month)
+- 2026-07-20 [[tsk-2026-07-20-001-profit-menu-finish-build]] - done - Finish The Profit Menu build (Daily Profit Activities -> menu)
 - 2026-07-20 [[tsk-2026-07-20-116-hermes-lineup-paths]] - done - Repoint the Hermes lineup paths
 - 2026-07-17 [[tsk-2026-07-17-001-disable-ideation-cron]] - done - Disable the unattended Content Ideas ideation cron
 - 2026-07-16 [[tsk-2026-07-16-002-draft-house-north-star]] - done - Draft the house north star for Alyssa to react to

@@ -8,7 +8,7 @@ assignee: larry
 priority: 3
 
 # Status
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -59,7 +59,14 @@ Per section 5 of the handoff, not restated here: remaining icons, the Round 2 sp
 ## Updates
 
 - 2026-07-20 (penn) — task created to give the two orphaned profit-menu deliverables a real home. No content copied out of them; links only.
+- 2026-07-21 (larry) — finished. All 65 activities covered, both paused activities resolved, Alyssa reviewed the full board herself.
 
 ## Outcome
 
-_(filled when status flips to done)_
+All 65 Profit Menu activities have a native page cover. Alyssa delivered two more Canva batches and drove the final placements directly, reviewing the whole gallery at once rather than card by card.
+
+Both success criteria met. The Round 2 matches were not just spot-checked but re-reviewed wholesale, and several were replaced with clearer pairings (the train ticket moved from Someone Else's Audience to Summit, the Ctrl key from Guest Blog to Close One Tab, the soap from Close One Tab to Spa Break). Both paused activities were unpaused and filled: Hot New Thing took the chili peppers, Show Your Notebook took the composition notebook, which also retired the set-aside clipboard question.
+
+Six icons stayed unused rather than being forced onto cards: dish rack, laundry basket, fried egg, orange, 7-ball, and a superseded oversized rotary phone.
+
+The reusable artifact from this work is the labeled contact sheet at [[Library/Offers/the-daily-profit-activities/assets/profit-menu-icon-contact-sheet.png]] plus the filename-to-image table in Section 7 of [[Deliverables/2026-07-16-profit-menu-handoff]]. Drive filenames for this icon set are meaningless (`spa.png` is a Game Boy radio, `wander.png` is a volume knob), so anyone picking an icon by filename will pick the wrong one.

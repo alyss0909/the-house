@@ -336,3 +336,48 @@ The croissant from that Canva batch was never uploaded — no home was found for
 **Activities with no image (5):** Guest Blog, Mention Your Freebie Live, Pitch a Podcast, Voice Note Segment, Host a Joint Training.
 
 Three of the five gaps still want audio (Mention Your Freebie Live, Pitch a Podcast, Voice Note Segment) and the library has no spare audio object. Guest Blog wants writing-on-someone-else's-turf; Host a Joint Training wants a pair.
+
+## 10. Rounds 7-8 (July 21, 2026) — 61 of 65
+
+Alyssa drove these directly, riffing off the contact sheet.
+
+|Activity|Now has|Was|
+|---|---|---|
+|Aux Girlie|pink cassette (`_Temp 3.png`)|sugar box|
+|Host a Joint Training|cherries (`_Temp 3 (1).png`)|(empty)|
+|Guest Blog|espresso cup|(empty)|
+|Sign Off Specials|fortune paper strip|blue alarm clock|
+|Pitch a Collab|sugar box|7-ball|
+|Voice Note|lips|volume knob|
+|Podcast|volume knob|earbuds and claw clip|
+|Pitch a Podcast|earbuds and claw clip|(empty)|
+
+Two notes on the reasoning. The espresso moved to Guest Blog so the two blog activities read as a pair — Blog Post has laptop-and-coffee, Guest Blog has the cup. And the volume knob went to Podcast rather than Live Event specifically to free the earbuds for Pitch a Podcast, which had been stuck empty; taking Live Event instead would have left it stuck.
+
+Hype Up Video and Host a Live Event were emptied by these moves (they gave up the espresso and the lips).
+
+**Images with no home (6):** dish rack, laundry basket, fried egg, orange, blue alarm clock, 7-ball.
+
+**Activities with no image (4):** Hype Up Video (wants a mirror, megaphone, sunglasses), Host a Live Event (stage, podium, mic stand), Mention Your Freebie Live (a mouth or a mic), Voice Note Segment (cassette, Walkman, soundwave).
+
+**Still weak (1):** Post to Groups (bagel).
+
+## 11. Complete — 65 of 65 (July 21, 2026)
+
+Every activity in The Profit Menu now has a native page cover. Final placements from the last rounds:
+
+|Activity|Icon|
+|---|---|
+|Book a Call|teal rotary phone (re-uploaded at correct size, `Temp Canva 1 (1).png`)|
+|Voice Note Segment|flip phone (`Temp Canva 1.png`)|
+|Post to Groups|goats (`_Temp 3 (2).png`)|
+|Mention Your Freebie Live|bagel|
+|Live Event|blue alarm clock|
+|Host a Live Event|martini glass|
+|Hype Up Video|`1j035B9KMjJbVYFsnMtFmoBeVUaHzc6Po`|
+
+Both originally paused activities were resolved: Hot New Thing took the chili peppers, Show Your Notebook took the composition notebook.
+
+**Icons with no home (6).** These stay in the Drive folder unused rather than being forced onto a card: dish rack, laundry basket, fried egg, orange, 7-ball, and the superseded oversized rotary phone (`9.png`). The "Main Character" mug was ruled out and never uploaded.
+
+**Method reminder for any future icon:** upload the unedited PNG to the Profit Menu Icons Drive folder, grab its file ID, and set the activity page's native cover to `https://drive.google.com/thumbnail?id={fileId}&sz=w1000`. Never use the "Card Cover" property — it is a plain URL field and Notion cannot render it as an image. Never pick an icon by Drive filename; use the contact sheet and the table in Section 7.
