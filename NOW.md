@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-21 13:32
+generated: 2026-07-21 13:56
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
