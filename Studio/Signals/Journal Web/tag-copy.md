@@ -1,8 +1,8 @@
 ---
-generated: 2026-07-20
+generated: 2026-07-21
 owner: scripts/journal-web.py - REGENERATED, do not hand-edit (SOP-040)
 tag: copy
-entries: 13
+entries: 14
 ---
 
 # Journal Web - #copy
@@ -10,6 +10,7 @@ entries: 13
 Every journal entry tagged `copy`, brought forward. This hub exists so no tagged entry is an orphan; deeper one-to-one links still belong in garden notes and maps.
 
 ## 2026
+- [[2026-07-15-maude-funnel-and-ads-strategy-call|2026-07-15 - Maude — Funnel, Ads and Masterclass Strategy Call]]
 - [[2026-07-09-good-email-sales-page-design-copy|2026-07-09 - Good Email / Sales Page Design + Copy]]
 - [[2026-06-12-email-to-carousel-repurposing|2026-06-12 - Email to Carousel — Repurposing Examples]]
 - [[2026-06-06-boh-launch-email-inspo|2026-06-06 - BOH Summer Launch — Email Sequence Braindump]]

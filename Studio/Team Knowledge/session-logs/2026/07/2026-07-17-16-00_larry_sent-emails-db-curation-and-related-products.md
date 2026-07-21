@@ -6,6 +6,7 @@ type: close-session
 linked_sops: ["SOP-040-the-compounding-loop"]
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Sent Emails DB: curated Kit history, Related Product audit, and team documentation

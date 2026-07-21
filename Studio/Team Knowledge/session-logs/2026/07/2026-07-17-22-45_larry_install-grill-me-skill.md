@@ -2,7 +2,7 @@
 agent: larry
 date: 2026-07-17
 slug: install-grill-me-skill
-mined: false
+mined: true
 ---
 
 # Session log — Install grill-me skill (from mattpocock/skills)

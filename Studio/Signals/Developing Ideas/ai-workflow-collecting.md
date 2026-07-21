@@ -35,6 +35,8 @@ This is the intake side of a pattern the garden is already watching from the ver
 - [[Notebook/Journal/2026/07/2026-07-11-onlook-cursor-for-designers]]: Onlook, with notes to self about building her own version
 - [[Notebook/Journal/2026/07/2026-07-11-prompts-to-run-when-fable-comes-back]]: prompt list for when Fable returns
 
+Earlier evidence, connected 2026-07-21 (recency-weight it): [[2025-07-24-look-into]] — a "Look into..." list from a year before the AI burst, mixing a Drive reorg, a no-sales-call form-to-loom setup, a YouTube plan, AI SEO schema, and two shopping items. Same motion, no AI framing: she parks things to evaluate later and the parking is faster than the evaluating. It matters because it shows the July 2026 burst is her standing intake habit meeting a loud month, not a new behaviour caused by AI. It also carries a rare verdict written at capture time — "I hate looms rather have a call" — which is what the fast-verdict lane below is meant to produce on purpose.
+
 ## What it's connecting to in the Second Brain
 
 - [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]]: the evaluation-side twin of this signal; every verdict so far has been "skip, we already built this"
@@ -56,4 +58,6 @@ None yet. Thesis draft written 2026-07-16; waiting on Alyssa's reaction.
 
 ## Check back
 
-2026-07-19 (next weekly sweep).
+Checked 2026-07-21 (the 2026-07-19 date came due during the W30 wrap gap). The finding is that the burst stopped. Between 2026-07-12 and today, ten days, exactly one save landed — [[2026-07-12-branding-skill-reel]], and it is an Instagram reel about a branding skill rather than a workflow resource. Thirteen saves in four days became one in ten. So this reads as a burst tied to a particular week, not a rising trend, and the case for building a standing fast-verdict lane is weaker than it looked on 2026-07-16: a lane built for thirteen-a-week would sit empty. The proposal above stays as written and stays hers to confirm, but it is no longer urgent, and the backlog it would process is still the same eleven unevaluated resources.
+
+Rescheduled to 2026-08-18. Reason: at one save a month the useful question is not "process the pile" but "did the pile grow"; a four-week window is the shortest one that can answer it. If the count is still near zero then, this signal should be merged into [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]] and closed, because a collecting habit that stopped collecting is a finished pattern, not a live one.

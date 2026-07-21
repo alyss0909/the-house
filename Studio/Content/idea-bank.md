@@ -47,3 +47,14 @@ Her hook, moved here from the retired Ready Queue at her call ("it's ready to mo
 The exact 3-line follow-up that gets forgotten sales calls back on the books. *[coined-word — her own named framework from the source email]*
 
 - Resurfaced 2026-07-18: [[2020-11-17-wildling]] — a one-word identity musing ("Wildling", linked to [[becoming]]) from 2020; parked here as brand-world word material.
+
+## Her own subject-line captures (resurfaced 2026-07-21)
+
+Four lines she wrote into her journal and never used. They are hers already, so they need no invention — only a piece to sit on top of. All four pass the identity-call test in [[Studio/Voice/formats/subject-lines]]: they name a situation back to the reader rather than withhold information, and all four are under the 40-character cap.
+
+- **not to be dramatic but... this could predict the next 12 months of business** — [[2025-10-10-not-to-be-dramatic-but]]. The self-deprecating hedge that lets a big claim land without hype. Front phrase is already the right length; the payoff line is the preview text.
+- **Break the pattern today or repeat the cycle tmrw** — [[2025-12-09-break-the-pattern-today-or-repeat-the-cycle-tmrw]]. Her own alternate in the same entry: "or the loops will repeat tmrw." Lowercase "tmrw" is the deliberate txt-speak the format file already documents.
+- **Something you can always count on** — [[2025-10-13-something-you-can-always-count-on]]. Reliability as the promise, which is the [[Studio/Signals/Developing Ideas/easiest-email-highest-return|easiest-email]] thesis in five words. Natural fit for a 5 Minute Newsletter or BOH send.
+- **Not all traffic is created equal** — [[2026-01-31-not-all-traffic-is-created-equal]]. A Pinterest/slow-marketing line, not an email one: it argues the quality-over-volume case her Pinterest teaching already makes.
+
+- Resurfaced 2026-07-21: [[2024-11-07-chain-mail]] — a two-word brand-word capture ("chain mail"), filed by her under emails and brand world. Parked here with [[2020-11-17-wildling]] as name material, most obviously for an email series or a referral/forward mechanic.

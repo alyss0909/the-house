@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-20 08:14
+generated: 2026-07-21 08:11
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,41 +8,42 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Night shift ran 2026-07-20 (maintenance only, no Alyssa present). Full log: [[2026-07-20-08-15_larry_night-shift-journal-and-playbook]].
+Night shift 2026-07-21 (Alyssa not present): journal connections, playbook mining, one check-back drained. Nothing here needs her.
 
-TOP PRIORITY UNCHANGED — the four run-3 decks still sit Ready on the Content Studio board awaiting Alyssa's reacts. Covers: "you've got six burners going when one will do." (5MN House Report) · "quit rewriting that email. simmer it instead." (5MN How To) · "your kid's sandwich meltdown is the email." (Bingeable How To) · "stop summoning your newsletter." (Bingeable Pivot). NEXT REAL SESSION STARTS HERE: harvest her reacts (Stage 0), verbatim, into [[Studio/Content/taste-ledger]] and the run-3 receipt in [[Studio/Content/runs/2026-07-17-run]]. If run 3 fails on voice again, the next lever is already named: load one full real deck verbatim into the writer as calibration — do not add rules. Full v4 context in the 2026-07-18 log.
+TWELVE JOURNAL ENTRIES CONNECTED, debt down from 105 to 93. The best of them: a complete booking-confirmation email from Nov 2025, written in her own voice while doing pure logistics, now feeding the easiest-email signal. Also four subject lines she wrote and never used, parked in [[Studio/Content/idea-bank]], and a set of brand lines ("The Rabbit Hole Effect," "Side-quest proof your business") that turned out to be her niche-obsessions thesis said in language she could actually sell. Full receipt in tonight's log.
 
-This night shift did: 7 journal connections into the garden (2 lowered the debt counter, 105 now); mined the carousel "riff = read my real slides, match my terse format" lesson into Larry's PLAYBOOK; rescheduled the ai-team-as-mirror check-back to 2026-08-18 (needs her direction, not the loop's).
+TWO NEW HOUSE RULES in [[Studio/Team/TEAM-BRAIN]], mined from July 17 logs. One: her own records beat the vendor's API — she keeps the verified data in a sheet, and reconstructing it out of Kit shipped roughly nineteen dead links she had to catch herself. That rule had been living only in one machine's private memory, which the loop forbids, so it now lives in the vault. Two: brief specialists from the real file, never from a summary of it. Four more receipts went into Larry's playbook.
 
-Still open, all needing her: the register question (sentence vs full caps on the "stop summoning" page); Promo Planner lane collapse; tsk-2026-07-17-001 (ideation cron, Mack) and tsk-2026-07-17-002 (Kit API sent-email wiring); WS-006/008/009 + Hermes SOURCES still cite the retired taste-log (sweep offered, not ordered).
+CHECK-BACK DRAINED: the AI-workflow-collecting signal. The finding is that the burst stopped — thirteen saves in four days in early July, then one in the ten days since. The standing verdict lane proposed for it was sized for a trend that is not rising, so it stays proposed and stays hers to call. Rescheduled to 2026-08-18; if the pile still has not grown by then it should merge into its twin signal and close.
 
-Carried, untouched: the two Inbox content-strategy files; stale Mailroom "Bundles That Benefit" card; KeepSidian reauth; PRECEDENT-INDEX briefing habit; Related Product batch approval; older-tab review; Soft Sunday trim decision. Content work starts from /saves-sweep, /content-run, [[SOP-041-content-production]], and [[Studio/Content/carousel-dispatch]].
+STILL WAITING ON HER, unchanged from 2026-07-20: the two hermes-deep-voice-study scheduled tasks; the Telegram Capture Bot task; the Kit form for the Pin Engine page; the five Gmail filters; the two Vault replies to Natalie and Lily; the three canonical contract edits proposed for PRECEDENT-INDEX.
+
+CONTENT LANE STAYS PARKED by her 2026-07-20 instruction. Not touched tonight. Her react on the "stop summoning your newsletter." deck is still unharvested and waits for her rework.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-20-08-15_larry_night-shift-journal-and-playbook]])
-- [ ] Alyssa reacts to the four run-3 decks on the Content Studio board (six burners House Report · quit rewriting How To · sandwich meltdown How To · stop summoning Pivot). Her reacts fill the run-3 receipt in [[Studio/Content/runs/2026-07-17-run]] and [[Studio/Content/taste-ledger]].
-- [ ] Register question flagged on the "stop summoning" page: sentence case with selective bolds vs full caps. Her answer becomes a ledger rule.
-- [ ] Promo Planner brief: two lanes are close cousins; if a run shows them collapsing, drop to one lane.
-- [ ] tsk-2026-07-17-001 (disable ideation cron, Mack) and tsk-2026-07-17-002 (wire sent-email bodies via Kit API) still open.
-- [ ] WS-006, WS-008, WS-009 and Hermes SOURCES.md still reference the retired taste-log; scoped sweep offered, not yet ordered.
-- [ ] Second-appearance watch: "it doesn't sound like me" has recurred across sessions; if run 3 fails on voice again, load one full real deck verbatim into the writer as calibration, not more rules.
-- [ ] Two due check-backs remain (both 2026-07-19): [[ai-workflow-collecting]] and [[system-already-beats-external-tools]] — for the next weekly sweep.
+## Open threads (from [[2026-07-21-08-10_larry_night-shift-journal-and-playbook]])
+- [ ] Alyssa reacts to the four run-3 decks on the Content Studio board; the "stop summoning your newsletter." react is still unharvested. Parked by her instruction, not dropped.
+- [ ] Register question on the "stop summoning" page (sentence case vs full caps) — answered 2026-07-20 in [[Studio/Content/taste-ledger]], carried here only until the board reflects it.
+- [ ] Promo Planner brief: two lanes may be close cousins.
+- [ ] tsk-2026-07-17-001 (disable ideation cron) and tsk-2026-07-17-002 (sent-email bodies via Kit API) still open. Note that -002 should be re-read against tonight's new TEAM-BRAIN ruling before anyone builds it.
+- [ ] WS-006, WS-008, WS-009 and Hermes SOURCES.md still reference the retired taste-log.
+- [ ] Second-appearance watch: "it doesn't sound like me."
+- [ ] One due check-back remains: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]].
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
-Connection state: **464/569 entries linked by non-generated sources (82%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
+Connection state: **477/570 entries linked by non-generated sources (84%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
 - oldest never-linked: [[2020-12-31-alyssas-birth-time]] (`Notebook/Journal/2020/12/2020-12-31-alyssas-birth-time.md`)
 - newest never-linked: [[2026-03-10-genius-free-trial-incentive]] (`Notebook/Journal/2026/03/2026-03-10-genius-free-trial-incentive.md`)
-- most related to last session: [[2025-11-27-its-a-date-bookingtypetitle-on-bookingdate]] (`Notebook/Journal/2025/11/2025-11-27-its-a-date-bookingtypetitle-on-bookingdate.md`)
+- most related to last session: [[2022-03-29-pre-bb-to-do]] (`Notebook/Journal/2022/03/2022-03-29-pre-bb-to-do.md`)
 
 ## Due check-backs
-- 2026-07-19 — `Studio/Signals/Developing Ideas/ai-workflow-collecting.md`
 - 2026-07-19 — `Studio/Signals/Developing Ideas/system-already-beats-external-tools.md`
 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
-- Journal connection debt: 105 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 5 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
-- Stale open tasks (14d+): 4 — worst: 49d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 49d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 46d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
+- Journal connection debt: 93 entries with zero genuine inbound links (generated hubs and session logs do not count)
+- Unmined session logs: 2 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Stale open tasks (14d+): 0
 
 ## Close-session gate (SOP-040 — no session ends without)
 1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).

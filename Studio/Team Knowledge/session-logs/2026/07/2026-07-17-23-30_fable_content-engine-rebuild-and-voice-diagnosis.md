@@ -5,7 +5,7 @@ timestamp: 2026-07-17T23:30:00Z
 type: close-session
 linked_sops: ["SOP-011-write-session-log", "SOP-040-the-compounding-loop"]
 linked_guidelines: ["GL-014-the-compounding-architecture"]
-mined: false
+mined: true
 ---
 
 # Content engine deep-rebuild and the voice diagnosis
