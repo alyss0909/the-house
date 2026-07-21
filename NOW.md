@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-20 20:56
+generated: 2026-07-21 12:58
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -42,7 +42,10 @@ Connection state: **464/569 entries linked by non-generated sources (82%)** — 
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 105 entries with zero genuine inbound links (generated hubs and session logs do not count)
 - Unmined session logs: 5 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
-- Stale open tasks (14d+): 4 — worst: 49d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-004-telegram-claude-automation.md`, 49d `Studio/Team Knowledge/tasks/open/tsk-2026-06-01-002-second-brain.md`, 46d `Studio/Team Knowledge/tasks/open/tsk-2026-06-04-002-review-copy-voice-brand-words-tags.md`
+- Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 6 stale
+  - DORMANT (kill-or-commit): 3 — 50d `second-brain`, 47d `review-copy-voice-brand-words-tags`, 46d `telegram-claude-automation`
+  - COMPRESS (merge / scope-cut): 1 — 25d `converter-pack-runtime-install`
+  - PULSE (surfacing): 2 — 11d `obsidian-back-button-scrollbars`, 11d `before-monday-open-loops`
 
 ## Close-session gate (SOP-040 — no session ends without)
 1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).
