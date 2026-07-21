@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-21 10:40
+generated: 2026-07-21 10:44
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -21,14 +21,13 @@ STILL WAITING ON HER, unchanged from 2026-07-20: the two hermes-deep-voice-study
 CONTENT LANE STAYS PARKED by her 2026-07-20 instruction. Not touched tonight. Her react on the "stop summoning your newsletter." deck is still unharvested and waits for her rework.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-21-08-10_larry_night-shift-journal-and-playbook]])
-- [ ] Alyssa reacts to the four run-3 decks on the Content Studio board; the "stop summoning your newsletter." react is still unharvested. Parked by her instruction, not dropped.
-- [ ] Register question on the "stop summoning" page (sentence case vs full caps) — answered 2026-07-20 in [[Studio/Content/taste-ledger]], carried here only until the board reflects it.
-- [ ] Promo Planner brief: two lanes may be close cousins.
-- [ ] tsk-2026-07-17-001 (disable ideation cron) and tsk-2026-07-17-002 (sent-email bodies via Kit API) still open. Note that -002 should be re-read against tonight's new TEAM-BRAIN ruling before anyone builds it.
-- [ ] WS-006, WS-008, WS-009 and Hermes SOURCES.md still reference the retired taste-log.
-- [ ] Second-appearance watch: "it doesn't sound like me."
-- [ ] One due check-back remains: [[Studio/Signals/Developing Ideas/system-already-beats-external-tools]].
+## Open threads (from [[2026-07-21-agent-task-clearing-wave]])
+- [ ] **Ghostwriter blind-test — READY** at `Deliverables/2026-07-20_ghostwriter-blind-test.md`. Real `angelarose210/ghostwriter` skill installed + run; ground truth = her real "telling you what to do [list inside]" email (43% open); 3 shuffled drafts, answer key sealed at the bottom. Alyssa opens a NEW session, ranks 1–3 (don't peek). No install needed for the test itself. (Finding baked in: the skill's tells-scrubber bans em dashes/looseness, so the Ghostwriter draft reads *cleanest* — which may itself read as less like her.)
+- [ ] **Mailroom** — Alyssa to decide: mark done as-is (Notion to look, Obsidian does the work), or Larry finishes the Notion wiring. Live automation is still Obsidian.
+- [ ] **Maude** (her list) — offered: Larry drafts the upsell/downsell + masterclass pages and does a first review pass on the nurture sequence/qualification form/website; Looms are hers. Awaiting her go.
+- [ ] **Reactions parked** for her: offer-factory plan (3 decisions), outcome-writeback A/B/C, session-log interlinking (check-back 07-23), socials-inspo verdict (paused, likely moot).
+- [ ] Config-hardening 3 subtasks — never pinned down what they are; Larry to trace before wiring anything beyond auto-push.
+- [ ] Still cooking, driveable without her when she says go: deep content work, carousel backlog, sent-email curation, Profit Menu icons, the 12 journal taste-lines.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **477/570 entries linked by non-generated sources (84%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
@@ -42,8 +41,9 @@ Connection state: **477/570 entries linked by non-generated sources (84%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 93 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 2 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
-- Stale open tasks (14d+): 0
+- Unmined session logs: 3 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 0 stale
+  - clear — every open task moved within the last 7 days
 
 ## Close-session gate (SOP-040 — no session ends without)
 1. Fate line on every Decision/Insight/Realignment (wikilink to durable home, or dated expiry).

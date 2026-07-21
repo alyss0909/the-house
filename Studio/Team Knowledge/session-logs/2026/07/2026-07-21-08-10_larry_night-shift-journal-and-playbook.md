@@ -98,7 +98,13 @@ Sleuthed each against disk rather than against its note. No session log or deliv
 - **evaluate the eleven AI resources** — confirmed still unevaluated earlier tonight while draining that signal's check-back.
 - **meeting-clean defect, sent-emails into briefs, wikilink-resolve** — no work log, and the sent-emails task is still listed as an open thread in NOW.md.
 
-Verdict: the vault was right on all seven and the board was wrong. Corrected the seven Notion rows back to open rather than closing seven live tasks. Left a dated "Reopened 2026-07-21" note on the three where the old note was actively misleading. Board now reads 27 open, matching the vault exactly.
+Verdict at the time: the vault was right on all seven and the board was wrong. Reopened the seven Notion rows.
+
+**That verdict was WRONG, corrected same session.** The work was real. It lived on a cloud session's branch, `claude/subagent-task-clearing-ss2qzo`, which had never been merged into master, so none of it was visible from this working copy. Every check I ran was against the local checkout only. `git fetch` plus `git branch -r` would have shown it in five seconds; I never ran either, and instead told Alyssa six artifacts had "never existed in git history on any branch," which was false because I had never fetched the branches. I did state the correct caveat (that a session running elsewhere would look exactly like this) but buried it under three paragraphs of wrong conclusion, which is how she ended up asking *"wtf is happening i need a single source of truth."*
+
+Fixed on her go: branch merged into master (merge commit, three conflicts resolved by hand). METHOD.md took both sides since they were complementary. Mailroom README kept master's version because the branch predates her 2026-07-20 switch to Notion and would have reinstated a retired "pick a surface" question. NOW.md regenerated. The seven Notion rows are back to done with plain notes saying the work is now in her vault.
+
+Also merged in the process: two commits of long-outstanding uncommitted local vault state that had been blocking any merge, including the carousel folder restructure (the `2026-01-15-slow-marketing-trends-pt-1.md` file became a folder of ten slide images) and six task-file moves into done/ and cancelled/.
 
 Not done, and honestly flagged rather than faked: the House Operations Board "Last checked" pass. That board has 134 rows and I could not tell which correspond to tonight's narrow run without guessing.
 
