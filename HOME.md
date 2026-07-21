@@ -220,9 +220,16 @@ try {
 // automation already runs on its own schedule. ============
 /* The ledger itself lives right here, hidden mailroom-style: inside this
    block comment nothing renders on screen, while every reader of the raw
-   file (this block's own regex, the /actions command, and the OS-level
-   HomeActionsWatcher task) still finds the exact lines. Do not reformat
-   these marker lines; three different readers match them verbatim.
+   file (this block's own regex and the /actions command) still finds the
+   exact lines. Do not reformat these marker lines; both readers match them
+   verbatim.
+
+   Retired 2026-07-20: there used to be a third reader, an OS-level
+   HomeActionsWatcher scheduled task that ran the weekly review unattended.
+   Alyssa retired it rather than pay for a separate metered API key for one
+   report. The cards below are unaffected: clicking one still queues it here,
+   and saying "/actions" still runs it. The only thing lost is the ability to
+   run the weekly review while no Claude app is open.
 
 ## Actions state
 <!--action-ledger-start-->
@@ -451,34 +458,26 @@ try {
 ```
 
 ```dataviewjs
-// ============ THIS WEEK IN CONTENT — same stage heuristic as
-// Studio/Content/dashboard/00 Content Command Center.md, relabeled into
-// plain words (idea / outline / hook / draft / posted, no "arc", no arrows). ============
+// ============ THIS WEEK IN CONTENT. The weekly pitch sheet was retired
+// with the content desk rebuild (July 16). Content now runs on the
+// Content Studio board in Notion, and every /content-run leaves a receipt
+// in Studio/Content/runs/. This block reads the newest receipt. ============
 try {
-  const pitchFiles = dv.pages('"Studio/Content"')
-    .where(p => p.file.name.match(/^\d{4}-W\d{2}-pitch$/))
+  const runFiles = dv.pages('"Studio/Content/runs"')
+    .where(p => p.file.name.match(/^\d{4}-\d{2}-\d{2}-run$/))
     .sort(p => p.file.name, 'desc');
 
-  const stages = ["Idea", "Outline", "Hook", "Draft", "Posted"];
   let html = `<div class="db-home-lbl">( THIS WEEK IN ) <b>CONTENT</b></div>`;
 
-  if (pitchFiles.length === 0) {
-    html += `<div class="db-home-section-sub">no pitch sheet found yet for this week</div>`;
-    html += `<div class="db-empty">Nothing started yet. Open <a data-href="Studio/Content/dashboard/00 Content Command Center" href="#">the content desk</a> to start the week.</div>`;
+  if (runFiles.length === 0) {
+    html += `<div class="db-home-section-sub">no finished posts recorded yet</div>`;
+    html += `<div class="db-empty">Nothing built yet. Open <a data-href="Studio/Content/dashboard/00 Content Command Center" href="#">the content desk</a>, or say "/content-run" to turn your picks into finished posts.</div>`;
   } else {
-    const latest = pitchFiles[0];
-    const content = await dv.io.load(latest.file.path);
-    const wkMatch = content.match(/^#\s*Weekly Pitch Sheet\s*—\s*(W\d{2})/m);
-    const hasArc = content.includes("## Approved — slide skeletons");
-    const current = hasArc ? 1 : 0;
-    const weekLabel = wkMatch ? `Week ${wkMatch[1].replace("W", "")}` : latest.file.name;
-    html += `<div class="db-home-section-sub">${weekLabel}, read from the current pitch sheet</div>`;
-    html += `<div class="db-home-stage-row">`;
-    html += stages.map((label, i) => {
-      const state = i < current ? " done" : (i === current ? " current" : "");
-      return `<span class="db-stage${state}">${label}</span>`;
-    }).join("");
-    html += `</div>`;
+    const latest = runFiles[0];
+    const stamp = latest.file.name.replace(/-run$/, "");
+    const nice = new Date(stamp + "T00:00:00").toLocaleDateString(undefined, { month: "long", day: "numeric" });
+    html += `<div class="db-home-section-sub">last run ${nice}, posts built and waiting on the board</div>`;
+    html += `<div class="db-empty">Read the <a data-href="${latest.file.path}" href="#">run receipt</a>, or open <a data-href="Studio/Content/dashboard/00 Content Command Center" href="#">the content desk</a> for the board and how it works.</div>`;
   }
 
   const wrap = dv.el("div", html, {});

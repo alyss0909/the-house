@@ -8,7 +8,7 @@ assignee: mack
 priority: 2
 
 # Status
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 

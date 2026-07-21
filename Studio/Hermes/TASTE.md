@@ -70,3 +70,5 @@ Alyssa keeps her own anti-AI rules in the vault (journal 2026-04-27, "It's not [
 | Would she have to wrestle it? | rewrite needed | edits needed | publishable with light touch |
 
 **Kill threshold:** any 0 on refusals, pain framing, or CTA = fail outright. Otherwise ≥14/18 to pass. Final gate is the **lineup test**: hide the draft among 3 real passages from `Hermes/examples/good/` (curated verbatim excerpts with source paths) or the full originals in `Library/Examples/<format>/` — if a fresh reader can spot the fake, it fails no matter the score.
+
+**Carousels are the exception to that path.** The dated folders in `Library/Examples/Carousels/` hold slide IMAGES, not copy — a lineup built from them loads nothing readable. For carousels the live copy sources are [[Studio/Content/nine-decks]] (89 slides, verbatim) and [[Library/Examples/Carousels/for-the-girls-slide-copy]]. Build the carousel lineup from those two files only. Never cite a dated Carousels folder as a copy source.

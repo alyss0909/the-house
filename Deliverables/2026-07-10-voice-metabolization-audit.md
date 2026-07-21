@@ -8,6 +8,8 @@ status: REPORT ONLY — nothing in Studio, Hermes, or Archive was edited to prod
 
 # Voice metabolization gap audit
 
+_Consumed by [[Studio/Voice/README]] and [[Studio/Voice/formats/README]] — read the MISSING queue below before deepening any format file._
+
 Alyssa's concern: "i dont think the voice files have been appropriately metabolised." This audit compares the new authority — [[Studio/Voice/README]], [[Studio/Voice/KILL-LIST]], [[Studio/Voice/formats/README|Studio/Voice/formats/*]] — against the old knowledge base it was meant to digest: [[Hermes/SOUL]], [[Hermes/STYLE]], [[Hermes/TASTE]], [[Hermes/ANTI-AI]], `Studio/Hermes/craft/*`, [[Hermes/learning/inbox]], [[Hermes/LEARNING]], `Studio/Hermes/learning/log`, `Studio/Hermes/learning/deep-reads/*`, [[Hermes/MEAN-ALYSSA]], and the three archived analysis files at `Archive/Studio-Analysis-voice-retired-2026-07-10/`.
 
 Finding up front: **the concern is correct.** The Voice layer was built by pulling one short "what makes hers hers" bullet list per format straight from [[Library/Examples]], and by copying the ANTI-AI checklist near-verbatim into the KILL-LIST. It was not built by reading STYLE.md's deep-read layers, the craft files' hard guards and forensic numbers, or the three scheduled `hermes-deep-voice-study` months of corpus work. The KILL-LIST is a faithful subset of ANTI-AI (no drift found — see below), but the format files are a fraction of the depth in the matching craft files. Nearly all of the granular, corpus-measured, number-backed rules live only in Studio/Hermes and never made it across.

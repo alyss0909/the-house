@@ -1,5 +1,7 @@
 ﻿---
 full_name: Peter Yang
+aliases:
+  - Peter Yang
 relation: other
 role: Creator, Newsletter Author
 linkedin_url: https://www.linkedin.com/in/peterlyang

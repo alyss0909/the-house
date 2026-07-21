@@ -1,5 +1,7 @@
 ﻿---
 full_name: Ruben Hassid
+aliases:
+  - Ruben Hassid
 relation: other
 role: AI Educator, Creator, Newsletter Author
 tags:

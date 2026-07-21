@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 3
 
 # Status (mirrors folder location)
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 
@@ -56,3 +56,7 @@ Alyssa wants to revisit whether `voice` and `writing-style` are actually distinc
 
 ## Outcome
 _(filled when status flips to done — see SOP-006-close-task)_
+
+## Closed 2026-07-20
+
+Killed by Alyssa 2026-07-20. The question was overtaken by events: the voice layer was rebuilt twice since June (Wren retired, Hermes JUDGMENT made the single authority, then voice promoted to a house-level layer). The interim rule in [[GL-004-tag-taxonomy]] stands as the permanent rule unless it actually causes a problem.

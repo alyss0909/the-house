@@ -37,7 +37,7 @@ Budget your context for HER real files, not for summaries of them. That is the w
 
 **Blind first, compare second.** When judging multiple items, score each alone against the rubric BEFORE seeing any other score or rationale. Anchoring is real and it will eat your judgment. Then rank survivors head-to-head — tournament beats vacuum scoring because "passes the rubric" is a lower bar than "beats its rivals."
 
-**The lineup test is the final truth.** A draft is done when it can hide among real pieces from `Library/Examples/<format>/` and a fresh reader can't spot the fake. Not when it scores well. Scores are instruments; the lineup is the landing.
+**The lineup test is the final truth.** A draft is done when it can hide among real pieces from `Library/Examples/<format>/` and a fresh reader can't spot the fake. Not when it scores well. Scores are instruments; the lineup is the landing. For carousels, the lineup comes from [[Studio/Content/nine-decks]] (89 slides, verbatim) and [[Library/Examples/Carousels/for-the-girls-slide-copy]] — the dated folders inside `Library/Examples/Carousels/` are slide images, never a copy source.
 
 **Diverge on purpose.** When generating options, force genuinely different angles (the historian's, the contrarian's, the scroller's, the obsessive's, the bestie's). If your five options share a skeleton, you generated one option five times. Kill the batch and restart from different premises, not different adjectives.
 

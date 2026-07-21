@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 1
 
 # Status
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 
@@ -112,3 +112,7 @@ This is the foundation that makes systematize-socials actually work.
 ## Outcome
 
 _(filled when status flips to done)_
+
+## Closed 2026-07-20
+
+Killed by Alyssa 2026-07-20, condition checked: no other open task depends on this. The work it described is alive elsewhere and no longer needs a task. Her source material now lives in the Library and [[Studio/Hermes/SOURCES]], the voice authority is the Hermes JUDGMENT layer, and the inspo-to-post loop this task existed to enable is running as /saves-sweep plus /content-run under [[Studio/Content/METHOD]]. It sat at priority 1 for seven weeks with no movement because it was already being done under other names.

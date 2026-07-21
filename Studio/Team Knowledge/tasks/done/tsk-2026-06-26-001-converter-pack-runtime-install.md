@@ -1,7 +1,7 @@
 ---
 id: tsk-2026-06-26-001
 title: Run Converter Pack runtime install (Whisper + tools)
-status: open
+status: done
 created: 2026-06-26
 owner: Mack
 priority: medium
@@ -39,3 +39,13 @@ Alyssa has a voice memo, audio recording, or article URL she wants to transcribe
 ## Notes
 
 Ghostscript (for OCR) is AGPL-3.0. It's installed as a system CLI subprocess by OCRmyPDF; the pack never bundles or modifies it. Disclosure is in [[Expansions/converter-pack/README]].
+
+## Closed 2026-07-20
+
+Alyssa chose the Whisper `small` tier. Mack ran the install. `doctor.ps1` exits 0: all core tools present, one optional warning.
+
+Installed: yt-dlp, pandoc, ImageMagick, poppler, ExifTool, Tesseract 5.4.0, Python 3.12, whisper.cpp v1.8.4, plus trafilatura and ocrmypdf via pipx. ffmpeg was already present. Whisper `small` model downloaded (487,601,967 bytes). SOPs 021-027 are now live and callable.
+
+One contained gap: Ghostscript is no longer in the winget repository at all. Doctor classes it optional and OCRmyPDF falls back to a slower renderer, so SOP-026 works but more slowly. Installing it would mean going outside winget, which the pack forbids by rule. That is a deliberate decision for Alyssa, not a default.
+
+Three latent bugs in `install.ps1` were worked around on this machine but NOT fixed in the script, so they will bite on any re-install or another machine. Tracked separately.

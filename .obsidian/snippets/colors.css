@@ -35,6 +35,17 @@ body, :root {
   --graph-node-unresolved: #d4c5c6;
   --graph-arrow: #c1b5b6;
   --graph-line: #e0d0d0;
+
+  /* SCROLLBARS — restored 2026-07-20 (tsk-2026-07-10-002).
+     Obsidian core builds these from rgba(var(--mono-rgb-100), x),
+     and AnuPpuccin maps --mono-rgb-100 to --ctp-text. The .theme-light
+     block above sets --ctp-text to the hex #2d1a1b, so core produced
+     rgba(#2d1a1b, 0.1) — invalid CSS, which computes to transparent
+     and made every scrollbar thumb invisible. Set them directly here
+     in the same burgundy, as valid rgba(). */
+  --scrollbar-bg: rgba(45, 26, 27, 0.05) !important;
+  --scrollbar-thumb-bg: rgba(45, 26, 27, 0.22) !important;
+  --scrollbar-active-thumb-bg: rgba(45, 26, 27, 0.4) !important;
 }
 
 /* The frame — the linen background all cards float on */

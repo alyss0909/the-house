@@ -32,8 +32,21 @@ This command is a Claude Code convenience wrapper. The canonical protocol lives 
 
 5. **Graduate insights (optional).** If any insight captured during the session has reached "this is now a permanent rule" status, propose graduating it from the session log into an SOP, Guideline, or Workstream. Ask the user before writing.
 
-6. **Control Room sync.** If this session created, changed, paused, or retired any slash command, skill, SOP, workstream, guideline, engine, routine, or agent, update the matching row in the House Operations Board in Notion (database inside the "House Control Room" page, data source `collection://fc40825c-e3fc-401a-aa72-73b285604f4c`): add new rows for new items, update Status for changed ones, set "Last checked" to today. This board is Alyssa's window into everything running behind the scenes; it must never drift from reality. Also sync the Agent Tasks database on the same page (data source `collection://c435003e-92d4-4f61-9696-1b86feb46556`): new open tasks get a row (with Room and Desk tags plus the obsidian deep link), closed tasks get Status set to done. If nothing operational changed and no tasks moved, skip.
+6. **Run the house check, and clear what it finds.** Run `python3 scripts/house-check.py`. This is not advisory. Every line it prints must be cleared before you write the hand-off:
+   - **LEAK** — an open thread vanished between session logs without becoming a task or being resolved. This is the leak that lost roughly 75 pieces of committed work before 2026-07-20. Each one gets a task file via [[SOP-004-create-task]], or an explicit line in today's log saying why it died. Never both silence and nothing.
+   - **UNCAPTURED** — NOW.md is carrying an item with no task file behind it. Same rule: file it or kill it in writing.
+   - **DRIFT** — a task file's status disagrees with its folder. Run `python3 scripts/rebuild-task-index.py`.
+   - **STALE** — an open task is 14 days or older. Say something about it in the hand-off, even if that something is "still parked, still fine."
 
-7. **Weekly review nudge.** Check whether a weekly wrap exists for the current ISO week at `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`. If no wrap exists and today is ≥5 days into the current ISO week (Thursday, Friday, Saturday, or Sunday), append one line to the sign-off: `Weekly review pending for week WNN — run /weekly-review to wrap the week.`
+   The check writes nothing and fixes nothing. Clearing it is the closing agent's job, and the point is that it makes the failure visible instead of trusting anyone to remember.
 
-8. **Sign off.** Confirm the session log path, list any structural fixes made, and name any open threads the next session should pick up first.
+7. **Control Room sync (mechanical, not optional).** The vault is the source of truth; Notion mirrors it. Run `python3 scripts/house-check.py --json` to get the canonical open-task list, query the Agent Tasks database in Notion (data source `collection://c435003e-92d4-4f61-9696-1b86feb46556`), and diff the two. They must match exactly:
+   - a task file in `tasks/open/` with no Notion row gets a row (Room and Desk tags plus the "Open in vault" link)
+   - a Notion row not open in the vault gets its Status corrected
+   - killed work is marked done with a "Notes for the team" line saying it was killed and why, so the board never implies something was finished when it was abandoned
+
+   Then, if this session created, changed, paused, or retired any slash command, skill, SOP, workstream, guideline, engine, routine, or agent, update the matching row in the House Operations Board (data source `collection://fc40825c-e3fc-401a-aa72-73b285604f4c`) and set "Last checked" to today. This board is Alyssa's window into everything running behind the scenes. Do the diff every time. The old version of this step let you skip when "nothing changed," and that clause is exactly how the board drifted for days without anyone noticing.
+
+8. **Weekly review nudge.** Check whether a weekly wrap exists for the current ISO week at `Studio/Team Knowledge/Weekly Reviews/YYYY/YYYY-WNN-weekly-wrap.md`. If no wrap exists and today is ≥5 days into the current ISO week (Thursday, Friday, Saturday, or Sunday), append one line to the sign-off: `Weekly review pending for week WNN — run /weekly-review to wrap the week.`
+
+9. **Sign off.** Confirm the session log path, list any structural fixes made, and name any open threads the next session should pick up first.

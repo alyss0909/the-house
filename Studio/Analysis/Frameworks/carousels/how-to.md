@@ -178,9 +178,14 @@ Do not write: "you finally have permission to simplify your strategy."
 - **Paid offer:** the plan must feel real before the container is offered.
 - **Waitlist:** sell the world and future payoff more than immediate action.
 
+## The one-slide payoff exception (her ruling 2026-07-19)
+
+When the deck's giveaway is a stealable asset (a template, a checklist, a fill-in-the-blanks), the teaching parts above do NOT each get a slide. The slides before the asset persuade (why this matters, what the current way costs, what changes when it's handled); the asset then lands WHOLE on one slide as the earned payoff. Splitting an asset across teaching slides is a fail ("the tempalte should be ONE slide and all the rest is building up WHY they need the tempalte").
+
 ## Failure Modes
 
 - Framework label used as a shortcut.
+- A stealable asset split across teaching slides instead of landing whole on one payoff slide.
 - Thin steps: label plus filler sentence.
 - Curriculum vocabulary in public copy.
 - Re-skin of a published winner with new nouns.

@@ -1,4 +1,4 @@
-﻿---
+---
 # Identity
 id: tsk-2026-06-04-001
 title: "Review Pax Claude routines automation report and choose next automations"
@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 2
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 

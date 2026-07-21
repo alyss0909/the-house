@@ -98,7 +98,7 @@ Table format:
 | Third note | `good-idea` | `[[pkm]]` | ... | New note + new task | — |
 
 **Team brief column rules:**
-- If the item has a clear content type AND has Alyssa's kind of energy (check taste-log.md), propose a specific brief: `Hermes → [content type]` or `Pax → [research question]` or `Charta → [design type]`
+- If the item has a clear content type AND has Alyssa's kind of energy (check [[Studio/Content/taste-ledger]]), propose a specific brief: `Hermes → [content type]` or `Pax → [research question]` or `Charta → [design type]`
 - If Alyssa approves the row AND a team brief is proposed: Larry creates the brief automatically — a task file in `Studio/Team Knowledge/tasks/open/` per [[SOP-004-create-task]] (or the weekly pitch loop for social content) — no separate ask required
 - If Alyssa approves the row AND overrides the team brief column: honor the override, update the queue accordingly
 - A blank `—` in the team brief column means Larry assessed it and found no immediate activation opportunity. Alyssa can override this too.

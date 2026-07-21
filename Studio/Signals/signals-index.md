@@ -126,23 +126,24 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 
 ### subject-line-as-identity-call
 
-- **Description**: Her best subject lines make a specific person feel seen rather than creating curiosity gaps. "re: tmrw's meeting" as extreme case. Already partially captured in Second Brain frameworks — may not need a separate garden note.
+- **Description**: Her best subject lines make a specific person feel seen rather than creating curiosity gaps. "re: tmrw's meeting" as extreme case.
 - **Recurrence count**: 3
 - **First seen**: 2026-04-30
 - **Last seen**: 2026-05-14
 - **Signal status**: incubating
-- **Garden note**: not yet — absorb into Second Brain frameworks at next sweep
+- **Garden note**: none, and none is needed. This signal was resolved by absorption instead.
+- **Resolution (2026-07-20)**: the original direction was to absorb this into the Second Brain frameworks, but that project was cancelled, so the destination no longer exists. It is now a judgment rule under the heading "The identity call" in [[Studio/Voice/formats/subject-lines]], which is the live authority every agent loads before writing a subject line. The deeper pattern taxonomy it sits on top of is [[Studio/Hermes/craft/subject-lines]]. If it recurs again, feed the new evidence into that rule rather than reopening a garden note.
 
 ---
 
 ### oops-email-magic
 
-- **Description**: The accidental correction email that outperforms the planned email. Three instances in sweep range. Classic "easiest email" phenomenon. Should merge into `easiest-email-highest-return` garden note.
+- **Description**: The accidental correction email that outperforms the planned email. Three instances in sweep range. Classic "easiest email" phenomenon.
 - **Recurrence count**: 3
 - **First seen**: 2026-04-13
 - **Last seen**: 2026-04-27
-- **Signal status**: incubating
-- **Garden note**: roll into `easiest-email-highest-return`
+- **Signal status**: merged 2026-07-20 into [[Studio/Signals/Developing Ideas/easiest-email-highest-return]] (which is graduated). Its substance lives there in full, under "Merged in: the oops-email pattern". Do not tend it here.
+- **Garden note**: [[Studio/Signals/Developing Ideas/easiest-email-highest-return]]
 
 ---
 
@@ -164,7 +165,8 @@ When a signal hits recurrence 3+ it's `developing`. When it hits 6+ Larry writes
 - **Last seen**: 2026-07-11
 - **Signal status**: incubating
 - **Latest capture**: [[Notebook/Journal/2026/07/2026-07-11-daily-profit-activities-notion]]. She published a Daily Profit Activities page to Notion and saved the link with empty "Inspo" and "Sheet" placeholders, so this is actively being built, not just mused about.
-- **Found 2026-07-16**: [[Deliverables/2026-07-11-profit-menu-plan.md]] is a fully worked execution plan for this exact idea — turning the Daily Profit Activities Notion template into "The Profit Menu" (schema, copy rewrite plan, page layout). It was never linked from any task, session log, or DESK, so nobody tending this signal would have found it. Flagging the connection here since Deliverables/ is outside Studio's editable scope for this pass; it still needs a real home (task or garden note) at the next sweep.
+- **Found 2026-07-16**: [[Deliverables/2026-07-11-profit-menu-plan]] is a fully worked execution plan for this exact idea — turning the Daily Profit Activities Notion template into "The Profit Menu" (schema, copy rewrite plan, page layout). It was never linked from any task, session log, or DESK, so nobody tending this signal would have found it.
+- **Homed 2026-07-20**: the plan now has a real home. [[tsk-2026-07-20-001-profit-menu-finish-build]] owns the open work, and [[Deliverables/2026-07-16-profit-menu-handoff]] records what was already executed against the plan in Notion. Offer facts stay in [[Library/Offers/the-daily-profit-activities/MAP]].
 
 ---
 
@@ -235,5 +237,5 @@ _None yet._
 
 - [[Studio/Team Knowledge/SOPs/SOP-013-semantic-sweep.md]] — the procedure that updates this file
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — the garden notes that live signals feed into
-- [[Studio/Analysis/taste-log.md]] — approval patterns that inform signal prioritization
+- [[Studio/Content/taste-ledger]] — approval patterns that inform signal prioritization
 - [[Notebook/Life/Goals/]] — active Goals this index cross-references

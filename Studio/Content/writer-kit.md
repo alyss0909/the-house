@@ -8,7 +8,13 @@ status: active — created 2026-07-17 to cut per-run tokens. Replaces loading fu
 
 You write ONE post. Your load is defined in [[Studio/Content/carousel-dispatch]] (the only owner of the load list): this kit, [[Studio/Content/her-carousel-voice]] (never optional), one brief, one framework card. Do not open METHOD, hook-forensics, the full winning flow report, or the 25k slide-by-slide file unless the card tells you to.
 
-First instruction: fill the framework card's forward sequence (the block the dispatch hands you: argues, one villain, not-about, then the numbered steps in plain language, each teaching step naming its source line). The sequence IS the slide plan. That is the only pre-writing artifact. If any step is vague, fix the fill, not the draft.
+First instruction, before any outline (her ruling 2026-07-19, after the one-slide-template rebuild she called "20x better"): answer **"HOW would someone persuasive write a helpful post?"** The deck's real job is building WANT. Every slide before the payoff convinces the reader they need the thing; the payoff hands it over; the CTA extends it. A deck that walks structure without building want is the named failure ("this isnt it").
+
+**The one-slide payoff law (her ruling 2026-07-19, verbatim: "the tempalte should be ONE slide and all the rest is building up WHY they need the tempalte"):** any stealable asset — a template, a checklist, a prompt, a fill-in-the-blanks — lands WHOLE on ONE slide, as the payoff the deck earned. Never split it across teaching slides; that turns persuasion into a tutorial nobody wanted yet. The payoff slide may exceed the word cap; it holds the entire asset.
+
+**Her-piece mode:** when Alyssa supplies a finished piece of her own writing (an email, a Simmer, a caption, a script), that piece IS the outline. Do not load a framework card; do not fill a card sequence. Re-break her piece into slide grammar, keep her persuasive order, and add only the beats her piece lacks (usually a receipts/proof beat, pulled verbatim from the offer brief). Second instruction in this mode: nothing. Write.
+
+Otherwise (no finished piece from her): fill the framework card's forward sequence (the block the dispatch hands you: argues, one villain, not-about, then the numbered steps in plain language, each teaching step naming its source line). The sequence is the slide plan, but the persuasion question above still outranks it: if marching a step would stall the want-building, the step bends, not the persuasion. If any step is vague, fix the fill, not the draft.
 
 ## Stance
 She is the field reporter, not the confessor or coach. The post states a finding about the world (marketing, the industry), and she happened to notice it. Not a diary, not a diagnosis of the reader.
@@ -33,8 +39,8 @@ Slide bodies ARE her sentences from the brief, lifted and re-broken into slide g
 ## Her signature
 Parentheticals carry the nuance. Selective bolds inside running text, never bullet lists. Dual register: an editorial claim plus a casual aside (gonna, wanna, babe, right?). Intensity from stretched vowels (BUUUT), not stacked punctuation. One earned exclamation, max. Leave something slightly loose. Name a mechanism once (one coinage, not three). Identity flattery over demographics.
 
-## The framework's sequence is the plan
-Five framework cards: [[Studio/Analysis/Frameworks/carousels/house-report]], [[Studio/Analysis/Frameworks/carousels/how-to]], [[Studio/Analysis/Frameworks/carousels/old-way-new-way]], [[Studio/Analysis/Frameworks/carousels/hot-take]], and [[Studio/Analysis/Frameworks/carousels/for-the-girls]]. The dispatch assigns you ONE; you load that card, not all five. The card's numbered forward sequence IS the slide plan: write each slide to DO its step's job, and tag each slide with its step. A deck that vibes near the topic without marching the sequence fails ("it doesn't DO a framework step").
+## The framework's sequence is the plan (unless her-piece mode is on)
+In her-piece mode (see top of file) there is NO card; her piece is the plan. Five framework cards: [[Studio/Analysis/Frameworks/carousels/house-report]], [[Studio/Analysis/Frameworks/carousels/how-to]], [[Studio/Analysis/Frameworks/carousels/old-way-new-way]], [[Studio/Analysis/Frameworks/carousels/hot-take]], and [[Studio/Analysis/Frameworks/carousels/for-the-girls]]. The dispatch assigns you ONE; you load that card, not all five. The card's numbered forward sequence IS the slide plan: write each slide to DO its step's job, and tag each slide with its step. A deck that vibes near the topic without marching the sequence fails ("it doesn't DO a framework step").
 
 
 ## The bit
@@ -47,7 +53,7 @@ Every post has one retellable thing: a joke, a coinage, a provocation. One metap
 Write words. Do NOT write image ideas, art direction, or design slots. She does not want imagery described (her rule 2026-07-17).
 
 ## The three gates (run at the end)
-Lineup: does it read as flat or more polished than her real posts? Stranger: name the bit in one sentence; if ten other creators could post it, rewrite. Value: name what a non-buyer walks away with.
+Lineup: does it read as flat or more polished than her real posts? (Her real posts as copy: [[Studio/Content/nine-decks]], plus [[Library/Examples/Carousels/for-the-girls-slide-copy]] for For The Girls. The dated Carousels folders are images, not copy.) Stranger: name the bit in one sentence; if ten other creators could post it, rewrite. Value: name what a non-buyer walks away with.
 
 ## Banned
 Em dashes as default, arrows, "unlock/elevate/game-changer," "it's not X it's Y" as a habit, question-mark covers, reframe covers, engagement-bait CTAs.

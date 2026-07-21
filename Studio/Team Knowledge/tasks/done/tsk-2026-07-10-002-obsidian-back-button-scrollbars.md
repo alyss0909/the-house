@@ -8,13 +8,13 @@ assignee: larry
 priority: 2
 
 # Status
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
 # Time
 created: 2026-07-10T00:00:00Z
-updated: 2026-07-10T00:00:00Z
+updated: 2026-07-20T00:00:00Z
 due: null
 
 # Provenance
@@ -53,3 +53,7 @@ tags: [obsidian, ui, css, regression]
 ## Updates
 
 - 2026-07-10 (larry) — created.
+- 2026-07-20 (larry) - fixed and verified against the live app.
+  - Back/forward arrows: [[tabs.css]] set `.view-header-nav-buttons { opacity: 0 }` with a hover fade-in. Changed to `opacity: 0.8` resting, `1` on hover. The `.view-actions` hover fade is untouched.
+  - Scrollbars: the cause was NOT hide-ui.css. [[colors.css]] overrides `--ctp-text` with the hex `#2d1a1b`, and AnuPpuccin maps `--mono-rgb-100` to `--ctp-text`, so Obsidian core produced `rgba(#2d1a1b, 0.1)` for `--scrollbar-thumb-bg` - invalid CSS, computed to fully transparent. Set `--scrollbar-bg`, `--scrollbar-thumb-bg`, `--scrollbar-active-thumb-bg` directly in colors.css as valid rgba burgundy.
+  - Proof from the running app: nav buttons computed opacity 0.8 and hit-testable; scrollbar thumb computed `rgba(45, 26, 27, 0.22)` on a 12px bar in both the note pane and the file explorer. Status bar, nav header, and the hidden system files/folders all still hidden.

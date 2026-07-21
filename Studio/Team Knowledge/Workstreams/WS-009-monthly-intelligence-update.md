@@ -56,7 +56,7 @@ Questions to answer:
 3. Are there any new NO patterns Larry didn't know about before?
 4. Are there things the team keeps offering that Alyssa keeps not acting on? Consider removing from rotation.
 
-Action: Update taste-log.md with new patterns. Remove stale YES patterns that haven't held up in practice.
+Action: Update [[Studio/Content/taste-ledger]] with new patterns. Remove stale YES patterns that haven't held up in practice.
 
 ---
 
@@ -124,7 +124,7 @@ Run WS-007 first (session log aggregation), then WS-009 (intelligence layer). Th
 - [[Studio/Signals/signals-index.md]] — updated in Steps 1-3
 - [[Studio/Signals/Developing Ideas/INDEX.md]] — updated in Step 3
 - [[Studio/Hermes/learning/inbox.md]] — updated in Step 2
-- [[Studio/Analysis/taste-log.md]] — updated in Step 4
+- [[Studio/Content/taste-ledger]] — updated in Step 4
 - [[Studio/Analysis/yes-pattern.md]] — updated in Step 6
 - `Studio/Team Knowledge/tasks/open/` + [[Studio/Content/idea-bank.md]] — reviewed in Step 5 (Ready Queue dissolved 2026-07-10 → [[Archive/ready-queue-retired-2026-07-10]])
 

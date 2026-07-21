@@ -12,4 +12,6 @@ One file per format that has real examples in [[Library/Examples]]. Each format 
 - [[Studio/Voice/formats/home-page]]
 - [[Studio/Voice/formats/meta-copy]]
 
+Before deepening any format file, read the MISSING queue in [[Deliverables/2026-07-10-voice-metabolization-audit]] — it lists the corpus-measured rules that live only in `Studio/Hermes/craft/` and never made it into these files.
+
 See [[Studio/Voice/README]] for how this layer fits into the house and [[Studio/Voice/KILL-LIST]] for the editing pass every draft runs through before it ships.

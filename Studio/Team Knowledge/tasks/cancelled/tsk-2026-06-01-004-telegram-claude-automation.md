@@ -8,8 +8,8 @@ assignee: mack
 priority: 2
 
 # Status
-status: open
-blocked_reason: token-regeneration-final-test-needed
+status: cancelled
+blocked_reason: null
 blocked_by: null
 
 # Time
@@ -90,3 +90,7 @@ Example shape: `https://www.instagram.com/reel/... #hook #content`.
 ## Outcome
 
 _(filled when status flips to done)_
+
+## Closed 2026-07-20
+
+Killed by Alyssa 2026-07-20: "i already regenerated like months ago wtf we dont even use the telegram thing anyway". The token block was stale and the capture chute never became part of her actual workflow. Capture now runs through Google Keep via KeepSidian (see [[tsk-2026-07-16-001-keepsidian-google-reauth]]) and the Instagram Saves Engine. If a low-friction mobile capture chute is ever wanted again, start fresh rather than reviving this.

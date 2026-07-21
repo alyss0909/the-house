@@ -35,6 +35,11 @@ She is the **field reporter**, never the confessor, never the coach. The post st
 - **Density floor ("when i create a carousel i blast information at ppl"):** teaching slides carry 25-65 words of body with 2-4 concrete items — real numbers, named specifics, lists of examples — per slide. Her real decks prove it (Jan 15 slide 7: 63 words; Jan 20 slide 6: three channels + a parenthetical + an exclamation). One thin idea stretched across a slide reads as AI. Education and offer decks run 9-11 slides, not 8.
 - Working test per slide: could this body have been assembled by someone who had only read a summary of her doc? If yes, go back to the source file and take the sentences themselves.
 
+**The persuasion law and the one-slide payoff (Alyssa's ruling, 2026-07-19: "the tempalte should be ONE slide and all the rest is building up WHY they need the tempalte ... HOW would someone persuasive write a helpful post?")**
+- The deck's job is building WANT. Every slide before the payoff convinces the reader they need the thing; structure serves persuasion, never the reverse.
+- Any stealable asset (template, checklist, prompt list) lands WHOLE on ONE slide as the earned payoff, never split across teaching slides. The payoff slide is exempt from the word cap.
+- When she supplies a finished piece of her own writing, that piece IS the outline (her-piece mode, [[Studio/Content/carousel-dispatch]] Step 0). No framework card touches it.
+
 **Sentence-level signature**
 11. Parentheticals carry the nuance. Bold claims in the main line, honesty and softening in the brackets. This is her single most consistent tell.
 12. Selective bolding inside running text, never bullet lists. Two tiers: the bold tier reads alone as the claim, the regular tier carries the how.
@@ -104,7 +109,7 @@ Per Alyssa's real corpus, the following are her actual voice and are permitted w
 
 ## 7. The three gates (run once, at the end, on the finished post)
 
-1. **The lineup test:** set the draft beside two real pieces of hers (one same lane, one different). If it reads flatter, more symmetrical, or more polished than hers, it fails.
+1. **The lineup test:** set the draft beside two real pieces of hers (one same lane, one different). Read them from the verbatim slide copy in [[Studio/Content/nine-decks]] (all nine top decks plus Mar 1, 89 slides) and, for a For The Girls deck, [[Library/Examples/Carousels/for-the-girls-slide-copy]]. Never point the lineup at the dated folders in Library/Examples/Carousels: those hold slide images, not copy. If the draft reads flatter, more symmetrical, or more polished than hers, it fails.
 2. **The stranger test at post level:** name the post's bit in one sentence. If you can't, or if ten other creators could have posted it, it fails.
 3. **The value test (her 2026-07-16 law):** name the useful thing a non-buyer walks away with. If you can't, the post fails — offer posts included.
 

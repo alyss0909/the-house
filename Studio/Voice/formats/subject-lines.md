@@ -16,6 +16,12 @@ Pulled from the real Kit-verified winners cited in [[Hermes/craft/subject-lines]
 - **Lowercase and txt-speak are deliberate and cost nothing.** "ur," "tmrw," "k," "u want?" Odd, specific numbers beat round ones ("$12,212 coupon" over "$12k coupon").
 - **Preview text does a different job than the subject line** — it adds context, urgency, or personalization, never a summary and never an explanation of the joke.
 
+## The identity call (the rule under the patterns)
+
+Her best subject lines make one specific person feel seen. They do not open a curiosity gap. "re: tmrw's meeting" is the extreme case: it carries no intrigue at all, it just sounds like it was written to you by someone who already knows you, and it is her all-time opens winner at 57.35%. The same mechanic is what makes "You good, {NAME}?" and "Your list called, they're hungry 👀" work.
+
+Test every line against this before shipping it. Does it name a person's actual situation back to them, or does it withhold information to make them click? Withholding is the weaker move in her voice, and it is the one an AI draft reaches for first. This is a recurring pattern across her captures from 2026-04-30 to 2026-05-14, tracked as `subject-line-as-identity-call` in [[Studio/Signals/signals-index]].
+
 ## Hard length cap and the never-list
 
 - **≤40 characters before any wrapper**, front phrases run 2-6 words. Her 2026-07-05 correction, verbatim: "all subj lines are too long nobody in email marketing or copywriting professionals would approve that." Winners run 8-30 characters; only a Why-I narrative line may run long, and never on a sales or launch send.

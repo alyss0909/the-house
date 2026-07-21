@@ -1,7 +1,7 @@
 ---
 id: tsk-2026-06-03-006
 title: Review AI-mined voice profile + do gap interview
-status: open
+status: cancelled
 priority: 2
 assignee: alyssa
 created: 2026-06-03

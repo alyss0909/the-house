@@ -2,6 +2,8 @@
 
 _Notion database: "The Profit Menu" (Daily Profit Activities) · Prepared by Alyssa's assistant · July 16, 2026_
 
+Open work from section 5 is tracked in [[tsk-2026-07-20-001-profit-menu-finish-build]].
+
 Related: [[Deliverables/2026-07-11-profit-menu-plan]] — the original evolution plan this session's work executes against. [[Library/Offers/the-daily-profit-activities/MAP]] — offer facts (price $47, status needs_edits, sales page alyssacoleman.ca/slo).
 
 ## 1. What This Project Is
@@ -97,7 +99,30 @@ Icons were matched to activities primarily by visual association (e.g. a cat pho
 |Nourish 💦|Welcome Message|stack of pancakes|
 |Grow 🌱|Pop In|bowl of olives|
 
-## 3. Still Missing Icons — 23 Activities
+### 2.4 — Round 3 applied (14 activities, July 21)
+
+Alyssa delivered 18 new icons. Fourteen were matched and applied, bringing the database to 56 of 65 covered. Same method as 2.2 (native page cover, Drive thumbnail URL). Section 3 below is the pre-Round-3 list and is superseded by Section 6.
+
+|Category|Activity|Icon|
+|---|---|---|
+|Grow 🌱|Create & Post Pins|pink milk crate|
+|Grow 🌱|Host a Live Event|lips|
+|Grow 🌱|IG Story About Your Freebie|chocolate squares|
+|Grow 🌱|Post to Groups|bagel|
+|Grow 🌱|Summit|sardine tin|
+|Mind 🧠|Hype Up Video|red chili peppers|
+|Mind 🧠|Montage Music|iPod|
+|Nourish 💦|Love Letter|paper note strip|
+|Nourish 💦|Plot Twist|spilled coffee mug|
+|Nourish 💦|Simmer Email|snail|
+|Nourish 💦|Solve Live|fortune cookie|
+|Offer 💵|Made for you|takeout thank-you bag|
+|Offer 💵|Mini Case Study|plate with butter knife|
+|Offer 💵|Send a Promo Email|"be your own sugar daddy" mug|
+
+Alyssa ruled on the two mugs in this batch: the "be your own sugar daddy" mug is in, the "Main Character" mug is out (its phrase already appears on the sardine tin).
+
+## 3. Still Missing Icons — 23 Activities (pre-Round-3, superseded by Section 6)
 
 These activities have no cover image yet. Two are intentionally paused per Alyssa; the rest are simply not yet started.
 
@@ -142,3 +167,172 @@ Note: this Drive folder also still contains one unused icon — a "clipboard wit
 - Resolve "Hot New Thing" — Alyssa mentioned she has a different icon concept in mind and will follow up.
 - Resolve "Show Your Notebook" and the unused clipboard icon — Alyssa asked to pause both; check in with her before assigning.
 - Do NOT use the "Card Cover" property for new icons — it's a broken/legacy URL field. Always set the native page cover instead (see Section 2.2 for the exact URL format).
+
+## 6. Round 4 — full once-over (July 21, 2026)
+
+Alyssa reviewed the whole gallery and called two mismatches. Both were right and both were applied, along with four moves that fell out of them.
+
+|Activity|Now has|Was|Why|
+|---|---|---|---|
+|Spa Break|pink soap|cinnamon roll|Alyssa's call. The activity is a spa water break, so soap beats a pastry.|
+|Hot New Thing|red chili peppers|(empty)|Alyssa's call. "Hot" reads literally. Unpaused — she released this one.|
+|Show Your Notebook|composition notebook|(empty)|Unpaused by Alyssa. Exact match, and it retires the set-aside clipboard guess.|
+|Close One Tab|dish rack|pink soap|Dishes done and drying is the same "you're finished, walk away" beat as the activity.|
+|Hype Up Video|fried egg|red chili peppers|Sunny side up. Weakest match on the board — swap it when better art exists.|
+|Client Crush|cinnamon roll|(empty)|"Cinnamon roll" is the idiom for a sweet, lovable person. Freed up by the Spa Break swap.|
+
+**State: 59 of 65 covered.** Every delivered icon is now in use except one.
+
+**Still needs new art (6).** Each needs something specific; the general-purpose objects are used up.
+
+|Category|Activity|What the icon needs to be|
+|---|---|---|
+|Grow 🌱|IG Post with a link|something link-shaped: a paperclip, a chain, a hook|
+|Grow 🌱|Mention Your Freebie Live|a mouth or a mic (lips went to Host a Live Event)|
+|Grow 🌱|Pitch a Podcast|a mic or headphones (earbuds went to Podcast)|
+|Mind 🧠|Tapping|a hand or fingertips|
+|Nourish 💦|Voice Note Segment|something audio (iPod went to Montage Music)|
+|Offer 💵|Host a Joint Training|two of something, a pair|
+
+**Unused icons (3).** The clipboard-with-blank-paper from the original batch, plus the laundry basket and the "Main Character" mug from Round 3. Alyssa ruled the Main Character mug out because the sardine tin already carries that phrase. Nothing else fits the other two, so they stay in Drive rather than getting forced onto a card.
+
+## 6b. Round 5 — clarity pass over all 65 (July 21, 2026)
+
+With the contact sheet making every icon visible at once, Alyssa asked for a pass on which pairings were a stretch. Four upgrades applied.
+
+|Activity|Now has|Was|Why|
+|---|---|---|---|
+|Someone Else's Audience|sardine tin|train ticket|A tin packed with fish reads as a crowd that isn't yours. Alyssa flagged the ticket as a stretch and was right.|
+|Summit|train ticket|sardine tin|A summit is the ticketed event. The ticket's clearest home on the board.|
+|5 Minute Journal|clipboard with blank paper|espresso cup|A blank page to fill. Puts the last unused original-batch icon to work.|
+|Hype Up Video|espresso cup|fried egg|A shot of energy. Retires the fried egg, which was the weakest match on the board.|
+
+**Fifth move, approved separately.** The Ctrl key moved off Guest Blog, where it meant nothing, onto **Close One Tab** — Ctrl+W literally closes a tab, the most precise association anywhere in the set. Guest Blog is now empty and on the needs-art list, and the dish rack came off Close One Tab and is unused.
+
+**State after Round 5: 58 of 65 covered, 7 empty, 3 icons unused.** See Section 8 for the outstanding art list.
+
+**Stretches with no better option in the library.** Each would need new art to fix; none is wrong enough to leave a card blank over.
+
+- Offer Matchmaker (orange) — the orange carries no meaning here. Wants two things clicking together, or a key and lock.
+- Abundance Audio (coffee carafe) — not audio at all, though a full pot does read as abundance. Every audio icon in the library is doing clearer work elsewhere.
+- Aux Girlie (sugar box) — the sugar matches the activity's Sweet Segment tag, not the activity. The volume knob would be clearer but it is earning its place on Voice Note.
+- Pitch a Collab (7-ball) — pool as a game you play with someone else. Mild but it holds.
+- Morning Lines (cereal bowl) — reads morning, not writing.
+
+## 7. The icon contact sheet — read this before touching Drive
+
+**Drive filenames are meaningless and actively misleading.** `spa.png` is a Game Boy radio, not a spa image. `wander.png` is a black volume knob. `event.png` is a stack of books. Never pick an icon by its filename.
+
+A labeled contact sheet of all 41 original-batch icons lives at [[Library/Offers/the-daily-profit-activities/assets/profit-menu-icon-contact-sheet.png]]. Labels are the Drive filenames, so it maps filename to actual image at a glance. Regenerate it by downloading `https://drive.google.com/thumbnail?id={fileId}&sz=w300` for each file and tiling them.
+
+Which file is which, for the original batch:
+
+|File|Image|Activity|
+|---|---|---|
+|`10 (1)`|ashtray and cigarette|Confession Email|
+|`10`|gray and white cat|Cat Mode|
+|`11 (1)`|Ctrl key|Guest Blog|
+|`11`|maroon 8-ball|Pitch a Collab|
+|`12 (1)`|folded newspaper|Hot Take|
+|`12`|pink seashell|Centering Yoga|
+|`13 (1)`|vintage Macintosh|Mini Workshop|
+|`13`|two dice|Pitch Live|
+|`14 (1)`|torn receipt|The P.S.|
+|`14`|pink bowl of cereal|Morning Lines|
+|`15 (1)`|pink floppy disk|Screenshot Resurection|
+|`15`|sugar box|Aux Girlie|
+|`16`|tomato tied with ribbon|Secret Bonus|
+|`17 (1)`|manila file folders|Template Spotlight|
+|`17`|train ticket|Someone Else's Audience|
+|`18`|coffee carafe|Abundance Audio|
+|`19 (1)`|open book|Add a Content Upgrade|
+|`19`|cinnamon roll|Client Crush (moved off Spa Break)|
+|`2 (1)`|cut fig|IG Nourisher|
+|`2`|orange|Offer Matchmaker|
+|`20`|dark rotary phone|Call Back|
+|`21 (1)`|desk bell|Waitlist|
+|`21`|fawn|Wander & Wonder|
+|`22`|full moon|Meditation|
+|`3 (1)`|red ribbon bow|Perk Alert|
+|`3`|laptop and coffee|Blog Post|
+|`4 (1)`|bowl of olives|Pop In|
+|`4`|earbuds and claw clip|Podcast|
+|`5 (1)`|martini glass|Live Event|
+|`5`|camera and pearl bracelet|Stories|
+|`6 (1)`|stack of pancakes|Welcome Message|
+|`6`|vintage Mac with eye|Visualise Your Goal|
+|`7 (1)`|blue alarm clock|Sign Off Specials|
+|`7`|camcorder|Post YouTube Vid with CTA|
+|`8 (1)`|espresso cup|5 Minute Journal|
+|`8`|clipboard with blank paper|**unused**|
+|`9 (1)`|cash|Humble Brag|
+|`9`|teal rotary phone|Book a Call|
+|`event`|stack of books|Wealth Consciousness Book|
+|`love bomb`|black bra|Love Bomb Yourself|
+|`wander`|black volume knob|Voice Note|
+|`spa`|Game Boy radio|Inspiring Podcast|
+|`spa (2)`|pink soap|Spa Break (moved off Close One Tab)|
+
+Round 3's files are all named `Template*.png` and are listed in Section 2.4 by image.
+
+### On renaming the Drive files
+
+The connected Google Drive tools can search, read, copy, and create, but cannot rename. Renaming would have to happen another way.
+
+Worth knowing: **renaming in Drive is safe.** Notion page covers point at Drive file IDs, not filenames, and a rename preserves the ID. So renaming files by hand in the Drive UI will not break a single cover. What is NOT safe is re-uploading renamed copies — a copy gets a new ID, which would break every cover pointing at the original and mean resetting all 60 by hand.
+
+Given the table above already does the job renaming was meant to do, the recommendation is to leave the filenames alone. If she wants real names anyway, the cheapest correct path is a one-time script against the Drive API using `files.update` (preserves the ID), which is a Mack task, not something to do by hand across 60 files.
+
+## 8. Outstanding art list (as of Round 5, July 21, 2026)
+
+**58 of 65 covered.** Seven activities are empty and three delivered icons are unused. None of the three unused icons fits any of the seven empty activities, so they are orphaned rather than forced.
+
+### Orphaned icons — no home on the board
+
+|Icon|Drive file|Note|
+|---|---|---|
+|dish rack|`Template (10).png`|Held Close One Tab until the Ctrl key took it. Reads "chores," not "abundance."|
+|laundry basket|`Template (11).png`|Never found a home.|
+|fried egg|`Template (14).png`|Held Hype Up Video until the espresso took it.|
+
+The "Main Character" mug from the Round 3 batch was ruled out by Alyssa and never uploaded to Drive.
+
+### Empty activities and what each needs
+
+|Category|Activity|What the icon should be|
+|---|---|---|
+|Grow 🌱|Guest Blog|writing done on someone else's turf — a typewriter, a byline, a doorstep|
+|Grow 🌱|IG Post with a link|something link-shaped — a paperclip, a chain, a hook, a safety pin|
+|Grow 🌱|Mention Your Freebie Live|a mouth or a mic|
+|Grow 🌱|Pitch a Podcast|a mic, a boom arm, headphones|
+|Mind 🧠|Tapping|a hand or fingertips|
+|Nourish 💦|Voice Note Segment|a cassette, a Walkman, a soundwave|
+|Offer 💵|Host a Joint Training|two of something — a pair|
+
+### Optional replacements for known stretches
+
+|Activity|Currently|Wants|
+|---|---|---|
+|Offer Matchmaker|orange|something romantic or matched — a key and lock, two halves, a wax seal|
+|Abundance Audio|coffee carafe|something full AND audio — a stuffed Walkman case, a boombox, an overflowing jar with earbuds|
+
+**The audio gap is the real one.** The library has exactly four audio objects (earbuds, volume knob, iPod, Game Boy radio) and all four are doing clear work. Three empty activities plus one stretch all want audio. Any new batch should be audio-heavy.
+
+## 9. Round 6 (July 21, 2026) — 60 of 65
+
+Alyssa uploaded a second Canva batch and called all four placements herself.
+
+|Activity|Now has|Drive file|Was|
+|---|---|---|---|
+|Offer Matchmaker|matchbox with matches|`25.png`|orange|
+|Love Letter|wax-sealed envelope|`Template (19).png`|paper note strip|
+|IG Post with a link|"let's get this bread" yellow shirt|`Template (20).png`|(empty)|
+|Tapping|"cutie" name tag|`Template (1).png`|(empty)|
+
+The croissant from that Canva batch was never uploaded — no home was found for it (every breakfast slot is taken: pancakes on Welcome Message, cereal on Morning Lines, bagel on Post to Groups).
+
+**Images with no home (5):** dish rack, laundry basket, fried egg, orange, paper note strip.
+
+**Activities with no image (5):** Guest Blog, Mention Your Freebie Live, Pitch a Podcast, Voice Note Segment, Host a Joint Training.
+
+Three of the five gaps still want audio (Mention Your Freebie Live, Pitch a Podcast, Voice Note Segment) and the library has no spare audio object. Guest Blog wants writing-on-someone-else's-turf; Host a Joint Training wants a pair.

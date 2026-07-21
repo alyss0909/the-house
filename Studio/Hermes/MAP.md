@@ -9,7 +9,7 @@ The clone does not eat summaries. It reads HER files, guided by this map. Rule o
 | Territory | What it holds | Enter via |
 |---|---|---|
 | `Library/Programs/back-of-house/` | The flagship curriculum: 5 phases, 21 modules, transcripts, slides, 3 webinars | phase INDEX files; framework registry (§4 below) |
-| `Library/Examples/` | Her REAL published work: sales-emails/ (6), simmers/ (4), soft-sundays/ (8), sales-pages/, Carousels/ (14 posts + captions.md) | the format's folder + §5 exemplar index |
+| `Library/Examples/` | Her REAL published work: sales-emails/ (6), simmers/ (4), soft-sundays/ (8), sales-pages/, Carousels/ (14 posts + captions.md). The dated Carousels folders are slide IMAGES, never a copy source — carousel copy lives in [[Studio/Content/nine-decks]] and [[Library/Examples/Carousels/for-the-girls-slide-copy]] | the format's folder + §5 exemplar index |
 | `Studio/Analysis/` | HER distillation layer (18 files): carousel-slide-by-slide, subject-line (351 broadcasts), soft-sunday, sales-page, email-microstyle-forensics, boh-teaching-index-phases-0-2 & 3-5, audience/ survey | task recipes (§2) |
 | `Studio/Analysis/Frameworks/` | 11 framework files incl. social-hooks, the-postmaster-bot | task recipes (§2) |
 | `Notebook/Journal/YYYY/MM/` | Raw Alyssa, 2019→now. Grep before assuming she has no take on a topic | seed bank (§6) |
@@ -28,7 +28,7 @@ Every writing task = JUDGMENT files (SOUL+STYLE+TASTE+ANTI-AI) + these vault loa
 | Sales email | ALL `Library/Examples/sales-emails/` |
 | Subject lines | [[Studio/Analysis/subject-line]] in full |
 | Sales page | [[Library/Examples/sales-pages/boh-sales-page]] + 1-2 same-lane pages + [[Studio/Analysis/sales-page]] |
-| Carousel / caption | [[Studio/Analysis/carousel-slide-by-slide]] + [[Studio/Analysis/Frameworks/social-hooks]] + [[Library/Examples/Carousels/captions]] |
+| Carousel / caption | [[Studio/Content/nine-decks]] + [[Library/Examples/Carousels/for-the-girls-slide-copy]] (the two copy sources) + [[Studio/Analysis/carousel-slide-by-slide]] + [[Studio/Analysis/Frameworks/social-hooks]] + [[Library/Examples/Carousels/captions]] |
 | Email → carousel | carousel load + the source email in full |
 | Teaching content | the BOH module named in §4, in full (workbook + transcript) |
 | Offer/pitch copy | BUSINESS.md + the product's `Library/Offers/` file + [[Studio/Analysis/audience/back-of-house-2025-survey-client-profile]] |
@@ -76,6 +76,8 @@ Webinars: Feed vs Index Visibility → [[Library/Programs/back-of-house/webinars
 (All paths under `Library/Programs/back-of-house/`. Full registry with one-line definitions: [[Deliverables/2026-07-05-vault-learn/learn-programs]] §2.)
 
 ## 5. Exemplar index (which analysis section covers which real post)
+
+**Carousel copy sources (the only two):** [[Studio/Content/nine-decks]] — 89 slides transcribed verbatim across nine decks — and [[Library/Examples/Carousels/for-the-girls-slide-copy]] for the pure For The Girls voice. The dated folders listed below hold the slide IMAGES; a writer pointed at them loads nothing usable. Cite them for metrics and captions, never as a copy source.
 
 All 14 carousel folders live in `Library/Examples/Carousels/` with verbatim captions + metrics in `captions.md`; per-post slide breakdowns in [[Studio/Analysis/carousel-slide-by-slide]] (12 of 14; valentines/march-affirmations/guest-cheque are captions-only — never invent their slide content). Proven top performers by metrics: 01-20 (132K views, 4,070 saves), 01-15 (5,781 saves), 01-22 (highest share ratio — the FTG benchmark).
 

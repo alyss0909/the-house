@@ -25,13 +25,26 @@ Account ids rotate on reconnect — always re-list via Composio, never hardcode 
 
 ## The mechanism (keyless — no server, no API keys)
 
-The interface is [MAILROOM.md](MAILROOM.md): a card-based Obsidian dashboard built on the exact `db-card`/`db-react-btn` grammar from the Content OS Command Center (`Studio/Content/dashboard/`, see `01 Concepts.md`'s Choose/Reject/Save buttons for the reference pattern). Clicking a card's button is instant — Dataview's JS runs inside Obsidian itself (not a sandboxed webview), so it locks/recolors the card immediately and writes one line to a hidden `## Mailroom state` ledger. The **`/mailroom`** command (`.claude/commands/mailroom.md`) then reads that ledger and does the real Gmail work with the Composio tools already in Larry's session — no standalone server, no API keys, no Anthropic billing (Larry drafts in-session). `dashboard.html` (an artifact-only copy, buttons non-functional there) and a checkbox-based draft are retired; the ledger+button version is the one true interface.
+**See "SWITCHED TO NOTION" below — that section is authoritative.** The
+interface is the Notion Mailroom database. Alyssa sets `Status`; the
+**`/mailroom`** command (`.claude/commands/mailroom.md`) reads the database and
+does the real Gmail work with the Composio tools already in Larry's session. No
+standalone server, no API keys, no Anthropic billing (Larry drafts in-session).
+
+Retired 2026-07-20 and never to be read for state again: `MAILROOM.md` (the
+Obsidian dataviewjs dashboard and its `## Mailroom state` ledger), and
+`dashboard.html` (an artifact-only copy whose buttons never worked).
 
 ## The daily sweep
 
-1. `/mailroom sweep` fetches each inbox and writes fresh `<!--away:...-->` data lines (promotions + social = safe noise; receipts, payments, security, and real people are left out) — these render as new click-to-queue cards on next load.
-2. A message only counts as *needs reply* if the **other person** sent the last real message. If Alyssa's side sent last, it's handled and drops — but the support auto-responder ("Hang tight. We're on it!") does **not** count as a reply.
-3. Alyssa clicks cards; `/mailroom` acts on every `queued` ledger entry and logs to `## Mailroom reacts`.
+1. `/mailroom sweep` (or "clear the mailroom") fetches each inbox and creates
+   fresh `Type = noise` rows — promotions and social are the safe noise;
+   receipts, payments, security, and real people are never pulled.
+2. A message only counts as *needs reply* if the **other person** sent the last
+   real message. If Alyssa's side sent last, it's handled and drops — but the
+   support auto-responder ("Hang tight. We're on it!") does **not** count as a reply.
+3. Alyssa sets `Status = For Larry` or checks `Archive it`; `/mailroom` acts,
+   then writes `Filed` with the date.
 
 ## Doctrine
 
@@ -40,12 +53,59 @@ The interface is [MAILROOM.md](MAILROOM.md): a card-based Obsidian dashboard bui
 - **Never auto-touch:** failed/declined payments, security alerts, the bookkeeper, real humans, paid-member join requests.
 - Norah's Day (Montessori dailies) stays in the inbox unless she says otherwise.
 
-## Notion mirror (in progress — additive, Obsidian stays live)
+## SWITCHED TO NOTION — 2026-07-20
 
-A Notion version of this desk is being built in parallel, mirroring the
-[[MAILROOM]] dashboard, so the same triage lives beside the House Control
-Room. The Obsidian dashboard and its `/mailroom` command stay the live
-interface until Alyssa switches. Draft artifacts:
+**The Notion Mailroom database is now the one true interface.** Data source
+`collection://ddf15d60-e8b8-40be-a6e9-1c99ba7452bf`, under House Control Room.
+The Obsidian [[MAILROOM]] dashboard and its `## Mailroom state` ledger are
+**retired**. Never read them for state again.
+
+Why it switched: Alyssa had been clicking in Notion for days while the live
+`/mailroom` command still read the Obsidian file. Nothing she clicked was ever
+acted on. Every row sat at the old `Sync = new`. That is the failure this
+section exists to prevent repeating — **if she is using a surface, that surface
+must be the one the command reads, or the desk is lying to her.**
+
+### The two-field contract
+
+- **`Status`** is what Alyssa clicked: `For Alyssa` (her call) → `For Larry`
+  (her work queue handoff) → `Drafted` (Larry wrote it, back in her court) →
+  `Done`.
+- **`Filed`** is a date meaning **the row is finished and nobody has anything left
+  to do on it**. It is the LAST thing that happens, set by whoever closes it out,
+  Alyssa or Larry. She filters her board on `Filed` is empty, so a Filed date takes
+  the row off her screen.
+
+**Filed goes on ONLY alongside `Status = Done`. Never on `Drafted`.** A draft
+waiting for her to read and send is an open job she still owes. Filing it hides
+that work. This was gotten wrong on 2026-07-20 — four drafts that had been sitting
+a week were filed and vanished from her view the moment she found them. Blank Filed
+also means the real Gmail action has not happened, so never set it unverified.
+
+Schema notes: `Sync` and `Tag` were deleted 2026-07-20 (two state columns for one
+thing, and Tag duplicated what `Details` already said better). `Subject` was
+renamed `Details` because it always held Larry's one-line note, not a real
+subject line. `Message id` was added because `Gmail link` stores a *search* URL,
+which cannot be archived precisely.
+
+### Standing rules
+
+- **Every new row gets the ✈️ paper airplane icon.** Her call, 2026-07-20.
+- **`Archive it` on a `reply` or `task` row means nothing** — those boxes are
+  leftovers from the default-checked import. Only `Type = noise` is ever archived.
+- **There is no push notification from Notion.** The command only runs when she
+  asks. Never imply a click was picked up automatically.
+- **Verify before claiming success.** `GMAIL_BATCH_MODIFY_MESSAGES` does not
+  confirm per-message. Re-query `in:inbox` and confirm before setting Filed.
+
+### Reply-word replies (VAULT, SWEET, STATS…)
+
+These are the second half of a Right Time Offer, not a request for a freebie.
+Trace the word back to the broadcast that carried it, pull that email's feature
+and its reason-to-join-now, and continue *that* conversation. Full doctrine:
+[[keyword-reply-voice]].
+
+### Superseded draft artifacts (kept for history only)
 - [[notion-mailroom-BUILD-SPEC]] — the Notion database schema, seed rows, and the button/view steps (buttons and views are UI-only in Notion, added by hand).
 - [[notion-bridge/SETUP]] — the near-instant Cloudflare Worker webhook bridge (Notion button -> Gmail via Composio/Anthropic), gated on Alyssa's secrets + a Vex security pass.
 - [[mailroom-notion-command-DRAFT]] — drafted `/mailroom` repoint to read the Notion database (the durable polled fallback behind the instant bridge).

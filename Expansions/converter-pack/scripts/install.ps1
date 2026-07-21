@@ -42,7 +42,7 @@ $pkgs = @(
     @{ id = 'yt-dlp.yt-dlp';                  name = 'yt-dlp' },
     @{ id = 'JohnMacFarlane.Pandoc';          name = 'pandoc' },
     @{ id = 'ImageMagick.ImageMagick';        name = 'imagemagick' },
-    @{ id = 'qpdf.qpdf';                      name = 'qpdf' },
+    @{ id = 'QPDF.QPDF';                      name = 'qpdf' },
     @{ id = 'oschwartz10612.Poppler';         name = 'poppler' },
     @{ id = 'OliverBetz.ExifTool';            name = 'exiftool (file metadata)' },
     @{ id = 'UB-Mannheim.TesseractOCR';       name = 'tesseract (OCR engine)' },
@@ -96,13 +96,82 @@ if (Test-Path (Join-Path $BinDir 'whisper-cli.exe')) {
     Invoke-WebRequest -Uri $WhisperUrl -OutFile $tmpZip
     Expand-Archive -Path $tmpZip -DestinationPath $BinDir -Force
     Remove-Item $tmpZip -Force
+
+    # --- Flatten nested layouts -------------------------------------------
+    # v1.8.4's whisper-bin-x64.zip is NOT flat: it extracts into a 'Release\'
+    # subfolder (bin\Release\main.exe, bin\Release\*.dll). Older archives were
+    # flat. Move any nested exe/dll payload up into bin\ so both layouts end up
+    # identical -- otherwise the main.exe normalisation below never fires and
+    # doctor.ps1 reports whisper missing. (Found live 2026-07-20.)
+    foreach ($sub in @('Release', 'bin', 'whisper-bin-x64')) {
+        $nested = Join-Path $BinDir $sub
+        if (Test-Path $nested) {
+            Write-Host "[converter:install]   flattening nested '$sub\' from the archive ..."
+            Get-ChildItem -Path $nested -File | ForEach-Object {
+                Copy-Item $_.FullName (Join-Path $BinDir $_.Name) -Force
+            }
+            Remove-Item $nested -Recurse -Force
+        }
+    }
+
     # Recent archives ship 'whisper-cli.exe'; older ones 'main.exe'. Normalise.
     if (-not (Test-Path (Join-Path $BinDir 'whisper-cli.exe')) -and `
         (Test-Path (Join-Path $BinDir 'main.exe'))) {
         Copy-Item (Join-Path $BinDir 'main.exe') (Join-Path $BinDir 'whisper-cli.exe')
     }
+    if (-not (Test-Path (Join-Path $BinDir 'whisper-cli.exe'))) {
+        Write-Host "[converter:install]   warn: no whisper-cli.exe or main.exe found in bin\ after extraction."
+        Write-Host "[converter:install]         The archive layout may have changed again - check $BinDir."
+    }
     Write-Host "[converter:install] whisper.cpp $WhisperTag installed to bin\."
 }
+
+# --- PATH repair for tools winget does NOT put on PATH ---------------------
+# Tesseract and qpdf both install to Program Files without touching PATH, so
+# Get-Command tesseract / Get-Command qpdf come back empty and doctor.ps1 (and
+# ocrmypdf) report them missing even though they are installed. Add their bin
+# folders to the USER PATH (persistent) and to this process (so the rest of
+# this script and doctor.ps1 can see them immediately). (Found live 2026-07-20.)
+function Add-ToUserPath {
+    param([string]$Dir, [string]$Label)
+
+    if (-not $Dir -or -not (Test-Path $Dir)) {
+        Write-Host "[converter:install]   PATH: $Label not found on disk - skipping."
+        return
+    }
+    $userPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
+    if (-not $userPath) { $userPath = '' }
+    $entries = $userPath -split ';' | Where-Object { $_ -ne '' }
+    if ($entries -contains $Dir) {
+        Write-Host "[converter:install]   PATH: $Label already on user PATH."
+    } else {
+        $newPath = if ($userPath.TrimEnd(';') -eq '') { $Dir } else { $userPath.TrimEnd(';') + ';' + $Dir }
+        [Environment]::SetEnvironmentVariable('PATH', $newPath, 'User')
+        Write-Host "[converter:install]   PATH: added $Label -> $Dir"
+    }
+    # Make it visible to this process too (no restart needed for doctor.ps1).
+    if (($env:PATH -split ';') -notcontains $Dir) {
+        $env:PATH = $env:PATH.TrimEnd(';') + ';' + $Dir
+    }
+}
+
+# Tesseract: fixed install dir.
+$TesseractDir = @(
+    "$env:ProgramFiles\Tesseract-OCR",
+    "${env:ProgramFiles(x86)}\Tesseract-OCR",
+    "$env:LOCALAPPDATA\Programs\Tesseract-OCR"
+) | Where-Object { Test-Path (Join-Path $_ 'tesseract.exe') } | Select-Object -First 1
+Add-ToUserPath -Dir $TesseractDir -Label 'tesseract'
+
+# qpdf: version-stamped install dir, e.g. "C:\Program Files\qpdf 12.3.2\bin".
+# Pick the newest matching folder that actually contains qpdf.exe.
+$QpdfDir = Get-ChildItem -Path @("$env:ProgramFiles", "${env:ProgramFiles(x86)}") `
+                -Directory -Filter 'qpdf*' -ErrorAction SilentlyContinue |
+           Sort-Object Name -Descending |
+           ForEach-Object { Join-Path $_.FullName 'bin' } |
+           Where-Object { Test-Path (Join-Path $_ 'qpdf.exe') } |
+           Select-Object -First 1
+Add-ToUserPath -Dir $QpdfDir -Label 'qpdf'
 
 # --- Scratch dirs + .env ---------------------------------------------------
 New-Item -ItemType Directory -Force -Path (Join-Path $ExpansionDir 'cache')  | Out-Null

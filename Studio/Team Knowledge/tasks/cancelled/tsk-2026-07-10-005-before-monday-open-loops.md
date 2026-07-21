@@ -8,7 +8,7 @@ assignee: larry
 priority: 2
 
 # Status
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 
@@ -45,3 +45,7 @@ Work through [[Notebook/Drafts/Before Monday]] with Alyssa — her open loops, i
 ## Updates
 
 - 2026-07-10 (penn) — created during inbox triage execution. Source file needs to be moved from `Notebook/Inbox/Before Monday.md` to `Notebook/Drafts/Before Monday.md` (git mv, pending — see triage report).
+
+## Closed 2026-07-20
+
+Killed as a task by Alyssa 2026-07-20 after ten days without movement. The underlying note [[Notebook/Drafts/Before Monday]] is NOT deleted and is still a live source. It is now a known input to the task-capture gap work Alyssa raised the same day, along with the profit menu loops, voicebox, and newsletter threads.

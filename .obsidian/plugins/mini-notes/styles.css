@@ -1,0 +1,1280 @@
+/* ============================================
+   Theme-aware Pastel Colors
+   ============================================ */
+
+/* Light theme pastel colors (default) */
+:root {
+    --pastel-pink: #FFE5E5;
+    --pastel-peach: #FFE5CC;
+    --pastel-yellow: #FFF4CC;
+    --pastel-green: #E5F5E5;
+    --pastel-blue: #E5F2FF;
+    --pastel-purple: #F0E5FF;
+    --pastel-magenta: #FFE5F5;
+    --pastel-gray: #E5E5E5;
+}
+
+/* Dark theme colors - inspired by Google Keep's vibrant note design */
+.theme-dark {
+    --pastel-pink: #77172E;
+    --pastel-peach: #692B17;
+    --pastel-yellow: #7C4A03;
+    --pastel-green: #0C472F;
+    --pastel-blue: #1E3A5F;
+    --pastel-purple: #472E5B;
+    --pastel-magenta: #5B2245;
+    --pastel-gray: #3C3F43;
+}
+
+/* Main container */
+.visual-dashboard-container {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 16px 24px;
+    background: var(--background-primary);
+    container-type: inline-size;
+}
+
+/* Scrollbar */
+.visual-dashboard-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.visual-dashboard-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.visual-dashboard-container::-webkit-scrollbar-thumb {
+    background: var(--background-modifier-border);
+    border-radius: 2px;
+}
+
+/* ============================================
+   Header - Single Row
+   ============================================ */
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    gap: 12px;
+}
+
+.dashboard-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-normal);
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dashboard-title.editable-title {
+    cursor: pointer;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 0 0 auto;
+}
+
+/* Create Note Button */
+.create-note-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    color: var(--text-muted);
+    background: var(--background-modifier-form-field);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.create-note-btn:hover {
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+}
+
+.create-note-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    margin-right: 8px;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    background: var(--background-modifier-form-field);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px 8px;
+    transition: all 0.2s ease;
+    width: 340px;
+}
+
+.search-wrapper:focus-within {
+    background: var(--background-primary);
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px rgba(var(--interactive-accent-rgb), 0.2);
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    margin-right: 6px;
+    cursor: text;
+}
+
+.search-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Obsidian's own input[type="text"] reset uses !important, so specificity
+   alone can't override it here */
+.search-wrapper .search-input {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    height: auto !important;
+    font-size: 13px !important;
+    color: var(--text-normal);
+    width: 100%;
+    flex: 1;
+}
+
+.search-wrapper .search-input:focus {
+    outline: none !important;
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-clear-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: color 0.2s;
+    margin-left: 4px;
+}
+
+.search-clear-btn:hover {
+    color: var(--text-normal);
+}
+
+.search-clear-btn.is-hidden {
+    display: none;
+}
+
+.search-clear-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Search Suggestions/Autocomplete */
+.search-suggestions {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    padding: 4px;
+    display: none;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.search-suggestions.show {
+    display: block;
+}
+
+.search-suggestion-item {
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--text-normal);
+    transition: background-color 0.1s;
+}
+
+.search-suggestion-item:hover,
+.search-suggestion-item.selected {
+    background: var(--background-modifier-hover);
+}
+
+/* Search Highlighting */
+.search-highlight {
+    background: var(--text-highlight-bg);
+    color: var(--text-normal);
+    padding: 1px 2px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+/* Filter Chips Container */
+.filter-chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 8px 0;
+}
+
+.filter-chips-container.is-hidden {
+    display: none;
+}
+
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    background: var(--background-modifier-form-field);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 16px;
+    font-size: 12px;
+    color: var(--text-normal);
+    transition: all 0.15s;
+}
+
+.filter-chip:hover {
+    background: var(--background-modifier-hover);
+}
+
+.filter-chip-text {
+    font-weight: 500;
+}
+
+.filter-chip-tag {
+    background: var(--tag-background);
+    color: var(--tag-color);
+    border-color: var(--tag-background);
+}
+
+.filter-chip-color {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-color: var(--interactive-accent);
+}
+
+.filter-chip-pinned {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-color: var(--interactive-accent);
+}
+
+.filter-chip-type {
+    background: var(--background-modifier-success);
+    color: var(--text-success);
+    border-color: var(--background-modifier-success);
+}
+
+.filter-chip-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+}
+
+.filter-chip-clear:hover {
+    opacity: 1;
+}
+
+.filter-chip-clear svg {
+    width: 12px;
+    height: 12px;
+}
+
+.filter-chip-clear-all {
+    padding: 4px 12px;
+    background: transparent;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 16px;
+    font-size: 12px;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-weight: 500;
+}
+
+.filter-chip-clear-all:hover {
+    background: var(--background-modifier-error);
+    color: var(--text-error);
+    border-color: var(--background-modifier-error);
+}
+
+/* Tag Filter Wrapper */
+.tag-filter-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Tag Dropdown Menu */
+.tag-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    min-width: 180px;
+    max-width: 240px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    padding: 4px;
+    display: none;
+}
+
+.tag-dropdown-menu.show {
+    display: block;
+}
+
+.tag-dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tag-dropdown-menu::-webkit-scrollbar-thumb {
+    background: var(--background-modifier-border);
+    border-radius: 3px;
+}
+
+/* Tag Dropdown Items */
+.tag-dropdown-item {
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--text-normal);
+    transition: background-color 0.1s;
+}
+
+.tag-dropdown-item:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* Tag Pills in Dropdown */
+.tag-dropdown-item.tag-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    margin: 2px;
+    background: var(--tag-background);
+    color: var(--tag-color);
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.15s;
+}
+
+.tag-dropdown-item.tag-pill:hover {
+    background: var(--tag-background-hover);
+    color: var(--text-normal);
+}
+
+/* Unified Filter Icons */
+.filter-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.15s;
+}
+
+.filter-icon:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.filter-icon.active {
+    color: var(--masonry-theme-color, var(--interactive-accent));
+    background: rgba(var(--interactive-accent-rgb), 0.1);
+}
+
+.filter-icon.active svg {
+    fill: var(--masonry-theme-color, var(--interactive-accent));
+}
+
+.filter-icon svg {
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+}
+
+/* ============================================
+   Section Separator
+   ============================================ */
+.section-separator {
+    width: 100%;
+    height: 1px;
+    background: var(--background-modifier-border);
+    margin: 24px 0;
+}
+
+/* ============================================
+   Mini Notes Grid - JS-driven masonry
+   (see src/utils/masonry.ts for column placement;
+   width breakpoints there must match the ones this
+   layout used to encode in @container queries)
+   ============================================ */
+.mini-notes-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-notes-grid-section {
+    position: relative;
+    width: 100%;
+    contain: layout style;
+}
+
+/* ============================================
+   Cards
+   ============================================ */
+
+.dashboard-card {
+    position: absolute;
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: border-color 0.12s ease, transform 0.12s ease, opacity 0.12s ease, box-shadow 0.12s ease;
+    margin: 0;
+    max-height: 600px;
+    overflow: hidden;
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+.dashboard-card:hover {
+    border-color: var(--text-muted);
+}
+
+/* Drag and Drop States */
+.dashboard-card.dragging {
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(0.99);
+}
+
+.dashboard-card.drag-over {
+    border-color: var(--masonry-theme-color, var(--interactive-accent));
+    border-width: 1px;
+    background: rgba(var(--interactive-accent-rgb), 0.05);
+    box-shadow: 0 0 0 1px rgba(var(--interactive-accent-rgb), 0.35);
+}
+
+/* Pinned card styling */
+.dashboard-card.card-pinned {
+    border-color: var(--masonry-theme-color, var(--interactive-accent));
+    border-width: 1px;
+}
+
+/* ============================================
+   Pin Button
+   ============================================ */
+
+.card-pin-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--text-muted);
+    opacity: 0;
+    transition: opacity 0.15s, background 0.15s;
+    z-index: 10;
+}
+
+.dashboard-card:hover .card-pin-btn {
+    opacity: 1;
+}
+
+.card-pin-btn:hover {
+    color: var(--text-normal);
+}
+
+.card-pin-btn.pinned {
+    opacity: 1;
+    color: var(--masonry-theme-color, var(--interactive-accent));
+}
+
+.card-pin-btn.pinned svg {
+    fill: var(--masonry-theme-color, var(--interactive-accent));
+}
+
+.card-pin-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* ============================================
+   Color Button & Dropdown
+   ============================================ */
+
+.card-color-btn {
+    position: absolute;
+    top: 6px;
+    right: 36px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--text-muted);
+    opacity: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.dashboard-card:hover .card-color-btn {
+    opacity: 1;
+}
+
+.card-color-btn:hover {
+    color: var(--text-normal);
+}
+
+.card-color-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.card-color-dropdown {
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 6px;
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 11;
+}
+
+.card-color-dropdown.show {
+    display: flex;
+}
+
+.card-color-dropdown .color-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transition: border-width 0.1s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card-color-dropdown .color-circle:hover {
+    border-width: 2px;
+}
+
+.card-color-dropdown .color-circle-clear {
+    position: relative;
+    background: var(--background-secondary);
+}
+
+.card-color-dropdown .color-circle-clear::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 1px;
+    background: var(--text-muted);
+}
+
+.card-color-dropdown .color-circle-clear::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 10px;
+    height: 1px;
+    background: var(--text-muted);
+}
+
+/* ============================================
+   Card Header
+   ============================================ */
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 6px;
+    padding-right: 22px;
+}
+
+.card-icon {
+    display: none;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-normal);
+    line-height: 1.35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Google Keep-inspired text styling for colored cards in dark theme */
+.theme-dark .dashboard-card[style*="background-color"] .card-title {
+    color: #E8EAED;
+    font-weight: 500;
+}
+
+.theme-dark .dashboard-card[style*="background-color"] .card-preview {
+    color: #E8EAED;
+    opacity: 0.9;
+}
+
+.theme-dark .dashboard-card[style*="background-color"] .card-date {
+    color: rgba(232, 234, 237, 0.7);
+}
+
+.theme-dark .dashboard-card[style*="background-color"] .card-tag {
+    color: #E8EAED;
+    background: rgba(232, 234, 237, 0.15);
+    border: 1px solid rgba(232, 234, 237, 0.2);
+}
+
+/* Tags on cards without custom color in dark theme */
+.theme-dark .dashboard-card:not([style*="background-color"]) .card-tag {
+    color: #E8EAED;
+    background: rgba(232, 234, 237, 0.1);
+}
+
+/* ============================================
+   Card Content
+   ============================================ */
+
+.card-content {
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.card-preview {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.45;
+    color: var(--text-muted);
+    overflow: hidden;
+}
+
+/* Code blocks and inline code in preview */
+.card-content .card-preview pre {
+    background: var(--code-background);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 4px 0;
+    overflow-x: auto;
+    font-size: 11px;
+    line-height: 1.4;
+    max-height: 300px;
+    display: block;
+}
+
+/* Hide copy button in code blocks */
+.card-content .card-preview .copy-code-button,
+.card-content .card-preview button.copy-code-button {
+    display: none;
+}
+
+.card-preview code {
+    background: var(--code-background);
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 11px;
+    font-family: var(--font-monospace);
+    color: var(--code-normal);
+}
+
+.card-preview pre code {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Tables in preview */
+.card-content .card-preview table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 11px;
+    display: table;
+}
+
+.card-preview table th,
+.card-preview table td {
+    border: 1px solid var(--background-modifier-border);
+    padding: 4px 8px;
+    text-align: left;
+}
+
+.card-preview table th {
+    background: var(--background-secondary);
+    font-weight: 600;
+}
+
+.card-preview table tr:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* Lists in preview - reduce indentation */
+.card-preview ul,
+.card-preview ol {
+    margin: 4px 0;
+    padding-left: 20px;
+}
+
+.card-preview ul ul,
+.card-preview ol ol,
+.card-preview ul ol,
+.card-preview ol ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+
+/* Task lists / checkboxes */
+.card-preview .task-list-item {
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+.card-preview input[type="checkbox"] {
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+}
+
+.card-checklist-more {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-top: 2px;
+    padding-left: 20px;
+}
+
+/* Apply line clamp only to paragraphs and text elements, not code blocks */
+.card-preview > p,
+.card-preview > div:not(.has-code-block) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 15;
+    line-clamp: 15;
+    overflow: hidden;
+}
+
+/* PDF embeds and internal embeds for Cards (miniaturized) */
+.card-preview .internal-embed {
+    max-height: 300px;
+    max-width: 100%;
+    overflow: auto;
+    display: block;
+    position: relative;
+}
+
+.card-preview .pdf-embed {
+    /* Obsidian's own .pdf-embed rule is `display: flex; flex-direction: column`
+       (toolbar + .pdf-container, which flex-grows to fill the remaining height).
+       .pdf-container's scrollable viewer is absolutely positioned inset:0, so it
+       needs that flex layout to get a real height — display:block here would
+       collapse it and leave only a sliver of page 1 visible with no scroll. */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    background-color: var(--background-secondary);
+}
+
+.card-preview .internal-embed iframe {
+    width: 100%;
+    min-height: 300px;
+    display: block;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+/* PDF embeds and internal embeds for Overlay Editor (full size) */
+.neo-preview .internal-embed {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    margin: 10px 0;
+}
+
+.neo-preview .pdf-embed {
+    /* See .card-preview .pdf-embed above — must stay flex for Obsidian's
+       internal PDF viewer layout to size and scroll correctly. */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 1 / 1.3;
+    min-height: 550px;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.neo-body .neo-preview .internal-embed iframe {
+    width: 100%;
+    min-height: 400px;
+    display: block;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    pointer-events: auto;
+}
+
+.card-preview-empty {
+    font-style: italic;
+    color: var(--text-faint);
+}
+
+/* ============================================
+   Card Footer - Tags left, Date right
+   ============================================ */
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.card-tags {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.card-tag {
+    font-size: 10px;
+    color: var(--masonry-theme-color, var(--interactive-accent));
+    background: rgba(var(--interactive-accent-rgb), 0.1);
+    padding: 2px 6px;
+    border-radius: 7px;
+    white-space: nowrap;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-tag-more {
+    font-size: 9px;
+    color: var(--text-faint);
+    padding: 2px 4px;
+}
+
+.card-footer-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.card-date {
+    font-size: 10px;
+    color: var(--text-faint);
+    white-space: nowrap;
+}
+
+/* ============================================
+   Empty State
+   ============================================ */
+
+.dashboard-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.empty-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    opacity: 0.4;
+}
+
+.dashboard-empty-state h3 {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-normal);
+}
+
+.dashboard-empty-state p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+/* ============================================
+   Focus States
+   ============================================ */
+
+.dashboard-card:focus-visible {
+    outline: 2px solid var(--masonry-theme-color, var(--interactive-accent));
+    outline-offset: 1px;
+}
+
+.card-pin-btn:focus-visible {
+    outline: 2px solid var(--masonry-theme-color, var(--interactive-accent));
+    opacity: 1;
+}
+
+/* ============================================
+   Mobile Responsive Styles
+   ============================================ */
+
+/* Tablet and below - adjust search bar */
+@container (max-width: 799px) {
+    .search-wrapper {
+        width: 220px;
+    }
+    
+    .dashboard-title {
+        font-size: 14px;
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+/* Mobile - stack header and make search full width */
+@container (max-width: 599px) {
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-bottom: 6px;
+    }
+    
+    .dashboard-title {
+        font-size: 15px;
+        max-width: none;
+        width: 100%;
+    }
+    
+    .header-controls {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .search-container {
+        flex: 1;
+        margin-right: 0;
+    }
+    
+    .search-wrapper {
+        width: 100%;
+    }
+}
+
+/* Small mobile - further adjustments */
+@container (max-width: 420px) {
+    .visual-dashboard-container {
+        padding: 12px 16px;
+    }
+    
+    .dashboard-header {
+        margin-bottom: 12px;
+    }
+    
+    .dashboard-title {
+        font-size: 14px;
+    }
+    
+    .search-wrapper .search-input {
+        font-size: 14px;
+    }
+    
+    .search-input::placeholder {
+        font-size: 13px;
+    }
+}
+
+/* ============================================
+   Note Editor Overlay (neo-*)
+   ============================================ */
+
+/* Backdrop — covers the Mini Notes contentEl */
+.neo-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, backdrop-filter 0.2s ease;
+    pointer-events: none;
+}
+
+.neo-backdrop.neo-visible {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(3px);
+    pointer-events: all;
+}
+
+/* Panel */
+.neo-panel {
+    position: relative;
+    width: min(860px, 92%);
+    height: min(760px, 88vh);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 10px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35), 0 4px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateY(16px) scale(0.97);
+    opacity: 0;
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease;
+}
+
+.neo-backdrop.neo-visible .neo-panel {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+/* Header */
+.neo-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px 10px 16px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    flex-shrink: 0;
+}
+
+.neo-title {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-normal);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.neo-save-indicator {
+    font-size: 11px;
+    color: var(--text-faint);
+    flex-shrink: 0;
+    transition: color 0.2s;
+}
+
+.neo-save-indicator.neo-saving {
+    color: var(--text-muted);
+}
+
+.neo-save-indicator.neo-saved {
+    color: var(--color-green, #2d9f5c);
+}
+
+.neo-save-indicator.neo-error {
+    color: var(--text-error);
+}
+
+/* Action buttons */
+.neo-actions {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.neo-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: background 0.15s, color 0.15s;
+}
+
+.neo-btn:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.neo-btn svg {
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+}
+
+.neo-btn-close:hover {
+    background: var(--background-modifier-error);
+    color: var(--text-error);
+}
+
+/* Body */
+.neo-body {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Textarea (edit mode) */
+.neo-textarea {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    resize: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: var(--font-monospace);
+    color: var(--text-normal);
+    caret-color: var(--interactive-accent);
+}
+
+.neo-textarea::placeholder {
+    color: var(--text-faint);
+}
+
+.neo-textarea.neo-hidden,
+.neo-preview.neo-hidden {
+    display: none;
+}
+
+/* Preview (preview mode) */
+.neo-preview {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-normal);
+    user-select: text;
+    -webkit-user-select: text;
+}
+
+.neo-preview::-webkit-scrollbar {
+    width: 5px;
+}
+
+.neo-preview::-webkit-scrollbar-thumb {
+    background: var(--background-modifier-border);
+    border-radius: 2px;
+}
+
+/* ============================================
+   Settings tab
+   ============================================ */
+.custom-color-setting.is-hidden {
+    display: none;
+}
+
+.mini-notes-settings-footer {
+    border-top: none;
+    padding-top: 1em;
+    background: none;
+}
+
+.mini-notes-settings-footer-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.7em;
+    color: var(--text-muted);
+}
+
+.mini-notes-settings-footer-link {
+    color: var(--text-muted);
+}
+
+.mini-notes-settings-footer-github-icon {
+    display: flex;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+

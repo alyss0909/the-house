@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 3
 
 # Status
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 

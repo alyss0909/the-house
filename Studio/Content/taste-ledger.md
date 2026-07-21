@@ -54,6 +54,53 @@ After four structural fixes she still said "it doesn't sound like me lol we're g
 
 **Distilled (durable):** Voice comes from her real carousels, not her sales pages. Created [[Studio/Content/her-carousel-voice.md]] (compact: one real deck verbatim + the tells) and added it to the writer's load in [[.claude/commands/content-run]]. The token optimization that removed her real slides was the direct cause of the flatness. Exemplars beat rules for voice. Headers must be short verdicts/coinages, never sales-page explainer sentences. The proof beat (spine job 4) uses her real numbers (sub-1% organic reach vs her ~43% Simmer open).
 
+## Verdict 2026-07-19 — the whole replication approach failed (verbatim)
+
+On the two buckshot-built decks (Trust Recession, Story Archive): "nah these suck - you cant match my carousels and you have to find out who can - none of these are anyhting likethe 9 carousels you have access to and slide by slide breakdowns of its literally not it. its trash im sry i can see youre trying but something is broken so go look online or soemthing im sure someone can acutlly fix this but its not me and its not you we've tried you cant figure out how to take my real work and replicate it"
+
+Standing instruction from this: stop iterating internally on rules and outlines; research externally (methods, tools, people) for how to actually replicate a specific creator's carousel voice from her real work. Nine real carousels + slide-by-slide breakdowns exist and the output still reads nothing like them.
+
+## Reacts 2026-07-19 — the 20-trailer buckshot (claude-is-acting-weird email), all verbatim
+
+Format she reacted to: 3-line trailers (open / turn / what they think at the end). Her reacts, verbatim per trailer:
+
+1 (Claude not coming to save you): "1 makes no sesnse you lost my point"
+2 (45-minute clown show): "is better but also boring and too much work nobody will care"
+3 (mom did your homework): "3 is close and funny but not as strong as 4"
+4 (trust recession): "4 is hot and urgent"
+5 (AI beige-ifier): "meh"
+6 (human markers): "meh what are you proving"
+7 (5 questions, one-slide asset): "actually useful yes but make it acutally persuade"
+8 (idea person, full notebook): "good but whats the cost? its that theyre wasting time losing their mgic and getting boring af in the process"
+9 (flirting with your own ideas): "idk what you mean by this one"
+10 (2024 you already wrote this): "mmm no my notes were a SUPORTING ARGUMEnt it was me comiserating with them and validating them"
+11 (mini intervention): "better"
+12 (Google Drive concession): "this is a funny aside not a post"
+13 (beige isn't neutral): "good"
+14 (TLDR of 10 years): "its fine but ppl arent polishing idk why you keep saying that - its not that at all"
+15 (industry-disagreement question): "ya fine, but nothing anyone hasnt heard before it cant be a whole post"
+16 (relationships at scale): "ya, but then the point is .. get their good stories out using the way the 5m newsletter harvests them"
+17 (one pan meal): "its not a whole post its a thought"
+18 (POV is the product): "pretty good - needs proof and backup into a nuanced argument"
+19 (keep something protected): "its ok"
+20 (idea and story archive): "ya this is good! but we gotta like build tension around it but its a good thought"
+
+**Distilled (durable):**
+- Winners are HOT and URGENT (4) or a good thought that needs TENSION built (20). "Useful" alone isn't enough; useful must also persuade (7).
+- The cost that lands: wasting time, losing their magic, getting boring af in the process. NOT "polishing" — she rejected the polishing frame twice; never use it.
+- Funny asides (Google Drive) and single thoughts (one pan meal) are slide-level material, not posts. A question everyone has heard (name your contrarian belief) cannot carry a deck.
+- Her personal anecdotes are supporting/validating beats (commiserating with the reader), never the deck's point.
+- The trailer buckshot format itself worked: 20 concepts, one sitting, numbers back. Reusable.
+
+## Ruling 2026-07-19 — the template is ONE slide; the deck's job is persuasion (verbatim)
+
+Her words on both 2026-07-19 Bingeable decks built from her "telling you what to do" email: "both of these missed the mark the tempalte should be ONE slide and all the rest is building up WHY they need the tempalte the carousel is convincing them they need to be writing regular newsletters and not just any nrewsleettter ones that does it all in one shot all their maketing just handled? girl 😞 go again like idk why this is so hard for ussss you have my exact email you have to many outlines its like .. you have too many - HOW would someone persuasive write a helpful post? this isnt it"
+
+**Distilled (durable):**
+- **Never spread a giveaway asset across teaching slides.** The template (or any stealable tool) lands on ONE slide, whole, as the payoff. Splitting it blank-by-blank turns persuasion into a tutorial nobody asked for yet.
+- **The deck's real job is building WANT, not walking structure.** Every slide before the payoff slide argues WHY: why regular newsletters, why this specific all-in-one kind. The reader must already want the thing before they see it.
+- **Too many outlines is itself a failure mode.** When she supplies a finished piece of writing, the persuasive shape is already in it; the writer's question is "HOW would someone persuasive write a helpful post?", not "which framework card fits."
+
 ## Ruling 2026-07-17 — react to the first compiler run (verbatim)
 
 Her words on the four 2026-07-17 decks (both 5MN options, both Bingeable options): "i dont wanna react to the old ones bc i dont like htey ... so far the output doesnt sound like me and the hooks are shit - tbh the previous version on 16th was getting closer." All four marked Killed on the board without individual reacts.
@@ -163,3 +210,13 @@ Her words on the compiler: "i dont think the briefs are good and the agents have
 - Curriculum vocabulary anywhere near a concept ("belief move," "reframe," "the formula")
 - Re-skins of her published winners (metaphor swapped, skeleton kept)
 - Quirky-conceit covers ("your marketing bill, itemized") over direct promises ("How To Get All Your Clients From Pinterest This Year")
+
+## Ruling 2026-07-20 — slide register (durable)
+
+**Slide bodies run in sentence case, with bold reserved for the one line that has to land.** Not full caps.
+
+Her reasoning, and mine that she accepted: caps costs the ability to emphasize anything, because when every word shouts, no word does. Her voice leans on hitting one specific phrase inside a line, and caps flattens that lever. The counter-argument, that caps is more legible as a small thumbnail in the feed, was heard and overruled.
+
+This settles the register question flagged on the "stop summoning your newsletter." page on 2026-07-18. The reference deck for the correct register is her Jan 22 deck. The "Newsletter You Keep Avoiding" deck is the counter-example: it ran full caps.
+
+Full caps is now only correct where she specifically asks for it on a given deck. A writer choosing caps on its own is a miss.

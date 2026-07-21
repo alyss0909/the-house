@@ -1,7 +1,7 @@
 ---
 id: tsk-2026-06-26-002
 title: Wire Slack Expansion tokens and test listener
-status: open
+status: cancelled
 created: 2026-06-26
 owner: Mack
 priority: medium

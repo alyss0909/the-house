@@ -1,5 +1,7 @@
 # The Profit Menu — evolution plan
 
+_Owned by [[tsk-2026-07-20-001-profit-menu-finish-build]]. Executed against in [[Deliverables/2026-07-16-profit-menu-handoff]]. Signal: `boh-daily-profit-activities` in [[Studio/Signals/signals-index]]. Offer facts: [[Library/Offers/the-daily-profit-activities/MAP]]._
+
 Turning the *Daily Profit Activities* Notion template into **The Profit Menu**: same satisfying "pick by your energy" mechanic as the Dopamine Biz Boost, but fully your content, your kitchen metaphor, your soft-gorl BOH voice.
 
 ## The core idea

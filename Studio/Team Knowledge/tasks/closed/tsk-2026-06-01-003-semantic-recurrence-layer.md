@@ -8,7 +8,7 @@ assignee: larry
 priority: 2
 
 # Status
-status: done
+status: closed
 blocked_reason: null
 blocked_by: null
 

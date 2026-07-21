@@ -1,4 +1,4 @@
-﻿---
+---
 # Identity
 id: tsk-2026-06-03-008
 title: "Resolve background myPKA open loops without making Alyssa babysit them"
@@ -8,7 +8,7 @@ assignee: larry
 priority: 2
 
 # Status
-status: done
+status: closed
 blocked_reason: null
 blocked_by: null
 

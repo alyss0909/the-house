@@ -32,7 +32,17 @@ Each writer subagent loads only:
 
 Do not load METHOD, hook-forensics, or the full slide-by-slide during a normal run. They are card-rebuilding sources, not writing loads.
 
-## Step 1: The sequence fill (the ONLY pre-writing artifact)
+## Step 0: Her-piece mode check (her ruling 2026-07-19, runs before everything)
+
+If Alyssa supplied a finished piece of her own writing as the source (an email, a Simmer, a caption, a script), the whole card machinery below is OFF. Her piece already contains the persuasive shape; forcing it through a card destroys it (proven 2026-07-19: two card-built decks killed, the no-card rebuild called "20x better").
+
+In her-piece mode:
+- Writer load: [[Studio/Content/writer-kit]] + [[Studio/Content/her-carousel-voice]] + her piece pasted verbatim + the offer brief (for supplemental verbatim lines only, usually the receipts beat).
+- No framework card. No sequence fill. The orchestrator passes one guiding question: "HOW would someone persuasive write a helpful post?"
+- One version, not two. She gave the shape; the options live in covers and hooks.
+- The one-slide payoff law binds: any stealable asset in the piece (template, checklist, prompt) lands whole on ONE slide as the earned payoff; every slide before it builds why they need it.
+
+## Step 1: The sequence fill (the ONLY pre-writing artifact — skipped entirely in her-piece mode)
 
 Pick the framework card whose "when to use" line fits. Then fill one block, in plain language:
 

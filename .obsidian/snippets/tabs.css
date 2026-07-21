@@ -13,14 +13,18 @@
 /* NOTE: do NOT hide .view-header-title-container — under AnuPpuccin card
    layout the open-note TAB LABEL lives there, so hiding it leaves empty pills. */
 
-/* Nav buttons + view actions hidden, fade in on hover */
+/* Back / forward nav buttons stay visible.
+   (They used to be opacity:0 with a hover fade-in, which made them
+   impossible to find. Restored 2026-07-20, tsk-2026-07-10-002.) */
 .view-header-nav-buttons {
-  opacity: 0 !important;
+  opacity: 0.8 !important;
   transition: opacity 0.3s !important;
 }
 .view-header-nav-buttons:hover {
-  opacity: 0.8 !important;
+  opacity: 1 !important;
 }
+
+/* View actions ("..." and pane icons) still fade in on hover */
 
 .view-actions {
   opacity: 0 !important;

@@ -1,4 +1,4 @@
-﻿---
+---
 # Identity
 id: tsk-2026-06-03-001
 title: "Build and launch Rush Order — done-with-you BOH upsell"
@@ -8,7 +8,7 @@ assignee: alyssa
 priority: 2
 
 # Status (mirrors folder location)
-status: open
+status: cancelled
 blocked_reason: null
 blocked_by: null
 

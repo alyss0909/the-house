@@ -4,7 +4,7 @@
 - **Type:** Workstream — single trigger, full loop
 - **Owner:** Larry (orchestration, sweep, synthesis, queue)
 - **Triggered by:** `/weekly-review` / "do the weekly review" / "weekly wrap" / "close session" nudge when ≥5 days since last weekly wrap
-- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Studio/Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[Studio/Analysis/taste-log.md]]
+- **References:** [[SOP-013-semantic-sweep]], [[WS-004-inbox-processing]], [[WS-008-content-activation]], [[WS-010-daily-pulse]], [[Studio/Signals/Developing Ideas/INDEX.md]], `Studio/Team Knowledge/tasks/open/`, [[Studio/Content/idea-bank.md]], [[Studio/Content/taste-ledger]]
 
 ---
 
@@ -42,7 +42,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
    - **Personal** → file to journal
    - **Duplicate / already filed** → discard
    - **Clearly trash** → discard
-4. If an item has a clear content type AND passes taste-log check → propose a team brief inline in the Phase 4 hand-off (do not interrupt the process)
+4. If an item has a clear content type AND passes the taste check → propose a team brief inline in the Phase 4 hand-off (do not interrupt the process)
 5. Note all discards and new files for the wrap note
 
 **Output:** Inbox is empty (minus held items). All new journal entries tagged and ready for Phase 1 sweep.
@@ -89,9 +89,9 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **Steps:**
 1. Glob `Studio/Team Knowledge/tasks/open/` for open content-related tasks; open [[Studio/Content/idea-bank.md]] for parked concepts worth activating
 2. Check status of open items: anything blocked? Anything newly ready from Phase 1?
-3. Cross-reference taste-log.md — anything to reprioritize based on approval patterns?
+3. Cross-reference [[Studio/Content/taste-ledger]] — anything to reprioritize based on approval patterns?
 4. Confirm #1 priority item for the week. Is the assignee clear? Source material all there?
-5. Route new content activation opportunities from Phase 1: social content → the weekly pitch loop (WS-011); everything else → a task file per [[SOP-004-create-task]]
+5. Route new content activation opportunities from Phase 1: social content → the Content Studio board in Notion, produced by `/content-run` per [[SOP-041-content-production]] (WS-011's weekly pitch loop retired 2026-07-16); everything else → a task file per [[SOP-004-create-task]]
 6. Run WS-008 automatically for anything ready to dispatch that hasn't been dispatched yet
 
 **Output:** A "What's moving this week" section. Max 3 items. The #1 item is the thing the team should complete before next Sunday.

@@ -14,7 +14,7 @@ The Obsidian vault is the living source of truth; this brain is a distillation w
 
 ## Tier 2 — Interpretation (navigate with, never voice-train on)
 
-`Studio/Analysis/` (voice-profile.md, voice-archive.md, AND writing-style.md are AI-mined/Wren-era and unreviewed by Alyssa — treat every claim as well-evidenced inference, not her confirmation; subject-line.md v2.1 is the exception: built from 351 real broadcasts, its stats are highest-trust), `Studio/Analysis/Frameworks/`, COMPASS files, taste-log.md, yes-pattern.md, Wren memory. Any tier-2 claim enters this brain only with ≥2 tier-1 instances behind it.
+`Studio/Analysis/` (voice-profile.md, voice-archive.md, AND writing-style.md are AI-mined/Wren-era and unreviewed by Alyssa — treat every claim as well-evidenced inference, not her confirmation; subject-line.md v2.1 is the exception: built from 351 real broadcasts, its stats are highest-trust), `Studio/Analysis/Frameworks/`, COMPASS files, yes-pattern.md, Wren memory (the old taste-log.md is retired; live taste authority is [[Studio/Content/taste-ledger]], a tier-1 record of Alyssa's own verbatim reactions). Any tier-2 claim enters this brain only with ≥2 tier-1 instances behind it.
 
 **Voice-authority ruling (Fable, 2026-07-05):** the JUDGMENT layer here (SOUL/STYLE/TASTE/ANTI-AI, v3) is the ONLY voice authority — it carries her live corrections. Ignore any frontmatter in Studio/Analysis/ voice docs claiming primacy (writing-style.md's "read this before writing," voice-profile.md's "load at the start of any copy session" — both superseded). Where they conflict with JUDGMENT, JUDGMENT wins, always.
 
