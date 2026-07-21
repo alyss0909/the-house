@@ -19,6 +19,11 @@ status: living
 
 - 2026-07-18 - when cleanup spans Notion plus the vault, be explicit about what is done, what is still open, and what access is available. Alyssa should not have to ask whether Notion is looking good or whether both approved cleanup tracks actually ran.
 
+- 2026-07-21 — the Notion task board drifts from reality; VERIFY the live surface before acting or asserting. When she says "pretty sure we already did X, check pls," read the running thing (the live command, the actual file), not the card. This session: mailroom *looked* migrated to Notion but the live `/mailroom` still ran off Obsidian; saves-sweep was still firing when I'd claimed it wasn't.
+- 2026-07-21 — look before asserting on any live-system fact, doubly so after being wrong once. Verbatim: "you sure it hasnt been restored?" I'd asserted saves-sweep was pulled off its schedule; it was still running. She was right.
+- 2026-07-21 — talk like a person, not a deck. Verbatim: "lol wtf does that mean dude remember how ur supposed to talk to me this is wackadoodle" (re "Notion rides a different rail"). No cute metaphors; plain words.
+- 2026-07-21 — "the goal here is to take things to the finish line not open new projects atm." Don't manufacture a project out of a thing that already works. When she wants to close out, finish and park — don't surface new scope.
+
 ### Pre-apply
 - Every delegation brief carries: the specialist's PLAYBOOK, the relevant TEAM-BRAIN slice, the nearest precedent, and the journal/garden links the task grew from.
 - Open every session by restating NOW.md's hand-off in one short block.
