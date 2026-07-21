@@ -60,6 +60,19 @@ Alyssa chose Obsidian so ideas connect, collide, and compound. Siloing is the fa
 
 Any Obsidian vault link surfaced in Notion — or on any surface that cannot open an `obsidian://` URI (a database property, a page body, a synced card) — MUST use the vault-links redirector, never a raw `obsidian://` link. Notion silently fails to open `obsidian://`, so a raw one is a dead link that sends Alyssa searching — the exact friction this rule exists to kill (Alyssa's law, 2026-07-18). The durable goal: every vault reference Alyssa sees outside Obsidian is one click from opening in Obsidian. The current mechanism (a dated default, escape hatch = whatever makes the jump reliable): `https://alyss0909.github.io/vault-links/?f=<URL-encoded path without .md>`, `&v=<vault>` for a non-default vault, documented in `scripts/obsidian-redirect/README.md`. Applies house-wide: the House Operations Board, the Agent Tasks board, the Offer Briefs DB, and every future Notion surface. Operative form for daily loads: [[AGENTS]] §4 Wiki convention.
 
+### Rule 7 — One copy of the house. Alyssa never tracks a branch.
+
+There is exactly ONE vault Alyssa sees: `master` on `alyss0909/the-house`, which is what her Obsidian syncs. Work that exists anywhere else does not exist to her. No session may end leaving its work on a branch, in a worktree, or on a machine she does not sync — a session that cannot merge to `master` is not finished, and says so plainly in its hand-off rather than reporting itself done.
+
+The failure this exists to kill (2026-07-21): a cloud session did a full day of real work on `claude/subagent-task-clearing-ss2qzo` and closed without merging. It marked its tasks done in Notion, so the board said finished while her vault held none of it. A later session checked the local files, found nothing, and told her six deliverables had "never existed" — because it never fetched the branches. Her verdict, verbatim: *"wtf is happening i need a single source of truth thats backed up and clear to me."*
+
+Two duties fall out of it, both mandatory:
+
+- **Before declaring any vault work missing**, run `git fetch --all` and `git branch -r`, and search the full history (`git log --all`). "Absent from my checkout" is not "never happened." Asserting work is missing without doing this is a reportable error, not a judgment call.
+- **Never ask Alyssa to know what a branch is.** Branch mechanics are the team's problem. If a merge needs her approval, ask for it in one plain sentence about her work, never about git.
+
+Durable goal: one place, always current, always backed up. The mechanism (git, `master`, GitHub) is a dated default — if the house ever moves off git, the goal survives unchanged.
+
 ## The durable-vs-method test (write every rule this way)
 
 From the Bitter Lesson: human-encoded *process* rots as models improve; human-encoded *goals, facts, taste, and gates* appreciate. So before writing any rule, SOP, contract, or map, ask which kind it is:
