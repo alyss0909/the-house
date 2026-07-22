@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Understanding: i-have-adhd (an output-style skill)</title>
+<style>
+  :root { --ink:#2b2b2b; --soft:#5c5c5c; --line:#e3ddd0; --bg:#faf7f0; --card:#fffdf8; --accent:#7a5c3e; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height:1.7; font-size:18px; }
+  main { max-width:820px; margin:0 auto; padding:56px 26px 90px; }
+  h1 { font-size:2em; line-height:1.25; margin:0 0 6px; }
+  h2 { font-size:1.35em; margin:44px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--line); }
+  h3 { font-size:1.08em; margin:26px 0 6px; color:var(--accent); }
+  p, li { color:var(--ink); }
+  .lede { color:var(--soft); font-size:1.05em; margin-top:0; }
+  .tag { display:inline-block; font-family:system-ui,sans-serif; font-size:12px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--accent); background:#f0e9db; padding:3px 10px; border-radius:20px; }
+  pre { background:#2f2b26; color:#f3ede0; padding:16px 18px; border-radius:8px; overflow-x:auto;
+    font-family: "SF Mono", Menlo, Consolas, monospace; font-size:14px; line-height:1.55; }
+  code { font-family:"SF Mono", Menlo, Consolas, monospace; font-size:.9em;
+    background:#f0e9db; padding:1px 5px; border-radius:4px; }
+  pre code { background:none; padding:0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px 22px; margin:16px 0; }
+  .files li { margin-bottom:10px; }
+  .files b { color:var(--accent); }
+  .callout { background:#f4efe3; border-left:4px solid var(--accent); padding:14px 18px; border-radius:6px; margin:18px 0; }
+  footer { margin-top:60px; color:var(--soft); font-size:.85em; font-family:system-ui,sans-serif; border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="tag">Repo understanding</span>
+  <h1>i-have-adhd</h1>
+  <p class="lede">A skill that changes how an AI assistant writes back to you, so the answer is easy for a distractible brain to act on. Source: <code>ayghri/i-have-adhd</code>.</p>
+
+  <h2>1. What this repo is</h2>
+  <p>This is not an app and it is not a piece of software you run. It is a set of writing rules for an AI coding assistant, packaged so the assistant loads them automatically. When the rules are active, the assistant changes the <em>shape</em> of everything it says. It leads with the thing you should do next instead of a paragraph of background. It numbers steps. It gives you a real time estimate like "about 15 minutes" instead of "this will take some work." It never opens with "Great question" and never closes with "Hope that helps." The whole idea is that for a reader with ADHD, knowing the answer and actually doing the answer are two different things, and good formatting closes that gap. The real content of the whole project is one plain-English file of ten rules.</p>
+
+  <h2>2. Architecture at a glance</h2>
+  <p>There are only three moving parts, and they are simple.</p>
+  <div class="card">
+    <h3>The rulebook</h3>
+    <p>One Markdown file, <code>skills/i-have-adhd/SKILL.md</code>, holds all ten rules plus the reasoning behind them and the cases where a rule should be broken. This is the entire product. Everything else in the repo just delivers this file to the assistant at the right moment.</p>
+    <h3>The always-on switch</h3>
+    <p>A tiny piece of code (<code>hooks/always-on.js</code>) and a settings file (<code>hooks/hooks.json</code>) let you turn the rules on permanently, so you do not have to type a command every session.</p>
+    <h3>The quality test</h3>
+    <p>A Python script (<code>scripts/run_evals.py</code>) and a folder of test cases (<code>evals/</code>) measure whether the rules actually make answers better, rather than just assuming they do.</p>
+  </div>
+  <p>The graph report for this repo confirms the shape. Its single most connected hub is "Install i-have-adhd" with 43 connections, which tells you most of the repo is about packaging and delivery. The actual substance lives in the two "Rules" clusters, and the evaluation harness sits off to one side as its own tight community. In plain terms: a small amount of real content, wrapped in a lot of careful delivery and testing.</p>
+
+  <h2>3. The core abstractions</h2>
+
+  <h3>The ten rules (the heart of it)</h3>
+  <p>The rules are written for an AI to obey, but they read like a plain style guide. A few, in the project's own words:</p>
+  <pre><code>1. Lead with the next action
+   Bad:  "Let's think about this. Your auth flow has a few moving pieces..."
+   Good: "Run `npm install jsonwebtoken`, then edit `src/auth.ts:42`."
+
+6. Give specific time estimates
+   Bad:  "This will take some work."
+   Good: "About 15 minutes if tests already cover this. An afternoon if not."
+
+10. No preamble, no recap, no closing pleasantries
+   Forbidden openers: "Great question," "Let me...", "Sure!"
+   Forbidden closers: "Hope this helps," "Feel free to ask."</code></pre>
+  <p>What makes this file more thoughtful than a normal "be concise" instruction is that it also says <em>when to break the rules</em>. If you ask it to "explain" or "walk me through," it drops the brevity and answers fully. If a destructive action is coming, it stops and confirms first. And it ends with a self-check: before sending, delete the first sentence if it just announces what you are about to do, and delete the last sentence if it asks "anything else?"</p>
+
+  <h3>The always-on hook</h3>
+  <p>This is the clever bit of packaging. Instead of asking you to invoke the skill every time, the project uses a "hook," which is a small script an assistant runs automatically at the start of a session. The whole script is about twenty lines. In plain English it says: if the user left a small marker file on their computer, read the rulebook and paste it into the session; otherwise do nothing and get out of the way.</p>
+  <pre><code>const flagPath = path.join(claudeDir, '.i-have-adhd-always');
+
+if (!fs.existsSync(flagPath)) process.exit(0);   // no marker, do nothing
+
+const body = fs.readFileSync(skillPath, 'utf8')
+  .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, ''); // strip the header
+
+console.log('ADHD MODE ACTIVE (always-on)...\n\n' + body);</code></pre>
+  <p>Two details worth noticing. First, the whole thing is wrapped so that if anything goes wrong it just exits quietly and never breaks your session. Second, turning the mode off is deliberately easy: you say "stop adhd mode" for one session, or delete that one marker file to turn it off for good. The design respects that a persistent behavior change needs an obvious off switch.</p>
+
+  <h3>The evaluation harness</h3>
+  <p>This is what separates the project from a casual blog post. The author does not just claim the style is better, they built a way to measure it. The Python script runs the same set of real questions two ways: once with a plain assistant ("baseline") and once with the rulebook applied ("candidate"). Each answer is then scored on five things, with correctness weighted highest:</p>
+  <pre><code>WEIGHTS = {
+    "correctness":   0.35,
+    "autonomy":      0.25,
+    "actionability": 0.20,
+    "safety":        0.10,
+    "concision":     0.10,
+}</code></pre>
+  <p>Concision is only worth ten percent. That is a deliberate statement: the point of the skill is not to be short, it is to be correct and act-on-able. Being brief is a minor bonus, and correctness matters more than three times as much. There is even a "release gate" that refuses to declare the styled version a winner unless it beats the plain version overall <em>and</em> does not lose ground on correctness or safety.</p>
+
+  <h2>4. How a typical flow works</h2>
+  <p>Here is the full path, start to finish, using the real files.</p>
+  <ol>
+    <li>You install the plugin. Packaging files (<code>plugin.json</code>, <code>.claude-plugin/marketplace.json</code>) tell the assistant this skill exists and what it does.</li>
+    <li>You opt in to always-on by creating one empty marker file named <code>.i-have-adhd-always</code> in your assistant's config folder.</li>
+    <li>You start a session. The settings file <code>hooks/hooks.json</code> tells the assistant to run <code>always-on.js</code> at session start.</li>
+    <li>That script checks for your marker file. It finds it, reads the ten rules out of <code>SKILL.md</code>, and injects them into the session with a note that says the mode is active and how to turn it off.</li>
+    <li>For the rest of the session, every answer the assistant gives is reshaped by those rules: action first, numbered steps, real time estimates, no fluffy opener or closer.</li>
+    <li>Separately and offline, the author runs the evaluation script on a batch of test questions to confirm the styled answers actually score higher than plain ones before shipping a new version.</li>
+  </ol>
+  <div class="callout">The elegant part: the assistant does not need to "understand" ADHD. It just receives a plain rulebook at the top of the conversation and follows it. The behavior change is entirely a matter of getting the right instructions in front of it at the right time.</div>
+
+  <h2>5. Where to start if you want to extend it</h2>
+  <ul class="files">
+    <li><b>skills/i-have-adhd/SKILL.md</b> is where 95 percent of the value lives. If you wanted to adapt this to a different audience or a different voice, you would edit this one file and nothing else. It is plain English, not code.</li>
+    <li><b>hooks/always-on.js</b> is the twenty-line delivery mechanism. Read it to understand how a skill turns itself on automatically without you typing anything.</li>
+    <li><b>hooks/hooks.json</b> is the wiring that says "run that script at session start." Small, but it is what makes always-on possible.</li>
+    <li><b>scripts/run_evals.py</b> plus the <b>evals/</b> folder is the proof layer. If you wanted to test whether your edits to the rules made answers better or worse, this is the tool that measures it.</li>
+    <li><b>plugin.json</b> and <b>.claude-plugin/marketplace.json</b> are the packaging labels. You only touch these if you are publishing or renaming the plugin.</li>
+  </ul>
+
+  <h2>What this means for Alyssa</h2>
+  <p>This tool does one job: it forces an AI assistant to write in a way that is immediately act-on-able instead of chatty and padded. Lead with the thing to do, number the steps, cut the "Great question" and the "Hope this helps," give a real time estimate.</p>
+  <p>The interesting part for a content business is not the code, it is the rulebook itself. That single file is basically a distilled style guide for writing that respects a reader's attention. A lot of it lines up with rules you already enforce on your own surfaces: no fluffy openers, no empty closers, plain complete sentences, cut the hedging. If you ever wanted a house voice rule for "how the AI should hand me an answer so I can act on it fast," this file is a ready-made, well-argued template you could lift and rewrite in your own words.</p>
+  <p>It does not fit a content business as a piece of software to run. It fits as a piece of thinking to steal. The engineering around it (the hook, the eval harness) is built for a coding shop, and you would not use that machinery. But the ten rules, and especially the idea of scoring "did this actually help me act" above "was this short," are worth keeping.</p>
+
+  <footer>
+    Repo understanding brief. Grounded in the real source files, not the README.<br>
+    Read: SKILL.md, always-on.js, hooks.json, run_evals.py, plugin.json, marketplace.json, GRAPH_REPORT.md.
+  </footer>
+</main>
+</body>
+</html>

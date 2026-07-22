@@ -32,6 +32,8 @@ The migration is over. This is where the house lives, permanently:
 | Notebook/Drafts | `Notebook/Drafts/` | Her drafts, working notes |
 | Notebook/DESK | `Notebook/DESK.md` | Passing-notes surface — the one Notebook file the team may update (links only) |
 | Studio/Voice | `Studio/Voice/` | House-level voice layer (README, formats, KILL-LIST) |
+| Studio/Reply-Style | `Studio/Reply-Style/` | House-level reply-style layer — how the house talks to Alyssa in chat (ADHD-shaped). Distinct from Voice |
+| Studio/Reference | `Studio/Reference/tools/` | Shelf of outside tools/repos studied deeply, one HTML breakdown each |
 | Studio/Hermes | `Studio/Hermes/` | Alyssa Clone Writer brain (JUDGMENT, FACTS, MAP, FABLE) |
 | Studio/Content | `Studio/Content/` (dashboard at `Studio/Content/dashboard/`) | Content OS pipeline, pitch sheets |
 | Studio/Signals | `Studio/Signals/` + `Studio/Signals/Developing Ideas/` | Signals index, idea garden |
