@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-22 08:18
+generated: 2026-07-22 10:52
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -21,9 +21,10 @@ THE FOUR LEAKS ARE CLOSED: the register question was already answered, the promo
 STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-22-08-15_larry_night-shift-journal-and-playbook]])
-- [ ] Content lane stays parked by her 2026-07-20 instruction; the "stop summoning" deck react is still hers to give.
-- [ ] Everything in the prior hand-off still waiting on her (Ghostwriter blind-test ranking, Mailroom decision, Maude pages, the parked reactions, the hermes-deep-voice / Telegram / Kit-form / Gmail-filters / Vault-replies items) is unchanged — untouched tonight.
+## Open threads (from [[2026-07-22-10-45_larry_adhd-reply-style-layer]])
+- [ ] Content lane stays parked by Alyssa's 2026-07-20 instruction. Not dead, deliberately parked. The "stop summoning" deck react is still hers to give. No action until she reopens the lane.
+- [ ] Prior hand-off items still waiting on Alyssa: Ghostwriter blind-test ranking and the Mailroom decision. Not dead, waiting on her input. No agent action available until she rules.
+- [ ] Parked idea (optional, not a leak): rebuild `uditakhourii/adhd`'s 15 cognitive frames as a plain-language brainstorm play Alyssa can fire at any stuck decision. Held until she asks. See [[Studio/Reference/tools/README]].
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **485/570 entries linked by non-generated sources (85%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
@@ -37,7 +38,7 @@ Connection state: **485/570 entries linked by non-generated sources (85%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 85 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 0 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Unmined session logs: 2 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 0 stale
   - clear — every open task moved within the last 7 days
 
