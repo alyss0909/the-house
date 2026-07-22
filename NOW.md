@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-22 08:15
+generated: 2026-07-22 08:18
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,7 +8,7 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Night shift 2026-07-22 (Alyssa not present): journal connections, playbook mining, the last due check-back drained, and the four flagged leaks closed. Nothing here needs her.
+Night shift 2026-07-22 (Alyssa not present): journal connections, playbook mining, the last due check-back drained, and the four flagged leaks closed. Nothing here needs her. NOTE: tonight's work is committed on local master but the GitHub push was blocked by the permission gate in this unattended run — the next shell-capable session should run `git push origin master` to finish the backup.
 
 EIGHT JOURNAL ENTRIES CONNECTED, debt down from 93 to 85 (85% linked). Six of her own orphaned offer/conversion ideas now sit in [[Studio/Content/idea-bank]] as a keeper batch — a free-trial adoption lever, star reviews on low-ticket pages, a back-door workshop offer, a planners workbook, a daily-text micro-offer, and an exit-pop-up/webinar-bonus set. Her own webinar-close copy feeds the webinar framework, and a done-for-you vault joined the middle-ground signal. Two personal entries (her birth time, a baby to-do list) were read and left unconnected — they genuinely relate to nothing in the Studio.
 
