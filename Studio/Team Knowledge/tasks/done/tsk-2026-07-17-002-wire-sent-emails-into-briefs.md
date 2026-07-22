@@ -2,7 +2,7 @@
 id: tsk-2026-07-17-002
 title: Wire her sent-email bodies into the offer briefs via the Kit API
 owner: mack
-status: open
+status: done
 created: 2026-07-17
 source: "[[Studio/Content/briefs/INDEX]]"
 ---
@@ -20,3 +20,5 @@ Job:
 4. Confirm whether this can run as a mechanical refresh (re-pull when she sends a new email for an offer) rather than a one-time job.
 
 Start with the email lane (5MN, Bingeable, List Resuscitator, Email List Revival, A Year of Emails). Known example: "telling you what to do [list inside]" — Simmer, 43% open, related to 5MN and the Monday-education product.
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.

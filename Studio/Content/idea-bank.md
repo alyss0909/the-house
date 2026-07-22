@@ -58,3 +58,14 @@ Four lines she wrote into her journal and never used. They are hers already, so 
 - **Not all traffic is created equal** — [[2026-01-31-not-all-traffic-is-created-equal]]. A Pinterest/slow-marketing line, not an email one: it argues the quality-over-volume case her Pinterest teaching already makes.
 
 - Resurfaced 2026-07-21: [[2024-11-07-chain-mail]] — a two-word brand-word capture ("chain mail"), filed by her under emails and brand world. Parked here with [[2020-11-17-wildling]] as name material, most obviously for an email series or a referral/forward mechanic.
+
+## Offer + conversion ideas she parked (resurfaced 2026-07-22)
+
+Six of her own concept captures from the journal, none of them connected anywhere until now. They are keepers to pull from when a theme or offer calls for them — offer levers and conversion mechanics she noted for herself and never built.
+
+- **Free trial as an adoption lever** — [[2026-03-10-genius-free-trial-incentive]]. One line: a free-trial incentive to "increase adoption and reliance." The idea is that the trial is not a discount, it is a habit-builder — get them relying on the thing and the paid conversion follows. Pull it when working a launch or a low-ticket-to-recurring path.
+- **Star reviews on every low-ticket page** — [[2025-01-14-star-reviews-for-all-low-tickets]]. Add real star reviews to all the low-ticket product pages. Cheap social proof exactly where the buyer is closest to the button, and it is a do-it-today fix rather than a new build.
+- **A back-door offer into the monthly workshops** — [[2025-04-16-back-door-offer]]. A side entrance to the monthly-workshops offer for people who would not come in the front. Concept only, but it is a real offer-structure idea worth shaping when the workshops need a fresh on-ramp.
+- **"My favourite paper planners & printables" workbook** — [[2024-08-07-idea]]. A single student workbook that collects her favourite paper planners and printables, printed out for photoshoot vibes. A low-ticket product concept that doubles as a shootable visual asset.
+- **Two-week daily text, one idea a day** — [[2022-09-21-idea]]. A "noon non-negotiable" style micro-offer: a two-week daily text, one idea per post. The easy-to-consume, high-touch nurture format, sketched years before the 5 Minute Newsletter made the same low-effort bet.
+- **Exit pop-up + stay-to-the-end webinar bonus** — [[2025-01-09-exit-pop-up-and-other-ideas]]. A cluster of conversion mechanics: an exit pop-up on the sales page, a bonus for staying to the end of the webinar, a workbook on joining, and threads over stories. All levers, no build — pull when tightening a funnel.

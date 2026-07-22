@@ -45,4 +45,4 @@ None yet — recurrence count (3) is below the thesis-ready threshold (6+). File
 
 ## Check back
 
-2026-07-19 (next weekly sweep).
+2026-08-18 — rescheduled from 2026-07-19 on the 2026-07-22 night shift, to land the same day as its twin [[Studio/Signals/Developing Ideas/ai-workflow-collecting]] (the intake side of this same pattern). Reason to move rather than act: the two signals watch the same thing, and neither has new data. No new external tool evaluation has landed since the three same-day ones on 2026-06-29, so recurrence stays at 3 (below the thesis threshold), and last night's drain of the twin found its own burst stopped (thirteen saves in four early-July days, then near-nothing since). Both are quiet, so there is nothing to graduate and nothing to dismiss yet. On 2026-08-18, review both together: if still no recurrence, merge this into the twin and close the pair; if new "skip, we already built this" evaluations have accumulated, the standing evaluation heuristic gets real.

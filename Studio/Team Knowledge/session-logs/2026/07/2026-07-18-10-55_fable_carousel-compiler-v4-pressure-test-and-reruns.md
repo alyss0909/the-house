@@ -5,7 +5,7 @@ timestamp: 2026-07-18T10:55:00-04:00
 type: close-session
 linked_sops: ["SOP-011-write-session-log", "SOP-040-the-compounding-loop", "SOP-041-content-production"]
 linked_guidelines: ["GL-014-the-compounding-architecture"]
-mined: false
+mined: true
 ---
 
 # Carousel compiler v4: pressure test, her rulings, and two live reruns

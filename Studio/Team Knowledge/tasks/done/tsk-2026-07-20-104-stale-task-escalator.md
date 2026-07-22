@@ -1,14 +1,14 @@
 ---
 # Identity
-id: tsk-2026-07-20-108
-title: "Add a human voice-edit pass to /content-run"
+id: tsk-2026-07-20-104
+title: "Build the stale-task escalator"
 
 # Ownership & priority
-assignee: suki
+assignee: larry
 priority: 2
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -34,19 +34,21 @@ linked_journal_entries: []
 tags: [capture-gap-audit]
 ---
 
-# Add a human voice-edit pass to /content-run
+# Build the stale-task escalator
 
 ## What this is
 
-Pax's research says even exemplar-saturated AI output reads flatter than she does. Recommendation 3 was to stop hoping that away and build a 15 to 30 minute rewrite-only-the-dead-lines seat into the run.
+Designed in the Claude-usage autopsy and repeatedly named as the last major unbuilt piece. Without it, stale tasks just accumulate. A 7 day pulse, a 14 day compress, a 28 day dormant flag.
 
 Filed 2026-07-20 during the capture-gap audit. This had been committed to but never became a task, which is exactly the leak that audit existed to close.
 
 ## Success criteria
-- Every run has an explicit human edit step rather than an implied one
+- A task older than 14 days cannot sit silently
 
 ## Updates
 - 2026-07-20 16:00 (larry) — created from the capture-gap audit
 
 ## Outcome
 _(filled when status flips to done — see [[SOP-006-close-task]])_
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.

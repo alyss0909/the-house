@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: []
+mined: true
 ---
 
 # Installed understand-open-source the house way, then scoped Alyssa's own Keep capture project

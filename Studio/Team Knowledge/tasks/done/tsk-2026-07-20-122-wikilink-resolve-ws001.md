@@ -1,14 +1,14 @@
 ---
 # Identity
-id: tsk-2026-07-20-104
-title: "Build the stale-task escalator"
+id: tsk-2026-07-20-122
+title: "Wire the wikilink-resolve check into WS-001 step 5"
 
 # Ownership & priority
 assignee: larry
-priority: 2
+priority: 4
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -34,19 +34,21 @@ linked_journal_entries: []
 tags: [capture-gap-audit]
 ---
 
-# Build the stale-task escalator
+# Wire the wikilink-resolve check into WS-001 step 5
 
 ## What this is
 
-Designed in the Claude-usage autopsy and repeatedly named as the last major unbuilt piece. Without it, stale tasks just accumulate. A 7 day pulse, a 14 day compress, a 28 day dormant flag.
+Item 5 of the Penn audit fix plan. SOP-040 steps 3a and 7 already cover most of it, so this is genuinely small and may be mostly superseded. Worth one line, not a project.
 
 Filed 2026-07-20 during the capture-gap audit. This had been committed to but never became a task, which is exactly the leak that audit existed to close.
 
 ## Success criteria
-- A task older than 14 days cannot sit silently
+- The check is either wired or explicitly declared redundant
 
 ## Updates
 - 2026-07-20 16:00 (larry) — created from the capture-gap audit
 
 ## Outcome
 _(filled when status flips to done — see [[SOP-006-close-task]])_
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.

@@ -1,14 +1,14 @@
 ---
 # Identity
-id: tsk-2026-07-20-120
-title: "Evaluate the eleven collected AI workflow resources"
+id: tsk-2026-07-20-108
+title: "Add a human voice-edit pass to /content-run"
 
 # Ownership & priority
-assignee: larry
-priority: 4
+assignee: suki
+priority: 2
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -34,19 +34,21 @@ linked_journal_entries: []
 tags: [capture-gap-audit]
 ---
 
-# Evaluate the eleven collected AI workflow resources
+# Add a human voice-edit pass to /content-run
 
 ## What this is
 
-A four-day burst of saved agent guides, Notion workflows and funnel blueprints. Thirteen captures, none evaluated. Alyssa has flagged that this signal's recurrence count is inflated, so the honest outcome may well be to drop most of them.
+Pax's research says even exemplar-saturated AI output reads flatter than she does. Recommendation 3 was to stop hoping that away and build a 15 to 30 minute rewrite-only-the-dead-lines seat into the run.
 
 Filed 2026-07-20 during the capture-gap audit. This had been committed to but never became a task, which is exactly the leak that audit existed to close.
 
 ## Success criteria
-- Each resource is either adopted, filed as reference, or dropped
+- Every run has an explicit human edit step rather than an implied one
 
 ## Updates
 - 2026-07-20 16:00 (larry) — created from the capture-gap audit
 
 ## Outcome
 _(filled when status flips to done — see [[SOP-006-close-task]])_
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.

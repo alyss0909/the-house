@@ -6,7 +6,7 @@ type: close-session
 linked_sops: ["SOP-040-the-compounding-loop"]
 linked_workstreams: []
 linked_guidelines: []
-mined: false
+mined: true
 ---
 
 # Agent-task-clearing wave — subagents clear the by-person board, plus a board-drift correction

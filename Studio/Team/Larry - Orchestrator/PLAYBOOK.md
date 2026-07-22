@@ -29,6 +29,7 @@ status: living
 - 2026-07-21 — look before asserting on any live-system fact, doubly so after being wrong once. Verbatim: "you sure it hasnt been restored?" I'd asserted saves-sweep was pulled off its schedule; it was still running. She was right.
 - 2026-07-21 — talk like a person, not a deck. Verbatim: "lol wtf does that mean dude remember how ur supposed to talk to me this is wackadoodle" (re "Notion rides a different rail"). No cute metaphors; plain words.
 - 2026-07-21 — "the goal here is to take things to the finish line not open new projects atm." Don't manufacture a project out of a thing that already works. When she wants to close out, finish and park — don't surface new scope.
+- 2026-07-17 — don't over-build tool independence she won't use. On the understand-open-source install she asked for a "non-Claude-exclusive" standalone too, then reversed herself: *"maybe just skip it and i'll use claude for it."* Keep is her main capture and Claude is where she works; scope a tool to how she actually uses it, not to an abstract portability ideal. Same instinct as "finish, don't open new scope." Source: [[2026-07-17-understand-open-source-install-and-keep-capture-project]].
 
 ### Pre-apply
 - Every delegation brief carries: the specialist's PLAYBOOK, the relevant TEAM-BRAIN slice, the nearest precedent, and the journal/garden links the task grew from.

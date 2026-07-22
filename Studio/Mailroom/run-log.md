@@ -11,6 +11,10 @@ desk: Mailroom
 Audit trail for every unattended Mailroom daily cycle. Newest first. Replaces the
 `## Mailroom reacts` section of the retired [[MAILROOM]] dashboard.
 
+- [2026-07-21 19:05] daily cycle — 0 replies queued (no For Larry rows); archived 7 checked noise rows (3 wellness, 3 personal, 1 business), re-queried in:inbox and confirmed all 7 gone before filing. Auto-filed 0 (nothing in the pull matched the known-noise list)
+- [2026-07-21 19:05] sweep — surfaced 3 new noise rows (1 wellness Canva, 2 business Metricool + Infoods) and 0 new real people; every unread human already had a row (Adél, Lily, Bundles, Kit sponsorship, Julien), Dennis skipped per standing rule
+- [2026-07-21 19:05] spam checked on all four accounts, clean — SEO pitches, phishing, Skool digests and marketing broadcasts only, no students or customers
+- [2026-07-21 19:05] task lane — reconciled 7 board-done tasks whose vault files were still in tasks/open/ (moved to done/, open count 26 → 19); closed the Profit Menu row on the board, its vault file was already in done/. 2 "Do it" rows still parked on Alyssa's yes (saves-sweep boot slim, Claude Code config), Stuck on already accurate. No notes to act on, no Notion-only tasks
 - [2026-07-21 14:20] daily cycle — 0 replies queued (no For Larry rows), 0 noise rows to archive; auto-filed 3 known-noise from personal (Nextdoor, Indigo, Bluehost), verified gone from inbox
 - [2026-07-21 14:20] sweep — surfaced 7 new noise rows (3 personal, 1 business, 3 wellness) and 1 real person: Adél Csúri, second web design invoice with a payment link, business inbox
 - [2026-07-21 14:20] spam checked on all four accounts, clean — SEO pitches, phishing and follower-selling only, no real people

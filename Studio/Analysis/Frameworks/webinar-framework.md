@@ -115,3 +115,11 @@ This framework doesn't cover:
 - Replay strategy
 
 For how Alyssa actually structures her webinars in practice, see [[Studio/Analysis/workshop-webinar-analysis|workshop-webinar-analysis.md]].
+
+---
+
+## Journal seeds (resurfaced 2026-07-22)
+
+Her own raw webinar captures from the Notebook, connected here so the framework has roots in what she was actually reaching for.
+
+- [[2021-04-08-before-this-webinar-ends-blah]] — a fragment of her own transition copy, "Before this webinar ends ___". This is The Close's open-loop teaser written from the inside: she was drafting the line that promises a payoff before the pitch so people stay through the shifts. Feeds The Transition and The Recap above.

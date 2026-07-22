@@ -8,7 +8,7 @@ assignee: larry
 priority: 4
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -50,3 +50,5 @@ Filed 2026-07-20 during the capture-gap audit. This had been committed to but ne
 
 ## Outcome
 _(filled when status flips to done — see [[SOP-006-close-task]])_
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.

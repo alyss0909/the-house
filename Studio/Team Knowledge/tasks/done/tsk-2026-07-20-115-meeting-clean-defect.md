@@ -1,14 +1,14 @@
 ---
 # Identity
-id: tsk-2026-07-20-122
-title: "Wire the wikilink-resolve check into WS-001 step 5"
+id: tsk-2026-07-20-115
+title: "Fix the daily-meeting-clean duplicate defect"
 
 # Ownership & priority
-assignee: larry
-priority: 4
+assignee: mack
+priority: 3
 
 # Status (mirrors folder location)
-status: open
+status: done
 blocked_reason: null
 blocked_by: null
 
@@ -34,19 +34,21 @@ linked_journal_entries: []
 tags: [capture-gap-audit]
 ---
 
-# Wire the wikilink-resolve check into WS-001 step 5
+# Fix the daily-meeting-clean duplicate defect
 
 ## What this is
 
-Item 5 of the Penn audit fix plan. SOP-040 steps 3a and 7 already cover most of it, so this is genuinely small and may be mostly superseded. Worth one line, not a project.
+The automation recreates pointer notes for raw folders that already have processed notes. It did this on 2026-07-17 for two captures already processed back in June, which is why three captures looked unhandled when only one was.
 
 Filed 2026-07-20 during the capture-gap audit. This had been committed to but never became a task, which is exactly the leak that audit existed to close.
 
 ## Success criteria
-- The check is either wired or explicitly declared redundant
+- The automation checks raw_source_path against existing processed notes before writing a pointer
 
 ## Updates
 - 2026-07-20 16:00 (larry) — created from the capture-gap audit
 
 ## Outcome
 _(filled when status flips to done — see [[SOP-006-close-task]])_
+
+- 2026-07-21 (mailroom sweep) — Status was already done on the Notion board; file reconciled from tasks/open/ to tasks/done/.
