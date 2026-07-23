@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 09:50
+generated: 2026-07-23 10:11
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -17,12 +17,11 @@ CHECK-BACKS AT ZERO, unchanged. Wrap debt sits at exactly 1 week (W29 newest, cu
 STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction. Plus, fresh: her pick on the Profit Menu intro aside, and applying Hermes's glossary edit list.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-23-13-30_larry_profit-menu-views-copy-and-close]])
-- [ ] [[tsk-2026-07-23-001-profit-menu-sales-page]] — Hermes to write the new sales page for The Profit Menu, replacing the stale $97-era copy at alyssacoleman.ca/slo.
-- [ ] Nine new Notion views need their card layout set to Compact/Small with page-cover display, by hand in the Notion UI (API has no directive for this) — roughly 90 seconds of manual work, not yet done.
-- [ ] Hermes's copy-paste edit/delete list for the glossary toggle (delete Energy row, delete Plate-it/Done row, edit Department row, optional Category row) has not yet been applied in Notion.
-- [ ] The classics-vs-extras aside (final Hermes option, still Alyssa's pick pending) has not yet been pasted into the live page.
-- Carried, unrelated to this session: everything already listed in NOW.md's prior hand-off (Ghostwriter blind-test ranking, Mailroom decision, Maude pages, stale-task escalator, outcome writeback, Keep re-auth).
+## Open threads (from [[2026-07-23-15-40_mack_ig-saves-image-viewing-fix]])
+- [ ] 132 saves remain queued at Status=New (140 total, 8 processed today). Expected — the pipeline's 8/day cap will clear it over several days, not a bug.
+- [ ] Content lane stays parked per Alyssa's 2026-07-20 instruction. Not dead, deliberately parked, no task needed — carrying forward as a standing note until she reopens it.
+- [ ] Ghostwriter blind-test ranking and the Mailroom consolidation decision: both already have open task files ([[tsk-2026-07-23-002-ghostwriter-blind-test-review]], [[tsk-2026-07-20-103-mailroom-notion-bridge]], [[tsk-2026-07-20-117-mailroom-consolidation]]) waiting on Alyssa — not a leak, already captured, just still pending her input.
+- [ ] Parked idea, optional, not a leak: rebuild `uditakhourii/adhd`'s 15 cognitive frames as a plain-language layer. No task filed — not prioritized, staying as a noted idea until Alyssa wants it picked up.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **493/570 entries linked by non-generated sources (86%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
@@ -36,7 +35,7 @@ Connection state: **493/570 entries linked by non-generated sources (86%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 77 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 2 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Unmined session logs: 4 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 2 stale
   - PULSE (surfacing): 2 — 7d `keepsidian-google-reauth`, 7d `plan-offer-factory`
 

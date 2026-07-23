@@ -48,7 +48,7 @@ Obsidian dataviewjs dashboard and its `## Mailroom state` ledger), and
 
 ## Doctrine
 
-- **Archive = remove from inbox only, never delete.** Gmail search finds everything later. No archive-label taxonomy — she wants a clean inbox she can search.
+- **Archive = remove from inbox AND apply the `🌙 Archive` label, never delete.** Her call 2026-07-23: she wants swept mail filed under a searchable "🌙 Archive" folder (label), out of the inbox but easy to find later — the pattern she already set up in the support inbox herself. Every archive action (daily sweep and bulk) removes INBOX and adds `🌙 Archive`. Label ids: personal `Label_19`, support `Label_3323713876616453460`. Business and wellness do not have the label yet — create "🌙 Archive" there (labelShow, messageListVisibility show) before the first archive on those accounts. This supersedes the old "no archive-label taxonomy" rule.
 - **Filters** (skip-inbox / label / mark-read) are standing config → show-and-tell + her explicit go before creating any. Live spec: [filter-plan.md](filter-plan.md).
 - **Never auto-touch:** failed/declined payments, security alerts, the bookkeeper, real humans, paid-member join requests.
 - Norah's Day (Montessori dailies) stays in the inbox unless she says otherwise.
