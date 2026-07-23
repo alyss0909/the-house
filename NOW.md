@@ -8,7 +8,7 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Night shift 2026-07-23 (Alyssa not present): journal duty, playbook mining, close. Nothing here needs her. NOTE: the prior shift's push was still blocked — if this shift's `git push origin master` also fails the gate, the next shell-capable session must run it to finish the backup.
+Night shift 2026-07-23 (Alyssa not present): journal duty, playbook mining, close. Nothing here needs her. NOTE: everything is committed on local master (commit 1a38539) but the `git push origin master` was blocked by the permission gate in this unattended run, same as last shift. One commit is unpushed and the working tree is otherwise clean. The next interactive/shell-capable session must run `git push origin master` to finish the backup — nothing is lost, it just is not on GitHub yet.
 
 EIGHT JOURNAL ENTRIES CONNECTED, debt down from 85 to 77 (86% linked). Six external conversion/sales-copy swipe bookmarks she saved now sit in [[Studio/Content/idea-bank]] under a new "External conversion swipe" subsection, next to the parked conversion ideas (exit-pop-up, giveaway, deal-week, referral promo, VSL, case-study page). Two of her own ADHD-interest captures (an ADHD podcast, an ADHD self-test) now feed [[Studio/Reply-Style/README]] as the lived reason that layer exists. The rest of the surfaced orphans are personal musings with no genuine Studio home; recorded as reviewed, not forced.
 
