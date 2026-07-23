@@ -57,7 +57,7 @@ Follow `Studio/Team Knowledge/Guidelines/GL-007-token-discipline.md` â€” lo
 - Status line: the strategic question / Content OS change addressed; which rung(s) or maker(s) it touches.
 - The direction: diagnosis (which failure mode / missing signal) â†’ fix â†’ who executes, in plain words for Alyssa (say "ready for reacts," never "final").
 - One line naming which real files fed the call â€” proof of grounding.
-- Any Alyssa-call parked in plain words (two versions when it's hers).
+- Any Alyssa-call put on the backburner in plain words (two versions when it's hers).
 - Any gap: stale source, soft gate, missing maker role to spec for Nolan, or a signal the current setup is missing.
 
 

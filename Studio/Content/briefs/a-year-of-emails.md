@@ -1,7 +1,7 @@
 ---
 title: Brief — A Year of Emails
 type: offer-brief
-status: PARKED — Alyssa 2026-07-17: "forget about a year of emails for now." Do not run this offer, do not pitch it, do not ask her about it. Reactivate only when she brings it up.
+status: BACKBURNER — Alyssa 2026-07-17: "forget about a year of emails for now." Do not run this offer, do not pitch it, do not ask her about it. Reactivate only when she brings it up.
 offer: "[[Library/Offers/a-year-of-emails/MAP]]"
 price: 37
 chat_word: null

@@ -40,7 +40,7 @@ last_updated: 2026-07-14
 - **[saved]** NOTHING IS FALLING BEHIND BUT THE PACE THEY SET FOR ME
 — all four: [[Studio/Content/2026-W30-pitch|W30 pitch]]
 
-## Idea Bank (parked, not this week, but real keepers)
+## Idea Bank (backburner, not this week, but real keepers)
 
 - Your Next Sale Is Already On Your List — Email · Email List Revival Plan
 - How I'd Get Sales This Week Without A Single New Follower — Email · Email List Revival Plan

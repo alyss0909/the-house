@@ -67,10 +67,10 @@ Prepared by: Cassius Â· referenced: Library/Offers/email-list-revival-plan/MAP
 6. CTA: [the one CTA] â†’ [offer]
 Sources: [every file the substance + numbers came from â€” real paths]
 Hooks: [2â€“3 hook options for slide 1]
-Note: / Parked: [only if needed â€” flags for Alyssa in plain words]
+Note: / Backburner: [only if needed â€” flags for Alyssa in plain words]
 ```
 
-Required elements: `### DAYKEY â€” Title`, `**Cover:**`, numbered `N. Role: text` slide lines, `Sources:`, `Hooks:`. Optional: `Note:`, `Parked:`.
+Required elements: `### DAYKEY â€” Title`, `**Cover:**`, numbered `N. Role: text` slide lines, `Sources:`, `Hooks:`. Optional: `Note:`, `Backburner:`.
 
 **Dashboard render note:** showing the `Prepared by` header on the 02 Arc card is a small design/dashboard add (comparable to the pending WED-chip add). Flag it to Larry/Iris; don't block the arc on it. The arc body already parses under the current contract.
 

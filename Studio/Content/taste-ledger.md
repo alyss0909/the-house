@@ -135,7 +135,7 @@ Her words on the compiler: "i dont think the briefs are good and the agents have
 ## Rulings (durable)
 
 - 2026-07-17 — Chat words are solved and off-limits, verbatim: "forget about the chat words pls dont ask me again i solved this." Pull from the Products DB at ship time; a blank stays a silent "Before it ships" flag, never a question to her. Same family as the 2026-07-06 price ruling ("why do you need to know. just keep moving").
-- 2026-07-17 — A Year of Emails parked, verbatim: "forget about a year of emails for now." No runs, no pitches, no questions until she reopens it.
+- 2026-07-17 — A Year of Emails on the backburner, verbatim: "forget about a year of emails for now." No runs, no pitches, no questions until she reopens it.
 
 - 2026-07-16 — The volume/taste split, verbatim: "maybe volume is your asset and taste is mine yknow?" — she reacts to finished posts, several at once; never spend her attention on fragments.
 - 2026-07-16 — The value law, verbatim: "even offer posts have MAD value every post should blow someone away with something useful THEN that earns the ask." Third gate in METHOD; every option and post names what a non-buyer walks away with.

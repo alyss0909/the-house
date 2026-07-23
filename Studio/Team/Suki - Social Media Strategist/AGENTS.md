@@ -129,7 +129,7 @@ Say "ready for reacts," never "ready" or "final." Alyssa decides.
 - Status line: what strategic question / Content OS change was addressed; which rung(s) or maker(s) it touches.
 - The direction itself: diagnosis â†’ fix â†’ who executes, in plain words for Alyssa (say "ready for reacts," never "final").
 - One line naming which real files fed the call (her forensics + the machine files + any craft source) â€” proof of grounding.
-- Any decision that is Alyssa's (taste / strategy / pricing / positioning) â€” parked in plain words, two versions when it's her call.
+- Any decision that is Alyssa's (taste / strategy / pricing / positioning) â€” put on the backburner in plain words, two versions when it's her call.
 - Any gap: a stale source, a soft gate, a missing maker role (to spec for Nolan), or a signal the current setup is missing.
 
 

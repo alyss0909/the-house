@@ -87,7 +87,7 @@ Larry does not pause between phases. If something needs a decision, it goes in t
 **What:** Review the two queue sources — the task system and the idea bank — and confirm what moves this week. (The Ready Queue file was dissolved into these 2026-07-10 per Alyssa; history at [[Archive/ready-queue-retired-2026-07-10]].)
 
 **Steps:**
-1. Glob `Studio/Team Knowledge/tasks/open/` for open content-related tasks; open [[Studio/Content/idea-bank.md]] for parked concepts worth activating
+1. Glob `Studio/Team Knowledge/tasks/open/` for open content-related tasks; open [[Studio/Content/idea-bank.md]] for backburner concepts worth activating
 2. Check status of open items: anything blocked? Anything newly ready from Phase 1?
 3. Cross-reference [[Studio/Content/taste-ledger]] — anything to reprioritize based on approval patterns?
 4. Confirm #1 priority item for the week. Is the assignee clear? Source material all there?

@@ -36,7 +36,7 @@ This command is a Claude Code convenience wrapper. The canonical protocol lives 
    - **LEAK** — an open thread vanished between session logs without becoming a task or being resolved. This is the leak that lost roughly 75 pieces of committed work before 2026-07-20. Each one gets a task file via [[SOP-004-create-task]], or an explicit line in today's log saying why it died. Never both silence and nothing.
    - **UNCAPTURED** — NOW.md is carrying an item with no task file behind it. Same rule: file it or kill it in writing.
    - **DRIFT** — a task file's status disagrees with its folder. Run `python3 scripts/rebuild-task-index.py`.
-   - **STALE** — an open task is 14 days or older. Say something about it in the hand-off, even if that something is "still parked, still fine."
+   - **STALE** — an open task is 14 days or older. Say something about it in the hand-off, even if that something is "still on the backburner, still fine."
 
    The check writes nothing and fixes nothing. Clearing it is the closing agent's job, and the point is that it makes the failure visible instead of trusting anyone to remember.
 

@@ -136,7 +136,7 @@ Write a session-log entry of type `proactive` under `Studio/Team Knowledge/sessi
 
 - **Source:** tool name, path / endpoint / MCP server, size summary.
 - **Decisions:** the user's answers to all eight clarifying questions.
-- **Counts:** entities created per type, images copied, wikilinks rewritten, conflicts handled, anomalies parked.
+- **Counts:** entities created per type, images copied, wikilinks rewritten, conflicts handled, anomalies put on the backburner.
 - **Orphan wikilinks:** the full list, so the user can resolve them later.
 - **What didn't import:** files that failed to parse, password-protected blocks, oversize attachments, encoding errors. Each with a one-line reason.
 - **Cross-links:** to the trigger session entry, to any SOP-002 invocation, to the templates used.

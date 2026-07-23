@@ -38,7 +38,7 @@ tags: [capture-gap-audit]
 
 ## What this is
 
-The Cloudflare Worker is written and security-reviewed but has never been deployed, so the Notion mailroom cannot trigger anything. Half-built and parked since 2026-07-17.
+The Cloudflare Worker is written and security-reviewed but has never been deployed, so the Notion mailroom cannot trigger anything. Half-built and on the backburner since 2026-07-17.
 
 Filed 2026-07-20 during the capture-gap audit. This had been committed to but never became a task, which is exactly the leak that audit existed to close.
 

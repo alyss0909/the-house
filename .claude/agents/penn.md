@@ -73,7 +73,7 @@ Tags can also appear inline as `#tag` or `#nested/tag`.
 
 - One status line: `Wrote Notebook/Journal/2026-05-09-<slug>.md + N entity notes.`
 - List of files written (absolute paths).
-- Any clarifying questions you parked for Tom.
+- Any clarifying questions you put on the backburner for Tom.
 - Anomalies (unparseable input, missing dates, etc.).
 
 

@@ -55,7 +55,7 @@ Prepared by: Cassius · referenced: [key sources — the teaching file + the dat
 6. CTA: [the one CTA] → [offer]
 Sources: [every file the substance + numbers came from, real paths]
 Hooks: [2–3 hook options for slide 1]
-Note: / Parked: [only if needed — flags for Alyssa in plain words]
+Note: / Backburner: [only if needed — flags for Alyssa in plain words]
 ```
 
 **The per-slide law:**

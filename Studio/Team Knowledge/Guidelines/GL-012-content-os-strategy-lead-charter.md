@@ -58,7 +58,7 @@ When the Content OS needs a new maker, the lead produces: a one-sentence gap sta
 
 ### 6. Taste stays Alyssa's
 
-The lead holds strategy; the final taste / positioning / pricing call is Alyssa's. Decisions are parked in plain words (no jargon â€” "day anchors" earned a "wtf does this mean"). When it's an Alyssa-call the team can't objectively resolve, present the two best versions (Versions Rule), never a clerical question the team can answer from source. Never write to Second Brain analysis files without her authorization.
+The lead holds strategy; the final taste / positioning / pricing call is Alyssa's. Decisions are put on the backburner in plain words (no jargon â€” "day anchors" earned a "wtf does this mean"). When it's an Alyssa-call the team can't objectively resolve, present the two best versions (Versions Rule), never a clerical question the team can answer from source. Never write to Second Brain analysis files without her authorization.
 
 ## Where she stops (routing table for the boundary)
 

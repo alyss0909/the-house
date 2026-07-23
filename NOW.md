@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 10:11
+generated: 2026-07-23 19:38
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,20 +8,17 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-2026-07-23 daytime session, live with Alyssa: The Profit Menu Notion build. Nine new filtered views shipped (House Classics, Flavour Enhancers, 5m/30m/1h, Email/Pinterest/Promo Dep't, Doing Today), property-visibility matched to Full Menu; card layout/cover style couldn't be set via the Notion API (confirmed limitation, not skipped) and still needs 90 seconds of manual UI work on all 9. Hermes gave a direct copy-paste edit/delete list for the glossary toggle, not yet applied. The old habit-tracker database was migrated, not redesigned: four checkboxes relabeled to match the renamed Profit Menu categories after Alyssa firmly corrected an over-engineered retire-and-rebuild proposal — durable lesson now in her PLAYBOOK and TEAM-BRAIN. Drafted (with her) a persuasive classics-vs-extras intro aside, Hermes wrote 3 persuasive options, her pick still pending. New task filed: [[tsk-2026-07-23-001-profit-menu-sales-page]] (Hermes, rewrite the stale $97-era sales page for the $47 rebrand), row added to the Notion Agent Tasks board.
+2026-07-23 evening, quick directive from Alyssa: "backburner" replaces "parked" everywhere, and I never use "parked" again. Rewrote 35 live vault files (NOW, close-session command, Suki/Penn/Cass agent files, MAP, idea-bank, taste-ledger, the SOPs/Workstreams/Guidelines that used it, the offer briefs, more) plus the memory layer — renamed the chat-words memory, fixed the index, and added a standing `never-say-parked` feedback memory so the whole team defaults to the new word. Deliberately left dated records (session logs, Archive, Weekly Reviews, Mailroom run logs, done tasks), filename references (`Parked.md`), and CSS class names — her scope call was "live surfaces + memory." Deprioritized sense became "backburner"; the "stored here" sense became a plain word so nothing reads awkward. One open item: the Notion Offer Briefs / Products DB mirror may still show the old label for A Year of Emails; I did not touch Notion on my own — flagged for her go.
 
-Also backed up: the prior night shift's commit (1a38539) had been blocked from pushing by the unattended-run permission gate — pushed this session along with today's work, so GitHub is caught up.
+Carried from the daytime Profit Menu session (still live): the 9 new Profit Menu views still need ~90s of manual card-layout/cover UI work each (Notion API can't set it); Hermes's glossary copy-paste edit/delete list is not yet applied; her pick on the classics-vs-extras intro aside is still pending. Task [[tsk-2026-07-23-001-profit-menu-sales-page]] is open (Hermes, rewrite the stale sales page for the $47 rebrand).
 
-CHECK-BACKS AT ZERO, unchanged. Wrap debt sits at exactly 1 week (W29 newest, current week W30) — at the gate threshold, not yet over it, but don't let it roll another week.
+CHECK-BACKS AT ZERO, unchanged. Wrap debt sits at exactly 1 week (W29 newest, current week W30) — at the gate threshold, run /weekly-review before it rolls another week.
 
-STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction. Plus, fresh: her pick on the Profit Menu intro aside, and applying Hermes's glossary edit list.
+STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the backburner content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays on the backburner by her 2026-07-20 instruction.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-23-15-40_mack_ig-saves-image-viewing-fix]])
-- [ ] 132 saves remain queued at Status=New (140 total, 8 processed today). Expected — the pipeline's 8/day cap will clear it over several days, not a bug.
-- [ ] Content lane stays parked per Alyssa's 2026-07-20 instruction. Not dead, deliberately parked, no task needed — carrying forward as a standing note until she reopens it.
-- [ ] Ghostwriter blind-test ranking and the Mailroom consolidation decision: both already have open task files ([[tsk-2026-07-23-002-ghostwriter-blind-test-review]], [[tsk-2026-07-20-103-mailroom-notion-bridge]], [[tsk-2026-07-20-117-mailroom-consolidation]]) waiting on Alyssa — not a leak, already captured, just still pending her input.
-- [ ] Parked idea, optional, not a leak: rebuild `uditakhourii/adhd`'s 15 cognitive frames as a plain-language layer. No task filed — not prioritized, staying as a noted idea until Alyssa wants it picked up.
+## Open threads (from [[2026-07-23-19-36_larry_parked-to-backburner-rename]])
+- [ ] Notion side of the offer briefs: the Products DB / Offer Briefs mirror may still carry the old status label for A Year of Emails, which should read BACKBURNER to match the vault. Larry did not reach into Notion on his own and flagged it. Optional quick edit when Alyssa says go; not a task file, carried here so it does not leak.
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **493/570 entries linked by non-generated sources (86%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
@@ -35,7 +32,7 @@ Connection state: **493/570 entries linked by non-generated sources (86%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 77 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 4 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Unmined session logs: 5 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 2 stale
   - PULSE (surfacing): 2 — 7d `keepsidian-google-reauth`, 7d `plan-offer-factory`
 

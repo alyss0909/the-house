@@ -75,7 +75,7 @@ The five corpus hits on banned shapes (jeans/layering #11; automating-with-inten
 
 ## Resolved by precedent, 2026-07-07 (Larry — not fresh Alyssa rulings; each cites the existing precedent applied; reversible on her say-so)
 
-Backlog cleanup: these three inbox contradictions were sitting unresolved despite already having a clear precedent elsewhere in this file or in her own stated doctrine. Closing them rather than leaving them parked:
+Backlog cleanup: these three inbox contradictions were sitting unresolved despite already having a clear precedent elsewhere in this file or in her own stated doctrine. Closing them rather than leaving them on the backburner:
 
 - **"Quietly" 2x in the live BOH flagship page** vs. the 2026-07-05 total ban: same class of rule as the 15 banned reframe-shapes above, which she already ruled "total ban stands, sole carve-out = verbatim her voice/transcripts, never generate new ones" — applying that identical logic here: the live copy is grandfathered evidence, the generation-side ban is unchanged, nothing to write differently. Not scrubbing her live page (that's a website edit, outside Hermes' scope).
 - **ORDERUP countdown timer** vs. the fake-urgency disgust: resolved in TASTE.md above using her own taught doctrine (real per-subscriber expiry = legal, theatrical reset = the actual ban).

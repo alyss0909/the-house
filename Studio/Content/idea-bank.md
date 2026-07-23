@@ -1,6 +1,6 @@
 ---
 title: Good Idea Bank
-purpose: Parked concepts worth keeping — saved from the dashboard's ☆ button. Pull from here anytime you're working a theme/offer. Tagged by theme + offer so they're greppable.
+purpose: Backburner concepts worth keeping — saved from the dashboard's ☆ button. Pull from here anytime you're working a theme/offer. Tagged by theme + offer so they're greppable.
 ---
 
 # Good Idea Bank
@@ -40,13 +40,13 @@ Pitched as a repeatable named Friday series — Mode A deadpan, one italic line 
 
 ## You Get What You Get And You Don't Get Upset
 - **Saved:** 2026-07-10 · **Theme:** Email · **Offer:** BOH
-Her hook, moved here from the retired Ready Queue at her call ("it's ready to move"). Angles she'd parked: expectation-setting before a BOH launch, a reframe on what email marketing actually delivers, or a permission-giving piece for students who feel like they're not doing enough. Source: [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]
+Her hook, moved here from the retired Ready Queue at her call ("it's ready to move"). Angles she'd put on the backburner: expectation-setting before a BOH launch, a reframe on what email marketing actually delivers, or a permission-giving piece for students who feel like they're not doing enough. Source: [[Notebook/Journal/2026/06/2026-06-26-hook-you-get-what-you-get.md]]
 
 ## The Phantom Ring Email Books Clients Who Ghosted You
 - **Saved:** 2026-07-14 · **Theme:** W1 Email · **Offer:** Email List Revival Plan
 The exact 3-line follow-up that gets forgotten sales calls back on the books. *[coined-word — her own named framework from the source email]*
 
-- Resurfaced 2026-07-18: [[2020-11-17-wildling]] — a one-word identity musing ("Wildling", linked to [[becoming]]) from 2020; parked here as brand-world word material.
+- Resurfaced 2026-07-18: [[2020-11-17-wildling]] — a one-word identity musing ("Wildling", linked to [[becoming]]) from 2020; kept here as brand-world word material.
 
 ## Her own subject-line captures (resurfaced 2026-07-21)
 
@@ -57,9 +57,9 @@ Four lines she wrote into her journal and never used. They are hers already, so 
 - **Something you can always count on** — [[2025-10-13-something-you-can-always-count-on]]. Reliability as the promise, which is the [[Studio/Signals/Developing Ideas/easiest-email-highest-return|easiest-email]] thesis in five words. Natural fit for a 5 Minute Newsletter or BOH send.
 - **Not all traffic is created equal** — [[2026-01-31-not-all-traffic-is-created-equal]]. A Pinterest/slow-marketing line, not an email one: it argues the quality-over-volume case her Pinterest teaching already makes.
 
-- Resurfaced 2026-07-21: [[2024-11-07-chain-mail]] — a two-word brand-word capture ("chain mail"), filed by her under emails and brand world. Parked here with [[2020-11-17-wildling]] as name material, most obviously for an email series or a referral/forward mechanic.
+- Resurfaced 2026-07-21: [[2024-11-07-chain-mail]] — a two-word brand-word capture ("chain mail"), filed by her under emails and brand world. Kept here with [[2020-11-17-wildling]] as name material, most obviously for an email series or a referral/forward mechanic.
 
-## Offer + conversion ideas she parked (resurfaced 2026-07-22)
+## Offer + conversion ideas she put on the backburner (resurfaced 2026-07-22)
 
 Six of her own concept captures from the journal, none of them connected anywhere until now. They are keepers to pull from when a theme or offer calls for them — offer levers and conversion mechanics she noted for herself and never built.
 
@@ -72,7 +72,7 @@ Six of her own concept captures from the journal, none of them connected anywher
 
 ## External conversion swipe she bookmarked (resurfaced 2026-07-23)
 
-Not her own concepts — real pages, videos, and offers she saved from other people while thinking about funnels and promos. Pull these as reference when building the matching mechanic. They sit next to the parked conversion ideas above because they are the outside inspiration behind the same funnel work.
+Not her own concepts — real pages, videos, and offers she saved from other people while thinking about funnels and promos. Pull these as reference when building the matching mechanic. They sit next to the backburner conversion ideas above because they are the outside inspiration behind the same funnel work.
 
 - **Exit pop-up example** — [[2025-01-02-exit-pop-up]]. A saved reference for the exit-pop-up mechanic (from Customer Camp). The swipe behind her own [[2025-01-09-exit-pop-up-and-other-ideas]] concept above.
 - **Giveaway with built-in engagement** — [[2025-10-10-giveaway-inspo]]. Her note: "this could work for the scholarship too but built in engagement." A giveaway structure that earns engagement as part of entry — a promo lever worth shaping for the scholarship on-ramp.

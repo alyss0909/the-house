@@ -143,7 +143,7 @@ def dropped_threads():
             if any(similarity(t, tt) >= MATCH for tt in task_titles):
                 continue                                  # became a task
             if similarity(t, later_text) >= MATCH:
-                continue                                  # picked up or parked in writing
+                continue                                  # picked up or on the backburner in writing
             dropped.append({"thread": t[:150], "last_seen": older.name})
     # The same thread can drop out of several consecutive logs; report it once.
     seen, unique = set(), []

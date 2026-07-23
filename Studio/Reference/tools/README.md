@@ -17,7 +17,7 @@ This is a shelf, not a pile. Add a row when a new study is filed.
 | Tool | What it is | Verdict | Breakdown |
 |---|---|---|---|
 | **ayghri/i-have-adhd** | An output-style skill. Reshapes how an assistant talks to a reader with ADHD: action first, numbered steps, no preamble or empty closers, restate where we are, make wins visible. | Brought in house as a native layer, not installed as a plugin. See [[Studio/Reply-Style/README]]. | [understanding-i-have-adhd.html](understanding-i-have-adhd.html) |
-| **uditakhourii/adhd** | A divergent-ideation method (the name is branding, not the medical condition). Spawns many isolated AI branches under distorted cognitive frames, then a critic scores, clusters, prunes traps, and spotlights a non-obvious pick. | Parked as a strong candidate to rebuild in plain language as a general brainstorm play for any decision, not just content. Its fifteen cognitive frames are the reusable part. | [understanding-uditakhourii-adhd.html](understanding-uditakhourii-adhd.html) |
+| **uditakhourii/adhd** | A divergent-ideation method (the name is branding, not the medical condition). Spawns many isolated AI branches under distorted cognitive frames, then a critic scores, clusters, prunes traps, and spotlights a non-obvious pick. | On the backburner as a strong candidate to rebuild in plain language as a general brainstorm play for any decision, not just content. Its fifteen cognitive frames are the reusable part. | [understanding-uditakhourii-adhd.html](understanding-uditakhourii-adhd.html) |
 
 ## Notes
 

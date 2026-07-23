@@ -30,7 +30,7 @@ The maker ladder, WS-011, SOP-033 through SOP-038, GL-010's worker prompts, /loo
 
 ## Support files, not required reading
 
-- [[Studio/Content/idea-bank]]: parked concepts worth keeping.
+- [[Studio/Content/idea-bank]]: backburner concepts worth keeping.
 - [[Studio/Content/liked-hooks-and-concepts]]: her liked-hook master list, source material.
 - swipe/: current-IG stimulus swipes, never templates.
 - trend-briefs/: monthly trend scout briefs.

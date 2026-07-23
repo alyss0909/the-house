@@ -39,7 +39,7 @@ Pushed to GitHub (alyss0909/the-house) on 2026-07-15 — master branch plus all 
 - Journal purified: team files out, stamps stripped, BOH memo split, sample entry deleted; your rescued lines merged home.
 - Voice layer fully metabolized — one authority, fed daily by the re-aimed study task.
 
-## Parked (no rush)
+## Backburner (no rush)
 
 - The admin-locked duplicate Telegram task: delete from an admin Task Scheduler whenever.
 - [[Notebook/Drafts/Before Monday|Before Monday]] working session — say "let's do Before Monday" whenever.

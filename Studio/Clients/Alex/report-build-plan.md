@@ -1,7 +1,7 @@
 ---
 title: PRC Internal Reports — build plan (daily pulse + weekly wrap)
 client: Alex (The PR Collaborative)
-audience: internal team (ops + celebration); client-facing version parked for later
+audience: internal team (ops + celebration); client-facing version on the backburner for later
 status: plan — ready to build, awaiting Alyssa's go on phasing + recipients
 reviewed: 2026-07-22
 owner: Larry

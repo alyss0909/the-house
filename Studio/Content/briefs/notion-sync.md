@@ -59,7 +59,7 @@ For every brief that is `Studio/Content/briefs/<slug>.md` the value is
 | Pin Planner | `pin-planner.md` | `3a2c8b43-e565-81eb-9d7d-f69f2824c8b4` | Pin Planner |
 | Soft CEO (Sessions + Monthly) | `soft-ceo.md` | `3a2c8b43-e565-81c9-ad71-dafe7904f26d` | Soft Ceo Sessions + Soft Ceo Monthly Notion Template |
 | For The Girls Brief | `for-the-girls-brief.md` | `3a2c8b43-e565-818e-b6af-eddd464b16bd` | — (content-style source, no offer) |
-| A Year of Emails | `a-year-of-emails.md` | `3a2c8b43-e565-8130-bc6d-e847a2255981` | A Year of Emails (PARKED) |
+| A Year of Emails | `a-year-of-emails.md` | `3a2c8b43-e565-8130-bc6d-e847a2255981` | A Year of Emails (BACKBURNER) |
 
 ## Reconcile protocol (run via /sync-briefs)
 

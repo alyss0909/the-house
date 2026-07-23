@@ -35,6 +35,6 @@ The pitch sheet is read by the dashboard's concept parser ([[Studio/Content/dash
 - **Day headers, exact case:** `## Monday — Category (offer)`, `## Wednesday — ...`, `## Friday — ...`. Capitalized as shown — `## MONDAY` will NOT match.
 - **Each concept = two parts:** a `N. Short Title` line, then a description line that ENDS with the CTA clause ` — comment WORD → Offer Name` (or ` — no CTA` for Friday). The em-dash + `comment`/`no cta` ending is how the CTA chip is parsed.
 - **No `---` between day blocks** (a stray `---` mid-sheet stops parsing). Use a single `---` only before the footer.
-- **Killed/parked concepts go in a footer** after that single `---` (in `### ` sections) — off the numbered slate, so they never render on the dash.
+- **Killed/backburner concepts go in a footer** after that single `---` (in `### ` sections) — off the numbered slate, so they never render on the dash.
 
 Model the format on the last clean sheet (e.g. [[Studio/Content/2026-W30-pitch]]). *Latent hardening item for Felix: the parser should skip frontmatter + match day names case-insensitively so a maker slip degrades gracefully instead of blanking.*

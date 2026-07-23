@@ -34,7 +34,7 @@
 | Peach | `--db-peach` | `#fecc86` | Team Knowledge folder; warm accent tag; **Concepts "✕ Reject" button** (locked 2026-07-07 — closest existing token to "orange"; a truer dedicated orange token is a flagged future option, not yet added) |
 | Pink | `--db-pink` | `#f39ec2` | Active tab / active nav pill (forced black text); Notebook/Inbox folder; current-stage pill; **Concepts "✓ Choose" button** (locked 2026-07-07) |
 | Lavender | `--db-lavender` | `#a186bc` | Deliverables folder; lavender chip (text `#1a1a1a`) — no longer used on the Concepts action buttons as of 2026-07-07 |
-| Ivory | `--db-ivory` | `#ffeec6` | Team folder; parked/neutral pill |
+| Ivory | `--db-ivory` | `#ffeec6` | Team folder; backburner/neutral pill |
 
 *Accessibility note (Val, 2026-07-07): all label text on these pastels clears WCAG 2.2 AA 4.5:1. Terracotta-on-oat (reject button) = 6.46:1; muted-on-oat body = 5.72:1; muted on the sage-tinted locked card = 5.06:1.*
 
@@ -185,7 +185,7 @@ The prior pass (see the "02 Arc / 03 Hook / 04 Draft day-label audit" note above
 **Alyssa overruled this directly: she wants it to visually match, full stop.** Per her instruction, this is not re-litigated — the reasoning is retired, not defended.
 
 - **Fix applied to 02 Arc and 04 Draft:** the day label (Monday/Wednesday/Friday) now renders as `.db-day-name` — the same bare AT KING serif text, sentence case, no pill/fill/border — that `01 Concepts` uses. Layout is adapted, not identical: Concepts stacks the day name above `.db-cal-type` in a vertical column (`.db-day-head`); Arc and Draft's card shape puts the day name inline, beside the `<h2>` title, inside `.db-section-head`'s existing flex row. `.db-day-name`'s own `display: block` still resolves correctly as a flex child, so no new CSS was required for the inline placement — the class is reused as-is, only the parent layout differs, which is the same "shared class, page supplies its own valid layout context" mechanism already established for `.db-cal-type` above.
-- **03 Hook converted (2026-07-07, this pass) — thread closed.** Hook's day label (`dayFullLabel[dayKey]`, e.g. "Monday" not "MON") now renders via the identical `.db-day-name` span, wrapped in `.db-section-head` beside the arc title — same inline layout Arc and Draft use, same source-of-truth day-name map (`{MON: "Monday", "WED-A": "Wednesday", "WED-B": "Wednesday", FRI: "Friday"}`) copied verbatim from [[Studio/Content/dashboard/02 Arc]]'s dataviewjs. The retired `dayChipClass`/`.db-day-chip ${cls}` markup is removed from [[Studio/Content/dashboard/03 Hook]] entirely — no per-day mon/wed/fri fill classes remain in Hook's render path. All four dashboard pages with a day label (`01 Concepts`, `02 Arc`, `03 Hook`, `04 Draft`) now share one bare-serif day-name convention; only `05 Approved`'s calendar DOW header remains on the older chip-style treatment (separately flagged, parked, not part of this thread — see the "Concepts/Calendar day-of-week divergence" open item below).
+- **03 Hook converted (2026-07-07, this pass) — thread closed.** Hook's day label (`dayFullLabel[dayKey]`, e.g. "Monday" not "MON") now renders via the identical `.db-day-name` span, wrapped in `.db-section-head` beside the arc title — same inline layout Arc and Draft use, same source-of-truth day-name map (`{MON: "Monday", "WED-A": "Wednesday", "WED-B": "Wednesday", FRI: "Friday"}`) copied verbatim from [[Studio/Content/dashboard/02 Arc]]'s dataviewjs. The retired `dayChipClass`/`.db-day-chip ${cls}` markup is removed from [[Studio/Content/dashboard/03 Hook]] entirely — no per-day mon/wed/fri fill classes remain in Hook's render path. All four dashboard pages with a day label (`01 Concepts`, `02 Arc`, `03 Hook`, `04 Draft`) now share one bare-serif day-name convention; only `05 Approved`'s calendar DOW header remains on the older chip-style treatment (separately flagged, on the backburner, not part of this thread — see the "Concepts/Calendar day-of-week divergence" open item below).
 - `.db-day-chip` remains defined in `dashboard.css` — now unused by every dashboard page (Concepts, Arc, Hook, Draft all converted). Left defined-but-dead per the standing note above, in case a future surface wants the pill treatment; not deleted.
 
 ### Sub-page title + caption convention (locked 2026-07-07)
@@ -283,7 +283,7 @@ When something becomes approved / locked / chosen, the element itself changes st
 
 ---
 
-## Still open / parked
+## Still open / backburner
 
 - Calendar sizing (larger than the inspo vault — low priority).
 - Tiny corner-gap on card borders (cosmetic, mostly resolved).
