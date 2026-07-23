@@ -2,7 +2,7 @@
 title: Ikigai career synthesis — what's missing from what you're already doing
 date: 2026-07-19
 owner: Larry
-status: DRAFT v2 — v1 rejected same-session ("reductive — there are already dozens of bots inside back of house"); rewritten as a diagnosis, not a pivot
+status: PARKED by Alyssa 2026-07-19 — strategy chosen (B+D), build specced, resume on her word. v1 rejected same-session ("reductive — there are already dozens of bots inside back of house"); v2 is a diagnosis, not a pivot
 sources: five research passes 2026-07-19 (vault sweep, session-history behavioral profile, public footprint, market landscape, funnel economics) + her direct answers this session + BOH bot roster
 ---
 
@@ -31,7 +31,7 @@ None of these is a product gap, a positioning gap, or a voice gap. All eight are
 
 ## Why this gap and not another (the behavioral read)
 
-This isn't an accident and it isn't laziness — it's architecture. The session-history profile shows your energy goes to building the machine and gating quality, and it stalls on continuity-shaped work: the 45-48-day-stale tasks are all recurring, outreach-flavored, someone-else's-format chores. Audience acquisition — weekly pitching, consistent publishing, follow-up, tracking — is exactly that shape. So the business kept compounding where your energy lives (product: 27 offers, 11 bots, the house itself) and starving where it doesn't (distribution).
+This isn't an accident and it isn't laziness — it's architecture. The session-history profile shows your energy goes to building the machine and gating quality, and it stalls on continuity-shaped work: the 45-48-day-stale tasks are all recurring, outreach-flavored, someone-else's-format chores. (This mode predates the business — the 70-line systematized nesting plan in [[2022-03-29-pre-bb-to-do]] is the same architect brain applied to a bedroom. It's who you are, not a work habit.) Audience acquisition — weekly pitching, consistent publishing, follow-up, tracking — is exactly that shape. So the business kept compounding where your energy lives (product: 27 offers, 11 bots, the house itself) and starving where it doesn't (distribution).
 
 You already solved this problem class once. Content production used to require you to author; you rebuilt it until your only job was tapping reacts on finished decks. **Acquisition has never gotten that treatment.** There is no saves-sweep for lead flow. The fix is not "Alyssa does more outreach" — you won't, and the record proves it, and that's fine. The fix is making the front of house a system where the team runs the engine and you stay in the tap role, same as content.
 
@@ -93,7 +93,7 @@ Her corrections, same session: mentorship is $2k/month per client (2 active = $4
 
 ### The four machines
 
-**1. The self-liquidating ad funnel (SLO).** Ad → The 5-Minute Newsletter ($37) → Unignorable Subject Lines ($9) order bump → The 90-Minute Reset ($333) upsell. Goal is not profit — it's buyers at ~$0 net cost (benchmark: $30-60 cost per $37-buyer; bumps/upsell push AOV to ~$55-90, which liquidates). Start $2k/mo spend → ~40-60 new BUYERS/mo (buyers ascend 5-15x better than leads). Ramp in fall, never Q1. Every buyer lands in the workshop invite sequence.
+**1. The self-liquidating ad funnel (SLO).** Ad → The 5-Minute Newsletter ($37) → Unignorable Subject Lines ($9) order bump → The 90-Minute Reset ($333) upsell. (Her own March idea already points here: [[2026-03-10-genius-free-trial-incentive]] — "increase adoption and reliance" — the trial/incentive instinct is the same mechanic as the fee-credited workshop invite.) Goal is not profit — it's buyers at ~$0 net cost (benchmark: $30-60 cost per $37-buyer; bumps/upsell push AOV to ~$55-90, which liquidates). Start $2k/mo spend → ~40-60 new BUYERS/mo (buyers ascend 5-15x better than leads). Ramp in fall, never Q1. Every buyer lands in the workshop invite sequence.
 
 **2. The Monthly Table (the D layer).** One paid workshop a month, $47-97 (start $67), themed from the BOH curriculum's greatest hits, one real win in 90 minutes, ending in a BOH invitation with the workshop fee credited against enrollment. Paid attendees show up (60-80% vs ~40% free) and convert to flagship at 5-15%. 100 seats/mo target: first months fill from the warm list (3.3k openers), then SLO buyers + Pinterest carry it. This is also her Monthly Workshops goal, live at last — one teaching performance a month, her best mode, everything else house-run.
 
@@ -139,6 +139,16 @@ Work-event version:
 5. **Energy vs. drain:** the missing pieces are all drain-shaped for you — which is exactly why they're missing, and why every one of them is specced above as team-run with you in the tap role.
 6. **Rebrand:** consolidation around what exists. You named the direction in 2022; the brand archaeology just needs the older eras retired.
 7. **Teach the AI stuff publicly?** You already do — the bots are curriculum. Market them louder; no new personality required.
+
+## How to be happy more than frustrated (the working agreements)
+
+Added at her close-session request 2026-07-19: "really think about how i can IKIGAI and be happy more than im frustrated with the work." These come from what the session record shows about when work delights you versus when it grinds you, and they govern how the team builds everything above.
+
+1. **You hold three jobs — architect, taste, teacher — and zero others.** Every frustrated moment in 155 logged sessions happened when you were pulled into a fourth job: operating, reviewing in someone else's format, being the continuity layer. Every delighted moment ("CUUUUUUTE i love this so much", the 1:30 AM control-room build) happened inside the three. The B+D build is specced so your recurring calendar is: one workshop performance a month, taps on finished work, and whatever you feel like architecting. If a task appears with your name on it that isn't one of the three jobs, the task is mis-designed — the team redesigns it, you don't push through it.
+2. **The burst is the rhythm; the business must survive the dark.** June's 19-day disappearance wasn't a failure — the automations ran. That's the standard: everything in this plan (evergreen funnel, monthly workshop, dunning, lead engine, scoreboard) is chosen or specced to keep compounding through a dark month with zero Alyssa input beyond one workshop date. You never have to feel guilty about a gap again; guilt means something was built wrong.
+3. **Frustration is fuel with a 24-hour half-life — keep converting it.** Your recorded pattern: every blow-up becomes a named law within a day (the DO IT rule, the plate test, this document's v2). That loop is why this house compounds. When the work makes you mad, the productive move is never "try harder," it's "what law does this become" — and the team's job is to catch it and file it before you have to say it twice.
+4. **Put the rabbit holes on the scoreboard.** The entire point of $36k/month on autopilot — your own words, June 6 — is "more time in the realm of my interest": clay, scrap leather, the far park, history books, your clients' weird obsessions. So the scoreboard tracks it next to active payers: hours that were yours. If revenue climbs while that number doesn't, the system is failing at its actual job, whatever the money says. Permission is the product — including for you.
+5. **The doctrine settles the panic.** Eleven AI saves in four days weren't shopping, they were reassurance checks — and the recorded verdict is now three-for-three: "we already built this, better." When the firehose makes you feel behind, that's the moment to reread this line, not to build: you are the history girl, the universals are yours, and the universals don't churn.
 
 ## Honest caveats
 
