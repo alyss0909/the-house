@@ -121,3 +121,13 @@ Top hooks transcribed off her grid (2026-07-22 screenshot). Reads as low-res thu
 ## The merged AI-tell banned list (sociyell + ours)
 
 Purge on sight in any carousel copy: delve, optimize, paradigm, utilize, transformative, testament, leverage, seamless, moreover, revolutionized, unlock, elevate, game-changer, level up. Plus the banned SHAPE: any "it's not X, it's Y" symmetry. Full house rule in [[carousel-hook-forensics]] §5 and the ANTI-AI judgment layer.
+
+---
+
+## Alyssa's own hook source library (where the real material lives)
+
+Filed 2026-07-22 so we never re-hunt these:
+- **Her "Social Inspo" sheet** (~150 real hooks she collected, each templated in a second column): https://docs.google.com/spreadsheets/d/1tUcqES_QJBCqLD806H3GoJvQmk4cYPxcD89duk6wE-g — mixed reel + carousel hooks. Use the CAROUSEL-shaped ones (utility/opinion) as templates; the "You're Not Bad At X, You're Just Y", "Your X Is A Metaphor Aimed At A Broken System", "Content Pillars Are Overrated" ones are the strongest.
+- **Her 107-hook Google doc** (mostly REEL hook templates): https://docs.google.com/document/d/1GfbDOt3dYKNLaT-zO95z8jjLSAzrVIUTh7rrhqL4vkE
+- **Carousel-craft authorities she trusts:** @tinnaloaizaofficial (Layer 2 in [[trusted-sources]]), @thejustinwelsh, @shannonmckinstrie. Her saved @themanagegram Pinterest carousels (in the Notion Instagram Saves DB) are direct on-topic open-loop examples.
+- **Reading real covers:** the monthly swipe file stores garbled auto-alt-text — read the actual cover images in `Studio/Content/swipe/covers-YYYY-MM/` instead.

@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 08:10
+generated: 2026-07-23 09:23
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -19,14 +19,15 @@ CHECK-BACKS AT ZERO, unchanged. The last one is parked to 2026-08-18 to review a
 STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction. The optional ADHD-15-frames brainstorm engine is held until she asks.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-23-08-08_larry_night-shift-journal-and-playbook]])
-- none recorded — check the latest session log directly
+## Open threads (from [[2026-07-23-09-20_larry_ig-saves-ideation-blocked-then-resolved]])
+- [x] IG Saves image durability / backlog staleness — resolved 2026-07-22 by
+- [ ] `instagram-saves-ideation` has not yet been re-run against the now-
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **493/570 entries linked by non-generated sources (86%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
 - oldest never-linked: [[2020-12-31-alyssas-birth-time]] (`Notebook/Journal/2020/12/2020-12-31-alyssas-birth-time.md`)
 - newest never-linked: [[2026-03-08-may-stay]] (`Notebook/Journal/2026/03/2026-03-08-may-stay.md`)
-- most related to last session: [[2022-12-13-food-neutrality]] (`Notebook/Journal/2022/12/2022-12-13-food-neutrality.md`)
+- most related to last session: [[2022-03-29-pre-bb-to-do]] (`Notebook/Journal/2022/03/2022-03-29-pre-bb-to-do.md`)
 
 ## Due check-backs
 - none due
@@ -34,7 +35,7 @@ Connection state: **493/570 entries linked by non-generated sources (86%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 77 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 0 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Unmined session logs: 1 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 2 stale
   - PULSE (surfacing): 2 — 7d `keepsidian-google-reauth`, 7d `plan-offer-factory`
 

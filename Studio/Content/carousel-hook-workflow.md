@@ -3,7 +3,7 @@ title: Carousel Hook Workflow (Piece 1)
 type: workflow
 owner: Suki (Head of Content)
 created: 2026-07-22
-status: draft v1 — built with Alyssa across the 2026-07-22 session. Pending her taste gate before it governs runs.
+status: UNPROVEN — built 2026-07-22, but every hook batch it produced across the session was rejected by Alyssa. Do NOT treat as a working engine. See "Session outcome" at the bottom before using.
 feeds: the "new cover, same deck" job across her top carousels, and any future carousel hook work.
 sources: [[2026-07-22-carousel-hook-intel]] · [[carousel-hook-forensics]] · [[2026-07-09-tinna-loaiza-5-carousel-patterns]] · her own hook sheet ("Social Inspo") · [[trusted-sources]]
 ---
@@ -80,3 +80,16 @@ Deliver 5 or 6 hooks. For each: the hook, its **shape**, the **11pm stress** it 
 3. "The Reason Posting Feels Pointless Isn't You." — *Withheld Loop + Mirror (stress 1).* Closes slide 5.
 4. "Everyone Blames The Algorithm. The Real Problem Is Worse." — *Withheld Loop.* Closes slide 5.
 5. "One Pin Outlasts 1,600 Instagram Posts." — *Result + Proof.* Closes slide 7. (hard number on cover — bends her rule, her call)
+
+---
+
+## Session outcome (2026-07-22 → 07-23) — read before trusting this
+
+This workflow did NOT crack good hook generation. Across the session, every batch was rejected ("meh," "not hitting," "mostly suck"), including ones written by Hermes from her verbatim words. Honest learnings so the next attempt doesn't repeat the session:
+
+1. **The swap-safe trap (Job 1).** "New cover, keep the slides" is a near-empty box. Her decks already carry their best hook, so a swap-safe + open-loop + non-repeat hook tends to collapse into the cover she already wrote. This is structural, not taste. If we do Job 1 again, the only real source of novelty is spotlighting a DIFFERENT buried idea and nudging a slide forward — i.e. accept it's a small deck edit, not a clean hat swap.
+2. **Rule/framework generation still reads as slop.** Filling shapes (Versus, Emotional Mirror, Contrast, her own templates) produced technically-correct, voiceless lines. Her own research already says this: exemplars beat rules. The generation step here is rule-based and that is likely the core flaw.
+3. **Reel hooks ≠ carousel hooks** and **open loop = WITHHOLD a specific thing** (steps/why/how/list), never state-and-close. Both true, both necessary, neither sufficient.
+4. **Process failure worth remembering:** Larry (orchestrator) sat in the writer's chair the whole session. Content writing routes to Hermes, fronted by Suki. Alyssa called this out directly. See [[feedback_larry_is_librarian_not_orchestrator]].
+
+**Where this stands:** good hook generation for her is UNSOLVED. The reusable wins from the session are the intel ([[2026-07-22-carousel-hook-intel]]) and her filed source library, not this workflow's output. Next attempt should try genuine exemplar-dominant generation (her real covers as dominant context, continuation framing, blind imposter gate — the [[exemplar-writer]] method) rather than shape-filling.
