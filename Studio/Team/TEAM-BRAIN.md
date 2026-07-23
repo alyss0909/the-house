@@ -21,6 +21,7 @@ The shared half of the team's memory. Per-agent craft lives in each specialist's
 - ADHD-aware: short surfaces, one question max, no walls of options, debt counters and progress numbers she can see at a glance.
 
 - **Status clarity across tools** (2026-07-18): when a task spans Notion plus local vault files, say which surfaces are done, which remain open, and whether the connector is available. Do not make Alyssa infer whether both approved tracks actually ran.
+- **"Migrate" or "edit" means the smallest change, not a rebuild** (2026-07-23): she loves a feature exactly as it works and wants it carried to a new home or relabeled, not redesigned. Verbatim after a proposal to retire and replace her habit tracker's mechanic: "dont retire anything i want to recreate that from my old notion to this one so some thing just need to be edited i love the habit tracker fk off k?" Any specialist touching something she already likes should default to the narrowest fix (rename, repoint, relabel) and only propose architecture changes when she asks for one.
 
 ## Standing rulings (verbatim where possible, dated, linked)
 

@@ -2,15 +2,15 @@
 
 _Auto-generated. Do not edit by hand. Run `python3 scripts/rebuild-task-index.py` to regenerate._
 
-_Last rebuilt: 2026-07-22T15:21:52Z_
+_Last rebuilt: 2026-07-23T13:21:13Z_
 
 ## Summary
-- Open: 19
+- Open: 20
 - In progress: 0 (0 blocked)
 - Done (this month): 22
 - Cancelled (this month): 2
 
-## Open (19)
+## Open (20)
 
 ### Priority 1 - urgent
 - [[tsk-2026-07-20-101-deep-content-work]] - Do the deep content work: buyer beliefs, her copy flows, pillar POVs - assignee: suki - created 2026-07-20
@@ -36,6 +36,7 @@ _Last rebuilt: 2026-07-22T15:21:52Z_
 - [[tsk-2026-07-20-117-mailroom-consolidation]] - Consolidate the Mailroom onto one surface - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-118-session-log-interlinking]] - Shape the session-log interlinking proposal - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-119-alyssa-own-list]] - Alyssa's own to-do list - assignee: alyssa - created 2026-07-20
+- [[tsk-2026-07-23-001-profit-menu-sales-page]] - Write the sales page for The Profit Menu - assignee: hermes - created 2026-07-23
 
 ## In progress (0)
 
@@ -43,6 +44,7 @@ _(none)_
 
 ## By assignee
 - alyssa: 4 open, 0 in-progress (0 blocked)
+- hermes: 1 open, 0 in-progress (0 blocked)
 - larry: 4 open, 0 in-progress (0 blocked)
 - mack: 5 open, 0 in-progress (0 blocked)
 - pax: 1 open, 0 in-progress (0 blocked)

@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 09:23
+generated: 2026-07-23 09:24
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,20 +8,21 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Night shift 2026-07-23 (Alyssa not present): journal duty, playbook mining, close. Nothing here needs her. NOTE: everything is committed on local master (commit 1a38539) but the `git push origin master` was blocked by the permission gate in this unattended run, same as last shift. One commit is unpushed and the working tree is otherwise clean. The next interactive/shell-capable session must run `git push origin master` to finish the backup — nothing is lost, it just is not on GitHub yet.
+2026-07-23 daytime session, live with Alyssa: The Profit Menu Notion build. Nine new filtered views shipped (House Classics, Flavour Enhancers, 5m/30m/1h, Email/Pinterest/Promo Dep't, Doing Today), property-visibility matched to Full Menu; card layout/cover style couldn't be set via the Notion API (confirmed limitation, not skipped) and still needs 90 seconds of manual UI work on all 9. Hermes gave a direct copy-paste edit/delete list for the glossary toggle, not yet applied. The old habit-tracker database was migrated, not redesigned: four checkboxes relabeled to match the renamed Profit Menu categories after Alyssa firmly corrected an over-engineered retire-and-rebuild proposal — durable lesson now in her PLAYBOOK and TEAM-BRAIN. Drafted (with her) a persuasive classics-vs-extras intro aside, Hermes wrote 3 persuasive options, her pick still pending. New task filed: [[tsk-2026-07-23-001-profit-menu-sales-page]] (Hermes, rewrite the stale $97-era sales page for the $47 rebrand), row added to the Notion Agent Tasks board.
 
-EIGHT JOURNAL ENTRIES CONNECTED, debt down from 85 to 77 (86% linked). Six external conversion/sales-copy swipe bookmarks she saved now sit in [[Studio/Content/idea-bank]] under a new "External conversion swipe" subsection, next to the parked conversion ideas (exit-pop-up, giveaway, deal-week, referral promo, VSL, case-study page). Two of her own ADHD-interest captures (an ADHD podcast, an ADHD self-test) now feed [[Studio/Reply-Style/README]] as the lived reason that layer exists. The rest of the surfaced orphans are personal musings with no genuine Studio home; recorded as reviewed, not forced.
+Also backed up: the prior night shift's commit (1a38539) had been blocked from pushing by the unattended-run permission gate — pushed this session along with today's work, so GitHub is caught up.
 
-THREE PLAYBOOK LINES ADDED. Two verbatim cross-cutting rulings into [[Studio/Team/TEAM-BRAIN]]: the house serves every decision not just content ("i make multiple choices... that have nothing to do with content"), and don't burn her tokens on ceremony ("burning up my tokens"). One craft line into Mack's playbook: rule out request-construction before asking her for a manual credential refresh (the IG header fix, not cookie rot). All three 2026-07-22 logs are now mined.
+CHECK-BACKS AT ZERO, unchanged. Wrap debt sits at exactly 1 week (W29 newest, current week W30) — at the gate threshold, not yet over it, but don't let it roll another week.
 
-CHECK-BACKS AT ZERO, unchanged. The last one is parked to 2026-08-18 to review alongside its twin signal.
-
-STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction. The optional ADHD-15-frames brainstorm engine is held until she asks.
+STILL WAITING ON HER, unchanged: the Ghostwriter blind-test ranking, the Mailroom decision, the Maude pages, the parked content reactions, and the older backlog (hermes-deep-voice tasks, Telegram bot, Pin Engine Kit form, Gmail filters, the two Vault replies). Content lane stays parked by her 2026-07-20 instruction. Plus, fresh: her pick on the Profit Menu intro aside, and applying Hermes's glossary edit list.
 <!-- HANDOFF:END -->
 
-## Open threads (from [[2026-07-23-09-20_larry_ig-saves-ideation-blocked-then-resolved]])
-- [x] IG Saves image durability / backlog staleness — resolved 2026-07-22 by
-- [ ] `instagram-saves-ideation` has not yet been re-run against the now-
+## Open threads (from [[2026-07-23-13-30_larry_profit-menu-views-copy-and-close]])
+- [ ] [[tsk-2026-07-23-001-profit-menu-sales-page]] — Hermes to write the new sales page for The Profit Menu, replacing the stale $97-era copy at alyssacoleman.ca/slo.
+- [ ] Nine new Notion views need their card layout set to Compact/Small with page-cover display, by hand in the Notion UI (API has no directive for this) — roughly 90 seconds of manual work, not yet done.
+- [ ] Hermes's copy-paste edit/delete list for the glossary toggle (delete Energy row, delete Plate-it/Done row, edit Department row, optional Category row) has not yet been applied in Notion.
+- [ ] The classics-vs-extras aside (final Hermes option, still Alyssa's pick pending) has not yet been pasted into the live page.
+- Carried, unrelated to this session: everything already listed in NOW.md's prior hand-off (Ghostwriter blind-test ranking, Mailroom decision, Maude pages, stale-task escalator, outcome writeback, Keep re-auth).
 
 ## Journal resurface duty (MANDATORY — the journal is the core)
 Connection state: **493/570 entries linked by non-generated sources (86%)** — target is 100. Generated Journal Web hubs are navigation and do not count as ultracode proof. Read the candidates below; wikilink each into whatever it genuinely relates to (a signal, a person, a project, today's work). If nothing relates, add the link the other way: cite it from the map or garden note it should feed. Leave the journal more connected than you found it.
