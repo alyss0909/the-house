@@ -2,7 +2,7 @@
 title: Ikigai career synthesis — what's missing from what you're already doing
 date: 2026-07-19
 owner: Larry
-status: PARKED by Alyssa 2026-07-19 — strategy chosen (B+D), build specced, resume on her word. v1 rejected same-session ("reductive — there are already dozens of bots inside back of house"); v2 is a diagnosis, not a pivot
+status: ON THE BACK BURNER (her call, 2026-07-19) — strategy chosen (B+D), build specced, she turns the heat back on. [provisional term — her pick from the 10 options pending] v1 rejected same-session ("reductive — there are already dozens of bots inside back of house"); v2 is a diagnosis, not a pivot
 sources: five research passes 2026-07-19 (vault sweep, session-history behavioral profile, public footprint, market landscape, funnel economics) + her direct answers this session + BOH bot roster
 ---
 
@@ -113,7 +113,7 @@ Starting from ~$4k/mo known recurring (mentorship) plus the existing installment
 
 Your positioning (middle-ground, slow marketing, the obsession is the business). Your voice. The metaphor world. The three-things doctrine. The $3k/$12k price architecture — already in the high-touch format the 2026 market rewards. The bots — already shipped, already yours, already differentiated; if anything they're under-marketed (an 11-bot AI staff inside a course, invisible to a stranger, in the year of the AI-slop backlash — that's a front-of-house story sitting in a bonuses folder). And the house itself keeps its job: production, filing, memory. Nothing about you needs to change. The restaurant just needs to open its front door.
 
-*(Drawer, not door: the market research found real demand for teaching AI-augmented systems to creatives — Eliason $200k/week, Lennon $1M+, Forte vacating the second-brain throne, no credible woman-audience player. If you ever want it, it's a workshop test to the warm list, not an identity. Parked unless you say otherwise.)*
+*(Drawer, not door: the market research found real demand for teaching AI-augmented systems to creatives — Eliason $200k/week, Lennon $1M+, Forte vacating the second-brain throne, no credible woman-audience player. If you ever want it, it's a workshop test to the warm list, not an identity. In the walk-in unless you say otherwise.)*
 
 ## The party answer
 

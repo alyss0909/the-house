@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 13:56
+generated: 2026-07-23 15:15
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -8,9 +8,9 @@ rule: EVERY session reads this file right after HOUSE-MAP, before any work
 
 ## Hand-off from the last session
 <!-- HANDOFF:START -->
-Ikigai career synthesis session (Fable, 2026-07-19, closed at her "wrap up" — she parked the build for another day). Full log: [[2026-07-19-14-00_larry_ikigai-career-synthesis]].
+Ikigai career synthesis session (Fable, 2026-07-19, closed at her "wrap up" — she moved the build to the back burner for another day). Full log: [[2026-07-19-14-00_larry_ikigai-career-synthesis]].
 
-THE STATE: the big career question is ANSWERED and PARKED, not open. [[Studio/Analysis/ikigai-career-synthesis-2026-07]] holds the whole thing (mirrored to the Notion page "Ikigai Career Synthesis — July 2026"): the diagnosis (her business is all back of house, the missing thing is the front of house — discovery/distribution, eight evidence walls), her chosen strategy (B evergreen + D monthly-workshop layer, specced on her REAL cash flow: mentorship $2k/mo × 2, BOH ~$200/mo installments → an MRR ladder targeting ~120-125 active payers ≈ $36-38k/mo, crossover month 6-9), the four machines to build (SLO ad funnel · monthly paid workshop with fee-credit invite · ladder replacement math + dunning · active-payer scoreboard), and her happiness working agreements (architect/taste/teacher only; the burst is the rhythm; rabbit-hole hours go ON the scoreboard).
+THE STATE: the big career question is ANSWERED and ON THE BACK BURNER, not open. (Word ban, her ruling this session: never say "parked" to her — see TEAM-BRAIN.) [[Studio/Analysis/ikigai-career-synthesis-2026-07]] holds the whole thing (mirrored to the Notion page "Ikigai Career Synthesis — July 2026"): the diagnosis (her business is all back of house, the missing thing is the front of house — discovery/distribution, eight evidence walls), her chosen strategy (B evergreen + D monthly-workshop layer, specced on her REAL cash flow: mentorship $2k/mo × 2, BOH ~$200/mo installments → an MRR ladder targeting ~120-125 active payers ≈ $36-38k/mo, crossover month 6-9), the four machines to build (SLO ad funnel · monthly paid workshop with fee-credit invite · ladder replacement math + dunning · active-payer scoreboard), and her happiness working agreements (architect/taste/teacher only; the burst is the rhythm; rabbit-hole hours go ON the scoreboard).
 
 WHEN SHE SAYS GO on the build, start at the synthesis doc §"The four machines". Her three inputs (do NOT chase her for them; they gate nothing team-side): active-payer count + term from ThriveCart, workshop price + first topic, SLO front-end confirmation. Team-side prep that can run on a bare "go": front-door repairs (DMCA pirates, redirect legacy pages/handles, unblock AI crawlers), scoreboard skeleton, dunning sequence draft.
 
@@ -23,7 +23,7 @@ Carried, untouched: register question (sentence vs caps); Promo Planner lane col
 
 ## Open threads (from [[2026-07-19-14-00_larry_ikigai-career-synthesis]])
 - NEW: **Resume the B+D build on her word.** Entry point: the synthesis doc §"The four machines". Her three inputs when ready: current active installment payers + term (pull from ThriveCart — first scoreboard job), workshop price ($47/$67/$97) + month-one topic, SLO front-end confirmation (default: The 5-Minute Newsletter). None of these block the team-side prep (front-door repairs list, scoreboard skeleton, dunning sequence draft) if she says go.
-- NEW: research passes flagged repairs that stand regardless of strategy: DMCA the course pirates, redirect legacy-era pages/handles, unblock AI crawlers on alyssacoleman.ca, refresh the 2021-frozen guesting trail. Parked with the build.
+- NEW: research passes flagged repairs that stand regardless of strategy: DMCA the course pirates, redirect legacy-era pages/handles, unblock AI crawlers on alyssacoleman.ca, refresh the 2021-frozen guesting trail. On the back burner with the build.
 - Carried, untouched from previous handoff: run-3 deck reacts, register question, Promo Planner lanes, tsk-001/002, WS-006/008/009 taste-log citations, Mailroom card, KeepSidian reauth, older-tab review, Soft Sunday trim.
 - Died this session: none.
 

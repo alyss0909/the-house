@@ -15,7 +15,7 @@ Five research passes: vault sweep (offers, garden, journals — partly agent, pa
 
 ## Decisions and their fates
 
-- **DECISION (hers): the direction is a diagnosis — the front of house is what's missing.** Eight evidence walls, one gap: discovery/distribution. → Fate: lives permanently in [[Studio/Analysis/ikigai-career-synthesis-2026-07]] (status PARKED, resume on her word).
+- **DECISION (hers): the direction is a diagnosis — the front of house is what's missing.** Eight evidence walls, one gap: discovery/distribution. → Fate: lives permanently in [[Studio/Analysis/ikigai-career-synthesis-2026-07]] (status: on the back burner, she turns the heat back on).
 - **DECISION (hers): strategy = B (evergreen) with a D layer (monthly paid workshop).** With her real cash-flow facts: mentorship $2k/mo × 2 current clients; BOH ~$200/mo installments → BOH is an MRR ladder; steady state ~120-125 active payers + 100-seat monthly workshop + capped mentorship ≈ $36-38k/mo; crossover month 6-9. She asked for a self-liquidating ad funnel and the monthly paid invite layer. → Fate: fully specced in the synthesis doc §"CHOSEN 2026-07-19"; mirrored to the Notion page "Ikigai Career Synthesis — July 2026".
 - **REALIGNMENT (hers, v1 rejected): "diagnose before adding."** → Fate: TEAM-BRAIN standing ruling, dated 2026-07-19.
 - **INSIGHT: revenue must be modeled on payment structure, not price_point frontmatter.** → Fate: TEAM-BRAIN standing ruling, dated 2026-07-19.
@@ -25,7 +25,7 @@ Five research passes: vault sweep (offers, garden, journals — partly agent, pa
 ## Open threads (balance)
 
 - NEW: **Resume the B+D build on her word.** Entry point: the synthesis doc §"The four machines". Her three inputs when ready: current active installment payers + term (pull from ThriveCart — first scoreboard job), workshop price ($47/$67/$97) + month-one topic, SLO front-end confirmation (default: The 5-Minute Newsletter). None of these block the team-side prep (front-door repairs list, scoreboard skeleton, dunning sequence draft) if she says go.
-- NEW: research passes flagged repairs that stand regardless of strategy: DMCA the course pirates, redirect legacy-era pages/handles, unblock AI crawlers on alyssacoleman.ca, refresh the 2021-frozen guesting trail. Parked with the build.
+- NEW: research passes flagged repairs that stand regardless of strategy: DMCA the course pirates, redirect legacy-era pages/handles, unblock AI crawlers on alyssacoleman.ca, refresh the 2021-frozen guesting trail. On the back burner with the build.
 - Carried, untouched from previous handoff: run-3 deck reacts, register question, Promo Planner lanes, tsk-001/002, WS-006/008/009 taste-log citations, Mailroom card, KeepSidian reauth, older-tab review, Soft Sunday trim.
 - Died this session: none.
 
