@@ -1,5 +1,5 @@
 ---
-generated: 2026-07-23 09:24
+generated: 2026-07-23 09:50
 owner: the compounding loop (SOP-040) — regenerated at every close-session
 rule: EVERY session reads this file right after HOUSE-MAP, before any work
 ---
@@ -36,7 +36,7 @@ Connection state: **493/570 entries linked by non-generated sources (86%)** — 
 ## Debt counters
 - Wrap debt: newest wrap is `2026-W29-weekly-wrap.md` (1 week(s) behind, current week W30)
 - Journal connection debt: 77 entries with zero genuine inbound links (generated hubs and session logs do not count)
-- Unmined session logs: 1 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
+- Unmined session logs: 2 not yet strip-mined into playbooks/TEAM-BRAIN/precedent index
 - Stale-task escalator (7d pulse / 14d compress / 28d dormant, age since last activity; source: local task cards): 2 stale
   - PULSE (surfacing): 2 — 7d `keepsidian-google-reauth`, 7d `plan-offer-factory`
 

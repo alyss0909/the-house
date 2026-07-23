@@ -2,15 +2,15 @@
 
 _Auto-generated. Do not edit by hand. Run `python3 scripts/rebuild-task-index.py` to regenerate._
 
-_Last rebuilt: 2026-07-23T13:21:13Z_
+_Last rebuilt: 2026-07-23T13:50:08Z_
 
 ## Summary
-- Open: 20
+- Open: 25
 - In progress: 0 (0 blocked)
 - Done (this month): 22
 - Cancelled (this month): 2
 
-## Open (20)
+## Open (25)
 
 ### Priority 1 - urgent
 - [[tsk-2026-07-20-101-deep-content-work]] - Do the deep content work: buyer beliefs, her copy flows, pillar POVs - assignee: suki - created 2026-07-20
@@ -26,6 +26,8 @@ _Last rebuilt: 2026-07-23T13:21:13Z_
 - [[tsk-2026-07-20-105-outcome-writeback]] - Wire outcome writeback so content learns from real performance - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-106-saves-sweep-cron]] - Put /saves-sweep on a daily cron - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-111-carousel-craft-backlog]] - Clear the carousel craft backlog - assignee: suki - created 2026-07-20
+- [[tsk-2026-07-23-003-review-gmail-filters]] - Review the suggested Gmail filters and give the go - assignee: larry - created 2026-07-23
+- [[tsk-2026-07-23-004-alex-daily-press-report]] - Verify + deploy Alex's daily press report (Apps Script), then wire untracked finds - assignee: larry - created 2026-07-23 - blocked: waiting on Alyssa's script chat to build the daily Apps Script from the spec
 
 ### Priority 3 - medium
 - [[tsk-2026-07-20-107-saves-sweep-boot-slim]] - Slim the /saves-sweep daily boot - assignee: larry - created 2026-07-20
@@ -37,15 +39,18 @@ _Last rebuilt: 2026-07-23T13:21:13Z_
 - [[tsk-2026-07-20-118-session-log-interlinking]] - Shape the session-log interlinking proposal - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-119-alyssa-own-list]] - Alyssa's own to-do list - assignee: alyssa - created 2026-07-20
 - [[tsk-2026-07-23-001-profit-menu-sales-page]] - Write the sales page for The Profit Menu - assignee: hermes - created 2026-07-23
+- [[tsk-2026-07-23-002-ghostwriter-blind-test-review]] - Review the Ghostwriter blind voice test and decide next steps - assignee: alyssa - created 2026-07-23
+- [[tsk-2026-07-23-005-alex-weekly-press-wrap]] - Build Alex's weekly press wrap (Phase 2 — snapshots + milestone cards) - assignee: larry - created 2026-07-23
+- [[tsk-2026-07-23-006-ig-saves-ideation-rerun]] - Re-run instagram-saves-ideation against the now-durable backlog - assignee: larry - created 2026-07-23
 
 ## In progress (0)
 
 _(none)_
 
 ## By assignee
-- alyssa: 4 open, 0 in-progress (0 blocked)
+- alyssa: 5 open, 0 in-progress (0 blocked)
 - hermes: 1 open, 0 in-progress (0 blocked)
-- larry: 4 open, 0 in-progress (0 blocked)
+- larry: 8 open, 0 in-progress (0 blocked)
 - mack: 5 open, 0 in-progress (0 blocked)
 - pax: 1 open, 0 in-progress (0 blocked)
 - penn: 1 open, 0 in-progress (0 blocked)
