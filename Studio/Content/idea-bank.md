@@ -69,3 +69,14 @@ Six of her own concept captures from the journal, none of them connected anywher
 - **"My favourite paper planners & printables" workbook** — [[2024-08-07-idea]]. A single student workbook that collects her favourite paper planners and printables, printed out for photoshoot vibes. A low-ticket product concept that doubles as a shootable visual asset.
 - **Two-week daily text, one idea a day** — [[2022-09-21-idea]]. A "noon non-negotiable" style micro-offer: a two-week daily text, one idea per post. The easy-to-consume, high-touch nurture format, sketched years before the 5 Minute Newsletter made the same low-effort bet.
 - **Exit pop-up + stay-to-the-end webinar bonus** — [[2025-01-09-exit-pop-up-and-other-ideas]]. A cluster of conversion mechanics: an exit pop-up on the sales page, a bonus for staying to the end of the webinar, a workbook on joining, and threads over stories. All levers, no build — pull when tightening a funnel.
+
+## External conversion swipe she bookmarked (resurfaced 2026-07-23)
+
+Not her own concepts — real pages, videos, and offers she saved from other people while thinking about funnels and promos. Pull these as reference when building the matching mechanic. They sit next to the parked conversion ideas above because they are the outside inspiration behind the same funnel work.
+
+- **Exit pop-up example** — [[2025-01-02-exit-pop-up]]. A saved reference for the exit-pop-up mechanic (from Customer Camp). The swipe behind her own [[2025-01-09-exit-pop-up-and-other-ideas]] concept above.
+- **Giveaway with built-in engagement** — [[2025-10-10-giveaway-inspo]]. Her note: "this could work for the scholarship too but built in engagement." A giveaway structure that earns engagement as part of entry — a promo lever worth shaping for the scholarship on-ramp.
+- **Deal-week offer layout** — [[2025-11-21-deal-week-offers-gemma]]. A Canva deal-week offers page she saved as structure inspiration for a multi-offer sale week.
+- **Promo / referral email mechanic** — [[2024-04-19-promo-for-emails]]. A SparkLoop-style referral promo she bookmarked for email growth-loop ideas.
+- **VSL walkthrough** — [[2023-05-31-writing-your-vsl]]. A saved "writing your VSL" video — reference for structuring a video sales letter when a launch needs one.
+- **Case-study / testimonial page** — [[2024-04-11-case-study-page-inspo]]. A testimonials-page layout (AudioPen) saved as inspiration for how a case-study or proof page should read.

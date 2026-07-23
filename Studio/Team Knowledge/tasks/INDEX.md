@@ -2,15 +2,15 @@
 
 _Auto-generated. Do not edit by hand. Run `python3 scripts/rebuild-task-index.py` to regenerate._
 
-_Last rebuilt: 2026-07-21T15:23:34Z_
+_Last rebuilt: 2026-07-22T15:21:52Z_
 
 ## Summary
-- Open: 26
+- Open: 19
 - In progress: 0 (0 blocked)
-- Done (this month): 12
+- Done (this month): 22
 - Cancelled (this month): 2
 
-## Open (26)
+## Open (19)
 
 ### Priority 1 - urgent
 - [[tsk-2026-07-20-101-deep-content-work]] - Do the deep content work: buyer beliefs, her copy flows, pillar POVs - assignee: suki - created 2026-07-20
@@ -23,28 +23,19 @@ _Last rebuilt: 2026-07-21T15:23:34Z_
 - [[tsk-2026-07-16-003-plan-offer-factory]] - Plan the offer factory: one pipeline to launch tripwires and small offers the way lead magnets ship - assignee: suki - created 2026-07-16
 - [[tsk-2026-07-20-102-socials-inspo-flow]] - Fix the socials inspo flow - assignee: suki - created 2026-07-20
 - [[tsk-2026-07-20-103-mailroom-notion-bridge]] - Finish the Mailroom Notion bridge - assignee: mack - created 2026-07-20
-- [[tsk-2026-07-20-104-stale-task-escalator]] - Build the stale-task escalator - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-105-outcome-writeback]] - Wire outcome writeback so content learns from real performance - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-106-saves-sweep-cron]] - Put /saves-sweep on a daily cron - assignee: mack - created 2026-07-20
-- [[tsk-2026-07-20-108-voice-edit-pass]] - Add a human voice-edit pass to /content-run - assignee: suki - created 2026-07-20
 - [[tsk-2026-07-20-111-carousel-craft-backlog]] - Clear the carousel craft backlog - assignee: suki - created 2026-07-20
 
 ### Priority 3 - medium
-- [[tsk-2026-07-17-002-wire-sent-emails-into-briefs]] - Wire her sent-email bodies into the offer briefs via the Kit API - assignee: mack - created 2026-07-17
 - [[tsk-2026-07-20-107-saves-sweep-boot-slim]] - Slim the /saves-sweep daily boot - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-109-external-voice-benchmarks]] - Run the external voice benchmarks - assignee: pax - created 2026-07-20
 - [[tsk-2026-07-20-112-sent-emails-followups]] - Finish the sent-emails curation follow-ups - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-113-claude-code-config]] - Finish the Claude Code config hardening - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-114-journal-integrity-residue]] - Clear the last journal integrity residue - assignee: penn - created 2026-07-20
-- [[tsk-2026-07-20-115-meeting-clean-defect]] - Fix the daily-meeting-clean duplicate defect - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-117-mailroom-consolidation]] - Consolidate the Mailroom onto one surface - assignee: mack - created 2026-07-20
 - [[tsk-2026-07-20-118-session-log-interlinking]] - Shape the session-log interlinking proposal - assignee: larry - created 2026-07-20
 - [[tsk-2026-07-20-119-alyssa-own-list]] - Alyssa's own to-do list - assignee: alyssa - created 2026-07-20
-
-### Priority 4 - low
-- [[tsk-2026-07-20-120-evaluate-ai-workflows]] - Evaluate the eleven collected AI workflow resources - assignee: larry - created 2026-07-20
-- [[tsk-2026-07-20-121-weekly-auto-push]] - Wire the weekly auto-push into the Sunday patrol - assignee: larry - created 2026-07-20
-- [[tsk-2026-07-20-122-wikilink-resolve-ws001]] - Wire the wikilink-resolve check into WS-001 step 5 - assignee: larry - created 2026-07-20
 
 ## In progress (0)
 
@@ -52,16 +43,26 @@ _(none)_
 
 ## By assignee
 - alyssa: 4 open, 0 in-progress (0 blocked)
-- larry: 8 open, 0 in-progress (0 blocked)
-- mack: 7 open, 0 in-progress (0 blocked)
+- larry: 4 open, 0 in-progress (0 blocked)
+- mack: 5 open, 0 in-progress (0 blocked)
 - pax: 1 open, 0 in-progress (0 blocked)
 - penn: 1 open, 0 in-progress (0 blocked)
-- suki: 5 open, 0 in-progress (0 blocked)
+- suki: 4 open, 0 in-progress (0 blocked)
 
 ## Recently closed (this month)
+- 2026-07-22 [[tsk-2026-07-22-001-fix-ig-saves-image-durability]] - done - Fix Instagram Saves image durability for real (external_url upload doesn't cache)
+- 2026-07-22 [[tsk-2026-07-22-002-ig-burner-session-stale-collections-list]] - done - Instagram Saves Engine: burner session stale for collections/list, blocks new syncs and backfill
+- 2026-07-22 [[tsk-2026-07-22-003-ig-saves-health-check-staleness]] - done - IG Saves health check: detect a stale health.json, not just a bad status field
 - 2026-07-20 [[tsk-2026-07-20-001-profit-menu-finish-build]] - done - Finish The Profit Menu build (Daily Profit Activities -> menu)
+- 2026-07-20 [[tsk-2026-07-20-104-stale-task-escalator]] - done - Build the stale-task escalator
+- 2026-07-20 [[tsk-2026-07-20-108-voice-edit-pass]] - done - Add a human voice-edit pass to /content-run
+- 2026-07-20 [[tsk-2026-07-20-115-meeting-clean-defect]] - done - Fix the daily-meeting-clean duplicate defect
 - 2026-07-20 [[tsk-2026-07-20-116-hermes-lineup-paths]] - done - Repoint the Hermes lineup paths
+- 2026-07-20 [[tsk-2026-07-20-120-evaluate-ai-workflows]] - done - Evaluate the eleven collected AI workflow resources
+- 2026-07-20 [[tsk-2026-07-20-121-weekly-auto-push]] - done - Wire the weekly auto-push into the Sunday patrol
+- 2026-07-20 [[tsk-2026-07-20-122-wikilink-resolve-ws001]] - done - Wire the wikilink-resolve check into WS-001 step 5
 - 2026-07-17 [[tsk-2026-07-17-001-disable-ideation-cron]] - done - Disable the unattended Content Ideas ideation cron
+- 2026-07-17 [[tsk-2026-07-17-002-wire-sent-emails-into-briefs]] - done - Wire her sent-email bodies into the offer briefs via the Kit API
 - 2026-07-16 [[tsk-2026-07-16-002-draft-house-north-star]] - done - Draft the house north star for Alyssa to react to
 - 2026-07-16 [[tsk-2026-07-16-004-content-command-center-cleanup]] - done - Put the Content Command Center to bed: archive stale weeks and dead items
 - 2026-07-15 [[tsk-2026-07-15-001-notion-button-triggers]] - done - Investigate Notion buttons as real triggers for Claude actions

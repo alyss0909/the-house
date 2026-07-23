@@ -6,6 +6,7 @@ type: close-session
 linked_sops: []
 linked_workstreams: []
 linked_guidelines: ["GL-007-token-discipline", "GL-008-ponytail-lazy-senior-dev-philosophy"]
+mined: true
 ---
 
 # ADHD reply-style becomes a house layer; two ADHD repos studied and shelved

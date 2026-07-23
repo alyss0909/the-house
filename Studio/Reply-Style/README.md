@@ -43,3 +43,10 @@ The shape serves the answer. When a rule would delete the answer, the answer win
 
 - This layer shapes the reply. The [[Studio/Voice/README|Voice layer]] shapes any copy written in her voice. Both can apply at once: Voice decides how a drafted caption sounds, Reply Style decides how the chat message delivering it is built.
 - It reinforces two standing rulings already in [[Studio/Team/TEAM-BRAIN]]: plain complete sentences with no invented shorthand, and regular language on her surfaces with no arrows, em dashes, or team jargon.
+
+## Entries that feed this
+
+Her own ADHD-interest captures from the journal — the lived reason this layer exists. She was reading and saving ADHD material years before the house had a name for why her replies needed a different shape.
+
+- [[2024-07-09-adhd]] — the Ologies ADHD episode, saved 2024-07-09.
+- [[2024-04-25-httpsadhdtesttheminiadhdcoachcom]] — the Mini ADHD Coach self-test, saved 2024-04-25.
