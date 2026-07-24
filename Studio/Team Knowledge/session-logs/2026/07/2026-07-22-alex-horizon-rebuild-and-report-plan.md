@@ -4,6 +4,7 @@ closed: 2026-07-23
 agent: Larry
 specialists: [Mack]
 theme: Alex / The PR Collaborative — Horizon rebuild + internal report plan
+mined: true
 ---
 
 # Alex (The PR Collaborative) — Horizon rebuild + report plan

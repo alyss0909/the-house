@@ -4,6 +4,7 @@ date: 2026-07-23
 lead: Larry (should have been Suki + Hermes — see below)
 status: closed, core problem unsolved
 tags: [content, carousel, hooks, retro]
+mined: true
 ---
 
 # Session log — carousel hook exploration
